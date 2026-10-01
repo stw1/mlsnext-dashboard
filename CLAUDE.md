@@ -55,6 +55,10 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - Fit by gradient ascent on the log-likelihood, with ridge priors: att/def σ = 0.35, home σ = 0.15.
   The priors are deliberately strong because each team has played very few games. You can loosen
   SIG as the season goes on (for example, 0.5 once teams have played 10+ games).
+- Dixon-Coles low-score correction: scoreline probability = Poisson × Poisson × τ(x, y), where τ only changes 0–0, 1–0,
+  0–1 and 1–1 (helpers `tau` and `pxy`). `rho` is fit in `fit()` by grid search over [−0.30, 0.10] on the low-score
+  likelihood given the fitted ratings, with a prior N(−0.1, 0.1). Negative rho means more 0–0 and 1–1. The season sim
+  samples whole scorelines from the same adjusted table (not independent Poisson draws).
 - Each prediction is a 0–10 × 0–10 scoreline matrix, which gives win/draw/loss chances.
   The pick is the favourite (or "Too close to call" when |P(home win) − P(away win)| < 5%).
   The margin is round(|expected goal difference|), with a minimum of 1. Confidence labels:
@@ -83,5 +87,5 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 ## Ideas / backlog
 - Add Flex and out-of-conference results to give the model more data
 - Add a dropdown for age group and conference inside one dashboard
-- Weight recent games more heavily; add a Dixon-Coles adjustment for low-scoring draws
+- Weight recent games more heavily
 - Predict draws: the pick is never "draw" unless home/away are within 5%, so draws always count as misses in the accuracy check

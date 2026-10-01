@@ -162,7 +162,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="card about" id="s-about"><h2>How the predictions work</h2>
 <div class="cols">
 <div><h3>Team ratings</h3><p>Each team gets an <b>attack</b> and a <b>defense</b> rating, fit to every completed game with a Poisson goals model, the standard approach for predicting soccer scores. Expected goals for the home side = league average × home edge × home attack × away defense weakness, and likewise for the away side. Home teams currently get <span id="hadv"></span> more goals in the model. Ratings are deliberately pulled toward average because each team has played only a few games.</p></div>
-<div><h3>From ratings to odds</h3><p>From the two expected-goal numbers the model works out the chance of every scoreline (0–0, 1–0, 2–1, …), which gives the win, draw and loss chances and the most likely score. The pick is the more likely winner, or "too close to call" when the two are within 5 points; the margin is the expected goal difference, rounded. The projected finish plays out every remaining game 10,000 times using those chances.</p></div>
+<div><h3>From ratings to odds</h3><p>From the two expected-goal numbers the model works out the chance of every scoreline (0–0, 1–0, 2–1, …), which gives the win, draw and loss chances and the most likely score. A small Dixon-Coles adjustment makes 0–0 and 1–1 a bit more likely (and 1–0 and 0–1 a bit less), because plain Poisson models under-predict draws; its strength is estimated from the results so far (currently <span id="rho"></span>). The pick is the more likely winner, or "too close to call" when the two are within 5 points; the margin is the expected goal difference, rounded. The projected finish plays out every remaining game 10,000 times using those chances.</p></div>
 <div><h3>What it leaves out</h3><p>Roster changes, injuries, travel, weather, MLS NEXT Flex and out-of-conference games, and the fact that U14 results are noisy. Treat these numbers as a guide, not a guarantee.</p></div>
 </div></div>
 </main>
@@ -175,8 +175,14 @@ const codes=Object.keys(TEAMS),N=codes.length,ix=Object.fromEntries(codes.map((c
 const games=RAW.split(";").map(s=>{const[id,dt,h,a,hs,as]=s.split(",");return{id,dt,h,a,hs:hs===""?null:+hs,as:as===""?null:+as}}).sort((x,y)=>x.dt<y.dt?-1:1);
 const played=games.filter(g=>g.hs!==null),future=games.filter(g=>g.hs===null);
 
+const fact=[1];for(let i=1;i<15;i++)fact[i]=fact[i-1]*i;const pois=(k,l)=>Math.exp(-l)*l**k/fact[k];
+// Dixon-Coles low-score correction: rho<0 makes 0-0 and 1-1 more likely and 1-0 / 0-1 less likely
+// (the four adjustments cancel out, so probabilities still sum to 1)
+const tau=(x,y,lh,la,r)=>x>1||y>1?1:Math.max(0,x===0&&y===0?1-lh*la*r:x===0&&y===1?1+lh*r:x===1&&y===0?1+la*r:1-r);
+const pxy=(x,y,lh,la,r)=>pois(x,lh)*pois(y,la)*tau(x,y,lh,la,r);
+
 // ---- fit penalised Poisson model ----
-const SIG=0.35;
+const SIG=0.35,RHO0=-0.1,RHO_SD=0.1;
 function fit(list){let mu=Math.log(1.5),hadv=0.1,att=new Array(N).fill(0),def=new Array(N).fill(0);
  if(list.length)for(let it=0;it<6000;it++){const gA=new Array(N).fill(0),gD=new Array(N).fill(0);let gM=0,gH=0;
  for(const g of list){const i=ix[g.h],j=ix[g.a];
@@ -185,19 +191,24 @@ function fit(list){let mu=Math.log(1.5),hadv=0.1,att=new Array(N).fill(0),def=ne
  const lr=0.01; mu+=lr*gM/list.length*3; hadv+=lr*(gH-hadv/0.15**2);
  for(let k=0;k<N;k++){att[k]+=lr*(gA[k]-att[k]/SIG**2);def[k]+=lr*(gD[k]-def[k]/SIG**2);}
  const ma=att.reduce((a,b)=>a+b)/N,md=def.reduce((a,b)=>a+b)/N;att=att.map(x=>x-ma);def=def.map(x=>x-md);}
- return{mu,hadv,att,def}}
-const M=fit(played),{mu,hadv,att,def}=M;
+ // rho: grid search on the low-score likelihood given the fitted ratings, with a prior around RHO0
+ let rho=RHO0,best=-Infinity;
+ for(let k=-30;k<=10;k++){const r=k/100;let ll=-((r-RHO0)**2)/(2*RHO_SD**2);
+  for(const g of list){if(g.hs>1||g.as>1)continue;const i=ix[g.h],j=ix[g.a];
+   ll+=Math.log(Math.max(1e-9,tau(g.hs,g.as,Math.exp(mu+hadv+att[i]-def[j]),Math.exp(mu+att[j]-def[i]),r)))}
+  if(ll>best){best=ll;rho=r}}
+ return{mu,hadv,att,def,rho}}
+const M=fit(played),{mu,hadv,att,def,rho}=M;
 const lamM=(m,h,a)=>[Math.exp(m.mu+m.hadv+m.att[ix[h]]-m.def[ix[a]]),Math.exp(m.mu+m.att[ix[a]]-m.def[ix[h]])];
 const lam=(h,a)=>lamM(M,h,a);
-const fact=[1];for(let i=1;i<15;i++)fact[i]=fact[i-1]*i;const pois=(k,l)=>Math.exp(-l)*l**k/fact[k];
-function predict(h,a,m=M){const[lh,la]=lamM(m,h,a);let pH=0,pD=0,pA=0,best=[0,0,0];
- for(let x=0;x<=10;x++)for(let y=0;y<=10;y++){const p=pois(x,lh)*pois(y,la);if(x>y)pH+=p;else if(x===y)pD+=p;else pA+=p;if(p>best[2])best=[x,y,p];}
+function predict(h,a,m=M){const[lh,la]=lamM(m,h,a),r=m.rho;let pH=0,pD=0,pA=0,best=[0,0,0];
+ for(let x=0;x<=10;x++)for(let y=0;y<=10;y++){const p=pxy(x,y,lh,la,r);if(x>y)pH+=p;else if(x===y)pD+=p;else pA+=p;if(p>best[2])best=[x,y,p];}
  const s=pH+pD+pA;pH/=s;pD/=s;pA/=s;const xgd=lh-la;
  let pick,margin=Math.max(1,Math.round(Math.abs(xgd)));
  if(Math.abs(pH-pA)<0.05)pick="Draw";else pick=pH>pA?h:a;
  // most likely score consistent with pick
- let sc=[best[0],best[1]];if(pick!=="Draw"){let bp=0;for(let x=0;x<=8;x++)for(let y=0;y<=8;y++){const ok=pick===h?x-y===margin:y-x===margin;const p=pois(x,lh)*pois(y,la);if(ok&&p>bp){bp=p;sc=[x,y];}}}
- else{let bp=0;for(let x=0;x<=6;x++){const p=pois(x,lh)*pois(x,la);if(p>bp){bp=p;sc=[x,x];}}}
+ let sc=[best[0],best[1]];if(pick!=="Draw"){let bp=0;for(let x=0;x<=8;x++)for(let y=0;y<=8;y++){const ok=pick===h?x-y===margin:y-x===margin;const p=pxy(x,y,lh,la,r);if(ok&&p>bp){bp=p;sc=[x,y];}}}
+ else{let bp=0;for(let x=0;x<=6;x++){const p=pxy(x,x,lh,la,r);if(p>bp){bp=p;sc=[x,x];}}}
  return{lh,la,pH,pD,pA,pick,margin,sc,conf:pick==="Draw"?0:Math.max(pH,pA)};}
 const power=codes.map(c=>{const i=ix[c];const gf=Math.exp(mu+att[i]),ga=Math.exp(mu-def[i]);return{c,gf,ga,net:gf-ga}}).sort((a,b)=>b.net-a.net);
 
@@ -210,11 +221,12 @@ const tbl=table(played);
 
 // ---- simulation ----
 let seed=12345;const rnd=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296};
-const rpois=l=>{let L=Math.exp(-l),k=0,p=1;do{k++;p*=rnd()}while(p>L);return k-1};
+// each remaining game as a cumulative 11x11 scoreline table (0-10 goals a side, Dixon-Coles adjusted)
+const sample=cum=>{const u=rnd()*cum[120];let lo=0,hi=120;while(lo<hi){const md=lo+hi>>1;if(cum[md]<u)lo=md+1;else hi=md}return lo};
 const SIMS=10000,simPts=Object.fromEntries(codes.map(c=>[c,0])),first=Object.fromEntries(codes.map(c=>[c,0])),top4=Object.fromEntries(codes.map(c=>[c,0]));
-const base=Object.fromEntries(tbl.map(t=>[t.c,{pts:t.pts,gd:t.gd,gf:t.gf}]));const fl=future.map(g=>[g.h,g.a,...lam(g.h,g.a)]);
+const base=Object.fromEntries(tbl.map(t=>[t.c,{pts:t.pts,gd:t.gd,gf:t.gf}]));const fl=future.map(g=>{const[lh,la]=lam(g.h,g.a),cum=new Float64Array(121);let t=0;for(let k=0;k<121;k++){t+=pxy(k/11|0,k%11,lh,la,rho);cum[k]=t}return[g.h,g.a,cum]});
 for(let s=0;s<SIMS;s++){const S=Object.fromEntries(codes.map(c=>[c,{...base[c]}]));
- for(const[h,a,lh,la]of fl){const x=rpois(lh),y=rpois(la);S[h].gd+=x-y;S[a].gd+=y-x;S[h].gf+=x;S[a].gf+=y;if(x>y)S[h].pts+=3;else if(y>x)S[a].pts+=3;else{S[h].pts++;S[a].pts++}}
+ for(const[h,a,cum]of fl){const k=sample(cum),x=k/11|0,y=k%11;S[h].gd+=x-y;S[a].gd+=y-x;S[h].gf+=x;S[a].gf+=y;if(x>y)S[h].pts+=3;else if(y>x)S[a].pts+=3;else{S[h].pts++;S[a].pts++}}
  const ord=codes.slice().sort((p,q)=>S[q].pts-S[p].pts||S[q].gd-S[p].gd||S[q].gf-S[p].gf||rnd()-.5);
  first[ord[0]]++;ord.slice(0,4).forEach(c=>top4[c]++);codes.forEach(c=>simPts[c]+=S[c].pts);}
 
@@ -242,7 +254,7 @@ const showNote=(id,on)=>{const el=$(id);el.style.display=on?"block":"none";if(on
 // Header
 const nextG=future[0];
 $("meta").innerHTML=`<span>Updated ${fmtDay(SNAP)}</span><span class="prog"><i><b style="width:${played.length/games.length*100}%"></b></i>${played.length} of ${games.length} games played</span>`+(nextG?`<span>Next games ${fmtDay(nextG.dt)}</span>`:"");
-$("hadv").textContent=`about ${((Math.exp(hadv)-1)*100).toFixed(0)}%`;
+$("rho").textContent=`ρ = ${rho.toFixed(2)}`;$("hadv").textContent=`about ${((Math.exp(hadv)-1)*100).toFixed(0)}%`;
 $("foot").innerHTML=`Unofficial fan dashboard, not affiliated with MLS NEXT. Built from the public standings and schedule data behind mlssoccer.com/mlsnext. Data as of ${fmtDate(SNAP).split(" · ")[0]}.`;
 codes.slice().sort((a,b)=>nm(a).localeCompare(nm(b))).forEach(c=>$("myTeam").insertAdjacentHTML("beforeend",`<option value="${c}">${nm(c)}</option>`));
 $("myTeam").value=myTeam;
@@ -367,5 +379,5 @@ $("accMore").onclick=()=>{allAcc=!allAcc;drawAcc()};
 function drawAll(){drawStand();drawH2H();drawPower();drawResults();drawPreds();drawAcc()}
 $("myTeam").onchange=e=>{myTeam=e.target.value;pin=myTeam||null;try{localStorage.setItem(MYKEY,myTeam)}catch(err){}drawAll()};
 drawAll();
-window.__debug={predict,fit,future,SIMS,mu,hadv,att,def,power,tbl,first,simPts,bt};
+window.__debug={predict,fit,future,SIMS,mu,hadv,att,def,rho,power,tbl,first,simPts,bt};
 </script></body></html>
