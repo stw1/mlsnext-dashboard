@@ -59,6 +59,8 @@ table.h2h{width:auto;border-collapse:separate;border-spacing:0}
 .h2h td{padding:4px 3px}.h2h .pair{display:flex;gap:3px;justify-content:center}
 .h2h td.self{background:repeating-linear-gradient(135deg,#f3f4f6 0 5px,#fff 5px 10px)}
 table.h2h td.on,table.h2h th.team.on{background:#eef4fb}table.h2h th.on{color:var(--acc)}table.h2h th.col.on{border-bottom-color:var(--acc)}
+table.h2h td.mine,table.h2h th.mine{background:#fef9c3}table.h2h th.team.mine{box-shadow:inset 3px 0 0 #eab308}table.h2h th.col.mine{border-bottom-color:#eab308}
+table.h2h td.self.mine{background:repeating-linear-gradient(135deg,#fde68a 0 5px,#fef9c3 5px 10px)}
 table.h2h td.focus{background:#dbe8f7}
 #tip{position:fixed;z-index:10;display:none;max-width:320px;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(15,23,42,.14);padding:10px 12px;font-size:12px;pointer-events:none}
 #tip .tt-h{font-weight:700;font-size:13px;margin-bottom:6px}#tip .tt-h span{color:var(--mut);font-weight:400}
@@ -142,7 +144,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="h2h-top"><div class="legend" id="h2hLegend"></div>
 <div class="seg" id="h2hMode"><button data-v="0" class="on">Results only</button><button data-v="1">Show predictions</button></div></div>
 <div class="scroll"><table class="h2h" id="h2h"></table></div>
-<div class="hint">Hover or tap a box for the date, home/away and details. Click a team name to highlight all of its games.</div></div>
+<div class="hint">Hover or tap a box for the date, home/away and details. Click a team name to highlight all of its games. The team you follow is highlighted in yellow.</div></div>
 <div id="tip"></div>
 <div class="grid2">
 <div class="card" id="s-power"><h2>Power rankings</h2>
@@ -302,14 +304,15 @@ const meet={};for(const g of games)for(const k of[g.h+"|"+g.a,g.a+"|"+g.h])(meet
 function fromRow(g,r){const home=g.h===r;
  if(g.hs!==null){const f=home?g.hs:g.as,a=home?g.as:g.hs;return{played:true,home,f,a,res:f>a?"w":f<a?"l":"d"}}
  const p=predict(g.h,g.a);return{played:false,home,pW:home?p.pH:p.pA,pD:p.pD,pL:home?p.pA:p.pH,sc:home?p.sc:[p.sc[1],p.sc[0]]}}
-let showPred=false,pin=myTeam||null;
+let showPred=false,pin=null;
 function chip(v){if(v.played)return`<span class="chip ${v.res}">${v.f}–${v.a}</span>`;
  if(!showPred)return`<span class="chip todo"></span>`;
  return`<span class="chip pred ${v.pW-v.pL>.1?"pw":v.pL-v.pW>.1?"pl":"pd"}">${pct(v.pW)}</span>`}
 function drawH2H(){
- let h=`<thead><tr><th></th>`+order.map(c=>`<th class="col" data-c="${c}"><span class="rk">${rank[c]}</span>${short(c)}</th>`).join("")+"</tr></thead><tbody>";
- for(const r of order){h+=`<tr><th class="team" data-r="${r}" data-team="${r}"><span class="rk">${rank[r]}</span>${teamName(r)}</th>`;
-  for(const c of order)h+=r===c?`<td class="self" data-r="${r}" data-c="${c}"></td>`:`<td class="g" data-r="${r}" data-c="${c}"><div class="pair">${(meet[r+"|"+c]||[]).map(g=>chip(fromRow(g,r))).join("")}</div></td>`;
+ const mine=(...cs)=>myTeam&&cs.includes(myTeam)?" mine":"";
+ let h=`<thead><tr><th></th>`+order.map(c=>`<th class="col${mine(c)}" data-c="${c}"><span class="rk">${rank[c]}</span>${short(c)}</th>`).join("")+"</tr></thead><tbody>";
+ for(const r of order){h+=`<tr><th class="team${mine(r)}" data-r="${r}" data-team="${r}"><span class="rk">${rank[r]}</span>${teamName(r)}</th>`;
+  for(const c of order)h+=r===c?`<td class="self${mine(r)}" data-r="${r}" data-c="${c}"></td>`:`<td class="g${mine(r,c)}" data-r="${r}" data-c="${c}"><div class="pair">${(meet[r+"|"+c]||[]).map(g=>chip(fromRow(g,r))).join("")}</div></td>`;
   h+="</tr>"}
  $("h2h").innerHTML=h+"</tbody>";
  $("h2hLegend").innerHTML=`<span><i class="chip w">3–1</i>Won</span><span><i class="chip d">1–1</i>Draw</span><span><i class="chip l">0–2</i>Lost</span>`+
@@ -387,7 +390,7 @@ function drawAcc(){const more=$("accMore");
 $("accMore").onclick=()=>{allAcc=!allAcc;drawAcc()};
 
 function drawAll(){drawStand();drawH2H();drawPower();drawResults();drawPreds();drawAcc()}
-$("myTeam").onchange=e=>{myTeam=e.target.value;pin=myTeam||null;try{localStorage.setItem(MYKEY,myTeam)}catch(err){}drawAll()};
+$("myTeam").onchange=e=>{myTeam=e.target.value;pin=null;try{localStorage.setItem(MYKEY,myTeam)}catch(err){}drawAll()};
 drawAll();
 window.__debug={predict,fit,future,SIMS,mu,hadv,att,def,rho,power,tbl,first,simPts,bt};
 </script></body></html>
