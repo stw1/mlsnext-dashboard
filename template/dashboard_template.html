@@ -17,6 +17,12 @@ header h1{margin:0;font-size:28px;line-height:1.2;letter-spacing:-.01em}
 .prog{display:inline-flex;align-items:center;gap:8px}.prog i{display:block;width:110px;height:6px;border-radius:3px;background:rgba(255,255,255,.2);overflow:hidden}.prog b{display:block;height:100%;background:var(--teal)}
 .follow{display:flex;align-items:center;gap:8px;font-size:13px;color:#e2e8f0;font-weight:500}
 .follow select{border-color:rgba(255,255,255,.3);min-width:200px}
+.ctl{justify-content:flex-start;margin-bottom:12px}
+.ppp{font-size:11.5px;font-weight:600;background:#fef3c7;color:#78350f;border-radius:6px;padding:2px 8px;display:none}
+.find{position:relative}.find input{width:230px;padding:6px 10px;border:1px solid rgba(255,255,255,.3);border-radius:7px;font:inherit;font-size:13px}
+.find-r{position:absolute;top:calc(100% + 4px);left:0;z-index:20;width:320px;max-height:360px;overflow-y:auto;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 30px rgba(15,23,42,.18);display:none}
+.find-r a{display:flex;justify-content:space-between;gap:10px;padding:8px 12px;color:var(--ink);text-decoration:none;font-size:13px;border-bottom:1px solid var(--line)}.find-r a:last-child{border-bottom:0}
+.find-r a:hover,.find-r a.sel{background:#f1f5f9}.find-r a span{color:var(--mut);white-space:nowrap;font-size:12px}.find-r .none{padding:10px 12px;color:var(--mut);font-size:13px}
 nav{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;gap:2px;padding:7px 18px;overflow-x:auto;scrollbar-width:none}
 nav a{color:var(--ink2);text-decoration:none;font-size:13px;font-weight:500;padding:5px 10px;border-radius:6px;white-space:nowrap}nav a:hover{background:#eef2f7;color:var(--ink)}
@@ -56,7 +62,7 @@ table.h2h{width:auto;border-collapse:separate;border-spacing:0}
 .h2h .rk{color:var(--mut);font-weight:500;font-size:11px}.h2h th.col .rk{display:block;margin-bottom:1px}
 .h2h th.team{position:sticky;left:0;z-index:2;background:#fff;text-align:left;font-size:13px;color:var(--ink);font-weight:600;padding:3px 14px 3px 2px;cursor:pointer;border-bottom:1px solid var(--line)}
 .h2h th.team .rk{display:inline-block;width:22px}
-.h2h td{padding:4px 3px}.h2h .pair{display:flex;gap:3px;justify-content:center}
+.h2h td{padding:4px 3px}.h2h .pair{display:flex;gap:3px;justify-content:center}.h2h .pair:empty::after{content:"–";color:#d1d5db}
 .h2h td.self{background:repeating-linear-gradient(135deg,#f3f4f6 0 5px,#fff 5px 10px)}
 table.h2h td.on,table.h2h th.team.on{background:#eef4fb}table.h2h th.on{color:var(--acc)}table.h2h th.col.on{border-bottom-color:var(--acc)}
 table.h2h td.mine,table.h2h th.mine{background:#fef9c3}table.h2h th.team.mine{box-shadow:inset 3px 0 0 #eab308}table.h2h th.col.mine{border-bottom-color:#eab308}
@@ -120,7 +126,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 @media(max-width:700px){
  header{padding:20px 14px 18px}header h1{font-size:22px}main{padding:14px 12px 2px}nav .wrap{padding:6px 8px}footer{padding:4px 14px 24px}
  .card{padding:14px 14px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.kpi{padding:12px}.kpi .v{font-size:17px}
- .follow{width:100%}.follow select{flex:1;min-width:0}
+ .follow{width:100%}.follow select{flex:1;min-width:0}.find{width:100%}.find input{width:100%}.find-r{width:100%}
  .full{display:none}.short{display:inline}
  .st td.team,.st th.team{padding-right:6px}.st .team .rk{width:21px}
  .h2h th.team{font-size:12px;padding-right:6px}.h2h th.team .rk{width:17px}.h2h th.col{width:64px;min-width:64px}.chip{width:28px}
@@ -128,9 +134,11 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 </style></head><body>
 <header><div class="wrap">
 <div class="eyebrow">MLS NEXT · Homegrown Division · __SEASON__</div>
-<div class="titlerow"><h1 id="bracket"></h1><div class="ages" id="ages" aria-label="Age group"></div></div>
-<div class="hrow"><div class="meta" id="meta"></div>
+<div class="titlerow"><h1 id="bracket"></h1><span class="ppp" id="ppp">Pro Player Pathway</span><div class="ages" id="ages" aria-label="Age group"></div></div>
+<div class="hrow ctl"><label class="follow">Conference <select id="confSel"></select></label>
+<div class="find"><input id="findQ" type="search" placeholder="Find any team" autocomplete="off" aria-label="Find any team"><div class="find-r" id="findR" role="listbox"></div></div>
 <label class="follow">Follow a team <select id="myTeam"><option value="">None</option></select></label></div>
+<div class="meta" id="meta"></div>
 </div></header>
 <nav><div class="wrap"><a href="#s-table">Standings</a><a href="#s-h2h">Who beat who</a><a href="#s-power">Power rankings</a><a href="#s-results">Results</a><a href="#s-upcoming">Upcoming games</a><a href="#s-acc">Accuracy</a><a href="#s-about">How it works</a></div></nav>
 <main class="wrap">
@@ -140,7 +148,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="scroll"><table class="st" id="standings"></table></div>
 <div class="key"><span><b>MP</b> matches played</span><span><b>Goals</b> scored–conceded</span><span><b>GD</b> goal difference</span><span><b>Pts/G</b> points per game, which breaks ties when teams have played different numbers of games</span><span><b>Last 5</b> oldest → newest; hover for the score</span><span><b>Proj. pts</b> expected points at season end</span></div></div>
 <div class="card" id="s-h2h"><h2>Who beat who</h2>
-<div class="sub">Find a team on the left and read across. Each box is one game against the team at the top of the column, with the left-hand team's score first. Every pair plays twice, so there are two boxes, in date order.</div>
+<div class="sub">Find a team on the left and read across. Each box is one game against the team at the top of the column, with the left-hand team's score first. <span id="h2hMeet"></span></div>
 <div class="h2h-top"><div class="legend" id="h2hLegend"></div>
 <div class="seg" id="h2hMode"><button data-v="0" class="on">Results only</button><button data-v="1">Show predictions</button></div></div>
 <div class="scroll"><table class="h2h" id="h2h"></table></div>
@@ -156,7 +164,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <table id="results"></table><button class="btn" id="resMore"></button></div>
 </div>
 <div class="card" id="s-upcoming"><h2>Upcoming games</h2>
-<div class="sub">The model's chances for each remaining game. The bar shows home win, draw and away win; the team in bold is the model's pick.</div>
+<div class="sub">The model's chances for each remaining game. The bar shows home win, draw and away win; the team in bold is the model's pick. Kickoff times are in your time zone.</div>
 <div class="pctl"><div class="legend"><span><i class="sw ph"></i>Home win</span><span><i class="sw pd"></i>Draw</span><span><i class="sw pa"></i>Away win</span><span><i class="tag t-s">Strong</i>60%+</span><span><i class="tag t-l">Lean</i>45–60%</span><span><i class="tag t-t">Toss-up</i>under 45%</span></div>
 <label>Show <select id="nF"><option value="1">Next weekend</option><option value="3" selected>Next 3 weekends</option><option value="999">All remaining</option></select></label></div>
 <div class="note" id="predNote"></div>
@@ -173,16 +181,25 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 </main>
 <footer class="wrap" id="foot"></footer>
 <script>
-// all age groups for this conference; pick one from ?age=, else the last one viewed here, else the default
+// every bracket (age group + conference); the page shows one: ?age=&conf=, else the last one viewed, else the default
 const DATA=/*__DATA__*/{};
-const AGEKEY="age:"+DATA.conf;let lastAge=null;try{lastAge=localStorage.getItem(AGEKEY)}catch(e){}
-const qAge=new URLSearchParams(location.search).get("age"),find=a=>DATA.brackets.find(b=>b.age===a);
-const B=find(qAge)||find(lastAge)||find(DATA.default)||DATA.brackets[0];
-try{localStorage.setItem(AGEKEY,B.age)}catch(e){}
+const qs=new URLSearchParams(location.search),slugC=c=>(c||"").toLowerCase().replace(/[()]/g,"").trim().replace(/\s+/g,"-");
+const findB=(a,c)=>a&&c?DATA.brackets.find(b=>b.age===a&&slugC(b.conf)===slugC(c)):undefined;
+const baseConf=c=>c.replace(/ \(Pro Player Pathway\)$/,"");
+let saved=null;try{saved=JSON.parse(localStorage.getItem("bracket")||"null")}catch(e){}
+function pickBracket(){const a=qs.get("age"),c=qs.get("conf");
+ if(a){const b=findB(a,c)||findB(a,saved&&saved.conf)||findB(a,DATA.default.conf)||DATA.brackets.find(b=>b.age===a);if(b)return b}
+ return(saved&&findB(saved.age,saved.conf))||findB(DATA.default.age,DATA.default.conf)||DATA.brackets[0]}
+const B=pickBracket();
+try{localStorage.setItem("bracket",JSON.stringify({age:B.age,conf:B.conf}))}catch(e){}
+const bracketUrl=(b,extra="")=>`?age=${b.age}&conf=${slugC(b.conf)}${extra}`;
 document.title=`MLS NEXT Homegrown Division · ${B.age} ${B.conf} Conference`;
-const RAW=B.raw,TEAMS=B.teams,SNAP=B.snap;
+const RAW=B.raw,TEAMS=B.teams,SNAP=DATA.snap;
+// kickoff times arrive in UTC ("2026-10-03T16:00Z"); show them in the viewer's time zone. Date-only = time not set.
+const p2=n=>String(n).padStart(2,"0");
+const localDt=s=>{if(s.length===10)return s;const d=new Date(s);return`${d.getFullYear()}-${p2(d.getMonth()+1)}-${p2(d.getDate())} ${p2(d.getHours())}:${p2(d.getMinutes())}`};
 const codes=Object.keys(TEAMS),N=codes.length,ix=Object.fromEntries(codes.map((c,i)=>[c,i]));
-const games=RAW.split(";").map(s=>{const[id,dt,h,a,hs,as]=s.split(",");return{id,dt,h,a,hs:hs===""?null:+hs,as:as===""?null:+as}}).sort((x,y)=>x.dt<y.dt?-1:1);
+const games=RAW?RAW.split(";").map(s=>{const[id,dt,h,a,hs,as]=s.split(",");return{id,dt:localDt(dt),h,a,hs:hs===""?null:+hs,as:as===""?null:+as}}).sort((x,y)=>x.dt<y.dt?-1:1):[];
 const played=games.filter(g=>g.hs!==null),future=games.filter(g=>g.hs===null);
 
 const fact=[1];for(let i=1;i<15;i++)fact[i]=fact[i-1]*i;const pois=(k,l)=>Math.exp(-l)*l**k/fact[k];
@@ -251,21 +268,41 @@ const ordn=n=>n+(n%100>10&&n%100<14?"th":["th","st","nd","rd"][n%10]||"th");
 const weekKey=d=>{const D=day(d);D.setDate(D.getDate()-(D.getDay()+6)%7);return D.toDateString()};
 function byWeek(list){const m=new Map();for(const g of list){const k=weekKey(g.dt);if(!m.has(k))m.set(k,[]);m.get(k).push(g)}return[...m.values()]}
 const weekLabel=gs=>{const ds=[...new Set(gs.map(g=>g.dt.slice(0,10)))].sort();return ds.length===1?fmtDay(ds[0]):fmtDay(ds[0])+" – "+fmtDay(ds[ds.length-1])};
-const SHORT={"ALBION SC Merced":"Albion Merced","Atletico Santa Rosa":"Atl. Santa Rosa","Ballistic United":"Ballistic","De Anza Force":"De Anza","FC Bay Area Surf":"Bay Area Surf","Lamorinda Soccer Club":"Lamorinda","Modesto Ajax United":"Modesto Ajax","Sacramento Republic FC":"Sac Republic","Sacramento United":"Sac United","San Francisco Glens SC":"SF Glens","San Jose Earthquakes":"SJ Quakes","Silicon Valley Soccer Academy":"SVSA","The Town FC Academy":"The Town","Woodside Soccer Club Crush":"Woodside"};
+const SHORT={"ALBION SC Merced":"Albion Merced","Atletico Santa Rosa":"Atl. Santa Rosa","Ballistic United":"Ballistic","De Anza Force":"De Anza","FC Bay Area Surf":"Bay Area Surf","Lamorinda Soccer Club":"Lamorinda","Modesto Ajax United":"Modesto Ajax","Sacramento Republic FC":"Sac Republic","Sacramento United":"Sac United","San Francisco Glens SC":"SF Glens","San Jose Earthquakes":"SJ Quakes","Silicon Valley Soccer Academy":"SVSA","The Town FC Academy":"The Town","Woodside Soccer Club Crush":"Woodside",
+ "AC Grand Rapids": "Grand Rapids", "ALBION SC Colorado": "Albion CO", "ALBION SC San Diego": "Albion SD", "Albion SC Las Vegas": "Albion LV", "Albion SC Los Angeles": "Albion LA", "Atlanta United": "Atlanta Utd", "Barca Residency Academy": "Barça Res.", "Bavarian United SC": "Bavarian Utd", "Beachside of Connecticut": "Beachside CT", "Blau Weiss Gottschee": "Blau Weiss", "Cedar Stars Academy Bergen": "CS Bergen", "Cedar Stars Academy Monmouth": "CS Monmouth", "Charlotte Independence Soccer Club": "Charlotte Ind.", "Chicago FC United": "Chicago Utd", "Cincinnati United Soccer Club": "Cincinnati Utd", "City SC - San Diego": "City SC SD", "City SC Southwest": "City SC SW", "Colorado Rapids": "Rapids", "Connecticut United FC": "CT United", "Downtown United Soccer Club": "Downtown Utd", "FA Euro New York": "FA Euro", "FC Golden State Force": "Golden State", "FC Greater Boston Bolts": "Boston Bolts", "Hoover-Vestavia Soccer": "Hoover-Vestavia", "Houston Dynamo FC": "Dynamo", "Houston Rangers": "Hou. Rangers", "Huntsville City FC": "Huntsville", "Inter Miami CF": "Inter Miami", "Intercontinental Football Academy of New England": "IFA NE", "Lanier Soccer Association": "Lanier", "Las Vegas Sports Academy": "LV Sports", "Los Angeles Bulls Soccer Club": "LA Bulls", "Los Angeles Football Club": "LAFC", "Los Angeles Sports Club": "LA Sports", "Lou Fusz Athletic": "Lou Fusz", "Metropolitan Oval": "Metro Oval", "Miami Futbol Academy Rush": "Miami Rush", "Michigan Jaguars": "MI Jaguars", "Michigan Wolves": "MI Wolves", "Midwest United FC": "Midwest Utd", "Minnesota United FC": "Minnesota Utd", "Nashville United Soccer Academy (NUSA Next)": "NUSA", "New England Revolution": "Revolution", "Northern Virginia Alliance": "NoVA Alliance", "Orlando City Soccer School South": "Orlando South", "Philadelphia Union": "Union", "Phoenix Rising FC": "Phoenix Rising", "Players Development Academy": "PDA", "Portland Timbers": "Timbers", "Queen City Mutiny FC": "QC Mutiny", "RSL Arizona Mesa": "RSL AZ Mesa", "Real Salt Lake": "RSL", "Red Bull New York": "RBNY", "Seacoast United": "Seacoast Utd", "Seattle Sounders FC": "Sounders", "Seminole United": "Seminole Utd", "Shattuck-St. Mary's": "Shattuck", "Sockers FC Chicago": "Sockers", "South Florida Football Academy": "SFFA", "Sporting Athletic Club": "Sporting AC", "Sporting Kansas City": "Sporting KC", "Springfield SYC": "Springfield", "St. Louis City SC": "St. Louis City", "St. Louis Scott Gallagher": "SLSG", "Tampa Bay United": "Tampa Bay Utd", "Triangle United Soccer Association": "Triangle Utd", "Tulsa Greenwood SC": "Tulsa Greenwood", "Vancouver Whitecaps FC": "Whitecaps", "Ventura County Fusion": "Ventura Fusion", "West Florida Flames": "WF Flames", "Club Ohio": "Club Ohio", "One FC": "One FC", "SC Wave": "SC Wave", "The Football Academy": "TFA", "Southern Soccer Academy": "Southern SA", "Austin FC": "Austin FC", "FC Dallas": "FC Dallas", "Toronto FC": "Toronto FC", "New York SC": "New York SC", "FC DELCO": "FC DELCO", "SC Del Sol": "SC Del Sol"};
 const short=c=>{const n=nm(c);return SHORT[n]||n.replace(/San Francisco/,"SF").replace(/San Jose/,"SJ").replace(/Sacramento/,"Sac").replace(/\b(Soccer|Club|Academy|FC|SC|The)\b/g,"").replace(/\s+/g," ").trim()||n};
 const teamName=c=>`<span class="full">${nm(c)}</span><span class="short">${short(c)}</span>`;
 const order=tbl.map(t=>t.c),rank=Object.fromEntries(order.map((c,k)=>[c,k+1]));
 const involves=(g,c)=>g.h===c||g.a===c;
 // "Follow a team": remembered per bracket in this browser
 const MYKEY="myteam:"+document.title;let myTeam="";try{myTeam=localStorage.getItem(MYKEY)||""}catch(e){}
+if(TEAMS[qs.get("follow")]){myTeam=qs.get("follow");try{localStorage.setItem(MYKEY,myTeam)}catch(e){}history.replaceState(null,"",bracketUrl(B))}
 if(!TEAMS[myTeam])myTeam="";
 const showNote=(id,on)=>{const el=$(id);el.style.display=on?"block":"none";if(on)el.innerHTML=`Showing <b>${nm(myTeam)}</b> games only. Change this with “Follow a team” at the top.`};
 
 // Header
-$("bracket").textContent=`${B.age} ${B.conf} Conference`;
-if(DATA.brackets.length>1)$("ages").innerHTML=DATA.brackets.map(b=>`<a href="?age=${b.age}"${b===B?' class="on" aria-current="page"':""}>${b.age}</a>`).join("");else $("ages").remove();
+$("bracket").textContent=`${B.age} ${baseConf(B.conf)} Conference`;
+if(B.conf!==baseConf(B.conf))$("ppp").style.display="inline-block";
+// age tabs keep the conference when that age has it (else its regular version for Pro Player Pathway, else the default)
+const ages=[...new Set(DATA.brackets.map(b=>b.age))];
+$("ages").innerHTML=ages.map(a=>{const b=findB(a,B.conf)||findB(a,baseConf(B.conf))||findB(a,DATA.default.conf)||DATA.brackets.find(x=>x.age===a);return`<a href="${bracketUrl(b)}"${a===B.age?' class="on" aria-current="page"':""}>${a}</a>`}).join("");
+$("confSel").innerHTML=DATA.brackets.filter(b=>b.age===B.age).map(b=>`<option value="${slugC(b.conf)}"${b===B?" selected":""}>${b.conf}</option>`).join("");
+$("confSel").onchange=e=>{location.search=`?age=${B.age}&conf=${e.target.value}`};
+// find any team across every bracket; picking one opens its bracket and follows it
+const ALLT=DATA.brackets.flatMap(b=>Object.entries(b.teams).map(([id,n])=>({id,n,l:n.toLowerCase(),b})));
+let findSel=0;
+function drawFind(){const q=$("findQ").value.trim().toLowerCase(),r=$("findR");if(q.length<2){r.style.display="none";return}
+ const ws=q.split(/\s+/),hits=ALLT.filter(t=>ws.every(w=>t.l.includes(w))).sort((x,y)=>x.n.localeCompare(y.n)||parseInt(x.b.age.slice(1))-parseInt(y.b.age.slice(1))).slice(0,25);
+ findSel=Math.min(findSel,Math.max(0,hits.length-1));
+ r.innerHTML=hits.map((t,i)=>`<a href="${bracketUrl(t.b,"&follow="+t.id)}"${i===findSel?' class="sel"':""} role="option">${t.n}<span>${t.b.age} · ${t.b.conf.replace("Pro Player Pathway","PPP")}</span></a>`).join("")||`<div class="none">No team matches “${$("findQ").value}”.</div>`;
+ r.style.display="block"}
+$("findQ").oninput=()=>{findSel=0;drawFind()};$("findQ").onfocus=drawFind;
+$("findQ").onkeydown=e=>{const links=$("findR").querySelectorAll("a");
+ if(e.key==="ArrowDown"||e.key==="ArrowUp"){e.preventDefault();findSel=(findSel+(e.key==="ArrowDown"?1:-1)+links.length)%Math.max(1,links.length);drawFind()}
+ else if(e.key==="Enter"&&links[findSel]){location.href=links[findSel].href}else if(e.key==="Escape"){$("findR").style.display="none";$("findQ").blur()}};
+document.addEventListener("click",e=>{if(!e.target.closest(".find"))$("findR").style.display="none"});
 const nextG=future[0];
-$("meta").innerHTML=`<span>Updated ${fmtDay(SNAP)}</span><span class="prog"><i><b style="width:${played.length/games.length*100}%"></b></i>${played.length} of ${games.length} games played</span>`+(nextG?`<span>Next games ${fmtDay(nextG.dt)}</span>`:"");
+$("meta").innerHTML=`<span>Updated ${fmtDay(SNAP)}</span><span class="prog"><i><b style="width:${played.length/(games.length||1)*100}%"></b></i>${played.length} of ${games.length} games played</span>`+(nextG?`<span>Next games ${fmtDay(nextG.dt)}</span>`:"");
 $("rho").textContent=`ρ = ${rho.toFixed(2)}`;$("hadv").textContent=`about ${((Math.exp(hadv)-1)*100).toFixed(0)}%`;
 $("foot").innerHTML=`Unofficial fan dashboard, not affiliated with MLS NEXT. Built from the public standings and schedule data behind mlssoccer.com/mlsnext. Data as of ${fmtDate(SNAP).split(" · ")[0]}.`;
 codes.slice().sort((a,b)=>nm(a).localeCompare(nm(b))).forEach(c=>$("myTeam").insertAdjacentHTML("beforeend",`<option value="${c}">${nm(c)}</option>`));
@@ -300,6 +337,10 @@ function drawStand(){const r=srows.slice().sort((a,b)=>(a[sortK]-b[sortK])*sortD
 
 // H2H matrix
 const meet={};for(const g of games)for(const k of[g.h+"|"+g.a,g.a+"|"+g.h])(meet[k]=meet[k]||[]).push(g);
+{const per=new Set();for(const r of codes)for(const c of codes)if(r<c)per.add((meet[r+"|"+c]||[]).length);
+ $("h2hMeet").textContent=per.size===1&&per.has(2)?"Every pair plays twice, so there are two boxes, in date order."
+  :per.size===1&&per.has(1)?"Every pair plays once this season."
+  :"Teams don't all play each other the same number of times: each box is one meeting, in date order, and a dash means they don't meet in league play."}
 // one game seen from team r's side
 function fromRow(g,r){const home=g.h===r;
  if(g.hs!==null){const f=home?g.hs:g.as,a=home?g.as:g.hs;return{played:true,home,f,a,res:f>a?"w":f<a?"l":"d"}}
@@ -323,7 +364,7 @@ function hl(r,c,f){document.querySelectorAll("#h2h [data-r],#h2h [data-c]").forE
  el.classList.toggle("on",!!((r&&d.r===r)||(c&&d.c===c)));el.classList.toggle("focus",el===f)})}
 const tip=$("tip");
 function showTip(td){const r=td.dataset.r,c=td.dataset.c;
- tip.innerHTML=`<div class="tt-h">${nm(r)} <span>vs</span> ${nm(c)}</div>`+(meet[r+"|"+c]||[]).map(g=>{const v=fromRow(g,r),where=v.home?"Home":`Away`;
+ tip.innerHTML=`<div class="tt-h">${nm(r)} <span>vs</span> ${nm(c)}</div>`+((meet[r+"|"+c]||[]).length?"":`<small>They don't play each other in league games this season.</small>`)+(meet[r+"|"+c]||[]).map(g=>{const v=fromRow(g,r),where=v.home?"Home":`Away`;
   return v.played?`<div class="tt-g"><span class="chip ${v.res}">${v.f}–${v.a}</span><div><b>${{w:"Won",d:"Draw",l:"Lost"}[v.res]}</b> · ${where}<br><small>${fmtDate(g.dt)}</small></div></div>`
   :`<div class="tt-g"><span class="chip todo"></span><div><b>Not played yet</b> · ${where}<br><small>${fmtDate(g.dt)}</small><br><small>Model: ${pct(v.pW)} win · ${pct(v.pD)} draw · ${pct(v.pL)} loss · most likely ${v.sc[0]}–${v.sc[1]}</small></div></div>`}).join("");
  tip.style.display="block";const b=td.getBoundingClientRect(),w=tip.offsetWidth,ht=tip.offsetHeight;

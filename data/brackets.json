@@ -1,0 +1,1200 @@
+[
+ {
+  "age": "U13",
+  "conf": "Florida",
+  "teams": {
+   "5945": "Athletum FC Academy",
+   "5780": "IMG",
+   "5951": "IdeaSport SA",
+   "1864": "Inter Miami CF",
+   "5809": "Jacksonville FC",
+   "5972": "Miami Futbol Academy Rush",
+   "10480": "One FC",
+   "6221": "Orlando City SC",
+   "5981": "Orlando City Soccer School South",
+   "5781": "Seminole United",
+   "5733": "Sol SC Florida",
+   "5747": "South Florida Football Academy",
+   "6136": "Tampa Bay United",
+   "5843": "West Florida Flames",
+   "5710": "Weston FC"
+  }
+ },
+ {
+  "age": "U13",
+  "conf": "Frontier",
+  "teams": {
+   "7148": "AC River",
+   "9663": "ALBION SC Colorado",
+   "6194": "Austin FC",
+   "6318": "Capital City SC",
+   "6152": "Dallas Hornets",
+   "5805": "FC Dallas",
+   "6337": "GFI Academy",
+   "5923": "Houston Rangers",
+   "6513": "Real Salt Lake",
+   "10481": "SGA",
+   "8103": "Tulsa Greenwood SC"
+  }
+ },
+ {
+  "age": "U13",
+  "conf": "Mid-America",
+  "teams": {
+   "9657": "AC Grand Rapids",
+   "5977": "Bavarian United SC",
+   "6244": "Chicago FC United",
+   "5959": "Cincinnati United Soccer Club",
+   "10497": "Club Ohio",
+   "5827": "FC Cincinnati",
+   "7162": "Hoosier Premier",
+   "6112": "Indy Eleven",
+   "6224": "Lou Fusz Athletic",
+   "5999": "Michigan Jaguars",
+   "5692": "Michigan Wolves",
+   "6256": "Midwest United FC",
+   "6214": "SC Wave",
+   "6037": "Sockers FC Chicago",
+   "10473": "Sporting City",
+   "5988": "St. Louis Scott Gallagher",
+   "6000": "Vardar Soccer Club"
+  }
+ },
+ {
+  "age": "U13",
+  "conf": "Mid-Atlantic",
+  "teams": {
+   "6268": "Achilles FC",
+   "6079": "Alexandria SA",
+   "6234": "Baltimore Armour",
+   "6109": "Beadling SC",
+   "6182": "Bethesda SC",
+   "5876": "Cedar Stars Academy Monmouth",
+   "10479": "Coppermine SC",
+   "5676": "FC DELCO",
+   "7168": "Keystone FC",
+   "9669": "Northern Virginia Alliance",
+   "5887": "PA Classics",
+   "10461": "Penn Rising XI",
+   "5882": "Philadelphia Union",
+   "6142": "Players Development Academy",
+   "5661": "Real Futbol Academy",
+   "6086": "Sporting Athletic Club",
+   "6158": "Springfield SYC",
+   "9645": "The Football Academy"
+  }
+ },
+ {
+  "age": "U13",
+  "conf": "Northeast",
+  "teams": {
+   "5738": "Bayside FC",
+   "6184": "Beachside of Connecticut",
+   "5709": "Blau Weiss Gottschee",
+   "6066": "Cedar Stars Academy Bergen",
+   "10508": "Connecticut United FC",
+   "7160": "Downtown United Soccer Club",
+   "6289": "FA Euro New York",
+   "5760": "FC Greater Boston Bolts",
+   "5655": "FC Westchester",
+   "5909": "Intercontinental Football Academy of New England",
+   "6190": "Ironbound Soccer Club",
+   "5821": "Metropolitan Oval",
+   "6028": "NEFC",
+   "5912": "New England Revolution",
+   "5645": "New York City FC",
+   "5939": "New York SC",
+   "5729": "Red Bull New York",
+   "6018": "Seacoast United",
+   "6102": "TSF Academy",
+   "10467": "The Island FC East",
+   "7171": "The Island FC West",
+   "5935": "Valeo Futbol Club"
+  }
+ },
+ {
+  "age": "U13",
+  "conf": "Northwest",
+  "teams": {
+   "6118": "ALBION SC Merced",
+   "5903": "Atletico Santa Rosa",
+   "5961": "Ballistic United",
+   "5929": "De Anza Force",
+   "5728": "FC Bay Area Surf",
+   "5834": "Lamorinda Soccer Club",
+   "6280": "Modesto Ajax United",
+   "5918": "Sacramento Republic FC",
+   "6310": "Sacramento United",
+   "5898": "San Francisco Glens SC",
+   "6207": "Silicon Valley Soccer Academy",
+   "5771": "The Town FC Academy",
+   "5907": "Woodside Soccer Club Crush"
+  }
+ },
+ {
+  "age": "U13",
+  "conf": "Southeast",
+  "teams": {
+   "6098": "AFC Lightning",
+   "7279": "Atlanta United",
+   "7154": "Carolina Core FC",
+   "9651": "Charlotte Independence Soccer Club",
+   "8865": "Chattanooga FC",
+   "5870": "Hoover-Vestavia Soccer",
+   "9686": "Huntsville City FC",
+   "6012": "Inter Atlanta FC",
+   "5751": "KSA",
+   "6143": "Lanier Soccer Association",
+   "5835": "Nashville United Soccer Academy (NUSA Next)",
+   "6060": "Queen City Mutiny FC",
+   "6319": "Southern Soccer Academy",
+   "6272": "Triangle United Soccer Association",
+   "6257": "Wake FC"
+  }
+ },
+ {
+  "age": "U13",
+  "conf": "Southwest",
+  "teams": {
+   "5777": "Albion SC Las Vegas",
+   "6282": "ALBION SC San Diego",
+   "6038": "Albion SC Los Angeles",
+   "5667": "Chula Vista FC",
+   "6055": "City SC - San Diego",
+   "5852": "City SC Southwest",
+   "6165": "FC Golden State Force",
+   "5899": "LA Galaxy",
+   "5800": "Las Vegas Sports Academy",
+   "6120": "Los Angeles Bulls Soccer Club",
+   "6267": "Los Angeles Football Club",
+   "6344": "Los Angeles Sports Club",
+   "5953": "LA Surf Soccer Club",
+   "5859": "Phoenix Rising FC",
+   "6011": "RSL Arizona",
+   "6192": "RSL Arizona Mesa",
+   "6171": "SC Del Sol",
+   "9644": "San Diego FC",
+   "6294": "Santa Barbara Soccer Club",
+   "6092": "SoCal Reds FC",
+   "6045": "Strikers FC",
+   "5815": "Total Futbol Academy",
+   "6327": "Ventura County Fusion"
+  }
+ },
+ {
+  "age": "U14",
+  "conf": "Florida",
+  "teams": {
+   "5946": "Athletum FC Academy",
+   "5783": "IMG",
+   "5952": "IdeaSport SA",
+   "1863": "Inter Miami CF",
+   "5810": "Jacksonville FC",
+   "5971": "Miami Futbol Academy Rush",
+   "10483": "One FC",
+   "7235": "Orlando City SC",
+   "5982": "Orlando City Soccer School South",
+   "5782": "Seminole United",
+   "5739": "Sol SC Florida",
+   "5748": "South Florida Football Academy",
+   "6135": "Tampa Bay United",
+   "5844": "West Florida Flames",
+   "5711": "Weston FC"
+  }
+ },
+ {
+  "age": "U14",
+  "conf": "Frontier",
+  "teams": {
+   "7149": "AC River",
+   "9664": "ALBION SC Colorado",
+   "6195": "Austin FC",
+   "6317": "Capital City SC",
+   "6153": "Dallas Hornets",
+   "5806": "FC Dallas",
+   "6338": "GFI Academy",
+   "6348": "Houston Dynamo FC",
+   "5924": "Houston Rangers",
+   "6393": "Real Salt Lake",
+   "10482": "SGA",
+   "9689": "Tulsa Greenwood SC"
+  }
+ },
+ {
+  "age": "U14",
+  "conf": "Mid-America",
+  "teams": {
+   "9658": "AC Grand Rapids",
+   "5978": "Bavarian United SC",
+   "6243": "Chicago FC United",
+   "5960": "Cincinnati United Soccer Club",
+   "10498": "Club Ohio",
+   "5828": "FC Cincinnati",
+   "7163": "Hoosier Premier",
+   "6113": "Indy Eleven",
+   "6225": "Lou Fusz Athletic",
+   "5998": "Michigan Jaguars",
+   "5695": "Michigan Wolves",
+   "6255": "Midwest United FC",
+   "6215": "SC Wave",
+   "6036": "Sockers FC Chicago",
+   "10474": "Sporting City",
+   "7203": "St. Louis City SC",
+   "5989": "St. Louis Scott Gallagher",
+   "6001": "Vardar Soccer Club"
+  }
+ },
+ {
+  "age": "U14",
+  "conf": "Mid-Atlantic",
+  "teams": {
+   "6269": "Achilles FC",
+   "6080": "Alexandria SA",
+   "6235": "Baltimore Armour",
+   "6110": "Beadling SC",
+   "6181": "Bethesda SC",
+   "5877": "Cedar Stars Academy Monmouth",
+   "10487": "Coppermine SC",
+   "5677": "FC DELCO",
+   "7169": "Keystone FC",
+   "9670": "Northern Virginia Alliance",
+   "5888": "PA Classics",
+   "10462": "Penn Rising XI",
+   "5883": "Philadelphia Union",
+   "6141": "Players Development Academy",
+   "5662": "Real Futbol Academy",
+   "6087": "Sporting Athletic Club",
+   "6159": "Springfield SYC",
+   "9646": "The Football Academy"
+  }
+ },
+ {
+  "age": "U14",
+  "conf": "Northeast",
+  "teams": {
+   "5741": "Bayside FC",
+   "6185": "Beachside of Connecticut",
+   "5708": "Blau Weiss Gottschee",
+   "6067": "Cedar Stars Academy Bergen",
+   "7158": "Connecticut United FC",
+   "7161": "Downtown United Soccer Club",
+   "6290": "FA Euro New York",
+   "5761": "FC Greater Boston Bolts",
+   "5656": "FC Westchester",
+   "6025": "Intercontinental Football Academy of New England",
+   "6191": "Ironbound Soccer Club",
+   "5822": "Metropolitan Oval",
+   "6029": "NEFC",
+   "5915": "New England Revolution",
+   "5644": "New York City FC",
+   "5940": "New York SC",
+   "6019": "Seacoast United",
+   "6103": "TSF Academy",
+   "10468": "The Island FC East",
+   "7172": "The Island FC West",
+   "5936": "Valeo Futbol Club"
+  }
+ },
+ {
+  "age": "U14",
+  "conf": "Northwest",
+  "teams": {
+   "6119": "ALBION SC Merced",
+   "5904": "Atletico Santa Rosa",
+   "5962": "Ballistic United",
+   "5930": "De Anza Force",
+   "5730": "FC Bay Area Surf",
+   "5833": "Lamorinda Soccer Club",
+   "6281": "Modesto Ajax United",
+   "5919": "Sacramento Republic FC",
+   "6309": "Sacramento United",
+   "5897": "San Francisco Glens SC",
+   "6015": "San Jose Earthquakes",
+   "6208": "Silicon Valley Soccer Academy",
+   "5772": "The Town FC Academy",
+   "5908": "Woodside Soccer Club Crush"
+  }
+ },
+ {
+  "age": "U14",
+  "conf": "Southeast",
+  "teams": {
+   "6099": "AFC Lightning",
+   "5700": "Atlanta United",
+   "7155": "Carolina Core FC",
+   "9652": "Charlotte Independence Soccer Club",
+   "8866": "Chattanooga FC",
+   "5871": "Hoover-Vestavia Soccer",
+   "9687": "Huntsville City FC",
+   "6013": "Inter Atlanta FC",
+   "5754": "KSA",
+   "6144": "Lanier Soccer Association",
+   "5836": "Nashville United Soccer Academy (NUSA Next)",
+   "6061": "Queen City Mutiny FC",
+   "6320": "Southern Soccer Academy",
+   "6273": "Triangle United Soccer Association",
+   "6258": "Wake FC"
+  }
+ },
+ {
+  "age": "U14",
+  "conf": "Southwest",
+  "teams": {
+   "5778": "Albion SC Las Vegas",
+   "6283": "ALBION SC San Diego",
+   "6039": "Albion SC Los Angeles",
+   "5668": "Chula Vista FC",
+   "6056": "City SC - San Diego",
+   "5853": "City SC Southwest",
+   "6166": "FC Golden State Force",
+   "5900": "LA Galaxy",
+   "5801": "Las Vegas Sports Academy",
+   "6121": "Los Angeles Bulls Soccer Club",
+   "6266": "Los Angeles Football Club",
+   "6345": "Los Angeles Sports Club",
+   "5954": "LA Surf Soccer Club",
+   "5860": "Phoenix Rising FC",
+   "6010": "RSL Arizona",
+   "6193": "RSL Arizona Mesa",
+   "6172": "SC Del Sol",
+   "11116": "San Diego FC",
+   "6292": "Santa Barbara Soccer Club",
+   "6093": "SoCal Reds FC",
+   "6046": "Strikers FC",
+   "5816": "Total Futbol Academy",
+   "6328": "Ventura County Fusion"
+  }
+ },
+ {
+  "age": "U15",
+  "conf": "Florida",
+  "teams": {
+   "7199": "Orlando City Soccer School South",
+   "5970": "Miami Futbol Academy Rush",
+   "10486": "One FC",
+   "5845": "West Florida Flames",
+   "5785": "IMG",
+   "7238": "IdeaSport SA",
+   "5811": "Jacksonville FC",
+   "5784": "Seminole United",
+   "5712": "Weston FC",
+   "5947": "Athletum FC Academy",
+   "6134": "Tampa Bay United",
+   "5749": "South Florida Football Academy",
+   "5750": "Sol SC Florida"
+  }
+ },
+ {
+  "age": "U15",
+  "conf": "Frontier",
+  "teams": {
+   "6316": "Capital City SC",
+   "6072": "Real Salt Lake",
+   "6339": "GFI Academy",
+   "6154": "Dallas Hornets",
+   "10484": "SGA",
+   "8104": "Tulsa Greenwood SC",
+   "9665": "ALBION SC Colorado",
+   "5925": "Houston Rangers",
+   "7150": "AC River"
+  }
+ },
+ {
+  "age": "U15",
+  "conf": "Mid-America",
+  "teams": {
+   "6242": "Chicago FC United",
+   "7206": "Bavarian United SC",
+   "9659": "AC Grand Rapids",
+   "6226": "Lou Fusz Athletic",
+   "6035": "Sockers FC Chicago",
+   "6254": "Midwest United FC",
+   "7164": "Hoosier Premier",
+   "5990": "St. Louis Scott Gallagher",
+   "6002": "Vardar Soccer Club",
+   "6216": "SC Wave",
+   "6114": "Indy Eleven",
+   "5696": "Michigan Wolves",
+   "6074": "Shattuck-St. Mary's",
+   "10499": "Club Ohio",
+   "5997": "Michigan Jaguars",
+   "7268": "Cincinnati United Soccer Club"
+  }
+ },
+ {
+  "age": "U15",
+  "conf": "Mid-Atlantic",
+  "teams": {
+   "9706": "Achilles FC",
+   "6088": "Sporting Athletic Club",
+   "6140": "Players Development Academy",
+   "10463": "Penn Rising XI",
+   "7170": "Keystone FC",
+   "5678": "FC DELCO",
+   "7245": "Beadling SC",
+   "5889": "PA Classics",
+   "9647": "The Football Academy",
+   "10491": "Coppermine SC",
+   "6180": "Bethesda SC",
+   "9671": "Northern Virginia Alliance",
+   "5663": "Real Futbol Academy",
+   "6160": "Springfield SYC",
+   "6236": "Baltimore Armour",
+   "6082": "Alexandria SA",
+   "5878": "Cedar Stars Academy Monmouth"
+  }
+ },
+ {
+  "age": "U15",
+  "conf": "Northeast",
+  "teams": {
+   "5735": "Red Bull New York",
+   "5657": "FC Westchester",
+   "6186": "Beachside of Connecticut",
+   "5937": "Valeo Futbol Club",
+   "6020": "Seacoast United",
+   "5823": "Metropolitan Oval",
+   "10469": "The Island FC East",
+   "5743": "Bayside FC",
+   "6030": "NEFC",
+   "7256": "FA Euro New York",
+   "9718": "Connecticut United FC",
+   "9720": "Downtown United Soccer Club",
+   "5707": "Blau Weiss Gottschee",
+   "6068": "Cedar Stars Academy Bergen",
+   "7234": "Ironbound Soccer Club",
+   "6104": "TSF Academy",
+   "5762": "FC Greater Boston Bolts",
+   "6024": "Intercontinental Football Academy of New England",
+   "5941": "New York SC",
+   "9736": "The Island FC West"
+  }
+ },
+ {
+  "age": "U15",
+  "conf": "Northwest",
+  "teams": {
+   "5896": "San Francisco Glens SC",
+   "6305": "Sacramento United",
+   "7277": "Atletico Santa Rosa",
+   "5931": "De Anza Force",
+   "5920": "Sacramento Republic FC",
+   "6209": "Silicon Valley Soccer Academy",
+   "7374": "FC Bay Area Surf",
+   "5773": "The Town FC Academy",
+   "7191": "Woodside Soccer Club Crush",
+   "5963": "Ballistic United",
+   "6016": "San Jose Earthquakes",
+   "7205": "ALBION SC Merced",
+   "7233": "Modesto Ajax United",
+   "7217": "Lamorinda Soccer Club"
+  }
+ },
+ {
+  "age": "U15",
+  "conf": "Southeast",
+  "teams": {
+   "7210": "AFC Lightning",
+   "2789": "Charlotte FC",
+   "8867": "Chattanooga FC",
+   "7269": "Inter Atlanta FC",
+   "9713": "Carolina Core FC",
+   "9653": "Charlotte Independence Soccer Club",
+   "5872": "Hoover-Vestavia Soccer",
+   "9688": "Huntsville City FC",
+   "5756": "KSA",
+   "6145": "Lanier Soccer Association",
+   "6062": "Queen City Mutiny FC",
+   "6321": "Southern Soccer Academy",
+   "6259": "Wake FC",
+   "7248": "Triangle United Soccer Association",
+   "8108": "Nashville United Soccer Academy (NUSA Next)"
+  }
+ },
+ {
+  "age": "U15",
+  "conf": "Southwest",
+  "teams": {
+   "6284": "ALBION SC San Diego",
+   "7239": "SoCal Reds FC",
+   "6009": "RSL Arizona",
+   "6047": "Strikers FC",
+   "7270": "Albion SC Las Vegas",
+   "5669": "Chula Vista FC",
+   "7192": "Los Angeles Bulls Soccer Club",
+   "5861": "Phoenix Rising FC",
+   "6167": "FC Golden State Force",
+   "6057": "City SC - San Diego",
+   "5817": "Total Futbol Academy",
+   "5854": "City SC Southwest",
+   "6094": "Barca Residency Academy",
+   "7194": "Los Angeles Sports Club",
+   "5955": "LA Surf Soccer Club",
+   "7200": "Las Vegas Sports Academy",
+   "6293": "Santa Barbara Soccer Club",
+   "6265": "Los Angeles Football Club",
+   "6040": "Albion SC Los Angeles",
+   "6329": "Ventura County Fusion",
+   "6173": "SC Del Sol"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Florida",
+  "teams": {
+   "9750": "Orlando City Soccer School South",
+   "5846": "West Florida Flames",
+   "10490": "One FC",
+   "5948": "Athletum FC Academy",
+   "5768": "South Florida Football Academy",
+   "5787": "IMG",
+   "9727": "IdeaSport SA",
+   "5812": "Jacksonville FC",
+   "5786": "Seminole United",
+   "5713": "Weston FC",
+   "5752": "Sol SC Florida",
+   "5969": "Miami Futbol Academy Rush",
+   "6133": "Tampa Bay United"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Frontier",
+  "teams": {
+   "6340": "GFI Academy",
+   "5926": "Houston Rangers",
+   "9666": "ALBION SC Colorado",
+   "6315": "Capital City SC",
+   "6155": "Dallas Hornets",
+   "9690": "Tulsa Greenwood SC",
+   "7151": "AC River",
+   "10485": "SGA"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Mid-America",
+  "teams": {
+   "9660": "AC Grand Rapids",
+   "6003": "Vardar Soccer Club",
+   "7165": "Hoosier Premier",
+   "6241": "Chicago FC United",
+   "6217": "SC Wave",
+   "6034": "Sockers FC Chicago",
+   "5996": "Michigan Jaguars",
+   "9714": "Cincinnati United Soccer Club",
+   "6115": "Indy Eleven",
+   "5697": "Michigan Wolves",
+   "6075": "Shattuck-St. Mary's",
+   "5991": "St. Louis Scott Gallagher",
+   "10500": "Club Ohio",
+   "6227": "Lou Fusz Athletic",
+   "5979": "Bavarian United SC",
+   "6253": "Midwest United FC"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Mid-Atlantic",
+  "teams": {
+   "5890": "PA Classics",
+   "9648": "The Football Academy",
+   "6089": "Sporting Athletic Club",
+   "5679": "FC DELCO",
+   "9733": "Keystone FC",
+   "6111": "Beadling SC",
+   "5879": "Cedar Stars Academy Monmouth",
+   "6139": "Players Development Academy",
+   "6237": "Baltimore Armour",
+   "6179": "Bethesda SC",
+   "9672": "Northern Virginia Alliance",
+   "5664": "Real Futbol Academy",
+   "6161": "Springfield SYC",
+   "6081": "Alexandria SA",
+   "10464": "Penn Rising XI",
+   "6270": "Achilles FC",
+   "10493": "Coppermine SC"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Northeast",
+  "teams": {
+   "6021": "Seacoast United",
+   "5641": "Intercontinental Football Academy of New England",
+   "5824": "Metropolitan Oval",
+   "5744": "Bayside FC",
+   "5942": "New York SC",
+   "6031": "NEFC",
+   "5706": "Blau Weiss Gottschee",
+   "9724": "FA Euro New York",
+   "9721": "Downtown United Soccer Club",
+   "6187": "Beachside of Connecticut",
+   "5658": "FC Westchester",
+   "6069": "Cedar Stars Academy Bergen",
+   "5763": "FC Greater Boston Bolts",
+   "9703": "Ironbound Soccer Club",
+   "6105": "TSF Academy",
+   "7159": "Connecticut United FC",
+   "5938": "Valeo Futbol Club",
+   "9737": "The Island FC West",
+   "10470": "The Island FC East"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Northwest",
+  "teams": {
+   "5895": "San Francisco Glens SC",
+   "5964": "Ballistic United",
+   "5921": "Sacramento Republic FC",
+   "6210": "Silicon Valley Soccer Academy",
+   "5905": "Atletico Santa Rosa",
+   "5731": "FC Bay Area Surf",
+   "6306": "Sacramento United",
+   "5774": "The Town FC Academy",
+   "9760": "Woodside Soccer Club Crush",
+   "5932": "De Anza Force",
+   "5832": "Lamorinda Soccer Club",
+   "9746": "Modesto Ajax United",
+   "9710": "ALBION SC Merced"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Southeast",
+  "teams": {
+   "9730": "Inter Atlanta FC",
+   "10507": "Chattanooga FC",
+   "9707": "AFC Lightning",
+   "10504": "Carolina Core FC",
+   "9654": "Charlotte Independence Soccer Club",
+   "5873": "Hoover-Vestavia Soccer",
+   "5757": "KSA",
+   "6146": "Lanier Soccer Association",
+   "9749": "Nashville United Soccer Academy (NUSA Next)",
+   "6063": "Queen City Mutiny FC",
+   "6322": "Southern Soccer Academy",
+   "6260": "Wake FC",
+   "6274": "Triangle United Soccer Association"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Southwest",
+  "teams": {
+   "6285": "ALBION SC San Diego",
+   "6008": "RSL Arizona",
+   "6048": "Strikers FC",
+   "6295": "Santa Barbara Soccer Club",
+   "5818": "Total Futbol Academy",
+   "9756": "SoCal Reds FC",
+   "6041": "Albion SC Los Angeles",
+   "6058": "City SC - San Diego",
+   "9740": "Los Angeles Bulls Soccer Club",
+   "6095": "Barca Residency Academy",
+   "6168": "FC Golden State Force",
+   "9743": "Los Angeles Sports Club",
+   "5862": "Phoenix Rising FC",
+   "5956": "LA Surf Soccer Club",
+   "5802": "Las Vegas Sports Academy",
+   "5779": "Albion SC Las Vegas",
+   "6174": "SC Del Sol",
+   "5670": "Chula Vista FC",
+   "5855": "City SC Southwest",
+   "6330": "Ventura County Fusion"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Central (Pro Player Pathway)",
+  "teams": {
+   "7224": "Colorado Rapids",
+   "7227": "Minnesota United FC",
+   "7266": "Chicago Fire FC",
+   "7223": "Columbus Crew",
+   "7197": "FC Cincinnati",
+   "5986": "St. Louis City SC",
+   "7261": "Sporting Kansas City"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Northeast (Pro Player Pathway)",
+  "teams": {
+   "6518": "Toronto FC",
+   "7229": "New York City FC",
+   "7273": "CF Montreal",
+   "7195": "Red Bull New York",
+   "7221": "D.C. United",
+   "5885": "Philadelphia Union",
+   "7247": "New England Revolution"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "Southeast (Pro Player Pathway)",
+  "teams": {
+   "7264": "Charlotte FC",
+   "7236": "Orlando City SC",
+   "2627": "Inter Miami CF",
+   "7242": "Houston Dynamo FC",
+   "5808": "FC Dallas",
+   "7356": "Austin FC",
+   "5702": "Atlanta United",
+   "7351": "Nashville SC"
+  }
+ },
+ {
+  "age": "U16",
+  "conf": "West (Pro Player Pathway)",
+  "teams": {
+   "7232": "Seattle Sounders FC",
+   "7208": "San Jose Earthquakes",
+   "7215": "LA Galaxy",
+   "7258": "Portland Timbers",
+   "6264": "Los Angeles Football Club",
+   "11117": "San Diego FC"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Florida",
+  "teams": {
+   "10492": "One FC",
+   "5949": "Athletum FC Academy",
+   "5968": "Miami Futbol Academy Rush",
+   "9751": "Orlando City Soccer School South",
+   "5789": "IMG",
+   "9728": "IdeaSport SA",
+   "5813": "Jacksonville FC",
+   "5788": "Seminole United",
+   "5714": "Weston FC",
+   "5847": "West Florida Flames",
+   "6132": "Tampa Bay United",
+   "5769": "South Florida Football Academy",
+   "5753": "Sol SC Florida"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Frontier",
+  "teams": {
+   "5927": "Houston Rangers",
+   "10488": "SGA",
+   "9667": "ALBION SC Colorado",
+   "6314": "Capital City SC",
+   "6156": "Dallas Hornets",
+   "7276": "FC Dallas",
+   "9691": "Tulsa Greenwood SC",
+   "6341": "GFI Academy",
+   "7152": "AC River"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Mid-America",
+  "teams": {
+   "10501": "Club Ohio",
+   "6033": "Sockers FC Chicago",
+   "5995": "Michigan Jaguars",
+   "6004": "Vardar Soccer Club",
+   "6252": "Midwest United FC",
+   "6240": "Chicago FC United",
+   "7166": "Hoosier Premier",
+   "7207": "Bavarian United SC",
+   "9661": "AC Grand Rapids",
+   "6218": "SC Wave",
+   "6116": "Indy Eleven",
+   "5698": "Michigan Wolves",
+   "6076": "Shattuck-St. Mary's",
+   "6228": "Lou Fusz Athletic",
+   "5992": "St. Louis Scott Gallagher",
+   "9715": "Cincinnati United Soccer Club"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Mid-Atlantic",
+  "teams": {
+   "9734": "Keystone FC",
+   "10465": "Penn Rising XI",
+   "6138": "Players Development Academy",
+   "7045": "Achilles FC",
+   "6090": "Sporting Athletic Club",
+   "5680": "FC DELCO",
+   "5891": "PA Classics",
+   "10495": "Coppermine SC",
+   "6178": "Bethesda SC",
+   "9673": "Northern Virginia Alliance",
+   "5665": "Real Futbol Academy",
+   "6162": "Springfield SYC",
+   "5880": "Cedar Stars Academy Monmouth",
+   "6238": "Baltimore Armour",
+   "6083": "Alexandria SA",
+   "7246": "Beadling SC",
+   "9649": "The Football Academy"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Northeast",
+  "teams": {
+   "9725": "FA Euro New York",
+   "5943": "New York SC",
+   "6188": "Beachside of Connecticut",
+   "5825": "Metropolitan Oval",
+   "9722": "Downtown United Soccer Club",
+   "5705": "Blau Weiss Gottschee",
+   "6100": "NEFC",
+   "5659": "FC Westchester",
+   "6070": "Cedar Stars Academy Bergen",
+   "5764": "FC Greater Boston Bolts",
+   "9704": "Ironbound Soccer Club",
+   "6106": "TSF Academy",
+   "9738": "The Island FC West",
+   "7275": "Valeo Futbol Club",
+   "5745": "Bayside FC",
+   "6026": "Intercontinental Football Academy of New England",
+   "10509": "Connecticut United FC",
+   "10471": "The Island FC East",
+   "6022": "Seacoast United"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Northwest",
+  "teams": {
+   "5894": "San Francisco Glens SC",
+   "5933": "De Anza Force",
+   "6211": "Silicon Valley Soccer Academy",
+   "5922": "Sacramento Republic FC",
+   "7216": "Lamorinda Soccer Club",
+   "9747": "Modesto Ajax United",
+   "6307": "Sacramento United",
+   "5775": "The Town FC Academy",
+   "9761": "Woodside Soccer Club Crush",
+   "7367": "FC Bay Area Surf",
+   "7046": "Atletico Santa Rosa",
+   "5965": "Ballistic United",
+   "9711": "ALBION SC Merced"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Southeast",
+  "teams": {
+   "9731": "Inter Atlanta FC",
+   "7249": "Triangle United Soccer Association",
+   "10505": "Carolina Core FC",
+   "9655": "Charlotte Independence Soccer Club",
+   "5874": "Hoover-Vestavia Soccer",
+   "10511": "Huntsville City FC",
+   "5758": "KSA",
+   "6147": "Lanier Soccer Association",
+   "7047": "Nashville United Soccer Academy (NUSA Next)",
+   "6064": "Queen City Mutiny FC",
+   "6323": "Southern Soccer Academy",
+   "6261": "Wake FC",
+   "9708": "AFC Lightning"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Southwest",
+  "teams": {
+   "6049": "Strikers FC",
+   "5819": "Total Futbol Academy",
+   "5672": "Chula Vista FC",
+   "5957": "LA Surf Soccer Club",
+   "9741": "Los Angeles Bulls Soccer Club",
+   "6286": "ALBION SC San Diego",
+   "7271": "Albion SC Las Vegas",
+   "9757": "SoCal Reds FC",
+   "6175": "SC Del Sol",
+   "6096": "Barca Residency Academy",
+   "9744": "Los Angeles Sports Club",
+   "5867": "Phoenix Rising FC",
+   "6042": "Albion SC Los Angeles",
+   "6007": "RSL Arizona",
+   "7201": "Las Vegas Sports Academy",
+   "6331": "Ventura County Fusion",
+   "6169": "FC Golden State Force",
+   "6296": "Santa Barbara Soccer Club",
+   "6059": "City SC - San Diego",
+   "5856": "City SC Southwest"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Central (Pro Player Pathway)",
+  "teams": {
+   "5985": "St. Louis City SC",
+   "2934": "Chicago Fire FC",
+   "5830": "FC Cincinnati",
+   "5673": "Minnesota United FC",
+   "7222": "Columbus Crew",
+   "6129": "Sporting Kansas City",
+   "5742": "Colorado Rapids"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Northeast (Pro Player Pathway)",
+  "teams": {
+   "6200": "D.C. United",
+   "5886": "Philadelphia Union",
+   "6222": "Toronto FC",
+   "5740": "Red Bull New York",
+   "5916": "New England Revolution",
+   "5642": "New York City FC",
+   "5984": "CF Montreal"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "Southeast (Pro Player Pathway)",
+  "teams": {
+   "2788": "Charlotte FC",
+   "6183": "Orlando City SC",
+   "5804": "FC Dallas",
+   "5703": "Atlanta United",
+   "1861": "Inter Miami CF",
+   "2089": "Nashville SC",
+   "6346": "Houston Dynamo FC",
+   "6197": "Austin FC"
+  }
+ },
+ {
+  "age": "U17",
+  "conf": "West (Pro Player Pathway)",
+  "teams": {
+   "6073": "Real Salt Lake",
+   "5902": "LA Galaxy",
+   "6017": "San Jose Earthquakes",
+   "5767": "Seattle Sounders FC",
+   "1265": "Portland Timbers",
+   "6263": "Los Angeles Football Club",
+   "6247": "Vancouver Whitecaps FC"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Florida",
+  "teams": {
+   "5755": "Sol SC Florida",
+   "5950": "Athletum FC Academy",
+   "6131": "Tampa Bay United",
+   "5967": "Miami Futbol Academy Rush",
+   "5791": "IMG",
+   "9729": "IdeaSport SA",
+   "5814": "Jacksonville FC",
+   "5790": "Seminole United",
+   "5715": "Weston FC",
+   "5770": "South Florida Football Academy",
+   "9752": "Orlando City Soccer School South",
+   "10494": "One FC",
+   "5848": "West Florida Flames"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Frontier",
+  "teams": {
+   "5928": "Houston Rangers",
+   "6342": "GFI Academy",
+   "9668": "ALBION SC Colorado",
+   "6313": "Capital City SC",
+   "6157": "Dallas Hornets",
+   "8105": "Tulsa Greenwood SC",
+   "10489": "SGA",
+   "7153": "AC River"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Mid-America",
+  "teams": {
+   "6032": "Sockers FC Chicago",
+   "6229": "Lou Fusz Athletic",
+   "5993": "St. Louis Scott Gallagher",
+   "6078": "Chicago FC United",
+   "6219": "SC Wave",
+   "7167": "Hoosier Premier",
+   "6005": "Vardar Soccer Club",
+   "9662": "AC Grand Rapids",
+   "5980": "Bavarian United SC",
+   "6251": "Midwest United FC",
+   "9716": "Cincinnati United Soccer Club",
+   "6117": "Indy Eleven",
+   "5699": "Michigan Wolves",
+   "6077": "Shattuck-St. Mary's",
+   "10502": "Club Ohio",
+   "5994": "Michigan Jaguars"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Mid-Atlantic",
+  "teams": {
+   "5892": "PA Classics",
+   "5681": "FC DELCO",
+   "6271": "Achilles FC",
+   "10466": "Penn Rising XI",
+   "6137": "Players Development Academy",
+   "6084": "Alexandria SA",
+   "8106": "Beadling SC",
+   "6091": "Sporting Athletic Club",
+   "6177": "Bethesda SC",
+   "9674": "Northern Virginia Alliance",
+   "5666": "Real Futbol Academy",
+   "6163": "Springfield SYC",
+   "6239": "Baltimore Armour",
+   "5881": "Cedar Stars Academy Monmouth",
+   "9735": "Keystone FC",
+   "9650": "The Football Academy",
+   "10496": "Coppermine SC"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Northeast",
+  "teams": {
+   "9739": "The Island FC West",
+   "6027": "Intercontinental Football Academy of New England",
+   "9726": "FA Euro New York",
+   "5944": "New York SC",
+   "6101": "NEFC",
+   "5826": "Metropolitan Oval",
+   "5746": "Bayside FC",
+   "5660": "FC Westchester",
+   "9719": "Connecticut United FC",
+   "5704": "Blau Weiss Gottschee",
+   "10472": "The Island FC East",
+   "6071": "Cedar Stars Academy Bergen",
+   "5765": "FC Greater Boston Bolts",
+   "9705": "Ironbound Soccer Club",
+   "6107": "TSF Academy",
+   "6023": "Seacoast United",
+   "10503": "Valeo Futbol Club",
+   "9723": "Downtown United Soccer Club",
+   "6189": "Beachside of Connecticut"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Northwest",
+  "teams": {
+   "7193": "Sacramento Republic FC",
+   "5893": "San Francisco Glens SC",
+   "6212": "Silicon Valley Soccer Academy",
+   "5934": "De Anza Force",
+   "5734": "FC Bay Area Surf",
+   "9748": "Modesto Ajax United",
+   "6308": "Sacramento United",
+   "5776": "The Town FC Academy",
+   "9762": "Woodside Soccer Club Crush",
+   "5966": "Ballistic United",
+   "5906": "Atletico Santa Rosa",
+   "9712": "ALBION SC Merced",
+   "5831": "Lamorinda Soccer Club"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Southeast",
+  "teams": {
+   "9732": "Inter Atlanta FC",
+   "6275": "Triangle United Soccer Association",
+   "10506": "Carolina Core FC",
+   "9656": "Charlotte Independence Soccer Club",
+   "5875": "Hoover-Vestavia Soccer",
+   "5759": "KSA",
+   "6148": "Lanier Soccer Association",
+   "8109": "Nashville United Soccer Academy (NUSA Next)",
+   "6065": "Queen City Mutiny FC",
+   "6324": "Southern Soccer Academy",
+   "6262": "Wake FC",
+   "9709": "AFC Lightning"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Southwest",
+  "teams": {
+   "9758": "SoCal Reds FC",
+   "9745": "Los Angeles Sports Club",
+   "6050": "Strikers FC",
+   "6044": "City SC - San Diego",
+   "6043": "Albion SC Los Angeles",
+   "5820": "Total Futbol Academy",
+   "6332": "Ventura County Fusion",
+   "5675": "Chula Vista FC",
+   "6287": "ALBION SC San Diego",
+   "5958": "LA Surf Soccer Club",
+   "5869": "Phoenix Rising FC",
+   "6097": "Barca Residency Academy",
+   "6170": "FC Golden State Force",
+   "5857": "City SC Southwest",
+   "6176": "SC Del Sol",
+   "9742": "Los Angeles Bulls Soccer Club",
+   "7202": "Las Vegas Sports Academy",
+   "7272": "Albion SC Las Vegas",
+   "6291": "Santa Barbara Soccer Club",
+   "6006": "RSL Arizona"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Central (Pro Player Pathway)",
+  "teams": {
+   "7226": "Colorado Rapids",
+   "7198": "FC Cincinnati",
+   "5851": "Chicago Fire FC",
+   "6130": "Sporting Kansas City",
+   "7204": "St. Louis City SC",
+   "5671": "Minnesota United FC",
+   "7230": "Columbus Crew"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Northeast (Pro Player Pathway)",
+  "teams": {
+   "7219": "Philadelphia Union",
+   "5917": "New England Revolution",
+   "7375": "CF Montreal",
+   "7196": "Red Bull New York",
+   "7240": "D.C. United",
+   "7244": "Toronto FC",
+   "7228": "New York City FC"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "Southeast (Pro Player Pathway)",
+  "teams": {
+   "7263": "Charlotte FC",
+   "7373": "Austin FC",
+   "7241": "Atlanta United",
+   "7350": "Nashville SC",
+   "7237": "Orlando City SC",
+   "2760": "Inter Miami CF",
+   "5803": "FC Dallas",
+   "7260": "Houston Dynamo FC"
+  }
+ },
+ {
+  "age": "U19",
+  "conf": "West (Pro Player Pathway)",
+  "teams": {
+   "7250": "Real Salt Lake",
+   "7209": "San Jose Earthquakes",
+   "7231": "Seattle Sounders FC",
+   "7257": "Portland Timbers",
+   "7214": "LA Galaxy",
+   "7265": "Los Angeles Football Club",
+   "7376": "Vancouver Whitecaps FC"
+  }
+ }
+]
