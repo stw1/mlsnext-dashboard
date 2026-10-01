@@ -17,6 +17,7 @@ header h1{margin:0;font-size:28px;line-height:1.2;letter-spacing:-.01em}
 .prog{display:inline-flex;align-items:center;gap:8px}.prog i{display:block;width:110px;height:6px;border-radius:3px;background:rgba(255,255,255,.2);overflow:hidden}.prog b{display:block;height:100%;background:var(--teal)}
 .follow{display:flex;align-items:center;gap:8px;font-size:13px;color:#e2e8f0;font-weight:500}
 .follow select{border-color:rgba(255,255,255,.3);min-width:200px}
+.share{border:1px solid rgba(255,255,255,.4);background:transparent;color:#fff;border-radius:7px;padding:6px 12px;font:inherit;font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap}.share:hover{background:rgba(255,255,255,.12)}
 .ctl{justify-content:flex-start;margin-bottom:12px}
 .ppp{font-size:11.5px;font-weight:600;background:#fef3c7;color:#78350f;border-radius:6px;padding:2px 8px;display:none}
 .find{position:relative}.find input{width:230px;padding:6px 10px;border:1px solid rgba(255,255,255,.3);border-radius:7px;font:inherit;font-size:13px}
@@ -137,7 +138,8 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="titlerow"><h1 id="bracket"></h1><span class="ppp" id="ppp">Pro Player Pathway</span><div class="ages" id="ages" aria-label="Age group"></div></div>
 <div class="hrow ctl"><label class="follow">Conference <select id="confSel"></select></label>
 <div class="find"><input id="findQ" type="search" placeholder="Find any team" autocomplete="off" aria-label="Find any team"><div class="find-r" id="findR" role="listbox"></div></div>
-<label class="follow">Follow a team <select id="myTeam"><option value="">None</option></select></label></div>
+<label class="follow">Follow a team <select id="myTeam"><option value="">None</option></select></label>
+<button class="share" id="share" type="button" title="Share a link to this page, with the team you follow highlighted">Share link</button></div>
 <div class="meta" id="meta"></div>
 </div></header>
 <nav><div class="wrap"><a href="#s-table">Standings</a><a href="#s-h2h">Who beat who</a><a href="#s-power">Power rankings</a><a href="#s-results">Results</a><a href="#s-upcoming">Upcoming games</a><a href="#s-acc">Accuracy</a><a href="#s-about">How it works</a></div></nav>
@@ -193,6 +195,10 @@ function pickBracket(){const a=qs.get("age"),c=qs.get("conf");
 const B=pickBracket();
 try{localStorage.setItem("bracket",JSON.stringify({age:B.age,conf:B.conf}))}catch(e){}
 const bracketUrl=(b,extra="")=>`?age=${b.age}&conf=${slugC(b.conf)}${extra}`;
+// teams in links use a readable slug (&team=ballistic-united); the older &follow=<squad id> still works
+const slugT=n=>n.toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const teamBySlug=(b,s)=>s?Object.keys(b.teams).find(id=>id===s||slugT(b.teams[id])===slugT(s)):undefined;
+const pageUrl=(b,team)=>bracketUrl(b,team?`&team=${slugT(b.teams[team])}`:"");
 document.title=`MLS NEXT Homegrown Division · ${B.age} ${B.conf} Conference`;
 const RAW=B.raw,TEAMS=B.teams,SNAP=DATA.snap;
 // kickoff times arrive in UTC ("2026-10-03T16:00Z"); show them in the viewer's time zone. Date-only = time not set.
@@ -276,8 +282,12 @@ const order=tbl.map(t=>t.c),rank=Object.fromEntries(order.map((c,k)=>[c,k+1]));
 const involves=(g,c)=>g.h===c||g.a===c;
 // "Follow a team": remembered per bracket in this browser
 const MYKEY="myteam:"+document.title;let myTeam="";try{myTeam=localStorage.getItem(MYKEY)||""}catch(e){}
-if(TEAMS[qs.get("follow")]){myTeam=qs.get("follow");try{localStorage.setItem(MYKEY,myTeam)}catch(e){}history.replaceState(null,"",bracketUrl(B))}
+// a team in the link wins and becomes this browser's followed team for the bracket
+const linked=teamBySlug(B,qs.get("team")||qs.get("follow"));if(linked){myTeam=linked;try{localStorage.setItem(MYKEY,myTeam)}catch(e){}}
 if(!TEAMS[myTeam])myTeam="";
+// keep the address bar in step with the bracket and followed team, so copying it shares exactly this view
+const syncUrl=()=>{try{history.replaceState(null,"",pageUrl(B,myTeam)+location.hash)}catch(e){}};
+syncUrl();
 const showNote=(id,on)=>{const el=$(id);el.style.display=on?"block":"none";if(on)el.innerHTML=`Showing <b>${nm(myTeam)}</b> games only. Change this with “Follow a team” at the top.`};
 
 // Header
@@ -285,7 +295,7 @@ $("bracket").textContent=`${B.age} ${baseConf(B.conf)} Conference`;
 if(B.conf!==baseConf(B.conf))$("ppp").style.display="inline-block";
 // age tabs keep the conference when that age has it (else its regular version for Pro Player Pathway, else the default)
 const ages=[...new Set(DATA.brackets.map(b=>b.age))];
-$("ages").innerHTML=ages.map(a=>{const b=findB(a,B.conf)||findB(a,baseConf(B.conf))||findB(a,DATA.default.conf)||DATA.brackets.find(x=>x.age===a);return`<a href="${bracketUrl(b)}"${a===B.age?' class="on" aria-current="page"':""}>${a}</a>`}).join("");
+const drawTabs=()=>{$("ages").innerHTML=ages.map(a=>{const b=findB(a,B.conf)||findB(a,baseConf(B.conf))||findB(a,DATA.default.conf)||DATA.brackets.find(x=>x.age===a);return`<a href="${pageUrl(b,myTeam&&teamBySlug(b,nm(myTeam)))}"${a===B.age?' class="on" aria-current="page"':""}>${a}</a>`}).join("")};drawTabs();
 $("confSel").innerHTML=DATA.brackets.filter(b=>b.age===B.age).map(b=>`<option value="${slugC(b.conf)}"${b===B?" selected":""}>${b.conf}</option>`).join("");
 $("confSel").onchange=e=>{location.search=`?age=${B.age}&conf=${e.target.value}`};
 // find any team across every bracket; picking one opens its bracket and follows it
@@ -294,7 +304,7 @@ let findSel=0;
 function drawFind(){const q=$("findQ").value.trim().toLowerCase(),r=$("findR");if(q.length<2){r.style.display="none";return}
  const ws=q.split(/\s+/),hits=ALLT.filter(t=>ws.every(w=>t.l.includes(w))).sort((x,y)=>x.n.localeCompare(y.n)||parseInt(x.b.age.slice(1))-parseInt(y.b.age.slice(1))).slice(0,25);
  findSel=Math.min(findSel,Math.max(0,hits.length-1));
- r.innerHTML=hits.map((t,i)=>`<a href="${bracketUrl(t.b,"&follow="+t.id)}"${i===findSel?' class="sel"':""} role="option">${t.n}<span>${t.b.age} · ${t.b.conf.replace("Pro Player Pathway","PPP")}</span></a>`).join("")||`<div class="none">No team matches “${$("findQ").value}”.</div>`;
+ r.innerHTML=hits.map((t,i)=>`<a href="${pageUrl(t.b,t.id)}"${i===findSel?' class="sel"':""} role="option">${t.n}<span>${t.b.age} · ${t.b.conf.replace("Pro Player Pathway","PPP")}</span></a>`).join("")||`<div class="none">No team matches “${$("findQ").value}”.</div>`;
  r.style.display="block"}
 $("findQ").oninput=()=>{findSel=0;drawFind()};$("findQ").onfocus=drawFind;
 $("findQ").onkeydown=e=>{const links=$("findR").querySelectorAll("a");
@@ -431,7 +441,11 @@ function drawAcc(){const more=$("accMore");
 $("accMore").onclick=()=>{allAcc=!allAcc;drawAcc()};
 
 function drawAll(){drawStand();drawH2H();drawPower();drawResults();drawPreds();drawAcc()}
-$("myTeam").onchange=e=>{myTeam=e.target.value;pin=null;try{localStorage.setItem(MYKEY,myTeam)}catch(err){}drawAll()};
+$("myTeam").onchange=e=>{myTeam=e.target.value;pin=null;try{localStorage.setItem(MYKEY,myTeam)}catch(err){}syncUrl();drawAll();drawTabs()};
+// share this exact view: the phone share sheet where there is one, else copy the link
+$("share").onclick=async()=>{const url=location.href,btn=$("share"),title=myTeam?`${nm(myTeam)} · ${B.age} ${B.conf}`:`${B.age} ${B.conf} Conference`;
+ if(navigator.share&&matchMedia("(pointer:coarse)").matches){try{await navigator.share({title,url});return}catch(err){if(err.name==="AbortError")return}}
+ try{await navigator.clipboard.writeText(url);btn.textContent="Link copied ✓";setTimeout(()=>btn.textContent="Share link",2000)}catch(err){prompt("Copy this link:",url)}};
 drawAll();
 window.__debug={predict,fit,future,SIMS,mu,hadv,att,def,rho,power,tbl,first,simPts,bt};
 </script></body></html>

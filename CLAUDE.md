@@ -29,7 +29,8 @@ index.html                         built output with every bracket embedded (ser
 - **Publish by hand:** `git pull` first (the bot commits too), then `git add -A && git commit -m "..." && git push`. GitHub Pages serves
   https://stw1.github.io/mlsnext-dashboard/ from the `main` branch root (repo `stw1/mlsnext-dashboard`).
   Link to a bracket with `?age=U15&conf=southwest` (conf is the name lowercased, spaces → dashes, parentheses dropped,
-  e.g. `west-pro-player-pathway`). `?age=U13` alone uses the last or default conference.
+  e.g. `west-pro-player-pathway`). `?age=U13` alone uses the last or default conference. Add `&team=ballistic-united`
+  to highlight a team.
 
 ## Data source
 The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe from
@@ -83,8 +84,11 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   `__TITLE__`, `__SEASON__` (from the season key, e.g. "2026–27 season").
 - Bracket choice: `pickBracket()` runs once at load (`?age=&conf=` → last bracket viewed, saved in localStorage as
   `bracket` → `default`); everything after runs exactly as for a single bracket. Age tabs and the conference picker
-  reload the page. "Find any team" searches all brackets and links with `&follow=<squad_id>`, which sets the
-  followed team and is then removed from the URL.
+  reload the page. "Find any team" searches all brackets.
+- Team links: `&team=<slug>` (name lowercased, non-letters → dashes, e.g. `ballistic-united`; a squad id also works,
+  as does the older `&follow=<squad_id>`). A linked team becomes that browser's followed team for the bracket.
+  `syncUrl()` keeps the address bar equal to bracket + followed team, so copying it (or "Share link", which uses
+  the phone share sheet or the clipboard) shares exactly that view. Age tabs carry the same club to other ages.
 - Team short names (used on phones and in column headers) come from the `SHORT` map in the template (~95 clubs,
   covering every name the regex fallback made too long or too terse). New clubs fall back to the regex.
 - "Follow a team" is saved in the browser's localStorage, keyed by page title, so each bracket remembers its own team.
