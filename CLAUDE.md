@@ -65,6 +65,11 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - The dashboard must stay a **single self-contained HTML file**, with no external scripts or
   fetches. It is also published as a Claude Cowork artifact, which blocks network access.
 - Dates in the CSV are in local Pacific time (`--tz`). Games without a set time store the date only.
+- Template placeholders filled by `refresh.py`: `__RAW__`, `__TEAMS__`, `__SNAP__`, `__TITLE__`,
+  `__BRACKET__` (e.g. "U14 Northwest Conference"), `__SEASON__` (from the season key, e.g. "2026–27 season").
+- Team short names (used on phones and in column headers) come from the `SHORT` map in the template, with a
+  regex fallback for brackets that aren't in the map.
+- "Follow a team" is saved in the browser's localStorage, keyed by page title, so each bracket remembers its own team.
 - `window.__debug` in the page exposes the model internals for testing in node or the browser console.
 - Snapshot in this export: **2026-09-30**, with 23 of 182 U14 Northwest games played.
 
