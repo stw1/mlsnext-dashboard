@@ -27,7 +27,7 @@ table:not(.h2h) tr:hover td{background:#f9fafb}
 .h2h th.col{width:69px;min-width:69px;white-space:normal;vertical-align:bottom;font-size:11px;line-height:1.2;color:var(--ink);font-weight:600;padding:4px 3px 8px;border-bottom:2px solid var(--line)}
 .h2h .rk{color:var(--mut);font-weight:500;font-size:11px}.h2h th.col .rk{display:block;margin-bottom:1px}
 .h2h th.team{position:sticky;left:0;z-index:2;background:#fff;text-align:left;font-size:13px;color:var(--ink);font-weight:600;padding:3px 14px 3px 2px;cursor:pointer;border-bottom:1px solid var(--line)}
-.h2h th.team .rk{display:inline-block;width:22px}.h2h .short{display:none}
+.h2h th.team .rk{display:inline-block;width:22px}.short{display:none}
 .h2h td{padding:4px 3px}.h2h .pair{display:flex;gap:3px;justify-content:center}
 .h2h td.self{background:repeating-linear-gradient(135deg,#f3f4f6 0 5px,#fff 5px 10px)}
 table.h2h td.on,table.h2h th.team.on{background:#eef4fb}table.h2h th.on{color:var(--acc)}table.h2h th.col.on{border-bottom-color:var(--acc)}
@@ -36,7 +36,19 @@ table.h2h td.focus{background:#dbe8f7}
 #tip .tt-h{font-weight:700;font-size:13px;margin-bottom:6px}#tip .tt-h span{color:var(--mut);font-weight:400}
 #tip .tt-g{display:flex;gap:10px;align-items:flex-start;padding:5px 0;border-top:1px solid var(--line)}#tip small{color:var(--mut)}
 .hint{font-size:12px;color:var(--mut);margin-top:10px}
-@media(max-width:700px){.h2h .full{display:none}.h2h .short{display:inline}.h2h th.team{font-size:12px;padding-right:6px}.h2h th.team .rk{width:17px}.h2h th.col{width:64px;min-width:64px}.chip{width:28px}}
+.st-scroll{overflow-x:auto}table.st td{font-variant-numeric:tabular-nums;padding:7px 9px}
+.st th{text-transform:none;font-size:12px;cursor:default;padding:6px 9px}.st th[data-k]{cursor:pointer;user-select:none}.st th[data-k]:hover,.st th.sorted{color:var(--ink)}
+.st tr.grp th{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;font-weight:700;color:#94a3b8;border-bottom:0;padding:2px 9px 0}.st tr.grp th.pj{color:#0f766e}
+.st .team{position:sticky;left:0;z-index:1;background:#fff;text-align:left;font-weight:600;font-size:13.5px;padding-right:16px}.st th.team{font-size:12px;font-weight:600}
+.st .team .rk{display:inline-block;width:24px;color:var(--mut);font-weight:500;font-size:12px}
+.st td.pts{font-weight:800;font-size:15px}.st th.pts,.st td.pts{background:#f8fafc}
+.st .mut{color:var(--mut)}.st .gd.pos{color:#15803d}.st .gd.neg{color:#b91c1c}
+.st .pj{background:#f7fcfb}.st .div{border-left:2px solid #e2e8f0}.st tr.grp th.pj{background:transparent}
+table.st tbody tr:hover td{background:#f1f5f9}
+.st .form span{width:20px;height:20px;line-height:20px;cursor:default}
+.pbar{display:inline-flex;align-items:center;gap:7px}.pbar i{display:block;width:46px;height:6px;border-radius:3px;background:#e2e8f0;overflow:hidden}.pbar i b{display:block;height:100%;background:var(--teal);border-radius:3px}.pbar>span{min-width:30px;text-align:right;font-size:12.5px}
+.key{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:11.5px;color:var(--mut);margin-top:10px}.key b{color:#374151;font-weight:600}
+@media(max-width:700px){.full{display:none}.short{display:inline}.st td.team,.st th.team{padding-right:6px}.st .team .rk{width:21px}.h2h th.team{font-size:12px;padding-right:6px}.h2h th.team .rk{width:17px}.h2h th.col{width:64px;min-width:64px}.chip{width:28px}}
 .probbar{display:flex;height:16px;width:180px;border-radius:4px;overflow:hidden;font-size:10px;color:#fff;font-weight:600}
 .probbar div{display:flex;align-items:center;justify-content:center;overflow:hidden}
 .ph{background:#0b2a4a}.pd{background:#9ca3af}.pa{background:#14b8a6}
@@ -51,9 +63,10 @@ table.h2h td.focus{background:#dbe8f7}
 <p id="meta"></p></header>
 <main>
 <div class="kpis" id="kpis"></div>
-<div class="card"><h2>Standings, power ratings &amp; season projection</h2>
-<div class="sub">Actual table from completed league games, plus model rating and 10,000-run simulation of the remaining schedule. Click a column header to sort.</div>
-<table id="standings"></table></div>
+<div class="card"><h2>Standings &amp; projected finish</h2>
+<div class="sub">The league table from games played so far, plus where the model expects each team to finish after simulating the rest of the season 10,000 times. Click a column heading to sort.</div>
+<div class="st-scroll"><table class="st" id="standings"></table></div>
+<div class="key"><span><b>MP</b> matches played</span><span><b>Goals</b> scored–conceded</span><span><b>GD</b> goal difference</span><span><b>Pts/G</b> points per game, which breaks ties when teams have played different numbers of games</span><span><b>Last 5</b> oldest → newest; hover for the score</span><span><b>Proj. pts</b> expected points at season end</span></div></div>
 <div class="card"><h2>Who beat who</h2>
 <div class="sub">Find a team on the left and read across. Each box is one game against the team at the top of the column, with the left-hand team's score first. Every pair plays twice, so there are two boxes, in date order.</div>
 <div class="h2h-top"><div class="legend" id="h2hLegend"></div>
@@ -104,7 +117,6 @@ function predict(h,a){const[lh,la]=lam(h,a);let pH=0,pD=0,pA=0,best=[0,0,0];
  else{let bp=0;for(let x=0;x<=6;x++){const p=pois(x,lh)*pois(x,la);if(p>bp){bp=p;sc=[x,x];}}}
  return{lh,la,pH,pD,pA,pick,margin,sc,conf:pick==="Draw"?0:Math.max(pH,pA)};}
 const power=codes.map(c=>{const i=ix[c];const gf=Math.exp(mu+att[i]),ga=Math.exp(mu-def[i]);return{c,gf,ga,net:gf-ga}}).sort((a,b)=>b.net-a.net);
-const prank=Object.fromEntries(power.map((p,k)=>[p.c,k+1]));
 
 // ---- actual table ----
 function table(list){const T=Object.fromEntries(codes.map(c=>[c,{c,mp:0,w:0,d:0,l:0,gf:0,ga:0,pts:0,form:[]}]));
@@ -133,19 +145,27 @@ const ldr=tbl[0],bestA=tbl.slice().sort((a,b)=>b.gf/b.mp-a.gf/a.mp)[0],bestD=tbl
 const fav=codes.slice().sort((a,b)=>first[b]-first[a])[0];const big=played.slice().sort((a,b)=>Math.abs(b.hs-b.as)-Math.abs(a.hs-a.as))[0];
 $("kpis").innerHTML=[["Table leader (points)",nm(ldr.c),`${ldr.pts} pts from ${ldr.mp} · GD ${ldr.gd>0?"+":""}${ldr.gd}`],["#1 power rating",nm(power[0].c),`+${power[0].net.toFixed(2)} goals/game vs avg`],["Title favourite",nm(fav),`${pct(first[fav]/SIMS)} to finish 1st`],["Best attack",nm(bestA.c),`${(bestA.gf/bestA.mp).toFixed(2)} goals/game`],["Best defense",nm(bestD.c),`${(bestD.ga/bestD.mp).toFixed(2)} conceded/game`],["Biggest win",`${nm(big.h)} ${big.hs}–${big.as} ${nm(big.a)}`,fmtDate(big.dt)]].map(([l,v,s])=>`<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join("");
 
+const SHORT={"ALBION SC Merced":"Albion Merced","Atletico Santa Rosa":"Atl. Santa Rosa","Ballistic United":"Ballistic","De Anza Force":"De Anza","FC Bay Area Surf":"Bay Area Surf","Lamorinda Soccer Club":"Lamorinda","Modesto Ajax United":"Modesto Ajax","Sacramento Republic FC":"Sac Republic","Sacramento United":"Sac United","San Francisco Glens SC":"SF Glens","San Jose Earthquakes":"SJ Quakes","Silicon Valley Soccer Academy":"SVSA","The Town FC Academy":"The Town","Woodside Soccer Club Crush":"Woodside"};
+const short=c=>{const n=nm(c);return SHORT[n]||n.replace(/San Francisco/,"SF").replace(/San Jose/,"SJ").replace(/Sacramento/,"Sac").replace(/\b(Soccer|Club|Academy|FC|SC|The)\b/g,"").replace(/\s+/g," ").trim()||n};
+const teamName=c=>`<span class="full">${nm(c)}</span><span class="short">${short(c)}</span>`;
+
 // Standings (sortable)
-const srows=tbl.map((t,k)=>({rk:k+1,...t,pr:prank[t.c],net:power.find(p=>p.c===t.c).net,proj:simPts[t.c]/SIMS,p1:first[t.c]/SIMS,p4:top4[t.c]/SIMS}));
-const cols=[["rk","#"],["c","Team",1],["mp","MP"],["w","W"],["d","D"],["l","L"],["gf","GF"],["ga","GA"],["gd","GD"],["pts","Pts"],["ppm","PPM"],["form","Form"],["pr","Power #"],["proj","Proj. pts"],["p4","Top 4"],["p1","1st"]];
+const srows=tbl.map((t,k)=>({rk:k+1,...t,proj:simPts[t.c]/SIMS,p1:first[t.c]/SIMS,p4:top4[t.c]/SIMS}));
+// [key, label, class, tooltip]; no key = not sortable
+const cols=[["rk","Team","t team"],["mp","MP","","Matches played"],["w","W","","Wins"],["d","D","","Draws"],["l","L","","Losses"],["gf","Goals","","Goals scored–conceded"],["gd","GD","","Goal difference"],["pts","Pts","pts","Points: 3 for a win, 1 for a draw"],["ppm","Pts/G","","Points per game"],["","Last 5","","Last five results, oldest to newest"],
+ ["proj","Proj. pts","pj div","Expected points at the end of the season"],["p4","Top 4","pj","Chance of finishing in the top four"],["p1","1st","pj","Chance of finishing first"]];
+const pbar=x=>`<span class="pbar"><i><b style="width:${x*100}%"></b></i><span>${x>0&&x<.005?"<1%":pct(x)}</span></span>`;
+const last5=c=>played.filter(g=>g.h===c||g.a===c).slice(-5).map(g=>{const v=fromRow(g,c),R=v.res.toUpperCase();
+ return`<span class="${R}" title="${{w:"Won",d:"Drew",l:"Lost"}[v.res]} ${v.f}–${v.a} ${v.home?"vs":"at"} ${nm(v.home?g.a:g.h)} · ${fmtDate(g.dt).split(" · ")[0]}">${R}</span>`}).join("");
 let sortK="rk",sortDir=1;
-function drawStand(){const r=srows.slice().sort((a,b)=>{const x=a[sortK],y=b[sortK];return(typeof x==="string"?x.localeCompare(y):x-y)*sortDir});
- $("standings").innerHTML="<tr>"+cols.map(([k,l,t])=>`<th class="${t?"t":""}" data-k="${k}">${l}${sortK===k?(sortDir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr>"+
- r.map(t=>`<tr><td>${t.rk}</td><td class="t"><b>${nm(t.c)}</b></td><td>${t.mp}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td>${t.gf}</td><td>${t.ga}</td><td>${t.gd>0?"+":""}${t.gd}</td><td><b>${t.pts}</b></td><td>${t.ppm.toFixed(2)}</td><td class="form">${t.form.slice(-5).map(f=>`<span class="${f}">${f}</span>`).join("")}</td><td>${t.pr}</td><td>${t.proj.toFixed(1)}</td><td>${pct(t.p4)}</td><td>${pct(t.p1)}</td></tr>`).join("");
- document.querySelectorAll("#standings th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(k==="form")return;if(sortK===k)sortDir*=-1;else{sortK=k;sortDir=["rk","c","l","ga","pr"].includes(k)?1:-1}drawStand()});}
+function drawStand(){const r=srows.slice().sort((a,b)=>(a[sortK]-b[sortK])*sortDir||a.rk-b.rk);
+ $("standings").innerHTML=`<thead><tr class="grp"><th class="team"></th><th colspan="9">Table so far</th><th colspan="3" class="pj div">Projected finish</th></tr><tr>`+
+  cols.map(([k,l,c,tip])=>`<th class="${c}${k===sortK?" sorted":""}"${k?` data-k="${k}"`:""}${tip?` title="${tip}"`:""}>${l}${k===sortK?(sortDir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr></thead><tbody>"+
+  r.map(t=>`<tr><td class="t team"><span class="rk">${t.rk}</span>${teamName(t.c)}</td><td>${t.mp}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td class="mut">${t.gf}–${t.ga}</td><td class="gd${t.gd>0?" pos":t.gd<0?" neg":""}">${t.gd>0?"+":""}${t.gd}</td><td class="pts">${t.pts}</td><td class="mut">${t.ppm.toFixed(2)}</td><td class="form">${last5(t.c)}</td><td class="pj div">${t.proj.toFixed(0)}</td><td class="pj">${pbar(t.p4)}</td><td class="pj">${pbar(t.p1)}</td></tr>`).join("")+"</tbody>";
+ document.querySelectorAll("#standings th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(sortK===k)sortDir*=-1;else{sortK=k;sortDir=["rk","l"].includes(k)?1:-1}drawStand()});}
 drawStand();
 
 // H2H matrix
-const SHORT={"ALBION SC Merced":"Albion Merced","Atletico Santa Rosa":"Atl. Santa Rosa","Ballistic United":"Ballistic","De Anza Force":"De Anza","FC Bay Area Surf":"Bay Area Surf","Lamorinda Soccer Club":"Lamorinda","Modesto Ajax United":"Modesto Ajax","Sacramento Republic FC":"Sac Republic","Sacramento United":"Sac United","San Francisco Glens SC":"SF Glens","San Jose Earthquakes":"SJ Quakes","Silicon Valley Soccer Academy":"SVSA","The Town FC Academy":"The Town","Woodside Soccer Club Crush":"Woodside"};
-const short=c=>{const n=nm(c);return SHORT[n]||n.replace(/San Francisco/,"SF").replace(/San Jose/,"SJ").replace(/Sacramento/,"Sac").replace(/\b(Soccer|Club|Academy|FC|SC|The)\b/g,"").replace(/\s+/g," ").trim()||n};
 const order=tbl.map(t=>t.c),rank=Object.fromEntries(order.map((c,k)=>[c,k+1]));
 const meet={};for(const g of games)for(const k of[g.h+"|"+g.a,g.a+"|"+g.h])(meet[k]=meet[k]||[]).push(g);
 // one game seen from team r's side
