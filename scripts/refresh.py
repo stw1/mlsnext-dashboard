@@ -9,7 +9,7 @@ Refresh MLS NEXT data and rebuild the dashboard.
 Python 3.9+ standard library only (no pip installs).
 """
 import argparse, csv, json, os, re, sys, urllib.request
-from datetime import datetime, timezone, date
+from datetime import datetime
 from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -96,7 +96,7 @@ if __name__ == "__main__":
         teams, rows, meta = load(a.age, a.conference)
     else:
         teams, rows, synced = fetch(a.age, a.conference, a.season, a.tz)
-        meta = {"snapshot": date.today().isoformat(), "synced_at": synced, "age_group": a.age,
+        meta = {"snapshot": datetime.now(ZoneInfo(a.tz)).date().isoformat(), "synced_at": synced, "age_group": a.age,
                 "conference": a.conference, "season_key": a.season}
         save(a.age, a.conference, teams, rows, meta)
     build(a.age, a.conference, teams, rows, meta)

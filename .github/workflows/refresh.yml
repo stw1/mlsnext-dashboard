@@ -1,0 +1,43 @@
+name: Refresh scores
+
+on:
+  schedule:
+    # Cron times are UTC. Pacific is UTC-7 in PDT (Mar–Nov) and UTC-8 in PST, so in winter
+    # each run lands an hour earlier in Pacific time than the comments below.
+    - cron: "0 20 * * 6,0"   # Sat & Sun ~1 pm Pacific
+    - cron: "0 0,4 * * 0,1"  # Sat & Sun ~5 pm and ~9 pm Pacific (next day in UTC)
+    - cron: "0 16 * * 1,2"   # Mon & Tue ~9 am Pacific, for late-entered scores
+  workflow_dispatch:         # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch latest data and rebuild
+        run: python3 scripts/refresh.py
+      - name: Publish if scores or schedule changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data/*_games.csv; then
+            echo "No new scores or schedule changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Refresh scores ($(TZ=America/Los_Angeles date +%Y-%m-%d))"
+          git push
+          # Pushes made with the workflow token may not trigger a Pages build on their own
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true

@@ -23,7 +23,11 @@ index.html                         copy of the U14 Northwest dashboard (served b
   (if the conference name is wrong, the script prints the valid names)
 - **Rebuild without network** (for example, after editing the template): `python3 scripts/refresh.py --offline`
 - Open `dashboards/U14_Northwest_dashboard.html` in a browser to check the result.
-- **Publish:** `git add -A && git commit -m "Refresh scores" && git push`. GitHub Pages serves
+- **Auto-refresh:** `.github/workflows/refresh.yml` runs `refresh.py` on GitHub Actions Sat & Sun (~1, 5, 9 pm
+  Pacific) and Mon & Tue (~9 am), and commits + pushes only when `data/*_games.csv` changed. Run it on demand from
+  the repo's Actions tab ("Refresh scores" → "Run workflow") or `gh workflow run refresh.yml`.
+  GitHub pauses scheduled workflows in public repos after 60 days with no commits; re-enable on the Actions tab.
+- **Publish by hand:** `git pull` first (the bot commits too), then `git add -A && git commit -m "..." && git push`. GitHub Pages serves
   https://stw1.github.io/mlsnext-dashboard/ from the `main` branch root (repo `stw1/mlsnext-dashboard`).
   Other brackets are at `/dashboards/<AGE>_<CONF>_dashboard.html` on the same site.
 
