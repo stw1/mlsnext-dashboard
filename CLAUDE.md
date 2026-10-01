@@ -62,6 +62,9 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - Season sim: 10k Monte Carlo runs with a seeded random number generator (so results are
   reproducible). Ranking uses points, then goal difference, then goals for. Outputs: projected
   points, chance of a top-4 finish, chance of finishing 1st.
+- Accuracy check ("How accurate are the predictions?"): a walk-forward backtest. For each weekend it calls
+  `fit()` on only the earlier games, predicts that weekend with `predict(h, a, model)`, and compares with the result.
+  It needs no logging, but it scores the *current* model code, so changing the model changes past accuracy too.
 - Standings sort: points, then points per match, then goal difference per match, then goals for
   (this matches the feed's tiebreaker list).
 
@@ -81,4 +84,4 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - Add Flex and out-of-conference results to give the model more data
 - Add a dropdown for age group and conference inside one dashboard
 - Weight recent games more heavily; add a Dixon-Coles adjustment for low-scoring draws
-- Track prediction accuracy (log predictions before each weekend, compare after)
+- Predict draws: the pick is never "draw" unless home/away are within 5%, so draws always count as misses in the accuracy check

@@ -96,10 +96,19 @@ table.st tbody tr.me td,table.st tbody tr.me:hover td{background:#fef9c3}
 .pb{display:flex;height:20px;border-radius:5px;overflow:hidden;font-size:11px;color:#fff;font-weight:700}.pb>div{display:flex;align-items:center;justify-content:center;overflow:hidden}
 .m-pick{font-size:13px;font-weight:600}.m-pick small{display:block;color:var(--mut);font-size:12px;font-weight:400;margin-top:1px}
 .tag{display:inline-block;font-style:normal;padding:1px 7px;border-radius:10px;font-size:11px;font-weight:600;margin-right:4px}.t-s{background:#ccfbf1;color:#115e59}.t-l{background:#e0f2fe;color:#075985}.t-t{background:#f3f4f6;color:#4b5563}
+/* accuracy */
+.acc-k{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px}.acc-k .kpi{background:#f8fafc}
+.acc-two{display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;align-items:start}
+#accTier td,#accTier th{padding:6px 8px}#accTier td:first-child{text-align:left}
+#accGames td{padding:7px 6px}#accGames .hm{text-align:right;white-space:normal}#accGames .aw{text-align:left;white-space:normal}
+#accGames .said{text-align:left;white-space:normal;color:var(--ink2)}#accGames .said small{color:var(--mut)}
+#accGames tr.day td,#accGames tr.day:hover td{text-align:left;font-weight:700;font-size:12.5px;color:var(--ink2);padding:14px 2px 6px;border-bottom:2px solid var(--line);background:none}#accGames tr.day span{font-weight:500;color:var(--mut);margin-left:8px}
+.ok,.no{display:inline-flex;width:22px;height:22px;border-radius:50%;align-items:center;justify-content:center;font-weight:800;font-size:12px}.ok{background:#dcfce7;color:#15803d}.no{background:#fee2e2;color:#b91c1c}
 /* about */
 .about .cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.about h3{margin:6px 0 4px;font-size:14px}.about p{margin:0;font-size:13px;color:var(--ink2)}
 footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 @media(max-width:1000px){
+ .acc-two{grid-template-columns:minmax(0,1fr)}.acc-k{grid-template-columns:repeat(2,minmax(0,1fr))}
  .m{grid-template-columns:minmax(0,1fr);gap:6px}.m-teams{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px 12px}
  .m-h{text-align:left}.m-a{text-align:right}.m-bar{grid-column:1/-1;grid-row:2}
  .about .cols{grid-template-columns:minmax(0,1fr)}}
@@ -118,7 +127,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="hrow"><div class="meta" id="meta"></div>
 <label class="follow">Follow a team <select id="myTeam"><option value="">None</option></select></label></div>
 </div></header>
-<nav><div class="wrap"><a href="#s-table">Standings</a><a href="#s-h2h">Who beat who</a><a href="#s-power">Power rankings</a><a href="#s-results">Results</a><a href="#s-upcoming">Upcoming games</a><a href="#s-about">How it works</a></div></nav>
+<nav><div class="wrap"><a href="#s-table">Standings</a><a href="#s-h2h">Who beat who</a><a href="#s-power">Power rankings</a><a href="#s-results">Results</a><a href="#s-upcoming">Upcoming games</a><a href="#s-acc">Accuracy</a><a href="#s-about">How it works</a></div></nav>
 <main class="wrap">
 <div class="kpis" id="kpis"></div>
 <div class="card" id="s-table"><h2>Standings &amp; projected finish</h2>
@@ -147,6 +156,9 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <label>Show <select id="nF"><option value="1">Next weekend</option><option value="3" selected>Next 3 weekends</option><option value="999">All remaining</option></select></label></div>
 <div class="note" id="predNote"></div>
 <div id="preds"></div></div>
+<div class="card" id="s-acc"><h2>How accurate are the predictions?</h2>
+<div class="sub">Each weekend is re-predicted using only the games played before it, then compared with what actually happened, so the model never gets to peek at the result. "Too close to call" counts as a draw pick. With only a few weekends played, these numbers will be rough.</div>
+<div id="acc"></div><button class="btn" id="accMore"></button></div>
 <div class="card about" id="s-about"><h2>How the predictions work</h2>
 <div class="cols">
 <div><h3>Team ratings</h3><p>Each team gets an <b>attack</b> and a <b>defense</b> rating, fit to every completed game with a Poisson goals model, the standard approach for predicting soccer scores. Expected goals for the home side = league average × home edge × home attack × away defense weakness, and likewise for the away side. Home teams currently get <span id="hadv"></span> more goals in the model. Ratings are deliberately pulled toward average because each team has played only a few games.</p></div>
@@ -164,17 +176,21 @@ const games=RAW.split(";").map(s=>{const[id,dt,h,a,hs,as]=s.split(",");return{id
 const played=games.filter(g=>g.hs!==null),future=games.filter(g=>g.hs===null);
 
 // ---- fit penalised Poisson model ----
-const SIG=0.35; let mu=Math.log(1.5),hadv=0.1,att=new Array(N).fill(0),def=new Array(N).fill(0);
-for(let it=0;it<6000;it++){const gA=new Array(N).fill(0),gD=new Array(N).fill(0);let gM=0,gH=0;
- for(const g of played){const i=ix[g.h],j=ix[g.a];
+const SIG=0.35;
+function fit(list){let mu=Math.log(1.5),hadv=0.1,att=new Array(N).fill(0),def=new Array(N).fill(0);
+ if(list.length)for(let it=0;it<6000;it++){const gA=new Array(N).fill(0),gD=new Array(N).fill(0);let gM=0,gH=0;
+ for(const g of list){const i=ix[g.h],j=ix[g.a];
   const lh=Math.exp(mu+hadv+att[i]-def[j]),la=Math.exp(mu+att[j]-def[i]);
   const rh=g.hs-lh,ra=g.as-la; gM+=rh+ra;gH+=rh;gA[i]+=rh;gD[j]-=rh;gA[j]+=ra;gD[i]-=ra;}
- const lr=0.01; mu+=lr*gM/played.length*3; hadv+=lr*(gH-hadv/0.15**2);
+ const lr=0.01; mu+=lr*gM/list.length*3; hadv+=lr*(gH-hadv/0.15**2);
  for(let k=0;k<N;k++){att[k]+=lr*(gA[k]-att[k]/SIG**2);def[k]+=lr*(gD[k]-def[k]/SIG**2);}
  const ma=att.reduce((a,b)=>a+b)/N,md=def.reduce((a,b)=>a+b)/N;att=att.map(x=>x-ma);def=def.map(x=>x-md);}
-const lam=(h,a)=>[Math.exp(mu+hadv+att[ix[h]]-def[ix[a]]),Math.exp(mu+att[ix[a]]-def[ix[h]])];
+ return{mu,hadv,att,def}}
+const M=fit(played),{mu,hadv,att,def}=M;
+const lamM=(m,h,a)=>[Math.exp(m.mu+m.hadv+m.att[ix[h]]-m.def[ix[a]]),Math.exp(m.mu+m.att[ix[a]]-m.def[ix[h]])];
+const lam=(h,a)=>lamM(M,h,a);
 const fact=[1];for(let i=1;i<15;i++)fact[i]=fact[i-1]*i;const pois=(k,l)=>Math.exp(-l)*l**k/fact[k];
-function predict(h,a){const[lh,la]=lam(h,a);let pH=0,pD=0,pA=0,best=[0,0,0];
+function predict(h,a,m=M){const[lh,la]=lamM(m,h,a);let pH=0,pD=0,pA=0,best=[0,0,0];
  for(let x=0;x<=10;x++)for(let y=0;y<=10;y++){const p=pois(x,lh)*pois(y,la);if(x>y)pH+=p;else if(x===y)pD+=p;else pA+=p;if(p>best[2])best=[x,y,p];}
  const s=pH+pD+pA;pH/=s;pD/=s;pA/=s;const xgd=lh-la;
  let pick,margin=Math.max(1,Math.round(Math.abs(xgd)));
@@ -313,18 +329,43 @@ function drawResults(){const list=played.filter(g=>!myTeam||involves(g,myTeam)),
 $("resMore").onclick=()=>{allRes=!allRes;drawResults()};
 
 // Upcoming
+const tier=p=>p.conf>=.6?["Strong","t-s"]:p.conf>=.45?["Lean","t-l"]:["Toss-up","t-t"];
+const pickText=p=>p.pick==="Draw"?"Too close to call":`${short(p.pick)} by ${p.margin}`;
 function drawPreds(){const list=future.filter(g=>!myTeam||involves(g,myTeam)),wks=byWeek(list).slice(0,+$("nF").value);
  showNote("predNote",!!myTeam);
  const seg=(cls,x)=>`<div class="${cls}" style="width:${x*100}%">${x>=.15?pct(x):""}</div>`;
- $("preds").innerHTML=wks.map(gs=>`<div class="day-h">${weekLabel(gs)}<span>${gs.length} game${gs.length>1?"s":""}</span></div>`+gs.map(g=>{const p=predict(g.h,g.a),lvl=p.conf>=.6?["Strong","t-s"]:p.conf>=.45?["Lean","t-l"]:["Toss-up","t-t"];
-  const pk=p.pick==="Draw"?"Too close to call":`${short(p.pick)} by ${p.margin}`;
+ $("preds").innerHTML=wks.map(gs=>`<div class="day-h">${weekLabel(gs)}<span>${gs.length} game${gs.length>1?"s":""}</span></div>`+gs.map(g=>{const p=predict(g.h,g.a),lvl=tier(p);
+  const pk=pickText(p);
   return`<div class="m"><div class="m-time">${day(g.dt).toLocaleDateString("en-US",{weekday:"short"})} · ${fmtTime(g.dt)}</div>`+
    `<div class="m-teams"><div class="m-h${p.pick===g.h?" fav":""}">${teamName(g.h)}</div><div class="m-bar" title="Home win ${pct(p.pH)} · Draw ${pct(p.pD)} · Away win ${pct(p.pA)}"><div class="pb">${seg("ph",p.pH)}${seg("pd",p.pD)}${seg("pa",p.pA)}</div></div><div class="m-a${p.pick===g.a?" fav":""}">${teamName(g.a)}</div></div>`+
    `<div class="m-pick"><span class="tag ${lvl[1]}">${lvl[0]}</span>${pk}<small>Most likely ${p.sc[0]}–${p.sc[1]} · expected goals ${p.lh.toFixed(1)}–${p.la.toFixed(1)}</small></div></div>`}).join("")).join("")||`<div class="empty">No games left this season.</div>`;}
 $("nF").onchange=drawPreds;
 
-function drawAll(){drawStand();drawH2H();drawPower();drawResults();drawPreds()}
+// Prediction accuracy: refit on games before each weekend, predict it, compare with the result
+const outcome=(x,y)=>x>y?"H":x<y?"A":"D";
+const bt=[];{let prior=[];for(const gs of byWeek(played)){if(prior.length){const m=fit(prior);
+ for(const g of gs){const p=predict(g.h,g.a,m),res=outcome(g.hs,g.as),pk=p.pick==="Draw"?"D":p.pick===g.h?"H":"A";
+  bt.push({g,p,res,hit:pk===res,pAct:{H:p.pH,D:p.pD,A:p.pA}[res],exact:p.sc[0]===g.hs&&p.sc[1]===g.as,mErr:Math.abs(p.lh-p.la-(g.hs-g.as))})}}
+ prior=prior.concat(gs)}}
+let allAcc=false;
+function drawAcc(){const more=$("accMore");
+ if(!bt.length){$("acc").innerHTML=`<div class="empty">Not enough games yet. This fills in after the second weekend of games.</div>`;more.style.display="none";return}
+ const n=bt.length,cnt=f=>bt.filter(f).length,hits=cnt(b=>b.hit),homeW=cnt(b=>b.res==="H"),avgP=bt.reduce((s,b)=>s+b.pAct,0)/n,me=bt.reduce((s,b)=>s+b.mErr,0)/n;
+ const k=(l,v,sub)=>`<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${sub}</div></div>`;
+ const tiers=[["Strong","60%+","t-s"],["Lean","45–60%","t-l"],["Toss-up","under 45%","t-t"]].map(([t,r,cls])=>{const xs=bt.filter(b=>tier(b.p)[0]===t),h=xs.filter(b=>b.hit).length;
+  return`<tr><td><span class="tag ${cls}">${t}</span> <span class="mut">${r}</span></td><td>${xs.length}</td><td>${xs.length?`${h} (${pct(h/xs.length)})`:"–"}</td></tr>`}).join("");
+ const wks=byWeek(bt.map(b=>b.g)).reverse(),shown=allAcc?wks:wks.slice(0,2),by=new Map(bt.map(b=>[b.g,b]));
+ const rows=shown.map(gs=>{const bs=gs.map(g=>by.get(g)),h=bs.filter(b=>b.hit).length;
+  return`<tr class="day"><td colspan="6">${weekLabel(gs)}<span>${h} of ${bs.length} picks right</span></td></tr>`+bs.map(({g,p,hit,pAct})=>
+   `<tr${myTeam&&involves(g,myTeam)?' class="me"':""}><td class="hm">${teamName(g.h)}</td><td><span class="score">${g.hs}–${g.as}</span></td><td class="aw">${teamName(g.a)}</td><td class="said">${pickText(p)}<br><small>likely ${p.sc[0]}–${p.sc[1]}</small></td><td>${pct(pAct)}</td><td>${hit?'<span class="ok" title="Pick was right">✓</span>':'<span class="no" title="Pick was wrong">✗</span>'}</td></tr>`).join("")}).join("");
+ $("acc").innerHTML=`<div class="acc-k">${k("Picks right",`${hits} of ${n}`,`${pct(hits/n)} · always picking the home team: ${pct(homeW/n)}`)}${k("Chance given to the real result",pct(avgP),"on average · a blind guess gives 33%")}${k("Exact score",`${cnt(b=>b.exact)} of ${n}`,pct(cnt(b=>b.exact)/n)+" of games")}${k("Goal margin",`off by ${me.toFixed(1)}`,"goals, on average")}</div>`+
+  `<div class="acc-two"><div><table id="accTier"><thead><tr><th class="t">When the model said</th><th>Games</th><th>Pick right</th></tr></thead><tbody>${tiers}</tbody></table><div class="hint">A well-tuned model should be right more often on its Strong picks than on its toss-ups.</div></div>`+
+  `<div class="scroll"><table id="accGames"><thead><tr><th colspan="3">Result</th><th class="t">Model's pick</th><th title="The chance the model gave to what actually happened">Chance it gave the result</th><th>Right?</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+ more.style.display=wks.length>2?"":"none";more.textContent=allAcc?"Show fewer weekends":`Show all ${wks.length} weekends`;}
+$("accMore").onclick=()=>{allAcc=!allAcc;drawAcc()};
+
+function drawAll(){drawStand();drawH2H();drawPower();drawResults();drawPreds();drawAcc()}
 $("myTeam").onchange=e=>{myTeam=e.target.value;pin=myTeam||null;try{localStorage.setItem(MYKEY,myTeam)}catch(err){}drawAll()};
 drawAll();
-window.__debug={predict,future,SIMS,mu,hadv,att,def,power,tbl,first,simPts};
+window.__debug={predict,fit,future,SIMS,mu,hadv,att,def,power,tbl,first,simPts,bt};
 </script></body></html>
