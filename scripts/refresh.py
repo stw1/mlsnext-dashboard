@@ -8,7 +8,7 @@ Refresh MLS NEXT data and rebuild the dashboard.
 
 Python 3.9+ standard library only (no pip installs).
 """
-import argparse, csv, json, os, sys, urllib.request
+import argparse, csv, json, os, re, sys, urllib.request
 from datetime import datetime, timezone, date
 from zoneinfo import ZoneInfo
 
@@ -69,10 +69,14 @@ def build(age, conf, teams, rows, meta):
     tpl = open(f"{ROOT}/template/dashboard_template.html").read()
     raw = ";".join(",".join([r[0], r[1], r[2], r[3], str(r[6]), str(r[7])]) for r in rows)
     title = f"MLS NEXT Homegrown Division · {age} {conf} Conference"
+    m = re.search(r"(\d\d)-(\d\d)$", meta.get("season_key", ""))
+    season = f"20{m[1]}–{m[2]} season" if m else ""
     html = (tpl.replace('/*__RAW__*/""', json.dumps(raw))
                .replace("/*__TEAMS__*/{}", json.dumps(teams))
                .replace('/*__SNAP__*/""', json.dumps(meta["snapshot"]))
-               .replace("__TITLE__", title))
+               .replace("__TITLE__", title)
+               .replace("__BRACKET__", f"{age} {conf} Conference")
+               .replace("__SEASON__", season))
     out = f"{ROOT}/dashboards/{slug(age, conf)}_dashboard.html"
     open(out, "w").write(html)
     if (age, conf) == ("U14", "Northwest"):  # GitHub Pages serves index.html at the site root
