@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__</title>
+<style>
+:root{color-scheme:light;--bg:#f5f6f8;--card:#fff;--ink:#1a1d24;--mut:#6b7280;--line:#e5e7eb;--acc:#0b2a4a;--teal:#14b8a6;--w:#16a34a;--d:#9ca3af;--l:#dc2626}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:var(--acc);color:#fff;padding:20px 24px}header h1{margin:0;font-size:22px}header p{margin:4px 0 0;color:#cbd5e1;font-size:13px}
+main{padding:18px 24px;max-width:1400px;margin:auto}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:16px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}.kpi .l{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}.kpi .v{font-size:18px;font-weight:700;margin-top:2px}.kpi .s{font-size:12px;color:var(--mut)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:16px;overflow-x:auto}
+.card h2{margin:0 0 4px;font-size:16px}.card .sub{color:var(--mut);font-size:12px;margin-bottom:10px}
+table{border-collapse:collapse;width:100%}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:center;white-space:nowrap}th{font-size:11px;color:var(--mut);text-transform:uppercase;font-weight:600;cursor:pointer}td.t,th.t{text-align:left}
+tr:hover td{background:#f9fafb}
+.form span{display:inline-block;width:18px;height:18px;line-height:18px;border-radius:4px;color:#fff;font-size:10px;font-weight:700;margin-right:2px}
+.W{background:var(--w)}.D{background:var(--d)}.L{background:var(--l)}
+.bar{height:8px;border-radius:4px;background:var(--teal)}.barwrap{width:120px;background:#eef2f7;border-radius:4px;display:inline-block;vertical-align:middle}
+.h2h td{padding:3px;font-size:11px;min-width:46px}.h2h .cell{border-radius:4px;padding:3px 2px;line-height:1.25}
+.h2h .w{background:#dcfce7;color:#14532d}.h2h .d{background:#f3f4f6;color:#374151}.h2h .l{background:#fee2e2;color:#7f1d1d}.h2h .p{color:#9ca3af;font-style:italic}.h2h .self{background:#e5e7eb}
+.h2h th.rot{height:110px;vertical-align:bottom;padding:0 2px}.h2h th.rot div{writing-mode:vertical-rl;transform:rotate(180deg);text-transform:none;font-size:11px;color:var(--ink)}
+.probbar{display:flex;height:16px;width:180px;border-radius:4px;overflow:hidden;font-size:10px;color:#fff;font-weight:600}
+.probbar div{display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ph{background:#0b2a4a}.pd{background:#9ca3af}.pa{background:#14b8a6}
+.pick{font-weight:600}.conf{font-size:11px;color:var(--mut)}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;align-items:center}select,input{padding:6px 8px;border:1px solid var(--line);border-radius:6px;font:inherit;background:#fff}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:1000px){.grid2{grid-template-columns:1fr}}
+.note{font-size:12px;color:var(--mut)}.note code{background:#eef2f7;padding:1px 4px;border-radius:3px}
+.tag{display:inline-block;padding:1px 6px;border-radius:10px;font-size:11px;background:#eef2f7;color:#334155}
+.res-row td{font-size:13px}
+</style></head><body>
+<header><h1>__TITLE__</h1>
+<p id="meta"></p></header>
+<main>
+<div class="kpis" id="kpis"></div>
+<div class="card"><h2>Standings, power ratings &amp; season projection</h2>
+<div class="sub">Actual table from completed league games, plus model rating and 10,000-run simulation of the remaining schedule. Click a column header to sort.</div>
+<table id="standings"></table></div>
+<div class="card"><h2>Who beat who</h2>
+<div class="sub">Read across a row: that team's result against the column team (row team's goals first). Green = win, red = loss, grey = draw. <i>Italic grey</i> = not played yet (model's predicted score). Each pair meets twice; both meetings shown.</div>
+<table class="h2h" id="h2h"></table></div>
+<div class="grid2">
+<div class="card"><h2>Power rankings</h2><div class="sub">Expected goal margin vs. an average conference team on a neutral field.</div><table id="power"></table></div>
+<div class="card"><h2>Results so far</h2><div class="sub">All completed conference league games.</div><table id="results"></table></div>
+</div>
+<div class="card"><h2>Upcoming match predictions</h2>
+<div class="sub">Win/draw/loss chances, most likely scoreline and predicted margin for every remaining game.</div>
+<div class="controls"><label>Team <select id="teamF"><option value="">All teams</option></select></label>
+<label>Show <select id="nF"><option value="20">Next 20</option><option value="50">Next 50</option><option value="999">All remaining</option></select></label></div>
+<table id="preds"></table></div>
+<div class="card note"><h2 style="font-size:14px;color:var(--ink)">How the predictions work</h2>
+<p>Each team gets an <b>attack</b> and a <b>defense</b> rating, fit to every completed game with a Poisson goals model (the standard approach for soccer score prediction). Expected goals for the home side = league average × home edge × home attack × away defense weakness, and the same for the away side. Ratings are deliberately shrunk toward average because only ~3 games per team have been played. Early-season numbers will move a lot.</p>
+<p>From the two expected-goal numbers the model works out the chance of every scoreline (0–0, 1–0, 2–1, …), which gives win/draw/loss chances and the single most likely score. "Pick" is the most likely outcome; the margin is the expected goal difference rounded. The season projection plays out every remaining fixture 10,000 times using those chances.</p>
+<p>Not included: roster changes, injuries, travel, weather, MLS NEXT Flex or out-of-conference games, and the fact that U14 results are noisy. Treat these as a guide, not a guarantee.</p></div>
+</main>
+<script>
+const RAW=/*__RAW__*/"";
+const TEAMS=/*__TEAMS__*/{};
+const SNAP=/*__SNAP__*/"";
+const codes=Object.keys(TEAMS),N=codes.length,ix=Object.fromEntries(codes.map((c,i)=>[c,i]));
+const games=RAW.split(";").map(s=>{const[id,dt,h,a,hs,as]=s.split(",");return{id,dt,h,a,hs:hs===""?null:+hs,as:as===""?null:+as}}).sort((x,y)=>x.dt<y.dt?-1:1);
+const played=games.filter(g=>g.hs!==null),future=games.filter(g=>g.hs===null);
+
+// ---- fit penalised Poisson model ----
+const SIG=0.35; let mu=Math.log(1.5),hadv=0.1,att=new Array(N).fill(0),def=new Array(N).fill(0);
+for(let it=0;it<6000;it++){const gA=new Array(N).fill(0),gD=new Array(N).fill(0);let gM=0,gH=0;
+ for(const g of played){const i=ix[g.h],j=ix[g.a];
+  const lh=Math.exp(mu+hadv+att[i]-def[j]),la=Math.exp(mu+att[j]-def[i]);
+  const rh=g.hs-lh,ra=g.as-la; gM+=rh+ra;gH+=rh;gA[i]+=rh;gD[j]-=rh;gA[j]+=ra;gD[i]-=ra;}
+ const lr=0.01; mu+=lr*gM/played.length*3; hadv+=lr*(gH-hadv/0.15**2);
+ for(let k=0;k<N;k++){att[k]+=lr*(gA[k]-att[k]/SIG**2);def[k]+=lr*(gD[k]-def[k]/SIG**2);}
+ const ma=att.reduce((a,b)=>a+b)/N,md=def.reduce((a,b)=>a+b)/N;att=att.map(x=>x-ma);def=def.map(x=>x-md);}
+const lam=(h,a)=>[Math.exp(mu+hadv+att[ix[h]]-def[ix[a]]),Math.exp(mu+att[ix[a]]-def[ix[h]])];
+const fact=[1];for(let i=1;i<15;i++)fact[i]=fact[i-1]*i;const pois=(k,l)=>Math.exp(-l)*l**k/fact[k];
+function predict(h,a){const[lh,la]=lam(h,a);let pH=0,pD=0,pA=0,best=[0,0,0];
+ for(let x=0;x<=10;x++)for(let y=0;y<=10;y++){const p=pois(x,lh)*pois(y,la);if(x>y)pH+=p;else if(x===y)pD+=p;else pA+=p;if(p>best[2])best=[x,y,p];}
+ const s=pH+pD+pA;pH/=s;pD/=s;pA/=s;const xgd=lh-la;
+ let pick,margin=Math.max(1,Math.round(Math.abs(xgd)));
+ if(Math.abs(pH-pA)<0.05)pick="Draw";else pick=pH>pA?h:a;
+ // most likely score consistent with pick
+ let sc=[best[0],best[1]];if(pick!=="Draw"){let bp=0;for(let x=0;x<=8;x++)for(let y=0;y<=8;y++){const ok=pick===h?x-y===margin:y-x===margin;const p=pois(x,lh)*pois(y,la);if(ok&&p>bp){bp=p;sc=[x,y];}}}
+ else{let bp=0;for(let x=0;x<=6;x++){const p=pois(x,lh)*pois(x,la);if(p>bp){bp=p;sc=[x,x];}}}
+ return{lh,la,pH,pD,pA,pick,margin,sc,conf:pick==="Draw"?0:Math.max(pH,pA)};}
+const power=codes.map(c=>{const i=ix[c];const gf=Math.exp(mu+att[i]),ga=Math.exp(mu-def[i]);return{c,gf,ga,net:gf-ga}}).sort((a,b)=>b.net-a.net);
+const prank=Object.fromEntries(power.map((p,k)=>[p.c,k+1]));
+
+// ---- actual table ----
+function table(list){const T=Object.fromEntries(codes.map(c=>[c,{c,mp:0,w:0,d:0,l:0,gf:0,ga:0,pts:0,form:[]}]));
+ for(const g of list){const H=T[g.h],A=T[g.a];H.mp++;A.mp++;H.gf+=g.hs;H.ga+=g.as;A.gf+=g.as;A.ga+=g.hs;
+  if(g.hs>g.as){H.w++;A.l++;H.pts+=3;H.form.push("W");A.form.push("L")}else if(g.hs<g.as){A.w++;H.l++;A.pts+=3;H.form.push("L");A.form.push("W")}else{H.d++;A.d++;H.pts++;A.pts++;H.form.push("D");A.form.push("D")}}
+ return Object.values(T).map(t=>({...t,gd:t.gf-t.ga,ppm:t.mp?t.pts/t.mp:0})).sort((a,b)=>b.pts-a.pts||b.ppm-a.ppm||b.gd/(b.mp||1)-a.gd/(a.mp||1)||b.gf-a.gf);}
+const tbl=table(played);
+
+// ---- simulation ----
+let seed=12345;const rnd=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296};
+const rpois=l=>{let L=Math.exp(-l),k=0,p=1;do{k++;p*=rnd()}while(p>L);return k-1};
+const SIMS=10000,simPts=Object.fromEntries(codes.map(c=>[c,0])),first=Object.fromEntries(codes.map(c=>[c,0])),top4=Object.fromEntries(codes.map(c=>[c,0]));
+const base=Object.fromEntries(tbl.map(t=>[t.c,{pts:t.pts,gd:t.gd,gf:t.gf}]));const fl=future.map(g=>[g.h,g.a,...lam(g.h,g.a)]);
+for(let s=0;s<SIMS;s++){const S=Object.fromEntries(codes.map(c=>[c,{...base[c]}]));
+ for(const[h,a,lh,la]of fl){const x=rpois(lh),y=rpois(la);S[h].gd+=x-y;S[a].gd+=y-x;S[h].gf+=x;S[a].gf+=y;if(x>y)S[h].pts+=3;else if(y>x)S[a].pts+=3;else{S[h].pts++;S[a].pts++}}
+ const ord=codes.slice().sort((p,q)=>S[q].pts-S[p].pts||S[q].gd-S[p].gd||S[q].gf-S[p].gf||rnd()-.5);
+ first[ord[0]]++;ord.slice(0,4).forEach(c=>top4[c]++);codes.forEach(c=>simPts[c]+=S[c].pts);}
+
+// ---- render helpers ----
+const $=id=>document.getElementById(id);const pct=x=>(x*100).toFixed(0)+"%";const nm=c=>TEAMS[c];
+const fmtDate=d=>{const[dd,tt]=d.split(" ");const D=new Date(dd+"T12:00:00");return D.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"})+(tt?" · "+(+tt.slice(0,2)%12||12)+":"+tt.slice(3)+(+tt.slice(0,2)>=12?" PM":" AM"):" · time TBD")};
+$("meta").textContent=`Data snapshot ${SNAP} (synced from the MLS NEXT standings feed) · ${played.length} of ${games.length} league games played · Home advantage in model: +${((Math.exp(hadv)-1)*100).toFixed(0)}% goals`;
+
+// KPIs
+const ldr=tbl[0],bestA=tbl.slice().sort((a,b)=>b.gf/b.mp-a.gf/a.mp)[0],bestD=tbl.slice().sort((a,b)=>a.ga/a.mp-b.ga/b.mp)[0];
+const fav=codes.slice().sort((a,b)=>first[b]-first[a])[0];const big=played.slice().sort((a,b)=>Math.abs(b.hs-b.as)-Math.abs(a.hs-a.as))[0];
+$("kpis").innerHTML=[["Table leader (points)",nm(ldr.c),`${ldr.pts} pts from ${ldr.mp} · GD ${ldr.gd>0?"+":""}${ldr.gd}`],["#1 power rating",nm(power[0].c),`+${power[0].net.toFixed(2)} goals/game vs avg`],["Title favourite",nm(fav),`${pct(first[fav]/SIMS)} to finish 1st`],["Best attack",nm(bestA.c),`${(bestA.gf/bestA.mp).toFixed(2)} goals/game`],["Best defense",nm(bestD.c),`${(bestD.ga/bestD.mp).toFixed(2)} conceded/game`],["Biggest win",`${nm(big.h)} ${big.hs}–${big.as} ${nm(big.a)}`,fmtDate(big.dt)]].map(([l,v,s])=>`<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join("");
+
+// Standings (sortable)
+const srows=tbl.map((t,k)=>({rk:k+1,...t,pr:prank[t.c],net:power.find(p=>p.c===t.c).net,proj:simPts[t.c]/SIMS,p1:first[t.c]/SIMS,p4:top4[t.c]/SIMS}));
+const cols=[["rk","#"],["c","Team",1],["mp","MP"],["w","W"],["d","D"],["l","L"],["gf","GF"],["ga","GA"],["gd","GD"],["pts","Pts"],["ppm","PPM"],["form","Form"],["pr","Power #"],["proj","Proj. pts"],["p4","Top 4"],["p1","1st"]];
+let sortK="rk",sortDir=1;
+function drawStand(){const r=srows.slice().sort((a,b)=>{const x=a[sortK],y=b[sortK];return(typeof x==="string"?x.localeCompare(y):x-y)*sortDir});
+ $("standings").innerHTML="<tr>"+cols.map(([k,l,t])=>`<th class="${t?"t":""}" data-k="${k}">${l}${sortK===k?(sortDir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr>"+
+ r.map(t=>`<tr><td>${t.rk}</td><td class="t"><b>${nm(t.c)}</b></td><td>${t.mp}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td>${t.gf}</td><td>${t.ga}</td><td>${t.gd>0?"+":""}${t.gd}</td><td><b>${t.pts}</b></td><td>${t.ppm.toFixed(2)}</td><td class="form">${t.form.slice(-5).map(f=>`<span class="${f}">${f}</span>`).join("")}</td><td>${t.pr}</td><td>${t.proj.toFixed(1)}</td><td>${pct(t.p4)}</td><td>${pct(t.p1)}</td></tr>`).join("");
+ document.querySelectorAll("#standings th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(k==="form")return;if(sortK===k)sortDir*=-1;else{sortK=k;sortDir=["rk","c","l","ga","pr"].includes(k)?1:-1}drawStand()});}
+drawStand();
+
+// H2H matrix
+const order=tbl.map(t=>t.c);
+let h=`<tr><th></th>`+order.map(c=>`<th class="rot"><div>${nm(c)}</div></th>`).join("")+"</tr>";
+for(const r of order){h+=`<tr><td class="t"><b>${nm(r)}</b></td>`;for(const c of order){if(r===c){h+=`<td><div class="cell self">—</div></td>`;continue}
+ const gs=games.filter(g=>(g.h===r&&g.a===c)||(g.h===c&&g.a===r));
+ h+="<td>"+gs.map(g=>{const home=g.h===r;if(g.hs!==null){const f=home?g.hs:g.as,a=home?g.as:g.hs;return`<div class="cell ${f>a?"w":f<a?"l":"d"}" title="${fmtDate(g.dt)} · ${home?"home":"away"}">${f}–${a}<small> ${home?"H":"A"}</small></div>`}
+  const p=predict(g.h,g.a);const f=home?p.sc[0]:p.sc[1],a=home?p.sc[1]:p.sc[0];return`<div class="cell p" title="Predicted · ${fmtDate(g.dt)} · ${home?"home":"away"}">${f}–${a}<small> ${home?"H":"A"}</small></div>`}).join("")+"</td>";}
+ h+="</tr>";}
+$("h2h").innerHTML=h;
+
+// Power
+const mx=Math.max(...power.map(p=>Math.abs(p.net)));
+$("power").innerHTML="<tr><th>#</th><th class='t'>Team</th><th>xGF/g</th><th>xGA/g</th><th class='t'>Net rating</th></tr>"+power.map((p,k)=>`<tr><td>${k+1}</td><td class="t">${nm(p.c)}</td><td>${p.gf.toFixed(2)}</td><td>${p.ga.toFixed(2)}</td><td class="t"><span class="barwrap"><div class="bar" style="width:${Math.max(3,(p.net+mx)/(2*mx)*100)}%;background:${p.net>=0?"var(--teal)":"#f87171"}"></div></span> ${p.net>0?"+":""}${p.net.toFixed(2)}</td></tr>`).join("");
+
+// Results
+$("results").innerHTML="<tr><th class='t'>Date</th><th class='t'>Home</th><th>Score</th><th class='t'>Away</th></tr>"+played.slice().reverse().map(g=>`<tr class="res-row"><td class="t">${fmtDate(g.dt).split(" · ")[0]}</td><td class="t" style="${g.hs>g.as?"font-weight:700":""}">${nm(g.h)}</td><td><b>${g.hs}–${g.as}</b></td><td class="t" style="${g.as>g.hs?"font-weight:700":""}">${nm(g.a)}</td></tr>`).join("");
+
+// Predictions
+codes.slice().sort((a,b)=>nm(a).localeCompare(nm(b))).forEach(c=>$("teamF").insertAdjacentHTML("beforeend",`<option value="${c}">${nm(c)}</option>`));
+function drawPreds(){const tf=$("teamF").value,n=+$("nF").value;const list=future.filter(g=>!tf||g.h===tf||g.a===tf).slice(0,n);
+ $("preds").innerHTML="<tr><th class='t'>Date</th><th class='t'>Home</th><th class='t'>Away</th><th>Home · Draw · Away</th><th>Exp. goals</th><th>Likely score</th><th class='t'>Pick</th></tr>"+list.map(g=>{const p=predict(g.h,g.a);
+  const pk=p.pick==="Draw"?"Too close to call (draw)":`${nm(p.pick)} by ${p.margin}`;const lvl=p.conf>=.6?"Strong":p.conf>=.45?"Lean":"Toss-up";
+  return`<tr><td class="t">${fmtDate(g.dt)}</td><td class="t">${nm(g.h)}</td><td class="t">${nm(g.a)}</td><td><div class="probbar"><div class="ph" style="width:${p.pH*100}%">${p.pH>.12?pct(p.pH):""}</div><div class="pd" style="width:${p.pD*100}%">${p.pD>.12?pct(p.pD):""}</div><div class="pa" style="width:${p.pA*100}%">${p.pA>.12?pct(p.pA):""}</div></div></td><td>${p.lh.toFixed(1)} – ${p.la.toFixed(1)}</td><td><b>${p.sc[0]}–${p.sc[1]}</b></td><td class="t"><span class="pick">${pk}</span> <span class="tag">${lvl}</span></td></tr>`}).join("");}
+$("teamF").onchange=drawPreds;$("nF").onchange=drawPreds;drawPreds();
+window.__debug={predict,future,SIMS,mu,hadv,att,def,power,tbl,first,simPts};
+</script></body></html>
