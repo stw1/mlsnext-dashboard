@@ -8,7 +8,10 @@ body{margin:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,s
 header{background:linear-gradient(135deg,#0b2a4a 0%,#14406b 100%);color:#fff;padding:26px 24px 22px}
 .wrap{max-width:1400px;margin:auto}
 .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#93c5fd;font-weight:600}
-header h1{margin:4px 0 12px;font-size:28px;line-height:1.2;letter-spacing:-.01em}
+header h1{margin:0;font-size:28px;line-height:1.2;letter-spacing:-.01em}
+.titlerow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:4px 0 12px}
+.ages{display:inline-flex;gap:2px;background:rgba(255,255,255,.12);border-radius:9px;padding:3px}
+.ages a{color:#cbd5e1;text-decoration:none;font-weight:600;font-size:13px;padding:4px 14px;border-radius:7px}.ages a:hover{color:#fff}.ages a.on{background:#fff;color:var(--acc)}
 .hrow{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between}
 .meta{display:flex;flex-wrap:wrap;gap:6px 20px;align-items:center;font-size:13px;color:#cbd5e1}
 .prog{display:inline-flex;align-items:center;gap:8px}.prog i{display:block;width:110px;height:6px;border-radius:3px;background:rgba(255,255,255,.2);overflow:hidden}.prog b{display:block;height:100%;background:var(--teal)}
@@ -123,7 +126,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 </style></head><body>
 <header><div class="wrap">
 <div class="eyebrow">MLS NEXT · Homegrown Division · __SEASON__</div>
-<h1>__BRACKET__</h1>
+<div class="titlerow"><h1 id="bracket"></h1><div class="ages" id="ages" aria-label="Age group"></div></div>
 <div class="hrow"><div class="meta" id="meta"></div>
 <label class="follow">Follow a team <select id="myTeam"><option value="">None</option></select></label></div>
 </div></header>
@@ -168,9 +171,14 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 </main>
 <footer class="wrap" id="foot"></footer>
 <script>
-const RAW=/*__RAW__*/"";
-const TEAMS=/*__TEAMS__*/{};
-const SNAP=/*__SNAP__*/"";
+// all age groups for this conference; pick one from ?age=, else the last one viewed here, else the default
+const DATA=/*__DATA__*/{};
+const AGEKEY="age:"+DATA.conf;let lastAge=null;try{lastAge=localStorage.getItem(AGEKEY)}catch(e){}
+const qAge=new URLSearchParams(location.search).get("age"),find=a=>DATA.brackets.find(b=>b.age===a);
+const B=find(qAge)||find(lastAge)||find(DATA.default)||DATA.brackets[0];
+try{localStorage.setItem(AGEKEY,B.age)}catch(e){}
+document.title=`MLS NEXT Homegrown Division · ${B.age} ${B.conf} Conference`;
+const RAW=B.raw,TEAMS=B.teams,SNAP=B.snap;
 const codes=Object.keys(TEAMS),N=codes.length,ix=Object.fromEntries(codes.map((c,i)=>[c,i]));
 const games=RAW.split(";").map(s=>{const[id,dt,h,a,hs,as]=s.split(",");return{id,dt,h,a,hs:hs===""?null:+hs,as:as===""?null:+as}}).sort((x,y)=>x.dt<y.dt?-1:1);
 const played=games.filter(g=>g.hs!==null),future=games.filter(g=>g.hs===null);
@@ -252,6 +260,8 @@ if(!TEAMS[myTeam])myTeam="";
 const showNote=(id,on)=>{const el=$(id);el.style.display=on?"block":"none";if(on)el.innerHTML=`Showing <b>${nm(myTeam)}</b> games only. Change this with “Follow a team” at the top.`};
 
 // Header
+$("bracket").textContent=`${B.age} ${B.conf} Conference`;
+if(DATA.brackets.length>1)$("ages").innerHTML=DATA.brackets.map(b=>`<a href="?age=${b.age}"${b===B?' class="on" aria-current="page"':""}>${b.age}</a>`).join("");else $("ages").remove();
 const nextG=future[0];
 $("meta").innerHTML=`<span>Updated ${fmtDay(SNAP)}</span><span class="prog"><i><b style="width:${played.length/games.length*100}%"></b></i>${played.length} of ${games.length} games played</span>`+(nextG?`<span>Next games ${fmtDay(nextG.dt)}</span>`:"");
 $("rho").textContent=`ρ = ${rho.toFixed(2)}`;$("hadv").textContent=`about ${((Math.exp(hadv)-1)*100).toFixed(0)}%`;

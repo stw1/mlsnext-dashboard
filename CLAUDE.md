@@ -3,7 +3,7 @@
 Personal project (Stephen). Builds a self-contained HTML dashboard for one MLS NEXT
 **Homegrown Division** age group + conference. It shows standings, a head-to-head
 ("who beat who") grid, power ratings, results, and predicted scores for every remaining
-game, plus a 10,000-run season simulation. The default is **U14 Northwest**, 2026-27 season.
+game, plus a 10,000-run season simulation. The default page covers **U13 and U14 Northwest** (2026-27 season), with a toggle between them.
 
 ## Layout
 ```
@@ -13,23 +13,23 @@ template/dashboard_template.html   the dashboard; all model + rendering logic is
 data/<AGE>_<CONF>_games.csv        one row per league game (blank scores = not played yet)
 data/<AGE>_<CONF>_teams.json       squad_id -> team name
 data/<AGE>_<CONF>_meta.json        snapshot date, season key
-dashboards/<AGE>_<CONF>_dashboard.html   built output, open in any browser
-index.html                         copy of the U14 Northwest dashboard (served by GitHub Pages)
+dashboards/<CONF>_dashboard.html   built output (all ages for that conference in one file)
+index.html                         copy of the Northwest dashboard (served by GitHub Pages)
 ```
 
 ## Common tasks
-- **Update with new scores:** `python3 scripts/refresh.py` (defaults: `--age U14 --conference Northwest`)
-- **Another bracket:** `python3 scripts/refresh.py --age U15 --conference Southwest`
+- **Update with new scores:** `python3 scripts/refresh.py` (defaults: `--age U13,U14 --conference Northwest --default-age U14`)
+- **Another conference:** `python3 scripts/refresh.py --age U15,U16 --conference Southwest --default-age U16`
   (if the conference name is wrong, the script prints the valid names)
 - **Rebuild without network** (for example, after editing the template): `python3 scripts/refresh.py --offline`
-- Open `dashboards/U14_Northwest_dashboard.html` in a browser to check the result.
+- Open `dashboards/Northwest_dashboard.html` (or `?age=U13`) in a browser to check the result.
 - **Auto-refresh:** `.github/workflows/refresh.yml` runs `refresh.py` on GitHub Actions Sat & Sun (~1, 5, 9 pm
   Pacific) and Mon & Tue (~9 am), and commits + pushes only when `data/*_games.csv` changed. Run it on demand from
   the repo's Actions tab ("Refresh scores" → "Run workflow") or `gh workflow run refresh.yml`.
   GitHub pauses scheduled workflows in public repos after 60 days with no commits; re-enable on the Actions tab.
 - **Publish by hand:** `git pull` first (the bot commits too), then `git add -A && git commit -m "..." && git push`. GitHub Pages serves
   https://stw1.github.io/mlsnext-dashboard/ from the `main` branch root (repo `stw1/mlsnext-dashboard`).
-  Other brackets are at `/dashboards/<AGE>_<CONF>_dashboard.html` on the same site.
+  Link straight to an age with `?age=U13` / `?age=U14`. Other conferences are at `/dashboards/<CONF>_dashboard.html`.
 
 ## Data source
 The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe from
@@ -37,7 +37,7 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - `https://mls-assist.theintelligenceplatform.com/data/standings/mls-next-league-26-27.json`
   - `competition_season.competition_brackets[]`: one entry per age group + conference.
     Each has `age_group.name` (e.g. "U14"), `name` (e.g. "Northwest") and `standings[].team.{squad_id,name,logo_url}`.
-  - U14 Northwest is bracket id 102. Some brackets have a "(Pro Player Pathway)" suffix.
+  - U13 Northwest is bracket id 101 (13 teams, no San Jose Earthquakes); U14 Northwest is id 102 (14 teams). Some brackets have a "(Pro Player Pathway)" suffix.
   - Early in the season the `tiebreaker_values` are empty and the order is alphabetical,
     which is why the MLS site shows ALBION SC Merced as "#1". This project builds its own table instead.
 - `https://mls-assist.theintelligenceplatform.com/data/schedule/mls-next-league-26-27.json`
@@ -76,16 +76,18 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - The dashboard must stay a **single self-contained HTML file**, with no external scripts or
   fetches. It is also published as a Claude Cowork artifact, which blocks network access.
 - Dates in the CSV are in local Pacific time (`--tz`). Games without a set time store the date only.
-- Template placeholders filled by `refresh.py`: `__RAW__`, `__TEAMS__`, `__SNAP__`, `__TITLE__`,
-  `__BRACKET__` (e.g. "U14 Northwest Conference"), `__SEASON__` (from the season key, e.g. "2026–27 season").
+- Template placeholders filled by `refresh.py`: `__DATA__` (`{conf, default, brackets:[{age, conf, raw, teams, snap}]}`),
+  `__TITLE__`, `__SEASON__` (from the season key, e.g. "2026–27 season").
+- Age toggle: the script picks one bracket at load (`?age=` → last age viewed, saved in localStorage → `default`),
+  then everything else runs exactly as for a single bracket. The toggle links reload the page with `?age=`.
 - Team short names (used on phones and in column headers) come from the `SHORT` map in the template, with a
   regex fallback for brackets that aren't in the map.
 - "Follow a team" is saved in the browser's localStorage, keyed by page title, so each bracket remembers its own team.
 - `window.__debug` in the page exposes the model internals for testing in node or the browser console.
-- Snapshot in this export: **2026-09-30**, with 23 of 182 U14 Northwest games played.
+- Snapshot 2026-10-01: U13 20/156 games played, U14 23/182.
 
 ## Ideas / backlog
 - Add Flex and out-of-conference results to give the model more data
-- Add a dropdown for age group and conference inside one dashboard
+- Add a conference switcher (age toggle exists; conferences are still separate pages)
 - Weight recent games more heavily
 - Predict draws: the pick is never "draw" unless home/away are within 5%, so draws always count as misses in the accuracy check
