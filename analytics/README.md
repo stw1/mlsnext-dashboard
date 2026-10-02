@@ -1,5 +1,8 @@
 # fa.js: first-party analytics in your own Firebase project
 
+In use: Firebase project `spaikz-dashboards`, sites `mlsnext` and `ecnl`.
+Report: https://stw1.github.io/mlsnext-dashboard/analytics/report.html
+
 A small, reusable analytics kit for static sites (GitHub Pages and the like). Events go straight from the browser
 to **your** Cloud Firestore database: no third-party analytics service, no cookies, no SDK on the tracked site.
 Several sites (this MLS NEXT dashboard, the ECNL dashboard, ...) can share one Firebase project; each one has its
@@ -11,7 +14,8 @@ own `site` code, and one report page shows any of them.
 | `firestore.rules` | Security rules: anyone may *create* well-formed events for a listed site; only your Google account can *read*; nothing can be changed or deleted. |
 | `report.html` | The analytics report. Sign in with Google to see the data (`?demo=1` previews it with made-up data). |
 | `config.json` | The Firebase project the report and builds use (`projectId`, `apiKey`, `authDomain`) and the list of site codes. |
-| `firebase.json` | For deploying the rules with the Firebase CLI, and for the local emulators used in testing. |
+| `firebase.json` | For the local emulators used in testing. |
+| `deploy_rules.sh` | Deploys `firestore.rules` with the owner emails filled in. |
 
 ## What it records
 
@@ -42,9 +46,10 @@ Do Not Track and Global Privacy Control are respected. Anyone can opt out on a d
 4. **Project settings (gear) → General → Your apps → Web (`</>`)**: register an app (any nickname, no Hosting) and
    copy `apiKey`, `authDomain` and `projectId` into `config.json`. These are public identifiers, not secrets: the
    security rules are what protect the data.
-5. In `firestore.rules`, replace `OWNER_EMAIL` with the Google account that should read the analytics (you can list
-   more than one). Add every site code to `knownSite`. Then deploy the rules, either:
-   - with the CLI: `cd analytics && firebase deploy --only firestore:rules --project <projectId>`, or
+5. Add every site code to `knownSite` in `firestore.rules`. The Google accounts allowed to read the analytics replace
+   `OWNER_EMAIL` at deploy time. Deploy the rules either:
+   - with the CLI: `analytics/deploy_rules.sh you@example.com` (fills in the owner emails, so they never need to be
+     committed, and deploys to the `projectId` in `config.json`), or
    - by pasting the file into **Firestore → Rules → Publish**.
 6. Rebuild and publish the site. The report is at `<site>/analytics/report.html`.
 

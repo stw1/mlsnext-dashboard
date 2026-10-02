@@ -1,6 +1,9 @@
 {
-  "projectId": "",
-  "apiKey": "",
-  "authDomain": "",
-  "sites": ["mlsnext", "ecnl"]
+  "projectId": "spaikz-dashboards",
+  "apiKey": "AIzaSyCThKpnVlv3RpCsMOgY1-QJLzPe9fjPUBU",
+  "authDomain": "spaikz-dashboards.firebaseapp.com",
+  "sites": [
+    "mlsnext",
+    "ecnl"
+  ]
 }
