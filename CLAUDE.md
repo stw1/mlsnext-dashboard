@@ -98,7 +98,8 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - Bracket choice: `pickBracket()` runs once at load (`?age=&conf=` → last bracket viewed, saved in localStorage as
   `bracket` → `default`); everything after runs exactly as for a single bracket. Age tabs and the conference picker
   reload the page. "Find any team" searches all brackets.
-- Team links: `&team=<slug>` (name lowercased, non-letters → dashes, e.g. `ballistic-united`; a squad id also works,
+- Team links: `&team=<slug>` (name lowercased, non-letters → dashes, e.g. `ballistic-united`; the short-name slug like
+  `lafc` or a squad id also works,
   as does the older `&follow=<squad_id>`). A linked team becomes that browser's followed team for the bracket.
   `syncUrl()` keeps the address bar equal to bracket + followed team, so copying it (or "Share link", which uses
   the phone share sheet or the clipboard) shares exactly that view. Age tabs carry the same club to other ages.
@@ -112,6 +113,8 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   and "Add N games to calendar" (an .ics of remaining games; timed games in UTC with 2h duration, no time = all-day).
 - "New since your last visit": localStorage `seen:<title>` keeps the played-game ids at the end of the previous
   visit (a visit ends after 6 quiet hours). New results get a "New" pill (results, tooltips, card) and a ring in Who beat who.
+- Phones (≤700px): the header packs pickers into a grid; `.xs-hide` columns drop out (W/D/L/Goals in standings,
+  Scores/Concedes in power, Conference/W-D-L/GD in national) so the ranking numbers fit without scrolling.
 - Dark mode follows the device (`prefers-color-scheme`), one override block at the end of the CSS.
 - `window.__debug` in the page exposes the model internals for testing in node or the browser console.
 - Snapshot 2026-10-01: 869 of 7,711 league games + 490 Flex games played, 838 teams; index.html is ~397 KB.

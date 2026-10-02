@@ -47,7 +47,7 @@ table:not(.h2h) tbody tr:hover td{background:#f8fafc}
 .mut{color:var(--mut)}.pos{color:#15803d}.neg{color:#b91c1c}
 .form span{display:inline-block;width:18px;height:18px;line-height:18px;border-radius:4px;color:#fff;font-size:10px;font-weight:700;margin-right:2px}
 .W{background:var(--w)}.D{background:var(--d)}.L{background:var(--l)}
-.short{display:none}
+.short{display:none}.xs-only{display:none}
 .note{font-size:12.5px;color:var(--ink2);background:#fefce8;border:1px solid #fde68a;border-radius:8px;padding:6px 10px;margin:-4px 0 12px;display:none}
 .empty{color:var(--mut);padding:16px 0;text-align:left}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--ink2)}.legend>span{display:inline-flex;align-items:center;gap:6px}
@@ -152,7 +152,13 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 @media(max-width:700px){
  header{padding:20px 14px 18px}header h1{font-size:22px}main{padding:14px 12px 2px}nav .wrap{padding:6px 8px}footer{padding:4px 14px 24px}
  .card{padding:14px 14px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.kpi{padding:12px}.kpi .v{font-size:17px}
- .follow{width:100%}.follow select{flex:1;min-width:0}.find{width:100%}.find input{width:100%}.find-r{width:100%}
+ .ctl{display:grid;grid-template-columns:1fr 1fr auto;grid-template-areas:"c t t" "f f s";gap:8px}.ctl .lt{display:none}
+ .ctl.nat{grid-template-areas:"c c c" "f f s"}.c-conf{grid-area:c}.c-team{grid-area:t}.c-find{grid-area:f}.c-share{grid-area:s}
+ .follow{width:100%;min-width:0}.follow select{flex:1;min-width:0;width:100%;padding:8px}.find{width:100%}.find input{width:100%;padding:8px 10px}.find-r{width:100%}
+ .eyebrow{font-size:10.5px;letter-spacing:.05em}.titlerow{margin:4px 0 10px}.meta{font-size:12px;gap:2px 14px}
+ .ages{display:flex;width:100%}.ages a{flex:1;text-align:center;padding:8px 0}
+ .ven a{display:inline-block;padding:10px 6px;margin:-10px -6px}.seg button{padding:9px 12px}#nF,#natConf{padding:8px}.btn{padding:9px 14px}
+ .xs-hide{display:none}.nat .dv{display:none}.xs-only{display:block;font-size:11.5px;color:var(--mut);font-weight:400;margin:1px 0 0 21px}.st tr.grp{display:none}
  .full{display:none}.short{display:inline}
  .st td.team,.st th.team{padding-right:6px}.st .team .rk{width:21px}
  .h2h th.team{font-size:12px;padding-right:6px}.h2h th.team .rk{width:17px}.h2h th.col{width:64px;min-width:64px}.chip{width:28px}
@@ -187,10 +193,10 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <header><div class="wrap">
 <div class="eyebrow">MLS NEXT · Homegrown Division · 2026–27 season</div>
 <div class="titlerow"><h1 id="bracket"></h1><span class="ppp" id="ppp">Pro Player Pathway</span><div class="ages" id="ages" aria-label="Age group"></div></div>
-<div class="hrow ctl"><label class="follow">Conference <select id="confSel"></select></label>
-<div class="find"><input id="findQ" type="search" placeholder="Find any team" autocomplete="off" aria-label="Find any team"><div class="find-r" id="findR" role="listbox"></div></div>
-<label class="follow">Follow a team <select id="myTeam"><option value="">None</option></select></label>
-<button class="share" id="share" type="button" title="Share a link to this page, with the team you follow highlighted">Share link</button></div>
+<div class="hrow ctl"><label class="follow c-conf"><span class="lt">Conference</span> <select id="confSel" aria-label="Conference"></select></label>
+<div class="find c-find"><input id="findQ" type="search" placeholder="Find any team" autocomplete="off" aria-label="Find any team"><div class="find-r" id="findR" role="listbox"></div></div>
+<label class="follow c-team"><span class="lt">Follow a team</span> <select id="myTeam" aria-label="Follow a team"><option value="">Choose a team</option></select></label>
+<button class="share c-share" id="share" type="button" title="Share a link to this page, with the team you follow highlighted">Share link</button></div>
 <div class="meta" id="meta"></div>
 </div></header>
 <nav><div class="wrap"><a href="#s-table">Standings</a><a href="#s-h2h">Who beat who</a><a href="#s-power">Power rankings</a><a href="#s-results">Results</a><a href="#s-upcoming">Upcoming games</a><a href="#s-acc">Accuracy</a><a href="#s-about">How it works</a></div></nav>
@@ -258,7 +264,8 @@ try{if(!NATIONAL)localStorage.setItem("bracket",JSON.stringify({age:B.age,conf:B
 const bracketUrl=(b,extra="")=>`?age=${b.age}&conf=${slugC(b.conf)}${extra}`;
 // teams in links use a readable slug (&team=ballistic-united); the older &follow=<squad id> still works
 const slugT=n=>n.toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
-const teamBySlug=(b,s)=>s?Object.keys(b.teams).find(id=>id===s||slugT(b.teams[id])===slugT(s)):undefined;
+// accepts the squad id, the full name or the short name: team=ballistic-united, team=lafc, team=sj-quakes
+const teamBySlug=(b,s)=>{if(!s)return;const k=slugT(s),ids=Object.keys(b.teams);return ids.find(id=>id===s||slugT(b.teams[id])===k)||ids.find(id=>slugT(shortName(b.teams[id]))===k)};
 const pageUrl=(b,team)=>bracketUrl(b,team?`&team=${slugT(b.teams[team])}`:"");
 document.title=NATIONAL?`MLS NEXT Homegrown Division · ${B.age} National rankings`:`MLS NEXT Homegrown Division · ${B.age} ${B.conf} Conference`;
 const RAW=B.raw,TEAMS=B.teams,SNAP=DATA.snap,VEN=DATA.venues||[];
@@ -432,7 +439,7 @@ $("kpis").innerHTML=kp.map(([l,v,s,t])=>`<div class="kpi"><div class="l">${l}</d
 // Standings (sortable)
 const srows=tbl.map((t,k)=>({rk:k+1,...t,proj:simPts[t.c]/SIMS,p1:first[t.c]/SIMS,p4:top4[t.c]/SIMS,pc:topCup[t.c]/SIMS}));
 // [key, label, class, tooltip]; no key = not sortable
-const cols=[["rk","Team","t team"],["mp","MP","","Matches played"],["w","W","","Wins"],["d","D","","Draws"],["l","L","","Losses"],["gf","Goals","","Goals scored–conceded"],["gd","GD","","Goal difference"],["pts","Pts","pts","Points: 3 for a win, 1 for a draw"],["ppm","Pts/G","","Points per game"],["","Last 5","","Last five results, oldest to newest"],
+const cols=[["rk","Team","t team"],["mp","MP","","Matches played"],["w","W","xs-hide","Wins"],["d","D","xs-hide","Draws"],["l","L","xs-hide","Losses"],["gf","Goals","xs-hide","Goals scored–conceded"],["gd","GD","","Goal difference"],["pts","Pts","pts","Points: 3 for a win, 1 for a draw"],["ppm","Pts/G","","Points per game"],["","Last 5","","Last five results, oldest to newest"],
  ["proj","Proj. pts","pj div","Expected points at the end of the season"],
  ...(CUT?[["pc","Cup (est.)","pj",`Chance of a top-${CUP} finish: last season this conference sent ${CUP} teams to MLS NEXT Cup (estimate, not official for 2026-27)`],
          ["p4","Champ. (est.)","pj",`Chance of a top-${CH} finish: last season's Championship-bracket spots for this conference (estimate)`]]
@@ -445,7 +452,7 @@ let sortK="rk",sortDir=1;
 function drawStand(){const r=srows.slice().sort((a,b)=>(a[sortK]-b[sortK])*sortDir||a.rk-b.rk);
  $("standings").innerHTML=`<thead><tr class="grp"><th class="team"></th><th colspan="9">Table so far</th><th colspan="${CUT?4:3}" class="pj div">Projected finish</th></tr><tr>`+
   cols.map(([k,l,c,tip])=>`<th class="${c}${k===sortK?" sorted":""}"${k?` data-k="${k}"`:""}${tip?` title="${tip}"`:""}>${l}${k===sortK?(sortDir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr></thead><tbody>"+
-  r.map(t=>`<tr class="${t.c===myTeam?"me":""}${sortK==="rk"&&sortDir>0&&CUT?(t.rk===CH?" cut1":t.rk===CUP?" cut2":""):""}"><td class="t team"><span class="rk">${t.rk}</span>${teamName(t.c)}</td><td>${t.mp}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td class="mut">${t.gf}–${t.ga}</td><td class="${t.gd>0?"pos":t.gd<0?"neg":""}">${t.gd>0?"+":""}${t.gd}</td><td class="pts">${t.pts}</td><td class="mut">${t.ppm.toFixed(2)}</td><td class="form">${last5(t.c)}</td><td class="pj div">${t.proj.toFixed(0)}</td>${CUT?`<td class="pj">${pbar(t.pc)}</td>`:""}<td class="pj">${pbar(t.p4)}</td><td class="pj">${pbar(t.p1)}</td></tr>`).join("")+"</tbody>";
+  r.map(t=>`<tr class="${t.c===myTeam?"me":""}${sortK==="rk"&&sortDir>0&&CUT?(t.rk===CH?" cut1":t.rk===CUP?" cut2":""):""}"><td class="t team"><span class="rk">${t.rk}</span>${teamName(t.c)}</td><td>${t.mp}</td><td class="xs-hide">${t.w}</td><td class="xs-hide">${t.d}</td><td class="xs-hide">${t.l}</td><td class="mut xs-hide">${t.gf}–${t.ga}</td><td class="${t.gd>0?"pos":t.gd<0?"neg":""}">${t.gd>0?"+":""}${t.gd}</td><td class="pts">${t.pts}</td><td class="mut">${t.ppm.toFixed(2)}</td><td class="form">${last5(t.c)}</td><td class="pj div">${t.proj.toFixed(0)}</td>${CUT?`<td class="pj">${pbar(t.pc)}</td>`:""}<td class="pj">${pbar(t.p4)}</td><td class="pj">${pbar(t.p1)}</td></tr>`).join("")+"</tbody>";
  $("cutKey").innerHTML=CUT?`<span><b>Lines</b> solid = estimated Championship-bracket cut (top ${CH}), dashed = estimated MLS NEXT Cup cut (top ${CUP}), based on last season. MLS NEXT hasn't published 2026-27 spots.</span>`:`<span><b>Top 4</b> isn't an official playoff line: MLS NEXT hasn't announced how 2026-27 Cup spots are split.</span>`;
  document.querySelectorAll("#standings th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(sortK===k)sortDir*=-1;else{sortK=k;sortDir=["rk","l"].includes(k)?1:-1}drawStand()});}
 
@@ -496,8 +503,8 @@ $("h2hMode").onclick=e=>{const b=e.target.closest("button");if(!b)return;showPre
 // Power
 const mx=Math.max(...power.map(p=>Math.abs(p.net)))||1;
 function drawPower(){
- $("power").innerHTML=`<thead><tr><th>#</th><th class="t">Team</th><th title="Expected goals scored per game against an average team">Scores</th><th title="Expected goals conceded per game against an average team">Concedes</th><th class="t" title="Scores minus concedes: expected goal margin per game">Net per game</th><th title="Current league table position">Table</th></tr></thead><tbody>`+
- power.map((p,k)=>{const w=Math.abs(p.net)/mx*100;return`<tr${p.c===myTeam?' class="me"':""}><td class="rk">${k+1}</td><td class="t tm">${teamName(p.c)}</td><td>${p.gf.toFixed(1)}</td><td>${p.ga.toFixed(1)}</td><td class="t"><span class="dv"><i class="n"><b style="width:${p.net<0?w:0}%"></b></i><i class="p"><b style="width:${p.net>0?w:0}%"></b></i></span><span class="net ${p.net>=0?"pos":"neg"}">${p.net>0?"+":""}${p.net.toFixed(2)}</span></td><td class="mut">${ordn(rank[p.c])}</td></tr>`}).join("")+"</tbody>";}
+ $("power").innerHTML=`<thead><tr><th>#</th><th class="t">Team</th><th class="xs-hide" title="Expected goals scored per game against an average team">Scores</th><th class="xs-hide" title="Expected goals conceded per game against an average team">Concedes</th><th class="t" title="Scores minus concedes: expected goal margin per game">Net per game</th><th title="Current league table position">Table</th></tr></thead><tbody>`+
+ power.map((p,k)=>{const w=Math.abs(p.net)/mx*100;return`<tr${p.c===myTeam?' class="me"':""}><td class="rk">${k+1}</td><td class="t tm">${teamName(p.c)}</td><td class="xs-hide">${p.gf.toFixed(1)}</td><td class="xs-hide">${p.ga.toFixed(1)}</td><td class="t"><span class="dv"><i class="n"><b style="width:${p.net<0?w:0}%"></b></i><i class="p"><b style="width:${p.net>0?w:0}%"></b></i></span><span class="net ${p.net>=0?"pos":"neg"}">${p.net>0?"+":""}${p.net.toFixed(2)}</span></td><td class="mut">${ordn(rank[p.c])}</td></tr>`}).join("")+"</tbody>";}
 
 // Results
 let allRes=false;
@@ -588,12 +595,12 @@ let natK="net",natDir=-1;
 function drawNational(){const age=B.age,rows=natRows(age),reg=rows.filter(r=>r.b.conf===baseConf(r.b.conf)),ppp=rows.filter(r=>r.b.conf!==baseConf(r.b.conf));
  const followed=new Set(DATA.brackets.filter(b=>b.age===age).map(b=>{try{return localStorage.getItem(`myteam:MLS NEXT Homegrown Division · ${age} ${b.conf} Conference`)}catch(e){return null}}).filter(Boolean));
  const rankOf=list=>{const r=new Map();list.filter(x=>x.rated).sort((p,q)=>q.net-p.net).forEach((x,i)=>r.set(x.c,i+1));return r};
- const cols=[["","Team","t team"],["conf","Conference","t"],["mp","MP","","League games played (plus Flex games used in the rating)"],["","W-D-L",""],["ppm","Pts/G","","Points per league game"],["gdpg","GD/G","","Goal difference per league game"],["net","Rating","t","Expected goal margin per game vs an average team in its own conference"]];
+ const cols=[["","Team","t team"],["conf","Conference","t xs-hide"],["mp","MP","","League games played (plus Flex games used in the rating)"],["","W-D-L","xs-hide"],["ppm","Pts/G","","Points per league game"],["gdpg","GD/G","xs-hide","Goal difference per league game"],["net","Rating","t","Expected goal margin per game vs an average team in its own conference"]];
  const tableHtml=(list,rk)=>{const mx=Math.max(...list.map(x=>Math.abs(x.net)),.01);
   const sorted=list.slice().sort((p,q)=>(q.rated-p.rated)||(natK==="conf"?p.b.conf.localeCompare(q.b.conf)||p.crk-q.crk:(q[natK]-p[natK])*-natDir));
   return`<thead><tr>${cols.map(([k,l,c,tip])=>`<th class="${c}${k&&k===natK?" sorted":""}"${k?` data-k="${k}"`:""}${tip?` title="${tip}"`:""}>${l}${k&&k===natK?(natDir<0?" ▼":" ▲"):""}</th>`).join("")}</tr></thead><tbody>`+
-  sorted.map(x=>{const w=Math.abs(x.net)/mx*100;return`<tr${followed.has(x.c)?' class="me"':""}><td class="t team"><span class="rk">${x.rated?rk.get(x.c):"–"}</span><a href="${bracketUrl(x.b)}"><span class="full">${esc(x.n)}</span><span class="short">${esc(shortName(x.n))}</span></a></td>`+
-   `<td class="t cf">${esc(baseConf(x.b.conf))} <span>· ${ordn(x.crk)} of ${x.cn}</span></td><td>${x.mp}${x.nf?` <span class="mut" title="plus ${x.nf} Flex games">+${x.nf}</span>`:""}</td><td>${x.w}-${x.d}-${x.l}</td><td>${x.mp?x.ppm.toFixed(2):"–"}</td><td class="${x.gdpg>0?"pos":x.gdpg<0?"neg":""}">${x.mp?(x.gdpg>0?"+":"")+x.gdpg.toFixed(1):"–"}</td>`+
+  sorted.map(x=>{const w=Math.abs(x.net)/mx*100;return`<tr${followed.has(x.c)?' class="me"':""}><td class="t team"><span class="rk">${x.rated?rk.get(x.c):"–"}</span><a href="${bracketUrl(x.b)}"><span class="full">${esc(x.n)}</span><span class="short">${esc(shortName(x.n))}</span></a><small class="xs-only">${esc(baseConf(x.b.conf))} · ${ordn(x.crk)} of ${x.cn}</small></td>`+
+   `<td class="t cf xs-hide">${esc(baseConf(x.b.conf))} <span>· ${ordn(x.crk)} of ${x.cn}</span></td><td>${x.mp}${x.nf?` <span class="mut" title="plus ${x.nf} Flex games">+${x.nf}</span>`:""}</td><td class="xs-hide">${x.w}-${x.d}-${x.l}</td><td>${x.mp?x.ppm.toFixed(2):"–"}</td><td class="xs-hide ${x.gdpg>0?"pos":x.gdpg<0?"neg":""}">${x.mp?(x.gdpg>0?"+":"")+x.gdpg.toFixed(1):"–"}</td>`+
    `<td class="t">${x.rated?`<span class="dv"><i class="n"><b style="width:${x.net<0?w:0}%"></b></i><i class="p"><b style="width:${x.net>0?w:0}%"></b></i></span><span class="net ${x.net>=0?"pos":"neg"}">${x.net>0?"+":""}${x.net.toFixed(2)}</span>`:'<span class="mut">No games yet</span>'}</td></tr>`}).join("")+"</tbody>"};
  const fc=$("natConf").value,shown=fc?reg.filter(x=>slugC(x.b.conf)===fc):reg;
  $("natTitle").textContent=`${age} national rankings`;
@@ -611,7 +618,7 @@ $("share").onclick=async()=>{const url=location.href,btn=$("share"),title=myTeam
  try{await navigator.clipboard.writeText(url);btn.textContent="Link copied ✓";setTimeout(()=>btn.textContent="Share link",2000)}catch(err){prompt("Copy this link:",url)}};
 if(NATIONAL){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s-upcoming","s-acc"])$(id).style.display="none";
  $("s-nat").style.display="";document.querySelector("nav .wrap").innerHTML='<a href="#s-nat">National rankings</a><a href="#s-about">How it works</a>';
- $("myTeam").closest(".follow").style.display="none";
+ $("myTeam").closest(".follow").style.display="none";document.querySelector(".ctl").classList.add("nat");
  $("natConf").innerHTML='<option value="">All conferences</option>'+DATA.brackets.filter(b=>b.age===B.age&&b.conf===baseConf(b.conf)).map(b=>`<option value="${slugC(b.conf)}">${b.conf}</option>`).join("");
  $("natConf").onchange=drawNational;drawNational()}
 else drawAll();
