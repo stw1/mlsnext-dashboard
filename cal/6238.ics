@@ -127,24 +127,24 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
  w=baltimore-armour
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-30679-6238@stw1.github.io
+UID:mlsnext-30400-6238@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20261115T160000Z
+DTSTART:20261114T160000Z
 DURATION:PT2H
-SUMMARY:U17 Baltimore Armour at FC DELCO
-LOCATION:Downingtown West High School  - DiSerafino Field
+SUMMARY:U17 Baltimore Armour at The Football Academy
+LOCATION:Pingry Parsons - Turf Field
 DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
  mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
  w=baltimore-armour
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-30400-6238@stw1.github.io
+UID:mlsnext-30679-6238@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20261115T163000Z
+DTSTART:20261115T160000Z
 DURATION:PT2H
-SUMMARY:U17 Baltimore Armour at The Football Academy
-LOCATION:Pingry Babbitt - Turf Field
+SUMMARY:U17 Baltimore Armour at FC DELCO
+LOCATION:Downingtown West High School  - DiSerafino Field
 DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
  mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho

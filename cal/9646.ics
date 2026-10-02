@@ -117,10 +117,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsnext-30346-9646@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20261115T143000Z
+DTSTART:20261114T180000Z
 DURATION:PT2H
 SUMMARY:U14 The Football Academy vs Baltimore Armour
-LOCATION:Pingry Babbitt - Turf Field
+LOCATION:Pingry Parsons - Turf Field
 DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
  mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=the-football-academy
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
