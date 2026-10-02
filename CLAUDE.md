@@ -187,8 +187,8 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   octets. Past-season pages keep the download only. Google refreshes subscriptions slowly (up to a day).
 - Home: `‹ Home` button (club, national and team pages) and the eyebrow title link to the page with no options, which
   opens the last conference viewed.
-- Optional, off until set in `refresh.py`: `FEEDBACK` (form URL or email → footer "Report a problem or suggest an idea";
-  an email becomes a mailto with the page URL) and `COUNTER` (GoatCounter code → one no-cookie count request per page
+- Set in `refresh.py`: `FEEDBACK = "support@spaikz.com"` (form URL or email → footer "Report a problem or suggest an
+  idea"; an email becomes a mailto with the page URL). Off until set: `COUNTER` (GoatCounter code → one no-cookie count request per page
   view to `https://<code>.goatcounter.com/count`, no script loaded, skipped on localhost; path keeps age/conf/club/show).
 - "New since your last visit": localStorage `seen:<title>` keeps the played-game ids at the end of the previous
   visit (a visit ends after 6 quiet hours). New results get a "New" pill (results, tooltips, card) and a ring in Who beat who.

@@ -25,7 +25,7 @@ FIELDS = ["age", "conference", "comp", "match_id", "start", "home_id", "away_id"
 
 SITE = "https://stw1.github.io/mlsnext-dashboard/"  # used in calendar links
 # Footer "Report a problem" link: a form URL (e.g. a Google Form) or an email address. "" = no link.
-FEEDBACK = ""
+FEEDBACK = "support@spaikz.com"
 # GoatCounter site code for a privacy-friendly visit count (https://<code>.goatcounter.com). "" = no counting.
 COUNTER = ""
 
