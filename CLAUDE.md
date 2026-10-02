@@ -10,11 +10,13 @@ game, plus a 10,000-run season simulation. First-time visitors land on **U14 Nor
 CLAUDE.md                          this file
 scripts/refresh.py                 fetch live data -> data/ -> index.html (stdlib only)
 template/dashboard_template.html   the dashboard; all model + rendering logic is inline JS
-data/games.csv                     one row per league game, all brackets (blank scores = not played yet)
+data/games.csv                     one row per game, all brackets: comp = league | flex, venue (blank scores = not played)
 data/brackets.json                 [{age, conf, teams: {squad_id: name}}], sorted by age then conference
 data/meta.json                     snapshot date, synced_at, season key
 index.html                         built output with every bracket embedded (served by GitHub Pages)
 .github/workflows/refresh.yml      weekend auto-refresh
+manifest.webmanifest, icon.svg     home-screen app name and icons (icon-192/512.png, apple-touch-icon.png,
+  *.png                            favicon-32.png); regenerate PNGs from icon.svg with qlmanage + sips
 ```
 
 ## Common tasks
@@ -48,7 +50,10 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
     `home_squad_id`, `away_squad_id`, `home_organisation.name`, `completed`, `home_score`, `away_score`,
     `competition.name` ("League"), `event_location.name` ("TBD" means the time isn't set yet).
   - Filter to games where both squad_ids are in the bracket.
-- MLS NEXT Flex uses a separate key, `mls-next-flex-26-27`, which is not included yet.
+- MLS NEXT Flex: `schedule/mls-next-flex-26-27.json`. U15–U19 only, the **same squad ids** as the league, in Flex groups
+  that are subdivisions of a league conference (so Flex never crosses conferences). Flex games feed the ratings only.
+- No earlier seasons exist on this host (25-26 and other keys return a 631-byte HTML page), so there is no
+  last-season prior. League and Flex games never cross conferences, so conference strengths can't be compared.
   For the **Academy Division**, open its standings page and read the iframe `data-src`
   to get its season key, then pass `--season <key>`.
 - Next season the key will probably be `mls-next-league-27-28`.
@@ -66,21 +71,29 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   The pick is the favourite (or "Too close to call" when |P(home win) − P(away win)| < 5%).
   The margin is round(|expected goal difference|), with a minimum of 1. Confidence labels:
   Strong ≥ 60%, Lean ≥ 45%, otherwise Toss-up.
+- Ratings use league + Flex games (`USE_FLEX`). Backtest across U15–U19 (256 league games, Oct 1): picks right
+  38% → 56%, log-loss 0.98 → 0.91 with Flex.
 - Season sim: 10k Monte Carlo runs with a seeded random number generator (so results are
-  reproducible). Ranking uses points, then goal difference, then goals for. Outputs: projected
-  points, chance of a top-4 finish, chance of finishing 1st.
+  reproducible). Ranks by points per match (final games played), then GD and GF per match. Outputs: projected
+  points, chance of finishing in the top `CH` / top `CUP`, chance of finishing 1st.
+- Cup lines (`CUP_EST`): MLS NEXT hasn't published 2026-27 spots. U13/U14 use last season's per-conference
+  Championship/Premier seeds as reported by UpNext Analytics (MLS's own wording: "Quality of Play rankings"),
+  shown as "(est.)". U15–U19: 48 Cup spots, split unannounced, so the generic, labelled "Top 4" stays.
+  Update `CUP_EST` when MLS publishes the 2026-27 allocation (HD Rules & Regulations / MLS NEXT news).
 - Accuracy check ("How accurate are the predictions?"): a walk-forward backtest. For each weekend it calls
   `fit()` on only the earlier games, predicts that weekend with `predict(h, a, model)`, and compares with the result.
   It needs no logging, but it scores the *current* model code, so changing the model changes past accuracy too.
-- Standings sort: points, then points per match, then goal difference per match, then goals for
-  (this matches the feed's tiebreaker list).
+- Standings sort (official HD rules XIII): points per match; head-to-head for two-team ties only; then wins,
+  goal difference, goals for, away GD, away goals, home GD, home goals, all per match. Rules PDF:
+  https://images.mlssoccer.com/image/upload/v1783990779/assets/MLS_NEXT_HD_Rules_and_Regulations_2026-27_Final_Web_Version_hwmkha.pdf
 
 ## Conventions / gotchas
-- The dashboard must stay a **single self-contained HTML file**, with no external scripts or
-  fetches. It is also published as a Claude Cowork artifact, which blocks network access.
+- The dashboard stays a **single HTML file** with no external scripts or data fetches (all data is embedded).
+  Only the home-screen icons/manifest are separate files; Directions links open Google Maps.
 - `start` in games.csv is UTC (`2026-10-03T16:00Z`); the page shows it in the viewer's time zone. Games without a set
   time (feed venue "TBD", stored at 06:00 local) keep only the local date (`2027-01-09`), from the event's `local_timezone`.
-- Template placeholders filled by `refresh.py`: `__DATA__` (`{default:{age,conf}, snap, brackets:[{age, conf, teams, raw}]}`),
+- Template placeholders filled by `refresh.py`: `__DATA__` (`{default:{age,conf}, snap, venues:[...], brackets:[{age, conf,
+  teams, raw: "id,start,home,away,hs,as,venue#;…", flex: "start,home,away,hs,as;…" (played Flex games only)}]}`),
   `__TITLE__`, `__SEASON__` (from the season key, e.g. "2026–27 season").
 - Bracket choice: `pickBracket()` runs once at load (`?age=&conf=` → last bracket viewed, saved in localStorage as
   `bracket` → `default`); everything after runs exactly as for a single bracket. Age tabs and the conference picker
@@ -92,10 +105,20 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - Team short names (used on phones and in column headers) come from the `SHORT` map in the template (~95 clubs,
   covering every name the regex fallback made too long or too terse). New clubs fall back to the regex.
 - "Follow a team" is saved in the browser's localStorage, keyed by page title, so each bracket remembers its own team.
+- National view: `?age=U13&conf=national` (first option in the conference picker). Fits each conference of the
+  age group separately and lists all teams by rating (expected goal margin vs an average team in its own conference).
+  The page says plainly that this treats conferences as equally strong. Pro Player Pathway gets its own table.
+- "My team" card (top of the page when a team is followed): record, form, next game with odds and venue, outlook,
+  and "Add N games to calendar" (an .ics of remaining games; timed games in UTC with 2h duration, no time = all-day).
+- "New since your last visit": localStorage `seen:<title>` keeps the played-game ids at the end of the previous
+  visit (a visit ends after 6 quiet hours). New results get a "New" pill (results, tooltips, card) and a ring in Who beat who.
+- Dark mode follows the device (`prefers-color-scheme`), one override block at the end of the CSS.
 - `window.__debug` in the page exposes the model internals for testing in node or the browser console.
-- Snapshot 2026-10-01: 869 of 7,711 league games played across 838 teams; index.html is ~323 KB.
+- Snapshot 2026-10-01: 869 of 7,711 league games + 490 Flex games played, 838 teams; index.html is ~397 KB.
 
 ## Ideas / backlog
-- Add Flex and out-of-conference results to give the model more data
+- Use cross-conference events (MLS NEXT Fest, Cup qualifiers) to estimate conference strength for the national view
+- Save each weekend's predictions before kickoff for an honest, frozen track record
+- Safety check in the workflow: refuse to publish if the feed returns far fewer games than last time
 - Weight recent games more heavily
 - Predict draws: the pick is never "draw" unless home/away are within 5%, so draws always count as misses in the accuracy check

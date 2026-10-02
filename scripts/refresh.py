@@ -16,7 +16,8 @@ from zoneinfo import ZoneInfo
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://mls-assist.theintelligenceplatform.com/data"
 UA = {"User-Agent": "Mozilla/5.0 (personal dashboard refresh)"}
-FIELDS = ["age", "conference", "match_id", "start", "home_id", "away_id", "home_team", "away_team", "home_score", "away_score"]
+FIELDS = ["age", "conference", "comp", "match_id", "start", "home_id", "away_id", "home_team", "away_team",
+          "home_score", "away_score", "venue"]
 
 def get_json(url):
     req = urllib.request.Request(url, headers=UA)
@@ -35,7 +36,9 @@ def wanted(value, spec):
 
 def fetch(season, ages, confs):
     """Return (brackets, games, synced_at). Each game's start is UTC 'YYYY-MM-DDTHH:MMZ', or a
-    local 'YYYY-MM-DD' when the kickoff time isn't set yet (the feed marks those with venue 'TBD')."""
+    local 'YYYY-MM-DD' when the kickoff time isn't set yet (the feed marks those with venue 'TBD').
+    comp is 'league', or 'flex' for MLS NEXT Flex games (U15-U19, same squads, always inside one
+    league conference); Flex games only feed the ratings, never the standings."""
     st = get_json(f"{BASE}/standings/{season}.json")
     brackets, team_bracket = [], {}
     for b in st["competition_season"]["competition_brackets"]:
@@ -47,24 +50,31 @@ def fetch(season, ages, confs):
         for sid in teams:
             team_bracket[sid] = (age, conf)
     sch = get_json(f"{BASE}/schedule/{season}.json")
+    try:
+        flex = get_json(f"{BASE}/schedule/{season.replace('-league-', '-flex-')}.json")["events"]
+    except Exception as err:  # Flex is a bonus; never block the league refresh on it
+        print(f"warning: no Flex data ({err})")
+        flex = []
     games = []
-    for e in sch["events"]:
+    for comp, e in [("league", e) for e in sch["events"]] + [("flex", e) for e in flex]:
         h, a = str(e["home_squad_id"]), str(e["away_squad_id"])
         br = team_bracket.get(h)
         if br is None or br != team_bracket.get(a):
-            continue  # only league games inside one bracket
+            continue  # only games between two teams of the same bracket
         t = datetime.fromisoformat(e["start_time"].replace("Z", "+00:00"))
-        if (e.get("event_location") or {}).get("name", "") == "TBD":
-            start = t.astimezone(ZoneInfo(e.get("local_timezone") or "America/New_York")).strftime("%Y-%m-%d")
+        loc = ((e.get("event_location") or {}).get("name") or "").strip()
+        if loc == "TBD":  # kickoff not set yet: keep only the local date
+            venue, start = "", t.astimezone(ZoneInfo(e.get("local_timezone") or "America/New_York")).strftime("%Y-%m-%d")
         else:
-            start = t.strftime("%Y-%m-%dT%H:%MZ")
+            venue, start = loc, t.strftime("%Y-%m-%dT%H:%MZ")
         done = e.get("completed")
         teams = next(x["teams"] for x in brackets if (x["age"], x["conf"]) == br)
-        games.append({"age": br[0], "conference": br[1], "match_id": e["game_key"], "start": start,
+        games.append({"age": br[0], "conference": br[1], "comp": comp, "match_id": e["game_key"], "start": start,
                       "home_id": h, "away_id": a, "home_team": teams[h], "away_team": teams[a],
-                      "home_score": e["home_score"] if done else "", "away_score": e["away_score"] if done else ""})
+                      "home_score": e["home_score"] if done else "", "away_score": e["away_score"] if done else "",
+                      "venue": venue})
     brackets.sort(key=bracket_order)
-    games.sort(key=lambda g: (age_num(g["age"]), g["conference"], g["start"], g["match_id"]))
+    games.sort(key=lambda g: (age_num(g["age"]), g["conference"], g["comp"] != "league", g["start"], str(g["match_id"])))
     return brackets, games, sch.get("synced_at", "")
 
 def save(brackets, games, meta):
@@ -85,23 +95,34 @@ def load():
 
 def build(brackets, games, meta, default):
     tpl = open(f"{ROOT}/template/dashboard_template.html").read()
-    by = {}
+    # league games: id,start,home,away,hs,as,venue# ; Flex games (played only, for the ratings): start,home,away,hs,as
+    venues, vix, league, flex = [], {}, {}, {}
     for g in games:
-        by.setdefault((g["age"], g["conference"]), []).append(
-            ",".join([str(g["match_id"]), g["start"], g["home_id"], g["away_id"], str(g["home_score"]), str(g["away_score"])]))
+        key = (g["age"], g["conference"])
+        if g.get("comp", "league") == "flex":
+            if str(g["home_score"]) != "":
+                flex.setdefault(key, []).append(",".join([g["start"], g["home_id"], g["away_id"], str(g["home_score"]), str(g["away_score"])]))
+            continue
+        v = g.get("venue") or ""
+        if v and v not in vix:
+            vix[v] = len(venues); venues.append(v)
+        league.setdefault(key, []).append(",".join([str(g["match_id"]), g["start"], g["home_id"], g["away_id"],
+                                                    str(g["home_score"]), str(g["away_score"]), str(vix[v]) if v else ""]))
     dage, dconf = default.split(":", 1)
-    data = {"default": {"age": dage, "conf": dconf}, "snap": meta["snapshot"],
+    data = {"default": {"age": dage, "conf": dconf}, "snap": meta["snapshot"], "venues": venues,
             "brackets": [{"age": b["age"], "conf": b["conf"], "teams": b["teams"],
-                          "raw": ";".join(by.get((b["age"], b["conf"]), []))} for b in brackets]}
+                          "raw": ";".join(league.get((b["age"], b["conf"]), [])),
+                          "flex": ";".join(flex.get((b["age"], b["conf"]), []))} for b in brackets]}
     m = re.search(r"(\d\d)-(\d\d)$", meta.get("season_key", ""))
     season = f"20{m[1]}–{m[2]} season" if m else ""
     html = (tpl.replace("/*__DATA__*/{}", json.dumps(data, ensure_ascii=False, separators=(",", ":")))
                .replace("__TITLE__", "MLS NEXT Homegrown Division dashboard")
                .replace("__SEASON__", season))
     open(f"{ROOT}/index.html", "w").write(html)
-    played = sum(1 for g in games if str(g["home_score"]) != "")
+    played = sum(1 for g in games if str(g["home_score"]) != "" and g.get("comp", "league") == "league")
+    fplayed = sum(1 for g in games if str(g["home_score"]) != "" and g.get("comp") == "flex")
     print(f"Built index.html  ({len(html)//1024} KB): {len(brackets)} brackets, "
-          f"{sum(len(b['teams']) for b in brackets)} teams, {played}/{len(games)} games played, snapshot {meta['snapshot']}")
+          f"{sum(len(b['teams']) for b in brackets)} teams, {played} league + {fplayed} Flex games played, snapshot {meta['snapshot']}")
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
