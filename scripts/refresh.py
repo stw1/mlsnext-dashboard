@@ -157,12 +157,12 @@ def slug_team(n):  # same as the page's slugT
 def write_calendars(brackets, games):
     """cal/<squad id>.ics for every team: its league and Flex games, results in the title once played. Calendar apps
     subscribe to these (webcal://), so changed kickoff times and new results reach phones without re-downloading.
-    Nothing time-dependent goes in (fixed DTSTAMP), so a file only changes when its games do."""
+    Nothing time-dependent goes in (fixed DTSTAMP), so a file only changes when its games do. Only changed files are
+    rewritten and only stray ones removed: deleting and recreating all 840 in a synced folder (iCloud Drive) makes the
+    sync service leave "10461 2.ics"-style duplicates."""
     out = f"{ROOT}/cal"
     os.makedirs(out, exist_ok=True)
-    for f in os.listdir(out):
-        if f.endswith(".ics"):
-            os.remove(f"{out}/{f}")
+    wanted = set()
     where = {sid: b for b in brackets for sid in b["teams"]}
     tx = lambda t: re.sub(r"([\\,;])", r"\\\1", str(t)).replace("\n", "\\n")
     def fold(line):  # RFC 5545: lines of at most 75 octets, continuation lines start with a space
@@ -209,8 +209,18 @@ def write_calendars(brackets, games):
         cal = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//mlsnext-dashboard//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
                f"X-WR-CALNAME:{tx(f'{name} {age} · MLS NEXT')}", "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
                "X-PUBLISHED-TTL:PT6H", *ev, "END:VCALENDAR"]
-        with open(f"{out}/{sid}.ics", "w", newline="") as fh:
-            fh.write("\r\n".join(fold(l) for l in cal) + "\r\n")
+        text, path = "\r\n".join(fold(l) for l in cal) + "\r\n", f"{out}/{sid}.ics"
+        wanted.add(f"{sid}.ics")
+        try:
+            same = open(path, newline="").read() == text
+        except OSError:
+            same = False
+        if not same:
+            with open(path, "w", newline="") as fh:
+                fh.write(text)
+    for f in os.listdir(out):  # teams that left, and sync-service duplicates
+        if f not in wanted:
+            os.remove(f"{out}/{f}")
 
 def build(brackets, games, meta, default, groups=()):
     tpl = open(f"{ROOT}/template/dashboard_template.html").read()
