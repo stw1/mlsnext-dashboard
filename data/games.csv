@@ -226,7 +226,6 @@ U13,Frontier,league,27507,2026-09-27T15:00Z,6513,5805,Real Salt Lake,FC Dallas,5
 U13,Frontier,league,33814,2026-09-27T20:00Z,6318,7148,Capital City SC,AC River,1,4,1849 Park - Field #2
 U13,Frontier,league,27724,2026-10-03T14:30Z,6194,6318,Austin FC,Capital City SC,,,St. David’s Performance Center – Field 4
 U13,Frontier,league,27718,2026-10-03T16:00Z,9663,5923,ALBION SC Colorado,Houston Rangers,,,East Boulder Community Center - East Turf
-U13,Frontier,league,27734,2026-10-03T20:00Z,6152,8103,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #2
 U13,Frontier,league,27950,2026-10-04T17:00Z,9663,6337,ALBION SC Colorado,GFI Academy,,,Twin Peaks Classical Academy - Field 1
 U13,Frontier,league,28279,2026-10-04T18:00Z,5805,7148,FC Dallas,AC River,,,Toyota Soccer Center - Field 12
 U13,Frontier,league,28288,2026-10-17T15:00Z,5923,6513,Houston Rangers,Real Salt Lake,,,Paul D Rushing Park - Field 3
@@ -319,6 +318,7 @@ U13,Frontier,league,36220,2027-05-01T17:00Z,5805,6513,FC Dallas,Real Salt Lake,,
 U13,Frontier,league,36308,2027-05-08,6152,6318,Dallas Hornets,Capital City SC,,,
 U13,Frontier,league,36317,2027-05-08,5923,6194,Houston Rangers,Austin FC,,,
 U13,Frontier,league,36314,2027-05-08T18:00Z,6337,5805,GFI Academy,FC Dallas,,,Lenze Rd - Field 1
+U13,Frontier,league,27734,2027-06-08T20:00Z,6152,8103,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #2
 U13,Mid-America,league,32555,2026-09-05T17:00Z,6244,5959,Chicago FC United,Cincinnati United Soccer Club,5,1,Loyola Academy Munz Campus - Field 7
 U13,Mid-America,league,26035,2026-09-05T18:00Z,5977,7162,Bavarian United SC,Hoosier Premier,1,7,Bavarian United Soccer Club - Ramon
 U13,Mid-America,league,26043,2026-09-05T18:00Z,6214,6224,SC Wave,Lou Fusz Athletic,3,0,Uihlein Soccer Park  - Southeast Sales Stadium
@@ -782,8 +782,8 @@ U13,Northeast,league,27584,2026-09-27T13:00Z,5821,5709,Metropolitan Oval,Blau We
 U13,Northeast,league,27594,2026-09-27T22:00Z,5935,6028,Valeo Futbol Club,NEFC,2,4,Valeo Sport Plex - Main Field
 U13,Northeast,league,27801,2026-10-03T15:30Z,7160,6184,Downtown United Soccer Club,Beachside of Connecticut,,,Pier 40 CourtYard - West Field
 U13,Northeast,league,27824,2026-10-03T16:30Z,5729,6066,Red Bull New York,Cedar Stars Academy Bergen,,,Red Bull Performance Center - Turf
-U13,Northeast,league,27813,2026-10-03T17:00Z,6190,10467,Ironbound Soccer Club,The Island FC East,,,Ironbound Stadium
 U13,Northeast,league,27819,2026-10-03T18:00Z,5645,5655,New York City FC,FC Westchester,,,Da Silva Memorial Field
+U13,Northeast,league,27813,2026-10-03T19:00Z,6190,10467,Ironbound Soccer Club,The Island FC East,,,Ironbound Stadium
 U13,Northeast,league,27807,2026-10-03T23:45Z,5909,6289,Intercontinental Football Academy of New England,FA Euro New York,,,Union Point Sports Complex - Field 2
 U13,Northeast,league,28068,2026-10-04T13:00Z,6028,5760,NEFC,FC Greater Boston Bolts,,,NEFC Park - Field 2
 U13,Northeast,league,27825,2026-10-04T16:00Z,6102,10508,TSF Academy,Connecticut United FC,,,DePaul Catholic High School - Stadium Field
@@ -1276,6 +1276,7 @@ U13,Southeast,league,29872,2026-11-07T18:00Z,6143,6319,Lanier Soccer Association
 U13,Southeast,league,29946,2026-11-08T14:00Z,7154,6272,Carolina Core FC,Triangle United Soccer Association,,,Phillips Park Soccer Complex Field #1
 U13,Southeast,league,29944,2026-11-08T15:00Z,6098,5751,AFC Lightning,KSA,,,McCurry Park South - Field 23
 U13,Southeast,league,29513,2026-11-08T16:00Z,6060,6257,Queen City Mutiny FC,Wake FC,,,Elon Park - Field 1
+U13,Southeast,league,30705,2026-11-08T17:00Z,5835,6272,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,Centennial High School Field 1
 U13,Southeast,league,30089,2026-11-08T17:30Z,8865,7279,Chattanooga FC,Atlanta United,,,Finley Stadium - Turf
 U13,Southeast,league,30339,2026-11-14T14:00Z,6319,9686,Southern Soccer Academy,Huntsville City FC,,,Marathon Park - Field 1
 U13,Southeast,league,30336,2026-11-14T16:00Z,6098,8865,AFC Lightning,Chattanooga FC,,,McCurry Park South - Field 24
@@ -1286,7 +1287,6 @@ U13,Southeast,league,30411,2026-11-15T14:00Z,6143,7279,Lanier Soccer Association
 U13,Southeast,league,30413,2026-11-15T14:00Z,6060,5751,Queen City Mutiny FC,KSA,,,Elon Park - Field 1
 U13,Southeast,league,30407,2026-11-15T15:00Z,6098,9686,AFC Lightning,Huntsville City FC,,,McCurry Park South - Field 23
 U13,Southeast,league,32049,2026-11-15T18:00Z,9651,5835,Charlotte Independence Soccer Club,Nashville United Soccer Academy (NUSA Next),,,Manchester Meadows - Field 2
-U13,Southeast,league,30705,2026-11-21,5835,6272,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,
 U13,Southeast,league,30704,2026-11-21T15:00Z,9686,6143,Huntsville City FC,Lanier Soccer Association,,,Wick Family Field - Stadium
 U13,Southeast,league,33302,2026-11-21T18:00Z,6257,9651,Wake FC,Charlotte Independence Soccer Club,,,Ting Park - Ting Park 2
 U13,Southeast,league,30876,2026-11-22T14:00Z,6257,7154,Wake FC,Carolina Core FC,,,Womble Park - Field 1
@@ -2017,7 +2017,6 @@ U14,Frontier,league,27307,2026-09-26T19:00Z,6338,10482,GFI Academy,SGA,6,0,Lenze
 U14,Frontier,league,27508,2026-09-27T15:00Z,6393,5806,Real Salt Lake,FC Dallas,1,0,Zion’s Bank Training Center - Indoor Training Field (West)
 U14,Frontier,league,33815,2026-09-27T18:00Z,6317,7149,Capital City SC,AC River,0,0,1849 Park - Field #2
 U14,Frontier,league,27964,2026-09-27T18:30Z,6348,10482,Houston Dynamo FC,SGA,5,0,SaberCats Stadium - Stadium
-U14,Frontier,league,27735,2026-10-03T16:00Z,6153,9689,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #3
 U14,Frontier,league,27744,2026-10-03T16:30Z,6348,6393,Houston Dynamo FC,Real Salt Lake,,,SaberCats Stadium - Stadium
 U14,Frontier,league,27719,2026-10-03T20:00Z,9664,5924,ALBION SC Colorado,Houston Rangers,,,East Boulder Community Center - East Turf
 U14,Frontier,league,27725,2026-10-03T20:30Z,6195,6317,Austin FC,Capital City SC,,,St. David's Performance Center - Parmer Field
@@ -2132,6 +2131,7 @@ U14,Frontier,league,36309,2027-05-08,6153,6317,Dallas Hornets,Capital City SC,,,
 U14,Frontier,league,36318,2027-05-08,5924,6195,Houston Rangers,Austin FC,,,
 U14,Frontier,league,36319,2027-05-08,10482,6348,SGA,Houston Dynamo FC,,,
 U14,Frontier,league,36315,2027-05-08T20:00Z,6338,5806,GFI Academy,FC Dallas,,,Lenze Rd - Field 1
+U14,Frontier,league,27735,2027-06-08T16:00Z,6153,9689,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #3
 U14,Mid-America,league,26044,2026-09-05T14:00Z,6215,6225,SC Wave,Lou Fusz Athletic,1,2,Uihlein Soccer Park  - Pat Jones
 U14,Mid-America,league,26042,2026-09-05T17:45Z,10498,5695,Club Ohio,Michigan Wolves,2,2,Kilbourne Run Sports Turf #5
 U14,Mid-America,league,32556,2026-09-05T19:00Z,6243,5960,Chicago FC United,Cincinnati United Soccer Club,0,2,Loyola Academy Munz Campus - Field 8
@@ -2608,8 +2608,8 @@ U14,Northeast,league,27577,2026-09-27T15:00Z,6067,6191,Cedar Stars Academy Berge
 U14,Northeast,league,27585,2026-09-27T15:00Z,5822,5708,Metropolitan Oval,Blau Weiss Gottschee,2,3,Met Oval - Field 1
 U14,Northeast,league,27595,2026-09-27T20:00Z,5936,6029,Valeo Futbol Club,NEFC,2,2,Valeo Sport Plex - Main Field
 U14,Northeast,league,27802,2026-10-03T14:00Z,7161,6185,Downtown United Soccer Club,Beachside of Connecticut,,,Pier 40 CourtYard - West Field
-U14,Northeast,league,27814,2026-10-03T19:00Z,6191,10468,Ironbound Soccer Club,The Island FC East,,,Ironbound Stadium
 U14,Northeast,league,27820,2026-10-03T20:00Z,5644,5656,New York City FC,FC Westchester,,,Da Silva Memorial Field
+U14,Northeast,league,27814,2026-10-03T21:00Z,6191,10468,Ironbound Soccer Club,The Island FC East,,,Ironbound Stadium
 U14,Northeast,league,27808,2026-10-03T21:45Z,6025,6290,Intercontinental Football Academy of New England,FA Euro New York,,,Union Point Sports Complex - Field 2
 U14,Northeast,league,28063,2026-10-04T13:00Z,7172,5656,The Island FC West,FC Westchester,,,Hofstra University - Stadium
 U14,Northeast,league,27826,2026-10-04T14:00Z,6103,7158,TSF Academy,Connecticut United FC,,,DePaul Catholic High School - Stadium Field
@@ -3085,6 +3085,7 @@ U14,Southeast,league,29916,2026-11-07T17:00Z,5836,6013,Nashville United Soccer A
 U14,Southeast,league,30098,2026-11-08T16:00Z,7155,6273,Carolina Core FC,Triangle United Soccer Association,,,Phillips Park Soccer Complex Field #1
 U14,Southeast,league,30100,2026-11-08T16:00Z,8866,5700,Chattanooga FC,Atlanta United,,,Finley Stadium - Turf
 U14,Southeast,league,30096,2026-11-08T17:00Z,6099,5754,AFC Lightning,KSA,,,McCurry Park South - Field 24
+U14,Southeast,league,30802,2026-11-08T19:00Z,5836,6273,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,Centennial High School Field 1
 U14,Southeast,league,29514,2026-11-08T20:00Z,6061,6258,Queen City Mutiny FC,Wake FC,,,Elon Park - Field 1
 U14,Southeast,league,30345,2026-11-14T14:00Z,6320,9687,Southern Soccer Academy,Huntsville City FC,,,Marathon Park - Field 3
 U14,Southeast,league,30347,2026-11-14T16:00Z,6273,9652,Triangle United Soccer Association,Charlotte Independence Soccer Club,,,Pleasant Park - Field 3
@@ -3095,7 +3096,6 @@ U14,Southeast,league,30419,2026-11-15T16:00Z,6013,5871,Inter Atlanta FC,Hoover-V
 U14,Southeast,league,30564,2026-11-15T16:00Z,6144,5700,Lanier Soccer Association,Atlanta United,,,ALLEN CREEK SOCCER COMPLEX - FIELD 1
 U14,Southeast,league,32057,2026-11-15T16:00Z,9652,5836,Charlotte Independence Soccer Club,Nashville United Soccer Academy (NUSA Next),,,Manchester Meadows - Field 2
 U14,Southeast,league,30566,2026-11-15T18:00Z,6061,5754,Queen City Mutiny FC,KSA,,,Elon Park - Field 1
-U14,Southeast,league,30802,2026-11-21,5836,6273,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,
 U14,Southeast,league,33312,2026-11-21T18:00Z,6258,9652,Wake FC,Charlotte Independence Soccer Club,,,Ting Park - Ting Park 1
 U14,Southeast,league,30801,2026-11-21T21:00Z,9687,6144,Huntsville City FC,Lanier Soccer Association,,,Wick Family Field - Stadium
 U14,Southeast,league,30882,2026-11-22T17:00Z,5754,6013,KSA,Inter Atlanta FC,,,Rock Springs Park - RSP 3
@@ -3275,9 +3275,9 @@ U14,Southwest,league,27677,2026-09-27T18:00Z,5816,6166,Total Futbol Academy,FC G
 U14,Southwest,league,27647,2026-09-27T20:00Z,5801,6056,Las Vegas Sports Academy,City SC - San Diego,0,6,Viper Lacrosse Fields Family Sports Complex - Field 1
 U14,Southwest,league,27655,2026-09-28T01:15Z,5954,5853,LA Surf Soccer Club,City SC Southwest,4,0,Silverlakes Sports Complex - Field 4
 U14,Southwest,league,27908,2026-10-03T16:00Z,6283,6046,ALBION SC San Diego,Strikers FC,,,Muir Language Academy
+U14,Southwest,league,28459,2026-10-03T17:30Z,11116,5801,San Diego FC,Las Vegas Sports Academy,,,Sharp Healthcare Performance Center - Field 2
 U14,Southwest,league,27918,2026-10-03T18:00Z,5860,5778,Phoenix Rising FC,Albion SC Las Vegas,,,Phoenix Rising FC Youth Complex - North Field
 U14,Southwest,league,27924,2026-10-03T18:00Z,5816,5954,Total Futbol Academy,LA Surf Soccer Club,,,Silverlakes Field in Norco - Silverlakes Sports Complex Field 2
-U14,Southwest,league,28459,2026-10-03T18:00Z,11116,5801,San Diego FC,Las Vegas Sports Academy,,,Sharp Healthcare Performance Center - Field 2
 U14,Southwest,league,29150,2026-10-03T18:00Z,6266,6328,Los Angeles Football Club,Ventura County Fusion,,,Jesse Owens Stadium - Stadium
 U14,Southwest,league,27914,2026-10-03T20:00Z,5853,6010,City SC Southwest,RSL Arizona,,,Silverlakes Sports Park - Field 18
 U14,Southwest,league,28135,2026-10-03T20:00Z,6039,6292,Albion SC Los Angeles,Santa Barbara Soccer Club,,,Long Beach City College - FIELD 1
@@ -3798,7 +3798,6 @@ U15,Frontier,flex,27090,2026-09-20T17:00Z,9665,8104,ALBION SC Colorado,Tulsa Gre
 U15,Frontier,flex,27308,2026-09-26T17:00Z,6339,10484,GFI Academy,SGA,6,0,Lenze Rd - Field 3
 U15,Frontier,flex,27302,2026-09-26T21:00Z,7150,5925,AC River,Houston Rangers,2,2,Soccer Central - Field #3
 U15,Frontier,flex,33816,2026-09-27T16:00Z,6316,7150,Capital City SC,AC River,0,0,1849 Park - Field #2
-U15,Frontier,flex,27736,2026-10-03T18:00Z,6154,8104,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #2
 U15,Frontier,flex,27952,2026-10-04T19:00Z,9665,6339,ALBION SC Colorado,GFI Academy,,,Twin Peaks Classical Academy - Field 1
 U15,Frontier,flex,28290,2026-10-17T15:00Z,5925,6072,Houston Rangers,Real Salt Lake,,,Paul D Rushing Park - Field 1
 U15,Frontier,flex,28503,2026-10-18T14:00Z,5925,8104,Houston Rangers,Tulsa Greenwood SC,,,Paul D Rushing Park - Field 1
@@ -3828,6 +3827,7 @@ U15,Frontier,flex,33417,2027-03-13,6072,6339,Real Salt Lake,GFI Academy,,,
 U15,Frontier,flex,33828,2027-03-20,5925,9665,Houston Rangers,ALBION SC Colorado,,,
 U15,Frontier,flex,33835,2027-03-20,10484,8104,SGA,Tulsa Greenwood SC,,,
 U15,Frontier,flex,34239,2027-03-27,8104,6339,Tulsa Greenwood SC,GFI Academy,,,
+U15,Frontier,flex,27736,2027-06-08T18:00Z,6154,8104,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #2
 U15,Mid-America,league,26037,2026-09-05T20:00Z,7206,7164,Bavarian United SC,Hoosier Premier,3,2,Bavarian United Soccer Club - Heartland Value Fund Stadium
 U15,Mid-America,league,32557,2026-09-05T21:00Z,6242,7268,Chicago FC United,Cincinnati United Soccer Club,5,0,Loyola Academy Munz Campus - Field 7
 U15,Mid-America,league,26214,2026-09-06T14:00Z,6216,7164,SC Wave,Hoosier Premier,2,2,Mindiola Sports Complex - Mindiola Turf East
@@ -4224,7 +4224,7 @@ U15,Northeast,league,27180,2026-09-20T19:00Z,5657,6030,FC Westchester,NEFC,3,1,S
 U15,Northeast,league,27586,2026-09-27T17:00Z,5823,5707,Metropolitan Oval,Blau Weiss Gottschee,3,1,Met Oval - Field 1
 U15,Northeast,league,27803,2026-10-03T12:00Z,9720,6186,Downtown United Soccer Club,Beachside of Connecticut,,,Pier 40 CourtYard - West Field
 U15,Northeast,league,27809,2026-10-03T13:00Z,6024,7256,Intercontinental Football Academy of New England,FA Euro New York,,,Union Point Sports Complex - Field 2
-U15,Northeast,league,27815,2026-10-03T21:00Z,7234,10469,Ironbound Soccer Club,The Island FC East,,,Ironbound Stadium
+U15,Northeast,league,27815,2026-10-03T23:00Z,7234,10469,Ironbound Soccer Club,The Island FC East,,,Ironbound Stadium
 U15,Northeast,league,28075,2026-10-04T14:00Z,5735,10469,Red Bull New York,The Island FC East,,,Red Bull Performance Center - Turf
 U15,Northeast,league,28064,2026-10-04T14:45Z,9736,5657,The Island FC West,FC Westchester,,,Hofstra University - Stadium
 U15,Northeast,league,28052,2026-10-04T16:15Z,6068,6020,Cedar Stars Academy Bergen,Seacoast United,,,FDU Soccer Field - Teaneck
@@ -4770,6 +4770,7 @@ U15,Southeast,flex,29741,2026-11-01T16:00Z,8108,8867,Nashville United Soccer Aca
 U15,Southeast,flex,29747,2026-11-01T16:00Z,6321,9713,Southern Soccer Academy,Carolina Core FC,,,Franklin Gateway sports complex - Field 2
 U15,Southeast,flex,29739,2026-11-01T19:00Z,5756,7248,KSA,Triangle United Soccer Association,,,Rock Springs Park - RSP 2
 U15,Southeast,flex,29922,2026-11-07T16:00Z,6145,6321,Lanier Soccer Association,Southern Soccer Academy,,,Allen Creek Soccer Complex  - Field 2
+U15,Southeast,flex,30810,2026-11-08T15:00Z,8108,7248,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,Centennial High School Field 1
 U15,Southeast,flex,30192,2026-11-08T16:00Z,9713,7248,Carolina Core FC,Triangle United Soccer Association,,,Phillips Park Soccer Complex - Field 2
 U15,Southeast,flex,30190,2026-11-08T17:00Z,7210,5756,AFC Lightning,KSA,,,McCurry Park South - Field 23
 U15,Southeast,flex,29515,2026-11-08T18:00Z,6062,6259,Queen City Mutiny FC,Wake FC,,,Elon Park - Field 1
@@ -4782,7 +4783,6 @@ U15,Southeast,flex,30569,2026-11-15T17:00Z,7210,9688,AFC Lightning,Huntsville Ci
 U15,Southeast,flex,30573,2026-11-15T18:00Z,7269,5872,Inter Atlanta FC,Hoover-Vestavia Soccer,,,Arizona Avenue Soccer Fields AZ 2
 U15,Southeast,flex,32066,2026-11-15T18:00Z,9653,8108,Charlotte Independence Soccer Club,Nashville United Soccer Academy (NUSA Next),,,Manchester Meadows - Field 1
 U15,Southeast,flex,30571,2026-11-15T19:00Z,2789,9713,Charlotte FC,Carolina Core FC,,,Atrium Health Performance Park – Turf
-U15,Southeast,flex,30810,2026-11-21,8108,7248,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,
 U15,Southeast,flex,30809,2026-11-21T17:00Z,9688,6145,Huntsville City FC,Lanier Soccer Association,,,Wick Family Field - Stadium
 U15,Southeast,flex,30892,2026-11-22T15:00Z,5756,7269,KSA,Inter Atlanta FC,,,Rock Springs Park - RSP 3
 U15,Southeast,flex,30893,2026-11-22T15:00Z,8108,6145,Nashville United Soccer Academy (NUSA Next),Lanier Soccer Association,,,Siegal High School - 3300 siegal rd Murfreesboro TN 37129
@@ -5368,7 +5368,6 @@ U16,Frontier,flex,26865,2026-09-19T17:00Z,7151,6340,AC River,GFI Academy,3,4,Soc
 U16,Frontier,flex,26879,2026-09-19T21:00Z,5926,6315,Houston Rangers,Capital City SC,3,4,Paul D Rushing Park - Field 1
 U16,Frontier,flex,27091,2026-09-20T15:00Z,9666,9690,ALBION SC Colorado,Tulsa Greenwood SC,1,1,Twin Peaks Classical Academy - Field 2
 U16,Frontier,flex,33817,2026-09-27T20:00Z,6315,7151,Capital City SC,AC River,3,5,1849 Park - Field #1
-U16,Frontier,flex,27737,2026-10-03T16:00Z,6155,9690,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #2
 U16,Frontier,flex,27721,2026-10-03T18:00Z,9666,5926,ALBION SC Colorado,Houston Rangers,,,East Boulder Community Center - West Turf
 U16,Frontier,flex,27953,2026-10-04T15:00Z,9666,6340,ALBION SC Colorado,GFI Academy,,,Twin Peaks Classical Academy - Field 2
 U16,Frontier,flex,28285,2026-10-17T19:00Z,6340,9690,GFI Academy,Tulsa Greenwood SC,,,Lenze Rd - Field 3
@@ -5390,6 +5389,7 @@ U16,Frontier,flex,32113,2027-02-20,6315,10485,Capital City SC,SGA,,,
 U16,Frontier,flex,32994,2027-03-06,9690,6315,Tulsa Greenwood SC,Capital City SC,,,
 U16,Frontier,flex,33823,2027-03-20,6340,6155,GFI Academy,Dallas Hornets,,,
 U16,Frontier,flex,33836,2027-03-20,10485,9690,SGA,Tulsa Greenwood SC,,,
+U16,Frontier,flex,27737,2027-06-08T16:00Z,6155,9690,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #2
 U16,Mid-America,league,26038,2026-09-05T18:00Z,5979,7165,Bavarian United SC,Hoosier Premier,1,4,Bavarian United Soccer Club - Heartland Value Fund Stadium
 U16,Mid-America,league,32558,2026-09-05T19:00Z,6241,9714,Chicago FC United,Cincinnati United Soccer Club,2,1,Loyola Academy Munz Campus - Field 7
 U16,Mid-America,league,26215,2026-09-06T18:00Z,6217,7165,SC Wave,Hoosier Premier,1,1,Mindiola Sports Complex - Mindiola Turf West
@@ -5783,7 +5783,7 @@ U16,Northeast,league,26496,2026-09-20T20:30Z,10470,5706,The Island FC East,Blau 
 U16,Northeast,league,27587,2026-09-27T19:15Z,5824,5706,Metropolitan Oval,Blau Weiss Gottschee,4,2,Met Oval - Field 1
 U16,Northeast,league,27804,2026-10-03T14:00Z,9721,6187,Downtown United Soccer Club,Beachside of Connecticut,,,Pier 40 CourtYard - East Field
 U16,Northeast,league,27810,2026-10-03T17:30Z,5641,9724,Intercontinental Football Academy of New England,FA Euro New York,,,Union Point Sports Complex - Field 2
-U16,Northeast,league,27816,2026-10-03T21:00Z,9703,10470,Ironbound Soccer Club,The Island FC East,,,Eddie Moraes Stadium
+U16,Northeast,league,27816,2026-10-03T23:00Z,9703,10470,Ironbound Soccer Club,The Island FC East,,,Eddie Moraes Stadium
 U16,Northeast,league,28065,2026-10-04T16:30Z,9737,5658,The Island FC West,FC Westchester,,,Hofstra University - Stadium
 U16,Northeast,league,28047,2026-10-04T17:00Z,5706,5942,Blau Weiss Gottschee,New York SC,,,Queens College - Queens College
 U16,Northeast,league,28053,2026-10-04T20:45Z,6069,6021,Cedar Stars Academy Bergen,Seacoast United,,,FDU Soccer Field - Teaneck
@@ -6319,12 +6319,12 @@ U16,Southeast,flex,29929,2026-11-07T18:00Z,6146,6322,Lanier Soccer Association,S
 U16,Southeast,flex,29516,2026-11-08T18:00Z,6063,6260,Queen City Mutiny FC,Wake FC,,,Elon Park - Field 2
 U16,Southeast,flex,30203,2026-11-08T18:00Z,10504,6274,Carolina Core FC,Triangle United Soccer Association,,,Phillips Park Soccer Complex Field #1
 U16,Southeast,flex,30201,2026-11-08T19:00Z,9707,5757,AFC Lightning,KSA,,,McCurry Park South - Field 23
+U16,Southeast,flex,30815,2026-11-08T19:00Z,9749,6274,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,Centennial High School Field 2
 U16,Southeast,flex,30395,2026-11-14T14:00Z,6274,9654,Triangle United Soccer Association,Charlotte Independence Soccer Club,,,Pleasant Park - Field 3
 U16,Southeast,flex,30355,2026-11-14T18:00Z,9707,10507,AFC Lightning,Chattanooga FC,,,McCurry Park South - Field 23
 U16,Southeast,flex,30222,2026-11-14T20:00Z,6260,9749,Wake FC,Nashville United Soccer Academy (NUSA Next),,,Ting Park - Ting Park 2
 U16,Southeast,flex,32159,2026-11-15T14:00Z,9654,9749,Charlotte Independence Soccer Club,Nashville United Soccer Academy (NUSA Next),,,Manchester Meadows - Field 2
 U16,Southeast,flex,30581,2026-11-15T16:00Z,9730,5873,Inter Atlanta FC,Hoover-Vestavia Soccer,,,Arizona Avenue Soccer Fields - AZ 1
-U16,Southeast,flex,30815,2026-11-21,9749,6274,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,
 U16,Southeast,flex,31838,2026-11-22T15:00Z,5757,9730,KSA,Inter Atlanta FC,,,Rock Springs Park - RSP 2
 U16,Southeast,flex,31843,2026-11-22T16:00Z,6260,10504,Wake FC,Carolina Core FC,,,Womble Park - Field 1
 U16,Southeast,flex,31839,2026-11-22T17:00Z,9749,6146,Nashville United Soccer Academy (NUSA Next),Lanier Soccer Association,,,Siegal High School - 3300 siegal rd Murfreesboro TN 37129
@@ -6971,7 +6971,6 @@ U17,Frontier,flex,26866,2026-09-19T19:00Z,7152,6341,AC River,GFI Academy,1,6,Soc
 U17,Frontier,flex,27092,2026-09-20T17:00Z,9667,9691,ALBION SC Colorado,Tulsa Greenwood SC,4,1,Twin Peaks Classical Academy - Field 2
 U17,Frontier,flex,33818,2026-09-27T18:00Z,6314,7152,Capital City SC,AC River,3,0,1849 Park - Field #1
 U17,Frontier,flex,27722,2026-10-03T18:00Z,9667,5927,ALBION SC Colorado,Houston Rangers,,,East Boulder Community Center - East Turf
-U17,Frontier,flex,27738,2026-10-03T18:00Z,6156,9691,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #3
 U17,Frontier,flex,28281,2026-10-04T16:00Z,7276,7152,FC Dallas,AC River,,,Toyota Soccer Center - Field 12
 U17,Frontier,flex,27954,2026-10-04T17:00Z,9667,6341,ALBION SC Colorado,GFI Academy,,,Twin Peaks Classical Academy - Field 2
 U17,Frontier,flex,28286,2026-10-17T17:00Z,6341,9691,GFI Academy,Tulsa Greenwood SC,,,Lenze Rd - Field 2
@@ -6999,6 +6998,7 @@ U17,Frontier,flex,32114,2027-02-20,6314,10488,Capital City SC,SGA,,,
 U17,Frontier,flex,32995,2027-03-06,9691,6314,Tulsa Greenwood SC,Capital City SC,,,
 U17,Frontier,flex,33824,2027-03-20,6341,6156,GFI Academy,Dallas Hornets,,,
 U17,Frontier,flex,33837,2027-03-20,10488,9691,SGA,Tulsa Greenwood SC,,,
+U17,Frontier,flex,27738,2027-06-08T18:00Z,6156,9691,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #3
 U17,Mid-America,league,26039,2026-09-05T16:00Z,7207,7166,Bavarian United SC,Hoosier Premier,3,3,Bavarian United Soccer Club - Heartland Value Fund Stadium
 U17,Mid-America,league,32559,2026-09-05T21:00Z,6240,9715,Chicago FC United,Cincinnati United Soccer Club,5,3,Loyola Academy Munz Campus - Field 8
 U17,Mid-America,league,26216,2026-09-06T16:00Z,6218,7166,SC Wave,Hoosier Premier,0,4,Mindiola Sports Complex - Mindiola Turf West
@@ -7392,7 +7392,7 @@ U17,Northeast,league,27160,2026-09-20T20:45Z,5745,6188,Bayside FC,Beachside of C
 U17,Northeast,league,27588,2026-09-27T21:30Z,5825,5705,Metropolitan Oval,Blau Weiss Gottschee,1,0,Met Oval - Field 1
 U17,Northeast,league,27811,2026-10-03T15:15Z,6026,9725,Intercontinental Football Academy of New England,FA Euro New York,,,Union Point Sports Complex - Field 2
 U17,Northeast,league,27805,2026-10-03T16:00Z,9722,6188,Downtown United Soccer Club,Beachside of Connecticut,,,Pier 40 CourtYard - East Field
-U17,Northeast,league,27817,2026-10-03T19:00Z,9704,10471,Ironbound Soccer Club,The Island FC East,,,Eddie Moraes Stadium
+U17,Northeast,league,27817,2026-10-03T21:00Z,9704,10471,Ironbound Soccer Club,The Island FC East,,,Eddie Moraes Stadium
 U17,Northeast,league,28048,2026-10-04T15:00Z,5705,5943,Blau Weiss Gottschee,New York SC,,,Queens College - Queens College
 U17,Northeast,league,28054,2026-10-04T18:30Z,6070,6022,Cedar Stars Academy Bergen,Seacoast United,,,FDU Soccer Field - Teaneck
 U17,Northeast,league,28060,2026-10-04T19:00Z,9704,5825,Ironbound Soccer Club,Metropolitan Oval,,,Eddie Moraes Stadium
@@ -7924,13 +7924,13 @@ U17,Southeast,flex,29935,2026-11-07T14:00Z,6147,6323,Lanier Soccer Association,S
 U17,Southeast,flex,30216,2026-11-08T14:00Z,10505,7249,Carolina Core FC,Triangle United Soccer Association,,,Phillips Park Soccer Complex - Field 2
 U17,Southeast,flex,30214,2026-11-08T15:00Z,9708,5758,AFC Lightning,KSA,,,McCurry Park South - Field 24
 U17,Southeast,flex,29517,2026-11-08T16:00Z,6064,6261,Queen City Mutiny FC,Wake FC,,,Elon Park - Field 2
+U17,Southeast,flex,30822,2026-11-08T17:00Z,7047,7249,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,Centennial High School Field 2
 U17,Southeast,flex,30399,2026-11-14T16:00Z,6323,10511,Southern Soccer Academy,Huntsville City FC,,,Marathon Park - Field 1
 U17,Southeast,flex,30223,2026-11-14T18:00Z,6261,7047,Wake FC,Nashville United Soccer Academy (NUSA Next),,,Ting Park - Ting Park 2
 U17,Southeast,flex,30401,2026-11-14T18:00Z,7249,9655,Triangle United Soccer Association,Charlotte Independence Soccer Club,,,Pleasant Park - Field 4
 U17,Southeast,flex,32260,2026-11-15T16:00Z,9655,7047,Charlotte Independence Soccer Club,Nashville United Soccer Academy (NUSA Next),,,Manchester Meadows - Field 1
 U17,Southeast,flex,30586,2026-11-15T17:00Z,9708,10511,AFC Lightning,Huntsville City FC,,,McCurry Park South - Field 24
 U17,Southeast,flex,30680,2026-11-15T18:00Z,9731,5874,Inter Atlanta FC,Hoover-Vestavia Soccer,,,Arizona Avenue Soccer Fields - AZ 1
-U17,Southeast,flex,30822,2026-11-21,7047,7249,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,
 U17,Southeast,flex,30821,2026-11-21T19:00Z,10511,6147,Huntsville City FC,Lanier Soccer Association,,,Wick Family Field - Stadium
 U17,Southeast,flex,31852,2026-11-22T14:00Z,6261,10505,Wake FC,Carolina Core FC,,,Womble Park - Field 2
 U17,Southeast,flex,31846,2026-11-22T16:00Z,5874,9708,Hoover-Vestavia Soccer,AFC Lightning,,,Hoover East Sports Complex - Field 1
@@ -8594,7 +8594,6 @@ U19,Frontier,flex,26881,2026-09-19T19:00Z,5928,6313,Houston Rangers,Capital City
 U19,Frontier,flex,27093,2026-09-20T19:00Z,9668,8105,ALBION SC Colorado,Tulsa Greenwood SC,8,0,Twin Peaks Classical Academy - Field 2
 U19,Frontier,flex,33819,2026-09-27T16:00Z,6313,7153,Capital City SC,AC River,3,2,1849 Park - Field #1
 U19,Frontier,flex,27723,2026-10-03T20:00Z,9668,5928,ALBION SC Colorado,Houston Rangers,,,East Boulder Community Center - West Turf
-U19,Frontier,flex,27739,2026-10-03T20:00Z,6157,8105,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #3
 U19,Frontier,flex,27955,2026-10-04T19:00Z,9668,6342,ALBION SC Colorado,GFI Academy,,,Twin Peaks Classical Academy - Field 2
 U19,Frontier,flex,28287,2026-10-17T19:00Z,6342,8105,GFI Academy,Tulsa Greenwood SC,,,Lenze Rd - Field 2
 U19,Frontier,flex,28780,2026-10-24T17:00Z,8105,7153,Tulsa Greenwood SC,AC River,,,Ascension St. John Sportsplex - Field 2
@@ -8615,6 +8614,7 @@ U19,Frontier,flex,32115,2027-02-20,6313,10489,Capital City SC,SGA,,,
 U19,Frontier,flex,32996,2027-03-06,8105,6313,Tulsa Greenwood SC,Capital City SC,,,
 U19,Frontier,flex,33825,2027-03-20,6342,6157,GFI Academy,Dallas Hornets,,,
 U19,Frontier,flex,33838,2027-03-20,10489,8105,SGA,Tulsa Greenwood SC,,,
+U19,Frontier,flex,27739,2027-06-08T20:00Z,6157,8105,Dallas Hornets,Tulsa Greenwood SC,,,Dallas College Richland Campus Soccer Fields - Field #3
 U19,Mid-America,league,26040,2026-09-05T14:00Z,5980,7167,Bavarian United SC,Hoosier Premier,1,1,Bavarian United Soccer Club - Heartland Value Fund Stadium
 U19,Mid-America,league,32560,2026-09-05T17:00Z,6078,9716,Chicago FC United,Cincinnati United Soccer Club,2,2,Loyola Academy Munz Campus - Field 8
 U19,Mid-America,league,26217,2026-09-06T14:00Z,6219,7167,SC Wave,Hoosier Premier,1,0,Mindiola Sports Complex - Mindiola Turf West
@@ -9006,8 +9006,8 @@ U19,Northeast,league,27177,2026-09-20T19:00Z,9726,10503,FA Euro New York,Valeo F
 U19,Northeast,league,27183,2026-09-20T20:30Z,5660,6101,FC Westchester,NEFC,0,3,SUNY Purchase - Stadium Turf
 U19,Northeast,league,27161,2026-09-20T22:45Z,5746,6189,Bayside FC,Beachside of Connecticut,3,0,Bayside FC Field - Bayside FC Field
 U19,Northeast,league,27589,2026-09-27T23:45Z,5826,5704,Metropolitan Oval,Blau Weiss Gottschee,1,0,Met Oval - Field 1
-U19,Northeast,league,27818,2026-10-03T17:00Z,9705,10472,Ironbound Soccer Club,The Island FC East,,,Eddie Moraes Stadium
 U19,Northeast,league,27806,2026-10-03T18:00Z,9723,6189,Downtown United Soccer Club,Beachside of Connecticut,,,Pier 40 CourtYard - East Field
+U19,Northeast,league,27818,2026-10-03T19:00Z,9705,10472,Ironbound Soccer Club,The Island FC East,,,Eddie Moraes Stadium
 U19,Northeast,league,27812,2026-10-03T19:45Z,6027,9726,Intercontinental Football Academy of New England,FA Euro New York,,,Union Point Sports Complex - Field 2
 U19,Northeast,league,28049,2026-10-04T13:00Z,5704,5944,Blau Weiss Gottschee,New York SC,,,Queens College - Queens College
 U19,Northeast,league,28055,2026-10-04T14:00Z,6071,6023,Cedar Stars Academy Bergen,Seacoast United,,,FDU Soccer Field - Teaneck
@@ -9519,6 +9519,7 @@ U19,Southeast,flex,29863,2026-11-01T14:00Z,6148,9709,Lanier Soccer Association,A
 U19,Southeast,flex,29862,2026-11-01T15:00Z,5759,6275,KSA,Triangle United Soccer Association,,,Rock Springs Park - RSP 2
 U19,Southeast,flex,29866,2026-11-01T18:00Z,6324,10506,Southern Soccer Academy,Carolina Core FC,,,Franklin Gateway sports complex - Field 3
 U19,Southeast,flex,29941,2026-11-07T16:00Z,6148,6324,Lanier Soccer Association,Southern Soccer Academy,,,ALLEN CREEK SOCCER COMPLEX - FIELD 1
+U19,Southeast,flex,30828,2026-11-08T15:00Z,8109,6275,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,Centennial High School Field 2
 U19,Southeast,flex,30328,2026-11-08T18:00Z,10506,6275,Carolina Core FC,Triangle United Soccer Association,,,Phillips Park Soccer Complex - Field 2
 U19,Southeast,flex,30326,2026-11-08T19:00Z,9709,5759,AFC Lightning,KSA,,,McCurry Park South - Field 24
 U19,Southeast,flex,29518,2026-11-08T20:00Z,6065,6262,Queen City Mutiny FC,Wake FC,,,Elon Park - Field 2
@@ -9526,7 +9527,6 @@ U19,Southeast,flex,30406,2026-11-14T14:00Z,6275,9656,Triangle United Soccer Asso
 U19,Southeast,flex,30224,2026-11-14T22:00Z,6262,8109,Wake FC,Nashville United Soccer Academy (NUSA Next),,,Ting Park - Ting Park 2
 U19,Southeast,flex,30697,2026-11-15T14:00Z,9732,5875,Inter Atlanta FC,Hoover-Vestavia Soccer,,,Arizona Avenue Soccer Fields - AZ 1
 U19,Southeast,flex,32269,2026-11-15T14:00Z,9656,8109,Charlotte Independence Soccer Club,Nashville United Soccer Academy (NUSA Next),,,Manchester Meadows - Field 1
-U19,Southeast,flex,30828,2026-11-21,8109,6275,Nashville United Soccer Academy (NUSA Next),Triangle United Soccer Association,,,
 U19,Southeast,flex,31898,2026-11-22T15:00Z,8109,6148,Nashville United Soccer Academy (NUSA Next),Lanier Soccer Association,,,Oakland High School - Oakland High School Turf
 U19,Southeast,flex,31855,2026-11-22T18:00Z,5875,9709,Hoover-Vestavia Soccer,AFC Lightning,,,Hoover East Sports Complex - Field 1
 U19,Southeast,flex,31905,2026-11-22T18:00Z,6262,10506,Wake FC,Carolina Core FC,,,Womble Park - Field 1
