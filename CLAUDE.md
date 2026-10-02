@@ -55,8 +55,13 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
     `home_squad_id`, `away_squad_id`, `home_organisation.name`, `completed`, `home_score`, `away_score`,
     `competition.name` ("League"), `event_location.name` ("TBD" means the time isn't set yet).
   - Filter to games where both squad_ids are in the bracket.
+- Flex in the page: every Flex game with at least one of our teams is kept (`DATA.brackets[].flex`, same 7-field format as
+  league; a game appears in each of its teams' brackets; opponents with no bracket are named via `DATA.xnames`).
+  Shown with a "Flex" tag in Results, Upcoming, the My team card (separate Flex W-D-L), the club page and the calendar.
+  Standings, Who beat who, the season sim and the accuracy check stay League-only (like MLS NEXT's table). Only played
+  same-bracket Flex games feed the ratings (`ratable`); Flex games vs another bracket get no prediction.
 - MLS NEXT Flex: `schedule/mls-next-flex-26-27.json`. U15–U19 only, the **same squad ids** as the league, in Flex groups
-  that are subdivisions of a league conference (so Flex never crosses conferences). Flex games feed the ratings only.
+  that are mostly subdivisions of a league conference; ~800 games pit Pro Player Pathway academies against regular-conference clubs.
 - No earlier seasons exist on this host (25-26 and other keys return a 631-byte HTML page), so there is no
   last-season prior. League and Flex games never cross conferences, so conference strengths can't be compared.
   For the **Academy Division**, open its standings page and read the iframe `data-src`

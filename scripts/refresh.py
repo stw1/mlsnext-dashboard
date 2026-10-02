@@ -41,8 +41,10 @@ def wanted(value, spec):
 def fetch(season, ages, confs):
     """Return (brackets, games, synced_at). Each game's start is UTC 'YYYY-MM-DDTHH:MMZ', or a
     local 'YYYY-MM-DD' when the kickoff time isn't set yet (the feed marks those with venue 'TBD').
-    comp is 'league', or 'flex' for MLS NEXT Flex games (U15-U19, same squads, always inside one
-    league conference); Flex games only feed the ratings, never the standings."""
+    comp is 'league', or 'flex' for MLS NEXT Flex games (U15-U19, same squads). League games are always inside
+    one bracket. Flex games are kept when at least one team is in a bracket: most are inside one conference, but
+    Pro Player Pathway academies also play regular-conference clubs, and some opponents (MLS academies) have no
+    league bracket at all. Flex never counts in the standings; only same-bracket Flex games feed the ratings."""
     st = get_json(f"{BASE}/standings/{season}.json")
     brackets, team_bracket = [], {}
     for b in st["competition_season"]["competition_brackets"]:
@@ -60,11 +62,14 @@ def fetch(season, ages, confs):
         print(f"warning: no Flex data ({err})")
         flex = []
     games = []
+    names = {sid: n for b in brackets for sid, n in b["teams"].items()}
     for comp, e in [("league", e) for e in sch["events"]] + [("flex", e) for e in flex]:
         h, a = str(e["home_squad_id"]), str(e["away_squad_id"])
-        br = team_bracket.get(h)
-        if br is None or br != team_bracket.get(a):
-            continue  # only games between two teams of the same bracket
+        br = team_bracket.get(h) or team_bracket.get(a)
+        if comp == "league" and (team_bracket.get(h) is None or team_bracket.get(h) != team_bracket.get(a)):
+            continue  # league: only games between two teams of the same bracket
+        if br is None:
+            continue  # Flex: at least one of our teams
         t = datetime.fromisoformat(e["start_time"].replace("Z", "+00:00"))
         loc = ((e.get("event_location") or {}).get("name") or "").strip()
         if loc == "TBD":  # kickoff not set yet: keep only the local date
@@ -72,9 +77,9 @@ def fetch(season, ages, confs):
         else:
             venue, start = loc, t.strftime("%Y-%m-%dT%H:%MZ")
         done = e.get("completed")
-        teams = next(x["teams"] for x in brackets if (x["age"], x["conf"]) == br)
+        org = lambda side: ((e.get(f"{side}_organisation") or {}).get("name") or e.get(f"{side}_squad_name") or "?").strip()
         games.append({"age": br[0], "conference": br[1], "comp": comp, "match_id": e["game_key"], "start": start,
-                      "home_id": h, "away_id": a, "home_team": teams[h], "away_team": teams[a],
+                      "home_id": h, "away_id": a, "home_team": names.get(h) or org("home"), "away_team": names.get(a) or org("away"),
                       "home_score": e["home_score"] if done else "", "away_score": e["away_score"] if done else "",
                       "venue": venue})
     brackets.sort(key=bracket_order)
@@ -99,21 +104,27 @@ def load():
 
 def build(brackets, games, meta, default):
     tpl = open(f"{ROOT}/template/dashboard_template.html").read()
-    # league games: id,start,home,away,hs,as,venue# ; Flex games (played only, for the ratings): start,home,away,hs,as
+    # league and Flex games: id,start,home,away,hs,as,venue# . A Flex game is listed in the bracket of each of our teams
+    # in it; opponents outside the bracket are named via DATA.xnames (teams of other brackets come from DATA itself).
     venues, vix, league, flex = [], {}, {}, {}
+    where = {sid: (b["age"], b["conf"]) for b in brackets for sid in b["teams"]}
+    known = {sid for b in brackets for sid in b["teams"]}
+    xnames = {}
     for g in games:
-        key = (g["age"], g["conference"])
-        if g.get("comp", "league") == "flex":
-            if str(g["home_score"]) != "":
-                flex.setdefault(key, []).append(",".join([g["start"], g["home_id"], g["away_id"], str(g["home_score"]), str(g["away_score"])]))
-            continue
         v = g.get("venue") or ""
         if v and v not in vix:
             vix[v] = len(venues); venues.append(v)
-        league.setdefault(key, []).append(",".join([str(g["match_id"]), g["start"], g["home_id"], g["away_id"],
-                                                    str(g["home_score"]), str(g["away_score"]), str(vix[v]) if v else ""]))
+        row = ",".join([str(g["match_id"]), g["start"], g["home_id"], g["away_id"], str(g["home_score"]), str(g["away_score"]), str(vix[v]) if v else ""])
+        if g.get("comp", "league") != "flex":
+            league.setdefault((g["age"], g["conference"]), []).append(row)
+            continue
+        for k in {where.get(g["home_id"]), where.get(g["away_id"])} - {None}:
+            flex.setdefault(k, []).append(row)
+        for side in ("home", "away"):
+            if g[f"{side}_id"] not in known:
+                xnames[g[f"{side}_id"]] = g[f"{side}_team"]
     dage, dconf = default.split(":", 1)
-    data = {"default": {"age": dage, "conf": dconf}, "snap": meta["snapshot"], "venues": venues,
+    data = {"default": {"age": dage, "conf": dconf}, "snap": meta["snapshot"], "venues": venues, "xnames": xnames,
             "brackets": [{"age": b["age"], "conf": b["conf"], "teams": b["teams"],
                           "raw": ";".join(league.get((b["age"], b["conf"]), [])),
                           "flex": ";".join(flex.get((b["age"], b["conf"]), []))} for b in brackets]}

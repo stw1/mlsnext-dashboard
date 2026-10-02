@@ -95,7 +95,10 @@ def past_data(season, default):
                 vix[v] = len(venues); venues.append(v)
             league[key].append(",".join([r["match_id"], start, ids[h], ids[a], r["home_score"], r["away_score"], str(vix[v]) if v else ""]))
         else:
-            extra[key].append(",".join([start, ids[h], ids[a], r["home_score"], r["away_score"]]))
+            v = r["venue"]
+            if v and v not in vix:
+                vix[v] = len(venues); venues.append(v)
+            extra[key].append(",".join([r["match_id"], start, ids[h], ids[a], r["home_score"], r["away_score"], str(vix[v]) if v else ""]))
     order = lambda k: (AGES.index(k[0]), "Pro Player" in k[1], k[1])
     dage, dconf = default.split(":", 1)
     last = max(r["date"] for r in rs) if rs else ""
