@@ -21,6 +21,8 @@ An unofficial fan dashboard for the MLS NEXT Allstate Homegrown Division. It's n
 - Predictions come from a Poisson goals model with a Dixon-Coles low-score adjustment, fitted to each conference's
   games and started from last season's ratings. The page shows how accurate the predictions have been.
 - The rules the tables follow are summarised in [docs/rules-2026-27.md](docs/rules-2026-27.md).
+- Usage analytics are first-party: [analytics/](analytics/README.md) is a small reusable kit that sends anonymous,
+  cookie-free events to the owner's Firebase project, with a report page only the owner can open.
 
 ## Run it yourself
 

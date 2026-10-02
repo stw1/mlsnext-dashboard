@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Site analytics</title>
+<style>
+:root{color-scheme:light dark;--bg:#f4f6f9;--card:#fff;--ink:#111827;--mut:#6b7280;--line:#e5e7eb;--acc:#2563eb;--acc2:#14b8a6}
+@media(prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111a2b;--ink:#e5e7eb;--mut:#94a3b8;--line:#1f2a3d;--acc:#60a5fa;--acc2:#2dd4bf}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{background:#0b2a4a;color:#fff;padding:18px 20px}header h1{margin:0 0 10px;font-size:20px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.bar select,.bar button{font:inherit;padding:7px 10px;border-radius:8px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.1);color:#fff}
+.bar select option{color:#111}.bar .who{opacity:.8;font-size:13px;margin-left:auto}
+main{max-width:1200px;margin:0 auto;padding:16px}
+.note{color:var(--mut);font-size:13px;margin:0 0 14px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+.kpi,.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.kpi .l{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);font-weight:600}.kpi .v{font-size:24px;font-weight:700;margin-top:2px}.kpi .s{color:var(--mut);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px;margin-bottom:14px}
+.card h2{font-size:15px;margin:0 0 4px}.card .sub{color:var(--mut);font-size:12.5px;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:5px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--mut);font-weight:600;font-size:12px}
+td.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}.barc{position:relative}.barc i{position:absolute;left:0;top:3px;bottom:3px;background:var(--acc);opacity:.13;border-radius:4px}
+.barc span{position:relative}h3{font-size:12.5px;margin:12px 0 4px;color:var(--mut);text-transform:uppercase;letter-spacing:.05em}
+.heat td{padding:0;border:0;height:16px;min-width:12px}.heat th{font-size:10px;padding:0 3px;border:0;font-weight:500}
+.chips span{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin:2px 3px 2px 0;font-size:12px}.chips .v{background:rgba(37,99,235,.1)}
+.err{color:#dc2626}.mut{color:var(--mut)}svg text{fill:var(--mut);font-size:10px}
+#signin{display:none;text-align:center;padding:60px 20px}#signin button{font:inherit;font-size:15px;padding:10px 18px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+</style></head><body>
+<header><h1>Site analytics</h1><div class="bar">
+<select id="site" aria-label="Site"></select>
+<select id="days" aria-label="Date range"><option value="1">Last 24 hours</option><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="365">Last year</option></select>
+<button id="reload" type="button">Refresh</button><span class="who" id="who"></span><button id="out" type="button" hidden>Sign out</button></div></header>
+<div id="signin"><p>Sign in with the Google account listed in the Firestore rules to see the analytics.</p><button id="in" type="button">Sign in with Google</button><p class="mut" id="msg"></p></div>
+<main id="main"><p class="note" id="status">Loading…</p><div id="out1"></div></main>
+<script type="module">
+// Report for fa.js analytics (see README.md). Reads config.json next to this file. Query options:
+// ?site=mlsnext&days=30, ?demo=1 (made-up data, no Firebase), ?emulator=1 (local Firebase emulators, for testing).
+const V="12.19.0",G=`https://www.gstatic.com/firebasejs/${V}`;
+const qs=new URLSearchParams(location.search),DEMO=qs.has("demo"),EMU=qs.has("emulator");
+const $=id=>document.getElementById(id),esc=t=>String(t??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const cfg=await fetch("config.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({}));
+const sites=cfg.sites&&cfg.sites.length?cfg.sites:["mlsnext"];
+$("site").innerHTML=sites.map(s=>`<option>${esc(s)}</option>`).join("");
+if(qs.get("site"))$("site").value=qs.get("site");if(qs.get("days"))$("days").value=qs.get("days");
+let fb=null;
+async function firebase(){if(fb)return fb;
+ const[{initializeApp},A,F]=await Promise.all([import(`${G}/firebase-app.js`),import(`${G}/firebase-auth.js`),import(`${G}/firebase-firestore.js`)]);
+ const app=initializeApp(EMU?{projectId:cfg.projectId||"demo-fa",apiKey:"fake",authDomain:"localhost"}:{projectId:cfg.projectId,apiKey:cfg.apiKey,authDomain:cfg.authDomain||`${cfg.projectId}.firebaseapp.com`});
+ const auth=A.getAuth(app),db=F.getFirestore(app);
+ if(EMU){A.connectAuthEmulator(auth,"http://127.0.0.1:9099",{disableWarnings:true});F.connectFirestoreEmulator(db,"127.0.0.1",8085)}
+ fb={A,F,auth,db};if(EMU)window.__fb=fb;return fb}
+async function load(site,days){
+ if(DEMO)return demo(site,days);
+ const{F,db}=await firebase(),start=new Date(Date.now()-days*864e5);
+ const snap=await F.getDocs(F.query(F.collection(db,"sites",site,"events"),F.where("ts",">=",F.Timestamp.fromDate(start)),F.orderBy("ts"),F.limit(50000)));
+ return snap.docs.map(d=>{const x=d.data();return{...x,ts:x.ts.toDate(),props:x.props||{}}})}
+
+// ---------- aggregation helpers ----------
+const count=(arr,key)=>{const m=new Map;for(const x of arr){const k=key(x);if(k===undefined||k===null||k==="")continue;m.set(k,(m.get(k)||0)+1)}return[...m].sort((a,b)=>b[1]-a[1])};
+const uniq=(arr,key)=>new Set(arr.map(key)).size,pct=(a,b)=>b?Math.round(a/b*100)+"%":"–";
+const dur=s=>s<60?`${Math.round(s)}s`:s<3600?`${Math.floor(s/60)}m ${Math.round(s%60)}s`:`${(s/3600).toFixed(1)}h`;
+const dayKey=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+function topTable(rows,{total,label="Value",n=10,unit=""}={}){if(!rows.length)return`<p class="mut">No data yet.</p>`;const max=rows[0][1];
+ return`<table><tr><th>${esc(label)}</th><th class="n">Count</th>${total?`<th class="n">Share</th>`:""}</tr>`+rows.slice(0,n).map(([k,c])=>
+  `<tr><td class="barc"><i style="width:${c/max*100}%"></i><span>${esc(k)}</span></td><td class="n">${c}${unit}</td>${total?`<td class="n">${pct(c,total)}</td>`:""}</tr>`).join("")+
+  (rows.length>n?`<tr><td class="mut" colspan="3">+ ${rows.length-n} more</td></tr>`:"")+`</table>`}
+const card=(t,sub,body)=>`<div class="card"><h2>${t}</h2>${sub?`<div class="sub">${sub}</div>`:""}${body}</div>`;
+
+function render(ev,site,days){
+ const views=ev.filter(e=>e.n==="view"),eng=ev.filter(e=>e.n==="engage"),clicks=ev.filter(e=>e.n==="click");
+ const visitors=uniq(ev,e=>e.v),sessions=uniq(ev,e=>e.s),activeSec=eng.reduce((a,e)=>a+(+e.props.sec||0),0);
+ const firstNv=new Map;for(const e of ev)firstNv.set(e.v,Math.max(firstNv.get(e.v)||0,e.nv||1));
+ const returning=[...firstNv.values()].filter(n=>n>1).length,appV=uniq(ev.filter(e=>e.app),e=>e.v);
+ const pageOf=e=>e.props.page||e.p;
+ let h=`<div class="kpis">`+[["Visitors",visitors,`${pct(returning,visitors)} came back at least once`],["Sessions",sessions,`${(sessions/Math.max(visitors,1)).toFixed(1)} per visitor`],
+  ["Page views",views.length,`${(views.length/Math.max(sessions,1)).toFixed(1)} per session`],["Active time",dur(activeSec/Math.max(sessions,1)),"per session (page visible and in use)"],
+  ["Home-screen app",appV,`${pct(appV,visitors)} of visitors opened it as an app`],["Clicks",clicks.length,`${(clicks.length/Math.max(views.length,1)).toFixed(1)} per page view`]]
+  .map(([l,v,s])=>`<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join("")+`</div>`;
+ // per day
+ const dd=[],dv=new Map,du=new Map;for(let i=Math.min(days,90)-1;i>=0;i--)dd.push(dayKey(new Date(Date.now()-i*864e5)));
+ for(const e of views){const k=dayKey(e.ts);dv.set(k,(dv.get(k)||0)+1);(du.get(k)||du.set(k,new Set).get(k)).add(e.v)}
+ const W=Math.max(dd.length*14,280),H=120,mx=Math.max(1,...dd.map(k=>dv.get(k)||0));
+ const svg=`<svg viewBox="0 0 ${W} ${H+16}" width="100%" preserveAspectRatio="none" style="max-height:170px">`+dd.map((k,i)=>{const v=dv.get(k)||0,u=(du.get(k)||new Set).size,x=i*W/dd.length,bw=W/dd.length*.7;
+  return`<rect x="${x}" y="${H-v/mx*H}" width="${bw}" height="${v/mx*H}" fill="var(--acc)" opacity=".75"><title>${k}: ${v} views, ${u} visitors</title></rect><rect x="${x}" y="${H-u/mx*H}" width="${bw}" height="2" fill="var(--acc2)"/>`+
+  (i%Math.max(1,Math.ceil(dd.length/8))===0?`<text x="${x}" y="${H+12}">${k.slice(5)}</text>`:"")}).join("")+`</svg>`;
+ h+=`<div class="grid">`+card("Views per day","Bars = page views; teal line = visitors. Hover a bar for numbers.",svg);
+ // weekday x hour heatmap
+ const hm=Array.from({length:7},()=>new Array(24).fill(0));for(const e of views)hm[e.ts.getDay()][e.ts.getHours()]++;const hmax=Math.max(1,...hm.flat());
+ const dn=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+ h+=card("When people visit","Page views by weekday and hour, in your time zone.",`<table class="heat"><tr><th></th>${[...Array(24)].map((_,i)=>`<th>${i%3?"":i}</th>`).join("")}</tr>`+
+  hm.map((r,d)=>`<tr><th>${dn[d]}</th>${r.map((c,hh)=>`<td title="${dn[d]} ${hh}:00 · ${c} views" style="background:rgba(37,99,235,${c?0.12+c/hmax*.88:0.04})"></td>`).join("")}</tr>`).join("")+`</table>`)+`</div>`;
+ // what people look at: page labels and every view property
+ const keys=count(views.flatMap(e=>Object.keys(e.props)),k=>k).map(x=>x[0]).filter(k=>!["title","page","ref","dark"].includes(k));
+ h+=`<div class="grid">`+card("Most viewed pages","From the page label the site sends (or the address).",topTable(count(views,pageOf),{total:views.length,label:"Page",n:15}))+
+  card("What people look at","Every detail the site sends with a page view.",keys.map(k=>`<h3>${esc(k)}</h3>`+topTable(count(views,e=>e.props[k]),{total:views.length,n:8})).join("")||`<p class="mut">No details sent.</p>`)+`</div>`;
+ // actions
+ const changes=ev.filter(e=>e.n==="change"),custom=ev.filter(e=>!["view","engage","click","change","error"].includes(e.n));
+ h+=`<div class="grid">`+card("Clicks","Buttons and links people use, with the section they were in.",topTable(count(clicks,e=>e.props.label+(e.props.section?`  ·  ${e.props.section}`:"")),{total:clicks.length,label:"Clicked",n:20}))+
+  card("Choices and other actions","Drop-down changes, and events the site sends itself.",`<h3>Changes</h3>`+topTable(count(changes,e=>`${e.props.label}: ${e.props.value}`),{label:"Changed to",n:10})+
+   `<h3>Site events</h3>`+topTable(count(custom,e=>e.n+(e.props.label?`: ${e.props.label}`:"")),{label:"Event",n:10})+
+   `<h3>Links out</h3>`+topTable(count(clicks.filter(e=>e.props.to&&!["internal"].includes(e.props.to)&&e.props.to[0]!=="#"),e=>e.props.to),{label:"Went to",n:8}))+`</div>`;
+ // engagement
+ const pvOf=e=>e.pv||e.s+"|"+e.p,seenBy=new Map;for(const e of eng)for(const x of(e.props.sections||"").split(",").filter(Boolean))(seenBy.get(x)||seenBy.set(x,new Set).get(x)).add(pvOf(e));
+ const secs=[...seenBy].map(([k,v])=>[k,v.size]).sort((a,b)=>b[1]-a[1]),viewsWithEng=uniq(eng,pvOf);
+ const buckets=[["under 10s",0,10],["10–30s",10,30],["30s–1m",30,60],["1–3m",60,180],["3–10m",180,600],["10m+",600,1e9]];
+ const perView=new Map;for(const e of eng){const k=pvOf(e);perView.set(k,(perView.get(k)||0)+(+e.props.sec||0))}
+ const sc=eng.map(e=>+e.props.scroll||0);
+ h+=`<div class="grid">`+card("Sections people see",`Share of page views (with activity) where each section scrolled into view.`,topTable(secs.map(([k,c])=>[k,c]),{total:viewsWithEng,label:"Section",n:20}))+
+  card("How long people stay",`Active time per page view; average scroll depth ${sc.length?Math.round(sc.reduce((a,b)=>a+b,0)/sc.length):0}%.`,
+   topTable(buckets.map(([l,a,b])=>[l,[...perView.values()].filter(s=>s>=a&&s<b).length]).filter(x=>x[1]),{total:perView.size,label:"Active time"}))+`</div>`;
+ // audience
+ h+=`<div class="grid">`+card("Devices","",topTable(count(views,e=>e.d),{total:views.length,label:"Device"})+`<h3>Dark mode</h3>`+topTable(count(views,e=>e.props.dark===undefined?undefined:e.props.dark?"Dark":"Light"),{total:views.length}))+
+  card("Where visitors come from","Other sites that linked here (direct visits and shared links in apps show as none).",topTable(count(views,e=>e.props.ref||"Direct or app"),{total:views.length,label:"Referrer"})+
+   `<h3>Time zones</h3>`+topTable(count([...new Map(ev.map(e=>[e.v,e.tz])).values()],x=>x),{label:"Visitors",n:6}))+`</div>`;
+ // errors + journeys
+ const errs=ev.filter(e=>e.n==="error");
+ const sess=[...ev.reduce((m,e)=>(m.get(e.s)||m.set(e.s,[]).get(e.s)).push(e)&&m,new Map).values()].sort((a,b)=>b[0].ts-a[0].ts).slice(0,25);
+ h+=`<div class="grid">`+card("Recent sessions","The last 25 visits, in order: pages (blue) and clicks.",`<table>`+sess.map(s=>{const f=s[0];
+   return`<tr><td style="white-space:nowrap" class="mut">${f.ts.toLocaleString([], {month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}<br>${esc(f.d||"")}${f.app?" · app":""} · visit ${f.nv||1}</td><td class="chips">`+
+   s.filter(e=>e.n==="view"||e.n==="click"||e.n==="change").slice(0,30).map(e=>e.n==="view"?`<span class="v">${esc(pageOf(e))}</span>`:`<span>${esc(e.n==="change"?`${e.props.label}: ${e.props.value}`:e.props.label)}</span>`).join("")+`</td></tr>`}).join("")+`</table>`)+
+  card("JavaScript errors",errs.length?"":"None in this period.",errs.length?topTable(count(errs,e=>`${e.props.msg} (${e.props.at})`),{label:"Error",n:15}):"")+`</div>`;
+ $("out1").innerHTML=h;
+ $("status").textContent=`${site} · ${ev.length} events in the last ${days} day${days>1?"s":""}${DEMO?" · DEMO DATA (made up)":""}. To leave your own visits out, open the site once with ?fa=off on each of your devices.`}
+
+async function run(){const site=$("site").value,days=+$("days").value;$("status").textContent="Loading…";
+ history.replaceState(null,"",`?${new URLSearchParams({...Object.fromEntries(qs),site,days})}`);
+ try{render(await load(site,days),site,days)}catch(e){$("status").innerHTML=`<span class="err">${e.code==="permission-denied"?`This Google account (${esc(fb&&fb.auth.currentUser?fb.auth.currentUser.email:"")}) isn't allowed to read the analytics. Add it to isOwner() in firestore.rules and deploy the rules.`:`Couldn't load: ${esc(e.message)}`}</span>`}}
+$("site").onchange=$("days").onchange=$("reload").onclick=run;
+
+if(DEMO){$("who").textContent="Demo mode";run()}
+else if(!cfg.projectId&&!EMU){$("status").innerHTML=`<span class="err">No Firebase project set in config.json yet: see README.md.</span> Preview with <a href="?demo=1">demo data</a>.`}
+else{const{A,auth}=await firebase();
+ A.onAuthStateChanged(auth,u=>{$("signin").style.display=u?"none":"block";$("main").style.display=u?"":"none";$("out").hidden=!u;$("who").textContent=u?u.email:"";if(u)run()});
+ $("in").onclick=()=>A.signInWithPopup(auth,new A.GoogleAuthProvider()).catch(e=>$("msg").textContent=e.message);
+ $("out").onclick=()=>A.signOut(auth)}
+
+// ---------- made-up data for ?demo=1 ----------
+function demo(site,days){let seed=7;const r=()=>(seed=(seed*1664525+1013904223)>>>0)/4294967296,pick=a=>a[Math.floor(r()*a.length)];
+ const pages=[["U14 Northwest",{view:"bracket",age:"U14",conf:"Northwest"}],["U15 Northwest",{view:"bracket",age:"U15",conf:"Northwest"}],["Team · Ballistic United U15",{view:"team",age:"U15",team:"Ballistic United"}],
+  ["Club · Ballistic United",{view:"club",club:"Ballistic United"}],["U15 National",{view:"national",age:"U15"}],["Team · De Anza Force U14",{view:"team",age:"U14",team:"De Anza Force"}]];
+ const clicksL=[["Standings","nav"],["Add to calendar","s-team"],["iPhone, iPad or Mac","s-team"],["Share link",""],["Who beat who","nav"],["Show predictions","s-h2h"],["Directions","s-upcoming"],["Ballistic United","s-table"]];
+ const out=[];for(let v=0;v<90;v++){const vid="v"+v,dev=r()<.7?"mobile":"desktop",app=r()<.15,nvis=1+Math.floor(r()*r()*8),tz=pick(["America/Los_Angeles","America/Los_Angeles","America/Denver"]);
+  for(let k=0;k<nvis;k++){let t=Date.now()-r()*days*864e5;const day=new Date(t).getDay();if(day>0&&day<6&&r()<.5)t-=((day)*864e5);t=Math.max(t,Date.now()-days*864e5);
+   const s="s"+v+"_"+k,np=1+Math.floor(r()*4);for(let i=0;i<np;i++){const[pg,pr]=pick(pages),ts=new Date(t+i*60e3),base={v:vid,s,pv:s+"_"+i,nv:k+1,p:"/",d:dev,app,tz,ts};
+    out.push({...base,n:"view",props:{...pr,page:pg,season:"2026–27",following:r()<.4?pick(["Ballistic United","De Anza Force"]):"",dark:r()<.3,ref:r()<.1?"www.facebook.com":""}});
+    for(let c=0;c<Math.floor(r()*4);c++){const[l,sec]=pick(clicksL);out.push({...base,ts:new Date(+ts+5e3*(c+1)),n:"click",props:{label:l,section:sec}})}
+    if(r()<.2)out.push({...base,n:"change",props:{label:"myTeam",value:"Ballistic United"}});
+    out.push({...base,ts:new Date(+ts+50e3),n:"engage",props:{sec:Math.round(5+r()*r()*400),scroll:Math.round(r()*100),sections:["s-table","s-h2h","s-power","s-results","s-upcoming"].filter(()=>r()<.6).join(",")}})}}}
+ if(out.length)out.push({...out[0],n:"error",props:{msg:"TypeError: x is undefined",at:"index.html:812"}});
+ return out.sort((a,b)=>a.ts-b.ts)}
+</script></body></html>

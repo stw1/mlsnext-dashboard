@@ -24,6 +24,7 @@ scripts/check_official.py          compares the built tables with MLS's official
 cal/<squad_id>.ics                 one subscribable calendar per team, rebuilt by refresh.py (current season only)
 docs/rules-2026-27.md              HD rules summary (standings, tiebreakers, postseason) and how the site follows them
 README.md                          short public description of the repo
+analytics/                         reusable first-party analytics kit (fa.js, firestore.rules, report.html, README)
 manifest.webmanifest, icon.svg     home-screen app name and icons (icon-192/512.png, apple-touch-icon.png,
   *.png                            favicon-32.png); regenerate PNGs from icon.svg with qlmanage + sips
 ```
@@ -146,8 +147,8 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 
 ## Conventions / gotchas
 - The dashboard stays a **single HTML file** with no external scripts or data fetches (all data is embedded).
-  Only the home-screen icons/manifest and the calendar files are separate; Directions links open Google Maps. The optional
-  visit counter is a single image request, not a script.
+  Only the home-screen icons/manifest and the calendar files are separate; Directions links open Google Maps. Analytics
+  (when configured) posts events to the owner's Firestore; the tracker itself is inlined.
 - `start` in games.csv is UTC (`2026-10-03T16:00Z`); the page shows it in the viewer's time zone. Games without a set
   time (feed venue "TBD", stored at 06:00 local) keep only the local date (`2027-01-09`), from the event's `local_timezone`.
 - Template placeholders filled by `refresh.py`: `__DATA__` (`{default:{age,conf}, snap, venues:[...], brackets:[{age, conf,
@@ -188,8 +189,14 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - Home: `‹ Home` button (club, national and team pages) and the eyebrow title link to the page with no options, which
   opens the last conference viewed.
 - Set in `refresh.py`: `FEEDBACK = "support@spaikz.com"` (form URL or email → footer "Report a problem or suggest an
-  idea"; an email becomes a mailto with the page URL). Off until set: `COUNTER` (GoatCounter code → one no-cookie count request per page
-  view to `https://<code>.goatcounter.com/count`, no script loaded, skipped on localhost; path keeps age/conf/club/show).
+  idea"; an email becomes a mailto with the page URL).
+- Analytics: `analytics/` is a reusable first-party kit (README there): `fa.js` tracker → the owner's Firebase
+  Firestore via REST (`sites/<site>/events`), `firestore.rules` (create-only, owner-read), `report.html` (Google
+  sign-in; `?demo=1`, `?emulator=1`), `config.json` (projectId/apiKey/authDomain + site list; empty projectId = off).
+  `refresh.analytics_tag()` inlines fa.js into every page (`<!--__ANALYTICS__-->` in the head, `</` escaped) with
+  `ANALYTICS_SITE = "mlsnext"`; the page calls `fa.view({view, season, age, conf, team, club, following, page})` after
+  drawing. Clicks, select changes, errors, active time, scroll and sections seen (`.card[id^="s-"]`) are automatic.
+  Footer shows "Anonymous usage stats, no cookies (opt out)" when on. Tested with the Firestore + Auth emulators.
 - "New since your last visit": localStorage `seen:<title>` keeps the played-game ids at the end of the previous
   visit (a visit ends after 6 quiet hours). New results get a "New" pill (results, tooltips, card) and a ring in Who beat who.
 - Phones (≤700px): the header packs pickers into a grid; `.xs-hide` columns drop out (W/D/L/Goals in standings,

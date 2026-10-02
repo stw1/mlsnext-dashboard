@@ -1,0 +1,40 @@
+rules_version = '2';
+// Security rules for fa.js analytics (see README.md). Visitors may only CREATE well-formed events for a listed site;
+// nobody can change or delete them, and only the owner accounts below can read them (the report page).
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Google accounts allowed to read the analytics (sign in on report.html with one of these)
+    function isOwner() {
+      return request.auth != null && request.auth.token.email_verified == true
+        && request.auth.token.email in ['OWNER_EMAIL'];
+    }
+    // sites allowed to send events: add the site code of each dashboard (fa.js "site")
+    function knownSite(site) {
+      return site in ['mlsnext', 'ecnl'];
+    }
+    function str(d, k, n) { return d[k] is string && d[k].size() <= n; }
+    function okEvent(d) {
+      return d.keys().hasAll(['n', 'v', 's', 'p', 'ts'])
+        && d.keys().hasOnly(['n', 'v', 's', 'pv', 'nv', 'p', 'd', 'w', 'app', 'lang', 'tz', 'props', 'ts'])
+        && str(d, 'n', 30) && d.n.matches('[a-z_]+')
+        && str(d, 'v', 24) && str(d, 's', 24) && str(d, 'p', 300)
+        && d.ts == request.time
+        && (!('pv' in d) || str(d, 'pv', 24))
+        && (!('nv' in d) || d.nv is int)
+        && (!('w' in d) || d.w is int)
+        && (!('d' in d) || str(d, 'd', 10))
+        && (!('app' in d) || d.app is bool)
+        && (!('lang' in d) || str(d, 'lang', 12))
+        && (!('tz' in d) || str(d, 'tz', 40))
+        && (!('props' in d) || (d.props is map && d.props.size() <= 16));
+    }
+    match /sites/{site}/events/{id} {
+      allow create: if knownSite(site) && okEvent(request.resource.data);
+      allow read: if isOwner();
+      allow update, delete: if false;
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

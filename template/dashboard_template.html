@@ -238,7 +238,9 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
  .pb>.ph,.sw.ph{background:#3b82f6}.pb>.pd,.sw.pd{background:#475569;color:#e2e8f0}
  .acc-k .kpi{background:#172034}.ven a,.my a{color:#7dd3fc}
  header{background:linear-gradient(135deg,#0a1f38 0%,#0f2f52 100%)}}
-</style></head><body>
+</style>
+<!--__ANALYTICS__-->
+</head><body>
 <header><div class="wrap">
 <div class="eyebrow"><a class="homeb" id="homeB" href="./" hidden>‹ Home</a><a class="brand" id="brand" href="./" title="Home">MLS NEXT · Homegrown Division · __SEASON__</a></div>
 <div class="titlerow"><h1 id="bracket"></h1><span class="ppp" id="ppp">Pro Player Pathway</span><div class="ages" id="ages" aria-label="Age group"></div></div>
@@ -564,7 +566,7 @@ const last5=c=>played.filter(g=>involves(g,c)).slice(-5).map(g=>{const v=fromRow
 let sortK="rk",sortDir=1;
 function drawStand(){const r=srows.slice().sort((a,b)=>(a[sortK]-b[sortK])*sortDir||a.rk-b.rk);
  $("standings").innerHTML=`<thead><tr class="grp"><th class="team"></th><th colspan="9">Table so far</th><th colspan="${CUT?4:3}" class="pj div">Projected finish</th></tr><tr>`+
-  cols.map(([k,l,c,tip])=>`<th class="${c}${k===sortK?" sorted":""}"${k?` data-k="${k}"`:""}${tip?` title="${tip}"`:""}>${l}${k===sortK?(sortDir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr></thead><tbody>"+
+  cols.map(([k,l,c,tip])=>`<th class="${c}${k===sortK?" sorted":""}"${k?` data-k="${k}" role="button"`:""}${tip?` title="${tip}"`:""}>${l}${k===sortK?(sortDir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr></thead><tbody>"+
   r.map(t=>`<tr class="${t.c===myTeam?"me":""}${sortK==="rk"&&sortDir>0&&CUT?(t.rk===CH?" cut1":t.rk===CUP?" cut2":""):""}"><td class="t team"><span class="rk">${t.rk}</span>${tlink(t.c,teamName(t.c))}</td><td>${t.mp}</td><td class="xs-hide">${t.w}</td><td class="xs-hide">${t.d}</td><td class="xs-hide">${t.l}</td><td class="mut xs-hide">${t.gf}–${t.ga}</td><td class="${t.gd>0?"pos":t.gd<0?"neg":""}">${t.gd>0?"+":""}${t.gd}</td><td class="pts">${t.pts}</td><td class="mut">${t.ppm.toFixed(2)}</td><td class="form">${last5(t.c)}</td><td class="pj div">${t.proj.toFixed(0)}</td>${CUT?`<td class="pj">${pbar(t.pc)}</td>`:""}<td class="pj">${pbar(t.p4)}</td><td class="pj">${pbar(t.p1)}</td></tr>`).join("")+"</tbody>";
  $("cutKey").innerHTML=CUT?`<span><b>Lines</b> solid = estimated Championship-bracket cut (top ${CH}), dashed = estimated MLS NEXT Cup cut (top ${CUP}), based on last season. MLS NEXT hasn't published 2026-27 spots.</span><span><b>U13/U14</b> MLS NEXT only publishes official standings for U15–U19, so this table is worked out from the results using the same rules.</span>`:`<span><b>Top 4</b> isn't an official playoff line: MLS NEXT hasn't announced how 2026-27 Cup spots are split.</span>`;
  document.querySelectorAll("#standings th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(sortK===k)sortDir*=-1;else{sortK=k;sortDir=["rk","l"].includes(k)?1:-1}drawStand()});}
@@ -865,7 +867,7 @@ function drawNational(){const age=B.age,rows=natRows(age),reg=rows.filter(r=>r.b
  const cols=[["","Team","t team"],["conf","Conference","t xs-hide"],["mp","MP","","League games played (plus Flex games used in the rating)"],["","W-D-L","xs-hide"],["ppm","Pts/G","xxs-hide","Points per league game"],["gdpg","GD/G","xs-hide","Goal difference per league game"],["net","Rating","t","Expected goal margin per game vs an average team in its own conference"]];
  const tableHtml=(list,rk)=>{const mx=Math.max(...list.map(x=>Math.abs(x.net)),.01);
   const sorted=list.slice().sort((p,q)=>(q.rated-p.rated)||(natK==="conf"?p.b.conf.localeCompare(q.b.conf)||p.crk-q.crk:(q[natK]-p[natK])*-natDir));
-  return`<thead><tr>${cols.map(([k,l,c,tip])=>`<th class="${c}${k&&k===natK?" sorted":""}"${k?` data-k="${k}"`:""}${tip?` title="${tip}"`:""}>${l}${k&&k===natK?(natDir<0?" ▼":" ▲"):""}</th>`).join("")}</tr></thead><tbody>`+
+  return`<thead><tr>${cols.map(([k,l,c,tip])=>`<th class="${c}${k&&k===natK?" sorted":""}"${k?` data-k="${k}" role="button"`:""}${tip?` title="${tip}"`:""}>${l}${k&&k===natK?(natDir<0?" ▼":" ▲"):""}</th>`).join("")}</tr></thead><tbody>`+
   sorted.map(x=>{const w=Math.abs(x.net)/mx*100;return`<tr${followed.has(x.c)?' class="me"':""}><td class="t team"><span class="rk">${x.rated?rk.get(x.c):"–"}</span><a href="${showUrl(x.b,x.c)}"><span class="full">${esc(x.n)}</span><span class="short">${esc(shortName(x.n))}</span></a><small class="xs-only">${esc(baseConf(x.b.conf))} · ${ordn(x.crk)} of ${x.cn}</small></td>`+
    `<td class="t cf xs-hide">${esc(baseConf(x.b.conf))} <span>· ${ordn(x.crk)} of ${x.cn}</span></td><td>${x.mp}${x.nf?` <span class="mut" title="plus ${x.nf} Flex games">+${x.nf}</span>`:""}</td><td class="xs-hide">${x.w}-${x.d}-${x.l}</td><td class="xxs-hide">${x.mp?x.ppm.toFixed(2):"–"}</td><td class="xs-hide ${x.gdpg>0?"pos":x.gdpg<0?"neg":""}">${x.mp?(x.gdpg>0?"+":"")+x.gdpg.toFixed(1):"–"}</td>`+
    `<td class="t">${x.rated?`<span class="dv"><i class="n"><b style="width:${x.net<0?w:0}%"></b></i><i class="p"><b style="width:${x.net>0?w:0}%"></b></i></span><span class="net ${x.net>=0?"pos":"neg"}">${x.net>0?"+":""}${x.net.toFixed(2)}</span>`:'<span class="mut">No games yet</span>'}</td></tr>`}).join("")+"</tbody>"};
@@ -903,14 +905,17 @@ else if(NATIONAL){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s
  $("natConf").innerHTML='<option value="">All conferences</option>'+DATA.brackets.filter(b=>b.age===B.age&&b.conf===baseConf(b.conf)).map(b=>`<option value="${slugC(b.conf)}">${b.conf}</option>`).join("");
  $("natConf").onchange=drawNational;drawNational()}
 else drawAll();
+// say so when usage stats are on, with an opt-out that keeps the current view
+if(window.fa&&fa.enabled){const q=new URLSearchParams(location.search);q.set("fa","off");
+ $("foot").insertAdjacentHTML("beforeend",` · Anonymous usage stats, no cookies (<a href="?${esc(String(q))}" data-notrack>opt out</a>)`)}
+// analytics (analytics/fa.js, inlined by refresh.py; a no-op until a Firebase project is configured): one view per page
+// with what it shows, so the report can tell bracket / national / club / team pages and teams apart
+try{const pre=PAST?PAST+" · ":"",fol=!SHOW&&!CLUBQ&&!NATIONAL&&myTeam?nm(myTeam):"";
+ window.fa&&fa.view({view:SHOW?"team":CLUBQ?"club":NATIONAL?"national":"bracket",season:PAST||"current",age:CLUBQ?"":B.age,conf:CLUBQ||NATIONAL?"":B.conf,
+  team:SHOW?nm(SHOW):"",club:CLUBQ?$("bracket").textContent:"",following:fol,
+  page:pre+(SHOW?`Team · ${nm(SHOW)} ${B.age}`:CLUBQ?`Club · ${$("bracket").textContent}`:NATIONAL?`${B.age} National`:`${B.age} ${B.conf}`)})}catch(e){}
 window.__debug={predict,fit,future,SIMS,mu,hadv,att,def,rho,power,tbl,first,simPts,bt};
 // "Report a problem" link in the footer: DATA.feedback is a form URL or an email address (FEEDBACK in refresh.py)
 if(DATA.feedback){const f=DATA.feedback,href=/^https?:/.test(f)?f:`mailto:${f}?subject=${encodeURIComponent("MLS NEXT dashboard")}&body=${encodeURIComponent("Page: "+location.href+"\n\n")}`;
  $("foot").insertAdjacentHTML("beforeend",` <a href="${esc(href)}" target="_blank" rel="noopener">Report a problem or suggest an idea</a>`)}
-// Visit counter (GoatCounter: no cookies, nothing personal): one count request per page view, no script loaded.
-// Only when DATA.counter (COUNTER in refresh.py) is set, and never from a local preview.
-if(DATA.counter&&!/^(localhost|127\.|\[::1\])/.test(location.hostname)){try{
- const q=new URLSearchParams(location.search),keep=new URLSearchParams();for(const k of["age","conf","club","show"])if(q.get(k))keep.set(k,q.get(k));
- const p=location.pathname.replace(/index\.html$/,"")+(String(keep)?"?"+keep:""),u=new URLSearchParams({p,t:document.title,r:document.referrer,s:`${screen.width},${screen.height},${devicePixelRatio||1}`,rnd:Math.random().toString(36).slice(2)});
- new Image().src=`https://${DATA.counter}.goatcounter.com/count?${u}`}catch(e){}}
 </script></body></html>

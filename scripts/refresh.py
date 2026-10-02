@@ -26,8 +26,9 @@ FIELDS = ["age", "conference", "comp", "match_id", "start", "home_id", "away_id"
 SITE = "https://stw1.github.io/mlsnext-dashboard/"  # used in calendar links
 # Footer "Report a problem" link: a form URL (e.g. a Google Form) or an email address. "" = no link.
 FEEDBACK = "support@spaikz.com"
-# GoatCounter site code for a privacy-friendly visit count (https://<code>.goatcounter.com). "" = no counting.
-COUNTER = ""
+# First-party analytics (analytics/fa.js -> your Firebase project; setup in analytics/README.md). The Firebase project
+# comes from analytics/config.json; with no projectId there the tracker is inlined but does nothing.
+ANALYTICS_SITE = "mlsnext"
 
 def get_json(url):
     req = urllib.request.Request(url, headers=UA)
@@ -222,6 +223,17 @@ def write_calendars(brackets, games):
         if f not in wanted:
             os.remove(f"{out}/{f}")
 
+def analytics_tag():
+    """analytics/fa.js inlined (the page stays one file), configured from analytics/config.json."""
+    try:
+        cfg = json.load(open(f"{ROOT}/analytics/config.json"))
+        js = open(f"{ROOT}/analytics/fa.js").read().replace("</", "<\\/")  # a "</script>" in it would end the tag
+    except OSError:
+        return ""
+    conf = {"site": ANALYTICS_SITE, "projectId": cfg.get("projectId", ""), "apiKey": cfg.get("apiKey", ""),
+            "sections": '.card[id^="s-"]'}
+    return f"<script>window.FA_CONFIG={json.dumps(conf)};</script>\n<script>\n{js}</script>"
+
 def build(brackets, games, meta, default, groups=()):
     tpl = open(f"{ROOT}/template/dashboard_template.html").read()
     # league and Flex games: id,start,home,away,hs,as,venue# . A game is listed in the bracket of each of our teams
@@ -252,7 +264,7 @@ def build(brackets, games, meta, default, groups=()):
             if r[0] not in known:
                 xnames.setdefault(r[0], r[1])
     data = {"default": {"age": dage, "conf": dconf}, "snap": meta["snapshot"], "venues": venues, "xnames": xnames,
-            "feedback": FEEDBACK, "counter": COUNTER,
+            "feedback": FEEDBACK,
             "opos": {sid: p for b in brackets for sid, p in b.get("pos", {}).items()},
             "fgroups": [[gr["age"], gr["name"], [[r[0]] + r[2:] for r in gr["rows"]]] for gr in groups],
             "brackets": [{"age": b["age"], "conf": b["conf"], "teams": b["teams"],
@@ -268,6 +280,7 @@ def build(brackets, games, meta, default, groups=()):
         pri = pastseasons.priors(brackets, past[0], PRIOR_WEIGHT, PRIOR_MODE)
         for b in data["brackets"]:
             b["prior"] = {k: pri[k] for k in b["teams"] if k in pri}
+    tpl = tpl.replace("<!--__ANALYTICS__-->", analytics_tag())
     def page(d, season_text):
         return (tpl.replace("/*__DATA__*/{}", json.dumps(d, ensure_ascii=False, separators=(",", ":")))
                    .replace("__TITLE__", "MLS NEXT Homegrown Division dashboard").replace("__SEASON__", season_text))
@@ -275,7 +288,7 @@ def build(brackets, games, meta, default, groups=()):
     open(f"{ROOT}/index.html", "w").write(html)
     write_calendars(brackets, games)
     for s in past:
-        d = pastseasons.past_data(s, default); d["seasons"] = data["seasons"]; d["feedback"], d["counter"] = FEEDBACK, COUNTER
+        d = pastseasons.past_data(s, default); d["seasons"] = data["seasons"]; d["feedback"] = FEEDBACK
         before = [x for x in past if x < s]
         if before and PRIOR_WEIGHT:  # the replayed accuracy of a past season also starts from the season before it
             pri = pastseasons.priors(d["brackets"], before[0], PRIOR_WEIGHT, PRIOR_MODE)
