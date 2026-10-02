@@ -109,6 +109,12 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - National view: `?age=U13&conf=national` (first option in the conference picker). Fits each conference of the
   age group separately and lists all teams by rating (expected goal margin vs an average team in its own conference).
   The page says plainly that this treats conferences as equally strong. Pro Player Pathway gets its own table.
+- Club view: `?club=<slug>` (full or short name slug, e.g. `ballistic-united`, `lafc`). Lists the club's team in every
+  age group with conference position, record, national rank, power rank, simulated top-line / 1st chances (2,000 runs per
+  bracket), next game; plus club-wide upcoming games and recent results. Reached from "Find any team" (club rows first)
+  and the My team card. `bracketInfo(b)` caches each bracket's model + table for the national and club views.
+- Model fit: per-parameter Newton steps (60 rounds) instead of 6,000 gradient steps — same MAP objective, equal or better
+  in all 60 brackets (gradient ascent stalled on lopsided U13 Southwest scores), ~27× faster. `fit(list, IX, NN, prior)`.
 - "My team" card (top of the page when a team is followed): record, form, next game with odds and venue, outlook,
   and "Add N games to calendar" (an .ics of remaining games; timed games in UTC with 2h duration, no time = all-day).
 - "New since your last visit": localStorage `seen:<title>` keeps the played-game ids at the end of the previous
