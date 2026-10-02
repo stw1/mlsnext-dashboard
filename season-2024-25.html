@@ -148,7 +148,16 @@ table.st tbody tr.cut1 td{border-bottom:2px solid #0f766e}table.st tbody tr.cut2
 .agetag{display:inline-block;min-width:34px;text-align:center;font-size:11px;font-weight:700;border-radius:5px;padding:2px 5px;background:#e0e7ff;color:#3730a3;margin-right:6px}
 #clubTable td.t a{color:inherit;text-decoration:none}#clubTable .nx{font-size:12.5px;color:var(--ink2);white-space:normal;min-width:150px}
 #clubRes td{padding:8px 6px}#clubRes .opp{text-align:left;white-space:normal}#clubRes tr.day td{text-align:left;font-weight:700;font-size:12.5px;color:var(--ink2);padding:14px 2px 6px;border-bottom:2px solid var(--line);background:none}
-.find-r a.club b{font-weight:700}.find-r a.club{background:#f8fafc}
+.find-r a.club b{font-weight:700}
+#clubCards{display:none;gap:10px}
+.ccard{display:block;border:1px solid var(--line);border-radius:10px;padding:12px 14px;color:inherit;text-decoration:none}
+.ccard.me{background:#fef9c3;border-color:#eab308}.ccard .ch{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 8px}.ccard .ch b{font-size:15.5px}.ccard .ch span{color:var(--mut);font-size:12.5px}
+.ccard .cs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 8px;margin-top:10px}.ccard .cs div{font-size:11.5px;color:var(--mut)}.ccard .cs b{display:block;font-size:15px;color:var(--ink);font-variant-numeric:tabular-nums}
+.ccard .cf2{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:10px;font-size:12.5px;color:var(--ink2)}
+.ccard .cn{margin-top:8px;padding-top:8px;border-top:1px solid var(--line);font-size:13px;color:var(--ink2)}
+.past .ccard .pj,.past .ccard .nxcol{display:none}
+@media(max-width:700px){#clubTableWrap{display:none}#clubCards{display:grid}}
+@media(prefers-color-scheme:dark){.ccard.me{background:#3a3210;border-color:#5c4a12}}.find-r a.club{background:#f8fafc}
 @media(prefers-color-scheme:dark){.agetag{background:#312e81;color:#c7d2fe}.find-r a.club{background:#172034}}
 /* about */
 .about .cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.about h3{margin:6px 0 4px;font-size:14px}.about p{margin:0;font-size:13px;color:var(--ink2)}
@@ -252,7 +261,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div id="s-club" style="display:none">
 <div class="kpis" id="clubKpis"></div>
 <div class="card" id="s-cteams"><h2>Teams</h2><div class="sub">Every age group this club has in the Homegrown Division. National rank compares teams within their own conference strength (see the national page for what that means). Tap a team to open its conference page.</div>
-<div class="scroll"><table class="st" id="clubTable"></table></div><div class="key" id="clubKey"></div></div>
+<div class="scroll" id="clubTableWrap"><table class="st" id="clubTable"></table></div><div id="clubCards"></div><div class="key" id="clubKey"></div></div>
 <div class="grid2"><div class="card" id="s-cnext"><h2>Upcoming games</h2><div class="sub">The next two weekends for every team, with the model's chances. Times are in your time zone.</div><div id="clubNext"></div></div>
 <div class="card" id="s-cres"><h2>Recent results</h2><div class="sub">The last two weekends, all age groups.</div><table id="clubRes"></table></div></div>
 </div>
@@ -669,6 +678,13 @@ function drawClub(){const teams=DATA.brackets.flatMap(b=>Object.entries(b.teams)
    `<td class="xs-hide ${r.tb.gd>0?"pos":r.tb.gd<0?"neg":""}">${r.tb.gd>0?"+":""}${r.tb.gd}</td><td class="form xs-hide">${r.form||'<span class="mut" style="background:none;color:var(--mut);width:auto">–</span>'}</td>`+
    `<td>${r.nat?`${ordn(r.nat)}<span class="mut"> /${r.natN}</span>`:"–"}</td><td>${ordn(r.pr)}</td><td class="lscol">${(h=>h?`${ordn(h[3])}<span class="mut">/${h[4]} ${h[1]}</span>`:'<span class="mut">–</span>')(((DATA.hist||{})[r.id]||[])[0])}</td><td class="pj div">${pbar(r.sim.cut?r.sim.res[r.id].pch:r.sim.res[r.id].pch)}</td><td class="pj">${pbar(r.sim.res[r.id].p1)}</td>`+
    `<td class="t nx nxcol">${r.nx?`${fmtDay(r.nx.dt)} · ${r.nx.h===r.id?"vs":"at"} ${esc(shortName(r.b.teams[r.nx.h===r.id?r.nx.a:r.nx.h]))}`:'<span class="mut">Season over</span>'}</td></tr>`).join("")+"</tbody>";
+ // phones: one tappable card per team instead of the wide table
+ $("clubCards").innerHTML=rows.map(r=>{const h=((DATA.hist||{})[r.id]||[])[0],st=(l,v)=>`<div><b>${v}</b>${l}</div>`;
+  return`<a class="ccard${followed.has(r.id)?" me":""}" href="${pageUrl(r.b,r.id)}"><div class="ch"><span class="agetag">${r.b.age}</span><b>${esc(shortName(r.n))}</b><span>${esc(baseConf(r.b.conf))} · ${ordn(r.crk)} of ${r.cn}</span></div>`+
+   `<div class="cs">${st("W-D-L",`${r.tb.w}-${r.tb.d}-${r.tb.l}`)}${st("points / game",r.tb.mp?r.tb.ppm.toFixed(2):"–")}${st("goal diff.",(r.tb.gd>0?"+":"")+r.tb.gd)}`+
+   `${st("national",r.nat?`${ordn(r.nat)}<span class="mut" style="font-size:12px;font-weight:400">/${r.natN}</span>`:"–")}${st("power in conf.",ordn(r.pr))}${PAST?"":st("last season",h?`${ordn(h[3])}<span class="mut" style="font-size:12px;font-weight:400">/${h[4]}</span>`:"–")}</div>`+
+   `<div class="cf2"><span class="form">${r.form||'<span class="mut" style="background:none;color:var(--mut);width:auto">No games yet</span>'}</span><span class="pj">Top line ${pbar(r.sim.res[r.id].pch)}</span></div>`+
+   `<div class="cn nxcol">${r.nx?`Next: <b>${fmtDay(r.nx.dt)}</b> · ${r.nx.h===r.id?"vs":"at"} ${esc(shortName(r.b.teams[r.nx.h===r.id?r.nx.a:r.nx.h]))}`:'<span class="mut">Season over</span>'}</div></a>`}).join("");
  $("clubKey").innerHTML=`<span><b>Top line</b> ${anyCut?"U13/U14: estimated Championship-bracket cut from last season; U15–U19: top 4 (not an official playoff line)":"top 4 in the conference (not an official playoff line)"}</span><span><b>Power</b> model rating rank inside the conference</span>`;
  // upcoming: next two weekends across all teams
  const fut=rows.flatMap(r=>r.o.fu.filter(g=>g.h===r.id||g.a===r.id).map(g=>({r,g}))).sort((x,y)=>x.g.dt<y.g.dt?-1:1),wk=byWeek(fut.map(x=>x.g)).slice(0,2),inWk=new Set(wk.flat());
