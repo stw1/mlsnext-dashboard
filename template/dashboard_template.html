@@ -49,7 +49,7 @@ table:not(.h2h) tbody tr:hover td{background:#f8fafc}
 .mut{color:var(--mut)}.pos{color:#15803d}.neg{color:#b91c1c}
 .form span{display:inline-block;width:18px;height:18px;line-height:18px;border-radius:4px;color:#fff;font-size:10px;font-weight:700;margin-right:2px}
 .W{background:var(--w)}.D{background:var(--d)}.L{background:var(--l)}
-.short{display:none}.xs-only{display:none}
+.short{display:none}.xs-only{display:none}.xs-mark{display:none}
 .note{font-size:12.5px;color:var(--ink2);background:#fefce8;border:1px solid #fde68a;border-radius:8px;padding:6px 10px;margin:-4px 0 12px;display:none}
 .empty{color:var(--mut);padding:16px 0;text-align:left}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--ink2)}.legend>span{display:inline-flex;align-items:center;gap:6px}
@@ -111,7 +111,7 @@ table.st tbody tr.cut1 td{border-bottom:2px solid #0f766e}table.st tbody tr.cut2
 /* power + results */
 .grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}@media(max-width:1200px){.grid2{grid-template-columns:minmax(0,1fr)}}
 #power td{font-variant-numeric:tabular-nums}#power .rk{color:var(--mut);width:28px}#power .tm{font-weight:600}
-.dv{display:inline-flex;width:120px;height:8px;vertical-align:middle;margin-right:8px}.dv i{flex:1;display:flex;background:#f1f5f9}
+.dv{display:inline-flex;width:96px;height:8px;vertical-align:middle;margin-right:8px}.dv i{flex:1;display:flex;background:#f1f5f9}
 .dv i.n{justify-content:flex-end;border-radius:4px 0 0 4px}.dv i.p{border-radius:0 4px 4px 0;border-left:1.5px solid #94a3b8}
 .dv .n b{background:#f87171;border-radius:4px 0 0 4px}.dv .p b{background:var(--teal);border-radius:0 4px 4px 0}
 .net{display:inline-block;min-width:40px;font-weight:700;font-variant-numeric:tabular-nums}
@@ -177,11 +177,20 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
  .eyebrow{font-size:10.5px;letter-spacing:.05em}.titlerow{margin:4px 0 10px}.meta{font-size:12px;gap:2px 14px}
  .ages{display:flex;width:100%}.ages a{flex:1;text-align:center;padding:8px 0}
  .ven a{display:inline-block;padding:10px 6px;margin:-10px -6px}.seg button{padding:9px 12px}#nF,#natConf{padding:8px}.btn{padding:9px 14px}
- .xs-hide{display:none}.nat .dv{display:none}.xs-only{display:block;font-size:11.5px;color:var(--mut);font-weight:400;margin:1px 0 0 21px}.st tr.grp{display:none}
+ .xs-hide{display:none}.nat .dv{display:none}
+ table th,table td,table.st td,.st th{padding:6px 5px}.h2h td{padding:4px 2px}
+ .st td.team,.st th.team{white-space:normal;max-width:150px}.xs-only{white-space:normal}
+ #accGames .hm,#accGames .aw{font-size:12.5px}#accGames .said{min-width:96px}
+ .my .hist a{display:inline-block;padding:8px 0;margin:-6px 0}
+ .xs-mark{display:inline-flex;width:18px;height:18px;font-size:11px;margin-right:6px;vertical-align:1px}
+ #power .tm{white-space:normal;max-width:150px}
+.xs-only{display:block;font-size:11.5px;color:var(--mut);font-weight:400;margin:1px 0 0 21px}.st tr.grp{display:none}
  .full{display:none}.short{display:inline}
  .st td.team,.st th.team{padding-right:6px}.st .team .rk{width:21px}
  .h2h th.team{font-size:12px;padding-right:6px}.h2h th.team .rk{width:17px}.h2h th.col{width:64px;min-width:64px}.chip{width:28px}
  .dv{width:70px}}
+@media(max-width:360px){.st td.team,.st th.team,#power .tm{max-width:122px;font-size:12.5px}#power .dv{display:none}.nat .xxs-hide{display:none}
+ #accGames .said{min-width:0;font-size:11.5px}#accGames .said small{display:none}#accGames .hm,#accGames .aw{font-size:11.5px;max-width:76px;overflow-wrap:anywhere}#accGames tr.day td{white-space:normal}#accGames td{padding:6px 3px}#accGames .score{min-width:38px;padding:3px 4px}}
 /* dark mode: follows the device setting */
 @media(prefers-color-scheme:dark){
  :root{color-scheme:dark;--bg:#0b1220;--card:#131c2e;--ink:#e5e7eb;--ink2:#cbd5e1;--mut:#94a3b8;--line:#263248}
@@ -597,10 +606,10 @@ function drawAcc(){const more=$("accMore");
  const wks=byWeek(bt.map(b=>b.g)).reverse(),shown=allAcc?wks:wks.slice(0,2),by=new Map(bt.map(b=>[b.g,b]));
  const rows=shown.map(gs=>{const bs=gs.map(g=>by.get(g)),h=bs.filter(b=>b.hit).length;
   return`<tr class="day"><td colspan="6">${weekLabel(gs)}<span>${h} of ${bs.length} picks right</span></td></tr>`+bs.map(({g,p,hit,pAct})=>
-   `<tr${myTeam&&involves(g,myTeam)?' class="me"':""}><td class="hm">${teamName(g.h)}</td><td><span class="score">${g.hs}–${g.as}</span></td><td class="aw">${teamName(g.a)}</td><td class="said">${pickText(p)}<br><small>likely ${p.sc[0]}–${p.sc[1]}</small></td><td>${pct(pAct)}</td><td>${hit?'<span class="ok" title="Pick was right">✓</span>':'<span class="no" title="Pick was wrong">✗</span>'}</td></tr>`).join("")}).join("");
+   `<tr${myTeam&&involves(g,myTeam)?' class="me"':""}><td class="hm">${teamName(g.h)}</td><td><span class="score">${g.hs}–${g.as}</span></td><td class="aw">${teamName(g.a)}</td><td class="said"><span class="xs-mark ${hit?"ok":"no"}">${hit?"✓":"✗"}</span>${pickText(p)}<br><small>likely ${p.sc[0]}–${p.sc[1]}</small></td><td class="xs-hide">${pct(pAct)}</td><td class="xs-hide">${hit?'<span class="ok" title="Pick was right">✓</span>':'<span class="no" title="Pick was wrong">✗</span>'}</td></tr>`).join("")}).join("");
  $("acc").innerHTML=`<div class="acc-k">${k("Picks right",`${hits} of ${n}`,`${pct(hits/n)} · always picking the home team: ${pct(homeW/n)}`)}${k("Chance given to the real result",pct(avgP),"on average · a blind guess gives 33%")}${k("Exact score",`${cnt(b=>b.exact)} of ${n}`,pct(cnt(b=>b.exact)/n)+" of games")}${k("Goal margin",`off by ${me.toFixed(1)}`,"goals, on average")}</div>`+
   `<div class="acc-two"><div><table id="accTier"><thead><tr><th class="t">When the model said</th><th>Games</th><th>Pick right</th></tr></thead><tbody>${tiers}</tbody></table><div class="hint">A well-tuned model should be right more often on its Strong picks than on its toss-ups.</div></div>`+
-  `<div class="scroll"><table id="accGames"><thead><tr><th colspan="3">Result</th><th class="t">Model's pick</th><th title="The chance the model gave to what actually happened">Chance it gave the result</th><th>Right?</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+  `<div class="scroll"><table id="accGames"><thead><tr><th colspan="3">Result</th><th class="t">Model's pick</th><th class="xs-hide" title="The chance the model gave to what actually happened">Chance it gave the result</th><th class="xs-hide">Right?</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
  more.style.display=wks.length>2?"":"none";more.textContent=allAcc?"Show fewer weekends":`Show all ${wks.length} weekends`;}
 $("accMore").onclick=()=>{allAcc=!allAcc;drawAcc()};
 
@@ -708,12 +717,12 @@ let natK="net",natDir=-1;
 function drawNational(){const age=B.age,rows=natRows(age),reg=rows.filter(r=>r.b.conf===baseConf(r.b.conf)),ppp=rows.filter(r=>r.b.conf!==baseConf(r.b.conf));
  const followed=new Set(DATA.brackets.filter(b=>b.age===age).map(b=>{try{return localStorage.getItem(`myteam:${TPRE}${age} ${b.conf} Conference`)}catch(e){return null}}).filter(Boolean));
  const rankOf=list=>{const r=new Map();list.filter(x=>x.rated).sort((p,q)=>q.net-p.net).forEach((x,i)=>r.set(x.c,i+1));return r};
- const cols=[["","Team","t team"],["conf","Conference","t xs-hide"],["mp","MP","","League games played (plus Flex games used in the rating)"],["","W-D-L","xs-hide"],["ppm","Pts/G","","Points per league game"],["gdpg","GD/G","xs-hide","Goal difference per league game"],["net","Rating","t","Expected goal margin per game vs an average team in its own conference"]];
+ const cols=[["","Team","t team"],["conf","Conference","t xs-hide"],["mp","MP","","League games played (plus Flex games used in the rating)"],["","W-D-L","xs-hide"],["ppm","Pts/G","xxs-hide","Points per league game"],["gdpg","GD/G","xs-hide","Goal difference per league game"],["net","Rating","t","Expected goal margin per game vs an average team in its own conference"]];
  const tableHtml=(list,rk)=>{const mx=Math.max(...list.map(x=>Math.abs(x.net)),.01);
   const sorted=list.slice().sort((p,q)=>(q.rated-p.rated)||(natK==="conf"?p.b.conf.localeCompare(q.b.conf)||p.crk-q.crk:(q[natK]-p[natK])*-natDir));
   return`<thead><tr>${cols.map(([k,l,c,tip])=>`<th class="${c}${k&&k===natK?" sorted":""}"${k?` data-k="${k}"`:""}${tip?` title="${tip}"`:""}>${l}${k&&k===natK?(natDir<0?" ▼":" ▲"):""}</th>`).join("")}</tr></thead><tbody>`+
   sorted.map(x=>{const w=Math.abs(x.net)/mx*100;return`<tr${followed.has(x.c)?' class="me"':""}><td class="t team"><span class="rk">${x.rated?rk.get(x.c):"–"}</span><a href="${bracketUrl(x.b)}"><span class="full">${esc(x.n)}</span><span class="short">${esc(shortName(x.n))}</span></a><small class="xs-only">${esc(baseConf(x.b.conf))} · ${ordn(x.crk)} of ${x.cn}</small></td>`+
-   `<td class="t cf xs-hide">${esc(baseConf(x.b.conf))} <span>· ${ordn(x.crk)} of ${x.cn}</span></td><td>${x.mp}${x.nf?` <span class="mut" title="plus ${x.nf} Flex games">+${x.nf}</span>`:""}</td><td class="xs-hide">${x.w}-${x.d}-${x.l}</td><td>${x.mp?x.ppm.toFixed(2):"–"}</td><td class="xs-hide ${x.gdpg>0?"pos":x.gdpg<0?"neg":""}">${x.mp?(x.gdpg>0?"+":"")+x.gdpg.toFixed(1):"–"}</td>`+
+   `<td class="t cf xs-hide">${esc(baseConf(x.b.conf))} <span>· ${ordn(x.crk)} of ${x.cn}</span></td><td>${x.mp}${x.nf?` <span class="mut" title="plus ${x.nf} Flex games">+${x.nf}</span>`:""}</td><td class="xs-hide">${x.w}-${x.d}-${x.l}</td><td class="xxs-hide">${x.mp?x.ppm.toFixed(2):"–"}</td><td class="xs-hide ${x.gdpg>0?"pos":x.gdpg<0?"neg":""}">${x.mp?(x.gdpg>0?"+":"")+x.gdpg.toFixed(1):"–"}</td>`+
    `<td class="t">${x.rated?`<span class="dv"><i class="n"><b style="width:${x.net<0?w:0}%"></b></i><i class="p"><b style="width:${x.net>0?w:0}%"></b></i></span><span class="net ${x.net>=0?"pos":"neg"}">${x.net>0?"+":""}${x.net.toFixed(2)}</span>`:'<span class="mut">No games yet</span>'}</td></tr>`}).join("")+"</tbody>"};
  const fc=$("natConf").value,shown=fc?reg.filter(x=>slugC(x.b.conf)===fc):reg;
  $("natTitle").textContent=`${age} national rankings`;
