@@ -18,8 +18,9 @@ An unofficial fan dashboard for the MLS NEXT Allstate Homegrown Division. It's n
   `index.html` (one self-contained page), the past-season pages and the team calendars in `cal/`.
   It uses only the Python standard library.
 - A GitHub Actions workflow (`.github/workflows/refresh.yml`) runs it on Saturdays and Sundays, and on Monday and
-  Tuesday mornings for late scores. It publishes when anything changed, then runs `scripts/check_official.py` to
-  confirm every U15–U19 table still matches MLS's official standings.
+  Tuesday mornings for late scores. Before publishing, `scripts/sanity_check.py` compares the new data with what's
+  live and stops the update if the feed looks broken (conferences, teams, games or results vanishing). After
+  publishing, `scripts/check_official.py` confirms every U15–U19 table still matches MLS's official standings.
 - Predictions come from a Poisson goals model with a Dixon-Coles low-score adjustment, fitted to each conference's
   games and started from last season's ratings. The page shows how accurate the predictions have been.
 - The rules the tables follow are summarised in [docs/rules-2026-27.md](docs/rules-2026-27.md).
@@ -31,5 +32,6 @@ An unofficial fan dashboard for the MLS NEXT Allstate Homegrown Division. It's n
 ```bash
 python3 scripts/refresh.py            # fetch the latest data and rebuild
 python3 scripts/refresh.py --offline  # rebuild from data/ without downloading
+python3 scripts/sanity_check.py       # is the newly downloaded data safe to publish?
 python3 scripts/check_official.py     # compare the tables with MLS's official standings
 ```

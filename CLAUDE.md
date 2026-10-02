@@ -21,6 +21,7 @@ scripts/ratings.py, priors.py      Python copy of the model; backtests that choo
 data/history/<season>.csv          past seasons' games (2023-24, 2024-25, 2025-26): league, Flex, others
 season-<season>.html               built pages for finished seasons (same template, DATA.past set)
 scripts/check_official.py          compares the built tables with MLS's official standings (exit 1 on differences)
+scripts/sanity_check.py            safety check before publishing: new data vs the last commit (exit 1 = looks broken)
 cal/<squad_id>.ics                 one subscribable calendar per team, rebuilt by refresh.py (current season only)
 docs/rules-2026-27.md              HD rules summary (standings, tiebreakers, postseason) and how the site follows them
 README.md                          short public description of the repo
@@ -40,7 +41,11 @@ manifest.webmanifest, icon.svg     home-screen app name and icons (icon-192/512.
   "not updated yet" (MLS allows 24 h for match reports + 48 h to verify), not as an error. Run it after any table change.
 - **Auto-refresh:** `.github/workflows/refresh.yml` runs `refresh.py` on GitHub Actions Sat & Sun (~1, 5, 9 pm
   Pacific) and Mon & Tue (~9 am), and commits + pushes only when `data/games.csv` changed (calendar files change only
-  when games do, so they ride along). Its last step runs `check_official.py` *after* publishing: new scores still go
+  when games do, so they ride along). Before publishing it runs `sanity_check.py`: if the new data looks broken
+  (conferences or >3% of teams vanish, league games drop >5% or a 20+-game conference loses >25%, >10 played results
+  disappear or >15 change score, Flex games drop >25% or the Flex tables come back empty, `synced_at` goes backwards)
+  nothing is committed, the site keeps the last good data and the run fails (GitHub emails). Override for a real big
+  change: Actions → Refresh scores → Run workflow with force = true. Its last step runs `check_official.py` *after* publishing: new scores still go
   live, but a mismatch fails the run, so GitHub emails the repo owner; the result is in the run's summary. Actions are
   pinned to `actions/checkout@v7` / `actions/setup-python@v7` (Node 24). Run it on demand from
   the repo's Actions tab ("Refresh scores" → "Run workflow") or `gh workflow run refresh.yml`.
@@ -232,7 +237,6 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 ## Ideas / backlog
 - Use cross-conference events (MLS NEXT Fest, Cup qualifiers) to estimate conference strength for the national view
 - Save each weekend's predictions before kickoff for an honest, frozen track record
-- Safety check in the workflow: refuse to publish if the feed returns far fewer games than last time
 - Update `CUP_EST` / the Top-4 line once MLS publishes the 2026-27 Cup allocation; re-run `check_official.py` after the
   first winter Showcase weekend (cross-conference league games)
 - Weight recent games more heavily

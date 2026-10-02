@@ -7,3 +7,4 @@ check.txt
 # Firebase emulator logs
 *-debug.log
 .firebase/
+safety.txt
