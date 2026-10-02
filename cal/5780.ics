@@ -1,0 +1,299 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IMG U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26202-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T160000Z
+DURATION:PT2H
+SUMMARY:U13 IMG at Inter Miami CF (L 0–10)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26391-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs Sol SC Florida (L 1–5)
+LOCATION:IMG Academy Field - #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26844-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T200000Z
+DURATION:PT2H
+SUMMARY:U13 IMG at Seminole United (W 2–0)
+LOCATION:Seminole Soccer Complex - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27262-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs Tampa Bay United (L 1–3)
+LOCATION:IMG Academy Field - #3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27702-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T203000Z
+DURATION:PT2H
+SUMMARY:U13 IMG at One FC
+LOCATION:North Bay Village Soccer Field #1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28241-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs Weston FC
+LOCATION:IMG Academy Field - #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31780-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T170000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs Orlando City Soccer School South
+LOCATION:IMG Academy Field - 7
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29167-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T190000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs IdeaSport SA
+LOCATION:IMG Academy Field - #3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31078-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T150000Z
+DURATION:PT2H
+SUMMARY:U13 IMG at West Florida Flames
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29807-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs Inter Miami CF
+LOCATION:IMG Academy Field - 11
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29595-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T180000Z
+DURATION:PT2H
+SUMMARY:U13 IMG at Weston FC
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30464-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U13 IMG at Athletum FC Academy
+LOCATION:JCC Posnack - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31239-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 IMG at Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31416-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T190000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs Jacksonville FC
+LOCATION:IMG Academy Field - 8
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31606-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T190000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs Seminole United
+LOCATION:IMG Academy Field - 7
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33778-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T200000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs Miami Futbol Academy Rush
+LOCATION:IMG Academy Field - 7
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31984-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U13 IMG vs Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32505-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T180000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs West Florida Flames
+LOCATION:IMG Academy Field - 12
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32939-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T210000Z
+DURATION:PT2H
+SUMMARY:U13 IMG vs One FC
+LOCATION:IMG Academy Field - 16
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30942-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T213000Z
+DURATION:PT2H
+SUMMARY:U13 IMG at Jacksonville FC
+LOCATION:Patton Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33402-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 IMG at South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34219-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 IMG at Sol SC Florida
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34505-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 IMG vs South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34963-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T150000Z
+DURATION:PT2H
+SUMMARY:U13 IMG at Orlando City Soccer School South
+LOCATION:NorthEast Regional Park - Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35341-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 IMG vs Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35814-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 IMG at Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36290-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 IMG at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36624-5780@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U13 IMG at IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=img
+END:VEVENT
+END:VCALENDAR

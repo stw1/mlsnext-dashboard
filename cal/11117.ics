@@ -1,0 +1,327 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:San Diego FC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26201-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs RSL Arizona (Flex) (L 2–3)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=san-d
+ iego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26819-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs City SC Southwest (Flex) (W 7–0)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=san-d
+ iego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27082-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs LA Galaxy U17 (L 1–6)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26390-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T153000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs Barca Residency Academy (Flex)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=san-d
+ iego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28482-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20261017
+SUMMARY:U16 San Diego FC at Real Salt Lake U17
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29160-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20261024
+SUMMARY:U16 San Diego FC vs City SC - San Diego (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29392-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs Los Angeles Football Club U17
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29804-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T180000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC at Seattle Sounders FC U17
+LOCATION:Providence Swedish Performance Center & Clubhouse - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27502-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T173000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC at Vancouver Whitecaps FC U17
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32742-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs SC Del Sol (Flex)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=san-d
+ iego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30765-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC at Portland Timbers U17
+LOCATION:Portland Timbers Training Facility - Training Turf
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31047-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270110
+SUMMARY:U16 San Diego FC at Los Angeles Football Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28216-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270116T170000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs San Jose Earthquakes U17
+LOCATION:Sharp Healthcare Performance Center - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31354-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T170000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs ALBION SC San Diego (Flex)
+LOCATION:Sharp Healthcare Performance Center - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=san-d
+ iego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31559-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U16 San Diego FC at San Jose Earthquakes U17
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31737-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U16 San Diego FC vs Real Salt Lake U17
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31779-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270211
+SUMMARY:U16 San Diego FC vs Chula Vista FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32311-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 San Diego FC vs Portland Timbers U17
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32935-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T170000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs Los Angeles Football Club (Flex)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=san-d
+ iego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33171-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 San Diego FC at LA Galaxy U17
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33593-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T170000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs Phoenix Rising FC (Flex)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=san-d
+ iego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33777-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U16 San Diego FC vs Las Vegas Sports Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35148-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T160000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs Vancouver Whitecaps FC U17
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36607-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 San Diego FC at Los Angeles Football Club U17
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36803-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T160000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs Seattle Sounders FC U17
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30455-flex-11117@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U16 San Diego FC vs Albion SC Las Vegas (Flex)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=san-d
+ iego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=san-diego-fc
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,233 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AC River U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26435-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U19 AC River at Austin FC (Flex) (L 1–5)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26867-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T170000Z
+DURATION:PT2H
+SUMMARY:U19 AC River vs GFI Academy (Flex) (L 2–6)
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27305-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T210000Z
+DURATION:PT2H
+SUMMARY:U19 AC River vs Houston Rangers (L 1–6)
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U19 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33819-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T160000Z
+DURATION:PT2H
+SUMMARY:U19 AC River at Capital City SC (Flex) (L 2–3)
+LOCATION:1849 Park - Field #1
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32984-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U19 AC River at Colorado Rapids (Flex)
+LOCATION:Dicks Sporting Goods Park - Field #19
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33185-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T200000Z
+DURATION:PT2H
+SUMMARY:U19 AC River at ALBION SC Colorado
+LOCATION:Twin Peaks Classical Academy - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28780-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T170000Z
+DURATION:PT2H
+SUMMARY:U19 AC River at Tulsa Greenwood SC (Flex)
+LOCATION:Ascension St. John Sportsplex - Field 2
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29621-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T220000Z
+DURATION:PT2H
+SUMMARY:U19 AC River at Houston Rangers (Flex)
+LOCATION:Paul D Rushing Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30044-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T160000Z
+DURATION:PT2H
+SUMMARY:U19 AC River at Houston Dynamo FC (Flex)
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30507-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U19 AC River vs SGA (Flex)
+LOCATION:Soccer Central - Field #3
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31264-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T220000Z
+DURATION:PT2H
+SUMMARY:U19 AC River vs Dallas Hornets (Flex)
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31646-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T200000Z
+DURATION:PT2H
+SUMMARY:U19 AC River at GFI Academy
+LOCATION:Lenze Rd - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31813-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T200000Z
+DURATION:PT2H
+SUMMARY:U19 AC River vs ALBION SC Colorado (Flex)
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32328-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U19 AC River at Real Salt Lake (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34542-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T150000Z
+DURATION:PT2H
+SUMMARY:U19 AC River vs Capital City SC
+LOCATION:Soccer Central - Field #3
+DESCRIPTION:MLS NEXT Homegrown · U19 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34986-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 AC River at Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U19 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac-r
+ iver
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35850-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 AC River at SGA
+DESCRIPTION:MLS NEXT Homegrown · U19 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac-r
+ iver
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36307-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270501T190000Z
+DURATION:PT2H
+SUMMARY:U19 AC River vs Tulsa Greenwood SC
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U19 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27743-flex-7153@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U19 AC River at FC Dallas (Flex)
+LOCATION:Toyota Soccer Center - Field 13
+DESCRIPTION:MLS NEXT Flex · U19 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U19&conf=frontier&show=ac-river
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=frontier&show=ac
+ -river
+END:VEVENT
+END:VCALENDAR

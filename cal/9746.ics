@@ -1,0 +1,309 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Modesto Ajax United U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26129-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T200000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United vs Woodside Soccer Club Crush (Flex) (L 2
+ –3)
+LOCATION:Mary Grogan Community Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26542-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T203000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United at San Jose Earthquakes (Flex) (L 3–4)
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26992-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T220000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United vs Atletico Santa Rosa (L 1–2)
+LOCATION:Mary Grogan Community Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27404-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T200000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United at San Francisco Glens SC (L 0–8)
+LOCATION:SF Glens TI Field - 620 Ave. I\, Treasure Island\, San Francisco\,
+  CA 94132
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28395-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United vs De Anza Force
+LOCATION:Mary Grogan Community Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28921-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T200000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United at Woodside Soccer Club Crush
+LOCATION:Canada College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29326-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United vs Sacramento Republic FC
+LOCATION:Mary Grogan Community Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29736-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T210000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United at Sacramento United (Flex)
+LOCATION:Granite Regional Park - Turf
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30145-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T210000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United at Atletico Santa Rosa (Flex)
+LOCATION:Casa Grande High School
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30660-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T210000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United vs San Francisco Glens SC (Flex)
+LOCATION:Mary Grogan Community Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30979-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U16 Modesto Ajax United vs ALBION SC Merced (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=modesto
+ -ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31093-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U16 Modesto Ajax United vs Lamorinda Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=mo
+ desto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31299-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U16 Modesto Ajax United at FC Bay Area Surf
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=mo
+ desto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31505-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U16 Modesto Ajax United at The Town FC Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=modesto
+ -ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31669-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U16 Modesto Ajax United vs Ballistic United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=modesto
+ -ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31872-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U16 Modesto Ajax United at Sacramento Republic FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=modesto
+ -ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32237-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 Modesto Ajax United vs Silicon Valley Soccer Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=modesto
+ -ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32665-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 Modesto Ajax United at De Anza Force (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=modesto
+ -ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33096-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T210000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United at Lamorinda Soccer Club (Flex)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33509-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 Modesto Ajax United vs FC Bay Area Surf (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=modesto
+ -ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27870-flex-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T230000Z
+DURATION:PT2H
+SUMMARY:U16 Modesto Ajax United at Vancouver Whitecaps FC (Flex)
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=modesto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33922-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U16 Modesto Ajax United at Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=mo
+ desto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35089-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U16 Modesto Ajax United vs Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=mo
+ desto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35519-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 Modesto Ajax United at Ballistic United
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=mo
+ desto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35927-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U16 Modesto Ajax United at ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=mo
+ desto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36482-9746@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Modesto Ajax United vs The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=mo
+ desto-ajax-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=m
+ odesto-ajax-united
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,376 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Inter Miami CF U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26397-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Orlando City SC (Flex) (L 2–3)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27018-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T130000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Atlanta United (W 1–0)
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27441-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF at Nashville SC (W 4–1)
+LOCATION:The Gold Mine - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27693-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T130000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs South Florida Football Academy (Flex)
+LOCATION:Florida Blue Training Center - Field 6
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28205-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T140000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF at Orlando City SC
+LOCATION:Osceola Heritage Park - Turf Field/3
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28429-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T140000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Austin FC
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28730-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs West Florida Flames (Flex)
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29752-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T150000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Charlotte FC
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28991-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261111T220000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs IMG (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30264-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T150000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Miami Futbol Academy Rush (Flex)
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30689-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF at FC Dallas
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30939-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270109T150000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs One FC (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31020-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270110T160000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Seminole United (Flex)
+LOCATION:Florida Blue Training Center - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29356-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270116T160000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF at Houston Dynamo FC
+LOCATION:Houston Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31230-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T160000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs IdeaSport SA (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31361-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270124T170000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Orlando City Soccer School South (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31511-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T150000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Nashville SC
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31698-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T150000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF at Charlotte FC
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31787-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T150000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Athletum FC Academy (Flex)
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31987-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270214T160000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Sol SC Florida (Flex)
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32257-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 Inter Miami CF vs Houston Dynamo FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32517-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 Inter Miami CF at Orlando City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=s
+ outheast-pro-player-pathway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33136-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Inter Miami CF at Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33379-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T170000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Tampa Bay United (Flex)
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33601-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U16 Inter Miami CF vs Jacksonville FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=s
+ outheast-pro-player-pathway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30007-flex-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T140000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Weston FC (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35546-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T140000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF at Atlanta United
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35982-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T140000Z
+DURATION:PT2H
+SUMMARY:U16 Inter Miami CF vs Orlando City SC
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36526-2627@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Inter Miami CF vs FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+END:VCALENDAR

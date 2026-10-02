@@ -1,0 +1,297 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Michigan Wolves U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26041-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T194500Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves at Club Ohio (L 1–4)
+LOCATION:Kilbourne Run Sports Turf #5
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33198-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves at Indy Eleven (L 1–3)
+LOCATION:Grand Park Sports Campus - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26884-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T150000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves at Cincinnati United Soccer Club (L 1–3)
+LOCATION:Batavia Middle School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27099-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T160000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves at FC Cincinnati (L 0–5)
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30785-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261002T220000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves vs Michigan Jaguars
+LOCATION:Schoolcraft College - Outdoor Turf Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27977-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T160000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves vs Midwest United FC
+LOCATION:Schoolcraft College - Outdoor Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28299-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves vs Cincinnati United Soccer Club
+LOCATION:Schoolcraft College - Outdoor Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28515-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T150000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves vs FC Cincinnati
+LOCATION:Schoolcraft College - Outdoor Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29038-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves at SC Wave
+LOCATION:Uihlein Soccer Park  - Pat Jones
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29403-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T233000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves at Vardar Soccer Club
+LOCATION:Oakland University Dome - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30543-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T150000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves at Midwest United FC
+LOCATION:Midwest United FC Complex - North Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32761-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 Michigan Wolves vs AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29831-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T210000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves vs Club Ohio
+LOCATION:Schoolcraft College - Outdoor Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33851-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 Michigan Wolves at AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34039-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U13 Michigan Wolves vs Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34577-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 Michigan Wolves at Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34999-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 Michigan Wolves vs Indy Eleven
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35163-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 Michigan Wolves at Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35406-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 Michigan Wolves vs Bavarian United SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35648-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 Michigan Wolves vs Chicago FC United
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36044-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 Michigan Wolves vs Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36224-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U13 Michigan Wolves at Sporting City
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32142-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270502T140000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Wolves at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36339-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 Michigan Wolves vs Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36666-5692@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U13 Michigan Wolves at Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-wolves
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-wolves
+END:VEVENT
+END:VCALENDAR

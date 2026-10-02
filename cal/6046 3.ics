@@ -1,0 +1,385 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Strikers FC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26354-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T160000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC at LA Galaxy (D 1–1)
+LOCATION:Dignity Health Sports Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26803-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T180000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC vs Los Angeles Bulls Soccer Club (W 7–0)
+LOCATION:Great Park - Field 11
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27223-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T153000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC at City SC Southwest (W 2–0)
+LOCATION:Birdsall Sports Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27491-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T180000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC vs RSL Arizona Mesa (W 10–0)
+LOCATION:Great Park - Field 11
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27908-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC at ALBION SC San Diego
+LOCATION:Muir Language Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28137-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T180000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC at Chula Vista FC
+LOCATION:Hoover High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28467-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC vs Albion SC Las Vegas
+LOCATION:Great Park - Field 11
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28684-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T180000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC vs RSL Arizona
+LOCATION:Great Park - Field 11
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29148-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T180000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC vs Total Futbol Academy
+LOCATION:Great Park - Field 11
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29370-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T180000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC at Los Angeles Football Club
+LOCATION:South Grass Training Fields
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29948-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T210000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC at Albion SC Los Angeles
+LOCATION:Long Beach City College - FIELD 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30246-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T190000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC vs Los Angeles Football Club
+LOCATION:Irvine Valley College - Training Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30746-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T190000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC vs FC Golden State Force
+LOCATION:Great Park - Field 17
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31040-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270110
+SUMMARY:U14 Strikers FC at Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31137-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U14 Strikers FC at LA Surf Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31397-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U14 Strikers FC vs Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31533-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U14 Strikers FC vs City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31591-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U14 Strikers FC vs Las Vegas Sports Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31721-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U14 Strikers FC vs Santa Barbara Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31937-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U14 Strikers FC at SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32305-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U14 Strikers FC vs LA Surf Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32906-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U14 Strikers FC at FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33166-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U14 Strikers FC at Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33344-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U14 Strikers FC at Santa Barbara Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33581-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 Strikers FC vs SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34926-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Strikers FC at Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35314-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 Strikers FC at Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35611-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 Strikers FC vs Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36002-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U14 Strikers FC at Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36194-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 Strikers FC at SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36258-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270502
+SUMMARY:U14 Strikers FC vs LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36602-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Strikers FC vs Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27675-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270608
+SUMMARY:U14 Strikers FC vs San Diego FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
+ rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+END:VCALENDAR

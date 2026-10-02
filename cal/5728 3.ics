@@ -1,0 +1,281 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FC Bay Area Surf U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26983-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T000000Z
+DURATION:PT2H
+SUMMARY:U13 FC Bay Area Surf vs Lamorinda Soccer Club (W 7–0)
+LOCATION:Willow Glen High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26528-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260921T014500Z
+DURATION:PT2H
+SUMMARY:U13 FC Bay Area Surf at Sacramento Republic FC (L 1–2)
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27389-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T000000Z
+DURATION:PT2H
+SUMMARY:U13 FC Bay Area Surf at Atletico Santa Rosa (W 4–1)
+LOCATION:El Molino High School
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28380-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261019T020000Z
+DURATION:PT2H
+SUMMARY:U13 FC Bay Area Surf vs Silicon Valley Soccer Academy
+LOCATION:Willow Glen High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28892-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T000000Z
+DURATION:PT2H
+SUMMARY:U13 FC Bay Area Surf at Lamorinda Soccer Club
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29317-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T220000Z
+DURATION:PT2H
+SUMMARY:U13 FC Bay Area Surf at De Anza Force
+LOCATION:De Anza College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29712-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261109T030000Z
+DURATION:PT2H
+SUMMARY:U13 FC Bay Area Surf vs ALBION SC Merced
+LOCATION:Oak Grove High School
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30179-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T210000Z
+DURATION:PT2H
+SUMMARY:U13 FC Bay Area Surf at Woodside Soccer Club Crush
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31108-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U13 FC Bay Area Surf at The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31296-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 FC Bay Area Surf vs Modesto Ajax United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31494-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U13 FC Bay Area Surf at Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31660-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U13 FC Bay Area Surf vs The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31878-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 FC Bay Area Surf at Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32222-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 FC Bay Area Surf vs Woodside Soccer Club Crush
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32644-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 FC Bay Area Surf at ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33087-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 FC Bay Area Surf vs Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33506-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 FC Bay Area Surf at Modesto Ajax United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33913-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 FC Bay Area Surf vs San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34383-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 FC Bay Area Surf vs Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34664-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 FC Bay Area Surf at San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35080-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 FC Bay Area Surf vs De Anza Force
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35522-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 FC Bay Area Surf vs Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35936-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 FC Bay Area Surf at Ballistic United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26114-5728@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U13 FC Bay Area Surf vs Ballistic United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+END:VCALENDAR

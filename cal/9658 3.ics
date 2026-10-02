@@ -1,0 +1,308 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AC Grand Rapids U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26211-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T140000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids at FC Cincinnati (W 3–2)
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26456-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T170000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids vs SC Wave (W 4–2)
+LOCATION:MSA Fieldhouse #2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26623-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T180000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids at Michigan Jaguars (W 3–1)
+LOCATION:North Farmington High School – Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27104-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T150000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids vs Midwest United FC (W 2–0)
+LOCATION:MSA Fieldhouse #2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27513-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T173000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids at Club Ohio (W 5–2)
+LOCATION:Dublin Coffman High School - The Rock
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27757-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T170000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids at Sockers FC Chicago
+LOCATION:Bridgeview Sports Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27970-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T140000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids at Chicago FC United
+LOCATION:Loyola Academy Turf - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28298-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T190000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids vs FC Cincinnati
+LOCATION:MSA Fieldhouse #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29045-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T160000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29227-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T150000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids vs Hoosier Premier
+LOCATION:MSA Fieldhouse #2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29400-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T180000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids vs St. Louis City SC
+LOCATION:MSA Fieldhouse #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29830-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T181500Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids at Indy Eleven
+LOCATION:Grand Park Sports Campus - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30536-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U14 AC Grand Rapids vs Club Ohio
+LOCATION:MSA Fieldhouse #2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32336-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U14 AC Grand Rapids vs Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32565-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U14 AC Grand Rapids vs Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32762-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U14 AC Grand Rapids at Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33193-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U14 AC Grand Rapids at Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33424-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 AC Grand Rapids vs Indy Eleven
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33852-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 AC Grand Rapids vs Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34038-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U14 AC Grand Rapids vs Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34256-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U14 AC Grand Rapids vs Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35170-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 AC Grand Rapids at Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35858-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U14 AC Grand Rapids at Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36246-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270502
+SUMMARY:U14 AC Grand Rapids at Sporting City
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36328-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 AC Grand Rapids vs Bavarian United SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36840-9658@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U14 AC Grand Rapids at Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=ac-grand-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =ac-grand-rapids
+END:VEVENT
+END:VCALENDAR

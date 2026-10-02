@@ -1,0 +1,266 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SC Wave U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26043-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T180000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave vs Lou Fusz Athletic (W 3–0)
+LOCATION:Uihlein Soccer Park  - Southeast Sales Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26212-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T180000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave vs Hoosier Premier (W 5–2)
+LOCATION:Mindiola Sports Complex - Mindiola Turf East
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26455-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T190000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave at AC Grand Rapids (L 0–3)
+LOCATION:MSA Fieldhouse #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26624-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T170000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave at Midwest United FC (W 9–2)
+LOCATION:Midwest United FC Complex - North Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27748-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T140000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave at Chicago FC United
+LOCATION:Waukegan Sports Park - Grass Field #11
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29038-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave vs Michigan Wolves
+LOCATION:Uihlein Soccer Park  - Pat Jones
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29401-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave vs Bavarian United SC
+LOCATION:Mindiola Sports Complex - Mindiola Turf East
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32134-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T220000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave vs Club Ohio
+LOCATION:Mindiola Sports Complex - Mindiola Turf East
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30061-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T180000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave at Michigan Jaguars
+LOCATION:North Farmington High School – Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30290-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T180000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave at Vardar Soccer Club
+LOCATION:Oakland University - South Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32570-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T200000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave at Sockers FC Chicago
+LOCATION:Bridgeview Sports Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33013-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 SC Wave at Sporting City
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33845-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 SC Wave at Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34041-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270321T140000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34243-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T160000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave at Bavarian United SC
+LOCATION:Bavarian United Soccer Club - Ramon
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35011-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 SC Wave vs FC Cincinnati
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35175-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 SC Wave vs Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35382-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 SC Wave at Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36050-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T180000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave vs St. Louis Scott Gallagher
+LOCATION:Mindiola Sports Complex - Mindiola Turf East
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29231-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270425T140000Z
+DURATION:PT2H
+SUMMARY:U13 SC Wave vs Sporting City
+LOCATION:Carroll University - Haertel Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36672-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U13 SC Wave vs Chicago FC United
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36820-6214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U13 SC Wave vs Indy Eleven
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=sc-wave
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =sc-wave
+END:VEVENT
+END:VCALENDAR

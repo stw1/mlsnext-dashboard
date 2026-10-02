@@ -1,0 +1,332 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TSF Academy U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26089-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T140000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy at FC Westchester (D 2–2)
+LOCATION:SUNY Purchase - Baseball Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27825-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T160000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy vs Connecticut United FC
+LOCATION:DePaul Catholic High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28612-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261014T234500Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy at Red Bull New York
+LOCATION:Red Bull Performance Center - Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28359-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T220000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy vs Intercontinental Football Academy of New England
+LOCATION:DePaul Catholic High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28863-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T160000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy vs Beachside of Connecticut
+LOCATION:DePaul Catholic High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29276-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T213000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy at FA Euro New York
+LOCATION:New Utrecht High School - Athletic Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29897-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy vs New York SC
+LOCATION:DePaul Catholic High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30121-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T230000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy vs Downtown United Soccer Club
+LOCATION:DePaul Catholic High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30381-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T210000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy vs The Island FC East
+LOCATION:DePaul Catholic High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30841-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T150000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy at New England Revolution
+LOCATION:Revolution Training Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32424-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 TSF Academy at New York SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32840-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 TSF Academy vs Ironbound Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33055-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 TSF Academy at Blau Weiss Gottschee
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33264-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U13 TSF Academy at The Island FC West
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33477-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 TSF Academy vs Seacoast United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33688-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U13 TSF Academy vs NEFC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33885-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 TSF Academy vs Cedar Stars Academy Bergen
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34349-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 TSF Academy vs Valeo Futbol Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34612-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T224500Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy at Bayside FC
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34830-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U13 TSF Academy at FC Greater Boston Bolts
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35242-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T170000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy at Ironbound Soccer Club
+LOCATION:Ironbound Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35506-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 TSF Academy vs Red Bull New York
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35735-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 TSF Academy vs New York City FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36110-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 TSF Academy at Connecticut United FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36442-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T150000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy at Metropolitan Oval
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36893-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U13 TSF Academy vs FC Westchester
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=ts
+ f-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27570-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T140000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy at Beachside of Connecticut
+LOCATION:Mater Salvatoris School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26721-6102@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U13 TSF Academy vs Cedar Stars Academy Bergen
+LOCATION:DePaul Catholic High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=tsf-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ sf-academy
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,227 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SGA U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26447-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T153000Z
+DURATION:PT2H
+SUMMARY:U13 SGA vs Dallas Hornets (W 3–2)
+LOCATION:Noack Sports Complex Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26602-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U13 SGA at Austin FC (L 4–6)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27306-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U13 SGA at GFI Academy (W 4–2)
+LOCATION:Lenze Rd - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28273-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U13 SGA at Dallas Hornets
+LOCATION:Dallas College Richland Campus Soccer Fields - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28495-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T200000Z
+DURATION:PT2H
+SUMMARY:U13 SGA at FC Dallas
+LOCATION:Toyota Soccer Center - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28770-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T150000Z
+DURATION:PT2H
+SUMMARY:U13 SGA at Real Salt Lake
+LOCATION:Zions Bank Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29214-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T153000Z
+DURATION:PT2H
+SUMMARY:U13 SGA vs GFI Academy
+LOCATION:Noack Sports Complex Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30502-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U13 SGA at AC River
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30770-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T150000Z
+DURATION:PT2H
+SUMMARY:U13 SGA vs ALBION SC Colorado
+LOCATION:Noack Sports Complex Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31277-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 SGA at Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31652-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U13 SGA vs Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31828-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 SGA vs Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32110-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 SGA at Capital City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32975-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 SGA at ALBION SC Colorado
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33420-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 SGA vs FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33833-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 SGA vs Tulsa Greenwood SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34549-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 SGA at Tulsa Greenwood SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35377-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 SGA vs Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35845-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 SGA vs AC River
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36018-10481@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 SGA vs Capital City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=sg
+ a
+END:VEVENT
+END:VCALENDAR

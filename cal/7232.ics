@@ -1,0 +1,198 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Seattle Sounders FC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-27077-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T003000Z
+DURATION:PT2H
+SUMMARY:U16 Seattle Sounders FC at Portland Timbers (W 4–1)
+LOCATION:Portland Timbers Training Facility - Training Turf
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27409-flex-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T220000Z
+DURATION:PT2H
+SUMMARY:U16 Seattle Sounders FC vs Woodside Soccer Club Crush (Flex) (L 1
+ –2)
+LOCATION:Providence Swedish Performance Center & Clubhouse - Field 4
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=seatt
+ le-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27941-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T210000Z
+DURATION:PT2H
+SUMMARY:U16 Seattle Sounders FC vs Los Angeles Football Club
+LOCATION:Providence Swedish Performance Center & Clubhouse - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28483-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T203000Z
+DURATION:PT2H
+SUMMARY:U16 Seattle Sounders FC at San Jose Earthquakes
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28909-flex-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T220000Z
+DURATION:PT2H
+SUMMARY:U16 Seattle Sounders FC vs Silicon Valley Soccer Academy (Flex)
+LOCATION:Providence Swedish Performance Center & Clubhouse - Field 4
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=seatt
+ le-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30760-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T214500Z
+DURATION:PT2H
+SUMMARY:U16 Seattle Sounders FC at LA Galaxy
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-pathway&show=
+ seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30996-flex-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U16 Seattle Sounders FC vs FC Bay Area Surf (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31105-flex-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U16 Seattle Sounders FC vs Ballistic United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31308-flex-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U16 Seattle Sounders FC at San Jose Earthquakes (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31554-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U16 Seattle Sounders FC at Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31686-flex-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U16 Seattle Sounders FC vs De Anza Force (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31875-flex-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U16 Seattle Sounders FC vs San Francisco Glens SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32314-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 Seattle Sounders FC vs LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33110-flex-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Seattle Sounders FC vs Portland Timbers (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-p
+ ro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33597-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 Seattle Sounders FC vs San Jose Earthquakes
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35149-7232@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U16 Seattle Sounders FC vs Portland Timbers
+DESCRIPTION:MLS NEXT Homegrown · U16 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=w
+ est-pro-player-pathway&show=seattle-sounders-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=west-pro-player-
+ pathway&show=seattle-sounders-fc
+END:VEVENT
+END:VCALENDAR

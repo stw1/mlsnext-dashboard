@@ -1,0 +1,230 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tulsa Greenwood SC U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26871-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T183000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC at Colorado Rapids (Flex) (W 3–0)
+LOCATION:Dicks Sporting Goods Park - Field #21
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27090-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T170000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC at ALBION SC Colorado (Flex) (L 2–3)
+LOCATION:Twin Peaks Classical Academy - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34017-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T170000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC at Capital City SC
+LOCATION:1849 Park - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28284-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T170000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC at GFI Academy
+LOCATION:Lenze Rd - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28503-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T140000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC at Houston Rangers (Flex)
+LOCATION:Paul D Rushing Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28777-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T170000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC vs AC River (Flex)
+LOCATION:Ascension St. John Sportsplex - Field 9
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29010-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T180000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC vs ALBION SC Colorado
+LOCATION:Ascension St. John Sportsplex - Field 9
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29611-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T211500Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC at FC Dallas (Flex)
+LOCATION:Toyota Soccer Center - Field 8
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30036-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T203000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC at Austin FC (Flex)
+LOCATION:St. David’s Performance Center – Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30778-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T150000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC vs Real Salt Lake (Flex)
+LOCATION:Ascension St. John Sportsplex - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31656-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U15 Tulsa Greenwood SC vs Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tuls
+ a-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32993-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U15 Tulsa Greenwood SC vs Capital City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tulsa-gre
+ enwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33615-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U15 Tulsa Greenwood SC at Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tuls
+ a-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33835-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U15 Tulsa Greenwood SC at SGA (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tulsa-gre
+ enwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34239-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 Tulsa Greenwood SC vs GFI Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tulsa-gre
+ enwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34551-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U15 Tulsa Greenwood SC vs SGA
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tuls
+ a-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35853-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U15 Tulsa Greenwood SC vs Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tuls
+ a-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36304-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270501T190000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC at AC River
+LOCATION:Soccer Central - Field #3
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27736-flex-8104@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U15 Tulsa Greenwood SC at Dallas Hornets (Flex)
+LOCATION:Dallas College Richland Campus Soccer Fields - Field #2
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=tulsa-greenwood-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=tu
+ lsa-greenwood-sc
+END:VEVENT
+END:VCALENDAR

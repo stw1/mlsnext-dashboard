@@ -1,0 +1,288 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Downtown United Soccer Club U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26273-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T150000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club vs The Island FC West (W 2–1)
+LOCATION:Pier 40 CourtYard - West Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26712-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T170000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club at Metropolitan Oval (L 1–7)
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26940-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club at FC Westchester (L 0–4)
+LOCATION:SUNY Purchase - Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27185-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T140000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club at Red Bull New York (L 1–9)
+LOCATION:Red Bull Performance Center - Turf
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27803-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T120000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club vs Beachside of Connecticut
+LOCATION:Pier 40 CourtYard - West Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28367-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T190000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club at Valeo Futbol Club
+LOCATION:Valeo Sport Plex - Main Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28592-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T130000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club at FC Greater Boston Bolts
+LOCATION:Minuteman High School - Football Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29078-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T140000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club vs Seacoast United
+LOCATION:Queens College - Queens College
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29297-flex-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T230000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club at Blau Weiss Gottschee (Flex)
+LOCATION:Aviator - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29903-flex-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T150000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club vs Metropolitan Oval (Flex)
+LOCATION:Pier 40 CourtYard - East Field
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30123-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club at TSF Academy
+LOCATION:William Paterson University
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30837-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T180000Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club at FA Euro New York
+LOCATION:College of Staten Island - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32168-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U15 Downtown United Soccer Club vs NEFC
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=do
+ wntown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32854-flex-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U15 Downtown United Soccer Club at The Island FC East (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=downtow
+ n-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33071-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U15 Downtown United Soccer Club at Ironbound Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=do
+ wntown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33704-flex-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U15 Downtown United Soccer Club vs FA Euro New York (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=downtow
+ n-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34089-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U15 Downtown United Soccer Club vs Blau Weiss Gottschee
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=do
+ wntown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34361-flex-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 Downtown United Soccer Club at The Island FC West (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=downtow
+ n-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34826-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U15 Downtown United Soccer Club vs The Island FC East
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=do
+ wntown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35053-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U15 Downtown United Soccer Club vs Intercontinental Football Academ
+ y of New England
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=do
+ wntown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35900-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T164500Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club at Bayside FC
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36743-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U15 Downtown United Soccer Club vs Cedar Stars Academy Bergen
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=do
+ wntown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36871-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U15 Downtown United Soccer Club vs New York SC
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=do
+ wntown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27364-9720@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T174500Z
+DURATION:PT2H
+SUMMARY:U15 Downtown United Soccer Club vs Connecticut United FC
+LOCATION:Pier 40 CourtYard - East Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+END:VCALENDAR

@@ -77,7 +77,8 @@ table tbody tr.me td,table tbody tr.me:hover td{background:#fef9c3}table tbody t
 .chip.nw{box-shadow:0 0 0 2px #3b82f6}
 /* team page */
 .tl{color:inherit;text-decoration:none}.tl:hover{text-decoration:underline}
-.tbtns{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}.tbtns .btn{margin:0;text-decoration:none;display:inline-flex;align-items:center}.tbtns .btn.on{background:#fef9c3;border-color:#eab308;color:#713f12}
+.tbtns{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.calbox{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:-8px 0 18px;background:var(--card)}.my .calbox{margin:10px 0 0}.calbox .cb-h{font-weight:600;font-size:14px}.calbox .cb-s{color:var(--mut);font-size:12.5px;margin:3px 0 0}.calbox .cb-b{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}.calbox .btn{margin:0;text-decoration:none;display:inline-flex;align-items:center}.calbox[hidden]{display:none}.tbtns .btn{margin:0;text-decoration:none;display:inline-flex;align-items:center}.tbtns .btn.on{background:#fef9c3;border-color:#eab308;color:#713f12}
 .form span.fx,.chip.fx{box-shadow:inset 0 0 0 2px #7c3aed}
 .tstats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 18px}.tstats div{font-size:12px;color:var(--mut)}.tstats b{display:block;font-size:16px;color:var(--ink);font-weight:700}
 #tSched td,#tOpp td{padding:9px 6px;white-space:normal;text-align:left;vertical-align:top}#tSched .dt{white-space:nowrap;color:var(--mut);font-size:12.5px;width:96px}
@@ -180,7 +181,7 @@ table.st tbody tr.cut1 td{border-bottom:2px solid #0f766e}table.st tbody tr.cut2
 @media(prefers-color-scheme:dark){.ccard.me{background:#3a3210;border-color:#5c4a12}}.find-r a.club{background:#f8fafc}
 @media(prefers-color-scheme:dark){.agetag{background:#312e81;color:#c7d2fe}.find-r a.club{background:#172034}}
 /* about */
-.about .cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.about h3{margin:6px 0 4px;font-size:14px}.about p{margin:0;font-size:13px;color:var(--ink2)}
+.about .cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.about h3{margin:6px 0 4px;font-size:14px}.about p{margin:0;font-size:13px;color:var(--ink2)}
 footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 @media(max-width:1000px){
  .my-g{grid-template-columns:minmax(0,1fr)}
@@ -308,6 +309,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="cols">
 <div><h3>Team ratings</h3><p>Each team gets an <b>attack</b> and a <b>defense</b> rating, fit to every completed game with a Poisson goals model, the standard approach for predicting soccer scores. Expected goals for the home side = league average × home edge × home attack × away defense weakness, and likewise for the away side. Home teams currently get <span id="hadv"></span> more goals in the model. Each team starts the season from last season's rating (the average of the same players a year younger and the club's same age group, at three-quarters strength), and its games this season gradually take over. In a backtest over all of 2025–26 this made early-season predictions noticeably better.</p></div>
 <div><h3>From ratings to odds</h3><p>From the two expected-goal numbers the model works out the chance of every scoreline (0–0, 1–0, 2–1, …), which gives the win, draw and loss chances and the most likely score. A small Dixon-Coles adjustment makes 0–0 and 1–1 a bit more likely (and 1–0 and 0–1 a bit less), because plain Poisson models under-predict draws; its strength is estimated from the results so far (currently <span id="rho"></span>). The pick is the more likely winner, or "too close to call" when the two are within 5 points; the margin is the expected goal difference, rounded. The projected finish plays out every remaining game 10,000 times using those chances.</p></div>
+<div><h3>The standings</h3><p>Tables follow MLS NEXT's 2026–27 rules: 3 points for a win, 1 for a tie, ranked by points per game, then head-to-head (two-team ties only), wins, goal difference, goals scored, and away and home results. After every update the U15–U19 tables are checked against MLS's official standings. MLS doesn't publish official U13/U14 tables, so those are worked out from the results with the same rules.</p></div>
 <div><h3>What it leaves out</h3><p>For U15–U19 the ratings also use MLS NEXT Flex games (the same teams, extra games inside the conference); they never count in the standings. Not included: roster changes, injuries, travel, weather, out-of-conference events, and the fact that youth results are noisy. Treat these numbers as a guide, not a guarantee.</p></div>
 </div></div>
 </main>
@@ -679,6 +681,20 @@ function downloadIcs(c){const tx=t=>String(t).replace(/[\\,;]/g,m=>"\\"+m),stamp
  const ics=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//mlsnext-dashboard//EN","CALSCALE:GREGORIAN",`X-WR-CALNAME:${tx(`${short(c)} ${B.age}`)}`,...ev,"END:VCALENDAR"].join("\r\n")+"\r\n";
  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([ics],{type:"text/calendar"}));a.download=`${slugT(nm(c))}-${B.age.toLowerCase()}.ics`;
  document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000)}
+// Calendar button: this season, a panel to subscribe to the team's calendar file (cal/<squad id>.ics, rebuilt by every
+// refresh, so new kickoff times and results reach the phone), or download the remaining games once. Past seasons: download.
+function wireCal(id,c,left){const btn=$(id);if(!btn)return;
+ if(PAST){btn.onclick=()=>downloadIcs(c);return}
+ const http=location.origin+location.pathname.replace(/[^/]*$/,"")+`cal/${c}.ics`,webcal=http.replace(/^https?:/,"webcal:");
+ const box=document.createElement("div");box.className="calbox";box.hidden=true;
+ box.innerHTML=`<div class="cb-h">Subscribe to ${esc(short(c))} ${esc(B.age)}'s calendar</div><div class="cb-s">Every league and Flex game, with results once played. It updates by itself when kickoff times change.</div>
+  <div class="cb-b"><a class="btn" href="${webcal}">iPhone, iPad or Mac</a><a class="btn" href="https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}" target="_blank" rel="noopener">Google Calendar</a><button class="btn" type="button" data-copy>Copy link</button></div>
+  <div class="cb-s">Outlook and others: “Add calendar from internet” and paste the link. Google can take up to a day to pick up changes.${left?` Or <a href="#" data-dl>download the ${left} remaining game${left>1?"s":""} once</a> (won't update).`:""}</div>`;
+ btn.closest(".tbtns,.my-b").after(box);
+ btn.onclick=()=>{box.hidden=!box.hidden;btn.setAttribute("aria-expanded",String(!box.hidden))};
+ box.querySelector("[data-copy]").onclick=e=>{const b=e.currentTarget;const done=()=>{b.textContent="Copied ✓";setTimeout(()=>b.textContent="Copy link",2000)};
+  if(navigator.clipboard)navigator.clipboard.writeText(http).then(done,()=>prompt("Calendar link:",http));else prompt("Calendar link:",http)};
+ const dl=box.querySelector("[data-dl]");if(dl)dl.onclick=e=>{e.preventDefault();downloadIcs(c)}}
 // the same players' finishes in earlier seasons (this season's U14 = last season's U13), linked to those pages
 function histLines(c){const H=(DATA.hist||{})[c]||[];if(!H.length)return"";
  return`<div class="hist"><div class="lab">Same players, earlier seasons</div>`+H.map(([se,a,cf,rk,n,w,d,l,gf,ga])=>
@@ -699,8 +715,8 @@ function drawMy(){const el=$("myCard");if(!myTeam){el.style.display="none";el.in
   (fresh.length?`<div class="newl"><span class="new" style="margin:0 6px 0 0">New</span>${fresh.join(" · ")}</div>`:"")+`</div>`+
   `<div><div class="lab">Next game</div>${next}</div>`+
   `<div class="out"><div class="lab">Outlook</div><div><span>Projected points</span><b>${t.proj.toFixed(0)}</b></div>${CUT?`<div><span title="Estimate based on last season">MLS NEXT Cup (est.)</span>${pbar(t.pc)}</div><div><span title="Estimate based on last season">Championship (est.)</span>${pbar(t.p4)}</div>`:`<div><span title="Not an official playoff line">Top 4</span>${pbar(t.p4)}</div>`}<div><span>Finish 1st</span>${pbar(t.p1)}</div><div><span>Power ranking</span><b>${ordn(pr)} of ${N}</b></div></div></div>`+
-  histLines(c)+`<div class="my-b">${left?`<button class="btn" id="myCal" type="button">Add ${left} game${left>1?"s":""} to calendar</button>`:""}<a class="btn" href="${showUrl(B,c)}" style="text-decoration:none">Team details →</a><button class="btn" id="myShare" type="button">Share link</button><a class="btn" href="?club=${slugT(nm(c))}" style="text-decoration:none">All ${esc(short(c))} teams →</a></div>`;
- if(left)$("myCal").onclick=()=>downloadIcs(c);$("myShare").onclick=()=>$("share").click();}
+  histLines(c)+`<div class="my-b">${!PAST||left?`<button class="btn" id="myCal" type="button" aria-expanded="false">Add to calendar</button>`:""}<a class="btn" href="${showUrl(B,c)}" style="text-decoration:none">Team details →</a><button class="btn" id="myShare" type="button">Share link</button><a class="btn" href="?club=${slugT(nm(c))}" style="text-decoration:none">All ${esc(short(c))} teams →</a></div>`;
+ if(!PAST||left)wireCal("myCal",c,left);$("myShare").onclick=()=>$("share").click();}
 // Model and table for any bracket, computed once and reused (national and club views)
 const BM=new Map();
 function bracketInfo(b){if(BM.has(b))return BM.get(b);
@@ -749,7 +765,7 @@ function drawTeam(c){const b=B,t=srows.find(r=>r.c===c),pr=power.findIndex(p=>p.
   (PAST||!t?"":k("Projected finish",`${t.proj.toFixed(0)} pts`,CUT?`Cup (est.) ${pct(t.pc)} · 1st ${pct(t.p1)}`:`Top 4 ${pct(t.p4)} · 1st ${pct(t.p1)}`));
  const following=myTeam===c;
  const btns=`<div class="tbtns"><button class="btn${following?" on":""}" id="tFollow" type="button">${following?"Following ✓":"Follow this team"}</button>`+
-  (fu.length?`<button class="btn" id="tCal" type="button">Add ${fu.length} game${fu.length>1?"s":""} to calendar</button>`:"")+
+  (!PAST||fu.length?`<button class="btn" id="tCal" type="button" aria-expanded="false">Add to calendar</button>`:"")+
   `<button class="btn" id="tShare" type="button">Share</button><a class="btn" href="${bracketUrl(b)}">${esc(b.age)} ${esc(baseConf(b.conf))} standings</a><a class="btn" href="?club=${slugT(nm(c))}">All ${esc(short(c))} teams</a></div>`;
  // form and stats
  const form=pl.slice(-10).map(g=>{const x=side(g),R=x.res.toUpperCase();return`<span class="${R}${g.flex?" fx":""}" title="${{w:"Won",d:"Drew",l:"Lost"}[x.res]} ${gline(g)} · ${fmtDay(g.dt)}${g.flex?" · Flex":""}">${R}</span>`}).join("");
@@ -782,7 +798,7 @@ function drawTeam(c){const b=B,t=srows.find(r=>r.c===c),pr=power.findIndex(p=>p.
  const fgCard=fgr?`<div class="card" id="s-tflex"><h2>Flex group</h2><div class="sub">${esc(nm(c))} is ${fRow&&fRow.mp?`${ordn(fRow.pos)} of ${fgr.rows.length} in`:"in"} the official ${esc(fgr.name)} MLS NEXT Flex group table (<a href="#s-flexhelp">what's Flex?</a>).</div>${flexTable(fgr,c)}</div>`:"";
  $("s-team").innerHTML=`<div class="kpis">${kp}</div>${btns}<div class="grid2"><div>${stats}${fgCard}${histCard}</div>${sched}</div>${oppT}`;
  $("tFollow").onclick=()=>{myTeam=myTeam===c?"":c;try{localStorage.setItem(MYKEY,myTeam)}catch(e){}drawTeam(c)};
- if(fu.length)$("tCal").onclick=()=>downloadIcs(c);$("tShare").onclick=()=>$("share").click();
+ if(!PAST||fu.length)wireCal("tCal",c,fu.length);$("tShare").onclick=()=>$("share").click();
  $("meta").innerHTML=`<span>${PAST?"Final results":`Updated ${fmtDay(SNAP)}`}</span><span>${esc(b.age)} ${esc(b.conf)} Conference</span>${fu[0]?`<span>Next game ${fmtDay(fu[0].dt)}</span>`:""}`}
 
 // Club view: every team of one club, across age groups
@@ -888,4 +904,13 @@ else if(NATIONAL){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s
  $("natConf").onchange=drawNational;drawNational()}
 else drawAll();
 window.__debug={predict,fit,future,SIMS,mu,hadv,att,def,rho,power,tbl,first,simPts,bt};
+// "Report a problem" link in the footer: DATA.feedback is a form URL or an email address (FEEDBACK in refresh.py)
+if(DATA.feedback){const f=DATA.feedback,href=/^https?:/.test(f)?f:`mailto:${f}?subject=${encodeURIComponent("MLS NEXT dashboard")}&body=${encodeURIComponent("Page: "+location.href+"\n\n")}`;
+ $("foot").insertAdjacentHTML("beforeend",` <a href="${esc(href)}" target="_blank" rel="noopener">Report a problem or suggest an idea</a>`)}
+// Visit counter (GoatCounter: no cookies, nothing personal): one count request per page view, no script loaded.
+// Only when DATA.counter (COUNTER in refresh.py) is set, and never from a local preview.
+if(DATA.counter&&!/^(localhost|127\.|\[::1\])/.test(location.hostname)){try{
+ const q=new URLSearchParams(location.search),keep=new URLSearchParams();for(const k of["age","conf","club","show"])if(q.get(k))keep.set(k,q.get(k));
+ const p=location.pathname.replace(/index\.html$/,"")+(String(keep)?"?"+keep:""),u=new URLSearchParams({p,t:document.title,r:document.referrer,s:`${screen.width},${screen.height},${devicePixelRatio||1}`,rnd:Math.random().toString(36).slice(2)});
+ new Image().src=`https://${DATA.counter}.goatcounter.com/count?${u}`}catch(e){}}
 </script></body></html>

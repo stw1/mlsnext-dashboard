@@ -1,0 +1,298 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Real Futbol Academy U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26247-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T180000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy at PA Classics (L 0–2)
+LOCATION:Classics Soccer Park - Grass 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26695-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T161500Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy at Philadelphia Union (L 1–2)
+LOCATION:WSFS Banks SportsPlex – Indoor
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27197-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T150000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy vs Keystone FC (W 6–1)
+LOCATION:Bob Bende Soccer Complex - Capelli Turf (Near Road)
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27547-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T130000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy at The Football Academy (L 2–3)
+LOCATION:Florham Park Sports Dome - Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28104-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T133000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy vs Achilles FC
+LOCATION:Bob Bende Soccer Complex - Capelli Turf (Near Road)
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28550-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T220000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy vs Baltimore Armour
+LOCATION:Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28643-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T150000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy vs Bethesda SC
+LOCATION:Bob Bende Soccer Complex - Capelli Turf (Near Road)
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29249-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T220000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy vs Cedar Stars Academy Monmouth
+LOCATION:Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29512-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T143000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy vs Northern Virginia Alliance
+LOCATION:Bob Bende Soccer Complex - Capelli Turf (Near Road)
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30093-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy at Keystone FC
+LOCATION:Bermudian Springs Middle School
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30414-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T210000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy vs Penn Rising XI
+LOCATION:Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32052-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270214T170000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy at Players Development Academy
+LOCATION:PDA Soccer Complex - Field 3 Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32442-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 Real Futbol Academy vs PA Classics
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32703-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 Real Futbol Academy at FC DELCO
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33048-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 Real Futbol Academy at Springfield SYC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33293-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U13 Real Futbol Academy at Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33876-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U13 Real Futbol Academy vs The Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34160-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U13 Real Futbol Academy at Beadling SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34425-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 Real Futbol Academy vs FC DELCO
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34814-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T130000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy at Penn Rising XI
+LOCATION:J Birney Crum - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35121-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 Real Futbol Academy vs Philadelphia Union
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35454-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T140000Z
+DURATION:PT2H
+SUMMARY:U13 Real Futbol Academy at Sporting Athletic Club
+LOCATION:Chase Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35737-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 Real Futbol Academy at Coppermine SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36148-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 Real Futbol Academy at Cedar Stars Academy Monmouth
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36525-5661@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 Real Futbol Academy vs Players Development Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=real-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=real-futbol-academy
+END:VEVENT
+END:VCALENDAR

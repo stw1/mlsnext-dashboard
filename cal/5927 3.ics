@@ -1,0 +1,251 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Houston Rangers U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26616-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T180000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers at Real Salt Lake (Flex) (W 2–1)
+LOCATION:Zions Bank Training Center - Field 2
+DESCRIPTION:MLS NEXT Flex · U17 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26880-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T170000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers vs Capital City SC (Flex) (L 1–2)
+LOCATION:Paul D Rushing Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27304-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T190000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers at AC River (W 7–1)
+LOCATION:Soccer Central - Field #3
+DESCRIPTION:MLS NEXT Homegrown · U17 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27722-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T180000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers at ALBION SC Colorado (Flex)
+LOCATION:East Boulder Community Center - East Turf
+DESCRIPTION:MLS NEXT Flex · U17 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27958-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T183000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers at Colorado Rapids (Flex)
+LOCATION:Dicks Sporting Goods Park - Field #19
+DESCRIPTION:MLS NEXT Flex · U17 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28505-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T160000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers vs Tulsa Greenwood SC
+LOCATION:Paul D Rushing Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29006-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T173000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers at Houston Dynamo FC (Flex)
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29212-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers at Dallas Hornets (Flex)
+LOCATION:Dallas College Richland Campus Soccer Fields - Field #3
+DESCRIPTION:MLS NEXT Flex · U17 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29620-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T200000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers vs AC River (Flex)
+LOCATION:Paul D Rushing Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30047-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T190000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers vs FC Dallas (Flex)
+LOCATION:Paul D Rushing Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30521-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U17 Houston Rangers at GFI Academy (Flex)
+LOCATION:Lenze Rd - Field 2
+DESCRIPTION:MLS NEXT Flex · U17 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U17&conf=frontier&show=houston-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31281-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U17 Houston Rangers vs SGA (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=houston-r
+ angers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31658-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U17 Houston Rangers at Tulsa Greenwood SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=houston-r
+ angers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31832-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U17 Houston Rangers at SGA
+DESCRIPTION:MLS NEXT Homegrown · U17 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=hous
+ ton-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32542-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U17 Houston Rangers at FC Dallas (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=houston-r
+ angers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32989-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Houston Rangers vs Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U17 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=hous
+ ton-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33413-flex-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 Houston Rangers at Austin FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=houston-r
+ angers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33830-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U17 Houston Rangers vs ALBION SC Colorado
+DESCRIPTION:MLS NEXT Homegrown · U17 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=hous
+ ton-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34235-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U17 Houston Rangers at Capital City SC
+DESCRIPTION:MLS NEXT Homegrown · U17 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=hous
+ ton-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34548-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 Houston Rangers at FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U17 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=hous
+ ton-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35843-5927@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 Houston Rangers vs GFI Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=hous
+ ton-rangers
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=frontier&show=ho
+ uston-rangers
+END:VEVENT
+END:VCALENDAR

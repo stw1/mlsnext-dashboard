@@ -1,0 +1,290 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Woodside Soccer Club Crush U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26126-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T020000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush at Modesto Ajax United (D 4–4)
+LOCATION:Mary Grogan Community Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26545-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T200000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs San Francisco Glens SC (D 3–3)
+LOCATION:Sequoia High School - Terremere Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27003-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T220000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush at The Town FC Academy (W 2–1)
+LOCATION:Clayton Valley High School - Lower Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27873-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T200000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs Sacramento United
+LOCATION:Sequoia High School - Terremere Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28407-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs Atletico Santa Rosa
+LOCATION:Sequoia High School - Terremere Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28918-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T200000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs Modesto Ajax United
+LOCATION:Sequoia High School - Terremere Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29704-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T210000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush at Ballistic United
+LOCATION:Stanford Medical Sports Complex - East
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30179-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T210000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs FC Bay Area Surf
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30639-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T030000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush at ALBION SC Merced
+LOCATION:El Capitan High School
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31117-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270116T210000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs Silicon Valley Soccer Academy
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31302-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 Woodside Soccer Club Crush at Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=wo
+ odside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31482-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U13 Woodside Soccer Club Crush at De Anza Force
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=wo
+ odside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31692-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T210000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs Sacramento Republic FC
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31889-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T210000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs ALBION SC Merced
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32222-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 Woodside Soccer Club Crush at FC Bay Area Surf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=wo
+ odside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32650-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 Woodside Soccer Club Crush at Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=wo
+ odside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33125-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T210000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs Ballistic United
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33512-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 Woodside Soccer Club Crush at Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=wo
+ odside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33931-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T200000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs Lamorinda Soccer Club
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34407-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T200000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs De Anza Force
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34650-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T020000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush at Lamorinda Soccer Club
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35106-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T200000Z
+DURATION:PT2H
+SUMMARY:U13 Woodside Soccer Club Crush vs The Town FC Academy
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=woodside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35534-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 Woodside Soccer Club Crush at San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=wo
+ odside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36497-5907@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 Woodside Soccer Club Crush at Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=wo
+ odside-soccer-club-crush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=w
+ oodside-soccer-club-crush
+END:VEVENT
+END:VCALENDAR

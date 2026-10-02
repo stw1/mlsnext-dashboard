@@ -1,0 +1,311 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hoover-Vestavia Soccer U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26918-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T190000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs Southern Soccer Academy (Flex) (L 0
+ –7)
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27633-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Carolina Core FC (Flex) (L 0–5)
+LOCATION:Phillips Park Soccer Complex Field #1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27905-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T130000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Triangle United Soccer Association (F
+ lex) (L 1–6)
+LOCATION:Soccer.com - #3
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28936-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T210000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Southern Soccer Academy
+LOCATION:Marathon Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29130-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T140000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Charlotte FC (Flex)
+LOCATION:Atrium Health Performance Park – Grass
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29499-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs Charlotte Independence Soccer Club (F
+ lex)
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26171-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T160000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Nashville SC (Flex)
+LOCATION:The Gold Mine - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30697-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T140000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Inter Atlanta FC (Flex)
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31855-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T180000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs AFC Lightning (Flex)
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32385-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T180000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Charlotte Independence Soccer Club
+LOCATION:Richard Barry Memorial Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32693-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T180000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Queen City Mutiny FC (Flex)
+LOCATION:Elon Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32805-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T180000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs Triangle United Soccer Association
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33244-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T180000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs Lanier Soccer Association
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36395-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T180000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs Carolina Core FC
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33861-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 Hoover-Vestavia Soccer at Atlanta United (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=hoover-
+ vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34154-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U19 Hoover-Vestavia Soccer vs KSA (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=hoover-
+ vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35038-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T170000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs Inter Atlanta FC
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35206-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T140000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Nashville United Soccer Academy (NUSA
+  Next)
+LOCATION:Siegal High School - 3300 siegal rd Murfreesboro TN 37129
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28037-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T170000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs Wake FC (Flex)
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35978-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U19 Hoover-Vestavia Soccer at KSA
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=ho
+ over-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36141-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T180000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs Queen City Mutiny FC
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36508-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T190000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at AFC Lightning
+LOCATION:McCurry Park South - Field 24
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36910-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T190000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Wake FC
+LOCATION:Ting Park - Ting Park 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28418-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T170000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer vs Nashville United Soccer Academy (NUSA
+  Next) (Flex)
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27447-flex-5875@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T210000Z
+DURATION:PT2H
+SUMMARY:U19 Hoover-Vestavia Soccer at Lanier Soccer Association (Flex)
+LOCATION:ALLEN CREEK SOCCER COMPLEX - FIELD 1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southeast&show=hoover-vestavia-soccer
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast&show=h
+ oover-vestavia-soccer
+END:VEVENT
+END:VCALENDAR

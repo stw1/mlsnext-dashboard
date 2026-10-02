@@ -1,0 +1,367 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Los Angeles Bulls Soccer Club U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26363-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T193000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Ventura County Fusion (Flex) (
+ W 8–0)
+LOCATION:Gol Soccer Complex - West Field
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26808-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T160000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club at Strikers FC (Flex) (L 1–4)
+LOCATION:Great Park - Field 11
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27039-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T194500Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club at City SC Southwest (W 2–0)
+LOCATION:Birdsall Sports Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27470-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T190000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs SC Del Sol (W 4–0)
+LOCATION:Gol Soccer Complex - West Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27650-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T190000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Barca Residency Academy (D 2
+ –2)
+LOCATION:Gol Soccer Complex - West Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28158-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T160000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club at Los Angeles Football Club (Fle
+ x)
+LOCATION:Jesse Owens Stadium - Stadium
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28699-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T200000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club at FC Golden State Force (Flex)
+LOCATION:Silverlakes Sports Complex - Field 17
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28973-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T193000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Albion SC Los Angeles (Flex)
+LOCATION:Gol Soccer Complex - West Field
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29545-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T210000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club at Total Futbol Academy (Flex)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29771-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T200000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Albion SC Las Vegas
+LOCATION:Gol Soccer Complex - West Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29957-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T200000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Phoenix Rising FC
+LOCATION:Valley United Soccer Complex
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30447-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T203000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club at Ventura County Fusion
+LOCATION:Ventura College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30747-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T203000Z
+DURATION:PT2H
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Santa Barbara Soccer Club (Fle
+ x)
+LOCATION:Gol Soccer Complex - West Field
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=los-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31212-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:U15 Los Angeles Bulls Soccer Club at LA Galaxy (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=los-ang
+ eles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31404-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U15 Los Angeles Bulls Soccer Club at SoCal Reds FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=los-ang
+ eles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31582-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31748-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270207
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31949-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U15 Los Angeles Bulls Soccer Club at LA Surf Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=los-ang
+ eles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32290-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32915-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33319-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U15 Los Angeles Bulls Soccer Club at Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33568-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U15 Los Angeles Bulls Soccer Club at RSL Arizona
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34187-flex-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Los Angeles Sports Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=los-ang
+ eles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34465-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs LA Surf Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34718-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U15 Los Angeles Bulls Soccer Club at ALBION SC San Diego
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34903-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U15 Los Angeles Bulls Soccer Club at Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35315-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35600-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U15 Los Angeles Bulls Soccer Club at Santa Barbara Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36187-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U15 Los Angeles Bulls Soccer Club at Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36574-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U15 Los Angeles Bulls Soccer Club at Las Vegas Sports Academy
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31014-7192@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U15 Los Angeles Bulls Soccer Club vs Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=lo
+ s-angeles-bulls-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ os-angeles-bulls-soccer-club
+END:VEVENT
+END:VCALENDAR

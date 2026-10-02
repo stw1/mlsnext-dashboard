@@ -1,0 +1,355 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Charlotte FC U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26084-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T173000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC vs Lanier Soccer Association (Flex) (W 4–1)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26265-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T163000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC vs Chattanooga FC (Flex) (L 0–3)
+LOCATION:Atrium Health Performance Park – Grass
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26567-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T173000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC vs AFC Lightning (Flex) (D 2–2\, lost 5–6 on p
+ ens)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26751-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T173000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC vs Triangle United Soccer Association (Flex) (D 1
+ –1\, lost 0–3 on pens)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27625-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Nashville SC (Flex) (W 2–0)
+LOCATION:The Gold Mine - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35420-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T140000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Nashville United Soccer Academy (NUSA Next) (W 
+ 2–0)
+LOCATION:Oakland High School - Oakland High School Turf
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29269-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Triangle United Soccer Association (W 3–2)
+LOCATION:Cedar Falls Park - #3
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28017-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T163000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC vs Huntsville City FC (Flex)
+LOCATION:Atrium Health Performance Park – Grass
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28123-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T173000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC vs Charlotte Independence Soccer Club (Flex)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30807-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Chattanooga FC
+LOCATION:Chattanooga School for the Liberal Arts - Turf
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28439-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Southern Soccer Academy
+LOCATION:Franklin Gateway sports complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29055-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC vs Hoover-Vestavia Soccer (Flex)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29486-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at KSA
+LOCATION:Rock Springs Park - RSP 3
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27133-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T000000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Queen City Mutiny FC
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30350-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T190000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC vs KSA (Flex)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30571-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T190000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC vs Carolina Core FC (Flex)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28432-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Hoover-Vestavia Soccer
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30891-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T170000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Huntsville City FC
+LOCATION:Wick Family Field - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32006-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U15 Charlotte FC vs Nashville United Soccer Academy (NUSA Next) (Fl
+ ex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=charlot
+ te-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32065-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U15 Charlotte FC vs Inter Atlanta FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=charlot
+ te-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32720-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U15 Charlotte FC vs Queen City Mutiny FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=charlot
+ te-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32873-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U15 Charlotte FC vs Southern Soccer Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=charlot
+ te-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33288-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T140000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Inter Atlanta FC
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33716-flex-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U15 Charlotte FC vs Wake FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=charlot
+ te-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34794-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T170000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Wake FC
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34877-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Charlotte Independence Soccer Club
+LOCATION:Richard Barry Memorial Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36071-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T130000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at Lanier Soccer Association
+LOCATION:ALLEN CREEK SOCCER COMPLEX - FIELD 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36691-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U15 Charlotte FC at Carolina Core FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ch
+ arlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36921-2789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T140000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte FC at AFC Lightning
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-fc
+END:VEVENT
+END:VCALENDAR

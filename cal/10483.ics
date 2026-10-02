@@ -1,0 +1,325 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:One FC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26024-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T180000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at Sol SC Florida (W 4–2)
+LOCATION:The National Training Center - NTC 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26401-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T203000Z
+DURATION:PT2H
+SUMMARY:U14 One FC vs Jacksonville FC (W 4–0)
+LOCATION:North Bay Village Soccer Field #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27703-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T183000Z
+DURATION:PT2H
+SUMMARY:U14 One FC vs IMG
+LOCATION:North Bay Village Soccer Field #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34226-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T190000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at South Florida Football Academy
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31423-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T150000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at Inter Miami CF
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29174-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T190000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at Miami Futbol Academy Rush
+LOCATION:Kendall Soccer Park - 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30767-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T190000Z
+DURATION:PT2H
+SUMMARY:U14 One FC vs Orlando City SC
+LOCATION:Little Haiti Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29572-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at IdeaSport SA
+LOCATION:North East Regional Park - NERP #3
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30017-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T193000Z
+DURATION:PT2H
+SUMMARY:U14 One FC vs Sol SC Florida
+LOCATION:North Bay Village Soccer Field #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30477-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U14 One FC vs Seminole United
+LOCATION:Monsignor Edward Pace High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31055-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U14 One FC vs Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31248-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T220000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at West Florida Flames
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28254-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T160000Z
+DURATION:PT2H
+SUMMARY:U14 One FC vs Inter Miami CF
+LOCATION:Monsignor Edward Pace High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31619-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T193000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at Jacksonville FC
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32083-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U14 One FC vs Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32500-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U14 One FC at Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27277-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270228T220000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at Seminole United
+LOCATION:Seminole Soccer Complex - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32940-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T210000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at IMG
+LOCATION:IMG Academy Field - 15
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33383-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 One FC vs Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33791-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 One FC vs Orlando City Soccer School South
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34526-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U14 One FC at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34958-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U14 One FC vs South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35354-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T160000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at Orlando City Soccer School South
+LOCATION:NorthEast Regional Park - Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35821-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U14 One FC vs IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36214-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U14 One FC at Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36297-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T160000Z
+DURATION:PT2H
+SUMMARY:U14 One FC at Weston FC
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36643-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U14 One FC vs West Florida Flames
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26839-10483@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T204500Z
+DURATION:PT2H
+SUMMARY:U14 One FC vs Weston FC
+LOCATION:North Bay Village Soccer Field #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=one
+ -fc
+END:VEVENT
+END:VCALENDAR

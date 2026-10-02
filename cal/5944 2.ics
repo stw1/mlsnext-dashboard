@@ -1,0 +1,308 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:New York SC U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26099-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T220000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC vs Bayside FC (W 2–1)
+LOCATION:Manhattanville College (Turf) - Mville Turf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26298-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T190000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC vs The Island FC East (W 3–1)
+LOCATION:Ophir Field - Ophir turf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26741-flex-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T170000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC at Ironbound Soccer Club (Flex) (L 0–1)
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26961-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T224500Z
+DURATION:PT2H
+SUMMARY:U19 New York SC vs NEFC (D 2–2)
+LOCATION:Ophir Field - Ophir turf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28049-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T130000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC at Blau Weiss Gottschee
+LOCATION:Queens College - Queens College
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28377-flex-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T140000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC at Beachside of Connecticut (Flex)
+LOCATION:University of Bridgeport - Knights Field
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29106-flex-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T130000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC at CF Montreal (Flex)
+LOCATION:Centre Nutrilait - Centre Nutrilait Academy Turf
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29468-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T220000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC vs Beachside of Connecticut
+LOCATION:Ophir Field - Ophir turf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29902-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T150000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC at TSF Academy
+LOCATION:William Paterson University
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30380-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T181500Z
+DURATION:PT2H
+SUMMARY:U19 New York SC vs FC Greater Boston Bolts
+LOCATION:Ophir Field - Ophir turf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30635-flex-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T133000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC at New England Revolution (Flex)
+LOCATION:Revolution Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30858-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T140000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC at Valeo Futbol Club
+LOCATION:Falzone Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32441-flex-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U19 New York SC vs TSF Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=new-yor
+ k-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32631-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 New York SC vs Metropolitan Oval
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ne
+ w-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33086-flex-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U19 New York SC at Connecticut United FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=new-yor
+ k-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33715-flex-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U19 New York SC vs Cedar Stars Academy Bergen (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=new-yor
+ k-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34130-flex-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U19 New York SC vs FC Westchester (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=new-yor
+ k-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34348-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 New York SC at Seacoast United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ne
+ w-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34847-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U19 New York SC vs Ironbound Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ne
+ w-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35253-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U19 New York SC at The Island FC West
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ne
+ w-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35708-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U19 New York SC at Cedar Stars Academy Bergen
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ne
+ w-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36127-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U19 New York SC vs Intercontinental Football Academy of New England
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ne
+ w-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36456-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 New York SC vs Connecticut United FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ne
+ w-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36752-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U19 New York SC at FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ne
+ w-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36874-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U19 New York SC at Downtown United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ne
+ w-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27583-5944@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T203000Z
+DURATION:PT2H
+SUMMARY:U19 New York SC at FC Westchester
+LOCATION:SUNY Purchase - Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=new-york-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=n
+ ew-york-sc
+END:VEVENT
+END:VCALENDAR

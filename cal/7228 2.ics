@@ -1,0 +1,320 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:New York City FC U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26102-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T210000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs Red Bull New York (Flex) (W 3–2)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26301-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T183000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs Blau Weiss Gottschee (Flex) (L 0–1)
+LOCATION:Queens College - Queens College
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26505-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T123000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC at New England Revolution (Flex) (L 1–3)
+LOCATION:Revolution Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26955-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T190000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs Philadelphia Union (L 0–7)
+LOCATION:York College
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pat
+ hway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27829-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T183000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs FC Westchester (Flex)
+LOCATION:York College
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28078-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T183000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs Downtown United Soccer Club (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28188-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T140000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC at New England Revolution
+LOCATION:Revolution Training Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pat
+ hway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28358-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T183000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs Toronto FC
+LOCATION:York College
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pat
+ hway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29102-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T183000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs The Island FC East (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29293-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T183000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs CF Montreal
+LOCATION:York College
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pat
+ hway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29672-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T140000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC at D.C. United
+LOCATION:Raventek Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pat
+ hway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30133-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T220000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs Ironbound Soccer Club (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30389-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T193000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs The Island FC West (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30628-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T220000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs Beachside of Connecticut (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30861-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T193000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs Cedar Stars Academy Bergen (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32209-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U19 New York City FC vs CF Montreal (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=n
+ ortheast-pro-player-pathway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32434-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U19 New York City FC vs Metropolitan Oval (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=n
+ ortheast-pro-player-pathway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32640-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 New York City FC at Toronto FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=northeast-pro-player-pathway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33082-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U19 New York City FC vs Red Bull New York
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=northeast-pro-player-pathway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33476-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T150000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC at Philadelphia Union
+LOCATION:WSFS Banks SportsPlex – Indoor
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pat
+ hway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35067-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 New York City FC vs D.C. United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=northeast-pro-player-pathway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35499-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 New York City FC at Red Bull New York
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=northeast-pro-player-pathway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35921-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 New York City FC vs New England Revolution
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=northeast-pro-player-pathway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36737-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T130000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC at CF Montreal
+LOCATION:Centre Nutrilait - Centre Nutrilait Academy Turf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pat
+ hway&show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27598-flex-7228@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T183000Z
+DURATION:PT2H
+SUMMARY:U19 New York City FC vs Connecticut United FC (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-player-pathway&
+ show=new-york-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast-pro-pl
+ ayer-pathway&show=new-york-city-fc
+END:VEVENT
+END:VCALENDAR

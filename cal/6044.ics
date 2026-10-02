@@ -1,0 +1,341 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:City SC - San Diego U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26386-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T160000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego vs Albion SC Las Vegas (Flex) (W 2–0)
+LOCATION:Aviara Community Park - Aviara Community Park
+DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26788-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T200000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego vs LA Surf Soccer Club (W 5–4)
+LOCATION:Pine Community Park - Pine Community Park
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27076-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego at RSL Arizona (Flex) (W 4–0)
+LOCATION:Scottsdale Sports Complex - Field 6
+DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27215-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T150000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego at Barca Residency Academy (W 3–2)
+LOCATION:Grande Sports World - Field #8
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27461-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego at Albion SC Las Vegas (W 3–2)
+LOCATION:Aventura Park - Middle Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27685-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T160000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego at Las Vegas Sports Academy (Flex) (W 6–1
+ )
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28147-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T160000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego vs RSL Arizona
+LOCATION:Sage Creek High School
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28465-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego at Santa Barbara Soccer Club
+LOCATION:Westmont College - Lovik Field A
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28713-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T160000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego at Los Angeles Football Club (Flex)
+LOCATION:Jesse Owens Stadium - Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29954-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego vs SoCal Reds FC
+LOCATION:Pine Community Park - Pine Community Park
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30255-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T193000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego vs Phoenix Rising FC (Flex)
+LOCATION:Sage Creek High School
+DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30933-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T170000Z
+DURATION:PT2H
+SUMMARY:U19 City SC - San Diego vs SC Del Sol (Flex)
+LOCATION:Sage Creek High School
+DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southwest&show=city-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31151-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U19 City SC - San Diego at SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31201-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:U19 City SC - San Diego at Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31537-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U19 City SC - San Diego at Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31585-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U19 City SC - San Diego at Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31775-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270207
+SUMMARY:U19 City SC - San Diego at ALBION SC San Diego (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=city-sc
+ -san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31968-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 City SC - San Diego vs City SC Southwest (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=city-sc
+ -san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33158-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U19 City SC - San Diego at Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33356-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U19 City SC - San Diego at Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33557-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 City SC - San Diego vs Las Vegas Sports Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34002-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U19 City SC - San Diego at Chula Vista FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=city-sc
+ -san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34460-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 City SC - San Diego vs ALBION SC San Diego
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34737-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U19 City SC - San Diego vs Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34912-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U19 City SC - San Diego vs FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35589-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 City SC - San Diego vs Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36184-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U19 City SC - San Diego at City SC Southwest
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36571-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 City SC - San Diego vs Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=ci
+ ty-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26200-flex-6044@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270608
+SUMMARY:U19 City SC - San Diego vs Barca Residency Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=city-sc
+ -san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=c
+ ity-sc-san-diego
+END:VEVENT
+END:VCALENDAR

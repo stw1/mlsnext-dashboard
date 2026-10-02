@@ -1,0 +1,285 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FC DELCO U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26685-flex-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T210000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO vs Penn Rising XI (Flex) (W 3–1)
+LOCATION:The Proving Grounds - 5
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27151-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T200000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO at Sporting Athletic Club (W 1–0)
+LOCATION:Chase Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27445-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T170000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO at Coppermine SC (W 7–0)
+LOCATION:Copperplex Field #8
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28036-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T190000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO vs Bethesda SC
+LOCATION:The Proving Grounds - 6
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26486-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T200000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO vs Northern Virginia Alliance
+LOCATION:The Proving Grounds - 5
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28633-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T230000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO at Penn Rising XI
+LOCATION:J Birney Crum - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29432-flex-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T190000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO vs Keystone FC (Flex)
+LOCATION:Downingtown West High School  - DiSerafino Field
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29864-flex-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T150000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO at Players Development Academy (Flex)
+LOCATION:PDA Soccer Complex - Field 5 Turf
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30331-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T200000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO vs Achilles FC
+LOCATION:Downingtown West High School  - DiSerafino Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30696-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T180000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO vs Baltimore Armour
+LOCATION:Downingtown West High School  - DiSerafino Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31901-flex-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T150000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO at Philadelphia Union (Flex)
+LOCATION:WSFS Banks SportsPlex – Indoor
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32044-flex-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 FC DELCO at PA Classics (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=f
+ c-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32697-flex-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U19 FC DELCO at The Football Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=f
+ c-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32804-flex-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 FC DELCO vs Real Futbol Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=f
+ c-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33242-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U19 FC DELCO at Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33654-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U19 FC DELCO at Springfield SYC
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33864-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 FC DELCO vs PA Classics
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34153-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U19 FC DELCO vs Cedar Stars Academy Monmouth
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34698-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 FC DELCO at Real Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35442-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U19 FC DELCO vs The Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35974-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U19 FC DELCO at Beadling SC
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36394-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U19 FC DELCO vs Players Development Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36730-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 FC DELCO at Keystone FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27902-flex-5681@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T200000Z
+DURATION:PT2H
+SUMMARY:U19 FC DELCO at Cedar Stars Academy Monmouth (Flex)
+LOCATION:Capelli Sport Complex - Field #1
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=fc-delco
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=fc-delco
+END:VEVENT
+END:VCALENDAR

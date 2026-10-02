@@ -1,0 +1,311 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Miami Futbol Academy Rush U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26003-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T130000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush vs West Florida Flames (Flex) (L 2–
+ 3)
+LOCATION:Miami Dade College - Kendall Campus - Field 4
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27284-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at South Florida Football Academy (W 
+ 3–1)
+LOCATION:Loggers Run Park - Field # 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27714-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T200000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at Orlando City Soccer School South (
+ Flex)
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28249-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T163000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush vs Sol SC Florida
+LOCATION:Westwind Lakes Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28735-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T123000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at Jacksonville FC (Flex)
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29175-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush vs One FC (Flex)
+LOCATION:Kendall Soccer Park - 3
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30263-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T170000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30492-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T173000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at Sol SC Florida (Flex)
+LOCATION:The National Training Center - NTC 1
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30950-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U15 Miami Futbol Academy Rush vs Orlando City Soccer School South
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-
+ futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31068-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U15 Miami Futbol Academy Rush at Seminole United
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-
+ futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31255-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T190000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at Weston FC (Flex)
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31426-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U15 Miami Futbol Academy Rush vs Athletum FC Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-futbo
+ l-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31632-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T180000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at West Florida Flames
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33780-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T160000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at IMG (Flex)
+LOCATION:IMG Academy Field - 7
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31792-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U15 Miami Futbol Academy Rush vs IdeaSport SA (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-futbo
+ l-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32319-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U15 Miami Futbol Academy Rush at Orlando City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-futbo
+ l-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32513-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U15 Miami Futbol Academy Rush vs South Florida Football Academy (Fl
+ ex)
+DESCRIPTION:MLS NEXT Flex · U15 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-futbo
+ l-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32955-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U15 Miami Futbol Academy Rush vs Weston FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-
+ futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33384-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U15 Miami Futbol Academy Rush at One FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-
+ futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34209-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 Miami Futbol Academy Rush vs Seminole United (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-futbo
+ l-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34513-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U15 Miami Futbol Academy Rush vs Jacksonville FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-
+ futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35349-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U15 Miami Futbol Academy Rush at IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-
+ futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35816-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U15 Miami Futbol Academy Rush vs IMG
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-
+ futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36270-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U15 Miami Futbol Academy Rush at Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-
+ futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36638-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U15 Miami Futbol Academy Rush vs Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=miami-
+ futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26414-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T170000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at Tampa Bay United (Flex)
+LOCATION:Ed Radice Sports Complex - Field 4
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+END:VCALENDAR

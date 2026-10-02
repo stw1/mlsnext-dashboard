@@ -1,0 +1,311 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cedar Stars Academy Bergen U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26308-flex-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T161500Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen at Beachside of Connecticut (Flex) (
+ W 3–1)
+LOCATION:University of Bridgeport - Knights Field
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27609-flex-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T210000Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen vs Ironbound Soccer Club (Flex) (L 2
+ –3)
+LOCATION:Capelli Sport Complex - Hudson Valley
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27835-flex-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T163000Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen at Red Bull New York (Flex)
+LOCATION:Red Bull Performance Center - Grass
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28054-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T183000Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen vs Seacoast United
+LOCATION:FDU Soccer Field - Teaneck
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26725-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T203000Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen vs TSF Academy
+LOCATION:FDU Soccer Field - Teaneck
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28600-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T210000Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen at Ironbound Soccer Club
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28842-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T163000Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen at The Island FC West
+LOCATION:Point Lookout Athletic Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29074-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T204500Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen vs Blau Weiss Gottschee
+LOCATION:FDU Soccer Field - Teaneck
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29455-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T150000Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen at Connecticut United FC
+LOCATION:Wooster School - Alice & Fernando Fernandes Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29699-flex-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T171500Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen at FC Westchester (Flex)
+LOCATION:SUNY Purchase - Stadium Turf
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30140-flex-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T220000Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen vs Connecticut United FC (Flex)
+LOCATION:FDU Soccer Field - Teaneck
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30615-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T210000Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen at The Island FC East
+LOCATION:Islip High School - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30860-flex-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T171500Z
+DURATION:PT2H
+SUMMARY:U17 Cedar Stars Academy Bergen at New York City FC (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=cedar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32176-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U17 Cedar Stars Academy Bergen at FC Greater Boston Bolts
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32406-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U17 Cedar Stars Academy Bergen at Intercontinental Football Academy
+  of New England
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32831-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U17 Cedar Stars Academy Bergen vs FC Westchester
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33065-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Cedar Stars Academy Bergen vs FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33714-flex-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U17 Cedar Stars Academy Bergen at New York SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=cedar-s
+ tars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33899-flex-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U17 Cedar Stars Academy Bergen at TSF Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=cedar-s
+ tars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34822-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U17 Cedar Stars Academy Bergen vs NEFC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35224-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U17 Cedar Stars Academy Bergen vs Beachside of Connecticut
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35707-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U17 Cedar Stars Academy Bergen vs New York SC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36096-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U17 Cedar Stars Academy Bergen at Bayside FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36420-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Cedar Stars Academy Bergen vs Valeo Futbol Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36745-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U17 Cedar Stars Academy Bergen at Downtown United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36881-6070@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U17 Cedar Stars Academy Bergen at Metropolitan Oval
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=ce
+ dar-stars-academy-bergen
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ edar-stars-academy-bergen
+END:VEVENT
+END:VCALENDAR

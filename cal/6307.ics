@@ -1,0 +1,306 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sacramento United U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26124-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T180000Z
+DURATION:PT2H
+SUMMARY:U17 Sacramento United at Lamorinda Soccer Club (Flex) (D 1–1\, wo
+ n 3–2 on pens)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U17 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northwest&show=sacramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26538-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T180000Z
+DURATION:PT2H
+SUMMARY:U17 Sacramento United vs Ballistic United (Flex) (D 1–1\, won 4
+ –3 on pens)
+LOCATION:Granite Regional Park - Turf
+DESCRIPTION:MLS NEXT Flex · U17 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northwest&show=sacramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27416-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T224500Z
+DURATION:PT2H
+SUMMARY:U17 Sacramento United at The Town FC Academy (Flex) (L 3–5)
+LOCATION:Horse Creek Soccer Complex - Field C
+DESCRIPTION:MLS NEXT Flex · U17 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northwest&show=sacramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27877-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T180000Z
+DURATION:PT2H
+SUMMARY:U17 Sacramento United at Woodside Soccer Club Crush
+LOCATION:Canada College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northwest&show=sacramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28902-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U17 Sacramento United vs ALBION SC Merced (Flex)
+LOCATION:Rosemont High School
+DESCRIPTION:MLS NEXT Flex · U17 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northwest&show=sacramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29315-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T180000Z
+DURATION:PT2H
+SUMMARY:U17 Sacramento United at Ballistic United
+LOCATION:Stanford Medical Sports Complex - West
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northwest&show=sacramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29737-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U17 Sacramento United vs Modesto Ajax United (Flex)
+LOCATION:Granite Regional Park - Turf
+DESCRIPTION:MLS NEXT Flex · U17 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northwest&show=sacramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30158-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T190000Z
+DURATION:PT2H
+SUMMARY:U17 Sacramento United vs Lamorinda Soccer Club
+LOCATION:Rosemont High School
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northwest&show=sacramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30673-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T190000Z
+DURATION:PT2H
+SUMMARY:U17 Sacramento United vs Silicon Valley Soccer Academy (Flex)
+LOCATION:Granite Regional Park - Turf
+DESCRIPTION:MLS NEXT Flex · U17 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northwest&show=sacramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30974-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U17 Sacramento United at De Anza Force (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sacrame
+ nto-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31115-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U17 Sacramento United at Vancouver Whitecaps FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sacrame
+ nto-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31306-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U17 Sacramento United vs Woodside Soccer Club Crush (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sacrame
+ nto-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31498-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U17 Sacramento United vs FC Bay Area Surf (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sacrame
+ nto-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31684-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U17 Sacramento United at San Jose Earthquakes (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sacrame
+ nto-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31861-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U17 Sacramento United at Atletico Santa Rosa (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sacrame
+ nto-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32244-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U17 Sacramento United vs San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sa
+ cramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32674-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U17 Sacramento United at Sacramento Republic FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sacrame
+ nto-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33103-flex-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Sacramento United at San Francisco Glens SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sacrame
+ nto-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33522-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 Sacramento United vs The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sa
+ cramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33905-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U17 Sacramento United at ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sa
+ cramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34405-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U17 Sacramento United at Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sa
+ cramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34662-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 Sacramento United vs Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sa
+ cramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35090-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U17 Sacramento United at Modesto Ajax United
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sa
+ cramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35526-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 Sacramento United at FC Bay Area Surf
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sa
+ cramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35952-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 Sacramento United vs Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sa
+ cramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36495-6307@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Sacramento United vs De Anza Force
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=sa
+ cramento-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=s
+ acramento-united
+END:VEVENT
+END:VCALENDAR

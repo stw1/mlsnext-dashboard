@@ -1,0 +1,310 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Seminole United U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-27711-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T190000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at Orlando City SC (Flex)
+LOCATION:Osceola Heritage Park - Turf Field/3
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28266-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T160000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United vs Tampa Bay United (Flex)
+LOCATION:Seminole Soccer Complex - Field 5
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28744-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T210000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at South Florida Football Academy (Flex)
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29184-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T140000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at Sol SC Florida
+LOCATION:The National Training Center - NTC 5
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32097-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T200000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at Orlando City Soccer School South (Flex)
+LOCATION:Simmers Young Park - Field 11
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26022-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T173000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at Jacksonville FC (Flex)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30481-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T220000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at One FC
+LOCATION:Monsignor Edward Pace High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31022-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270110T160000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31071-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U19 Seminole United vs Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=semino
+ le-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31228-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 Seminole United at Athletum FC Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=seminole-un
+ ited
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31441-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U19 Seminole United vs Weston FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=seminole-un
+ ited
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31611-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T150000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at IMG
+LOCATION:IMG Academy Field - 6
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30027-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T160000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United vs Orlando City Soccer School South
+LOCATION:Seminole Soccer Complex - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32525-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 Seminole United vs Sol SC Florida (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=seminole-un
+ ited
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27281-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270228T180000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United vs One FC (Flex)
+LOCATION:Seminole Soccer Complex - Field 5
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32974-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T160000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at West Florida Flames (Flex)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33789-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U19 Seminole United at IdeaSport SA (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=seminole-un
+ ited
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34212-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 Seminole United at Miami Futbol Academy Rush (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=seminole-un
+ ited
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34524-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U19 Seminole United vs IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=semino
+ le-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34956-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 Seminole United vs Jacksonville FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=semino
+ le-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35370-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 Seminole United at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=semino
+ le-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35831-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 Seminole United vs South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=semino
+ le-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36653-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U19 Seminole United vs Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=semino
+ le-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29582-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United vs West Florida Flames
+LOCATION:Seminole Soccer Complex - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26849-flex-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United vs IMG (Flex)
+LOCATION:Seminole Soccer Complex - Field 5
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26429-5790@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T210000Z
+DURATION:PT2H
+SUMMARY:U19 Seminole United at Weston FC
+LOCATION:Vista Park - Vista #4
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=seminole-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=sem
+ inole-united
+END:VEVENT
+END:VCALENDAR

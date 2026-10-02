@@ -1,0 +1,315 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Weston FC U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26840-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T140000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC at One FC (Flex) (L 0–2)
+LOCATION:Monsignor Edward Pace High School - Stadium
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27296-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs Sol SC Florida (Flex) (W 5–0)
+LOCATION:Vista Park - Vista #4
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27698-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T143000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC at Jacksonville FC (Flex)
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28243-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC at IMG (Flex)
+LOCATION:IMG Academy Field - #2
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31804-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T150000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC at West Florida Flames (Flex)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28749-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T210000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs Orlando City Soccer School South (Flex)
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29199-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T140000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs Athletum FC Academy (Flex)
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26007-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC at Orlando City SC (Flex)
+LOCATION:Osceola Heritage Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29597-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T200000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs IMG
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30498-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC at South Florida Football Academy (Flex)
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30966-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270109T200000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs Tampa Bay United (Flex)
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31050-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U15 Weston FC at IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=weston
+ -fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31255-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T190000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs Miami Futbol Academy Rush (Flex)
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31438-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U15 Weston FC at Seminole United (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34215-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T210000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC at Orlando City Soccer School South
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32534-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T200000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs IdeaSport SA (Flex)
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32955-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U15 Weston FC at Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=weston
+ -fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33374-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U15 Weston FC at Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=weston
+ -fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30006-flex-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T160000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33810-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T170000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs South Florida Football Academy
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34977-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T190000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs West Florida Flames
+LOCATION:Vista Park - Vista #4
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35373-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T180000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs Jacksonville FC
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35834-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U15 Weston FC at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=weston
+ -fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36298-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T180000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs One FC
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36656-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T160000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC at Sol SC Florida
+LOCATION:The National Training Center - NTC 3
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26426-5712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T190000Z
+DURATION:PT2H
+SUMMARY:U15 Weston FC vs Seminole United
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U15&conf=florida&show=weston-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=wes
+ ton-fc
+END:VEVENT
+END:VCALENDAR

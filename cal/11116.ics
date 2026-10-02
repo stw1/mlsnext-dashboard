@@ -1,0 +1,399 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:San Diego FC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26188-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T180000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs RSL Arizona (L 3–4)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26790-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T013000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC at City SC Southwest (W 7–0)
+LOCATION:Sommers Bend Soccer - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27058-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs Santa Barbara Soccer Club (W 2–0)
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27477-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T174500Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC at LA Surf Soccer Club (W 7–3)
+LOCATION:Silverlakes Sports Complex - Field 24
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28459-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T173000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs Las Vegas Sports Academy
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29146-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs City SC - San Diego
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29374-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T203000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC at RSL Arizona
+LOCATION:Scottsdale Prep - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29530-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T190000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC at RSL Arizona Mesa
+LOCATION:Scottsdale Prep - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29778-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs SoCal Reds FC
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30238-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T190000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs Los Angeles Sports Club
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30457-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261119T031500Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC at ALBION SC San Diego
+LOCATION:Sharp Healthcare Performance Center - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30442-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T190000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs Albion SC Las Vegas
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31011-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U14 San Diego FC at LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31132-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270116T180000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC at Las Vegas Sports Academy
+LOCATION:James Regional Sports Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31174-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:U14 San Diego FC at Albion SC Las Vegas
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31349-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T190000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs ALBION SC San Diego
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31529-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U14 San Diego FC at Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31597-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U14 San Diego FC at Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31761-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T190000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs City SC Southwest
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32297-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U14 San Diego FC at Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32477-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U14 San Diego FC at SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33324-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U14 San Diego FC at Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33579-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T190000Z
+DURATION:PT2H
+SUMMARY:U14 San Diego FC vs Phoenix Rising FC
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=san-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33994-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 San Diego FC vs LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34174-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U14 San Diego FC vs Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34192-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270325
+SUMMARY:U14 San Diego FC at City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35597-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 San Diego FC vs SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35795-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U14 San Diego FC vs Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36200-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 San Diego FC vs Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36235-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U14 San Diego FC at Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36256-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270502
+SUMMARY:U14 San Diego FC at FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26358-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 San Diego FC vs RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27245-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270608
+SUMMARY:U14 San Diego FC vs Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27675-11116@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270608
+SUMMARY:U14 San Diego FC at Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=sa
+ n-diego-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ an-diego-fc
+END:VEVENT
+END:VCALENDAR

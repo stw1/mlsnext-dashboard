@@ -1,0 +1,292 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Columbus Crew U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26052-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T161500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs Midwest United FC (Flex) (W 2–1)
+LOCATION:Historic Crew Stadium – Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway&show
+ =columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26220-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T181500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs Michigan Wolves (Flex) (W 2–1)
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway&show
+ =columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26472-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew at Toronto FC (Flex) (L 1–2)
+LOCATION:BMO Training Ground - City View Field
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway&show
+ =columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26821-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T161500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs St. Louis City SC (L 3–4)
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway
+ &show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27339-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T140000Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs AC Grand Rapids (Flex) (W 2–1)
+LOCATION:Historic Crew Stadium – Field 5
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway&show
+ =columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27763-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T181500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs Michigan Jaguars (Flex)
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway&show
+ =columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27986-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T181500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs Vardar Soccer Club (Flex)
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway&show
+ =columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28168-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T183000Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew at Colorado Rapids
+LOCATION:Dicks Sporting Goods Park - Field #19
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway
+ &show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28487-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T190000Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew at FC Cincinnati
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway
+ &show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28718-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T161500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs Sporting Kansas City
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway
+ &show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29406-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs Club Ohio (Flex)
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway&show
+ =columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29560-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T181500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew at Chicago Fire FC
+LOCATION:Endeavor Health Performance Center - Turf 1 (Dome)
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway
+ &show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29993-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T171500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs Minnesota United FC
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway
+ &show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30554-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T181500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs FC Cincinnati (Flex)
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway&show
+ =columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30790-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T181500Z
+DURATION:PT2H
+SUMMARY:U17 Columbus Crew vs Cincinnati United Soccer Club (Flex)
+LOCATION:Historic Crew Stadium – Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U17&conf=central-pro-player-pathway&show
+ =columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32071-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U17 Columbus Crew vs FC Cincinnati
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&con
+ f=central-pro-player-pathway&show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32577-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U17 Columbus Crew vs Hoosier Premier (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway) · kickoff ti
+ me not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=cen
+ tral-pro-player-pathway&show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32770-flex-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U17 Columbus Crew vs Indy Eleven (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Central (Pro Player Pathway) · kickoff ti
+ me not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=cen
+ tral-pro-player-pathway&show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32937-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Columbus Crew at St. Louis City SC
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&con
+ f=central-pro-player-pathway&show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33367-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 Columbus Crew vs Colorado Rapids
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&con
+ f=central-pro-player-pathway&show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35333-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 Columbus Crew vs Chicago Fire FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&con
+ f=central-pro-player-pathway&show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35800-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 Columbus Crew at Minnesota United FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&con
+ f=central-pro-player-pathway&show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36266-7222@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Columbus Crew at Sporting Kansas City
+DESCRIPTION:MLS NEXT Homegrown · U17 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&con
+ f=central-pro-player-pathway&show=columbus-crew
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=central-pro-play
+ er-pathway&show=columbus-crew
+END:VEVENT
+END:VCALENDAR

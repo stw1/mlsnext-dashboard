@@ -1,0 +1,240 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Capital City SC U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26436-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T170000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC vs GFI Academy (L 2–6)
+LOCATION:1849 Park - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26876-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T150000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC at Houston Rangers (L 1–2)
+LOCATION:Paul D Rushing Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33814-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T200000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC vs AC River (L 1–4)
+LOCATION:1849 Park - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27724-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T143000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC at Austin FC
+LOCATION:St. David’s Performance Center – Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29206-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T193000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC vs Austin FC
+LOCATION:Round Rock Multipurpose Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28762-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T201500Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC at FC Dallas
+LOCATION:Toyota Soccer Center - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31271-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T210000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC vs FC Dallas
+LOCATION:1849 Park - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29811-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T213000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC at ALBION SC Colorado
+LOCATION:East Boulder Community Center - East Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34015-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T170000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC vs Tulsa Greenwood SC
+LOCATION:1849 Park - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30508-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC vs ALBION SC Colorado
+LOCATION:1849 Park - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31454-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U13 Capital City SC vs Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31823-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 Capital City SC at Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32110-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 Capital City SC vs SGA
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32544-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 Capital City SC at GFI Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32991-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 Capital City SC at Tulsa Greenwood SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34231-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 Capital City SC vs Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34537-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T190000Z
+DURATION:PT2H
+SUMMARY:U13 Capital City SC at AC River
+LOCATION:Soccer Central - Field #3
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35625-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 Capital City SC vs Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36018-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 Capital City SC at SGA
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36308-6318@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 Capital City SC at Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+END:VCALENDAR

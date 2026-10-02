@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Coppermine SC U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26925-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T140000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC vs PA Classics (D 1–1)
+LOCATION:Copperplex Field #8
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27154-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T170000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC vs FC DELCO (W 2–1)
+LOCATION:Copperplex Field #7
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27545-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T150000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC at Sporting Athletic Club (L 1–2)
+LOCATION:Chase Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28012-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T163000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC at Alexandria SA
+LOCATION:Episcopal High School - Hummel Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28942-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC at Bethesda SC
+LOCATION:Maryland SoccerPlex - Field 16
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26072-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T140000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC at Baltimore Armour
+LOCATION:Covenant Park - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29647-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC at Springfield SYC
+LOCATION:Hayfield Secondary School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30337-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T150000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC vs Alexandria SA
+LOCATION:St. Paul's School - St. Paul's Levering Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30703-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T150000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC vs Baltimore Armour
+LOCATION:St. Paul's School - St. Paul's Levering Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28637-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T190000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC vs Springfield SYC
+LOCATION:St. Paul's School - St. Paul's Levering Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32051-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U13 Coppermine SC vs Beadling SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32356-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 Coppermine SC at Keystone FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32392-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 Coppermine SC at Penn Rising XI
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32811-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 Coppermine SC vs Bethesda SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33047-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 Coppermine SC at Players Development Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33301-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U13 Coppermine SC at The Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30090-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T150000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC vs Northern Virginia Alliance
+LOCATION:Copperplex Field #7
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34057-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 Coppermine SC at Achilles FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34421-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T180000Z
+DURATION:PT2H
+SUMMARY:U13 Coppermine SC at Northern Virginia Alliance
+LOCATION:Loudoun Soccer Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34809-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U13 Coppermine SC vs Achilles FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35212-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 Coppermine SC vs Sporting Athletic Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35452-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 Coppermine SC vs Cedar Stars Academy Monmouth
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35737-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 Coppermine SC vs Real Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35988-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 Coppermine SC at Beadling SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36400-10479@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U13 Coppermine SC vs Philadelphia Union
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=coppermine-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=coppermine-sc
+END:VEVENT
+END:VCALENDAR

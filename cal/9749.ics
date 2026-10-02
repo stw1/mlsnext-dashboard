@@ -1,0 +1,368 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nashville United Soccer Academy (NUSA Next) U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26329-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T160000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Queen City Mutin
+ y FC (Flex) (L 0–1)
+LOCATION:Bethesda Sports Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26666-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Nashville SC (Fl
+ ex) (L 0–7)
+LOCATION:The Gold Mine - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27140-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T130000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Southern Soccer 
+ Academy (Flex) (D 2–2\, won 4–3 on pens)
+LOCATION:Marathon Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27891-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T180000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs KSA (Flex) (D 1
+ –1\, lost 2–4 on pens)
+LOCATION:Siegal High School - 3300 siegal rd Murfreesboro TN 37129
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29060-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T170000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at AFC Lightning (F
+ lex)
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29351-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T150000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Inter Atlanta FC
+  (Flex)
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29758-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T180000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Chattanooga FC (
+ Flex)
+LOCATION:Richard Siegel Soccer Complex - 7
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29930-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Inter Atlanta FC
+LOCATION:Siegal High School - 3300 siegal rd Murfreesboro TN 37129
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academ
+ y-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30815-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Triangle United 
+ Soccer Association (Flex)
+LOCATION:Centennial High School Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30222-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T200000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Wake FC (Flex)
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32159-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T140000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Charlotte Indepe
+ ndence Soccer Club (Flex)
+LOCATION:Manchester Meadows - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31839-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T170000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Lanier Soccer As
+ sociation (Flex)
+LOCATION:Siegal High School - 3300 siegal rd Murfreesboro TN 37129
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32020-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Charlotte FC (Fl
+ ex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=nashvil
+ le-united-soccer-academy-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32376-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T190000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Wake FC
+LOCATION:Siegal High School - 3300 siegal rd Murfreesboro TN 37129
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academ
+ y-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26157-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T190000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Carolina Core FC
+  (Flex)
+LOCATION:Riverdale High School - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32784-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T140000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Atlanta United (
+ Flex)
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33734-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Triangle United 
+ Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=na
+ shville-united-soccer-academy-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33951-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Carolina Core FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=na
+ shville-united-soccer-academy-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34140-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T180000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs AFC Lightning
+LOCATION:Richard Siegel Soccer Complex - 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academ
+ y-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34306-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270321T180000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Charlotte Indepe
+ ndence Soccer Club
+LOCATION:Siegal High School - 3300 siegal rd Murfreesboro TN 37129
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academ
+ y-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34601-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at KSA
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=na
+ shville-united-soccer-academy-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35193-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T180000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Hoover-Vestavia 
+ Soccer
+LOCATION:Siegal High School - 3300 siegal rd Murfreesboro TN 37129
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academ
+ y-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35885-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T130000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Lanier Soccer As
+ sociation
+LOCATION:ALLEN CREEK SOCCER COMPLEX - FIELD 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academ
+ y-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36079-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T180000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) vs Southern Soccer 
+ Academy
+LOCATION:Riverdale High School - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academ
+ y-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36706-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Chattanooga FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=na
+ shville-united-soccer-academy-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36854-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Queen City Mutin
+ y FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=na
+ shville-united-soccer-academy-nusa-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28185-flex-9749@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T150000Z
+DURATION:PT2H
+SUMMARY:U16 Nashville United Soccer Academy (NUSA Next) at Hoover-Vestavia 
+ Soccer (Flex)
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=nashville-united-soccer-academy-nus
+ a-next
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=n
+ ashville-united-soccer-academy-nusa-next
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,365 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LA Surf Soccer Club U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26785-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T200000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club at City SC - San Diego (D 1–1)
+LOCATION:Aviara Community Park - Aviara Community Park
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27051-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T213000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club vs ALBION SC San Diego (L 1–5)
+LOCATION:San Marino High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27238-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T180000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club vs Phoenix Rising FC (L 2–3)
+LOCATION:Silverlakes Sports Complex - Field 20
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27656-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T200000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club vs City SC Southwest (L 1–3)
+LOCATION:Silverlakes Sports Complex - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27930-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T200000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club at Total Futbol Academy (Flex)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26189-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T220000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club vs Albion SC Los Angeles (Flex)
+LOCATION:Silverlakes Sports Complex - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28454-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club vs RSL Arizona
+LOCATION:San Marino High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28671-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T180000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club vs Chula Vista FC
+LOCATION:Occidental College Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28977-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club at SoCal Reds FC (Flex)
+LOCATION:Oak Creek Community Park - Field B
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29384-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T213000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club vs Santa Barbara Soccer Club (Flex)
+LOCATION:San Marino High School - Stadium
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29985-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T230000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club at Los Angeles Sports Club (Flex)
+LOCATION:West Covina High School Turf Field
+DESCRIPTION:MLS NEXT Flex · U15 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30434-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T170000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club vs Los Angeles Football Club
+LOCATION:San Marino High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30727-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T190000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club at Las Vegas Sports Academy
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30899-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T170000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club at Albion SC Las Vegas
+LOCATION:Aventura Park - Middle Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31156-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U15 LA Surf Soccer Club vs Strikers FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la-surf
+ -soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31035-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270117T110000Z
+DURATION:PT2H
+SUMMARY:U15 LA Surf Soccer Club vs SoCal Reds FC
+LOCATION:San Marino High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=la-surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31332-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U15 LA Surf Soccer Club at Barca Residency Academy
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31390-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U15 LA Surf Soccer Club at SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31544-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U15 LA Surf Soccer Club at FC Golden State Force (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la-surf
+ -soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31768-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270207
+SUMMARY:U15 LA Surf Soccer Club vs Ventura County Fusion (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la-surf
+ -soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31949-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U15 LA Surf Soccer Club vs Los Angeles Bulls Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la-surf
+ -soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32306-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U15 LA Surf Soccer Club at Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32931-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U15 LA Surf Soccer Club at LA Galaxy (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la-surf
+ -soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33335-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U15 LA Surf Soccer Club vs FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33772-flex-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U15 LA Surf Soccer Club at Los Angeles Football Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la-surf
+ -soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34177-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U15 LA Surf Soccer Club at Santa Barbara Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34465-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 LA Surf Soccer Club at Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34757-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U15 LA Surf Soccer Club at Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35784-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U15 LA Surf Soccer Club vs Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36171-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U15 LA Surf Soccer Club at Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36583-5955@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U15 LA Surf Soccer Club vs Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=la
+ -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+END:VCALENDAR

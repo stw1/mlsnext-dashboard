@@ -1,0 +1,279 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IMG U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26395-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs Sol SC Florida (Flex) (W 6–1)
+LOCATION:IMG Academy Field - 1
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26848-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U17 IMG at Seminole United (Flex) (W 4–2)
+LOCATION:Seminole Soccer Complex - Field 5
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27266-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T150000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs Tampa Bay United (Flex) (W 4–2)
+LOCATION:IMG Academy Field - 1
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27706-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T200000Z
+DURATION:PT2H
+SUMMARY:U17 IMG at One FC (Flex)
+LOCATION:STU Soccer Field - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28245-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs Weston FC (Flex)
+LOCATION:IMG Academy Field - 1
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31784-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T190000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs Orlando City Soccer School South (Flex)
+LOCATION:IMG Academy Field - 6
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29171-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs IdeaSport SA (Flex)
+LOCATION:IMG Academy Field - 1
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31082-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T190000Z
+DURATION:PT2H
+SUMMARY:U17 IMG at West Florida Flames (Flex)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28992-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261112T000000Z
+DURATION:PT2H
+SUMMARY:U17 IMG at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29599-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T220000Z
+DURATION:PT2H
+SUMMARY:U17 IMG at Weston FC
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30468-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U17 IMG at Athletum FC Academy (Flex)
+LOCATION:Pembroke Pines - UPSL Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31420-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T170000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs Jacksonville FC
+LOCATION:IMG Academy Field - 7
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31610-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T170000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs Seminole United
+LOCATION:IMG Academy Field - 6
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33782-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T180000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs Miami Futbol Academy Rush (Flex)
+LOCATION:IMG Academy Field - 6
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32090-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U17 IMG at Orlando City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32509-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T160000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs West Florida Flames
+LOCATION:IMG Academy Field - 11
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32943-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T190000Z
+DURATION:PT2H
+SUMMARY:U17 IMG vs One FC
+LOCATION:IMG Academy Field - 15
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30946-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T213000Z
+DURATION:PT2H
+SUMMARY:U17 IMG at Jacksonville FC (Flex)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33406-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 IMG at South Florida Football Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34223-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U17 IMG at Sol SC Florida
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34509-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 IMG vs South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34967-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T150000Z
+DURATION:PT2H
+SUMMARY:U17 IMG at Orlando City Soccer School South
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35345-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 IMG vs Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35818-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 IMG at Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36294-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 IMG at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36628-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U17 IMG at IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+END:VCALENDAR

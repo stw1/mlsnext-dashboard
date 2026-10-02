@@ -1,0 +1,373 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chula Vista FC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26174-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T180000Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC vs Las Vegas Sports Academy (W 6–2)
+LOCATION:Victory Christian Academy - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27217-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T160000Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC vs Santa Barbara Soccer Club (W 4–3)
+LOCATION:Hoover High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28137-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T180000Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC vs Strikers FC
+LOCATION:Hoover High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27463-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T174500Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC vs Ventura County Fusion
+LOCATION:Hoover High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28473-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC at Total Futbol Academy
+LOCATION:Silverlakes Sports Complex - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28670-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T114500Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC at LA Surf Soccer Club
+LOCATION:Occidental College Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29364-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC at Las Vegas Sports Academy
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29520-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC at Albion SC Las Vegas
+LOCATION:Heritage Park - Field 13
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26350-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T184500Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC vs RSL Arizona
+LOCATION:Hoover High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30226-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T190000Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC vs Albion SC Las Vegas
+LOCATION:Victory Christian Academy - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30738-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T190000Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC at RSL Arizona
+LOCATION:Bell Road Sports Complex - Field #13
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30914-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T190000Z
+DURATION:PT2H
+SUMMARY:U14 Chula Vista FC at Phoenix Rising FC
+LOCATION:Phoenix Rising FC Youth Complex - North Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=chula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31134-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U14 Chula Vista FC at Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31347-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U14 Chula Vista FC at SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31387-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U14 Chula Vista FC at RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31715-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U14 Chula Vista FC at SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31745-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270207
+SUMMARY:U14 Chula Vista FC at LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31923-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U14 Chula Vista FC vs ALBION SC San Diego
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32468-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U14 Chula Vista FC vs Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32725-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U14 Chula Vista FC at City SC Southwest
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33324-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U14 Chula Vista FC vs San Diego FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33547-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 Chula Vista FC at Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33757-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U14 Chula Vista FC at FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33980-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 Chula Vista FC vs City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34450-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U14 Chula Vista FC vs City SC Southwest
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34727-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U14 Chula Vista FC vs Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34902-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Chula Vista FC vs Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35292-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 Chula Vista FC at ALBION SC San Diego
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35579-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 Chula Vista FC vs RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35766-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U14 Chula Vista FC vs SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36200-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 Chula Vista FC at San Diego FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36567-5668@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Chula Vista FC at City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=ch
+ ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+END:VCALENDAR

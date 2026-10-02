@@ -1,0 +1,384 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FC Golden State Force U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26177-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T200000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force vs SC Del Sol (D 2–2)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26571-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T200000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force vs Total Futbol Academy (L 1–8)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27043-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T200000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force vs Phoenix Rising FC (L 1–10)
+LOCATION:Silverlakes Sports Complex - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27228-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T200000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force vs ALBION SC San Diego (L 1–3)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27676-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T200000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force at Total Futbol Academy (L 1–6)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28661-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T200000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force vs Los Angeles Bulls Soccer Club
+LOCATION:Silverlakes Sports Complex - Field 18
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28956-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T160000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force at Las Vegas Sports Academy
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29137-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T200000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force at Albion SC Las Vegas
+LOCATION:Aventura Park - South Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29521-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T210000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force vs Albion SC Los Angeles
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29775-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T210000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force at Los Angeles Football Club
+LOCATION:Jesse Owens Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30443-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T170000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force at Santa Barbara Soccer Club
+LOCATION:UCSB Rob Gym - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30745-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T205000Z
+DURATION:PT2H
+SUMMARY:U13 FC Golden State Force at Strikers FC
+LOCATION:Great Park - Field 17
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=fc-golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31027-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270110
+SUMMARY:U13 FC Golden State Force vs Santa Barbara Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31144-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U13 FC Golden State Force at RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31202-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:U13 FC Golden State Force at RSL Arizona
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31374-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U13 FC Golden State Force vs Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31526-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U13 FC Golden State Force vs LA Surf Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31707-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U13 FC Golden State Force at LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31928-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 FC Golden State Force at Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32288-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 FC Golden State Force at Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32905-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 FC Golden State Force vs Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33333-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U13 FC Golden State Force at LA Surf Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33558-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 FC Golden State Force vs City SC Southwest
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33756-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U13 FC Golden State Force vs Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33983-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 FC Golden State Force vs SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34461-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 FC Golden State Force vs LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28152-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270328
+SUMMARY:U13 FC Golden State Force at Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34907-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U13 FC Golden State Force at City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35307-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 FC Golden State Force vs Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35604-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 FC Golden State Force at SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35998-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 FC Golden State Force vs Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36255-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270502
+SUMMARY:U13 FC Golden State Force vs San Diego FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36556-6165@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 FC Golden State Force at Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=fc
+ -golden-state-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=f
+ c-golden-state-force
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,380 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Las Vegas Sports Academy U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26174-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T180000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy at Chula Vista FC (L 2–6)
+LOCATION:Victory Christian Academy - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26348-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T160000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy at ALBION SC San Diego (W 3–1)
+LOCATION:Muir Language Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26576-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs Phoenix Rising FC (W 4–2)
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27235-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T160000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs SC Del Sol (W 4–2)
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27647-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T200000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs City SC - San Diego (L 0–6)
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28459-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T173000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy at San Diego FC
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28660-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T173000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy at City SC Southwest
+LOCATION:Patricia H. Birdsall Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28957-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T160000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs FC Golden State Force
+LOCATION:Viper Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29364-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs Chula Vista FC
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29780-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy at Santa Barbara Soccer Club
+LOCATION:UCSB Rob Gym - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29976-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy at Ventura County Fusion
+LOCATION:Ventura Community Park - - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30236-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T190000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy at RSL Arizona
+LOCATION:Bell Road Sports Complex - Field #13
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30436-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T180000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy at SC Del Sol
+LOCATION:Copper Sky  - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30726-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs LA Surf Soccer Club
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30906-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T190000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs ALBION SC San Diego
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31132-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270116T180000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs San Diego FC
+LOCATION:James Regional Sports Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31182-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270124T190000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs City SC Southwest
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31521-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U14 Las Vegas Sports Academy at Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31591-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U14 Las Vegas Sports Academy at Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31927-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T170000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs Albion SC Las Vegas
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32729-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T190000Z
+DURATION:PT2H
+SUMMARY:U14 Las Vegas Sports Academy vs RSL Arizona Mesa
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=las-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33152-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U14 Las Vegas Sports Academy at LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33328-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U14 Las Vegas Sports Academy at Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33553-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 Las Vegas Sports Academy at City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34166-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U14 Las Vegas Sports Academy vs Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34745-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U14 Las Vegas Sports Academy vs RSL Arizona
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34920-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Las Vegas Sports Academy vs SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35135-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U14 Las Vegas Sports Academy at Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35322-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 Las Vegas Sports Academy at RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35780-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U14 Las Vegas Sports Academy vs Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36164-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 Las Vegas Sports Academy at Albion SC Las Vegas
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36573-5801@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Las Vegas Sports Academy vs Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
+ s-vegas-sports-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ as-vegas-sports-academy
+END:VEVENT
+END:VCALENDAR

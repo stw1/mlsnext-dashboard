@@ -1,0 +1,335 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jacksonville FC U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26400-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T183000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC at One FC (L 0–4)
+LOCATION:North Bay Village Soccer Field #1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26832-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T183000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC vs Orlando City Soccer School South (L 1–4)
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27288-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC at West Florida Flames (W 4–2)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27696-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T183000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC vs Weston FC
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29583-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T200000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC at Sol SC Florida
+LOCATION:The National Training Center - NTC 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28235-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T183000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC at Athletum FC Academy
+LOCATION:JCC Posnack - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28733-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T163000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC vs Miami Futbol Academy Rush
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29185-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T180000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC at Tampa Bay United
+LOCATION:Ed Radice Sports Complex - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30010-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T193000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC vs Athletum FC Academy
+LOCATION:Patton Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26017-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T213000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC vs Seminole United
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30484-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC at Orlando City Soccer School South
+LOCATION:NorthEast Regional Park - Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31233-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T193000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC vs Sol SC Florida
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31416-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T190000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC at IMG
+LOCATION:IMG Academy Field - 8
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31618-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T213000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC vs One FC
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31796-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T180000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC at South Florida Football Academy
+LOCATION:Loggers Run Park - Field # 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32076-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 Jacksonville FC at IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28994-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T173000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC vs Orlando City SC
+LOCATION:Patton Park - Field #13
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32745-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 Jacksonville FC at Inter Miami CF
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30942-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T213000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC vs IMG
+LOCATION:Patton Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33388-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 Jacksonville FC at Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34011-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U13 Jacksonville FC vs Inter Miami CF
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34201-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 Jacksonville FC vs Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34511-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 Jacksonville FC at Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34951-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 Jacksonville FC at Seminole United
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35371-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T160000Z
+DURATION:PT2H
+SUMMARY:U13 Jacksonville FC at Weston FC
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35808-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 Jacksonville FC vs West Florida Flames
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36274-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 Jacksonville FC vs IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36630-5809@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U13 Jacksonville FC vs South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+END:VCALENDAR

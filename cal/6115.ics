@@ -1,0 +1,314 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Indy Eleven U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26054-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T130000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven at Toronto FC (Flex) (W 2–1)
+LOCATION:BMO Training Ground - City View Field
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33212-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T171500Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven vs Michigan Wolves (Flex) (L 0–3)
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26636-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T171500Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven vs Vardar Soccer Club (Flex) (L 1–4)
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26892-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T190000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven at FC Cincinnati (Flex) (L 2–4)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27111-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T193000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven at Cincinnati United Soccer Club (Flex) (W 2–1)
+LOCATION:Seven Hills High School - Lower Field
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27531-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T180000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven at Midwest United FC (Flex) (D 0–0\, won 3–1 on
+  pens)
+LOCATION:Midwest United FC Complex - South Field
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28220-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T183000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven at Shattuck-St. Mary's
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28523-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T170000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven at Vardar Soccer Club
+LOCATION:Oakland University Dome - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28798-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T171500Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven vs Chicago FC United
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29035-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T171500Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven vs Midwest United FC
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29223-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T171500Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven vs Cincinnati United Soccer Club
+LOCATION:Grand Park Sports Campus - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29847-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T181500Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven vs AC Grand Rapids (Flex)
+LOCATION:Grand Park Sports Campus - Field 6
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30301-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T150000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven at Michigan Jaguars (Flex)
+LOCATION:North Farmington High School – Training Turf
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30557-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven at Hoosier Premier (Flex)
+LOCATION:Trinity Sports Park - Indy Premier Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32769-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U16 Indy Eleven at Columbus Crew (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show=ind
+ y-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33010-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Indy Eleven vs Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33426-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 Indy Eleven at AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33842-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T193000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven vs Michigan Jaguars
+LOCATION:Grand Park Sports Campus - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34276-flex-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T171500Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven vs Club Ohio (Flex)
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34776-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U16 Indy Eleven at Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35002-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U16 Indy Eleven at Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35397-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 Indy Eleven vs Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35639-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T171500Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven vs St. Louis Scott Gallagher
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36035-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U16 Indy Eleven at Club Ohio
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36663-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T180000Z
+DURATION:PT2H
+SUMMARY:U16 Indy Eleven at Bavarian United SC
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36823-6115@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U16 Indy Eleven at SC Wave
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+END:VCALENDAR

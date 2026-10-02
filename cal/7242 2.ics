@@ -1,0 +1,311 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Houston Dynamo FC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26442-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T193000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC vs Colorado Rapids (Flex) (D 5–5\, won 3–
+ 1 on pens)
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26610-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC vs ALBION SC Colorado (Flex) (L 0–3)
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27030-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T170000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC at Orlando City SC (L 1–3)
+LOCATION:Osceola Heritage Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27428-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T150000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC vs Atlanta United (W 5–1)
+LOCATION:SaberCats Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27966-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T160000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC vs SGA (Flex) (W 2–1)
+LOCATION:SaberCats Stadium - Stadium
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28199-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T150000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC at Charlotte FC
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28426-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC vs FC Dallas
+LOCATION:SaberCats Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28767-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T163000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC vs GFI Academy (Flex)
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29005-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T160000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC vs Houston Rangers (Flex)
+LOCATION:SaberCats Stadium - Stadium
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29744-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T210000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC at Austin FC
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30042-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T193000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC vs AC River (Flex)
+LOCATION:SaberCats Stadium - Stadium
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pathway&
+ show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30710-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC at Nashville SC
+LOCATION:The Gold Mine - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29356-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270116T160000Z
+DURATION:PT2H
+SUMMARY:U16 Houston Dynamo FC vs Inter Miami CF
+LOCATION:Houston Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-player-pat
+ hway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31326-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U16 Houston Dynamo FC vs Nashville SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31464-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U16 Houston Dynamo FC at FC Dallas (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=s
+ outheast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31649-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U16 Houston Dynamo FC vs Capital City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=s
+ outheast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31902-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U16 Houston Dynamo FC vs Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32257-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 Houston Dynamo FC at Inter Miami CF
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32552-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 Houston Dynamo FC vs Tulsa Greenwood SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=s
+ outheast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32751-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U16 Houston Dynamo FC vs Dallas Hornets (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=s
+ outheast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33139-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Houston Dynamo FC vs Charlotte FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33610-flex-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U16 Houston Dynamo FC at Austin FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=s
+ outheast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35969-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U16 Houston Dynamo FC at FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36517-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Houston Dynamo FC vs Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36780-7242@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U16 Houston Dynamo FC at Atlanta United
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&c
+ onf=southeast-pro-player-pathway&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast-pro-pl
+ ayer-pathway&show=houston-dynamo-fc
+END:VEVENT
+END:VCALENDAR

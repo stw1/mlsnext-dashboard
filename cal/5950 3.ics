@@ -1,0 +1,310 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Athletum FC Academy U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26423-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy at West Florida Flames (W 5–0)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26831-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T170000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy vs South Florida Football Academy (Flex) (D
+  1–1\, won 5–3 on pens)
+LOCATION:Pembroke Pines - UPSL Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27275-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T180000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy at Orlando City Soccer School South (Flex) 
+ (L 1–2)
+LOCATION:Northeast Regional Park - Field 6
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34198-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T190000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy vs West Florida Flames (Flex)
+LOCATION:Pembroke Pines - UPSL Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28240-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T163000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy vs Jacksonville FC (Flex)
+LOCATION:Pembroke Pines - UPSL Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28728-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T200000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy at IdeaSport SA (Flex)
+LOCATION:Lake Myrtle Sports Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29202-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T180000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy at Weston FC (Flex)
+LOCATION:Vista Park - Vista #4
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29570-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy vs Tampa Bay United
+LOCATION:UPSL Broward College
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30015-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T173000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy at Jacksonville FC
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30469-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy vs IMG (Flex)
+LOCATION:JCC Posnack - Stadium Field
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30957-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U19 Athletum FC Academy at Orlando City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athletum-fc
+ -academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31059-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U19 Athletum FC Academy at One FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athlet
+ um-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31228-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 Athletum FC Academy vs Seminole United (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athletum-fc
+ -academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31429-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U19 Athletum FC Academy at Miami Futbol Academy Rush (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athletum-fc
+ -academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31789-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T150000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32103-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T190000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy at Sol SC Florida (Flex)
+LOCATION:The National Training Center - NTC 3
+DESCRIPTION:MLS NEXT Flex · U19 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32504-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 Athletum FC Academy vs One FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athletum-fc
+ -academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33377-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 Athletum FC Academy vs Weston FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athlet
+ um-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33801-flex-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U19 Athletum FC Academy at Tampa Bay United (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athletum-fc
+ -academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34504-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U19 Athletum FC Academy vs Sol SC Florida
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athlet
+ um-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34950-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 Athletum FC Academy vs IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athlet
+ um-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35346-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 Athletum FC Academy at IMG
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athlet
+ um-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35807-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 Athletum FC Academy vs Orlando City Soccer School South
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athlet
+ um-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36273-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 Athletum FC Academy vs Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athlet
+ um-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36653-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U19 Athletum FC Academy at Seminole United
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=athlet
+ um-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26034-5950@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T170000Z
+DURATION:PT2H
+SUMMARY:U19 Athletum FC Academy at South Florida Football Academy
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=florida&show=athletum-fc-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=florida&show=ath
+ letum-fc-academy
+END:VEVENT
+END:VCALENDAR

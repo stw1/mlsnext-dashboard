@@ -1,0 +1,297 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sockers FC Chicago U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-32766-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T190000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago vs Cincinnati United Soccer Club (D 4–4)
+LOCATION:Elgin Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26475-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T180000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago at Minnesota United FC (Flex) (W 3–0)
+LOCATION:National Sports Center - Stadium
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26654-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T183000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago at Shattuck-St. Mary's (Flex) (W 3–0)
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27130-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T170000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago at Lou Fusz Athletic (Flex) (W 3–0)
+LOCATION:Lou Fusz Athletic Soccer Complex - Field #7
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27538-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T190000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago vs Bavarian United SC (Flex) (W 6–0)
+LOCATION:Bridgeview Sports Fields - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27759-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T190000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago vs AC Grand Rapids
+LOCATION:Bridgeview Sports Fields - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28003-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T190000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago vs St. Louis Scott Gallagher (Flex)
+LOCATION:Elgin Sports Complex Turf Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28808-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261014T230000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago at Chicago Fire FC (Flex)
+LOCATION:Endeavor Health Performance Center Turf 2
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28294-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago at Bavarian United SC
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29840-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T150000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30056-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T184500Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago at Club Ohio
+LOCATION:Jennings Sports Park Turf #4
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30550-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago vs Shattuck-St. Mary's
+LOCATION:Bridgeview Sports Fields - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32148-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 Sockers FC Chicago at Sporting Kansas City (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show=soc
+ kers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32583-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T200000Z
+DURATION:PT2H
+SUMMARY:U16 Sockers FC Chicago vs SC Wave (Flex)
+LOCATION:Bridgeview Sports Fields - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U16&conf=mid-america&show=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33023-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Sockers FC Chicago at Chicago FC United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show=soc
+ kers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33438-flex-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 Sockers FC Chicago at St. Louis City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show=soc
+ kers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34264-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 Sockers FC Chicago at Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34580-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 Sockers FC Chicago vs Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34786-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U16 Sockers FC Chicago vs Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35178-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U16 Sockers FC Chicago at SC Wave
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35397-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 Sockers FC Chicago at Indy Eleven
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35633-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U16 Sockers FC Chicago at Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36059-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U16 Sockers FC Chicago vs Chicago FC United
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36348-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Sockers FC Chicago at Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36829-6034@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U16 Sockers FC Chicago vs Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&sho
+ w=sockers-fc-chicago
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-america&show
+ =sockers-fc-chicago
+END:VEVENT
+END:VCALENDAR

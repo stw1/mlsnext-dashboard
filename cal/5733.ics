@@ -1,0 +1,335 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sol SC Florida U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26023-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T200000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs One FC (L 1–2)
+LOCATION:The National Training Center - NTC 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26391-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida at IMG (W 5–1)
+LOCATION:IMG Academy Field - #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26850-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs West Florida Flames (W 3–0)
+LOCATION:The National Training Center - NTC 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27294-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida at Weston FC (W 3–0)
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27686-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T220000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs IdeaSport SA
+LOCATION:The National Training Center - NTC 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29583-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T200000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs Jacksonville FC
+LOCATION:The National Training Center - NTC 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28247-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T203000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida at Miami Futbol Academy Rush
+LOCATION:Westwind Lakes Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29179-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T180000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs Seminole United
+LOCATION:The National Training Center - NTC 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30016-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T230000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida at One FC
+LOCATION:STU Soccer Field - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30490-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T213000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs Miami Futbol Academy Rush
+LOCATION:The National Training Center - NTC 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31072-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U13 Sol SC Florida at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31233-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T193000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida at Jacksonville FC
+LOCATION:Patton Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31442-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T180000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs South Florida Football Academy
+LOCATION:The National Training Center - NTC 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31624-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T140000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs Orlando City Soccer School South
+LOCATION:The National Training Center - NTC 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31740-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T170000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs Inter Miami CF
+LOCATION:The National Training Center - NTC 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32098-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T210000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs Athletum FC Academy
+LOCATION:The National Training Center - NTC 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32520-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 Sol SC Florida at Seminole United
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32747-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 Sol SC Florida vs Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32951-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 Sol SC Florida at Inter Miami CF
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33396-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 Sol SC Florida at IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33802-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T180000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida at West Florida Flames
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34219-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 Sol SC Florida vs IMG
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34499-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 Sol SC Florida at Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34969-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 Sol SC Florida vs Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35359-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 Sol SC Florida at South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36016-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 Sol SC Florida at Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol-sc
+ -florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36280-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T140000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida at Orlando City Soccer School South
+LOCATION:NorthEast Regional Park - Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36654-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T160000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs Weston FC
+LOCATION:The National Training Center - NTC 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+END:VCALENDAR

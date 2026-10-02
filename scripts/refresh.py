@@ -23,6 +23,12 @@ PRIOR_WEIGHT, PRIOR_MODE = 0.75, "avg"
 FIELDS = ["age", "conference", "comp", "match_id", "start", "home_id", "away_id", "home_team", "away_team",
           "home_score", "away_score", "venue", "pens"]
 
+SITE = "https://stw1.github.io/mlsnext-dashboard/"  # used in calendar links
+# Footer "Report a problem" link: a form URL (e.g. a Google Form) or an email address. "" = no link.
+FEEDBACK = ""
+# GoatCounter site code for a privacy-friendly visit count (https://<code>.goatcounter.com). "" = no counting.
+COUNTER = ""
+
 def get_json(url):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=120) as r:
@@ -142,6 +148,70 @@ def load():
     groups = json.load(open(gpath)) if os.path.exists(gpath) else []
     return brackets, games, meta, groups
 
+def slug_conf(c):  # same as the page's slugC: "West (Pro Player Pathway)" -> "west-pro-player-pathway"
+    return re.sub(r"\s+", "-", re.sub(r"[()]", "", c.lower()).strip())
+
+def slug_team(n):  # same as the page's slugT
+    return re.sub(r"[^a-z0-9]+", "-", n.lower().replace("&", " and ")).strip("-")
+
+def write_calendars(brackets, games):
+    """cal/<squad id>.ics for every team: its league and Flex games, results in the title once played. Calendar apps
+    subscribe to these (webcal://), so changed kickoff times and new results reach phones without re-downloading.
+    Nothing time-dependent goes in (fixed DTSTAMP), so a file only changes when its games do."""
+    out = f"{ROOT}/cal"
+    os.makedirs(out, exist_ok=True)
+    for f in os.listdir(out):
+        if f.endswith(".ics"):
+            os.remove(f"{out}/{f}")
+    where = {sid: b for b in brackets for sid in b["teams"]}
+    tx = lambda t: re.sub(r"([\\,;])", r"\\\1", str(t)).replace("\n", "\\n")
+    def fold(line):  # RFC 5545: lines of at most 75 octets, continuation lines start with a space
+        b, parts = line.encode(), []
+        while len(b) > (75 if not parts else 74):
+            cut = 75 if not parts else 74
+            while (b[cut] & 0xC0) == 0x80:  # don't split a UTF-8 character
+                cut -= 1
+            parts.append(b[:cut]); b = b[cut:]
+        parts.append(b)
+        return "\r\n ".join(x.decode() for x in parts)
+    mine = {}
+    for g in games:
+        for side in ("home", "away"):
+            if g[f"{side}_id"] in where:
+                mine.setdefault(g[f"{side}_id"], {})[str(g["match_id"]) + g.get("comp", "league")] = g
+    for sid, b in where.items():
+        name, age = b["teams"][sid], b["age"]
+        page = f"{SITE}?age={age}&conf={slug_conf(b['conf'])}&show={slug_team(name)}"
+        ev = []
+        for g in sorted(mine.get(sid, {}).values(), key=lambda g: g["start"]):
+            home = g["home_id"] == sid
+            opp_id = g["away_id"] if home else g["home_id"]
+            ob = where.get(opp_id)
+            opp = (ob["teams"][opp_id] + (f" {ob['age']}" if ob["age"] != age else "")) if ob else (g["away_team"] if home else g["home_team"])
+            flex = g.get("comp") == "flex"
+            res = ""
+            if str(g["home_score"]) != "":
+                f, a = (int(g["home_score"]), int(g["away_score"])) if home else (int(g["away_score"]), int(g["home_score"]))
+                res = f" ({'W' if f > a else 'L' if f < a else 'D'} {f}–{a}"
+                if g.get("pens"):
+                    hp, ap = g["pens"].split("-"); pf, pa = (hp, ap) if home else (ap, hp)
+                    res += f", {'won' if int(pf) > int(pa) else 'lost'} {pf}–{pa} on pens"
+                res += ")"
+            start = g["start"]
+            when = ([f"DTSTART;VALUE=DATE:{start.replace('-', '')}"] if len(start) == 10 else
+                    [f"DTSTART:{start.replace('-', '').replace(':', '').replace('Z', '00Z')}", "DURATION:PT2H"])
+            title = f"{age} {name} {'vs' if home else 'at'} {opp}" + (" (Flex)" if flex else "") + res
+            desc = f"MLS NEXT {'Flex' if flex else 'Homegrown'} · {age} {b['conf']}" + (" · kickoff time not set yet" if len(start) == 10 else "")
+            ev += ["BEGIN:VEVENT", f"UID:mlsnext-{g['match_id']}{'-flex' if flex else ''}-{sid}@stw1.github.io", "DTSTAMP:20260801T000000Z", *when,
+                   f"SUMMARY:{tx(title)}",
+                   *([f"LOCATION:{tx(g['venue'])}"] if g.get("venue") else []),
+                   f"DESCRIPTION:{tx(desc)}\\n{tx(page)}", f"URL:{page}", "END:VEVENT"]
+        cal = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//mlsnext-dashboard//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+               f"X-WR-CALNAME:{tx(f'{name} {age} · MLS NEXT')}", "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
+               "X-PUBLISHED-TTL:PT6H", *ev, "END:VCALENDAR"]
+        with open(f"{out}/{sid}.ics", "w", newline="") as fh:
+            fh.write("\r\n".join(fold(l) for l in cal) + "\r\n")
+
 def build(brackets, games, meta, default, groups=()):
     tpl = open(f"{ROOT}/template/dashboard_template.html").read()
     # league and Flex games: id,start,home,away,hs,as,venue# . A game is listed in the bracket of each of our teams
@@ -172,6 +242,7 @@ def build(brackets, games, meta, default, groups=()):
             if r[0] not in known:
                 xnames.setdefault(r[0], r[1])
     data = {"default": {"age": dage, "conf": dconf}, "snap": meta["snapshot"], "venues": venues, "xnames": xnames,
+            "feedback": FEEDBACK, "counter": COUNTER,
             "opos": {sid: p for b in brackets for sid, p in b.get("pos", {}).items()},
             "fgroups": [[gr["age"], gr["name"], [[r[0]] + r[2:] for r in gr["rows"]]] for gr in groups],
             "brackets": [{"age": b["age"], "conf": b["conf"], "teams": b["teams"],
@@ -192,8 +263,9 @@ def build(brackets, games, meta, default, groups=()):
                    .replace("__TITLE__", "MLS NEXT Homegrown Division dashboard").replace("__SEASON__", season_text))
     html = page(data, f"{current} season")
     open(f"{ROOT}/index.html", "w").write(html)
+    write_calendars(brackets, games)
     for s in past:
-        d = pastseasons.past_data(s, default); d["seasons"] = data["seasons"]
+        d = pastseasons.past_data(s, default); d["seasons"] = data["seasons"]; d["feedback"], d["counter"] = FEEDBACK, COUNTER
         before = [x for x in past if x < s]
         if before and PRIOR_WEIGHT:  # the replayed accuracy of a past season also starts from the season before it
             pri = pastseasons.priors(d["brackets"], before[0], PRIOR_WEIGHT, PRIOR_MODE)

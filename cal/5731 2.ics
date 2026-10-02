@@ -1,0 +1,304 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FC Bay Area Surf U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26986-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T200000Z
+DURATION:PT2H
+SUMMARY:U16 FC Bay Area Surf vs Lamorinda Soccer Club (W 3–1)
+LOCATION:Willow Glen High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26531-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T200000Z
+DURATION:PT2H
+SUMMARY:U16 FC Bay Area Surf at Sacramento Republic FC (L 2–3)
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27392-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T200000Z
+DURATION:PT2H
+SUMMARY:U16 FC Bay Area Surf at Atletico Santa Rosa (Flex) (W 3–2)
+LOCATION:El Molino High School
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28383-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T200000Z
+DURATION:PT2H
+SUMMARY:U16 FC Bay Area Surf vs Silicon Valley Soccer Academy (Flex)
+LOCATION:Willow Glen High School - Stadium Field
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28895-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T200000Z
+DURATION:PT2H
+SUMMARY:U16 FC Bay Area Surf at Lamorinda Soccer Club (Flex)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29320-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T200000Z
+DURATION:PT2H
+SUMMARY:U16 FC Bay Area Surf at De Anza Force (Flex)
+LOCATION:De Anza College - Soccer Field
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27859-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T003000Z
+DURATION:PT2H
+SUMMARY:U16 FC Bay Area Surf at Portland Timbers (Flex)
+LOCATION:Portland Timbers Training Facility - Training Turf
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29715-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T210000Z
+DURATION:PT2H
+SUMMARY:U16 FC Bay Area Surf vs ALBION SC Merced (Flex)
+LOCATION:Oak Grove High School
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30182-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T210000Z
+DURATION:PT2H
+SUMMARY:U16 FC Bay Area Surf at Woodside Soccer Club Crush
+LOCATION:Canada College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=fc-bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30996-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U16 FC Bay Area Surf at Seattle Sounders FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc-bay-
+ area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31111-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U16 FC Bay Area Surf at The Town FC Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc-bay-
+ area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31299-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U16 FC Bay Area Surf vs Modesto Ajax United
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31497-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U16 FC Bay Area Surf at Sacramento United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc-bay-
+ area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31663-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U16 FC Bay Area Surf vs The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31881-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U16 FC Bay Area Surf at Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32225-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 FC Bay Area Surf vs Woodside Soccer Club Crush (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc-bay-
+ area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32647-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 FC Bay Area Surf at ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33090-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 FC Bay Area Surf vs Sacramento Republic FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc-bay-
+ area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33509-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 FC Bay Area Surf at Modesto Ajax United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc-bay-
+ area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33916-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U16 FC Bay Area Surf vs San Francisco Glens SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc-bay-
+ area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34386-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 FC Bay Area Surf vs Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34667-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 FC Bay Area Surf at San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35083-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U16 FC Bay Area Surf vs De Anza Force
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35525-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 FC Bay Area Surf vs Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35939-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U16 FC Bay Area Surf at Ballistic United
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc
+ -bay-area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26117-flex-5731@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U16 FC Bay Area Surf vs Ballistic United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=fc-bay-
+ area-surf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=f
+ c-bay-area-surf
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,317 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Club Ohio U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26049-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T174500Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio vs Michigan Wolves (Flex) (L 1–4)
+LOCATION:Kilbourne Run Sports Park - Turf #6
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26644-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T160000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Toronto FC (Flex) (W 2–0)
+LOCATION:BMO Training Ground - City View Field
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27123-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T160000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Michigan Jaguars (Flex) (D 1–1\, won 4–3 on pe
+ ns)
+LOCATION:North Farmington High School – Training Turf
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27336-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T190000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Hoosier Premier (W 5–2)
+LOCATION:Trinity Sports Park - Indy Premier Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27528-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T153000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio vs AC Grand Rapids (Flex) (D 1–1\, lost 3–4 on pe
+ ns)
+LOCATION:Dublin Coffman High School - Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27766-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T173000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at FC Cincinnati (Flex)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27983-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T193000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Cincinnati United Soccer Club (Flex)
+LOCATION:Seven Hills High School - Lower Field
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28528-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T160000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Midwest United FC (Flex)
+LOCATION:Midwest United FC Complex - South Field
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28791-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T174500Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio vs Michigan Jaguars
+LOCATION:Kilbourne Run Sports Turf #4
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29024-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T134500Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio vs Lou Fusz Athletic
+LOCATION:Kilbourne Run Sports Turf #4
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29406-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Columbus Crew (Flex)
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32138-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T200000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at SC Wave
+LOCATION:Mindiola Sports Complex - Mindiola Turf West
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32333-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T160000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Bavarian United SC
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30057-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T164500Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio vs Sockers FC Chicago
+LOCATION:Jennings Sports Park Turf #5
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30279-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T164500Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio vs Chicago FC United
+LOCATION:Jennings Sports Park Turf #5
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30539-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T190000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at AC Grand Rapids
+LOCATION:MSA Fieldhouse #1
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32574-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U17 Club Ohio vs Vardar Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=clu
+ b-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33005-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Club Ohio vs Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29835-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T190000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Michigan Wolves
+LOCATION:Schoolcraft College - Outdoor Turf Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33622-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U17 Club Ohio vs Hoosier Premier (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=clu
+ b-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34277-flex-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T193000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Indy Eleven (Flex)
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35161-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U17 Club Ohio vs Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35656-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T161500Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at Shattuck-St. Mary's
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36036-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U17 Club Ohio vs Indy Eleven
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36361-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Club Ohio at Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36837-10501@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T160000Z
+DURATION:PT2H
+SUMMARY:U17 Club Ohio at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,260 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Austin FC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26431-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T190000Z
+DURATION:PT2H
+SUMMARY:U14 Austin FC vs AC River (W 5–2)
+LOCATION:St. David’s Performance Center – Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26603-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T140000Z
+DURATION:PT2H
+SUMMARY:U14 Austin FC vs SGA (W 4–1)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27725-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T203000Z
+DURATION:PT2H
+SUMMARY:U14 Austin FC vs Capital City SC
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29207-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T211500Z
+DURATION:PT2H
+SUMMARY:U14 Austin FC at Capital City SC
+LOCATION:Round Rock Multipurpose Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29398-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U14 Austin FC vs Real Salt Lake
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30035-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T180000Z
+DURATION:PT2H
+SUMMARY:U14 Austin FC vs Tulsa Greenwood SC
+LOCATION:St. David’s Performance Center – Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30268-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T190000Z
+DURATION:PT2H
+SUMMARY:U14 Austin FC vs Dallas Hornets
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30523-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U14 Austin FC at Houston Dynamo FC
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31266-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U14 Austin FC vs GFI Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31370-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U14 Austin FC vs FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31653-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U14 Austin FC at SGA
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31991-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U14 Austin FC vs ALBION SC Colorado
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32124-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U14 Austin FC at Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32539-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T180000Z
+DURATION:PT2H
+SUMMARY:U14 Austin FC at AC River
+LOCATION:Soccer Central - Field #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33410-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 Austin FC vs Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33609-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U14 Austin FC vs Houston Dynamo FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34545-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U14 Austin FC at Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34766-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Austin FC at FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34991-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U14 Austin FC at GFI Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35381-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 Austin FC at Tulsa Greenwood SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36218-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U14 Austin FC at ALBION SC Colorado
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36318-6195@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Austin FC at Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=aust
+ in-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=au
+ stin-fc
+END:VEVENT
+END:VCALENDAR

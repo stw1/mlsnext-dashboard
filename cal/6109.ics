@@ -1,0 +1,300 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Beadling SC U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26075-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T180000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC at Keystone FC (W 3–1)
+LOCATION:Bermudian Springs High School - Softball/Field Hockey
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26248-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T140000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC at Penn Rising XI (L 1–2)
+LOCATION:J Birney Crum - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27152-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T160000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs Alexandria SA (L 0–4)
+LOCATION:Highlands Sports Complex - Indoor Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27789-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T140000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs Northern Virginia Alliance (L 0–4)
+LOCATION:Highlands Sports Complex - Outdoor Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28097-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T130000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs PA Classics
+LOCATION:Southpointe Fieldhouse - Indoor Complex
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28545-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T130000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs Achilles FC
+LOCATION:Southpointe Fieldhouse - Indoor Complex
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32276-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T140000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs Springfield SYC
+LOCATION:Kiski Area Prep High School - Football Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29245-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T150000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs Philadelphia Union
+LOCATION:Southpointe Fieldhouse - Indoor Complex
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29505-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T143000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs Bethesda SC
+LOCATION:Southpointe Fieldhouse - Indoor Complex
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29869-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T150000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC at Baltimore Armour
+LOCATION:Covenant Park - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32701-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T140000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs Sporting Athletic Club
+LOCATION:Seneca Valley High School - Myers Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30832-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T140000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs Cedar Stars Academy Monmouth
+LOCATION:Seneca Valley High School - Myers Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30415-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T150000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC at Sporting Athletic Club
+LOCATION:Chase Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32051-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U13 Beadling SC at Coppermine SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33049-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 Beadling SC at The Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33298-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U13 Beadling SC at Players Development Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33443-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 Beadling SC at Bethesda SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26687-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270314T130000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC at Achilles FC
+LOCATION:Maryland SoccerPlex - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34160-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U13 Beadling SC vs Real Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34413-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T140000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC vs Baltimore Armour
+LOCATION:Kiski Area Prep High School - Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35210-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 Beadling SC at Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34812-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T140000Z
+DURATION:PT2H
+SUMMARY:U13 Beadling SC at Northern Virginia Alliance
+LOCATION:Lightridge High School - Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35693-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 Beadling SC vs FC DELCO
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35988-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 Beadling SC vs Coppermine SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36530-6109@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 Beadling SC at Springfield SYC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=beadling-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=beadling-sc
+END:VEVENT
+END:VCALENDAR

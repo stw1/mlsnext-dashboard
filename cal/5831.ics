@@ -1,0 +1,313 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lamorinda Soccer Club U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26125-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs Sacramento United (Flex) (L 0–3)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26515-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club at ALBION SC Merced (Flex) (L 2–3)
+LOCATION:El Capitan High School
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26988-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club at FC Bay Area Surf (L 1–4)
+LOCATION:Willow Glen High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27400-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs De Anza Force (Flex) (L 1–3)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27858-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs ALBION SC Merced
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28391-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs San Francisco Glens SC
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28897-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs FC Bay Area Surf (Flex)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29342-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club at Silicon Valley Soccer Academy (Flex)
+LOCATION:Mayfield Soccer Complex - Mayfield North
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29723-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs Atletico Santa Rosa (Flex)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30159-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club at Sacramento United
+LOCATION:Rosemont High School
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30656-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club at Ballistic United (Flex)
+LOCATION:Stanford Medical Sports Complex - West
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31095-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U19 Lamorinda Soccer Club at Modesto Ajax United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31295-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 Lamorinda Soccer Club at De Anza Force
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31493-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T170000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs Sacramento Republic FC
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31680-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U19 Lamorinda Soccer Club at San Francisco Glens SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=lamorin
+ da-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31888-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 Lamorinda Soccer Club at Vancouver Whitecaps FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=lamorin
+ da-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32233-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T170000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs The Town FC Academy (Flex)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32686-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 Lamorinda Soccer Club at San Jose Earthquakes (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=lamorin
+ da-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33098-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T170000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs Modesto Ajax United (Flex)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33936-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club at Woodside Soccer Club Crush (Flex)
+LOCATION:Canada College - Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34394-flex-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 Lamorinda Soccer Club at Sacramento Republic FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=lamorin
+ da-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34655-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs Woodside Soccer Club Crush
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35079-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 Lamorinda Soccer Club at Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35533-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs Silicon Valley Soccer Academy
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35959-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 Lamorinda Soccer Club at The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36478-5831@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T160000Z
+DURATION:PT2H
+SUMMARY:U19 Lamorinda Soccer Club vs Ballistic United
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+END:VCALENDAR

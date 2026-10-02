@@ -1,0 +1,283 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:De Anza Force U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26522-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T200000Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force vs The Town FC Academy (W 3–0)
+LOCATION:De Anza College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26977-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T200000Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force at Ballistic United (W 5–2)
+LOCATION:Stanford Medical Sports Complex - East
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27395-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T020000Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force at Lamorinda Soccer Club (W 5–2)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27847-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T180000Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force vs Atletico Santa Rosa
+LOCATION:Adrian Wilcox High School - Practice Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28392-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T020000Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force at Modesto Ajax United
+LOCATION:Mary Grogan Community Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28886-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force vs San Francisco Glens SC
+LOCATION:De Anza College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29317-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T220000Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force vs FC Bay Area Surf
+LOCATION:De Anza College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30160-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T011000Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force at San Francisco Glens SC
+LOCATION:Crocker Amazon Soccer Field - 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30663-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T024500Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force at Sacramento Republic FC
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30970-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U13 De Anza Force vs Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31084-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U13 De Anza Force at ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31290-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 De Anza Force vs Lamorinda Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31482-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U13 De Anza Force vs Woodside Soccer Club Crush
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31863-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 De Anza Force vs Ballistic United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32662-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 De Anza Force vs Modesto Ajax United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33113-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 De Anza Force at Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33498-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 De Anza Force vs ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33925-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 De Anza Force at The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34407-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T200000Z
+DURATION:PT2H
+SUMMARY:U13 De Anza Force at Woodside Soccer Club Crush
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=de-anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34644-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 De Anza Force vs Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35080-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 De Anza Force at FC Bay Area Surf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35510-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 De Anza Force at Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35942-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 De Anza Force vs Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36491-5929@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 De Anza Force at Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=de
+ -anza-force
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=d
+ e-anza-force
+END:VEVENT
+END:VCALENDAR

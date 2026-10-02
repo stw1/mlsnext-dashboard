@@ -1,0 +1,342 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Triangle United Soccer Association U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-36380-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association vs Chattanooga FC (L 3–6)
+LOCATION:Soccer.com - #3
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-associa
+ tion
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26752-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T150000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Charlotte FC (Flex) (L 0
+ –8)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36927-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T150000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Inter Atlanta FC (L 0–8
+ )
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-associa
+ tion
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36852-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T160000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at AFC Lightning (L 1–4)
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-associa
+ tion
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27893-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T170000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association vs Hoover-Vestavia Soccer (F
+ lex) (D 2–2\, won 4–3 on pens)
+LOCATION:Soccer.com - #3
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34606-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T170000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Queen City Mutiny FC
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-associa
+ tion
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29492-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T130000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Southern Soccer Academy (
+ Flex)
+LOCATION:Franklin Gateway sports complex - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29756-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at KSA (Flex)
+LOCATION:Rock Springs Park - RSP 3
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27421-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T140000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association vs Wake FC
+LOCATION:Soccer.com - #4
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-associa
+ tion
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28224-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Nashville SC (Flex)
+LOCATION:The Gold Mine - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30203-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T180000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Carolina Core FC (Flex)
+LOCATION:Phillips Park Soccer Complex Field #1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30815-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Nashville United Soccer A
+ cademy (NUSA Next) (Flex)
+LOCATION:Centennial High School Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30395-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T140000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association vs Charlotte Independence So
+ ccer Club (Flex)
+LOCATION:Pleasant Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26335-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T140000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Wake FC (Flex)
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28024-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U16 Triangle United Soccer Association at Chattanooga FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=triangl
+ e-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32025-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U16 Triangle United Soccer Association vs Lanier Soccer Association
+  (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=triangl
+ e-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32253-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U16 Triangle United Soccer Association vs Southern Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=tr
+ iangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32598-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U16 Triangle United Soccer Association vs Carolina Core FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=tr
+ iangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32789-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T200000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Hoover-Vestavia Soccer
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-associa
+ tion
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32880-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270228T140000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Atlanta United (Flex)
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33231-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Triangle United Soccer Association vs AFC Lightning (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=triangl
+ e-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33734-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 Triangle United Soccer Association vs Nashville United Soccer A
+ cademy (NUSA Next)
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=tr
+ iangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33957-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U16 Triangle United Soccer Association vs Inter Atlanta FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=triangl
+ e-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28833-flex-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U16 Triangle United Soccer Association vs Queen City Mutiny FC (Fle
+ x)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=triangl
+ e-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34798-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 Triangle United Soccer Association vs KSA
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=tr
+ iangle-united-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35565-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T170000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Lanier Soccer Association
+LOCATION:ALLEN CREEK SOCCER COMPLEX - FIELD 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-associa
+ tion
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36705-6274@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T150000Z
+DURATION:PT2H
+SUMMARY:U16 Triangle United Soccer Association at Charlotte Independence So
+ ccer Club
+LOCATION:Bradford Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=triangle-united-soccer-associa
+ tion
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=t
+ riangle-united-soccer-association
+END:VEVENT
+END:VCALENDAR

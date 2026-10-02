@@ -1,0 +1,295 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:San Jose Earthquakes U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26543-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T183000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes vs Modesto Ajax United (Flex) (W 7–0)
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=san-j
+ ose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27084-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes vs Los Angeles Football Club (W 3–0)
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=
+ san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27939-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T183000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes at LA Galaxy
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=
+ san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28484-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T183000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes vs Seattle Sounders FC
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=
+ san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28907-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T183000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes vs Sacramento Republic FC (Flex)
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=san-j
+ ose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27500-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T183000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes vs Portland Timbers
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=
+ san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29393-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T183000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes vs Real Salt Lake
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=
+ san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29805-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T203000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes at Vancouver Whitecaps FC
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=
+ san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30169-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T193000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes vs ALBION SC Merced (Flex)
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=san-j
+ ose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30675-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T203000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes at Vancouver Whitecaps FC (Flex)
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=san-j
+ ose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30994-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U17 San Jose Earthquakes vs The Town FC Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-p
+ ro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31097-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U17 San Jose Earthquakes at Portland Timbers (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-p
+ ro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28216-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270116T170000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes at San Diego FC U16
+LOCATION:Sharp Healthcare Performance Center - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=
+ san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31309-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U17 San Jose Earthquakes vs Seattle Sounders FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-p
+ ro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31559-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U17 San Jose Earthquakes vs San Diego FC U16
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=w
+ est-pro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31684-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U17 San Jose Earthquakes vs Sacramento United (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-p
+ ro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31982-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U17 San Jose Earthquakes at Portland Timbers
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=w
+ est-pro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32312-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U17 San Jose Earthquakes vs Vancouver Whitecaps FC
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=w
+ est-pro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32685-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U17 San Jose Earthquakes vs Lamorinda Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-p
+ ro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33108-flex-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 San Jose Earthquakes vs Atletico Santa Rosa (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-p
+ ro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33598-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 San Jose Earthquakes at Seattle Sounders FC
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=w
+ est-pro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35146-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U17 San Jose Earthquakes at Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=w
+ est-pro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35619-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 San Jose Earthquakes at Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=w
+ est-pro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36611-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 San Jose Earthquakes vs LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=w
+ est-pro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,308 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ALBION SC Merced U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26148-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T170000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced at Silicon Valley Soccer Academy (L 0–1)
+LOCATION:Mayfield Soccer Complex - Mayfield North
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26515-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced vs Lamorinda Soccer Club (Flex) (W 3–2)
+LOCATION:El Capitan High School
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26976-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced vs San Francisco Glens SC (Flex) (W 2–1)
+LOCATION:McNamara Park - 11v11
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27388-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced vs Silicon Valley Soccer Academy (Flex) (L 0
+ –2)
+LOCATION:McNamara Park - 11v11
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27858-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced at Lamorinda Soccer Club
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28406-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T170000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced at Vancouver Whitecaps FC (Flex)
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28903-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T160000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced at Sacramento United (Flex)
+LOCATION:Rosemont High School
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29310-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced vs The Town FC Academy
+LOCATION:El Capitan High School
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29717-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced at FC Bay Area Surf (Flex)
+LOCATION:Oak Grove High School
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30170-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced at San Jose Earthquakes (Flex)
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30644-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced vs Woodside Soccer Club Crush (Flex)
+LOCATION:El Capitan High School
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30981-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U19 ALBION SC Merced at Modesto Ajax United (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=albion-
+ sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31089-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U19 ALBION SC Merced vs De Anza Force (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=albion-
+ sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31289-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 ALBION SC Merced at Ballistic United (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=albion-
+ sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31475-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U19 ALBION SC Merced at Atletico Santa Rosa (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=albion-
+ sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31894-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T170000Z
+DURATION:PT2H
+SUMMARY:U19 ALBION SC Merced at Woodside Soccer Club Crush
+LOCATION:Canada College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=albion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32215-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U19 ALBION SC Merced vs Sacramento Republic FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=albion-
+ sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32649-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 ALBION SC Merced vs FC Bay Area Surf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=al
+ bion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33124-flex-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U19 ALBION SC Merced at The Town FC Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=albion-
+ sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33503-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 ALBION SC Merced at De Anza Force
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=al
+ bion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33906-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U19 ALBION SC Merced vs Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=al
+ bion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34400-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 ALBION SC Merced at San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=al
+ bion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34643-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U19 ALBION SC Merced vs Ballistic United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=al
+ bion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35097-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 ALBION SC Merced at Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=al
+ bion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35929-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 ALBION SC Merced vs Modesto Ajax United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=al
+ bion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36470-9712@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 ALBION SC Merced vs Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=al
+ bion-sc-merced
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ lbion-sc-merced
+END:VEVENT
+END:VCALENDAR

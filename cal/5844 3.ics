@@ -1,0 +1,338 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:West Florida Flames U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26002-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T170000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at Miami Futbol Academy Rush (L 1–5)
+LOCATION:Miami Dade College - Kendall Campus - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26419-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T200000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs Athletum FC Academy (W 2–0)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26851-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at Sol SC Florida (D 2–2)
+LOCATION:The National Training Center - NTC 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27289-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs Jacksonville FC (L 0–2)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34194-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T170000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at Athletum FC Academy
+LOCATION:JCC Posnack - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28268-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T190000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs IdeaSport SA
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31803-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T170000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs Weston FC
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27945-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T170000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at Inter Miami CF
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29192-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs South Florida Football Academy
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31079-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T150000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs IMG
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30029-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T180000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs Tampa Bay United
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30471-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T150000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at IdeaSport SA
+LOCATION:North East Regional Park - NERP #3
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31248-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T220000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs One FC
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31449-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U14 West Florida Flames at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=west-f
+ lorida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31561-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U14 West Florida Flames at Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=west-f
+ lorida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31631-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T220000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs Miami Futbol Academy Rush
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32506-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T180000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at IMG
+LOCATION:IMG Academy Field - 11
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32970-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T200000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs Seminole United
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33391-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T180000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at Orlando City Soccer School South
+LOCATION:NorthEast Regional Park - Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33605-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U14 West Florida Flames vs Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=west-f
+ lorida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33803-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 West Florida Flames vs Sol SC Florida
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=west-f
+ lorida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34532-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U14 West Florida Flames vs Orlando City Soccer School South
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=west-f
+ lorida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34976-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T210000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at Weston FC
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32105-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T130000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at South Florida Football Academy
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35809-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U14 West Florida Flames at Jacksonville FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=west-f
+ lorida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36216-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270501T180000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames vs Inter Miami CF
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36643-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U14 West Florida Flames at One FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=west-f
+ lorida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29578-5844@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T200000Z
+DURATION:PT2H
+SUMMARY:U14 West Florida Flames at Seminole United
+LOCATION:Seminole Soccer Complex - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U14&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+END:VCALENDAR

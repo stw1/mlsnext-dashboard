@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Southern Soccer Academy U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26747-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T170000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy at Hoover-Vestavia Soccer (W 1–0)
+LOCATION:Hoover East Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27021-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T130000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Nashville United Soccer Academy (NUS
+ A Next) (W 1–0)
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27210-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T150000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Chattanooga FC (L 0–6)
+LOCATION:Marathon Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27559-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy at Wake FC (L 0–5)
+LOCATION:Ting Park - Ting Park 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28118-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T170000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs KSA
+LOCATION:Mud Creek Soccer Complex - 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28656-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T170000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Hoover-Vestavia Soccer
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35278-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T130000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Wake FC
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28951-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy at Atlanta United
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29446-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T130000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Triangle United Soccer Association
+LOCATION:Franklin Gateway sports complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29658-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T140000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Carolina Core FC
+LOCATION:Franklin Gateway sports complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29915-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T140000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy at Lanier Soccer Association
+LOCATION:Allen Creek Soccer Complex  - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30345-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T140000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Huntsville City FC
+LOCATION:Marathon Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30879-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U14 Southern Soccer Academy at Chattanooga FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=so
+ uthern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35131-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T140000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Charlotte Independence Soccer Club
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31917-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U14 Southern Soccer Academy at Carolina Core FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=so
+ uthern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32062-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U14 Southern Soccer Academy at Triangle United Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=so
+ uthern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32454-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T140000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Lanier Soccer Association
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32710-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T160000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy at Charlotte Independence Soccer Club
+LOCATION:Richard Barry Memorial Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33309-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T140000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Queen City Mutiny FC
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33664-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T160000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy at AFC Lightning
+LOCATION:McCurry Park South - Field 24
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34287-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U14 Southern Soccer Academy at Inter Atlanta FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=so
+ uthern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34442-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T130000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs AFC Lightning
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35754-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T130000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Inter Atlanta FC
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36063-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T180000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy at Nashville United Soccer Academy (NUS
+ A Next)
+LOCATION:Oakland High School - Oakland High School Turf
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36162-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 Southern Soccer Academy at Huntsville City FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=so
+ uthern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36509-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270502T130000Z
+DURATION:PT2H
+SUMMARY:U14 Southern Soccer Academy vs Atlanta United
+LOCATION:Marathon Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=southern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36541-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Southern Soccer Academy at Queen City Mutiny FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=so
+ uthern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36918-6320@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U14 Southern Soccer Academy at KSA
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=so
+ uthern-soccer-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=s
+ outhern-soccer-academy
+END:VEVENT
+END:VCALENDAR

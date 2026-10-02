@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SoCal Reds FC U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26373-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T180000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC at Total Futbol Academy (Flex) (L 1–2)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26589-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T180000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC at Ventura County Fusion (Flex) (L 0–2)
+LOCATION:Ventura College - Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27488-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T000000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC vs City SC Southwest (W 5–0)
+LOCATION:Orange County Great Park  - OC Great Park Soccer Field #12
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27672-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T200000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC vs SC Del Sol (D 1–1)
+LOCATION:Orange County Great Park - Field #13 - Orange County Great Park
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27928-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T180000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC at Los Angeles Sports Club (Flex)
+LOCATION:West Covina High School Turf Field
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28979-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC vs LA Surf Soccer Club (Flex)
+LOCATION:Oak Creek Community Park - Field A
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29537-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T190000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC vs Los Angeles Sports Club
+LOCATION:Orange County Great Park  - OC Great Park Soccer Field #12
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29953-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC at City SC - San Diego
+LOCATION:Pine Community Park - Pine Community Park
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30243-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T200000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC vs ALBION SC San Diego
+LOCATION:Oak Creek Community Park - Field A
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30717-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC at Barca Residency Academy
+LOCATION:Grande Sports World - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30919-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T210000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC at RSL Arizona
+LOCATION:Bell Road Sports Complex - Field #14
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31154-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U17 SoCal Reds FC at LA Galaxy (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=socal-r
+ eds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31037-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270117T190000Z
+DURATION:PT2H
+SUMMARY:U17 SoCal Reds FC at LA Surf Soccer Club
+LOCATION:San Mateo High School Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=socal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31406-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U17 SoCal Reds FC vs Los Angeles Bulls Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=socal-r
+ eds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31600-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U17 SoCal Reds FC at Santa Barbara Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=socal-r
+ eds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31718-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U17 SoCal Reds FC vs Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31766-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270207
+SUMMARY:U17 SoCal Reds FC vs Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31955-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U17 SoCal Reds FC vs Strikers FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=socal-r
+ eds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32482-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U17 SoCal Reds FC vs Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32917-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U17 SoCal Reds FC at Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33584-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 SoCal Reds FC at Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33997-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U17 SoCal Reds FC at FC Golden State Force (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=socal-r
+ eds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34497-flex-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U17 SoCal Reds FC vs Albion SC Los Angeles (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=socal-r
+ eds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34714-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 SoCal Reds FC at Albion SC Las Vegas
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34923-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U17 SoCal Reds FC at Las Vegas Sports Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35301-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U17 SoCal Reds FC at Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35608-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 SoCal Reds FC vs FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36211-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U17 SoCal Reds FC vs Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36599-9757@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 SoCal Reds FC vs Santa Barbara Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=so
+ cal-reds-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=s
+ ocal-reds-fc
+END:VEVENT
+END:VCALENDAR

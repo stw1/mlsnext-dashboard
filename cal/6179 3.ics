@@ -1,0 +1,298 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bethesda SC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26323-flex-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T140000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC vs Sporting Athletic Club (Flex) (L 2–3)
+LOCATION:Maryland SoccerPlex - Field 7
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26765-flex-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC at Alexandria SA (Flex) (D 1–1\, won 4–1 on pen
+ s)
+LOCATION:Witter Field - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26929-flex-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T183000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC at Springfield SYC (Flex) (L 1–2)
+LOCATION:Loisdale Park - Turf
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28025-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T170000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC at FC DELCO
+LOCATION:The Proving Grounds - 6
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28830-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T190000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC at Real Futbol Academy
+LOCATION:Bob Bende Soccer Complex - Capelli Turf (Near Road)
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29063-flex-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T143000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC vs Coppermine SC (Flex)
+LOCATION:Maryland SoccerPlex - Field #15
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29751-flex-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T183000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC at Beadling SC (Flex)
+LOCATION:Southpointe Fieldhouse - Indoor Complex
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29927-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T140000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC vs The Football Academy
+LOCATION:Maryland SoccerPlex - Field 14
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30202-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T140000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC vs Penn Rising XI
+LOCATION:Maryland SoccerPlex - Field 9
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32162-flex-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T183000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC at D.C. United (Flex)
+LOCATION:Segra Field - Segra Field
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30582-flex-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T200000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC at Northern Virginia Alliance (Flex)
+LOCATION:Lightridge High School - Turf Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31835-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T010000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC vs Springfield SYC
+LOCATION:Maryland SoccerPlex - Field 14
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32372-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 Bethesda SC vs Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32883-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U16 Bethesda SC at Coppermine SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27611-flex-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U16 Bethesda SC vs Achilles FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=b
+ ethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33454-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U16 Bethesda SC at Cedar Stars Academy Monmouth
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33446-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 Bethesda SC vs Beadling SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34134-flex-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U16 Bethesda SC vs Baltimore Armour (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=b
+ ethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34609-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T180000Z
+DURATION:PT2H
+SUMMARY:U16 Bethesda SC at Sporting Athletic Club
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34887-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U16 Bethesda SC at Baltimore Armour
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35190-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U16 Bethesda SC vs Northern Virginia Alliance
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35670-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 Bethesda SC vs Players Development Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35881-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U16 Bethesda SC vs Keystone FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36378-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U16 Bethesda SC at PA Classics
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36704-6179@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Bethesda SC at Achilles FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=bethesda-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=bethesda-sc
+END:VEVENT
+END:VCALENDAR

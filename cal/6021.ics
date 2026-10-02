@@ -1,0 +1,299 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Seacoast United U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26280-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T150000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United at FA Euro New York (W 4–1)
+LOCATION:College of Staten Island - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26732-flex-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T150000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United at NEFC (Flex) (W 2–1)
+LOCATION:NEFC Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28053-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T204500Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United at Cedar Stars Academy Bergen
+LOCATION:FDU Soccer Field - Teaneck
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28371-flex-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T173000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United at New England Revolution (Flex)
+LOCATION:Revolution Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U16 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28616-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T133000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United vs FC Westchester
+LOCATION:Seacoast United Epping Outdoor Complex - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28849-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T191500Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United at Metropolitan Oval
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29079-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T160000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United at Downtown United Soccer Club
+LOCATION:Queens College - Queens College
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29472-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T204500Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United vs FC Greater Boston Bolts
+LOCATION:Seacoast United Epping Outdoor Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29908-flex-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T183000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United at CF Montreal (Flex)
+LOCATION:Centre Nutrilait - Centre Nutrilait Academy Turf
+DESCRIPTION:MLS NEXT Flex · U16 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30135-flex-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T193000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United vs Valeo Futbol Club (Flex)
+LOCATION:Seacoast United Epping Outdoor Complex - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30630-flex-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United at FC Greater Boston Bolts (Flex)
+LOCATION:UMass Mount Ida - Stadium
+DESCRIPTION:MLS NEXT Flex · U16 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32204-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 Seacoast United vs Connecticut United FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32635-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 Seacoast United vs The Island FC West
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33251-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T180000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United at Bayside FC
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33480-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 Seacoast United at TSF Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33683-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U16 Seacoast United at Ironbound Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34120-flex-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U16 Seacoast United vs Intercontinental Football Academy of New Eng
+ land (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=seacoas
+ t-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34346-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 Seacoast United vs New York SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34621-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 Seacoast United at Beachside of Connecticut
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35503-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 Seacoast United vs The Island FC East
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35732-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U16 Seacoast United vs Blau Weiss Gottschee
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36131-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U16 Seacoast United vs NEFC
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36427-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Seacoast United at Intercontinental Football Academy of New Eng
+ land
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36777-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U16 Seacoast United at Valeo Futbol Club
+DESCRIPTION:MLS NEXT Homegrown · U16 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=se
+ acoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27600-flex-6021@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T183000Z
+DURATION:PT2H
+SUMMARY:U16 Seacoast United vs Bayside FC (Flex)
+LOCATION:Seacoast United Epping Outdoor Complex - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northeast&show=seacoast-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northeast&show=s
+ eacoast-united
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,302 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Indy Eleven U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-33198-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs Michigan Wolves (W 3–1)
+LOCATION:Grand Park Sports Campus - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26620-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs Vardar Soccer Club (L 1–3)
+LOCATION:Grand Park Sports Campus - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26886-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven at FC Cincinnati (D 1–1)
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27097-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T130000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven at Cincinnati United Soccer Club (L 0–5)
+LOCATION:Seven Hills High School - Lower Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27520-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T140000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven at Midwest United FC (D 3–3)
+LOCATION:Midwest United FC Complex - North Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28520-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T130000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven at Vardar Soccer Club
+LOCATION:Oakland University - Stadium Track
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28795-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs Chicago FC United
+LOCATION:Grand Park Sports Campus - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29032-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs Midwest United FC
+LOCATION:Grand Park Sports Campus - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29220-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs Cincinnati United Soccer Club
+LOCATION:Grand Park Sports Campus - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29632-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T160000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs Sporting City
+LOCATION:Grand Park Sports Campus - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29829-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T160000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs AC Grand Rapids
+LOCATION:Grand Park Sports Campus - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30285-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven at Michigan Jaguars
+LOCATION:North Farmington High School – Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30527-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven at Hoosier Premier
+LOCATION:Trinity Sports Park - Indy Premier Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33007-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 Indy Eleven vs Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33423-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 Indy Eleven at AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33839-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs Michigan Jaguars
+LOCATION:Grand Park Sports Campus - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34253-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs Club Ohio
+LOCATION:Grand Park Sports Campus - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34773-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U13 Indy Eleven at Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34999-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 Indy Eleven at Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35394-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 Indy Eleven vs Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35636-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs St. Louis Scott Gallagher
+LOCATION:Grand Park Sports Campus - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36032-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 Indy Eleven at Club Ohio
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36222-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270501T150000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven vs FC Cincinnati
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36660-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T160000Z
+DURATION:PT2H
+SUMMARY:U13 Indy Eleven at Bavarian United SC
+LOCATION:Bavarian United Soccer Club - Ramon
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36820-6112@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U13 Indy Eleven at SC Wave
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=indy-eleven
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =indy-eleven
+END:VEVENT
+END:VCALENDAR

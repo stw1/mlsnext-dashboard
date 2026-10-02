@@ -1,0 +1,261 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Houston Dynamo FC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26608-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T173000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC vs ALBION SC Colorado (W 4–1)
+LOCATION:SaberCats Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27964-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T183000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC vs SGA (W 5–0)
+LOCATION:SaberCats Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27744-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T140000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC vs Real Salt Lake
+LOCATION:SaberCats Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28765-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T173000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC vs GFI Academy
+LOCATION:Houston Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29003-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T183000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC vs Houston Rangers
+LOCATION:SaberCats Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29615-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T150000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC at GFI Academy
+LOCATION:Lenze Rd - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30040-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T183000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC vs AC River
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30273-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T173000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC vs FC Dallas
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30523-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC vs Austin FC
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31283-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U14 Houston Dynamo FC at Tulsa Greenwood SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31647-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U14 Houston Dynamo FC vs Capital City SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32550-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U14 Houston Dynamo FC vs Tulsa Greenwood SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32749-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U14 Houston Dynamo FC vs Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33408-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T180000Z
+DURATION:PT2H
+SUMMARY:U14 Houston Dynamo FC at AC River
+LOCATION:Soccer Central - Field #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U14&conf=frontier&show=houston-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33609-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U14 Houston Dynamo FC at Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33832-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 Houston Dynamo FC at Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34543-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U14 Houston Dynamo FC at ALBION SC Colorado
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34992-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U14 Houston Dynamo FC at Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35838-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U14 Houston Dynamo FC at Capital City SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36219-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U14 Houston Dynamo FC at Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36242-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270502
+SUMMARY:U14 Houston Dynamo FC at FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36319-6348@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Houston Dynamo FC at SGA
+DESCRIPTION:MLS NEXT Homegrown · U14 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=hous
+ ton-dynamo-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=frontier&show=ho
+ uston-dynamo-fc
+END:VEVENT
+END:VCALENDAR

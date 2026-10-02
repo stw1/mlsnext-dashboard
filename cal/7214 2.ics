@@ -1,0 +1,293 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LA Galaxy U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-27498-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy vs Los Angeles Football Club (Flex) (W 3–1)
+LOCATION:Dignity Health Sports Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=la-ga
+ laxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27940-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy vs San Jose Earthquakes
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28213-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T160000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy vs Strikers FC (Flex)
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=la-ga
+ laxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26586-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T160000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy vs Albion SC Los Angeles (Flex)
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=la-ga
+ laxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28481-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy vs Portland Timbers
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28987-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T160000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy at Los Angeles Football Club
+LOCATION:South Grass Training Fields
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29803-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy at Real Salt Lake
+LOCATION:Zion’s Bank Training Center - Indoor Training Field (West)
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30251-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy vs Total Futbol Academy (Flex)
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=la-ga
+ laxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30762-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy vs Seattle Sounders FC
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31155-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U19 LA Galaxy vs SoCal Reds FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31215-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:U19 LA Galaxy vs Los Angeles Bulls Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31357-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 LA Galaxy at Portland Timbers
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31553-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U19 LA Galaxy vs Vancouver Whitecaps FC
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31725-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U19 LA Galaxy vs FC Golden State Force (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26807-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T170000Z
+DURATION:PT2H
+SUMMARY:U19 LA Galaxy vs Santa Barbara Soccer Club (Flex)
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=la-ga
+ laxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31944-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 LA Galaxy at Los Angeles Football Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32316-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U19 LA Galaxy at Seattle Sounders FC
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32733-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 LA Galaxy vs Ventura County Fusion (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32934-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U19 LA Galaxy vs LA Surf Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33771-flex-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U19 LA Galaxy vs Los Angeles Sports Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35617-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 LA Galaxy vs Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36015-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 LA Galaxy vs Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36612-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 LA Galaxy at San Jose Earthquakes
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36805-7214@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U19 LA Galaxy at Vancouver Whitecaps FC
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=la-galaxy
+END:VEVENT
+END:VCALENDAR

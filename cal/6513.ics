@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Real Salt Lake U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-30048-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T150000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake vs ALBION SC Colorado (W 3–0)
+LOCATION:Zion’s Bank Training Center - Indoor Training Field (East)
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26613-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake vs Houston Rangers (W 5–0)
+LOCATION:Zion’s Bank Training Center - Indoor Training Field (East)
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27312-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T140000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake vs Dallas Hornets (W 5–2)
+LOCATION:Zion’s Bank Training Center - Indoor Training Field (East)
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27507-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T150000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake vs FC Dallas (W 5–2)
+LOCATION:Zion’s Bank Training Center - Indoor Training Field (East)
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28288-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T150000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake at Houston Rangers
+LOCATION:Paul D Rushing Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28498-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T140000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake at GFI Academy
+LOCATION:Lenze Rd - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28770-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T150000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake vs SGA
+LOCATION:Zions Bank Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29203-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake at AC River
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29397-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T150000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake at Austin FC
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30514-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T150000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake at Dallas Hornets
+LOCATION:Dallas College Richland Campus Soccer Fields - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30776-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T150000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake at Tulsa Greenwood SC
+LOCATION:Ascension St. John Sportsplex - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31366-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270124T170000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake at ALBION SC Colorado
+LOCATION:East Boulder Community Center - East Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31823-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 Real Salt Lake vs Capital City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=real
+ -salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32123-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 Real Salt Lake vs Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=real
+ -salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32324-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 Real Salt Lake vs AC River
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=real
+ -salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33415-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 Real Salt Lake vs GFI Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=real
+ -salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33613-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U13 Real Salt Lake vs Tulsa Greenwood SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=real
+ -salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35377-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 Real Salt Lake at SGA
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=real
+ -salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35625-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 Real Salt Lake at Capital City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=real
+ -salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36220-6513@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270501T170000Z
+DURATION:PT2H
+SUMMARY:U13 Real Salt Lake at FC Dallas
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=real-salt-lake
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=re
+ al-salt-lake
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,303 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:One FC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26026-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at Sol SC Florida (W 2–1)
+LOCATION:The National Training Center - NTC 4
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26841-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T224500Z
+DURATION:PT2H
+SUMMARY:U16 One FC vs Weston FC (Flex) (D 0–0)
+LOCATION:North Bay Village Soccer Field #1
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27705-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T220000Z
+DURATION:PT2H
+SUMMARY:U16 One FC vs IMG (Flex)
+LOCATION:STU Soccer Field - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34228-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T210000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at South Florida Football Academy (Flex)
+LOCATION:Loggers Run Park - Field # 1
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28492-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T170000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at Orlando City SC (Flex)
+LOCATION:Osceola Heritage Park - Turf Field/3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29176-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T150000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at Miami Futbol Academy Rush (Flex)
+LOCATION:Kendall Soccer Park - 3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29574-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at IdeaSport SA (Flex)
+LOCATION:North East Regional Park - NERP #3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30019-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T210000Z
+DURATION:PT2H
+SUMMARY:U16 One FC vs Sol SC Florida (Flex)
+LOCATION:STU Soccer Field - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30479-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U16 One FC vs Seminole United
+LOCATION:Monsignor Edward Pace High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30939-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270109T150000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31057-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U16 One FC vs Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31250-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T200000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at West Florida Flames (Flex)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31621-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T213000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at Jacksonville FC (Flex)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32085-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 One FC vs Tampa Bay United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32502-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 One FC at Athletum FC Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27279-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270228T200000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at Seminole United (Flex)
+LOCATION:Seminole Soccer Complex - Field 7
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32942-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T170000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at IMG
+LOCATION:IMG Academy Field - 16
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33385-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 One FC vs Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33793-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U16 One FC vs Orlando City Soccer School South (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34528-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 One FC at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26403-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T180000Z
+DURATION:PT2H
+SUMMARY:U16 One FC vs Jacksonville FC
+LOCATION:Monsignor Edward Pace High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34960-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U16 One FC vs South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35356-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T160000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at Orlando City Soccer School South
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35823-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U16 One FC vs IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36299-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T140000Z
+DURATION:PT2H
+SUMMARY:U16 One FC at Weston FC
+LOCATION:Vista Park - Vista #4
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36645-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U16 One FC vs West Florida Flames
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+END:VCALENDAR

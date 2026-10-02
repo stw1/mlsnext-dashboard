@@ -1,0 +1,326 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wake FC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26660-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T130000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Atlanta United (Flex) (L 1–2)
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26772-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T130000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Lanier Soccer Association (Flex) (L 2–3)
+LOCATION:Johnson High School - Stadium
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27620-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Southern Soccer Academy (Flex) (W 2–1)
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28566-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T210000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at AFC Lightning (Flex)
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35429-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T130000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Southern Soccer Academy
+LOCATION:Marathon Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29361-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T130000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Chattanooga FC (Flex)
+LOCATION:Ting Park - Ting Park 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27421-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T140000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Triangle United Soccer Association
+LOCATION:Soccer.com - #4
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29516-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T180000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Queen City Mutiny FC (Flex)
+LOCATION:Elon Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30222-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T200000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Nashville United Soccer Academy (NUSA Next) (Flex)
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33532-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Charlotte Independence Soccer Club
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31843-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T160000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Carolina Core FC (Flex)
+LOCATION:Womble Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26335-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T140000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Triangle United Soccer Association (Flex)
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32026-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T200000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Inter Atlanta FC
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32254-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U16 Wake FC vs KSA (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32376-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T190000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Nashville United Soccer Academy (NUSA Next)
+LOCATION:Siegal High School - 3300 siegal rd Murfreesboro TN 37129
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32591-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T170000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Nashville SC (Flex)
+LOCATION:The Gold Mine - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32881-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U16 Wake FC at Carolina Core FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=wa
+ ke-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30207-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T180000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Charlotte Independence Soccer Club (Flex)
+LOCATION:Richard Barry Memorial Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33717-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U16 Wake FC at Charlotte FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34308-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270321T170000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Queen City Mutiny FC
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34600-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 Wake FC at Chattanooga FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=wa
+ ke-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35192-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U16 Wake FC at KSA
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=wa
+ ke-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28026-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T150000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Hoover-Vestavia Soccer (Flex)
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35889-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T170000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs AFC Lightning
+LOCATION:Ting Park - Ting Park 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36715-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T170000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Lanier Soccer Association
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36855-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T170000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC vs Hoover-Vestavia Soccer
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28198-flex-6260@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T150000Z
+DURATION:PT2H
+SUMMARY:U16 Wake FC at Inter Atlanta FC (Flex)
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+END:VCALENDAR

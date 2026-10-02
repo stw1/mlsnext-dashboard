@@ -1,0 +1,321 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cincinnati United Soccer Club U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-32559-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T210000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at Chicago FC United (L 3–5)
+LOCATION:Loyola Academy Munz Campus - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-c
+ lub
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32767-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T170000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at Sockers FC Chicago (L 0–3)
+LOCATION:Elgin Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-c
+ lub
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26465-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T170000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at FC Cincinnati (Flex) (L 0–1)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26890-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T190000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club vs Michigan Wolves (Flex) (W 5–
+ 3)
+LOCATION:Batavia High School - Turf Field
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27112-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T170000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club vs Indy Eleven (Flex) (W 2–1)
+LOCATION:Seven Hills High School - Upper Field
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27535-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T160000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at Toronto FC (Flex) (D 1–1\, l
+ ost 7–8 on pens)
+LOCATION:BMO Training Ground - City View Field
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27983-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T193000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club vs Club Ohio (Flex)
+LOCATION:Seven Hills High School - Lower Field
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26059-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T170000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at Vardar Soccer Club (Flex)
+LOCATION:Oakland University Dome - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28303-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at Michigan Wolves
+LOCATION:Schoolcraft College - Trinity Health Sports Dome
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-c
+ lub
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28785-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T133000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club vs Lou Fusz Athletic
+LOCATION:Seven Hills High School - Lower Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-c
+ lub
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29018-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T173000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club vs Bavarian United SC
+LOCATION:Seven Hills High School - Lower Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-c
+ lub
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29224-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T193000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at Indy Eleven
+LOCATION:Grand Park Sports Campus - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-c
+ lub
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29626-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club vs Vardar Soccer Club
+LOCATION:Warren County Sports Park - Field 17
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-c
+ lub
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30298-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T180000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at Hoosier Premier (Flex)
+LOCATION:Trinity Sports Park - Indy Premier Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30790-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T181500Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at Columbus Crew (Flex)
+LOCATION:Historic Crew Stadium – Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32347-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U17 Cincinnati United Soccer Club at AC Grand Rapids (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=cin
+ cinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33017-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Cincinnati United Soccer Club vs Michigan Jaguars (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=cin
+ cinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33631-flex-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U17 Cincinnati United Soccer Club at Midwest United FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=cin
+ cinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34251-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U17 Cincinnati United Soccer Club vs Shattuck-St. Mary's
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34571-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 Cincinnati United Soccer Club at Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35161-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U17 Cincinnati United Soccer Club at Club Ohio
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35386-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 Cincinnati United Soccer Club vs SC Wave
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35861-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 Cincinnati United Soccer Club vs AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36030-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U17 Cincinnati United Soccer Club vs Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36325-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Cincinnati United Soccer Club vs Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=cincinnati-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36683-9715@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T160000Z
+DURATION:PT2H
+SUMMARY:U17 Cincinnati United Soccer Club at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=cincinnati-united-soccer-c
+ lub
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =cincinnati-united-soccer-club
+END:VEVENT
+END:VCALENDAR

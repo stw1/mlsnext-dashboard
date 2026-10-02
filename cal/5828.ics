@@ -1,0 +1,311 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FC Cincinnati U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26211-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T140000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs AC Grand Rapids (L 2–3)
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26454-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T140000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs Cincinnati United Soccer Club (W 2–1)
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26619-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs Hoosier Premier (W 4–2)
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26887-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T140000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs Indy Eleven (L 4–5)
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27100-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T140000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs Michigan Wolves (L 0–4)
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27525-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T160000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati at St. Louis Scott Gallagher (W 3–1)
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27751-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T140000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs Club Ohio
+LOCATION:Mariemont High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28298-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T190000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati at AC Grand Rapids
+LOCATION:MSA Fieldhouse #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28516-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T130000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati at Michigan Wolves
+LOCATION:Schoolcraft College - Outdoor Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29229-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T140000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati at Michigan Jaguars
+LOCATION:North Farmington High School – Training Turf
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29629-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T150000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs Midwest United FC
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29826-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T150000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs Vardar Soccer Club
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30060-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs Chicago FC United
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30282-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T170000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati vs Sockers FC Chicago
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32563-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U14 FC Cincinnati vs St. Louis City SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33191-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U14 FC Cincinnati vs Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33432-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 FC Cincinnati at Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34036-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U14 FC Cincinnati at Club Ohio
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34274-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U14 FC Cincinnati at Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35012-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U14 FC Cincinnati at SC Wave
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35156-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T140000Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati at Bavarian United SC
+LOCATION:Bavarian United Soccer Club - Ramon
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35629-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U14 FC Cincinnati at Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36039-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 FC Cincinnati vs Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36223-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270501T171500Z
+DURATION:PT2H
+SUMMARY:U14 FC Cincinnati at Indy Eleven
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36244-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270502
+SUMMARY:U14 FC Cincinnati at Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36356-5828@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 FC Cincinnati at Sporting City
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =fc-cincinnati
+END:VEVENT
+END:VCALENDAR

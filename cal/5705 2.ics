@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Blau Weiss Gottschee U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26300-flex-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T140000Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee at New York City FC (Flex) (L 1–2)
+LOCATION:Queens College - Queens College
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26497-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T143000Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee at The Island FC East (W 5–1)
+LOCATION:St. Joseph's University - Outdoor Field Complex
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27588-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T213000Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee at Metropolitan Oval (L 0–1)
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28048-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T150000Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee vs New York SC
+LOCATION:Queens College - Queens College
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28625-flex-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T180000Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee at The Island FC West (Flex)
+LOCATION:Medford Athletic Complex (Long Island)
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28880-flex-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T161500Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee at Red Bull New York (Flex)
+LOCATION:Red Bull Performance Center - Grass
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29074-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T204500Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee at Cedar Stars Academy Bergen
+LOCATION:FDU Soccer Field - Teaneck
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29299-flex-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T190000Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee vs Downtown United Soccer Club (Flex)
+LOCATION:Aviator - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29886-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T160000Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee vs The Island FC West
+LOCATION:Aviator - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30371-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T160000Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee vs Ironbound Soccer Club
+LOCATION:Queens College - Queens College
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30624-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U17 Blau Weiss Gottschee at Valeo Futbol Club
+LOCATION:Falzone Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=blau-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32430-flex-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U17 Blau Weiss Gottschee vs The Island FC East (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=blau-we
+ iss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32852-flex-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U17 Blau Weiss Gottschee at FA Euro New York (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=blau-we
+ iss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33059-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Blau Weiss Gottschee vs TSF Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33702-flex-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U17 Blau Weiss Gottschee vs Metropolitan Oval (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=blau-we
+ iss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34091-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U17 Blau Weiss Gottschee at Downtown United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34337-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U17 Blau Weiss Gottschee at FC Westchester
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34628-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 Blau Weiss Gottschee vs FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35047-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U17 Blau Weiss Gottschee vs Bayside FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35218-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U17 Blau Weiss Gottschee vs Intercontinental Football Academy of Ne
+ w England
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35492-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 Blau Weiss Gottschee at NEFC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35733-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U17 Blau Weiss Gottschee at Seacoast United
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36108-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U17 Blau Weiss Gottschee vs FC Greater Boston Bolts
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36411-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Blau Weiss Gottschee at Beachside of Connecticut
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36867-5705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U17 Blau Weiss Gottschee vs Connecticut United FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=bl
+ au-weiss-gottschee
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=b
+ lau-weiss-gottschee
+END:VEVENT
+END:VCALENDAR

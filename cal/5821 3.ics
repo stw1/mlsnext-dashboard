@@ -1,0 +1,327 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Metropolitan Oval U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26283-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T124500Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval at Intercontinental Football Academy of New E
+ ngland (L 1–9)
+LOCATION:Xaverian Brothers High School - Main Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26710-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs Downtown United Soccer Club (W 2–1)
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27166-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval at Connecticut United FC (W 2–1)
+LOCATION:Immaculate High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27584-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs Blau Weiss Gottschee (L 0–2)
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28056-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T210000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval at Ironbound Soccer Club
+LOCATION:Ironbound Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28348-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval at FC Greater Boston Bolts
+LOCATION:Minuteman High School - Baseball Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28604-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval at NEFC
+LOCATION:NEFC Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28846-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs Seacoast United
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29084-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs Valeo Futbol Club
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29284-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval at The Island FC West
+LOCATION:Cantiague Park
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29888-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval at Downtown United Soccer Club
+LOCATION:Queens College - Queens College
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30110-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T160000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs FA Euro New York
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30845-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T171500Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval at Red Bull New York
+LOCATION:Red Bull Performance Center - Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32422-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 Metropolitan Oval at New York City FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=me
+ tropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32626-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 Metropolitan Oval at New York SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=me
+ tropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33270-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T140000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs The Island FC East
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33672-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U13 Metropolitan Oval at Blau Weiss Gottschee
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=me
+ tropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33893-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs New York City FC
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32190-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270321T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs Bayside FC
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34355-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 Metropolitan Oval at The Island FC East
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=me
+ tropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34836-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs The Island FC West
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35234-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 Metropolitan Oval at FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=me
+ tropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35721-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T130000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs FC Westchester
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36120-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270425T140000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs New England Revolution
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36442-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T150000Z
+DURATION:PT2H
+SUMMARY:U13 Metropolitan Oval vs TSF Academy
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=metropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36759-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U13 Metropolitan Oval vs Beachside of Connecticut
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=me
+ tropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36877-5821@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U13 Metropolitan Oval vs Cedar Stars Academy Bergen
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=me
+ tropolitan-oval
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=m
+ etropolitan-oval
+END:VEVENT
+END:VCALENDAR

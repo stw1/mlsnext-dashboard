@@ -1,0 +1,309 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Colorado Rapids U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26444-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T143000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids at Houston Dynamo FC (Flex) (L 2–3)
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26874-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs Tulsa Greenwood SC (Flex) (W 10–1)
+LOCATION:Dicks Sporting Goods Park - Field #19
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27261-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T140000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids at St. Louis City SC (W 5–2)
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway
+ &show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27733-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs GFI Academy (Flex)
+LOCATION:Dicks Sporting Goods Park - Field #19
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27959-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T160000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs Houston Rangers (Flex)
+LOCATION:Dicks Sporting Goods Park - Field #19
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28169-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T160000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs Columbus Crew
+LOCATION:Dicks Sporting Goods Park - Field #19
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway
+ &show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32984-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs AC River (Flex)
+LOCATION:Dicks Sporting Goods Park - Field #19
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28716-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T140000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids at Minnesota United FC
+LOCATION:National Sports Center - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway
+ &show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29163-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs Chicago Fire FC
+LOCATION:Dicks Sporing Goods Park - #8
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway
+ &show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29610-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs Capital City SC (Flex)
+LOCATION:Dicks Sporing Goods Park - #8
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29820-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs Dallas Hornets (Flex)
+LOCATION:Dicks Sporting Goods Park - Field #8
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29997-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T140000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids at FC Cincinnati
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway
+ &show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30460-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs Sporting Kansas City
+LOCATION:Dicks Sporing Goods Park - #8
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway
+ &show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31276-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T170000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs Real Salt Lake (Flex)
+LOCATION:Dicks Sporing Goods Park - #8
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31463-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T193000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs ALBION SC Colorado (Flex)
+LOCATION:Dicks Sporing Goods Park - #8
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31640-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U19 Colorado Rapids vs FC Dallas (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway) · kickoff ti
+ me not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=cen
+ tral-pro-player-pathway&show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31816-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 Colorado Rapids at Austin FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway) · kickoff ti
+ me not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=cen
+ tral-pro-player-pathway&show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32075-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U19 Colorado Rapids vs Minnesota United FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&con
+ f=central-pro-player-pathway&show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32495-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T170000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs FC Cincinnati
+LOCATION:Dicks Sporing Goods Park - #8
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway
+ &show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33189-flex-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T170000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids vs SGA (Flex)
+LOCATION:Dicks Sporing Goods Park - #8
+DESCRIPTION:MLS NEXT Flex · U19 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway&show
+ =colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33368-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 Colorado Rapids at Columbus Crew
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&con
+ f=central-pro-player-pathway&show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35337-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 Colorado Rapids at Sporting Kansas City
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&con
+ f=central-pro-player-pathway&show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36261-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T150000Z
+DURATION:PT2H
+SUMMARY:U19 Colorado Rapids at Chicago Fire FC
+LOCATION:Endeavor Health Performance Center - Turf 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-player-pathway
+ &show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36617-7226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U19 Colorado Rapids vs St. Louis City SC
+DESCRIPTION:MLS NEXT Homegrown · U19 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&con
+ f=central-pro-player-pathway&show=colorado-rapids
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=central-pro-play
+ er-pathway&show=colorado-rapids
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sporting Athletic Club U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26253-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T163000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club at Bethesda SC (D 2–2)
+LOCATION:Maryland SoccerPlex - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26750-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Springfield SYC (W 3–1)
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27022-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs FC DELCO (L 0–5)
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27211-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T140000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Cedar Stars Academy Monmouth (L 3–4
+ )
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27556-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Coppermine SC (D 1–1)
+LOCATION:Chase Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34283-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T180000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club at Alexandria SA (W 2–1)
+LOCATION:Witter Field - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28119-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T160000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club at Springfield SYC
+LOCATION:Hayfield Secondary School - Auxiliary Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28811-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T140000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Keystone FC
+LOCATION:WSFS Bank SportsPlex - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28952-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club at Baltimore Armour
+LOCATION:Covenant Park - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29648-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T180000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club at Achilles FC
+LOCATION:Maryland SoccerPlex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30188-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Alexandria SA
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32709-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T180000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club at Beadling SC
+LOCATION:Seneca Valley High School - Myers Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30568-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T170000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Beadling SC
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32061-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270214T150000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Philadelphia Union
+LOCATION:Chase Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30884-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T170000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club at Northern Virginia Alliance
+LOCATION:Loudoun Soccer Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32455-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T170000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Northern Virginia Alliance
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33669-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T150000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Achilles FC
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34443-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T140000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Bethesda SC
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34707-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T180000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club at Players Development Academy
+LOCATION:PDA Stadium Field at Notre Dame High School - PDA Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34871-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Sporting Athletic Club at The Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35273-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 Sporting Athletic Club at Coppermine SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35556-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T160000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Real Futbol Academy
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36064-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U14 Sporting Athletic Club at PA Classics
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36233-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270425T150000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club at Penn Rising XI
+LOCATION:J Birney Crum - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36543-6087@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T140000Z
+DURATION:PT2H
+SUMMARY:U14 Sporting Athletic Club vs Baltimore Armour
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=sporting-athletic-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=sporting-athletic-club
+END:VEVENT
+END:VCALENDAR

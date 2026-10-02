@@ -1,0 +1,301 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Club Ohio U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26041-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T194500Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio vs Michigan Wolves (W 4–1)
+LOCATION:Kilbourne Run Sports Turf #5
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27105-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T140000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at Michigan Jaguars (L 2–4)
+LOCATION:North Farmington High School – Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27323-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T190000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at Hoosier Premier (W 5–4)
+LOCATION:Trinity Sports Park - Indy Premier Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27512-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T153000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio vs AC Grand Rapids (W 2–1)
+LOCATION:Dublin Coffman High School - The Rock
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27750-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at FC Cincinnati
+LOCATION:Mariemont High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27975-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T213000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at Cincinnati United Soccer Club
+LOCATION:Seven Hills High School - Upper Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28517-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T140000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at Midwest United FC
+LOCATION:Midwest United FC Complex - North Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28787-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T154500Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio vs Michigan Jaguars
+LOCATION:Kilbourne Run Sports Turf #3
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29020-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T174500Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio vs Lou Fusz Athletic
+LOCATION:Kilbourne Run Sports Turf #4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32134-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T220000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at SC Wave
+LOCATION:Mindiola Sports Complex - Mindiola Turf East
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32329-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T160000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at Bavarian United SC
+LOCATION:Bavarian United Soccer Club - Ramon
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30053-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T144500Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio vs Sockers FC Chicago
+LOCATION:Jennings Sports Park Turf #4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30275-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T184500Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio vs Chicago FC United
+LOCATION:Jennings Sports Park Turf #5
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30535-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at AC Grand Rapids
+LOCATION:MSA Fieldhouse #3
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32561-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 Club Ohio vs Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33001-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 Club Ohio vs Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29831-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T210000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at Michigan Wolves
+LOCATION:Schoolcraft College - Outdoor Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33618-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U13 Club Ohio vs Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34035-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U13 Club Ohio vs FC Cincinnati
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34253-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T150000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at Indy Eleven
+LOCATION:Grand Park Sports Campus - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34583-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 Club Ohio at Sporting City
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35157-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 Club Ohio vs Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36032-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 Club Ohio vs Indy Eleven
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36357-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 Club Ohio at Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36833-10497@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T140000Z
+DURATION:PT2H
+SUMMARY:U13 Club Ohio at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=club-ohio
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =club-ohio
+END:VEVENT
+END:VCALENDAR

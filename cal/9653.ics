@@ -1,0 +1,373 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Charlotte Independence Soccer Club U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26568-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T190000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs KSA (Flex) (W 3–1)
+LOCATION:Manchester Meadows - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26759-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs AFC Lightning (Flex) (L 1
+ –2)
+LOCATION:Manchester Meadows - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30812-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T173000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Queen City Mutiny FC (Fle
+ x) (D 1–1\, won 7–6 on pens)
+LOCATION:Elon Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27563-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Lanier Soccer Association
+  (Flex) (L 1–3)
+LOCATION:Allen Creek Soccer Complex - Field 4
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28123-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T173000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Charlotte FC (Flex)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28561-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Huntsville City FC
+LOCATION:Wick Family Field - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28818-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T180000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Nashville SC (Flex)
+LOCATION:The Gold Mine - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29056-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Chattanooga FC (Flex)
+LOCATION:Richard Barry Memorial Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27343-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T130000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Huntsville City FC (Flex)
+LOCATION:Richard Barry Memorial Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29448-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T190000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Hoover-Vestavia Soccer (F
+ lex)
+LOCATION:Hoover East Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29663-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T160000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Inter Atlanta FC (Flex)
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30354-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T160000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Triangle United Soccer As
+ sociation (Flex)
+LOCATION:Pleasant Park - Field 4
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32066-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T180000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Nashville United Soccer A
+ cademy (NUSA Next) (Flex)
+LOCATION:Manchester Meadows - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33452-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Wake FC
+LOCATION:Ting Park - Ting Park 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35188-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T180000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Southern Soccer Academy
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32366-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T200000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Hoover-Vestavia Soccer
+LOCATION:Richard Barry Memorial Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32779-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T200000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Southern Soccer Academy (
+ Flex)
+LOCATION:Richard Barry Memorial Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30193-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T180000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Wake FC (Flex)
+LOCATION:Richard Barry Memorial Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33722-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T180000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Inter Atlanta FC
+LOCATION:Richard Barry Memorial Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33943-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U15 Charlotte Independence Soccer Club vs Lanier Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ch
+ arlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34081-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U15 Charlotte Independence Soccer Club at Chattanooga FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ch
+ arlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34298-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270321T140000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at Nashville United Soccer A
+ cademy (NUSA Next)
+LOCATION:Oakland High School - Oakland High School Turf
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34446-flex-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 Charlotte Independence Soccer Club at Carolina Core FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=charlot
+ te-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34877-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Charlotte FC
+LOCATION:Richard Barry Memorial Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35290-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U15 Charlotte Independence Soccer Club at KSA
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ch
+ arlotte-independence-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35761-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T170000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Queen City Mutiny FC
+LOCATION:Richard Barry Memorial Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36067-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club at AFC Lightning
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36692-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T170000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Triangle United Soccer As
+ sociation
+LOCATION:Bradford Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36922-9653@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T150000Z
+DURATION:PT2H
+SUMMARY:U15 Charlotte Independence Soccer Club vs Carolina Core FC
+LOCATION:Richard Barry Memorial Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=charlotte-independence-soccer-
+ club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ harlotte-independence-soccer-club
+END:VEVENT
+END:VCALENDAR

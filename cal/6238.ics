@@ -1,0 +1,299 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Baltimore Armour U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26668-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour vs Players Development Academy (L 0–1)
+LOCATION:Covenant Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27436-flex-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T140000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour at Northern Virginia Alliance (Flex) (L 1–5)
+LOCATION:Philip A. Bolen Memorial Regional Park - Field 21
+DESCRIPTION:MLS NEXT Flex · U17 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27629-flex-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T220000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour at Springfield SYC (Flex) (L 0–2)
+LOCATION:West Springfield High School - Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32028-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T180000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour vs Keystone FC
+LOCATION:Covenant Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28320-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T140000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour vs Northern Virginia Alliance
+LOCATION:Covenant Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28579-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour at Real Futbol Academy
+LOCATION:Westampton Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29115-flex-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T160000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour vs Sporting Athletic Club (Flex)
+LOCATION:Covenant Park - Field 5
+DESCRIPTION:MLS NEXT Flex · U17 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26160-flex-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T140000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour vs Coppermine SC (Flex)
+LOCATION:Covenant Park - Field 5
+DESCRIPTION:MLS NEXT Flex · U17 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29764-flex-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T150000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour at Alexandria SA (Flex)
+LOCATION:Witter Field - Field 2
+DESCRIPTION:MLS NEXT Flex · U17 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29933-flex-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T150000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour vs Beadling SC (Flex)
+LOCATION:Covenant Park - Field 5
+DESCRIPTION:MLS NEXT Flex · U17 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30679-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T160000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour at FC DELCO
+LOCATION:Downingtown West High School  - DiSerafino Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30400-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T163000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour at The Football Academy
+LOCATION:Pingry Babbitt - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30820-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour at Coppermine SC
+LOCATION:St. Paul's School - St. Paul's Mitchell Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32600-flex-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U17 Baltimore Armour vs Achilles FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=b
+ altimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33032-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U17 Baltimore Armour at PA Classics
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&s
+ how=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33233-flex-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Baltimore Armour at D.C. United (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=b
+ altimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33958-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U17 Baltimore Armour vs Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&s
+ how=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34143-flex-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U17 Baltimore Armour at Bethesda SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=b
+ altimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34611-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T140000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour at Beadling SC
+LOCATION:Kiski Area Prep High School - Football Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35023-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U17 Baltimore Armour vs Bethesda SC
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&s
+ how=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35430-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U17 Baltimore Armour at Achilles FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&s
+ how=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35677-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 Baltimore Armour vs Penn Rising XI
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&s
+ how=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35891-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U17 Baltimore Armour vs Cedar Stars Academy Monmouth
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&s
+ how=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36382-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U17 Baltimore Armour vs Springfield SYC
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&s
+ how=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36724-6238@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T160000Z
+DURATION:PT2H
+SUMMARY:U17 Baltimore Armour at Sporting Athletic Club
+LOCATION:Chase Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U17&conf=mid-atlantic&show=baltimore-armour
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-atlantic&sho
+ w=baltimore-armour
+END:VEVENT
+END:VCALENDAR

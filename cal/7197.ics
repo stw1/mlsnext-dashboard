@@ -1,0 +1,297 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FC Cincinnati U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26222-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T180000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs AC Grand Rapids (Flex) (W 3–0)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26464-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T190000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Cincinnati United Soccer Club (Flex) (L 2–3)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26632-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T190000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Hoosier Premier (Flex) (W 4–2)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26892-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T190000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Indy Eleven (Flex) (W 4–2)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27114-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T180000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Michigan Wolves (Flex) (D 0–0\, won 4–2 on
+  pens)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27256-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T180000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati at Minnesota United FC (L 2–5)
+LOCATION:National Sports Center - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27765-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T150000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Club Ohio (Flex)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28170-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T180000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Chicago Fire FC
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28486-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T150000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Columbus Crew
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28720-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T193000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati at St. Louis City SC
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29164-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T183000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati at Sporting Kansas City
+LOCATION:Swope Soccer Village - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29639-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Midwest United FC (Flex)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29843-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Vardar Soccer Club (Flex)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29995-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T180000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati vs Colorado Rapids
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30553-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati at Columbus Crew (Flex)
+LOCATION:Historic Crew Stadium - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32070-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 FC Cincinnati at Columbus Crew
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&con
+ f=central-pro-player-pathway&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32493-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T170000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati at Colorado Rapids
+LOCATION:Dicks Sporing Goods Park - #10
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33019-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 FC Cincinnati vs Toronto FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway) · kickoff ti
+ me not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=cen
+ tral-pro-player-pathway&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33208-flex-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U16 FC Cincinnati vs Michigan Jaguars (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway) · kickoff ti
+ me not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=cen
+ tral-pro-player-pathway&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33369-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 FC Cincinnati vs Sporting Kansas City
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&con
+ f=central-pro-player-pathway&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35796-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T150000Z
+DURATION:PT2H
+SUMMARY:U16 FC Cincinnati at Chicago Fire FC
+LOCATION:Endeavor Health Performance Center - Turf 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36262-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 FC Cincinnati vs St. Louis City SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&con
+ f=central-pro-player-pathway&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36618-7197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U16 FC Cincinnati vs Minnesota United FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&con
+ f=central-pro-player-pathway&show=fc-cincinnati
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=fc-cincinnati
+END:VEVENT
+END:VCALENDAR

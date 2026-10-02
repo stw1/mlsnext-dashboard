@@ -1,0 +1,313 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jacksonville FC U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26404-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC at One FC (Flex) (L 2–3)
+LOCATION:Monsignor Edward Pace High School - Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26836-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T163000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC vs Orlando City Soccer School South (Flex) (D 1
+ –1\, lost 2–4 on pens)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27292-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T200000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC at West Florida Flames (Flex) (W 1–0)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27700-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T163000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC vs Weston FC (Flex)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29587-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T160000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC at Sol SC Florida
+LOCATION:The National Training Center - NTC 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28239-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T183000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC at Athletum FC Academy (Flex)
+LOCATION:Pembroke Pines - UPSL Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28737-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T143000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC vs Miami Futbol Academy Rush (Flex)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29189-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T200000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC at Tampa Bay United
+LOCATION:Ed Radice Sports Complex - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30014-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T193000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC vs Athletum FC Academy
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26021-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T193000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC vs Seminole United (Flex)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30488-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC at Orlando City Soccer School South
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31237-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T193000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC vs Sol SC Florida (Flex)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31420-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T170000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC at IMG
+LOCATION:IMG Academy Field - 7
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31622-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T193000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC vs One FC
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31800-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T220000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC at South Florida Football Academy (Flex)
+LOCATION:Loggers Run Park - Field # 1
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32080-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U17 Jacksonville FC at IdeaSport SA (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jacksonvill
+ e-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32961-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Jacksonville FC at Orlando City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jacksonvill
+ e-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30946-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T213000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC vs IMG (Flex)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33602-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U17 Jacksonville FC at Inter Miami CF (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jacksonvill
+ e-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34205-flex-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U17 Jacksonville FC vs Tampa Bay United (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jacksonvill
+ e-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34515-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 Jacksonville FC at Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34955-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U17 Jacksonville FC at Seminole United
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35375-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T200000Z
+DURATION:PT2H
+SUMMARY:U17 Jacksonville FC at Weston FC
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=jacksonville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35812-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 Jacksonville FC vs West Florida Flames
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36278-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Jacksonville FC vs IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36634-5813@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U17 Jacksonville FC vs South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jackso
+ nville-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=jac
+ ksonville-fc
+END:VEVENT
+END:VCALENDAR

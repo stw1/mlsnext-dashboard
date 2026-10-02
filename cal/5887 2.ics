@@ -1,0 +1,298 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PA Classics U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26247-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T180000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics vs Real Futbol Academy (W 2–0)
+LOCATION:Classics Soccer Park - Grass 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26691-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T160000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics at Cedar Stars Academy Monmouth (W 4–2)
+LOCATION:Capelli Sport Complex - Field #6
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26925-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T140000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics at Coppermine SC (D 1–1)
+LOCATION:Copperplex Field #8
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27543-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics vs Penn Rising XI (D 2–2)
+LOCATION:Classics Soccer Park - Grass 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28097-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T130000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics at Beadling SC
+LOCATION:Southpointe Fieldhouse - Indoor Complex
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28548-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T140000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics vs Cedar Stars Academy Monmouth
+LOCATION:Classics Soccer Park - Grass 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29250-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T130000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics at The Football Academy
+LOCATION:Florham Park Sports Dome - Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29510-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics vs Philadelphia Union
+LOCATION:Classics Soccer Park - Grass 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30095-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T153000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics at Springfield SYC
+LOCATION:Hayfield Secondary School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30338-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics at Players Development Academy
+LOCATION:PDA Soccer Complex - Field 3 Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30875-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T220000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics vs The Football Academy
+LOCATION:Classics Soccer Park - Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31911-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 PA Classics vs FC DELCO
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32442-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 PA Classics at Real Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32813-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 PA Classics vs Baltimore Armour
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33295-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U13 PA Classics at Keystone FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33660-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 PA Classics at FC DELCO
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34066-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 PA Classics vs Players Development Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34422-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 PA Classics vs Achilles FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34813-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U13 PA Classics vs Keystone FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35268-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T161500Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics at Philadelphia Union
+LOCATION:WSFS Bank Sportsplex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35447-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 PA Classics at Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35740-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T130000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics at Northern Virginia Alliance
+LOCATION:Loudoun Soccer Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35992-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 PA Classics vs Sporting Athletic Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36154-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 PA Classics vs Bethesda SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&s
+ how=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36523-5887@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270509T130000Z
+DURATION:PT2H
+SUMMARY:U13 PA Classics at Penn Rising XI
+LOCATION:J Birney Crum - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U13&conf=mid-atlantic&show=pa-classics
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-atlantic&sho
+ w=pa-classics
+END:VEVENT
+END:VCALENDAR

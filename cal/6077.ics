@@ -1,0 +1,304 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shattuck-St. Mary's U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26063-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at Chicago Fire FC (Flex) (L 0–2)
+LOCATION:Endeavor Health Performance Center - Turf 2
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26235-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T160000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at Chicago FC United (Flex) (L 1–5)
+LOCATION:Loyola Academy Munz Campus - Field 8
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26656-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs Sockers FC Chicago (Flex) (L 1–4)
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26902-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T190000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at Lou Fusz Athletic (Flex) (W 2–1)
+LOCATION:Lou Fusz Athletic Soccer Complex - Field #6
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27755-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T150000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at Michigan Wolves
+LOCATION:Schoolcraft College - Trinity Health Sports Dome
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28179-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T140000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs Lou Fusz Athletic
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28222-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T140000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs Indy Eleven
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28536-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T150000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at Sporting Kansas City (Flex)
+LOCATION:Swope Soccer Village - Bermuda East
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29244-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T204500Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs St. Louis Scott Gallagher (Flex)
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29637-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T214500Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs Chicago FC United
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30087-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T160000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at St. Louis City SC (Flex)
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30552-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at Sockers FC Chicago
+LOCATION:Bridgeview Sports Fields - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32352-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T150000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs SC Wave (Flex)
+LOCATION:Shattuck-St. Mary's School - Dome
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29415-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T150000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at Minnesota United FC (Flex)
+LOCATION:National Sports Center - NSC Dome
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34782-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T150000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs Midwest United FC
+LOCATION:Shattuck-St. Mary's School - Dome
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33636-flex-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270314T140000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs Bavarian United SC (Flex)
+LOCATION:Shattuck-St. Mary's School - Dome
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33860-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T160000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34252-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 Shattuck-St. Mary's at Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&sho
+ w=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34996-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T140000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's at Bavarian United SC
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34576-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T140000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs AC Grand Rapids
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35657-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T140000Z
+DURATION:PT2H
+SUMMARY:U19 Shattuck-St. Mary's vs Club Ohio
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35873-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 Shattuck-St. Mary's at Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&sho
+ w=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36043-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U19 Shattuck-St. Mary's at Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&sho
+ w=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36354-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 Shattuck-St. Mary's at SC Wave
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&sho
+ w=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36819-6077@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U19 Shattuck-St. Mary's at Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&sho
+ w=shattuck-st-mary-s
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =shattuck-st-mary-s
+END:VEVENT
+END:VCALENDAR

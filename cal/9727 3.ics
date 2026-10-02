@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IdeaSport SA U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26205-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA at Orlando City SC (Flex) (L 1–4)
+LOCATION:Osceola Heritage Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26859-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T150000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA at Tampa Bay United (Flex) (L 1–2)
+LOCATION:Ed Radice Sports Complex - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27689-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T200000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA at Sol SC Florida (Flex)
+LOCATION:The National Training Center - NTC 2
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28270-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T170000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA at West Florida Flames
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28726-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T200000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA vs Athletum FC Academy (Flex)
+LOCATION:Lake Myrtle Sports Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29170-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA at IMG (Flex)
+LOCATION:IMG Academy Field - #2
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29574-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA vs One FC (Flex)
+LOCATION:North East Regional Park - NERP #3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30001-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T210000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA vs South Florida Football Academy (Flex)
+LOCATION:Simmers Young Park - Field 12
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30473-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA vs West Florida Flames (Flex)
+LOCATION:North East Regional Park - NERP #3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30961-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U16 IdeaSport SA at South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31051-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U16 IdeaSport SA vs Weston FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31230-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T160000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31433-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270131T170000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA at Orlando City Soccer School South (Flex)
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31615-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U16 IdeaSport SA vs Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31793-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U16 IdeaSport SA at Miami Futbol Academy Rush (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasport-s
+ a
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32079-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 IdeaSport SA vs Jacksonville FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasport-s
+ a
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32535-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T180000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA at Weston FC (Flex)
+LOCATION:Vista Park - Vista #4
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32948-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 IdeaSport SA vs Orlando City Soccer School South
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33399-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 IdeaSport SA vs Sol SC Florida
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33787-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U16 IdeaSport SA vs Seminole United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasport-s
+ a
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34522-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 IdeaSport SA at Seminole United
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34948-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U16 IdeaSport SA at Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35350-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 IdeaSport SA vs Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35823-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U16 IdeaSport SA at One FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36277-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 IdeaSport SA at Jacksonville FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36627-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U16 IdeaSport SA vs IMG
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
+ ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,378 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Albion SC Las Vegas U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26352-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T180000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas at City SC - San Diego (L 1–5)
+LOCATION:Aviara Community Park - Aviara Community Park
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26782-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T180000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas vs Phoenix Rising FC (W 2–0)
+LOCATION:Heritage Park - Field 12
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27034-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T200000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas vs SC Del Sol (D 3–3)
+LOCATION:Aventura Park - South Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27457-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T180000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas vs City SC - San Diego (W 1–0)
+LOCATION:Aventura Park - Middle Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27635-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T180000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas vs Albion SC Los Angeles (W 3–1)
+LOCATION:Aventura Park - South Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27918-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T180000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas at Phoenix Rising FC
+LOCATION:Phoenix Rising FC Youth Complex - North Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28151-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T180000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas at RSL Arizona Mesa
+LOCATION:Scottsdale Prep - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28467-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas at Strikers FC
+LOCATION:Great Park - Field 11
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28664-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T180000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas at Los Angeles Sports Club
+LOCATION:Silverlakes Sports Complex - Field 19
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29138-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T180000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas vs FC Golden State Force
+LOCATION:Aventura Park - South Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29520-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas vs Chula Vista FC
+LOCATION:Heritage Park - Field 13
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29770-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T232500Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas at Los Angeles Bulls Soccer Club
+LOCATION:Gol Soccer Complex - West Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30226-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T190000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas at Chula Vista FC
+LOCATION:Victory Christian Academy - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30442-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T190000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas at San Diego FC
+LOCATION:Sharp Healthcare Performance Center - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30714-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T210000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas vs ALBION SC San Diego
+LOCATION:Aventura Park - South Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30898-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T190000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas vs LA Surf Soccer Club
+LOCATION:Aventura Park - South Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31124-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U14 Albion SC Las Vegas vs City SC Southwest
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31174-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:U14 Albion SC Las Vegas vs San Diego FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31515-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U14 Albion SC Las Vegas at ALBION SC San Diego
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31575-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U14 Albion SC Las Vegas at City SC Southwest
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31927-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T170000Z
+DURATION:PT2H
+SUMMARY:U14 Albion SC Las Vegas at Las Vegas Sports Academy
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=albion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32894-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U14 Albion SC Las Vegas vs RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33573-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 Albion SC Las Vegas at SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33767-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U14 Albion SC Las Vegas at RSL Arizona
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33974-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 Albion SC Las Vegas vs Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34711-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U14 Albion SC Las Vegas vs SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34889-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Albion SC Las Vegas vs RSL Arizona
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35141-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U14 Albion SC Las Vegas at Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35324-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 Albion SC Las Vegas at Santa Barbara Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35576-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 Albion SC Las Vegas vs Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36164-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 Albion SC Las Vegas vs Las Vegas Sports Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36549-5778@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Albion SC Las Vegas vs LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=al
+ bion-sc-las-vegas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=a
+ lbion-sc-las-vegas
+END:VEVENT
+END:VCALENDAR

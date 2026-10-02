@@ -1,0 +1,271 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Vancouver Whitecaps FC U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26151-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC vs The Town FC Academy (Flex) (W 9–0)
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=vanco
+ uver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27081-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC at Real Salt Lake (L 0–2)
+LOCATION:America First - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28215-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T170000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC at Los Angeles Football Club
+LOCATION:Jesse Owens Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28406-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T170000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC vs ALBION SC Merced (Flex)
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=vanco
+ uver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28989-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T170000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC at Portland Timbers
+LOCATION:Portland Timbers Training Facility - Training Turf
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29558-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T180000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC vs Seattle Sounders FC
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29806-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T180000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC vs San Jose Earthquakes
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=
+ vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30172-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T210000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC at Seattle Sounders FC (Flex)
+LOCATION:Providence Swedish Performance Center & Clubhouse - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=vanco
+ uver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30676-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC vs San Jose Earthquakes (Flex)
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=vanco
+ uver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31007-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U19 Vancouver Whitecaps FC vs Sacramento Republic FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31116-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U19 Vancouver Whitecaps FC vs Sacramento United (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31359-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 Vancouver Whitecaps FC vs Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31553-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U19 Vancouver Whitecaps FC at LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31691-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U19 Vancouver Whitecaps FC vs Atletico Santa Rosa (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31888-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 Vancouver Whitecaps FC vs Lamorinda Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32313-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U19 Vancouver Whitecaps FC at San Jose Earthquakes
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32669-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 Vancouver Whitecaps FC at Portland Timbers (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway) · kickoff time 
+ not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-p
+ ro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33173-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U19 Vancouver Whitecaps FC vs Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27872-flex-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T180000Z
+DURATION:PT2H
+SUMMARY:U19 Vancouver Whitecaps FC vs Modesto Ajax United (Flex)
+LOCATION:National Soccer Development Centre - South Turf
+DESCRIPTION:MLS NEXT Flex · U19 West (Pro Player Pathway)\nhttps://stw1.gi
+ thub.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-pathway&show=vanco
+ uver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35622-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 Vancouver Whitecaps FC vs Portland Timbers
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36614-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 Vancouver Whitecaps FC at Seattle Sounders FC
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36805-7376@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U19 Vancouver Whitecaps FC vs LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U19 West (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=w
+ est-pro-player-pathway&show=vancouver-whitecaps-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=west-pro-player-
+ pathway&show=vancouver-whitecaps-fc
+END:VEVENT
+END:VCALENDAR

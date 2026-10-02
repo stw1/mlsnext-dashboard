@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SGA U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26604-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T163000Z
+DURATION:PT2H
+SUMMARY:U15 SGA at Austin FC (Flex) (L 0–1)
+LOCATION:St. David’s Performance Center – Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26449-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T153000Z
+DURATION:PT2H
+SUMMARY:U15 SGA vs Dallas Hornets (Flex) (L 0–1)
+LOCATION:LBJ Early College High School - Turf Field
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27308-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U15 SGA at GFI Academy (Flex) (L 0–6)
+LOCATION:Lenze Rd - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28275-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U15 SGA at Dallas Hornets
+LOCATION:Dallas College Richland Campus Soccer Fields - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28772-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T150000Z
+DURATION:PT2H
+SUMMARY:U15 SGA at Real Salt Lake (Flex)
+LOCATION:America First - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29216-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T173000Z
+DURATION:PT2H
+SUMMARY:U15 SGA vs GFI Academy
+LOCATION:Noack Sports Complex Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29821-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T211500Z
+DURATION:PT2H
+SUMMARY:U15 SGA at FC Dallas (Flex)
+LOCATION:Toyota Soccer Center - Field 8
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30504-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U15 SGA at AC River (Flex)
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30772-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T190000Z
+DURATION:PT2H
+SUMMARY:U15 SGA vs ALBION SC Colorado (Flex)
+LOCATION:Noack Sports Complex Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31279-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U15 SGA at Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31830-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U15 SGA vs Houston Rangers (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32112-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U15 SGA at Capital City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32977-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U15 SGA at ALBION SC Colorado
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33186-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T193000Z
+DURATION:PT2H
+SUMMARY:U15 SGA at Colorado Rapids (Flex)
+LOCATION:Dicks Sporing Goods Park - #10
+DESCRIPTION:MLS NEXT Flex · U15 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33835-flex-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U15 SGA vs Tulsa Greenwood SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34551-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U15 SGA at Tulsa Greenwood SC
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35379-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U15 SGA vs Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35847-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U15 SGA vs AC River
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36020-10484@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U15 SGA vs Capital City SC
+DESCRIPTION:MLS NEXT Homegrown · U15 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sga
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=frontier&show=sg
+ a
+END:VEVENT
+END:VCALENDAR

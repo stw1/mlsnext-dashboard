@@ -1,0 +1,352 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Inter Atlanta FC U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26268-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T170000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs AFC Lightning (Flex) (W 4–1)
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36923-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T170000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs Triangle United Soccer Association (W 1–0
+ )
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27565-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T173000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Queen City Mutiny FC (Flex) (W 1–0)
+LOCATION:Elon Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27882-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T130000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Carolina Core FC (Flex) (L 2–4)
+LOCATION:Phillips Park Soccer Complex Field #1
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28560-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Chattanooga FC (Flex)
+LOCATION:Camp Jordan Soccer Fields - Stadium
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28816-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T180000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Huntsville City FC (Flex)
+LOCATION:Wick Family Field - Stadium
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29265-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T170000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs Nashville United Soccer Academy (NUSA Next)
+  (Flex)
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29485-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs Carolina Core FC
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29663-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T160000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs Charlotte Independence Soccer Club (Flex)
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29923-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Nashville United Soccer Academy (NUSA Next)
+LOCATION:Siegal High School
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30198-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Nashville SC (Flex)
+LOCATION:The Gold Mine - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30573-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T180000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs Hoover-Vestavia Soccer (Flex)
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30892-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T150000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at KSA (Flex)
+LOCATION:Rock Springs Park - RSP 3
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32016-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T200000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Wake FC
+LOCATION:Ting Park - Ting Park 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32065-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U15 Inter Atlanta FC at Charlotte FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=inter-a
+ tlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32367-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U15 Inter Atlanta FC vs Huntsville City FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32870-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270228T140000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at AFC Lightning
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33145-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T140000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs Queen City Mutiny FC
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33288-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T140000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs Charlotte FC
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33722-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T180000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Charlotte Independence Soccer Club
+LOCATION:Richard Barry Memorial Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33948-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U15 Inter Atlanta FC at Triangle United Soccer Association (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=inter-a
+ tlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34296-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U15 Inter Atlanta FC vs Southern Soccer Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=inter-a
+ tlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34588-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T150000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Lanier Soccer Association (Flex)
+LOCATION:Allen Creek Soccer Complex  - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34879-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T170000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Hoover-Vestavia Soccer
+LOCATION:Hoover East Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35184-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U15 Inter Atlanta FC vs Lanier Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35875-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T170000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC at Southern Soccer Academy
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36366-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U15 Inter Atlanta FC vs KSA
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36848-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U15 Inter Atlanta FC vs Chattanooga FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28126-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T150000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs Wake FC (Flex)
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+END:VCALENDAR

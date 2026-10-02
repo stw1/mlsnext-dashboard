@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Inter Atlanta FC U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26244-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T130000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC vs AFC Lightning (W 2–0)
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26689-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T170000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Atlanta United (L 0–3)
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36912-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T150000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC vs Triangle United Soccer Association (W 2–0
+ )
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27544-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T173000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Queen City Mutiny FC (L 1–2)
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27790-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T130000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Carolina Core FC (W 5–1)
+LOCATION:Phillips Park Soccer Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28546-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Chattanooga FC
+LOCATION:Camp Jordan Soccer Fields - Field 13
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28638-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T140000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Huntsville City FC
+LOCATION:Wick Family Field - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29247-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T130000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC vs Nashville United Soccer Academy (NUSA Next)
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29439-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T130000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC vs Carolina Core FC
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29506-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T140000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC vs Charlotte Independence Soccer Club
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29873-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T150000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Nashville United Soccer Academy (NUSA Next)
+LOCATION:Oakland High School - Oakland High School Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30410-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T140000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC vs Hoover-Vestavia Soccer
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30872-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T190000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at KSA
+LOCATION:Rock Springs Park - RSP 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31914-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T220000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Wake FC
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32279-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 Inter Atlanta FC vs Huntsville City FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32807-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270228T140000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at AFC Lightning
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33045-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T180000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC vs Queen City Mutiny FC
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33659-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T160000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Charlotte Independence Soccer Club
+LOCATION:Richard Barry Memorial Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33877-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U13 Inter Atlanta FC at Triangle United Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34163-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U13 Inter Atlanta FC vs Southern Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34420-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T170000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Lanier Soccer Association
+LOCATION:Allen Creek Soccer Complex  - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34810-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T150000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Hoover-Vestavia Soccer
+LOCATION:Hoover East Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35117-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 Inter Atlanta FC vs Lanier Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35741-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T150000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC at Southern Soccer Academy
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36152-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 Inter Atlanta FC vs KSA
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36520-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270507T233000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC vs Atlanta United
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36794-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U13 Inter Atlanta FC vs Chattanooga FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28100-6012@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T170000Z
+DURATION:PT2H
+SUMMARY:U13 Inter Atlanta FC vs Wake FC
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+END:VCALENDAR

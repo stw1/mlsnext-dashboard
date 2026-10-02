@@ -1,0 +1,217 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Capital City SC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26439-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC vs GFI Academy (Flex) (L 1–3)
+LOCATION:1849 Park - Field #2
+DESCRIPTION:MLS NEXT Flex · U16 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26879-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T210000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC at Houston Rangers (Flex) (W 4–3)
+LOCATION:Paul D Rushing Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33817-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T200000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC vs AC River (Flex) (L 3–5)
+LOCATION:1849 Park - Field #1
+DESCRIPTION:MLS NEXT Flex · U16 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27727-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T163000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC at Austin FC (Flex)
+LOCATION:St. David’s Performance Center – Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34018-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T150000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC vs Tulsa Greenwood SC
+LOCATION:1849 Park - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U16 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29000-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T180000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC at FC Dallas (Flex)
+LOCATION:Toyota Soccer Center - Field 8
+DESCRIPTION:MLS NEXT Flex · U16 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29608-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC at Colorado Rapids (Flex)
+LOCATION:Dicks Sporting Goods Park - Field #10
+DESCRIPTION:MLS NEXT Flex · U16 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29814-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC at ALBION SC Colorado (Flex)
+LOCATION:East Boulder Community Center - West Turf
+DESCRIPTION:MLS NEXT Flex · U16 Frontier\nhttps://stw1.github.io/mlsnext-d
+ ashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30511-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC vs ALBION SC Colorado
+LOCATION:1849 Park - Field #1
+DESCRIPTION:MLS NEXT Homegrown · U16 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31457-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U16 Capital City SC vs Dallas Hornets (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=capital-c
+ ity-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31649-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U16 Capital City SC at Houston Dynamo FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=capital-c
+ ity-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32113-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 Capital City SC vs SGA (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=capital-c
+ ity-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32547-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 Capital City SC at GFI Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32994-flex-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Capital City SC at Tulsa Greenwood SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Frontier · kickoff time not set yet\nhttp
+ s://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=capital-c
+ ity-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34234-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 Capital City SC vs Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U16 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34540-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T190000Z
+DURATION:PT2H
+SUMMARY:U16 Capital City SC at AC River
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U16 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U16&conf=frontier&show=capital-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36021-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U16 Capital City SC at SGA
+DESCRIPTION:MLS NEXT Homegrown · U16 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36311-6315@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Capital City SC at Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U16 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=capi
+ tal-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=frontier&show=ca
+ pital-city-sc
+END:VEVENT
+END:VCALENDAR

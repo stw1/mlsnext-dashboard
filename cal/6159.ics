@@ -1,0 +1,294 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Springfield SYC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26750-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC at Sporting Athletic Club (L 1–3)
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26916-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T214500Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC vs Bethesda SC (L 0–1)
+LOCATION:West Springfield High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27557-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T163000Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC vs Baltimore Armour (W 1–0)
+LOCATION:West Springfield High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33884-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T130000Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC at Northern Virginia Alliance
+LOCATION:Philip A. Bolen Memorial Regional Park - Field 20
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28119-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T160000Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC vs Sporting Athletic Club
+LOCATION:Hayfield Secondary School - Auxiliary Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32358-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T160000Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC at Beadling SC
+LOCATION:Kiski Area Prep High School - Football Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29659-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T150000Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC vs Coppermine SC
+LOCATION:Hayfield Secondary School - Auxiliary Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30189-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T171500Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC vs PA Classics
+LOCATION:Hayfield Secondary School - Auxiliary Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26261-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T170000Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC vs Achilles FC
+LOCATION:Hayfield Secondary School - Auxiliary Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28649-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T170000Z
+DURATION:PT2H
+SUMMARY:U14 Springfield SYC at Coppermine SC
+LOCATION:St. Paul's School - St. Paul's Levering Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31998-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U14 Springfield SYC vs Northern Virginia Alliance
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32817-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U14 Springfield SYC at Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33133-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U14 Springfield SYC vs Real Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33310-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U14 Springfield SYC vs FC DELCO
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34074-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 Springfield SYC at Keystone FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34290-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U14 Springfield SYC at Penn Rising XI
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34444-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U14 Springfield SYC vs Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35129-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U14 Springfield SYC at Players Development Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35272-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 Springfield SYC at Cedar Stars Academy Monmouth
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35557-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 Springfield SYC vs Philadelphia Union
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35755-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U14 Springfield SYC vs The Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36158-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 Springfield SYC at Baltimore Armour
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36544-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Springfield SYC vs Beadling SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30878-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270601
+SUMMARY:U14 Springfield SYC at Bethesda SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30417-6159@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270606
+SUMMARY:U14 Springfield SYC at Achilles FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=springfield-syc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=springfield-syc
+END:VEVENT
+END:VCALENDAR

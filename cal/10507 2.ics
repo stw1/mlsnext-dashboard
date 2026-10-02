@@ -1,0 +1,323 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chattanooga FC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-36380-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Triangle United Soccer Association (W 6–3)
+LOCATION:Soccer.com - #3
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26324-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T140000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Charlotte FC (Flex) (L 2–3)
+LOCATION:Atrium Health Performance Park – Grass
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29928-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T140000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC vs Hoover-Vestavia Soccer (Flex) (W 4–0)
+LOCATION:UTC Sports Complex - Lower Field
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27139-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at KSA (Flex) (D 3–3)
+LOCATION:Rock Springs Park - RSP 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27419-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T150000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Southern Soccer Academy (Flex) (W 3–1)
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28184-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T140000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC vs Lanier Soccer Association (Flex)
+LOCATION:UTC Sports Complex - Lower Field
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28568-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T140000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC vs Inter Atlanta FC (Flex)
+LOCATION:Camp Jordan Soccer Fields - Stadium
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28825-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T130000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC vs Carolina Core FC (Flex)
+LOCATION:UTC Sports Complex - Lower Field
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29065-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Charlotte Independence Soccer Club (Flex)
+LOCATION:Richard Barry Memorial Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29361-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T130000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Wake FC (Flex)
+LOCATION:Ting Park - Ting Park 1
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29758-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T180000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Nashville United Soccer Academy (NUSA Next) (
+ Flex)
+LOCATION:Richard Siegel Soccer Complex - 7
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30355-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T180000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at AFC Lightning (Flex)
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31836-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U16 Chattanooga FC vs Southern Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=ch
+ attanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28024-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U16 Chattanooga FC vs Triangle United Soccer Association (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=chattan
+ ooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32160-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U16 Chattanooga FC vs Queen City Mutiny FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=chattan
+ ooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32375-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T160000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Nashville SC (Flex)
+LOCATION:The Gold Mine - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32884-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270228T180000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Hoover-Vestavia Soccer
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33222-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Chattanooga FC vs KSA
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=ch
+ attanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33949-flex-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270314T130000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Atlanta United (Flex)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U16 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34135-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U16 Chattanooga FC vs Charlotte Independence Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=ch
+ attanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34303-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U16 Chattanooga FC vs AFC Lightning
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=ch
+ attanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34600-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 Chattanooga FC vs Wake FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=ch
+ attanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34795-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 Chattanooga FC at Carolina Core FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=ch
+ attanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35020-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U16 Chattanooga FC at Queen City Mutiny FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=ch
+ attanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36706-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Chattanooga FC vs Nashville United Soccer Academy (NUSA Next)
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=ch
+ attanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36853-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U16 Chattanooga FC at Inter Atlanta FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=ch
+ attanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36929-10507@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T130000Z
+DURATION:PT2H
+SUMMARY:U16 Chattanooga FC at Lanier Soccer Association
+LOCATION:ALLEN CREEK SOCCER COMPLEX - FIELD 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+END:VCALENDAR

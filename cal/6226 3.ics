@@ -1,0 +1,263 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lou Fusz Athletic U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26064-flex-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T180000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic at SC Wave (Flex) (W 3–2)
+LOCATION:Uihlein Soccer Park  - Pat Jones
+DESCRIPTION:MLS NEXT Flex · U15 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26228-flex-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T200000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic at Bavarian United SC (Flex) (L 3–4)
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Flex · U15 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26899-flex-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T170000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic vs Shattuck-St. Mary's (Flex) (W 4–1)
+LOCATION:Lou Fusz Athletic Soccer Complex - Field #7
+DESCRIPTION:MLS NEXT Flex · U15 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27129-flex-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T190000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic vs Sockers FC Chicago (Flex) (W 4–1)
+LOCATION:Lou Fusz Athletic Soccer Complex - Field #7
+DESCRIPTION:MLS NEXT Flex · U15 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27516-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T190000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic vs Vardar Soccer Club (W 1–0)
+LOCATION:SportPort Complex - Field 10
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28176-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T161500Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic at Shattuck-St. Mary's
+LOCATION:Shattuck-St. Mary's School - Dome
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29237-flex-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T200000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic at Minnesota United FC (Flex)
+LOCATION:Spring Lake Park High School - North Turf
+DESCRIPTION:MLS NEXT Flex · U15 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28530-flex-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T170000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic vs Chicago FC United (Flex)
+LOCATION:Lou Fusz Athletic Soccer Complex - Field #4
+DESCRIPTION:MLS NEXT Flex · U15 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28783-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T133000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic at Cincinnati United Soccer Club
+LOCATION:Seven Hills High School - Upper Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29022-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T134500Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic at Club Ohio
+LOCATION:Kilbourne Run Sports Turf #3
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30310-flex-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T190000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic at St. Louis Scott Gallagher (Flex)
+LOCATION:World Wide Technology Soccer Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30531-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U15 Lou Fusz Athletic vs Bavarian United SC
+LOCATION:Creve Couer Park Soccer Complex - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U15&conf=mid-america&show=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32756-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U15 Lou Fusz Athletic at Chicago FC United
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33202-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U15 Lou Fusz Athletic vs St. Louis Scott Gallagher
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33847-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U15 Lou Fusz Athletic vs SC Wave
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34257-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 Lou Fusz Athletic at AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34563-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U15 Lou Fusz Athletic vs Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34775-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U15 Lou Fusz Athletic vs Indy Eleven
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35402-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U15 Lou Fusz Athletic vs Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35644-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U15 Lou Fusz Athletic vs Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36341-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U15 Lou Fusz Athletic at Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36828-6226@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U15 Lou Fusz Athletic at Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&sho
+ w=lou-fusz-athletic
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=mid-america&show
+ =lou-fusz-athletic
+END:VEVENT
+END:VCALENDAR

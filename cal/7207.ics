@@ -1,0 +1,305 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bavarian United SC U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26039-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs Hoosier Premier (D 3–3)
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26230-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T160000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs Lou Fusz Athletic (Flex) (L 1–2)
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26647-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T181500Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC at Chicago Fire FC (Flex) (L 1–3)
+LOCATION:Endeavor Health Performance Center - Turf 3
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26897-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs Chicago FC United (Flex) (L 0–4)
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27127-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T160000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs St. Louis Scott Gallagher (Flex) (L 0–6
+ )
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27539-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T170000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC at Sockers FC Chicago (Flex) (L 0–6)
+LOCATION:Bridgeview Sports Fields - Field 2
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28295-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs Sockers FC Chicago
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28511-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T180000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs Michigan Jaguars
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29018-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T173000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC at Cincinnati United Soccer Club
+LOCATION:Seven Hills High School - Lower Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29418-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC at SC Wave (Flex)
+LOCATION:Mindiola Sports Complex - Mindiola Turf West
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32333-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T160000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs Club Ohio
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30071-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30308-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T171500Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC at St. Louis City SC (Flex)
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30533-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC at Lou Fusz Athletic
+LOCATION:Creve Couer Park Soccer Complex - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33219-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U17 Bavarian United SC at Sporting Kansas City (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=bav
+ arian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28000-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T170000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC at Minnesota United FC (Flex)
+LOCATION:National Sports Center - NSC Dome
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33635-flex-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270314T161500Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC at Shattuck-St. Mary's (Flex)
+LOCATION:Shattuck-St. Mary's School - Dome
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34559-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 Bavarian United SC at Chicago FC United
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34247-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T160000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs SC Wave
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34995-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T160000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs Shattuck-St. Mary's
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35410-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 Bavarian United SC at Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35663-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U17 Bavarian United SC at Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36331-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Bavarian United SC at AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36664-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T160000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs Indy Eleven
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36814-7207@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T140000Z
+DURATION:PT2H
+SUMMARY:U17 Bavarian United SC vs Midwest United FC
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=bavarian-united-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =bavarian-united-sc
+END:VEVENT
+END:VCALENDAR

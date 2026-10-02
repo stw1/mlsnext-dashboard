@@ -1,0 +1,329 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FC Dallas U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26446-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas at Real Salt Lake (Flex) (L 1–2)
+LOCATION:Zions Bank Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27017-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs Austin FC (L 0–1)
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27427-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T130000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas at Charlotte FC (L 0–4)
+LOCATION:Atrium Health Performance Park – Grass
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28204-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T140000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs Atlanta United
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28428-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas at Houston Dynamo FC
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28761-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs Austin FC (Flex)
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29002-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T180000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs Capital City SC (Flex)
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36789-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T140000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas at Nashville SC
+LOCATION:The Gold Mine - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29614-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs Tulsa Greenwood SC (Flex)
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29824-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs SGA (Flex)
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30206-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T140000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas at Orlando City SC
+LOCATION:Osceola Heritage park stadium - Osceola Heritage Park Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30691-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs Inter Miami CF
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27963-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270116T150000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs Dallas Hornets (Flex)
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31325-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T160000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs Charlotte FC
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31466-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U19 FC Dallas vs Houston Dynamo FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31565-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U19 FC Dallas vs GFI Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31640-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U19 FC Dallas at Colorado Rapids (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31897-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T160000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas at Atlanta United
+LOCATION:Atlanta United Training Ground - 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32119-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U19 FC Dallas vs ALBION SC Colorado (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32543-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 FC Dallas vs Houston Rangers (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33542-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 FC Dallas vs Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35551-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 FC Dallas at Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35971-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 FC Dallas vs Houston Dynamo FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36528-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 FC Dallas at Inter Miami CF
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29355-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T140000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs Nashville SC
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27743-flex-5803@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U19 FC Dallas vs AC River (Flex)
+LOCATION:Toyota Soccer Center - Field 13
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=fc-dallas
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=fc-dallas
+END:VEVENT
+END:VCALENDAR

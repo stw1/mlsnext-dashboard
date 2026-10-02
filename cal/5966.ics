@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ballistic United U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26539-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United at Sacramento United (Flex) (D 1–1\, won 4
+ –3 on pens)
+LOCATION:Granite Regional Park - Turf
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26982-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United vs De Anza Force (L 1–2)
+LOCATION:Stanford Medical Sports Complex - West
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27846-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United vs Sacramento Republic FC (Flex)
+LOCATION:Val Vista - Field 2
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28194-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T193000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United at Portland Timbers (Flex)
+LOCATION:Portland Timbers Training Facility - Training Turf
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28917-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T160000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United at The Town FC Academy (Flex)
+LOCATION:Concord High - Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29316-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United vs Sacramento United
+LOCATION:Stanford Medical Sports Complex - West
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29709-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United vs Woodside Soccer Club Crush (Flex)
+LOCATION:Stanford Medical Sports Complex - West
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30153-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United at Sacramento Republic FC
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30656-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United vs Lamorinda Soccer Club (Flex)
+LOCATION:Stanford Medical Sports Complex - West
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31107-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U19 Ballistic United at Seattle Sounders FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ballist
+ ic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31289-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 Ballistic United vs ALBION SC Merced (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ballist
+ ic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31481-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U19 Ballistic United vs San Francisco Glens SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ballist
+ ic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31671-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U19 Ballistic United at Modesto Ajax United (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ballist
+ ic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31868-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 Ballistic United at De Anza Force (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ballist
+ ic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32221-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U19 Ballistic United vs Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ba
+ llistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32661-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 Ballistic United vs Silicon Valley Soccer Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ballist
+ ic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33130-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United at Woodside Soccer Club Crush
+LOCATION:Canada College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33497-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 Ballistic United at Atletico Santa Rosa (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ballist
+ ic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30990-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U19 Ballistic United at San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ba
+ llistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34382-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 Ballistic United vs The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ba
+ llistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34643-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U19 Ballistic United at ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ba
+ llistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35105-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 Ballistic United at Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ba
+ llistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35521-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 Ballistic United vs Modesto Ajax United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ba
+ llistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35941-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 Ballistic United vs FC Bay Area Surf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ba
+ llistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26119-flex-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U19 Ballistic United at FC Bay Area Surf (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=ballist
+ ic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36478-5966@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T160000Z
+DURATION:PT2H
+SUMMARY:U19 Ballistic United at Lamorinda Soccer Club
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=ballistic-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=b
+ allistic-united
+END:VEVENT
+END:VCALENDAR

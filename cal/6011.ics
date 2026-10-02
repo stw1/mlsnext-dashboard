@@ -1,0 +1,375 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RSL Arizona U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26187-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona at San Diego FC (W 3–2)
+LOCATION:Sharp Healthcare Performance Center - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26793-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T160000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona at Los Angeles Football Club (D 1–1)
+LOCATION:Jesse Owens Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27055-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona vs City SC - San Diego (W 4–1)
+LOCATION:Scottsdale Sports Complex - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27478-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona vs Los Angeles Sports Club (L 1–2)
+LOCATION:Scottsdale Sports Complex - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27913-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona at City SC Southwest
+LOCATION:Silverlakes Sports Park -  Field 17
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28142-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T160000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona at City SC - San Diego
+LOCATION:Aviara Community Park - Aviara Community Park
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28452-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T080000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona at LA Surf Soccer Club
+LOCATION:Arcadia High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28683-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T195000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona at Strikers FC
+LOCATION:Great Park - Field 11
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29373-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T190000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona vs San Diego FC
+LOCATION:Scottsdale Prep - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29765-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona at ALBION SC San Diego
+LOCATION:Muir Language Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26349-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona at Chula Vista FC
+LOCATION:Hoover High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30235-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona vs Las Vegas Sports Academy
+LOCATION:Bell Road Sports Complex - Field #13
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30737-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona vs Chula Vista FC
+LOCATION:Bell Road Sports Complex - Field #13
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30915-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T170000Z
+DURATION:PT2H
+SUMMARY:U13 RSL Arizona vs SoCal Reds FC
+LOCATION:Bell Road Sports Complex - Field #13
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31202-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:U13 RSL Arizona vs FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31338-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 RSL Arizona vs Santa Barbara Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31538-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U13 RSL Arizona at Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31568-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U13 RSL Arizona at Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31712-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U13 RSL Arizona vs SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31932-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 RSL Arizona vs RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32286-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 RSL Arizona at LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32484-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 RSL Arizona at Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33159-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 RSL Arizona vs City SC Southwest
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33566-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 RSL Arizona vs Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33766-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U13 RSL Arizona vs Albion SC Las Vegas
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33985-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 RSL Arizona at Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34481-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 RSL Arizona at SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34744-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 RSL Arizona at Las Vegas Sports Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34888-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U13 RSL Arizona at Albion SC Las Vegas
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35788-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 RSL Arizona vs Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36007-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 RSL Arizona vs ALBION SC San Diego
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36593-6011@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 RSL Arizona at RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=rs
+ l-arizona
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
+ sl-arizona
+END:VEVENT
+END:VCALENDAR

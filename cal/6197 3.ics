@@ -1,0 +1,334 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Austin FC U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26606-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T163000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC vs SGA (Flex) (W 3–0)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pathway&
+ show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26434-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T170000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC vs AC River (Flex) (W 5–0)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pathway&
+ show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27016-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC at FC Dallas (L 2–4)
+LOCATION:Toyota Soccer Center - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pat
+ hway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27423-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC vs Orlando City SC (L 1–2)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pat
+ hway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27728-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T163000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC vs Capital City SC (Flex)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pathway&
+ show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28196-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T160000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC vs Nashville SC
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pat
+ hway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28430-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC at Inter Miami CF
+LOCATION:Florida Blue Training Center - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pat
+ hway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28760-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC at FC Dallas (Flex)
+LOCATION:Toyota Soccer Center - Field 7
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pathway&
+ show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29344-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC vs Atlanta United
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pat
+ hway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29745-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC vs Houston Dynamo FC
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pat
+ hway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30038-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T203000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC vs Tulsa Greenwood SC (Flex)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pathway&
+ show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30271-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T210000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC vs Dallas Hornets (Flex)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pathway&
+ show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30687-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T173000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC at Charlotte FC
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pat
+ hway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31269-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U17 Austin FC vs GFI Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=s
+ outheast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31371-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U17 Austin FC vs FC Dallas (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=s
+ outheast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31509-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U17 Austin FC vs Charlotte FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&c
+ onf=southeast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31705-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U17 Austin FC at Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&c
+ onf=southeast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31815-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U17 Austin FC vs Colorado Rapids (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=s
+ outheast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31994-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U17 Austin FC vs ALBION SC Colorado (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=s
+ outheast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32125-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U17 Austin FC at Real Salt Lake (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=s
+ outheast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32713-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T183000Z
+DURATION:PT2H
+SUMMARY:U17 Austin FC at Nashville SC
+LOCATION:The Gold Mine - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pat
+ hway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33137-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Austin FC vs Inter Miami CF
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&c
+ onf=southeast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33413-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 Austin FC vs Houston Rangers (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=s
+ outheast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33611-flex-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U17 Austin FC vs Houston Dynamo FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=s
+ outheast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35113-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U17 Austin FC at Atlanta United
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&c
+ onf=southeast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35550-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 Austin FC vs FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&c
+ onf=southeast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36518-6197@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Austin FC at Houston Dynamo FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&c
+ onf=southeast-pro-player-pathway&show=austin-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=austin-fc
+END:VEVENT
+END:VCALENDAR

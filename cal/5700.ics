@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Atlanta United U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26252-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T140000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Charlotte Independence Soccer Club (W 3–2)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26562-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Wake FC (W 6–1)
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26699-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T150000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Inter Atlanta FC (W 2–1)
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27012-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T150000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United at Charlotte Independence Soccer Club (W 4–0)
+LOCATION:Bradford Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28010-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T170000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Carolina Core FC
+LOCATION:Atlanta United Training Ground - 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28108-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T150000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs AFC Lightning
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28652-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T170000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United at Nashville United Soccer Academy (NUSA Next)
+LOCATION:Richard Siegel Soccer Complex - 6
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28951-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Southern Soccer Academy
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29254-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T150000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Lanier Soccer Association
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29876-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T160000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Queen City Mutiny FC
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30100-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T160000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United at Chattanooga FC
+LOCATION:Finley Stadium - Turf
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30564-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T160000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United at Lanier Soccer Association
+LOCATION:ALLEN CREEK SOCCER COMPLEX - FIELD 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31918-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T180000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United at Hoover-Vestavia Soccer
+LOCATION:Hoover East Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32447-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T140000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Huntsville City FC
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32708-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T160000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Nashville United Soccer Academy (NUSA Next)
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32818-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270228T160000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Triangle United Soccer Association
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33665-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T160000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Hoover-Vestavia Soccer
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33878-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270314T130000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs Chattanooga FC
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34286-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270321T170000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United at Huntsville City FC
+LOCATION:Wick Family Field - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35558-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T150000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United at Wake FC
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34872-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Atlanta United at Triangle United Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=at
+ lanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35124-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T150000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United at AFC Lightning
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35748-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U14 Atlanta United at Carolina Core FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=at
+ lanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36403-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U14 Atlanta United at KSA
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=at
+ lanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36509-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270502T130000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United at Southern Soccer Academy
+LOCATION:Marathon Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36537-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Atlanta United at Inter Atlanta FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=at
+ lanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36920-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U14 Atlanta United at Queen City Mutiny FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=at
+ lanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26077-5700@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T150000Z
+DURATION:PT2H
+SUMMARY:U14 Atlanta United vs KSA
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=a
+ tlanta-united
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,365 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Atlanta United U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26167-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T130000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs KSA (Flex) (W 8–0)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26484-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T120000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Charlotte Independence Soccer Club (Flex) (W 
+ 3–0)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26676-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Wake FC (Flex) (W 5–0)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26911-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T150000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Inter Atlanta FC (Flex) (W 3–2)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27020-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T130000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United at Inter Miami CF (D 1–1)
+LOCATION:Florida Blue Training Center - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27430-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T140000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United at Houston Dynamo FC (W 4–0)
+LOCATION:Houston Sports Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28035-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T130000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Carolina Core FC (Flex)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28332-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T130000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs AFC Lightning (Flex)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28204-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T140000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United at FC Dallas
+LOCATION:Toyota Soccer Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28415-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Charlotte FC
+LOCATION:Atlanta United Training Ground - 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29127-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T130000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Southern Soccer Academy (Flex)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29430-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T130000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Lanier Soccer Association (Flex)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29345-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T150000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United at Austin FC
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29938-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T140000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Queen City Mutiny FC (Flex)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30187-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T150000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Nashville SC
+LOCATION:Atlanta United Training Ground - 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30685-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T150000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Orlando City SC
+LOCATION:Atlanta United Training Ground - 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31331-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 Atlanta United at Orlando City SC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31703-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United at Nashville SC
+LOCATION:The Gold Mine - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31897-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs FC Dallas
+LOCATION:Atlanta United Training Ground - 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32250-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T170000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Charlotte FC (Flex)
+LOCATION:Atlanta United Training Ground - 3
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32800-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T140000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Nashville United Soccer Academy (NUSA Next) (
+ Flex)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33036-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270228T140000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Triangle United Soccer Association (Flex)
+LOCATION:Atlanta United Training Ground - 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33246-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United at Nashville SC (Flex)
+LOCATION:The Gold Mine - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33861-flex-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 Atlanta United vs Hoover-Vestavia Soccer (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35114-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 Atlanta United vs Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35548-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atlanta United vs Inter Miami CF
+LOCATION:Atlanta United Training Ground - 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36513-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 Atlanta United at Charlotte FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36782-7241@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U19 Atlanta United vs Houston Dynamo FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=atlanta-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=atlanta-united
+END:VEVENT
+END:VCALENDAR

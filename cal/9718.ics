@@ -1,0 +1,318 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Connecticut United FC U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26310-flex-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T210000Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC at Ironbound Soccer Club (Flex) (W 4–0)
+LOCATION:Ironbound Stadium
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27168-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T130000Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC vs Metropolitan Oval (D 1–1)
+LOCATION:Wooster School - Alice & Fernando Fernandes Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27837-flex-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T200000Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC at TSF Academy (Flex)
+LOCATION:William Paterson University
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28584-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T130000Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC vs Intercontinental Football Academy of N
+ ew England
+LOCATION:Wooster School - Alice & Fernando Fernandes Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29092-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC at NEFC
+LOCATION:NEFC Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29453-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC vs Cedar Stars Academy Bergen
+LOCATION:Wooster School - Alice & Fernando Fernandes Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29666-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T140000Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC vs Bayside FC
+LOCATION:Immaculate High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29911-flex-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T150000Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC at Red Bull New York (Flex)
+LOCATION:Red Bull Performance Center - Turf
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30138-flex-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T194500Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC at Cedar Stars Academy Bergen (Flex)
+LOCATION:FDU Soccer Field - Teaneck
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30589-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T140000Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC vs Ironbound Soccer Club
+LOCATION:Immaculate High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32203-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U15 Connecticut United FC at Seacoast United
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32823-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U15 Connecticut United FC at Beachside of Connecticut
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33083-flex-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U15 Connecticut United FC vs New York SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=connect
+ icut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33708-flex-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U15 Connecticut United FC vs FC Westchester (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=connect
+ icut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34105-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U15 Connecticut United FC at The Island FC West
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34373-flex-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 Connecticut United FC vs Beachside of Connecticut (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=connect
+ icut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34632-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U15 Connecticut United FC at FC Westchester
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35050-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U15 Connecticut United FC vs Red Bull New York
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35228-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U15 Connecticut United FC vs FC Greater Boston Bolts
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35472-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U15 Connecticut United FC vs FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35711-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U15 Connecticut United FC vs Valeo Futbol Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36112-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U15 Connecticut United FC vs TSF Academy
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36453-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U15 Connecticut United FC at New York SC
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36767-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U15 Connecticut United FC at The Island FC East
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36865-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U15 Connecticut United FC at Blau Weiss Gottschee
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=co
+ nnecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26727-flex-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270608
+SUMMARY:U15 Connecticut United FC at CF Montreal (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=connect
+ icut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27364-9718@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T174500Z
+DURATION:PT2H
+SUMMARY:U15 Connecticut United FC at Downtown United Soccer Club
+LOCATION:Pier 40 CourtYard - East Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+END:VCALENDAR

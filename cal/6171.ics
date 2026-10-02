@@ -1,0 +1,374 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SC Del Sol U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26177-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T200000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol at FC Golden State Force (D 2–2)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27033-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol at Albion SC Las Vegas (D 3–3)
+LOCATION:Aventura Park - South Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27234-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T200000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol at Las Vegas Sports Academy (L 1–4)
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27468-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T171500Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol at Los Angeles Bulls Soccer Club (D 2–2)
+LOCATION:Valley United Soccer Complex
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27668-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T200000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol at SoCal Reds FC (L 1–3)
+LOCATION:Orange County Great Park - Field 12
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28446-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol at Los Angeles Sports Club
+LOCATION:Silver Lakes Sports Complex - Field 19
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28677-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T160000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol at Santa Barbara Soccer Club
+LOCATION:Westmont College - Lovik Field B
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28966-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T230000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol vs ALBION SC San Diego
+LOCATION:Quail Run Soccer Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29377-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T230000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol vs Ventura County Fusion
+LOCATION:Quail Run Soccer Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29531-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T200000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol vs City SC Southwest
+LOCATION:Copper Sky  - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30435-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T200000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol vs Las Vegas Sports Academy
+LOCATION:Copper Sky  - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30719-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T210000Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol at City SC Southwest
+LOCATION:Patricia H. Birdsall Sports Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30903-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T204500Z
+DURATION:PT2H
+SUMMARY:U13 SC Del Sol at City SC - San Diego
+LOCATION:Poinsettia Community Park - Poinsettia Community Park
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=sc-del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31146-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U13 SC Del Sol vs City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31346-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 SC Del Sol vs Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31388-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U13 SC Del Sol vs LA Surf Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31586-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U13 SC Del Sol vs LA Galaxy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31712-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U13 SC Del Sol at RSL Arizona
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31934-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 SC Del Sol vs Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32298-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 SC Del Sol vs Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32476-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 SC Del Sol vs San Diego FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32899-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 SC Del Sol at ALBION SC San Diego
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33341-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U13 SC Del Sol at RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33572-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 SC Del Sol vs Albion SC Las Vegas
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33987-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 SC Del Sol vs RSL Arizona Mesa
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34481-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 SC Del Sol vs RSL Arizona
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34752-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 SC Del Sol vs Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34933-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U13 SC Del Sol vs Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35596-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 SC Del Sol at San Diego FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35765-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 SC Del Sol at Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36193-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 SC Del Sol vs Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36587-6171@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 SC Del Sol at Phoenix Rising FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sc
+ -del-sol
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ c-del-sol
+END:VEVENT
+END:VCALENDAR

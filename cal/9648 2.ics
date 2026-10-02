@@ -1,0 +1,286 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Football Academy U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26334-flex-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T181500Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy vs Players Development Academy (Flex) (L 1
+ –2)
+LOCATION:Pingry Babbitt - Turf Field
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26679-flex-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy at Keystone FC (Flex) (W 2–1)
+LOCATION:Bermudian Springs Middle School
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28228-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T190000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy vs Penn Rising XI (W 5–0)
+LOCATION:Iron Peak Sports & Events - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27619-flex-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T190000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy vs Real Futbol Academy (Flex) (W 4–0)
+LOCATION:Florham Park Sports Dome - Turf
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27358-flex-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T170000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy at Penn Rising XI (Flex)
+LOCATION:Jeff Morris Field - Muhlenberg College - Stadium FIeld
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28829-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T180000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy at Players Development Academy
+LOCATION:PDA Soccer Complex - Field 5 Turf
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29360-flex-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T190000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy vs PA Classics (Flex)
+LOCATION:Florham Park Sports Dome - Turf
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29491-flex-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T183000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy at Philadelphia Union (Flex)
+LOCATION:WSFS Bank Sportsplex - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29927-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T140000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy at Bethesda SC
+LOCATION:Maryland SoccerPlex - Field 14
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30394-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T183000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy vs Baltimore Armour
+LOCATION:Pingry Babbitt - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31841-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T180000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy at PA Classics
+LOCATION:Classics Soccer Park - Turf
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32597-flex-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U16 The Football Academy vs FC DELCO (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=t
+ he-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32783-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 The Football Academy at Achilles FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33230-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 The Football Academy vs Beadling SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33531-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U16 The Football Academy vs Coppermine SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33956-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U16 The Football Academy at Real Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34599-flex-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 The Football Academy at Cedar Stars Academy Monmouth (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Mid-Atlantic · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=t
+ he-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34797-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 The Football Academy vs Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35021-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U16 The Football Academy vs Sporting Athletic Club
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35426-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U16 The Football Academy at FC DELCO
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35673-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T170000Z
+DURATION:PT2H
+SUMMARY:U16 The Football Academy at Northern Virginia Alliance
+LOCATION:Loudoun Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U16&conf=mid-atlantic&show=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35888-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U16 The Football Academy at Springfield SYC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36082-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U16 The Football Academy vs Keystone FC
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36714-9648@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 The Football Academy vs Cedar Stars Academy Monmouth
+DESCRIPTION:MLS NEXT Homegrown · U16 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&s
+ how=the-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=mid-atlantic&sho
+ w=the-football-academy
+END:VEVENT
+END:VCALENDAR

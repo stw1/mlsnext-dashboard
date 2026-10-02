@@ -1,0 +1,306 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Atletico Santa Rosa U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26521-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa vs Silicon Valley Soccer Academy (L 2–3)
+LOCATION:El Molino High School
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26994-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T020000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa at Modesto Ajax United (L 0–1)
+LOCATION:Mary Grogan Community Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27394-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa vs FC Bay Area Surf (Flex) (L 0–2)
+LOCATION:El Molino High School
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27852-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa at De Anza Force (Flex)
+LOCATION:Adrian Wilcox High School - Football Turf
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26140-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa at Sacramento Republic FC (Flex)
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28412-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa at Woodside Soccer Club Crush (Flex)
+LOCATION:Canada College - Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29334-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa at San Francisco Glens SC (Flex)
+LOCATION:SF Glens TI Field - 620 Ave. I\, Treasure Island\, San Francisco\,
+  CA 94132
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29723-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa at Lamorinda Soccer Club (Flex)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30147-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa vs Modesto Ajax United (Flex)
+LOCATION:Casa Grande High School
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30650-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U19 Atletico Santa Rosa vs The Town FC Academy (Flex)
+LOCATION:El Molino High School
+DESCRIPTION:MLS NEXT Flex · U19 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northwest&show=atletico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31004-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U19 Atletico Santa Rosa at Silicon Valley Soccer Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=atletic
+ o-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31322-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 Atletico Santa Rosa at The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31475-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U19 Atletico Santa Rosa vs ALBION SC Merced (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=atletic
+ o-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31691-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U19 Atletico Santa Rosa at Vancouver Whitecaps FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=atletic
+ o-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31862-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 Atletico Santa Rosa vs Sacramento United (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=atletic
+ o-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32221-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U19 Atletico Santa Rosa at Ballistic United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32655-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 Atletico Santa Rosa vs Woodside Soccer Club Crush
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33109-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U19 Atletico Santa Rosa at San Jose Earthquakes (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=atletic
+ o-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33497-flex-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 Atletico Santa Rosa vs Ballistic United (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=atletic
+ o-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33912-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U19 Atletico Santa Rosa vs Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34388-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 Atletico Santa Rosa at FC Bay Area Surf
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34663-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U19 Atletico Santa Rosa at Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35079-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 Atletico Santa Rosa vs Lamorinda Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35515-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 Atletico Santa Rosa vs De Anza Force
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35935-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U19 Atletico Santa Rosa vs San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36470-5906@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 Atletico Santa Rosa at ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U19 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+END:VCALENDAR

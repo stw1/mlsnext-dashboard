@@ -1,0 +1,283 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:St. Louis City SC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26463-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T193000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC at Sporting City (W 2–0)
+LOCATION:Swope Soccer Village - Field 6
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27107-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T150000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC at SC Wave (W 7–0)
+LOCATION:Mindiola Sports Complex - Mindiola Turf West
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27325-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T140000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC at Lou Fusz Athletic (W 1–0)
+LOCATION:Lou Fusz Athletic Soccer Complex - Field #6
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28307-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T213000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC vs Chicago FC United
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28519-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T203000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC vs SC Wave
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29230-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T140000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC at Michigan Wolves
+LOCATION:Schoolcraft College - Trinity Health Sports Dome
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29400-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T180000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC at AC Grand Rapids
+LOCATION:MSA Fieldhouse #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29638-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T150000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC at St. Louis Scott Gallagher
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30287-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T213000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC vs Bavarian United SC
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26218-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T213000Z
+DURATION:PT2H
+SUMMARY:U14 St. Louis City SC vs St. Louis Scott Gallagher
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32127-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U14 St. Louis City SC at Bavarian United SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32563-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U14 St. Louis City SC at FC Cincinnati
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32760-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U14 St. Louis City SC at Club Ohio
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33433-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 St. Louis City SC vs Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33626-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U14 St. Louis City SC vs Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34585-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U14 St. Louis City SC vs Indy Eleven
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34789-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 St. Louis City SC vs Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35183-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 St. Louis City SC at Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35412-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 St. Louis City SC vs Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35658-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U14 St. Louis City SC vs Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35869-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U14 St. Louis City SC at Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36320-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 St. Louis City SC at Chicago FC United
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36678-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U14 St. Louis City SC vs Sporting City
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36832-7203@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U14 St. Louis City SC vs Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=st-louis-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =st-louis-city-sc
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,291 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chicago Fire FC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26061-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Shattuck-St. Mary's (Flex) (W 7–0)
+LOCATION:Endeavor Health Performance Center - Turf 3
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26646-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Bavarian United SC (Flex) (W 14–0)
+LOCATION:Endeavor Health Performance Center - Turf 3
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27995-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T150000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs SC Wave (Flex) (W 3–2)
+LOCATION:Endeavor Health Performance Center - Turf 3
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27253-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T150000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Sporting Kansas City (W 3–0)
+LOCATION:Endeavor Health Performance Center - Turf 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27775-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T150000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs St. Louis City SC (Flex)
+LOCATION:Endeavor Health Performance Center Turf 2
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28170-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T180000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC at FC Cincinnati
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28808-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261014T230000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Sockers FC Chicago (Flex)
+LOCATION:Endeavor Health Performance Center Turf 2
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28232-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T150000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Minnesota United FC
+LOCATION:Endeavor Health Performance Center - Turf 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29161-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC at Colorado Rapids
+LOCATION:Dicks Sporing Goods Park - #10
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29559-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T203000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Columbus Crew
+LOCATION:Endeavor Health Performance Center - Turf 1 (Dome)
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30082-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T203000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC at Sporting Kansas City (Flex)
+LOCATION:Swope Soccer Village - Field 6
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30461-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T203000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC at St. Louis City SC
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33215-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T203000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Chicago FC United (Flex)
+LOCATION:Endeavor Health Performance Center - Turf 1 (Dome)
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32776-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T203000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs St. Louis Scott Gallagher (Flex)
+LOCATION:Endeavor Health Performance Center - Turf 1 (Dome)
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32067-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T203000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs St. Louis City SC
+LOCATION:Endeavor Health Performance Center - Turf 1 (Dome)
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32579-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T203000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Lou Fusz Athletic (Flex)
+LOCATION:Endeavor Health Performance Center - Turf 1 (Dome)
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33026-flex-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T203000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Minnesota United FC (Flex)
+LOCATION:Endeavor Health Performance Center - Turf 1 (Dome)
+DESCRIPTION:MLS NEXT Flex · U16 Central (Pro Player Pathway)\nhttps://stw1
+ .github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway&show
+ =chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34939-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T180000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC at Minnesota United FC
+LOCATION:National Sports Center - Front Turf East (Field 49)
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35332-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 Chicago Fire FC at Columbus Crew
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&con
+ f=central-pro-player-pathway&show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35796-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T150000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs FC Cincinnati
+LOCATION:Endeavor Health Performance Center - Turf 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36259-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T150000Z
+DURATION:PT2H
+SUMMARY:U16 Chicago Fire FC vs Colorado Rapids
+LOCATION:Endeavor Health Performance Center - Turf 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway)\nhttps:/
+ /stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-player-pathway
+ &show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36621-7266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U16 Chicago Fire FC at Sporting Kansas City
+DESCRIPTION:MLS NEXT Homegrown · U16 Central (Pro Player Pathway) · kicko
+ ff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&con
+ f=central-pro-player-pathway&show=chicago-fire-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=central-pro-play
+ er-pathway&show=chicago-fire-fc
+END:VEVENT
+END:VCALENDAR

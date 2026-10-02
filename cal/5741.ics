@@ -1,0 +1,315 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bayside FC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26095-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC at New York SC (L 0–7)
+LOCATION:Ophir Field - Ophir turf
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27157-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T144500Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs Beachside of Connecticut (L 2–7)
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28043-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T210000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs Valeo Futbol Club
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28335-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T150000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs FC Westchester
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28845-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T150000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC at Intercontinental Football Academy of New England
+LOCATION:New England Innovation Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29450-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T160000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs NEFC
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29665-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T193000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC at Connecticut United FC
+LOCATION:Rogers Park - John Perry Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29891-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T180000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC at Ironbound Soccer Club
+LOCATION:Ironbound Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32836-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC at New England Revolution
+LOCATION:Revolution Training Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30360-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T140000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs Intercontinental Football Academy of New England
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30602-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC at NEFC
+LOCATION:Hillside - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32611-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T180000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs New York City FC
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33249-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T220000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs Seacoast United
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33695-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U14 Bayside FC at Valeo Futbol Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=ba
+ yside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33888-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 Bayside FC at FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=ba
+ yside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32191-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270321T150000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC at Metropolitan Oval
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34324-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270327T210000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs FC Greater Boston Bolts
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34613-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T210000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs TSF Academy
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34817-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T150000Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs New England Revolution
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35044-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U14 Bayside FC at Blau Weiss Gottschee
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=ba
+ yside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35261-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 Bayside FC at The Island FC East
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=ba
+ yside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35477-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 Bayside FC at FC Greater Boston Bolts
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=ba
+ yside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35899-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T144500Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs Downtown United Soccer Club
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36093-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 Bayside FC vs Cedar Stars Academy Bergen
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=ba
+ yside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36858-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T144500Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC vs The Island FC West
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27593-5741@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T161500Z
+DURATION:PT2H
+SUMMARY:U14 Bayside FC at Seacoast United
+LOCATION:Seacoast United Epping Outdoor Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=bayside-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=b
+ ayside-fc
+END:VEVENT
+END:VCALENDAR

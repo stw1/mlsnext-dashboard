@@ -1,0 +1,319 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northern Virginia Alliance U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26684-flex-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T130000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at D.C. United (Flex) (L 0–2)
+LOCATION:Segra Field - Segra Field
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27448-flex-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T183000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Baltimore Armour (Flex) (L 1–3)
+LOCATION:Philip A. Bolen Memorial Regional Park - Field #12
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27900-flex-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T160000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at Beadling SC (Flex) (W 3–1)
+LOCATION:Highlands Sports Complex - Indoor Field
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33971-flex-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T151500Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Springfield SYC (Flex)
+LOCATION:Philip A. Bolen Memorial Regional Park - Field 20
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28333-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T180000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at Baltimore Armour
+LOCATION:Covenant Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26486-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T200000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at FC DELCO
+LOCATION:The Proving Grounds - 5
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28930-flex-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T140000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at Alexandria SA (Flex)
+LOCATION:Limerick Field - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29133-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T170000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Players Development Academy
+LOCATION:Loudoun Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29434-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T170000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Penn Rising XI
+LOCATION:Loudoun Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29498-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T230000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at Cedar Stars Academy Monmouth
+LOCATION:Capelli Sport Complex - Field #1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29865-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T183000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at Real Futbol Academy
+LOCATION:Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34319-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at Keystone FC
+LOCATION:Bermudian Springs High School - Softball/Field Hockey
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30698-flex-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T200000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Bethesda SC (Flex)
+LOCATION:Lightridge High School - Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32045-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 Northern Virginia Alliance at Springfield SYC
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33247-flex-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270214T160000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Achilles FC (Flex)
+LOCATION:Loudoun Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31899-flex-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T190000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Sporting Athletic Club (Flex)
+LOCATION:Loudoun Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32696-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T190000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at Sporting Athletic Club
+LOCATION:Chase Fields - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30330-flex-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T170000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance at Coppermine SC (Flex)
+LOCATION:Copperplex Field #8
+DESCRIPTION:MLS NEXT Flex · U19 Mid-Atlantic\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34694-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T140000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Coppermine SC
+LOCATION:Loudoun Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35203-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U19 Northern Virginia Alliance at Bethesda SC
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35039-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T160000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Beadling SC
+LOCATION:Lightridge High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35689-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T130000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs The Football Academy
+LOCATION:Loudoun Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35980-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T130000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs PA Classics
+LOCATION:Loudoun Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36391-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U19 Northern Virginia Alliance at Achilles FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&s
+ how=northern-virginia-alliance
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36731-9674@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T130000Z
+DURATION:PT2H
+SUMMARY:U19 Northern Virginia Alliance vs Alexandria SA
+LOCATION:Loudoun Soccer Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U19&conf=mid-atlantic&show=northern-virginia-allian
+ ce
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-atlantic&sho
+ w=northern-virginia-alliance
+END:VEVENT
+END:VCALENDAR

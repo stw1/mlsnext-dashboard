@@ -1,0 +1,295 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Achilles FC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-27011-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T173000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC vs Cedar Stars Academy Monmouth (L 0–5)
+LOCATION:Maryland SoccerPlex - Field 9
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28016-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC at Players Development Academy
+LOCATION:PDA Soccer Complex - Field 3 Turf
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28117-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T153000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC at Real Futbol Academy
+LOCATION:Bob Bende Soccer Complex - Capelli Turf (Near Road)
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28552-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T150000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC at Beadling SC
+LOCATION:Southpointe Fieldhouse - Indoor Complex
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29648-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T180000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC vs Sporting Athletic Club
+LOCATION:Maryland SoccerPlex - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29917-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T171500Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC at Philadelphia Union
+LOCATION:WSFS Bank SportsPlex - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30102-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T193000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC at FC DELCO
+LOCATION:Downingtown East High School - Lower Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26261-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T170000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC at Springfield SYC
+LOCATION:Hayfield Secondary School - Auxiliary Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31915-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U14 Achilles FC at Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33131-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270214T140000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC at Northern Virginia Alliance
+LOCATION:Loudoun Soccer Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32448-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U14 Achilles FC at Baltimore Armour
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32707-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U14 Achilles FC vs The Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27550-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U14 Achilles FC at Bethesda SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33669-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T150000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC at Sporting Athletic Club
+LOCATION:Chase Fields - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26697-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270314T150000Z
+DURATION:PT2H
+SUMMARY:U14 Achilles FC vs Beadling SC
+LOCATION:Maryland SoccerPlex - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic\nhttps://stw1.github.io/
+ mlsnext-dashboard/?age=U14&conf=mid-atlantic&show=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34068-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 Achilles FC vs Coppermine SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34438-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U14 Achilles FC at PA Classics
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34863-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Achilles FC at Coppermine SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35270-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 Achilles FC vs Baltimore Armour
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35457-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 Achilles FC vs Keystone FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35744-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U14 Achilles FC vs Penn Rising XI
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36157-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U14 Achilles FC vs Northern Virginia Alliance
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30709-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270502
+SUMMARY:U14 Achilles FC vs Alexandria SA
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36533-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Achilles FC vs Bethesda SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30417-6269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270606
+SUMMARY:U14 Achilles FC vs Springfield SYC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-Atlantic · kickoff time not set 
+ yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&s
+ how=achilles-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-atlantic&sho
+ w=achilles-fc
+END:VEVENT
+END:VCALENDAR

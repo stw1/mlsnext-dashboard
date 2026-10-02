@@ -1,0 +1,315 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:South Florida Football Academy U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26033-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T150000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy vs Athletum FC Academy (L 1–4)
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26830-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T130000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy at Athletum FC Academy (Flex) (L
+  1–2)
+LOCATION:JCC Posnack - Stadium Field
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27286-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T150000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy vs Miami Futbol Academy Rush (L 
+ 2–4)
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27694-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T150000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34229-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T210000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy vs One FC (Flex)
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28743-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T190000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy vs Seminole United (Flex)
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29195-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T190000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy at West Florida Flames (Flex)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 7
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30002-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T170000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy at IdeaSport SA (Flex)
+LOCATION:Simmers Young Park - Field 12
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30500-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy vs Weston FC (Flex)
+LOCATION:Loggers Run Park - Field # 1
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29593-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261219T220000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy vs Orlando City Soccer School So
+ uth
+LOCATION:Loggers Run Park - Field # 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30962-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U17 South Florida Football Academy vs IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-
+ florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31062-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U17 South Florida Football Academy at Orlando City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-flori
+ da-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31245-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U17 South Florida Football Academy vs Tampa Bay United (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-flori
+ da-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31446-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T200000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy at Sol SC Florida (Flex)
+LOCATION:The National Training Center - NTC 3
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31800-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T220000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy vs Jacksonville FC (Flex)
+LOCATION:Loggers Run Park - Field # 1
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32515-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U17 South Florida Football Academy at Miami Futbol Academy Rush (Fl
+ ex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-flori
+ da-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32967-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 South Florida Football Academy at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-
+ florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33406-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 South Florida Football Academy vs IMG (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-flori
+ da-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33812-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T150000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy at Weston FC
+LOCATION:Vista Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34509-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 South Florida Football Academy at IMG
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-
+ florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34961-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U17 South Florida Football Academy at One FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-
+ florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32108-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T150000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy vs West Florida Flames
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35363-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 South Florida Football Academy vs Sol SC Florida
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-
+ florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35830-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 South Florida Football Academy at Seminole United
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-
+ florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36634-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U17 South Florida Football Academy at Jacksonville FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=south-
+ florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26410-flex-5769@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T200000Z
+DURATION:PT2H
+SUMMARY:U17 South Florida Football Academy at Orlando City Soccer School So
+ uth (Flex)
+LOCATION:NorthEast Regional Park - Turf Field 2
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=south-florida-football-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=sou
+ th-florida-football-academy
+END:VEVENT
+END:VCALENDAR

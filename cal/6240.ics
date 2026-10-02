@@ -1,0 +1,301 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chicago FC United U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-32559-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T210000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United vs Cincinnati United Soccer Club (W 5–3)
+LOCATION:Loyola Academy Munz Campus - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26234-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T140000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United vs Shattuck-St. Mary's (Flex) (D 2–2\, won 
+ 5–3 on pens)
+LOCATION:Loyola Academy Munz Campus - Field 8
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26897-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at Bavarian United SC (Flex) (W 4–0)
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27321-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T220000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United vs Michigan Jaguars (L 1–2)
+LOCATION:Vernon Hills Athletic Complex - Field #10 (Turf)
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27773-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United vs SC Wave (Flex)
+LOCATION:Waukegan Sports Park - Field - Turf
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27973-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T180000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United vs AC Grand Rapids
+LOCATION:Loyola Academy Turf - Field 8
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28318-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T171500Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at St. Louis City SC (Flex)
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28532-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T170000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at Lou Fusz Athletic (Flex)
+LOCATION:Lou Fusz Athletic Soccer Complex - Field #5
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28799-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T193000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at Indy Eleven
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29030-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T150000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at Hoosier Premier
+LOCATION:Trinity Sports Park - Indy Premier Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32354-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T181500Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at Sporting Kansas City (Flex)
+LOCATION:Swope Soccer Village - Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29636-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T193000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at Shattuck-St. Mary's
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26651-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at Minnesota United FC (Flex)
+LOCATION:National Sports Center - NSC Dome
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30279-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T164500Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at Club Ohio
+LOCATION:Jennings Sports Park Turf #5
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33216-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270123T181500Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at Chicago Fire FC (Flex)
+LOCATION:Endeavor Health Performance Center - Turf 1 (Dome)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32758-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U17 Chicago FC United vs Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33024-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U17 Chicago FC United vs Sockers FC Chicago (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=chi
+ cago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33642-flex-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270314T160000Z
+DURATION:PT2H
+SUMMARY:U17 Chicago FC United at St. Louis Scott Gallagher (Flex)
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34031-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U17 Chicago FC United vs Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34559-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 Chicago FC United vs Bavarian United SC
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34771-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U17 Chicago FC United vs St. Louis Scott Gallagher
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35417-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 Chicago FC United at Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35652-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U17 Chicago FC United at Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36060-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U17 Chicago FC United at Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36676-6240@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U17 Chicago FC United at SC Wave
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=chicago-fc-united
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =chicago-fc-united
+END:VEVENT
+END:VCALENDAR

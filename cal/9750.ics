@@ -1,0 +1,321 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Orlando City Soccer School South U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26014-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T160000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs Tampa Bay United (W 3–0)
+LOCATION:NorthEast Regional Park - Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26409-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T180000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs South Florida Football Acad
+ emy (Flex) (L 1–2)
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26835-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T183000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South at Jacksonville FC (Flex) (W 4
+ –0)
+LOCATION:Patton Park - Turf Field
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27273-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs Athletum FC Academy (Flex) 
+ (D 0–0\, won 7–6 on pens)
+LOCATION:Northeast Regional Park - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27715-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T160000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs Miami Futbol Academy Rush (
+ Flex)
+LOCATION:NorthEast Regional Park - Turf Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28258-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South at Orlando City SC (Flex)
+LOCATION:Osceola Heritage Park - Turf Field/3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31783-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T150000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South at IMG (Flex)
+LOCATION:IMG Academy Field - 6
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28750-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T170000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South at Weston FC (Flex)
+LOCATION:Vista Park - Vista #4
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32095-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T200000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs Seminole United (Flex)
+LOCATION:Simmers Young Park - Field 10
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30487-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T160000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs Jacksonville FC
+LOCATION:NorthEast Regional Park - Turf Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29592-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261219T200000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South at South Florida Football Acad
+ emy
+LOCATION:Loggers Run Park - Field # 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30951-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U16 Orlando City Soccer School South at Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orland
+ o-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31361-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270124T170000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31433-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270131T170000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs IdeaSport SA (Flex)
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31627-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T160000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South at Sol SC Florida (Flex)
+LOCATION:The National Training Center - NTC 4
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34216-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T190000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs Weston FC
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30025-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T200000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South at Seminole United
+LOCATION:Seminole Soccer Complex - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32529-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 Orlando City Soccer School South at Tampa Bay United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orlando-cit
+ y-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32948-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Orlando City Soccer School South at IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orland
+ o-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33393-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270313T180000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs West Florida Flames (Flex)
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33793-flex-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U16 Orlando City Soccer School South at One FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orlando-cit
+ y-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34534-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T170000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South at West Florida Flames
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34966-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T170000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs IMG
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35356-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T160000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs One FC
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35805-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U16 Orlando City Soccer School South at Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orland
+ o-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36283-9750@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T180000Z
+DURATION:PT2H
+SUMMARY:U16 Orlando City Soccer School South vs Sol SC Florida
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+END:VCALENDAR

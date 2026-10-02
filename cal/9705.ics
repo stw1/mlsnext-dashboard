@@ -1,0 +1,315 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ironbound Soccer Club U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26313-flex-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T210000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs Connecticut United FC (Flex) (D 1–1\
+ , lost 3–4 on pens)
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26741-flex-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs New York SC (Flex) (W 1–0)
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26970-flex-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T140000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club at Red Bull New York (Flex) (L 0–8)
+LOCATION:Red Bull Performance Center - Grass
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27610-flex-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club at Cedar Stars Academy Bergen (Flex) (L 0
+ –4)
+LOCATION:Capelli Sport Complex - Hudson Valley
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27818-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T190000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs The Island FC East
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28061-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs Metropolitan Oval
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28601-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs Cedar Stars Academy Bergen
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29110-flex-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T183000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club at FC Westchester (Flex)
+LOCATION:SUNY Purchase - Stadium Turf
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29462-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261102T010000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club at Intercontinental Football Academy of N
+ ew England
+LOCATION:Catholic Memorial HS - Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29895-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T180000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs Bayside FC
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30133-flex-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T220000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club at New York City FC (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30372-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T140000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club at Blau Weiss Gottschee
+LOCATION:Queens College - Queens College
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30592-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T200000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club at Connecticut United FC
+LOCATION:Immaculate High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32413-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T220000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs Valeo Futbol Club
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32865-flex-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U19 Ironbound Soccer Club at TSF Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ironbou
+ nd-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33074-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U19 Ironbound Soccer Club vs Downtown United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ir
+ onbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33685-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U19 Ironbound Soccer Club vs Seacoast United
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ir
+ onbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34126-flex-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U19 Ironbound Soccer Club vs Beachside of Connecticut (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ironbou
+ nd-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34332-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U19 Ironbound Soccer Club at FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ir
+ onbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34847-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U19 Ironbound Soccer Club at New York SC
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ir
+ onbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35247-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270411T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs TSF Academy
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35487-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs The Island FC West
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36103-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U19 Ironbound Soccer Club at Beachside of Connecticut
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ir
+ onbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36435-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T170000Z
+DURATION:PT2H
+SUMMARY:U19 Ironbound Soccer Club vs FC Westchester
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U19&conf=northeast&show=ironbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36758-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U19 Ironbound Soccer Club at FC Greater Boston Bolts
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ir
+ onbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36888-9705@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U19 Ironbound Soccer Club at NEFC
+DESCRIPTION:MLS NEXT Homegrown · U19 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=ir
+ onbound-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=northeast&show=i
+ ronbound-soccer-club
+END:VEVENT
+END:VCALENDAR

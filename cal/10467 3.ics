@@ -1,0 +1,320 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Island FC East U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26293-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T140000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East at New York SC (L 1–3)
+LOCATION:Manhattanville College (Turf) - Mville Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26493-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T123000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East vs Blau Weiss Gottschee (W 2–1)
+LOCATION:Medford Athletic Complex (Long Island)
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27813-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T190000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East at Ironbound Soccer Club
+LOCATION:Ironbound Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28074-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T163000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East at Red Bull New York
+LOCATION:Red Bull Performance Center - Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28588-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T130000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East at FA Euro New York
+LOCATION:John Dewey High School
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28865-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T123000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East vs Valeo Futbol Club
+LOCATION:Islip High School - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29096-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T160000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East at New York City FC
+LOCATION:Da Silva Memorial Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29687-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East vs New York City FC
+LOCATION:Medford Athletic Complex (Long Island)
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30381-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T210000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East at TSF Academy
+LOCATION:DePaul Catholic High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30611-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T133000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East vs Cedar Stars Academy Bergen
+LOCATION:Islip High School - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30847-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T140000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East vs FC Westchester
+LOCATION:Medford Athletic Complex (Long Island)
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26944-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T190000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East at The Island FC West
+LOCATION:Hofstra University - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32394-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 The Island FC East at Blau Weiss Gottschee
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32842-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 The Island FC East vs Downtown United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33270-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T140000Z
+DURATION:PT2H
+SUMMARY:U13 The Island FC East at Metropolitan Oval
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northeast&show=the-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33483-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 The Island FC East vs The Island FC West
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33895-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 The Island FC East at New England Revolution
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34109-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U13 The Island FC East at NEFC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34355-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 The Island FC East vs Metropolitan Oval
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34824-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U13 The Island FC East at Downtown United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35260-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 The Island FC East vs Bayside FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35500-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 The Island FC East at Seacoast United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35715-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 The Island FC East at Intercontinental Football Academy of New 
+ England
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36134-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U13 The Island FC East vs FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36459-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 The Island FC East vs FC Greater Boston Bolts
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36765-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U13 The Island FC East vs Connecticut United FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36899-10467@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U13 The Island FC East vs Beachside of Connecticut
+DESCRIPTION:MLS NEXT Homegrown · U13 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=th
+ e-island-fc-east
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northeast&show=t
+ he-island-fc-east
+END:VEVENT
+END:VCALENDAR

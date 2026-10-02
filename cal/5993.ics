@@ -1,0 +1,306 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:St. Louis Scott Gallagher U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-27128-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T140000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at Bavarian United SC (Flex) (W 4–1
+ )
+LOCATION:Bavarian United Soccer Club - Heartland Value Fund Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27333-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T180000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs Vardar Soccer Club (W 2–1)
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28005-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T150000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at Sockers FC Chicago (Flex)
+LOCATION:Elgin Sports Complex Turf Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28316-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at Sporting Kansas City (Flex)
+LOCATION:Swope Soccer Village - Bermuda East
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29049-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T180000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs AC Grand Rapids
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29244-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T204500Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at Shattuck-St. Mary's (Flex)
+LOCATION:Shattuck-St. Mary's School - Turf Field
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30563-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T150000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at Minnesota United FC (Flex)
+LOCATION:National Sports Center - NSC Dome
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29842-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T190000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs Sockers FC Chicago
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30072-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T190000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs Bavarian United SC
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30313-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T170000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs Lou Fusz Athletic (Flex)
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26238-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T150000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at St. Louis City SC (Flex)
+LOCATION:St. Louis City SC  - St. Louis City SC Academy Training Center
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32778-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T160000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at Chicago Fire FC (Flex)
+LOCATION:Endeavor Health Performance Center - Turf 1 (Dome)
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32147-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T190000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs Michigan Wolves
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33205-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U19 St. Louis Scott Gallagher at Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&sho
+ w=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33643-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270314T180000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs Chicago FC United (Flex)
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33860-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T160000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs Shattuck-St. Mary's
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34054-flex-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270321T180000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs SC Wave (Flex)
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34772-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U19 St. Louis Scott Gallagher at Chicago FC United
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&sho
+ w=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35393-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U19 St. Louis Scott Gallagher at Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&sho
+ w=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35641-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T150000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at Indy Eleven
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36055-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T140000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at SC Wave
+LOCATION:Mindiola Sports Complex - Mindiola Turf West
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36338-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U19 St. Louis Scott Gallagher at Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&sho
+ w=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34272-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270509T140000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher at Midwest United FC
+LOCATION:Midwest United FC Complex - South Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36684-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T180000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs Cincinnati United Soccer Club
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36838-5993@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T180000Z
+DURATION:PT2H
+SUMMARY:U19 St. Louis Scott Gallagher vs Club Ohio
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U19&conf=mid-america&show=st-louis-scott-gallagher
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=mid-america&show
+ =st-louis-scott-gallagher
+END:VEVENT
+END:VCALENDAR

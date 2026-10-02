@@ -1,0 +1,310 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FC Westchester U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26110-flex-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T200000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester vs TSF Academy (Flex) (W 6–1)
+LOCATION:SUNY Purchase - Baseball Turf
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26742-flex-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester at Red Bull New York (Flex) (W 5–3)
+LOCATION:Red Bull Performance Center - Turf
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26940-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T160000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester vs Downtown United Soccer Club (W 4–0)
+LOCATION:SUNY Purchase - Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27180-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T190000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester vs NEFC (W 3–1)
+LOCATION:SUNY Purchase - Baseball Turf
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28064-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T144500Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester at The Island FC West
+LOCATION:Hofstra University - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28336-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T170000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester at Bayside FC
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28615-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T163000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester at Seacoast United
+LOCATION:Seacoast United Epping Outdoor Complex - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29107-flex-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T160000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester vs Ironbound Soccer Club (Flex)
+LOCATION:SUNY Purchase - Baseball Turf
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29477-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T160000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester at Valeo Futbol Club
+LOCATION:Valeo Sport Plex - Main Field
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29697-flex-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester vs Cedar Stars Academy Bergen (Flex)
+LOCATION:SUNY Purchase - Baseball Turf
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30390-flex-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T191500Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester at Beachside of Connecticut (Flex)
+LOCATION:Mater Salvatoris School - Turf Field
+DESCRIPTION:MLS NEXT Flex · U15 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30849-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T190000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester at The Island FC East
+LOCATION:Medford Athletic Complex (Long Island)
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32180-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U15 FC Westchester vs FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32829-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U15 FC Westchester at Cedar Stars Academy Bergen
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33260-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U15 FC Westchester vs Beachside of Connecticut
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33708-flex-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U15 FC Westchester at Connecticut United FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc-west
+ chester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34127-flex-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U15 FC Westchester at New York SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc-west
+ chester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34335-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 FC Westchester vs Blau Weiss Gottschee
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34632-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U15 FC Westchester vs Connecticut United FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35059-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U15 FC Westchester vs FC Greater Boston Bolts
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35723-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T170000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester at Metropolitan Oval
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35909-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U15 FC Westchester vs Intercontinental Football Academy of New Engl
+ and
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36117-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U15 FC Westchester vs Red Bull New York
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36432-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U15 FC Westchester at Ironbound Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36895-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U15 FC Westchester at TSF Academy
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=fc
+ -westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27580-5657@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T140000Z
+DURATION:PT2H
+SUMMARY:U15 FC Westchester vs New York SC
+LOCATION:SUNY Purchase - Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U15 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=northeast&show=fc-westchester
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northeast&show=f
+ c-westchester
+END:VEVENT
+END:VCALENDAR

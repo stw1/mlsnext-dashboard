@@ -1,0 +1,341 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Phoenix Rising FC U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26593-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T160000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC at Las Vegas Sports Academy (Flex) (L 1–2)
+LOCATION:Viper Lacrosse Fields Family Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26814-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T180000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC at Albion SC Las Vegas (Flex) (L 3–4)
+LOCATION:Heritage Park - Field 13
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27047-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T180000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC at FC Golden State Force (W 3–2)
+LOCATION:Silverlakes Sports Complex - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27240-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T200000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC at LA Surf Soccer Club (L 1–2)
+LOCATION:Silverlakes Sports Complex - Field 20
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27664-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T170000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC vs Los Angeles Sports Club (L 2–4)
+LOCATION:Phoenix Rising FC Youth Complex - South Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27921-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T180000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC vs Albion SC Las Vegas
+LOCATION:Phoenix Rising FC Youth Complex - South Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28705-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261015T020000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC at Barca Residency Academy (Flex)
+LOCATION:Grande Sports World - Field #3
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29158-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T180000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC vs ALBION SC San Diego (Flex)
+LOCATION:Phoenix Rising FC Youth Complex - South Field
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29527-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T190000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC vs Ventura County Fusion
+LOCATION:Phoenix Rising FC Youth Complex - South Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29789-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC at Total Futbol Academy
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29959-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T181500Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC at Los Angeles Bulls Soccer Club
+LOCATION:Valley United Soccer Complex
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30254-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T213000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC at City SC - San Diego (Flex)
+LOCATION:Sage Creek High School
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30936-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T190000Z
+DURATION:PT2H
+SUMMARY:U17 Phoenix Rising FC vs Chula Vista FC (Flex)
+LOCATION:Phoenix Rising FC Youth Complex - South Field
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=phoenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31142-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U17 Phoenix Rising FC vs Albion SC Los Angeles
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31200-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:U17 Phoenix Rising FC vs City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31384-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270124
+SUMMARY:U17 Phoenix Rising FC vs Santa Barbara Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31731-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U17 Phoenix Rising FC at Los Angeles Football Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=phoenix
+ -rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31766-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270207
+SUMMARY:U17 Phoenix Rising FC at SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31979-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U17 Phoenix Rising FC at SC Del Sol (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=phoenix
+ -rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33364-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U17 Phoenix Rising FC vs City SC Southwest (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=phoenix
+ -rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33748-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U17 Phoenix Rising FC at ALBION SC San Diego
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34009-flex-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U17 Phoenix Rising FC vs RSL Arizona (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Southwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=phoenix
+ -rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34479-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U17 Phoenix Rising FC vs Barca Residency Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34730-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U17 Phoenix Rising FC at Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34917-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U17 Phoenix Rising FC at City SC Southwest
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35138-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U17 Phoenix Rising FC vs Las Vegas Sports Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35792-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U17 Phoenix Rising FC at RSL Arizona
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36005-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 Phoenix Rising FC vs Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36591-5867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Phoenix Rising FC vs SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=ph
+ oenix-rising-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=p
+ hoenix-rising-fc
+END:VEVENT
+END:VCALENDAR

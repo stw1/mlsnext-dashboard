@@ -20,6 +20,10 @@ scripts/pastseasons.py             past-season page data, team history, last-sea
 scripts/ratings.py, priors.py      Python copy of the model; backtests that choose prior / conference settings
 data/history/<season>.csv          past seasons' games (2023-24, 2024-25, 2025-26): league, Flex, others
 season-<season>.html               built pages for finished seasons (same template, DATA.past set)
+scripts/check_official.py          compares the built tables with MLS's official standings (exit 1 on differences)
+cal/<squad_id>.ics                 one subscribable calendar per team, rebuilt by refresh.py (current season only)
+docs/rules-2026-27.md              HD rules summary (standings, tiebreakers, postseason) and how the site follows them
+README.md                          short public description of the repo
 manifest.webmanifest, icon.svg     home-screen app name and icons (icon-192/512.png, apple-touch-icon.png,
   *.png                            favicon-32.png); regenerate PNGs from icon.svg with qlmanage + sips
 ```
@@ -29,8 +33,15 @@ manifest.webmanifest, icon.svg     home-screen app name and icons (icon-192/512.
 - **Only some brackets:** `python3 scripts/refresh.py --age U13,U14 --conference Northwest` (still writes index.html)
 - **Rebuild without network** (for example, after editing the template): `python3 scripts/refresh.py --offline`
 - Open `index.html` in a browser to check the result (add `?age=U15&conf=southwest` for another bracket).
+- **Check against MLS:** `python3 scripts/check_official.py` compares every U15–U19 team's MP, W-D-L and goals, and every
+  conference's order, with MLS's official standings (U13/U14 have no official values). Teams level on every computable
+  tiebreaker may swap. A team whose official record equals ours minus its games of the last 48 hours is reported as
+  "not updated yet" (MLS allows 24 h for match reports + 48 h to verify), not as an error. Run it after any table change.
 - **Auto-refresh:** `.github/workflows/refresh.yml` runs `refresh.py` on GitHub Actions Sat & Sun (~1, 5, 9 pm
-  Pacific) and Mon & Tue (~9 am), and commits + pushes only when `data/games.csv` changed. Run it on demand from
+  Pacific) and Mon & Tue (~9 am), and commits + pushes only when `data/games.csv` changed (calendar files change only
+  when games do, so they ride along). Its last step runs `check_official.py` *after* publishing: new scores still go
+  live, but a mismatch fails the run, so GitHub emails the repo owner; the result is in the run's summary. Actions are
+  pinned to `actions/checkout@v7` / `actions/setup-python@v7` (Node 24). Run it on demand from
   the repo's Actions tab ("Refresh scores" → "Run workflow") or `gh workflow run refresh.yml`.
   GitHub pauses scheduled workflows in public repos after 60 days with no commits; re-enable on the Actions tab.
 - **Publish by hand:** `git pull` first (the bot commits too), then `git add -A && git commit -m "..." && git push`. GitHub Pages serves
@@ -54,7 +65,7 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   - `events[]` covers every age group (~7,700 events), with fields `game_key`, `start_time` (UTC),
     `home_squad_id`, `away_squad_id`, `home_organisation.name`, `completed`, `home_score`, `away_score`,
     `competition.name` ("League"), `event_location.name` ("TBD" means the time isn't set yet).
-  - Filter to games where both squad_ids are in the bracket.
+  - League games are kept when both teams have a bracket (see "Feed quirks" below for cross-age games).
 - Flex in the page: every Flex game with at least one of our teams is kept (`DATA.brackets[].flex`, same 7-field format as
   league; a game appears in each of its teams' brackets; opponents with no bracket are named via `DATA.xnames`).
   Shown with a "Flex" tag in Results, Upcoming, the My team card (separate Flex W-D-L), the club page and the calendar.
@@ -135,7 +146,8 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 
 ## Conventions / gotchas
 - The dashboard stays a **single HTML file** with no external scripts or data fetches (all data is embedded).
-  Only the home-screen icons/manifest are separate files; Directions links open Google Maps.
+  Only the home-screen icons/manifest and the calendar files are separate; Directions links open Google Maps. The optional
+  visit counter is a single image request, not a script.
 - `start` in games.csv is UTC (`2026-10-03T16:00Z`); the page shows it in the viewer's time zone. Games without a set
   time (feed venue "TBD", stored at 06:00 local) keep only the local date (`2027-01-09`), from the event's `local_timezone`.
 - Template placeholders filled by `refresh.py`: `__DATA__` (`{default:{age,conf}, snap, venues:[...], brackets:[{age, conf,
@@ -166,19 +178,32 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   and the My team card. `bracketInfo(b)` caches each bracket's model + table for the national and club views.
 - Model fit: per-parameter Newton steps (60 rounds) instead of 6,000 gradient steps — same MAP objective, equal or better
   in all 60 brackets (gradient ascent stalled on lopsided U13 Southwest scores), ~27× faster. `fit(list, IX, NN, prior)`.
-- "My team" card (top of the page when a team is followed): record, form, next game with odds and venue, outlook,
-  and "Add N games to calendar" (an .ics of remaining games; timed games in UTC with 2h duration, no time = all-day).
+- "My team" card (top of the page when a team is followed): record, form, next game with odds and venue, outlook.
+- Calendars: "Add to calendar" (team page and My team card) opens a panel (`wireCal`): subscribe via `webcal://…/cal/<squad
+  id>.ics` (iPhone/Mac), Google Calendar (`calendar.google.com/calendar/render?cid=<webcal url>`), copy link, or download
+  the remaining games once (`downloadIcs`, the old one-off file). `refresh.write_calendars` writes every team's file:
+  league + Flex games, result in the title once played ("(W 2–1)", pens), opponent age suffix for cross-age games, timed
+  games in UTC with 2 h duration, no time = all-day, fixed DTSTAMP so files only change when games do, lines folded at 75
+  octets. Past-season pages keep the download only. Google refreshes subscriptions slowly (up to a day).
+- Home: `‹ Home` button (club, national and team pages) and the eyebrow title link to the page with no options, which
+  opens the last conference viewed.
+- Optional, off until set in `refresh.py`: `FEEDBACK` (form URL or email → footer "Report a problem or suggest an idea";
+  an email becomes a mailto with the page URL) and `COUNTER` (GoatCounter code → one no-cookie count request per page
+  view to `https://<code>.goatcounter.com/count`, no script loaded, skipped on localhost; path keeps age/conf/club/show).
 - "New since your last visit": localStorage `seen:<title>` keeps the played-game ids at the end of the previous
   visit (a visit ends after 6 quiet hours). New results get a "New" pill (results, tooltips, card) and a ring in Who beat who.
 - Phones (≤700px): the header packs pickers into a grid; `.xs-hide` columns drop out (W/D/L/Goals in standings,
   Scores/Concedes in power, Conference/W-D-L/GD in national) so the ranking numbers fit without scrolling.
 - Dark mode follows the device (`prefers-color-scheme`), one override block at the end of the CSS.
 - `window.__debug` in the page exposes the model internals for testing in node or the browser console.
-- Snapshot 2026-10-01: 869 of 7,711 league games + 490 Flex games played, 838 teams; index.html is ~397 KB.
+- Snapshot 2026-10-02: 867 league + 672 Flex games played, 840 teams (incl. the two added from the schedule); index.html
+  is ~694 KB; cal/ is ~11 MB (840 files).
 
 ## Ideas / backlog
 - Use cross-conference events (MLS NEXT Fest, Cup qualifiers) to estimate conference strength for the national view
 - Save each weekend's predictions before kickoff for an honest, frozen track record
 - Safety check in the workflow: refuse to publish if the feed returns far fewer games than last time
+- Update `CUP_EST` / the Top-4 line once MLS publishes the 2026-27 Cup allocation; re-run `check_official.py` after the
+  first winter Showcase weekend (cross-conference league games)
 - Weight recent games more heavily
 - Predict draws: the pick is never "draw" unless home/away are within 5%, so draws always count as misses in the accuracy check

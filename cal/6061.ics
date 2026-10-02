@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Queen City Mutiny FC U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26080-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T150000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Huntsville City FC (L 3–5)
+LOCATION:John Hunt Complex - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26258-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T180000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Nashville United Soccer Academy (NUSA N
+ ext) (W 2–1)
+LOCATION:Bethesda Sports Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26700-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T170000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Carolina Core FC (L 1–4)
+LOCATION:Phillips Park Soccer Complex Field #1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30805-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T173000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC vs Charlotte Independence Soccer Club (L 1
+ –2)
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27555-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T213000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC vs Inter Atlanta FC (D 2–2)
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27879-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T190000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC vs AFC Lightning (L 1–2)
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28116-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T150000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC vs Huntsville City FC
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34440-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T190000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC vs Triangle United Soccer Association
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28955-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at KSA
+LOCATION:Rock Springs Park - RSP 3
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29252-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T140000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at AFC Lightning
+LOCATION:McCurry Park South - Field 24
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29876-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T160000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Atlanta United
+LOCATION:Atlanta United Training Ground - 5
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29514-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T200000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC vs Wake FC
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30566-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T180000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC vs KSA
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32058-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U14 Queen City Mutiny FC at Chattanooga FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=qu
+ een-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32452-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T160000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC vs Hoover-Vestavia Soccer
+LOCATION:Elon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33054-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T160000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Inter Atlanta FC
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33309-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T140000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Southern Soccer Academy
+LOCATION:Marathon Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33668-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U14 Queen City Mutiny FC vs Lanier Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=qu
+ een-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28812-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U14 Queen City Mutiny FC at Triangle United Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=qu
+ een-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34292-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270321T190000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Wake FC
+LOCATION:Ting Park - Ting Park 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34870-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Queen City Mutiny FC vs Chattanooga FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=qu
+ een-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35280-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U14 Queen City Mutiny FC vs Carolina Core FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=qu
+ een-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35749-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270418T170000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Charlotte Independence Soccer Club
+LOCATION:Richard Barry Memorial Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35997-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T160000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Hoover-Vestavia Soccer
+LOCATION:Hoover East Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36227-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270425T130000Z
+DURATION:PT2H
+SUMMARY:U14 Queen City Mutiny FC at Lanier Soccer Association
+LOCATION:Allen Creek Soccer Complex  - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=queen-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36541-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Queen City Mutiny FC vs Southern Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=qu
+ een-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36845-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U14 Queen City Mutiny FC vs Nashville United Soccer Academy (NUSA N
+ ext)
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=qu
+ een-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36920-6061@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U14 Queen City Mutiny FC vs Atlanta United
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=qu
+ een-city-mutiny-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=q
+ ueen-city-mutiny-fc
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,346 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Carolina Core FC U15 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26757-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T150000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC vs Queen City Mutiny FC (Flex) (W 7–0)
+LOCATION:Phillips Park Soccer Complex - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27023-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T150000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at AFC Lightning (Flex) (W 3–1)
+LOCATION:McCurry Park South - Field 23
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27345-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T140000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at KSA (Flex) (W 5–1)
+LOCATION:Rock Springs Park - RSP 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27561-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T130000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC vs Hoover-Vestavia Soccer (Flex) (W 7–0)
+LOCATION:Phillips Park Soccer Complex - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27882-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T130000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC vs Inter Atlanta FC (Flex) (W 4–2)
+LOCATION:Phillips Park Soccer Complex Field #1
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28562-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T173000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Nashville SC (Flex)
+LOCATION:The Gold Mine - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28814-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T150000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Chattanooga FC (Flex)
+LOCATION:UTC Sports Complex - Lower Field
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29485-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Inter Atlanta FC
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29747-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T160000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Southern Soccer Academy (Flex)
+LOCATION:Franklin Gateway sports complex - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30192-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T160000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC vs Triangle United Soccer Association (Flex)
+LOCATION:Phillips Park Soccer Complex - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30571-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T190000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Charlotte FC (Flex)
+LOCATION:Atrium Health Performance Park – Turf
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30896-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T160000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Wake FC (Flex)
+LOCATION:Womble Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32005-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U15 Carolina Core FC vs Southern Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ca
+ rolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32064-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270214
+SUMMARY:U15 Carolina Core FC vs Lanier Soccer Association (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=carolin
+ a-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32587-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U15 Carolina Core FC at Triangle United Soccer Association
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ca
+ rolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26088-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T170000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Nashville United Soccer Academy (NUSA Next)
+  (Flex)
+LOCATION:Riverdale High School - Field 1
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32872-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U15 Carolina Core FC vs Wake FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ca
+ rolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26267-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U15 Carolina Core FC at Huntsville City FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=carolin
+ a-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36364-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T200000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Hoover-Vestavia Soccer
+LOCATION:Hoover East Sports Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33941-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U15 Carolina Core FC vs Nashville United Soccer Academy (NUSA Next)
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ca
+ rolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34086-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T150000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Lanier Soccer Association
+LOCATION:Allen Creek Soccer Complex  - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34446-flex-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U15 Carolina Core FC vs Charlotte Independence Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=carolin
+ a-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34790-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U15 Carolina Core FC vs Chattanooga FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ca
+ rolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34875-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U15 Carolina Core FC vs KSA
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ca
+ rolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29119-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T150000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC vs Huntsville City FC
+LOCATION:Phillips Park Soccer Complex Field #1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35281-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U15 Carolina Core FC at Queen City Mutiny FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ca
+ rolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35572-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U15 Carolina Core FC vs AFC Lightning
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ca
+ rolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36691-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U15 Carolina Core FC vs Charlotte FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=ca
+ rolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36922-9713@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T150000Z
+DURATION:PT2H
+SUMMARY:U15 Carolina Core FC at Charlotte Independence Soccer Club
+LOCATION:Richard Barry Memorial Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southeast&show=carolina-core-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ arolina-core-fc
+END:VEVENT
+END:VCALENDAR

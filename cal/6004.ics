@@ -1,0 +1,310 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Vardar Soccer Club U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-32132-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T180000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club at Midwest United FC (D 3–3)
+LOCATION:Midwest United FC Complex - South Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26637-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T193000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club at Indy Eleven (Flex) (W 4–1)
+LOCATION:Grand Park Sports Campus - Field 5
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27332-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T160000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club at St. Louis Scott Gallagher (W 4–2)
+LOCATION:World Wide Technology Soccer Park - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27518-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T150000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club at Lou Fusz Athletic (W 4–2)
+LOCATION:SportPort Complex - Field 10
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27986-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T181500Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club at Columbus Crew (Flex)
+LOCATION:Historic Crew Stadium - Field 6
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26059-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T170000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club vs Cincinnati United Soccer Club (Flex)
+LOCATION:Oakland University Dome - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28312-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T150000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club vs Hoosier Premier (Flex)
+LOCATION:Oakland University Dome - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28524-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T150000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club vs Indy Eleven
+LOCATION:Oakland University Dome - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28806-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T160000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club at Toronto FC (Flex)
+LOCATION:BMO Training Ground - City View Field (Dome)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29410-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T160000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club vs Michigan Wolves (Flex)
+LOCATION:Oakland University Dome - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29626-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club at Cincinnati United Soccer Club
+LOCATION:Warren County Sports Park - Field 17
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29844-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club at FC Cincinnati (Flex)
+LOCATION:Mercy Health Training Center - Field #3 - TURF
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30080-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T140000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club vs Midwest United FC (Flex)
+LOCATION:Oakland University Upper Turf Fields - North Field
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America\nhttps://stw1.github.io/mlsnex
+ t-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30294-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T160000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club vs SC Wave
+LOCATION:Oakland University - South Turf
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30783-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T170000Z
+DURATION:PT2H
+SUMMARY:U17 Vardar Soccer Club at Hoosier Premier
+LOCATION:Hoosier Futbol Club - Champions
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U17&conf=mid-america&show=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32574-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U17 Vardar Soccer Club at Club Ohio (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=var
+ dar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33436-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 Vardar Soccer Club at Michigan Jaguars (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=var
+ dar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34045-flex-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U17 Vardar Soccer Club at AC Grand Rapids (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Mid-America · kickoff time not set yet\nh
+ ttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show=var
+ dar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34787-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U17 Vardar Soccer Club at Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35417-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U17 Vardar Soccer Club vs Chicago FC United
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35663-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U17 Vardar Soccer Club vs Bavarian United SC
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35872-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 Vardar Soccer Club vs Shattuck-St. Mary's
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36048-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270425
+SUMMARY:U17 Vardar Soccer Club at Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36361-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 Vardar Soccer Club vs Club Ohio
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36689-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U17 Vardar Soccer Club vs Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36843-6004@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270516
+SUMMARY:U17 Vardar Soccer Club vs AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U17 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&sho
+ w=vardar-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=mid-america&show
+ =vardar-soccer-club
+END:VEVENT
+END:VCALENDAR

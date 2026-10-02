@@ -1,0 +1,297 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Michigan Jaguars U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26461-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars at Midwest United FC (W 3–1)
+LOCATION:Midwest United FC Complex - North Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26622-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars vs AC Grand Rapids (L 2–3)
+LOCATION:North Farmington High School – Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27105-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T140000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars vs Club Ohio (W 4–2)
+LOCATION:North Farmington High School – Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27317-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T180000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars at Chicago FC United (W 4–2)
+LOCATION:Vernon Hills Athletic Complex - Field #12 (Turf)
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30785-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261002T220000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars at Michigan Wolves
+LOCATION:Schoolcraft College - Outdoor Turf Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28507-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T140000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars at Bavarian United SC
+LOCATION:Bavarian United Soccer Club - Ramon
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28787-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T154500Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars at Club Ohio
+LOCATION:Kilbourne Run Sports Turf #3
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29228-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars vs FC Cincinnati
+LOCATION:North Farmington High School – Training Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29630-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T170000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars at Hoosier Premier
+LOCATION:Hoosier Futbol Club - MSMF
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30061-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T180000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars vs SC Wave
+LOCATION:North Farmington High School – Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30285-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T150000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars vs Indy Eleven
+LOCATION:North Farmington High School – Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30541-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T150000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars vs Sporting City
+LOCATION:North Farmington High School – Stadium Turf
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32337-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U13 Michigan Jaguars vs Midwest United FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32564-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 Michigan Jaguars at AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32999-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 Michigan Jaguars at Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33190-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U13 Michigan Jaguars at FC Cincinnati
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33429-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 Michigan Jaguars vs Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33839-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T150000Z
+DURATION:PT2H
+SUMMARY:U13 Michigan Jaguars at Indy Eleven
+LOCATION:Grand Park Sports Campus - Field 7
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U13&conf=mid-america&show=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34261-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 Michigan Jaguars vs Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34567-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 Michigan Jaguars vs Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35163-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 Michigan Jaguars vs Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35400-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 Michigan Jaguars at Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35863-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 Michigan Jaguars vs Hoosier Premier
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36333-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 Michigan Jaguars vs St. Louis Scott Gallagher
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36685-5999@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U13 Michigan Jaguars at Vardar Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&sho
+ w=michigan-jaguars
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=mid-america&show
+ =michigan-jaguars
+END:VEVENT
+END:VCALENDAR

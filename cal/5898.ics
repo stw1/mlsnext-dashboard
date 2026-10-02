@@ -1,0 +1,282 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:San Francisco Glens SC U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26545-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T200000Z
+DURATION:PT2H
+SUMMARY:U13 San Francisco Glens SC at Woodside Soccer Club Crush (D 3–3)
+LOCATION:Sequoia High School - Terremere Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=san-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26971-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T020000Z
+DURATION:PT2H
+SUMMARY:U13 San Francisco Glens SC at ALBION SC Merced (L 0–5)
+LOCATION:McNamara Park - 11v11
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=san-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27401-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T224000Z
+DURATION:PT2H
+SUMMARY:U13 San Francisco Glens SC vs Modesto Ajax United (D 2–2)
+LOCATION:Beach Chalet Soccer Field - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=san-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27864-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T220000Z
+DURATION:PT2H
+SUMMARY:U13 San Francisco Glens SC at The Town FC Academy
+LOCATION:Clayton Valley High School - Lower Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=san-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28386-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T020000Z
+DURATION:PT2H
+SUMMARY:U13 San Francisco Glens SC at Lamorinda Soccer Club
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=san-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28886-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U13 San Francisco Glens SC at De Anza Force
+LOCATION:De Anza College - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=san-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29329-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T224000Z
+DURATION:PT2H
+SUMMARY:U13 San Francisco Glens SC vs Atletico Santa Rosa
+LOCATION:Beach Chalet Soccer Field - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=san-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30160-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T011000Z
+DURATION:PT2H
+SUMMARY:U13 San Francisco Glens SC vs De Anza Force
+LOCATION:Crocker Amazon Soccer Field - 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=san-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30657-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T030000Z
+DURATION:PT2H
+SUMMARY:U13 San Francisco Glens SC at Modesto Ajax United
+LOCATION:Mary Grogan Community Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=san-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31099-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U13 San Francisco Glens SC vs Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31311-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 San Francisco Glens SC at Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31476-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U13 San Francisco Glens SC at Ballistic United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31675-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U13 San Francisco Glens SC vs Lamorinda Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32240-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 San Francisco Glens SC at Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32676-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 San Francisco Glens SC vs The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33099-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 San Francisco Glens SC vs Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33524-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 San Francisco Glens SC vs Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33913-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 San Francisco Glens SC at FC Bay Area Surf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30985-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U13 San Francisco Glens SC vs Ballistic United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34395-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 San Francisco Glens SC vs ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34664-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U13 San Francisco Glens SC vs FC Bay Area Surf
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35534-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 San Francisco Glens SC vs Woodside Soccer Club Crush
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35930-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 San Francisco Glens SC at Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36485-5898@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 San Francisco Glens SC at Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=sa
+ n-francisco-glens-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=s
+ an-francisco-glens-sc
+END:VEVENT
+END:VCALENDAR

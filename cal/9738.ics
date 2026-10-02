@@ -1,0 +1,300 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Island FC West U17 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26275-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T190000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West at Downtown United Soccer Club (L 4–5)
+LOCATION:Pier 40 CourtYard - West Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28066-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T200000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West vs FC Westchester
+LOCATION:Hofstra University - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29112-flex-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T161500Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West at Red Bull New York (Flex)
+LOCATION:Red Bull Performance Center - Grass
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28625-flex-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T180000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West vs Blau Weiss Gottschee (Flex)
+LOCATION:Medford Athletic Complex (Long Island)
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28842-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T163000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West vs Cedar Stars Academy Bergen
+LOCATION:Point Lookout Athletic Complex - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29303-flex-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T150000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West vs Metropolitan Oval (Flex)
+LOCATION:Cantiague Park
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26706-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West at Beachside of Connecticut
+LOCATION:Harding High School - Turf Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29886-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T160000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West at Blau Weiss Gottschee
+LOCATION:Aviator - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30388-flex-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T171500Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West at New York City FC (Flex)
+LOCATION:St. Johns University - Belson Stadium
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30599-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T210000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West vs Intercontinental Football Academy of New 
+ England
+LOCATION:Hofstra University - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26948-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270220T210000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West vs The Island FC East
+LOCATION:Hofstra University - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32418-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U17 The Island FC West vs NEFC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=th
+ e-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32636-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U17 The Island FC West at Seacoast United
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=th
+ e-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32848-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U17 The Island FC West at Valeo Futbol Club
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=th
+ e-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33268-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U17 The Island FC West vs TSF Academy
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=th
+ e-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33490-flex-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U17 The Island FC West at The Island FC East (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=the-isl
+ and-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34107-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U17 The Island FC West vs Connecticut United FC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=th
+ e-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34363-flex-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U17 The Island FC West vs Downtown United Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U17 Northeast · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=the-isl
+ and-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34840-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270403T213000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West at Metropolitan Oval
+LOCATION:Met Oval - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35252-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U17 The Island FC West vs New York SC
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=th
+ e-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35486-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T210000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West at Ironbound Soccer Club
+LOCATION:Eddie Moraes Stadium
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35917-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U17 The Island FC West vs FC Greater Boston Bolts
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=th
+ e-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36440-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U17 The Island FC West vs FA Euro New York
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=th
+ e-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36861-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270516T204500Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West at Bayside FC
+LOCATION:Bayside FC Field - Bayside FC Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27377-flex-9738@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T170000Z
+DURATION:PT2H
+SUMMARY:U17 The Island FC West at FA Euro New York (Flex)
+LOCATION:College of Staten Island - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Northeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northeast&show=the-island-fc-west
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=t
+ he-island-fc-west
+END:VEVENT
+END:VCALENDAR

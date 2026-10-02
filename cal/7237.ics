@@ -1,0 +1,360 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Orlando City SC U19 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26207-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T120000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs IdeaSport SA (Flex) (W 3–1)
+LOCATION:Osceola Heritage Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26399-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T150000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC at Inter Miami CF (Flex) (W 1–0)
+LOCATION:Florida Blue Training Center - Field 6
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27032-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T130000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs Houston Dynamo FC (W 2–0)
+LOCATION:Osceola Heritage Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27424-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T140000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC at Austin FC (L 1–2)
+LOCATION:St. David's Performance Center - Parmer Field
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27711-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T190000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs Seminole United (Flex)
+LOCATION:Osceola Heritage Park - Turf Field/3
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27949-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T180000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs Tampa Bay United (Flex)
+LOCATION:Osceola Heritage park stadium - Osceola Heritage Park Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28207-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T140000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs Inter Miami CF
+LOCATION:Osceola Heritage park stadium - Osceola Heritage Park Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28260-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs Orlando City Soccer School South (Flex)
+LOCATION:Osceola Heritage Park - Turf Field/3
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28494-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T210000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs One FC (Flex)
+LOCATION:Osceola Heritage Park - Turf Field/3
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35570-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T130000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs Nashville SC
+LOCATION:Osceola Heritage Park - Turf Field/3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29348-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T130000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC at Charlotte FC
+LOCATION:Atrium Health Performance Park – Grass
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26010-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs Weston FC (Flex)
+LOCATION:Osceola Heritage park stadium - Osceola Heritage Park Stadium
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pathway&
+ show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30206-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T140000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC vs FC Dallas
+LOCATION:Osceola Heritage park stadium - Osceola Heritage Park Stadium
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30685-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T150000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC at Atlanta United
+LOCATION:Atlanta United Training Ground - 3
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30957-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U19 Orlando City SC vs Athletum FC Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31026-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270110
+SUMMARY:U19 Orlando City SC vs West Florida Flames (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31063-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U19 Orlando City SC vs South Florida Football Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31331-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U19 Orlando City SC vs Atlanta United
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31706-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U19 Orlando City SC vs Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31904-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U19 Orlando City SC at Houston Dynamo FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32091-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U19 Orlando City SC vs IMG (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32322-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270221
+SUMMARY:U19 Orlando City SC vs Miami Futbol Academy Rush (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32519-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U19 Orlando City SC vs Inter Miami CF (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32962-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U19 Orlando City SC vs Jacksonville FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33179-flex-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U19 Orlando City SC vs Sol SC Florida (Flex)
+DESCRIPTION:MLS NEXT Flex · U19 Southeast (Pro Player Pathway) · kickoff 
+ time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=s
+ outheast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33542-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U19 Orlando City SC at FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28945-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T150000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC at Nashville SC
+LOCATION:The Gold Mine - Grass Field 1
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35984-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270424T150000Z
+DURATION:PT2H
+SUMMARY:U19 Orlando City SC at Inter Miami CF
+LOCATION:Florida Blue Training Center - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway)\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-player-pat
+ hway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36792-7237@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U19 Orlando City SC vs Charlotte FC
+DESCRIPTION:MLS NEXT Homegrown · U19 Southeast (Pro Player Pathway) · kic
+ koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&c
+ onf=southeast-pro-player-pathway&show=orlando-city-sc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southeast-pro-pl
+ ayer-pathway&show=orlando-city-sc
+END:VEVENT
+END:VCALENDAR

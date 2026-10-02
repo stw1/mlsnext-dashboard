@@ -1,0 +1,308 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sacramento Republic FC U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-27000-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T210000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC at Silicon Valley Soccer Academy (Flex) 
+ (L 0–1)
+LOCATION:Mayfield Soccer Complex - Mayfield North
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26531-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T200000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC vs FC Bay Area Surf (W 3–2)
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27844-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T200000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC at Ballistic United (Flex)
+LOCATION:Val Vista - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26138-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T200000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC vs Atletico Santa Rosa (Flex)
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28401-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T200000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC vs The Town FC Academy (Flex)
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28906-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T203000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC at San Jose Earthquakes (Flex)
+LOCATION:Ohlone College - Soccer Field
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29326-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T160000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC at Modesto Ajax United
+LOCATION:Mary Grogan Community Park - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29730-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T210000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC vs Silicon Valley Soccer Academy
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30151-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T210000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC vs Ballistic United
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30666-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T210000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC vs De Anza Force (Flex)
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31005-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U16 Sacramento Republic FC at Vancouver Whitecaps FC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sacrame
+ nto-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31102-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U16 Sacramento Republic FC at San Francisco Glens SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sacrame
+ nto-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31491-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T210000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC at Lamorinda Soccer Club
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31695-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T210000Z
+DURATION:PT2H
+SUMMARY:U16 Sacramento Republic FC at Woodside Soccer Club Crush (Flex)
+LOCATION:Canada College - Stadium
+DESCRIPTION:MLS NEXT Flex · U16 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U16&conf=northwest&show=sacramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31872-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U16 Sacramento Republic FC vs Modesto Ajax United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sacrame
+ nto-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32213-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 Sacramento Republic FC at ALBION SC Merced (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sacrame
+ nto-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32673-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U16 Sacramento Republic FC vs Sacramento United (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sacrame
+ nto-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33090-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U16 Sacramento Republic FC at FC Bay Area Surf (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sacrame
+ nto-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33515-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 Sacramento Republic FC vs Woodside Soccer Club Crush
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sa
+ cramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33910-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U16 Sacramento Republic FC at Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sa
+ cramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34392-flex-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 Sacramento Republic FC vs Lamorinda Soccer Club (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Northwest · kickoff time not set yet\nhtt
+ ps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sacrame
+ nto-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34647-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 Sacramento Republic FC at De Anza Force
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sa
+ cramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35095-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U16 Sacramento Republic FC vs ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sa
+ cramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35543-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 Sacramento Republic FC at The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sa
+ cramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35951-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U16 Sacramento Republic FC at Sacramento United
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sa
+ cramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36488-5921@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 Sacramento Republic FC vs San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U16 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=sa
+ cramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+END:VCALENDAR

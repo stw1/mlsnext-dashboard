@@ -20,8 +20,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Fetch latest data and rebuild
@@ -41,3 +41,13 @@ jobs:
           git push
           # Pushes made with the workflow token may not trigger a Pages build on their own
           gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+      # Runs after publishing on purpose: the new scores still go live, but if the dashboard's tables stop matching
+      # MLS's official standings (a feed change or a new data quirk), this step fails and GitHub emails a warning.
+      - name: Check tables against MLS's official standings
+        run: |
+          set +e  # keep going after a failed check so the summary is still written
+          python3 scripts/check_official.py > check.txt
+          status=$?
+          cat check.txt
+          { echo '### Official standings check'; echo '```'; cat check.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          exit $status

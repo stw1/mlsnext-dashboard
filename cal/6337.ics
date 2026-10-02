@@ -1,0 +1,240 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GFI Academy U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26436-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T170000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy at Capital City SC (W 6–2)
+LOCATION:1849 Park - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26862-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260919T190000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy at AC River (W 3–2)
+LOCATION:Soccer Central - Field #2
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27306-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T170000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy vs SGA (L 2–4)
+LOCATION:Lenze Rd - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27950-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T170000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy at ALBION SC Colorado
+LOCATION:Twin Peaks Classical Academy - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28282-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T170000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy vs Tulsa Greenwood SC
+LOCATION:Lenze Rd - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28498-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T140000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy vs Real Salt Lake
+LOCATION:Lenze Rd - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29214-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T153000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy at SGA
+LOCATION:Noack Sports Complex Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30517-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy vs Houston Rangers
+LOCATION:Lenze Rd - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31265-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 GFI Academy at Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gfi-
+ academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31467-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:U13 GFI Academy at FC Dallas
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gfi-
+ academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31641-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T180000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy vs AC River
+LOCATION:Lenze Rd - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31817-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 GFI Academy at Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gfi-
+ academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32544-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 GFI Academy vs Capital City SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gfi-
+ academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33415-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U13 GFI Academy at Real Salt Lake
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gfi-
+ academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33820-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 GFI Academy vs Dallas Hornets
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gfi-
+ academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34237-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 GFI Academy at Tulsa Greenwood SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gfi-
+ academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34990-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 GFI Academy vs Austin FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gfi-
+ academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34021-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270417T160000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy vs ALBION SC Colorado
+LOCATION:Lenze Rd - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35839-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 GFI Academy at Houston Rangers
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier · kickoff time not set yet\
+ nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gfi-
+ academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36314-6337@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270508T180000Z
+DURATION:PT2H
+SUMMARY:U13 GFI Academy vs FC Dallas
+LOCATION:Lenze Rd - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Frontier\nhttps://stw1.github.io/mlsn
+ ext-dashboard/?age=U13&conf=frontier&show=gfi-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=frontier&show=gf
+ i-academy
+END:VEVENT
+END:VCALENDAR

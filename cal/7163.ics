@@ -1,0 +1,309 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hoosier Premier U14 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26036-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T200000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier at Bavarian United SC (L 1–4)
+LOCATION:Bavarian United Soccer Club - Ramon
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26213-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T160000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier at SC Wave (D 1–1)
+LOCATION:Mindiola Sports Complex - Mindiola Turf East
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26619-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T140000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier at FC Cincinnati (L 2–4)
+LOCATION:Milford High School - Charity Lucas Soccer Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27324-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T210000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier vs Club Ohio (L 1–3)
+LOCATION:Trinity Sports Park - Indy Premier Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28309-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T210000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier at Vardar Soccer Club
+LOCATION:Oakland University Dome - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28794-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T180000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier vs Midwest United FC
+LOCATION:Hoosier Futbol Club - MSMF
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29027-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T150000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier vs Chicago FC United
+LOCATION:Trinity Sports Park - Indy Premier Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29227-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T150000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier at AC Grand Rapids
+LOCATION:MSA Fieldhouse #2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29631-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T210000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier vs Michigan Jaguars
+LOCATION:Hoosier Futbol Club - MSMF
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29828-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T170000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier vs Sporting City
+LOCATION:Hoosier Futbol Club - MSMF
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30284-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T200000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier vs Cincinnati United Soccer Club
+LOCATION:Trinity Sports Park - Indy Premier Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30528-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T220000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier vs Indy Eleven
+LOCATION:Trinity Sports Park - Indy Premier Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30780-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T170000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier vs Vardar Soccer Club
+LOCATION:Hoosier Futbol Club - MSMF
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33008-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U14 Hoosier Premier at Indy Eleven
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33193-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270307
+SUMMARY:U14 Hoosier Premier vs AC Grand Rapids
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33619-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U14 Hoosier Premier at Club Ohio
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35006-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T180000Z
+DURATION:PT2H
+SUMMARY:U14 Hoosier Premier at Midwest United FC
+LOCATION:Midwest United FC Complex - North Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America\nhttps://stw1.github.io/m
+ lsnext-dashboard/?age=U14&conf=mid-america&show=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34040-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270321
+SUMMARY:U14 Hoosier Premier at Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34562-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U14 Hoosier Premier at Lou Fusz Athletic
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34789-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270404
+SUMMARY:U14 Hoosier Premier at St. Louis City SC
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35389-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U14 Hoosier Premier vs St. Louis Scott Gallagher
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35631-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U14 Hoosier Premier vs Sockers FC Chicago
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35864-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U14 Hoosier Premier at Michigan Jaguars
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36244-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270502
+SUMMARY:U14 Hoosier Premier vs FC Cincinnati
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36322-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U14 Hoosier Premier at Cincinnati United Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36667-7163@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U14 Hoosier Premier vs Michigan Wolves
+DESCRIPTION:MLS NEXT Homegrown · U14 Mid-America · kickoff time not set y
+ et\nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&sho
+ w=hoosier-premier
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=mid-america&show
+ =hoosier-premier
+END:VEVENT
+END:VCALENDAR

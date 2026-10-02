@@ -1,0 +1,279 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IMG U16 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26394-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T170000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs Sol SC Florida (Flex) (D 1–1\, won 4–3 on pens)
+LOCATION:IMG Academy Field - 1
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27265-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T130000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs Tampa Bay United (Flex) (W 6–3)
+LOCATION:IMG Academy Field - #2
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27705-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261003T220000Z
+DURATION:PT2H
+SUMMARY:U16 IMG at One FC (Flex)
+LOCATION:STU Soccer Field - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28244-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T160000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs Weston FC (Flex)
+LOCATION:IMG Academy Field - 1
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31783-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T150000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs Orlando City Soccer School South (Flex)
+LOCATION:IMG Academy Field - 6
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29170-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T170000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs IdeaSport SA (Flex)
+LOCATION:IMG Academy Field - #2
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31081-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261101T170000Z
+DURATION:PT2H
+SUMMARY:U16 IMG at West Florida Flames (Flex)
+LOCATION:JC Handly Sport Complex - JC Handly Park # 6
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28991-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261111T220000Z
+DURATION:PT2H
+SUMMARY:U16 IMG at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 5
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29598-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T200000Z
+DURATION:PT2H
+SUMMARY:U16 IMG at Weston FC
+LOCATION:Vista Park - Vista #4
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30467-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T180000Z
+DURATION:PT2H
+SUMMARY:U16 IMG at Athletum FC Academy (Flex)
+LOCATION:Pembroke Pines - UPSL Stadium
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31419-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T190000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs Jacksonville FC
+LOCATION:IMG Academy Field - 6
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31609-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270206T150000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs Seminole United
+LOCATION:IMG Academy Field - 7
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33781-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270207T160000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs Miami Futbol Academy Rush (Flex)
+LOCATION:IMG Academy Field - 7
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32089-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U16 IMG at Orlando City SC (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32508-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270227T140000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs West Florida Flames
+LOCATION:IMG Academy Field - 12
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32942-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270306T170000Z
+DURATION:PT2H
+SUMMARY:U16 IMG vs One FC
+LOCATION:IMG Academy Field - 16
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30945-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T193000Z
+DURATION:PT2H
+SUMMARY:U16 IMG at Jacksonville FC (Flex)
+LOCATION:Patton Park - Field 2
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33405-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:U16 IMG at South Florida Football Academy (Flex)
+DESCRIPTION:MLS NEXT Flex · U16 Florida · kickoff time not set yet\nhttps
+ ://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34222-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U16 IMG at Sol SC Florida
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34508-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:U16 IMG vs South Florida Football Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34966-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270410T170000Z
+DURATION:PT2H
+SUMMARY:U16 IMG at Orlando City Soccer School South
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35344-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U16 IMG vs Athletum FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35817-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U16 IMG at Miami Futbol Academy Rush
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36293-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U16 IMG at Tampa Bay United
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36627-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U16 IMG at IdeaSport SA
+DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
+ https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26847-flex-5787@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U16 IMG at Seminole United (Flex)
+LOCATION:Seminole Soccer Complex - Field 7
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=img
+END:VEVENT
+END:VCALENDAR

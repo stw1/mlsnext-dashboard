@@ -1,0 +1,290 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lamorinda Soccer Club U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26120-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T020000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs Sacramento United (L 0–2)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26510-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T020000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club at ALBION SC Merced (L 2–4)
+LOCATION:El Capitan High School
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26983-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260920T000000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club at FC Bay Area Surf (L 0–7)
+LOCATION:Willow Glen High School - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27395-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T020000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs De Anza Force (L 2–5)
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27853-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261004T020000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs ALBION SC Merced
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28386-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261018T020000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs San Francisco Glens SC
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28892-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261025T000000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs FC Bay Area Surf
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29337-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261031T210000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club at Silicon Valley Soccer Academy
+LOCATION:Mayfield Soccer Complex - Mayfield South
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29718-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261108T030000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs Atletico Santa Rosa
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30154-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261115T030000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club at Sacramento United
+LOCATION:Rosemont High School
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30651-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T210000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club at Ballistic United
+LOCATION:Stanford Medical Sports Complex - East
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31090-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U13 Lamorinda Soccer Club at Modesto Ajax United
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31290-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 Lamorinda Soccer Club at De Anza Force
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31488-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270131T030000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs Sacramento Republic FC
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31675-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U13 Lamorinda Soccer Club at San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32228-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T030000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs The Town FC Academy
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33093-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270307T030000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs Modesto Ajax United
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33931-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270320T200000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club at Woodside Soccer Club Crush
+LOCATION:Woodside High School Bradley - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34389-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 Lamorinda Soccer Club at Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34650-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270404T020000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs Woodside Soccer Club Crush
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35074-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:U13 Lamorinda Soccer Club at Atletico Santa Rosa
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35528-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:U13 Lamorinda Soccer Club vs Silicon Valley Soccer Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35954-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:U13 Lamorinda Soccer Club at The Town FC Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=la
+ morinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36473-5834@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270509T020000Z
+DURATION:PT2H
+SUMMARY:U13 Lamorinda Soccer Club vs Ballistic United
+LOCATION:Wilder Fields - Field 2 - Wilder 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=northwest&show=lamorinda-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=northwest&show=l
+ amorinda-soccer-club
+END:VEVENT
+END:VCALENDAR

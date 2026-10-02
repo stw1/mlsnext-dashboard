@@ -1,0 +1,420 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mlsnext-dashboard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LA Galaxy U13 · MLS NEXT
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:mlsnext-26183-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260905T180000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy vs Los Angeles Football Club (D 4–4)
+LOCATION:Dignity Health Sports Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26353-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260906T180000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy vs Strikers FC (L 0–3)
+LOCATION:Dignity Health Sports Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26573-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260912T180000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy vs Albion SC Los Angeles (D 3–3)
+LOCATION:Dignity Health Sports Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-26791-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260913T180000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy vs Santa Barbara Soccer Club (W 5–0)
+LOCATION:Dignity Health Sports Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27474-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260926T180000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy vs Los Angeles Football Club (W 8–2)
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27666-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20260927T160000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy at Santa Barbara Soccer Club (W 6–4)
+LOCATION:Westmont College - Lovik Field A
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28208-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261010T220000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy at Los Angeles Football Club
+LOCATION:Jesse Owens Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28230-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261011T180000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy vs Albion SC Los Angeles
+LOCATION:Dignity Health Sports Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28442-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261017T180000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy vs ALBION SC San Diego
+LOCATION:Dignity Health Sports Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28964-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261024T205000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy at Los Angeles Sports Club
+LOCATION:La Canada High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29767-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261107T190000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy vs City SC Southwest
+LOCATION:Dignity Health Sports Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30233-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261114T170000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy vs Total Futbol Academy
+LOCATION:Dignity Health Sports Park - Field 5
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30735-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261121T170000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy at Phoenix Rising FC
+LOCATION:Phoenix Rising FC Youth Complex - North Field
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-30921-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261122T170000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy at RSL Arizona Mesa
+LOCATION:Scottsdale Prep - Field 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31010-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:U13 LA Galaxy vs San Diego FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31045-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270110
+SUMMARY:U13 LA Galaxy at Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31129-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:U13 LA Galaxy vs SoCal Reds FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31179-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270117
+SUMMARY:U13 LA Galaxy vs Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31336-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:U13 LA Galaxy at Los Angeles Football Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31586-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U13 LA Galaxy at SC Del Sol
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31707-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:U13 LA Galaxy vs FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31744-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270207
+SUMMARY:U13 LA Galaxy vs Chula Vista FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-31938-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:U13 LA Galaxy at Total Futbol Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32286-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:U13 LA Galaxy vs RSL Arizona
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32726-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270227
+SUMMARY:U13 LA Galaxy vs Ventura County Fusion
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32911-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:U13 LA Galaxy vs LA Surf Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33151-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:U13 LA Galaxy vs Las Vegas Sports Academy
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33762-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270314
+SUMMARY:U13 LA Galaxy vs Los Angeles Sports Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33993-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:U13 LA Galaxy at San Diego FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-34461-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270327
+SUMMARY:U13 LA Galaxy at FC Golden State Force
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35319-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270411
+SUMMARY:U13 LA Galaxy at LA Surf Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-35771-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270418
+SUMMARY:U13 LA Galaxy at City SC - San Diego
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36236-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:U13 LA Galaxy at Los Angeles Bulls Soccer Club
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36257-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270502
+SUMMARY:U13 LA Galaxy at Strikers FC
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-36548-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:U13 LA Galaxy at Albion SC Las Vegas
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=la
+ -galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33349-5899@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270515T160000Z
+DURATION:PT2H
+SUMMARY:U13 LA Galaxy at SoCal Reds FC
+LOCATION:Orange County Great Park  - OC Great Park Soccer Field #12
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=la-galaxy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=l
+ a-galaxy
+END:VEVENT
+END:VCALENDAR
