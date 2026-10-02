@@ -1081,5 +1081,5 @@ try{const pre=PAST?PAST+" · ":"",fol=!SHOW&&!CLUBQ&&!NATIONAL&&myTeam?nm(myTeam
 window.__debug={predict,fit,future,SIMS,mu,hadv,att,def,rho,power,tbl,first,simPts,bt};
 // "Report a problem" link in the footer: DATA.feedback is a form URL or an email address (FEEDBACK in refresh.py)
 if(DATA.feedback){const f=DATA.feedback,href=/^https?:/.test(f)?f:`mailto:${f}?subject=${encodeURIComponent("MLS NEXT dashboard")}&body=${encodeURIComponent("Page: "+location.href+"\n\n")}`;
- $("foot").insertAdjacentHTML("beforeend",` <a href="${esc(href)}" target="_blank" rel="noopener">Report a problem or suggest an idea</a>`)}
+ $("foot").insertAdjacentHTML("beforeend",` · <a href="${esc(href)}" target="_blank" rel="noopener">Report a problem or suggest an idea</a>`)}
 </script></body></html>
