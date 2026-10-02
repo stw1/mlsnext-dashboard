@@ -3,7 +3,7 @@
 Personal project (Stephen). Builds a self-contained HTML dashboard for the MLS NEXT
 **Homegrown Division**: every age group (U13–U19) and conference in one page, showing one bracket at a time. It shows standings, a head-to-head
 ("who beat who") grid, power ratings, results, and predicted scores for every remaining
-game, plus a 10,000-run season simulation. First-time visitors land on **U14 Northwest** (2026-27 season).
+game, plus a 10,000-run season simulation. The plain link always opens **U14 Northwest** (2026-27 season).
 
 ## Layout
 ```
@@ -29,7 +29,7 @@ index.html                         built output with every bracket embedded (ser
 - **Publish by hand:** `git pull` first (the bot commits too), then `git add -A && git commit -m "..." && git push`. GitHub Pages serves
   https://stw1.github.io/mlsnext-dashboard/ from the `main` branch root (repo `stw1/mlsnext-dashboard`).
   Link to a bracket with `?age=U15&conf=southwest` (conf is the name lowercased, spaces → dashes, parentheses dropped,
-  e.g. `west-pro-player-pathway`). `?age=U13` alone uses the last or default conference. Add `&team=ballistic-united`
+  e.g. `west-pro-player-pathway`). `?age=U13` alone uses the default conference (Northwest). Add `&team=ballistic-united`
   to highlight a team.
 
 ## Data source
@@ -82,8 +82,8 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   time (feed venue "TBD", stored at 06:00 local) keep only the local date (`2027-01-09`), from the event's `local_timezone`.
 - Template placeholders filled by `refresh.py`: `__DATA__` (`{default:{age,conf}, snap, brackets:[{age, conf, teams, raw}]}`),
   `__TITLE__`, `__SEASON__` (from the season key, e.g. "2026–27 season").
-- Bracket choice: `pickBracket()` runs once at load (`?age=&conf=` → last bracket viewed, saved in localStorage as
-  `bracket` → `default`); everything after runs exactly as for a single bracket. Age tabs and the conference picker
+- Bracket choice: `pickBracket()` runs once at load (`?age=&conf=` → `?age=` + default conference → `default`, U14
+  Northwest). The last bracket viewed is deliberately not remembered. Everything after runs exactly as for a single bracket. Age tabs and the conference picker
   reload the page. "Find any team" searches all brackets.
 - Team links: `&team=<slug>` (name lowercased, non-letters → dashes, e.g. `ballistic-united`; a squad id also works,
   as does the older `&follow=<squad_id>`). A linked team becomes that browser's followed team for the bracket.

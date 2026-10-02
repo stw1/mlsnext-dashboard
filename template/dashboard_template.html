@@ -183,17 +183,15 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 </main>
 <footer class="wrap" id="foot"></footer>
 <script>
-// every bracket (age group + conference); the page shows one: ?age=&conf=, else the last one viewed, else the default
+// every bracket (age group + conference); the page shows the one in ?age=&conf=, else the default (U14 Northwest)
 const DATA=/*__DATA__*/{};
 const qs=new URLSearchParams(location.search),slugC=c=>(c||"").toLowerCase().replace(/[()]/g,"").trim().replace(/\s+/g,"-");
 const findB=(a,c)=>a&&c?DATA.brackets.find(b=>b.age===a&&slugC(b.conf)===slugC(c)):undefined;
 const baseConf=c=>c.replace(/ \(Pro Player Pathway\)$/,"");
-let saved=null;try{saved=JSON.parse(localStorage.getItem("bracket")||"null")}catch(e){}
 function pickBracket(){const a=qs.get("age"),c=qs.get("conf");
- if(a){const b=findB(a,c)||findB(a,saved&&saved.conf)||findB(a,DATA.default.conf)||DATA.brackets.find(b=>b.age===a);if(b)return b}
- return(saved&&findB(saved.age,saved.conf))||findB(DATA.default.age,DATA.default.conf)||DATA.brackets[0]}
+ if(a){const b=findB(a,c)||findB(a,DATA.default.conf)||DATA.brackets.find(b=>b.age===a);if(b)return b}
+ return findB(DATA.default.age,DATA.default.conf)||DATA.brackets[0]}
 const B=pickBracket();
-try{localStorage.setItem("bracket",JSON.stringify({age:B.age,conf:B.conf}))}catch(e){}
 const bracketUrl=(b,extra="")=>`?age=${b.age}&conf=${slugC(b.conf)}${extra}`;
 // teams in links use a readable slug (&team=ballistic-united); the older &follow=<squad id> still works
 const slugT=n=>n.toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
