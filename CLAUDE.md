@@ -199,7 +199,11 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   Footer shows "Anonymous usage stats, no cookies (opt out)" when on. Tested with the Firestore + Auth emulators.
   Live project: Firebase `spaikz-dashboards` (owned by Stephen's spaikz.com Google account; Firestore nam5; web app
   "Dashboards"). Rules deploy with `analytics/deploy_rules.sh <owner email>` so the email isn't committed. Report:
-  https://stw1.github.io/mlsnext-dashboard/analytics/report.html. Firebase CLI and gcloud on this Mac are signed in.
+  https://spaikz-dashboards.web.app (`analytics/deploy_report.sh`; the GitHub Pages copy just links there). **No API
+  key in the repo or the site**: the tracker writes to Firestore without one (rules decide). The report's key ("Analytics
+  report (restricted)": web.app/firebaseapp.com referrers; identitytoolkit, securetoken, firestore) lives only in Google
+  Cloud and the deployed report. Two earlier keys were committed by mistake on 2026-10-02 and deleted (GitHub
+  secret-scanning alerts closed as revoked). Firebase CLI and gcloud on this Mac are signed in.
 - "New since your last visit": localStorage `seen:<title>` keeps the played-game ids at the end of the previous
   visit (a visit ends after 6 quiet hours). New results get a "New" pill (results, tooltips, card) and a ring in Who beat who.
 - Phones (≤700px): the header packs pickers into a grid; `.xs-hide` columns drop out (W/D/L/Goals in standings,

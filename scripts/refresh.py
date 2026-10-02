@@ -230,8 +230,9 @@ def analytics_tag():
         js = open(f"{ROOT}/analytics/fa.js").read().replace("</", "<\\/")  # a "</script>" in it would end the tag
     except OSError:
         return ""
-    conf = {"site": ANALYTICS_SITE, "projectId": cfg.get("projectId", ""), "apiKey": cfg.get("apiKey", ""),
-            "sections": '.card[id^="s-"]'}
+    # no API key: Firestore's REST API doesn't need one for these writes (the security rules decide), so none is
+    # published in the pages or committed to the repo
+    conf = {"site": ANALYTICS_SITE, "projectId": cfg.get("projectId", ""), "sections": '.card[id^="s-"]'}
     return f"<script>window.FA_CONFIG={json.dumps(conf)};</script>\n<script>\n{js}</script>"
 
 def build(brackets, games, meta, default, groups=()):

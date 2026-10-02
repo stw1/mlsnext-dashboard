@@ -1,7 +1,7 @@
 # fa.js: first-party analytics in your own Firebase project
 
 In use: Firebase project `spaikz-dashboards`, sites `mlsnext` and `ecnl`.
-Report: https://stw1.github.io/mlsnext-dashboard/analytics/report.html
+Report: https://spaikz-dashboards.web.app (Firebase Hosting; deploy with `deploy_report.sh`).
 
 A small, reusable analytics kit for static sites (GitHub Pages and the like). Events go straight from the browser
 to **your** Cloud Firestore database: no third-party analytics service, no cookies, no SDK on the tracked site.
@@ -12,10 +12,11 @@ own `site` code, and one report page shows any of them.
 |---|---|
 | `fa.js` | The tracker (about 8 KB, no dependencies). Include it on a page or inline it. |
 | `firestore.rules` | Security rules: anyone may *create* well-formed events for a listed site; only your Google account can *read*; nothing can be changed or deleted. |
-| `report.html` | The analytics report. Sign in with Google to see the data (`?demo=1` previews it with made-up data). |
-| `config.json` | The Firebase project the report and builds use (`projectId`, `apiKey`, `authDomain`) and the list of site codes. |
+| `report.html` | The analytics report. Sign in with Google to see the data (`?demo=1` previews it with made-up data). Hosted on Firebase Hosting by `deploy_report.sh`. |
+| `config.json` | The Firebase project (`projectId`, `authDomain`), the list of site codes and `reportUrl`. **No API key**: see "Keys" below. |
 | `firebase.json` | For the local emulators used in testing. |
 | `deploy_rules.sh` | Deploys `firestore.rules` with the owner emails filled in. |
+| `deploy_report.sh` | Deploys `report.html` to Firebase Hosting, adding the report's API key to the deployed copy only. |
 
 ## What it records
 
@@ -43,15 +44,16 @@ Do Not Track and Global Privacy Control are respected. Anyone can opt out on a d
 2. **Build → Firestore Database → Create database**: production mode, any US location (for example `nam5`).
 3. **Build → Authentication → Get started → Sign-in method → Google → Enable → Save.** Then go to **Settings →
    Authorized domains** and add `stw1.github.io` (and any other domain the report will be opened from).
-4. **Project settings (gear) → General → Your apps → Web (`</>`)**: register an app (any nickname, no Hosting) and
-   copy `apiKey`, `authDomain` and `projectId` into `config.json`. These are public identifiers, not secrets: the
-   security rules are what protect the data.
+4. Put `projectId` and `authDomain` (`<projectId>.firebaseapp.com`) in `config.json`. In Google Cloud → APIs &
+   Services → Credentials, create an API key named **Analytics report (restricted)**: website restriction
+   `https://<projectId>.web.app/*` and `https://<projectId>.firebaseapp.com/*`; API restriction Identity Toolkit, Token
+   Service and Cloud Firestore. Never commit it: `deploy_report.sh` reads it from Google Cloud when deploying.
 5. Add every site code to `knownSite` in `firestore.rules`. The Google accounts allowed to read the analytics replace
    `OWNER_EMAIL` at deploy time. Deploy the rules either:
    - with the CLI: `analytics/deploy_rules.sh you@example.com` (fills in the owner emails, so they never need to be
      committed, and deploys to the `projectId` in `config.json`), or
    - by pasting the file into **Firestore → Rules → Publish**.
-6. Rebuild and publish the site. The report is at `<site>/analytics/report.html`.
+6. Run `./deploy_report.sh`, then rebuild and publish the site. The report is at `https://<projectId>.web.app`.
 
 Free-plan limits are 20,000 event writes and 50,000 reads a day. A typical page view writes 3–6 events, and opening
 the report reads every event in the chosen date range. That's plenty for a team or club audience; for much more
@@ -64,8 +66,7 @@ traffic, see "Ideas" below.
 2. Put the tracker on the page. Either load it from this repo:
    ```html
    <script src="https://stw1.github.io/mlsnext-dashboard/analytics/fa.js"
-           data-site="ecnl" data-project-id="YOUR_PROJECT_ID" data-api-key="YOUR_API_KEY"
-           data-sections=".card[id]"></script>
+           data-site="ecnl" data-project-id="spaikz-dashboards" data-sections=".card[id]"></script>
    ```
    or copy `fa.js` into that project and inline it (that's what `refresh.py` does here: it reads `config.json`,
    sets `window.FA_CONFIG` and inlines `fa.js`, so the dashboard stays one file). When inlining, replace `</` with
@@ -74,6 +75,15 @@ traffic, see "Ideas" below.
    list pages by name and break them down by detail. Add `data-track="..."` to buttons whose text isn't a good label,
    and `data-notrack` to anything that shouldn't be recorded.
 4. Open `report.html` and pick the site from the drop-down.
+
+## Keys
+
+The tracker needs **no API key**: Firestore's REST API accepts these writes without one, and the security rules
+decide what's allowed. So nothing secret-looking is published in the pages or committed (GitHub's secret scanning
+flags any Google API key in a repo). Only the report needs a key, for Google sign-in. It's restricted to the
+Firebase Hosting domains and to the sign-in and Firestore APIs, and it only exists in Google Cloud and in the deployed
+copy of the report. To rotate it, create a new key with the same name and restrictions, run `deploy_report.sh`, and
+delete the old key.
 
 ## Testing locally
 

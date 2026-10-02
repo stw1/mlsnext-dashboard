@@ -125,7 +125,8 @@ async function run(){const site=$("site").value,days=+$("days").value;$("status"
 $("site").onchange=$("days").onchange=$("reload").onclick=run;
 
 if(DEMO){$("who").textContent="Demo mode";run()}
-else if(!cfg.projectId&&!EMU){$("status").innerHTML=`<span class="err">No Firebase project set in config.json yet: see README.md.</span> Preview with <a href="?demo=1">demo data</a>.`}
+else if((!cfg.projectId||!cfg.apiKey)&&!EMU){$("status").innerHTML=cfg.reportUrl?`The report is hosted at <a href="${esc(cfg.reportUrl)}">${esc(cfg.reportUrl)}</a> (its sign-in key is added when it's deployed, never stored in the repo). Or preview it here with <a href="?demo=1">demo data</a>.`
+  :`<span class="err">No Firebase project set in config.json yet: see README.md.</span> Preview with <a href="?demo=1">demo data</a>.`}
 else{const{A,auth}=await firebase();
  A.onAuthStateChanged(auth,u=>{$("signin").style.display=u?"none":"block";$("main").style.display=u?"":"none";$("out").hidden=!u;$("who").textContent=u?u.email:"";if(u)run()});
  $("in").onclick=()=>A.signInWithPopup(auth,new A.GoogleAuthProvider()).catch(e=>$("msg").textContent=e.message);
