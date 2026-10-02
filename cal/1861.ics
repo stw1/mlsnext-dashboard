@@ -72,19 +72,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
  ayer-pathway&show=inter-miami-cf
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-28731-flex-1861@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261024T170000Z
-DURATION:PT2H
-SUMMARY:U17 Inter Miami CF vs West Florida Flames (Flex)
-LOCATION:Florida Blue Training Center - Field 3
-DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway)\nhttps://st
- w1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pathway&
- show=inter-miami-cf
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
- ayer-pathway&show=inter-miami-cf
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-29753-1861@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261107T170000Z
@@ -261,6 +248,19 @@ SUMMARY:U17 Inter Miami CF vs Houston Dynamo FC
 DESCRIPTION:MLS NEXT Homegrown · U17 Southeast (Pro Player Pathway) · kic
  koff time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&c
  onf=southeast-pro-player-pathway&show=inter-miami-cf
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
+ ayer-pathway&show=inter-miami-cf
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28731-flex-1861@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T180000Z
+DURATION:PT2H
+SUMMARY:U17 Inter Miami CF vs West Florida Flames (Flex)
+LOCATION:Florida Blue Training Center - Field 3
+DESCRIPTION:MLS NEXT Flex · U17 Southeast (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-player-pathway&
+ show=inter-miami-cf
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast-pro-pl
  ayer-pathway&show=inter-miami-cf
 END:VEVENT

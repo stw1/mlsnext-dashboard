@@ -92,18 +92,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=wes
  t-florida-flames
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-28731-flex-5847@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261024T170000Z
-DURATION:PT2H
-SUMMARY:U17 West Florida Flames at Inter Miami CF (Flex)
-LOCATION:Florida Blue Training Center - Field 3
-DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
- shboard/?age=U17&conf=florida&show=west-florida-flames
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=wes
- t-florida-flames
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-29195-flex-5847@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261031T190000Z
@@ -195,6 +183,18 @@ SUMMARY:U17 West Florida Flames vs Miami Futbol Academy Rush
 LOCATION:JC Handly Sport Complex - JC Handly Park # 7
 DESCRIPTION:MLS NEXT Homegrown · U17 Florida\nhttps://stw1.github.io/mlsne
  xt-dashboard/?age=U17&conf=florida&show=west-florida-flames
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=wes
+ t-florida-flames
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28731-flex-5847@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270221T180000Z
+DURATION:PT2H
+SUMMARY:U17 West Florida Flames at Inter Miami CF (Flex)
+LOCATION:Florida Blue Training Center - Field 3
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=west-florida-flames
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=wes
  t-florida-flames
 END:VEVENT
