@@ -13,6 +13,7 @@ body{margin:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,s
 header{background:linear-gradient(135deg,#0b2a4a 0%,#14406b 100%);color:#fff;padding:26px 24px 22px}
 .wrap{max-width:1400px;margin:auto}
 .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#93c5fd;font-weight:600}
+.eyebrow .brand{color:inherit;text-decoration:none}.eyebrow .brand:hover{text-decoration:underline}.homeb{display:inline-block;margin:0 10px 0 0;padding:3px 10px;border:1px solid rgba(255,255,255,.4);border-radius:999px;color:#fff;text-decoration:none;text-transform:none;letter-spacing:0;font-size:12.5px;font-weight:500;vertical-align:1px}.homeb:hover{background:rgba(255,255,255,.12)}.homeb[hidden]{display:none}
 header h1{margin:0;font-size:28px;line-height:1.2;letter-spacing:-.01em}
 .titlerow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:4px 0 12px}
 .ages{display:inline-flex;gap:2px;background:rgba(255,255,255,.12);border-radius:9px;padding:3px}
@@ -193,7 +194,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
  .ctl{display:grid;grid-template-columns:96px 1fr auto;grid-template-areas:"y c c" "t t s" "f f f";gap:8px}.ctl.noseason{grid-template-areas:"c c c" "t t s" "f f f"}.ctl .lt{display:none}
  .ctl.nat{grid-template-areas:"y c c" "f f s"}.ctl.club{grid-template-areas:"y f s"}.ctl.nat.noseason{grid-template-areas:"c c c" "f f s"}.ctl.club.noseason{grid-template-areas:"f f s"}.c-season{grid-area:y}.c-conf{grid-area:c}.c-team{grid-area:t}.c-find{grid-area:f}.c-share{grid-area:s}
  .follow{width:100%;min-width:0}.follow select{flex:1;min-width:0;width:100%;padding:8px}.find{width:100%}.find input{width:100%;padding:8px 10px}.find-r{width:100%}
- .eyebrow{font-size:10.5px;letter-spacing:.05em}.titlerow{margin:4px 0 10px}.meta{font-size:12px;gap:2px 14px}
+ .eyebrow{font-size:10.5px;letter-spacing:.05em}.homeb{display:table;margin:0 0 8px;padding:5px 12px}.titlerow{margin:4px 0 10px}.meta{font-size:12px;gap:2px 14px}
  .ages{display:flex;width:100%}.ages a{flex:1;text-align:center;padding:8px 0}
  .ven a{display:inline-block;padding:10px 6px;margin:-10px -6px}.seg button{padding:9px 12px}#nF,#natConf{padding:8px}.btn{padding:9px 14px}
  .xs-hide{display:none}.nat .dv{display:none}
@@ -238,7 +239,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
  header{background:linear-gradient(135deg,#0a1f38 0%,#0f2f52 100%)}}
 </style></head><body>
 <header><div class="wrap">
-<div class="eyebrow">MLS NEXT · Homegrown Division · 2025–26 season · final</div>
+<div class="eyebrow"><a class="homeb" id="homeB" href="./" hidden>‹ Home</a><a class="brand" id="brand" href="./" title="Home">MLS NEXT · Homegrown Division · 2025–26 season · final</a></div>
 <div class="titlerow"><h1 id="bracket"></h1><span class="ppp" id="ppp">Pro Player Pathway</span><div class="ages" id="ages" aria-label="Age group"></div></div>
 <div class="hrow ctl"><label class="follow c-season" id="seasonWrap"><span class="lt">Season</span> <select id="seasonSel" aria-label="Season"></select></label><label class="follow c-conf"><span class="lt">Conference</span> <select id="confSel" aria-label="Conference"></select></label>
 <div class="find c-find"><input id="findQ" type="search" placeholder="Find any team" autocomplete="off" aria-label="Find any team"><div class="find-r" id="findR" role="listbox"></div></div>
@@ -860,6 +861,8 @@ if(PAST){const up=document.querySelector('nav a[href="#s-upcoming"]');if(up)up.r
  document.querySelector("#s-table h2").textContent="Final standings";document.querySelector("#s-table .sub").textContent="The final league table for this season, ranked by points per game like MLS NEXT does.";
  document.querySelector("#s-acc .sub").textContent="The model replayed over this whole season: each weekend predicted using only the games played before it, then checked against what happened.";
  $("foot").innerHTML=`Unofficial fan dashboard, not affiliated with MLS NEXT. ${PAST} results from Modular11, MLS NEXT's results platform before 2026–27.`}
+// Home: this season's page with no options (opens the conference viewed last); a button on club, national and team pages
+{const home=location.pathname;$("brand").href=home;$("homeB").href=home;$("homeB").hidden=!(SHOW||CLUBQ||NATIONAL)}
 if(SHOW){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s-upcoming","s-acc"])$(id).style.display="none";
  $("s-team").style.display="";document.querySelector("nav .wrap").innerHTML='<a href="#s-team">Overview</a><a href="#s-tsched">Schedule</a><a href="#s-topp">Opponents</a><a href="#s-about">How it works</a>';
  $("myTeam").closest(".follow").style.display="none";document.querySelector(".ctl").classList.add("nat");$("ppp").style.display="none";
