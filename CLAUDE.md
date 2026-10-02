@@ -123,9 +123,15 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - Accuracy check ("How accurate are the predictions?"): a walk-forward backtest. For each weekend it calls
   `fit()` on only the earlier games, predicts that weekend with `predict(h, a, model)`, and compares with the result.
   It needs no logging, but it scores the *current* model code, so changing the model changes past accuracy too.
-- Standings sort (official HD rules XIII): points per match; head-to-head for two-team ties only; then wins,
-  goal difference, goals for, away GD, away goals, home GD, home goals, all per match. Rules PDF:
-  https://images.mlssoccer.com/image/upload/v1783990779/assets/MLS_NEXT_HD_Rules_and_Regulations_2026-27_Final_Web_Version_hwmkha.pdf
+- Rules: see `docs/rules-2026-27.md` (summary of the HD Rules & Regulations with section numbers, and how the
+  site follows each rule). Standings sort (XIII.l): points per match; head-to-head for two-team ties only; then
+  wins, GD, GF per match; away GD and GF per *away* match; home GD and GF per *home* match; level teams keep MLS's
+  published position (`DATA.opos`, standing in for disciplinary points and the coin toss). Checked on 2026-10-02:
+  all 568 U15–U19 records and all 44 conference orders match MLS's feed. Rerun that check after changing table logic.
+- Feed quirks handled in `refresh.py`: "completed" games dated after `synced_at` count as not played; teams playing a
+  league schedule but missing from the standings feed (Bay Area Surf U15, New England Revolution U14) join their
+  opponents' bracket; cross-age league games (San Diego FC U16 vs the U17 PPP schedule) are listed in both brackets
+  and counted in each team's own table, but kept out of ratings/Who beat who (`inB`); opponents get an age suffix (`xAge`).
 
 ## Conventions / gotchas
 - The dashboard stays a **single HTML file** with no external scripts or data fetches (all data is embedded).

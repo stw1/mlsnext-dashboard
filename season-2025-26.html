@@ -355,6 +355,9 @@ const parseFlex=b=>b.flex?b.flex.split(";").map(s=>{const[id,dt,h,a,hs,as,v,ps]=
 const ratable=(list,teams)=>USE_FLEX?list.filter(g=>g.hs!==null&&g.h in teams&&g.a in teams):[];
 const games=parseGames(B),flexAll=parseFlex(B),flexPlayed=ratable(flexAll,TEAMS);
 const played=games.filter(g=>g.hs!==null),future=games.filter(g=>g.hs===null);
+// a few league games are against a team of another bracket (San Diego FC U16 plays the U17 PPP schedule, so each
+// side's game counts in its own table, as in MLS's standings); those stay out of the ratings and Who beat who
+const inB=(g,t=TEAMS)=>g.h in t&&g.a in t;
 
 const fact=[1];for(let i=1;i<15;i++)fact[i]=fact[i-1]*i;const pois=(k,l)=>Math.exp(-l)*l**k/fact[k];
 // Dixon-Coles low-score correction: rho<0 makes 0-0 and 1-1 more likely and 1-0 / 0-1 less likely
@@ -392,8 +395,9 @@ function fit(list,IX=ix,NN=N,prior=null){let mu=Math.log(1.5),hadv=0.1;
 const priorArr=(b,ids)=>{if(!b.prior||!Object.keys(b.prior).length)return null;const at=ids.map(c=>(b.prior[c]||[0,0])[0]),de=ids.map(c=>(b.prior[c]||[0,0])[1]);
  const ma=at.reduce((x,y)=>x+y,0)/ids.length,md=de.reduce((x,y)=>x+y,0)/ids.length;return{att:at.map(x=>x-ma),def:de.map(x=>x-md)}};
 const PRIOR=priorArr(B,codes);
-const M=fit(played.concat(flexPlayed),ix,N,PRIOR),{mu,hadv,att,def,rho}=M;
-const lamM=(m,h,a)=>{const I=m.IX||ix;return[Math.exp(m.mu+m.hadv+m.att[I[h]]-m.def[I[a]]),Math.exp(m.mu+m.att[I[a]]-m.def[I[h]])]};
+const M=fit(played.filter(g=>inB(g)).concat(flexPlayed),ix,N,PRIOR),{mu,hadv,att,def,rho}=M;
+// a team outside the fitted bracket counts as an average team (rating 0)
+const lamM=(m,h,a)=>{const I=m.IX||ix,A=c=>m.att[I[c]]||0,D=c=>m.def[I[c]]||0;return[Math.exp(m.mu+m.hadv+A(h)-D(a)),Math.exp(m.mu+A(a)-D(h))]};
 const lam=(h,a)=>lamM(M,h,a);
 function predict(h,a,m=M){const[lh,la]=lamM(m,h,a),r=m.rho;let pH=0,pD=0,pA=0,best=[0,0,0];
  for(let x=0;x<=10;x++)for(let y=0;y<=10;y++){const p=pxy(x,y,lh,la,r);if(x>y)pH+=p;else if(x===y)pD+=p;else pA+=p;if(p>best[2])best=[x,y,p];}
@@ -407,17 +411,21 @@ function predict(h,a,m=M){const[lh,la]=lamM(m,h,a),r=m.rho;let pH=0,pD=0,pA=0,be
 const power=codes.map(c=>{const i=ix[c];const gf=Math.exp(mu+att[i]),ga=Math.exp(mu-def[i]);return{c,gf,ga,net:gf-ga}}).sort((a,b)=>b.net-a.net);
 
 // ---- actual table ----
-function table(list,ids=codes){const T=Object.fromEntries(ids.map(c=>[c,{c,mp:0,w:0,d:0,l:0,gf:0,ga:0,pts:0,hgf:0,hga:0,agf:0,aga:0,form:[]}]));
- for(const g of list){const H=T[g.h],A=T[g.a];H.mp++;A.mp++;H.gf+=g.hs;H.ga+=g.as;A.gf+=g.as;A.ga+=g.hs;H.hgf+=g.hs;H.hga+=g.as;A.agf+=g.as;A.aga+=g.hs;
+function table(list,ids=codes){const T=Object.fromEntries(ids.map(c=>[c,{c,mp:0,w:0,d:0,l:0,gf:0,ga:0,pts:0,hgf:0,hga:0,agf:0,aga:0,hm:0,am:0,form:[]}])),X=()=>({mp:0,w:0,d:0,l:0,gf:0,ga:0,pts:0,hgf:0,hga:0,agf:0,aga:0,hm:0,am:0,form:[]});
+ for(const g of list){const H=T[g.h]||X(),A=T[g.a]||X();H.mp++;A.mp++;H.hm++;A.am++;H.gf+=g.hs;H.ga+=g.as;A.gf+=g.as;A.ga+=g.hs;H.hgf+=g.hs;H.hga+=g.as;A.agf+=g.as;A.aga+=g.hs;
   if(g.hs>g.as){H.w++;A.l++;H.pts+=3;H.form.push("W");A.form.push("L")}else if(g.hs<g.as){A.w++;H.l++;A.pts+=3;H.form.push("L");A.form.push("W")}else{H.d++;A.d++;H.pts++;A.pts++;H.form.push("D");A.form.push("D")}}
  const rows=Object.values(T).map(t=>({...t,gd:t.gf-t.ga,ppm:t.mp?t.pts/t.mp:0}));
- // official MLS NEXT order (HD rules XIII): points per match; head-to-head for two-team ties only; then wins,
- // goal difference, goals for, away goal difference, away goals, home goal difference, home goals, all per match
- const pm=(t,x)=>t.mp?x/t.mp:0,key=t=>Math.round(t.ppm*1e6),tied={};rows.forEach(t=>tied[key(t)]=(tied[key(t)]||0)+1);
+ // official MLS NEXT order (HD rules XIII.l): points per match; head-to-head for two-team ties only; then wins,
+ // goal difference and goals for per match; away goal difference and away goals per away match; home goal difference
+ // and home goals per home match (this reading reproduces MLS's published order in every U15-U19 conference). The
+ // last steps (fewest disciplinary points, coin toss) aren't in the data, so teams level on everything keep MLS's
+ // own published position (DATA.opos, U15-U19).
+ const pm=(t,x,d=t.mp)=>d?x/d:0,key=t=>Math.round(t.ppm*1e6),tied={};rows.forEach(t=>tied[key(t)]=(tied[key(t)]||0)+1),OP=DATA.opos||{};
  const h2h=(a,b)=>{let pa=0,pb=0;for(const g of list){const ah=g.h===a.c&&g.a===b.c,bh=g.h===b.c&&g.a===a.c;if(!ah&&!bh)continue;
   const ha=ah?g.hs:g.as,hb=ah?g.as:g.hs;if(ha>hb)pa+=3;else if(hb>ha)pb+=3;else{pa++;pb++}}return pb-pa};
  return rows.sort((a,b)=>b.ppm-a.ppm||(tied[key(a)]===2?h2h(a,b):0)||pm(b,b.w)-pm(a,a.w)||pm(b,b.gd)-pm(a,a.gd)||pm(b,b.gf)-pm(a,a.gf)
-  ||pm(b,b.agf-b.aga)-pm(a,a.agf-a.aga)||pm(b,b.agf)-pm(a,a.agf)||pm(b,b.hgf-b.hga)-pm(a,a.hgf-a.hga)||pm(b,b.hgf)-pm(a,a.hgf));}
+  ||pm(b,b.agf-b.aga,b.am)-pm(a,a.agf-a.aga,a.am)||pm(b,b.agf,b.am)-pm(a,a.agf,a.am)||pm(b,b.hgf-b.hga,b.hm)-pm(a,a.hgf-a.hga,a.hm)||pm(b,b.hgf,b.hm)-pm(a,a.hgf,a.hm)
+  ||(OP[a.c]||999)-(OP[b.c]||999));}
 const tbl=table(played);
 
 // ---- MLS NEXT Cup spots per conference ----
@@ -437,12 +445,14 @@ const SIMS=10000,simPts=Object.fromEntries(codes.map(c=>[c,0])),first=Object.fro
 const finMp=Object.fromEntries(codes.map(c=>[c,games.filter(g=>g.h===c||g.a===c).length||1]));
 const base=Object.fromEntries(tbl.map(t=>[t.c,{pts:t.pts,gd:t.gd,gf:t.gf}]));const fl=future.map(g=>{const[lh,la]=lam(g.h,g.a),cum=new Float64Array(121);let t=0;for(let k=0;k<121;k++){t+=pxy(k/11|0,k%11,lh,la,rho);cum[k]=t}return[g.h,g.a,cum]});
 for(let s=0;s<SIMS;s++){const S=Object.fromEntries(codes.map(c=>[c,{...base[c]}]));
- for(const[h,a,cum]of fl){const k=sample(cum),x=k/11|0,y=k%11;S[h].gd+=x-y;S[a].gd+=y-x;S[h].gf+=x;S[a].gf+=y;if(x>y)S[h].pts+=3;else if(y>x)S[a].pts+=3;else{S[h].pts++;S[a].pts++}}
+ for(const[h,a,cum]of fl){const k=sample(cum),x=k/11|0,y=k%11,H=S[h]||{},A=S[a]||{};H.gd+=x-y;A.gd+=y-x;H.gf+=x;A.gf+=y;if(x>y)H.pts+=3;else if(y>x)A.pts+=3;else{H.pts++;A.pts++}}
  const ord=codes.slice().sort((p,q)=>S[q].pts/finMp[q]-S[p].pts/finMp[p]||S[q].gd/finMp[q]-S[p].gd/finMp[p]||S[q].gf/finMp[q]-S[p].gf/finMp[p]||rnd()-.5);
  first[ord[0]]++;ord.slice(0,CH).forEach(c=>top4[c]++);ord.slice(0,CUP).forEach(c=>topCup[c]++);codes.forEach(c=>simPts[c]+=S[c].pts);}
 
 // ---- render helpers ----
-const $=id=>document.getElementById(id);const pct=x=>(x*100).toFixed(0)+"%";const ALLN=Object.assign({},DATA.xnames||{},...DATA.brackets.map(b=>b.teams)),nm=c=>TEAMS[c]||ALLN[c]||"?";
+const $=id=>document.getElementById(id);const pct=x=>(x*100).toFixed(0)+"%";const ALLN=Object.assign({},DATA.xnames||{},...DATA.brackets.map(b=>b.teams)),nm=c=>TEAMS[c]||(ALLN[c]?ALLN[c]+xAge(c):"?");
+// an opponent from another age group (cross-age league games) is shown with its age, e.g. "LA Galaxy U17"
+const xAge=c=>{const b=!CLUBQ&&!NATIONAL&&DATA.brackets.find(x=>c in x.teams);return b&&b.age!==B.age?" "+b.age:""};
 const fmtDate=d=>{const[dd,tt]=d.split(" ");const D=new Date(dd+"T12:00:00");return D.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"})+(tt?" · "+(+tt.slice(0,2)%12||12)+":"+tt.slice(3)+(+tt.slice(0,2)>=12?" PM":" AM"):" · time TBD")};
 const day=d=>new Date(d.slice(0,10)+"T12:00:00");
 const fmtDay=d=>day(d).toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"});
@@ -554,7 +564,7 @@ function drawStand(){const r=srows.slice().sort((a,b)=>(a[sortK]-b[sortK])*sortD
  $("standings").innerHTML=`<thead><tr class="grp"><th class="team"></th><th colspan="9">Table so far</th><th colspan="${CUT?4:3}" class="pj div">Projected finish</th></tr><tr>`+
   cols.map(([k,l,c,tip])=>`<th class="${c}${k===sortK?" sorted":""}"${k?` data-k="${k}"`:""}${tip?` title="${tip}"`:""}>${l}${k===sortK?(sortDir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr></thead><tbody>"+
   r.map(t=>`<tr class="${t.c===myTeam?"me":""}${sortK==="rk"&&sortDir>0&&CUT?(t.rk===CH?" cut1":t.rk===CUP?" cut2":""):""}"><td class="t team"><span class="rk">${t.rk}</span>${tlink(t.c,teamName(t.c))}</td><td>${t.mp}</td><td class="xs-hide">${t.w}</td><td class="xs-hide">${t.d}</td><td class="xs-hide">${t.l}</td><td class="mut xs-hide">${t.gf}–${t.ga}</td><td class="${t.gd>0?"pos":t.gd<0?"neg":""}">${t.gd>0?"+":""}${t.gd}</td><td class="pts">${t.pts}</td><td class="mut">${t.ppm.toFixed(2)}</td><td class="form">${last5(t.c)}</td><td class="pj div">${t.proj.toFixed(0)}</td>${CUT?`<td class="pj">${pbar(t.pc)}</td>`:""}<td class="pj">${pbar(t.p4)}</td><td class="pj">${pbar(t.p1)}</td></tr>`).join("")+"</tbody>";
- $("cutKey").innerHTML=CUT?`<span><b>Lines</b> solid = estimated Championship-bracket cut (top ${CH}), dashed = estimated MLS NEXT Cup cut (top ${CUP}), based on last season. MLS NEXT hasn't published 2026-27 spots.</span>`:`<span><b>Top 4</b> isn't an official playoff line: MLS NEXT hasn't announced how 2026-27 Cup spots are split.</span>`;
+ $("cutKey").innerHTML=CUT?`<span><b>Lines</b> solid = estimated Championship-bracket cut (top ${CH}), dashed = estimated MLS NEXT Cup cut (top ${CUP}), based on last season. MLS NEXT hasn't published 2026-27 spots.</span><span><b>U13/U14</b> MLS NEXT only publishes official standings for U15–U19, so this table is worked out from the results using the same rules.</span>`:`<span><b>Top 4</b> isn't an official playoff line: MLS NEXT hasn't announced how 2026-27 Cup spots are split.</span>`;
  document.querySelectorAll("#standings th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(sortK===k)sortDir*=-1;else{sortK=k;sortDir=["rk","l"].includes(k)?1:-1}drawStand()});}
 
 // H2H matrix
@@ -626,7 +636,7 @@ function drawPreds(){const list=future.concat(flexAll.filter(g=>g.hs===null)).so
  showNote("predNote",!!myTeam);
  const seg=(cls,x)=>`<div class="${cls}" style="width:${x*100}%">${x>=.15?pct(x):""}</div>`;
  $("preds").innerHTML=wks.map(gs=>`<div class="day-h">${weekLabel(gs)}<span>${gs.length} game${gs.length>1?"s":""}</span></div>`+gs.map(g=>{if(!(g.h in TEAMS&&g.a in TEAMS))return`<div class="m"><div class="m-time">${day(g.dt).toLocaleDateString("en-US",{weekday:"short"})} · ${fmtTime(g.dt)}</div>`+
-   `<div class="m-teams"><div class="m-h">${tlink(g.h,teamName(g.h))}</div><div class="m-bar nopred">No prediction: opponent plays in another conference</div><div class="m-a">${tlink(g.a,teamName(g.a))}</div></div><div class="m-pick">${flexTag(g)}</div>`+(g.venue?`<div class="m-ven">${venueLine(g.venue)}</div>`:"")+`</div>`;
+   `<div class="m-teams"><div class="m-h">${tlink(g.h,teamName(g.h))}</div><div class="m-bar nopred">No prediction: opponent plays in another ${xAge(g.h)||xAge(g.a)?"age group":"conference"}</div><div class="m-a">${tlink(g.a,teamName(g.a))}</div></div><div class="m-pick">${flexTag(g)}</div>`+(g.venue?`<div class="m-ven">${venueLine(g.venue)}</div>`:"")+`</div>`;
   const p=predict(g.h,g.a),lvl=tier(p),pk=pickText(p);
   return`<div class="m"><div class="m-time">${day(g.dt).toLocaleDateString("en-US",{weekday:"short"})} · ${fmtTime(g.dt)}</div>`+
    `<div class="m-teams"><div class="m-h${p.pick===g.h?" fav":""}">${tlink(g.h,teamName(g.h))}</div><div class="m-bar" title="Home win ${pct(p.pH)} · Draw ${pct(p.pD)} · Away win ${pct(p.pA)}"><div class="pb">${seg("ph",p.pH)}${seg("pd",p.pD)}${seg("pa",p.pA)}</div></div><div class="m-a${p.pick===g.a?" fav":""}">${tlink(g.a,teamName(g.a))}</div></div>`+
@@ -636,7 +646,7 @@ $("nF").onchange=drawPreds;
 
 // Prediction accuracy: refit on games before each weekend, predict it, compare with the result
 const outcome=(x,y)=>x>y?"H":x<y?"A":"D";
-const bt=[];{let prior=[];for(const gs of byWeek(played)){const flexBefore=flexPlayed.filter(f=>f.dt.slice(0,10)<gs[0].dt.slice(0,10));
+const bt=[];{let prior=[];for(const gs of byWeek(played.filter(g=>inB(g)))){const flexBefore=flexPlayed.filter(f=>f.dt.slice(0,10)<gs[0].dt.slice(0,10));
  if(prior.length||PRIOR){const m=fit(prior.concat(flexBefore),ix,N,PRIOR);
  for(const g of gs){const p=predict(g.h,g.a,m),res=outcome(g.hs,g.as),pk=p.pick==="Draw"?"D":p.pick===g.h?"H":"A";
   bt.push({g,p,res,hit:pk===res,pAct:{H:p.pH,D:p.pD,A:p.pA}[res],exact:p.sc[0]===g.hs&&p.sc[1]===g.as,mErr:Math.abs(p.lh-p.la-(g.hs-g.as))})}}
@@ -679,7 +689,7 @@ function drawMy(){const el=$("myCard");if(!myTeam){el.style.display="none";el.in
  const fr=flexAll.filter(g=>g.hs!==null&&involves(g,c)).map(g=>fromRow(g,c).res),flexRec=fr.length?`${fr.filter(r=>r==="w").length}-${fr.filter(r=>r==="d").length}-${fr.filter(r=>r==="l").length}`:"";
  const fresh=played.filter(g=>involves(g,c)&&newIds.has(g.id)).map(g=>{const v=fromRow(g,c);return`${{w:"Won",d:"Drew",l:"Lost"}[v.res]} ${v.f}–${v.a} ${v.home?"vs":"at"} ${short(v.home?g.a:g.h)}`});
  let next=`<div class="mut">${PAST?"Season finished.":"No games left this season."}</div>`;
- if(nx&&!(nx.h in TEAMS&&nx.a in TEAMS))next=`<div class="nx"><b>${nx.h===c?"vs":"at"} ${nm(nx.h===c?nx.a:nx.h)}</b>${flexTag(nx)}<small>${fmtDate(nx.dt)}</small>${venueLine(nx.venue)}</div><div class="mut" style="font-size:12.5px;margin-top:6px">No prediction: opponent plays in another conference.</div>`;
+ if(nx&&!(nx.h in TEAMS&&nx.a in TEAMS))next=`<div class="nx"><b>${nx.h===c?"vs":"at"} ${nm(nx.h===c?nx.a:nx.h)}</b>${flexTag(nx)}<small>${fmtDate(nx.dt)}</small>${venueLine(nx.venue)}</div><div class="mut" style="font-size:12.5px;margin-top:6px">No prediction: opponent plays in another ${xAge(nx.h)||xAge(nx.a)?"age group":"conference"}.</div>`;
  else if(nx){const p=predict(nx.h,nx.a),home=nx.h===c,w=home?p.pH:p.pA,l=home?p.pA:p.pH,seg=(cls,x)=>`<div class="${cls}" style="width:${x*100}%">${x>=.15?pct(x):""}</div>`;
   next=`<div class="nx"><b>${home?"vs":"at"} ${nm(home?nx.a:nx.h)}</b>${flexTag(nx)}<small>${fmtDate(nx.dt)}</small>${venueLine(nx.venue)}</div>`+
    `<div class="pb">${seg("pa",w)}${seg("pd",p.pD)}${seg("ph",l)}</div><div class="pbl"><span>Win ${pct(w)}</span><span>Draw ${pct(p.pD)}</span><span>Loss ${pct(l)}</span></div>`}
@@ -695,7 +705,7 @@ function drawMy(){const el=$("myCard");if(!myTeam){el.style.display="none";el.in
 const BM=new Map();
 function bracketInfo(b){if(BM.has(b))return BM.get(b);
  const ids=Object.keys(b.teams),IX=Object.fromEntries(ids.map((c,i)=>[c,i])),gs=parseGames(b),pl=gs.filter(g=>g.hs!==null),fu=gs.filter(g=>g.hs===null),fxAll=parseFlex(b),fx=ratable(fxAll,b.teams);
- const o={b,ids,IX,gs,pl,fu,fx,fxAll,m:fit(pl.concat(fx),IX,ids.length,priorArr(b,ids)),tb:table(pl,ids)};BM.set(b,o);return o}
+ const o={b,ids,IX,gs,pl,fu,fx,fxAll,m:fit(pl.filter(g=>inB(g,b.teams)).concat(fx),IX,ids.length,priorArr(b,ids)),tb:table(pl,ids)};BM.set(b,o);return o}
 const netOf=(o,c)=>{const i=o.IX[c];return Math.exp(o.m.mu+o.m.att[i])-Math.exp(o.m.mu-o.m.def[i])};
 // quick season simulation for one bracket (same rules as the main one, fewer runs)
 function simulate(o,S=2000){const{ids,fu,m,tb,b}=o,cut=PAST?null:(CUP_EST[b.age]||{})[b.conf]||null,ch=cut?cut[0]:4,cup=cut?cut[0]+cut[1]:4;

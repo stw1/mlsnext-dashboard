@@ -38,16 +38,16 @@ def brackets_of(rs):
 
 def ranked(games, teams):
     """Official order (HD rules XIII): points per match, head-to-head for two-team ties, then wins, GD, GF,
-    away GD, away GF, home GD, home GF, all per match. games: [(h, a, hs, as)]."""
-    T = {t: dict(mp=0, w=0, d=0, l=0, gf=0, ga=0, pts=0, hgf=0, hga=0, agf=0, aga=0) for t in teams}
+    away GD and GF per away match, home GD and GF per home match. games: [(h, a, hs, as)]."""
+    T = {t: dict(mp=0, w=0, d=0, l=0, gf=0, ga=0, pts=0, hgf=0, hga=0, agf=0, aga=0, hm=0, am=0) for t in teams}
     for h, a, x, y in games:
         H, A = T[h], T[a]
         H["mp"] += 1; A["mp"] += 1; H["gf"] += x; H["ga"] += y; A["gf"] += y; A["ga"] += x
-        H["hgf"] += x; H["hga"] += y; A["agf"] += y; A["aga"] += x
+        H["hgf"] += x; H["hga"] += y; A["agf"] += y; A["aga"] += x; H["hm"] += 1; A["am"] += 1
         if x > y: H["w"] += 1; A["l"] += 1; H["pts"] += 3
         elif x < y: A["w"] += 1; H["l"] += 1; A["pts"] += 3
         else: H["d"] += 1; A["d"] += 1; H["pts"] += 1; A["pts"] += 1
-    pm = lambda t, v: v / T[t]["mp"] if T[t]["mp"] else 0
+    pm = lambda t, v, d="mp": v / T[t][d] if T[t][d] else 0  # away/home figures are per away/home match
     ppm = {t: pm(t, T[t]["pts"]) for t in teams}
     tied = collections.Counter(round(v, 6) for v in ppm.values())
     def h2h(t):  # points against the one team it is tied with
@@ -60,7 +60,7 @@ def ranked(games, teams):
             elif (h, a) == (u, t): p += 3 if y > x else 1 if x == y else 0
         return p
     key = lambda t: (ppm[t], h2h(t), pm(t, T[t]["w"]), pm(t, T[t]["gf"] - T[t]["ga"]), pm(t, T[t]["gf"]),
-                     pm(t, T[t]["agf"] - T[t]["aga"]), pm(t, T[t]["agf"]), pm(t, T[t]["hgf"] - T[t]["hga"]), pm(t, T[t]["hgf"]))
+                     pm(t, T[t]["agf"] - T[t]["aga"], "am"), pm(t, T[t]["agf"], "am"), pm(t, T[t]["hgf"] - T[t]["hga"], "hm"), pm(t, T[t]["hgf"], "hm"))
     order = sorted(teams, key=key, reverse=True)
     return [(t, T[t]) for t in order]
 

@@ -10,7 +10,7 @@ conference; the page shows one bracket at a time, picked with ?age=U15&conf=sout
 Python 3.9+ standard library only (no pip installs).
 """
 import argparse, csv, json, os, re, sys, urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pastseasons
@@ -52,7 +52,10 @@ def fetch(season, ages, confs):
         if not (wanted(age, ages) and wanted(conf, confs)):
             continue
         teams = {str(s["team"]["squad_id"]): s["team"]["name"] for s in b["standings"]}
-        brackets.append({"age": age, "conf": conf, "teams": teams})
+        # MLS's own table position (published for U15-U19 once games are played): the final tiebreaker for teams level
+        # on every number we can compute (the rules then use disciplinary points and a coin toss)
+        pos = {str(s["team"]["squad_id"]): s["position"] for s in b["standings"] if s.get("tiebreaker_values")}
+        brackets.append({"age": age, "conf": conf, "teams": teams, **({"pos": pos} if pos else {})})
         for sid in teams:
             team_bracket[sid] = (age, conf)
     sch = get_json(f"{BASE}/schedule/{season}.json")
@@ -78,13 +81,25 @@ def fetch(season, ages, confs):
             groups.append({"age": b["age_group"]["name"], "name": b["name"], "rows": sorted(rows, key=lambda r: r[2])})
     except Exception as err:
         print(f"warning: no Flex standings ({err})")
+    # Teams that play a conference's league schedule but are missing from MLS's standings feed (2026-27: FC Bay Area
+    # Surf U15, New England Revolution U14) join the conference of their opponents, so their games and table row show.
+    by_key = {(b["age"], b["conf"]): b for b in brackets}
+    for e in sch["events"]:
+        h, a = str(e["home_squad_id"]), str(e["away_squad_id"])
+        for me, opp, side in ((h, a, "home"), (a, h, "away")):
+            if me not in team_bracket and opp in team_bracket and by_key.get(team_bracket[opp]) is not None:
+                name = ((e.get(f"{side}_organisation") or {}).get("name") or e.get(f"{side}_squad_name") or "?").strip()
+                by_key[team_bracket[opp]]["teams"][me] = name
+                team_bracket[me] = team_bracket[opp]
     games = []
     names = {sid: n for b in brackets for sid, n in b["teams"].items()}
+    synced = sch.get("synced_at", "") or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for comp, e in [("league", e) for e in sch["events"]] + [("flex", e) for e in flex]:
         h, a = str(e["home_squad_id"]), str(e["away_squad_id"])
         br = team_bracket.get(h) or team_bracket.get(a)
-        if comp == "league" and (team_bracket.get(h) is None or team_bracket.get(h) != team_bracket.get(a)):
-            continue  # league: only games between two teams of the same bracket
+        if comp == "league" and (team_bracket.get(h) is None or team_bracket.get(a) is None):
+            continue  # league: both teams in a bracket; a few cross age groups (San Diego FC U16 plays the U17 PPP
+            # schedule) and count in each team's own table, like MLS's official standings
         if br is None:
             continue  # Flex: at least one of our teams
         t = datetime.fromisoformat(e["start_time"].replace("Z", "+00:00"))
@@ -93,7 +108,9 @@ def fetch(season, ages, confs):
             venue, start = "", t.astimezone(ZoneInfo(e.get("local_timezone") or "America/New_York")).strftime("%Y-%m-%d")
         else:
             venue, start = loc, t.strftime("%Y-%m-%dT%H:%MZ")
-        done = e.get("completed")
+        # a result dated after the feed's sync time can't have been played yet (a handful are marked completed with a
+        # score but a future date); MLS's official standings leave those out, so do we
+        done = e.get("completed") and e["start_time"] <= synced
         hp, ap = e.get("home_penalty_shootout_score"), e.get("away_penalty_shootout_score")
         pens = f"{hp}-{ap}" if done and comp == "flex" and e.get("home_score") == e.get("away_score") and (hp or ap) else ""
         org = lambda side: ((e.get(f"{side}_organisation") or {}).get("name") or e.get(f"{side}_squad_name") or "?").strip()
@@ -127,7 +144,7 @@ def load():
 
 def build(brackets, games, meta, default, groups=()):
     tpl = open(f"{ROOT}/template/dashboard_template.html").read()
-    # league and Flex games: id,start,home,away,hs,as,venue# . A Flex game is listed in the bracket of each of our teams
+    # league and Flex games: id,start,home,away,hs,as,venue# . A game is listed in the bracket of each of our teams
     # in it; opponents outside the bracket are named via DATA.xnames (teams of other brackets come from DATA itself).
     venues, vix, league, flex = [], {}, {}, {}
     where = {sid: (b["age"], b["conf"]) for b in brackets for sid in b["teams"]}
@@ -139,8 +156,9 @@ def build(brackets, games, meta, default, groups=()):
             vix[v] = len(venues); venues.append(v)
         row = ",".join([str(g["match_id"]), g["start"], g["home_id"], g["away_id"], str(g["home_score"]), str(g["away_score"]), str(vix[v]) if v else ""]
                        + ([g["pens"]] if g.get("pens") else []))
-        if g.get("comp", "league") != "flex":
-            league.setdefault((g["age"], g["conference"]), []).append(row)
+        if g.get("comp", "league") != "flex":  # league: in each team's bracket (two only for cross-age games)
+            for k in {where.get(g["home_id"]), where.get(g["away_id"])} - {None} or {(g["age"], g["conference"])}:
+                league.setdefault(k, []).append(row)
             continue
         for k in {where.get(g["home_id"]), where.get(g["away_id"])} - {None}:
             flex.setdefault(k, []).append(row)
@@ -154,6 +172,7 @@ def build(brackets, games, meta, default, groups=()):
             if r[0] not in known:
                 xnames.setdefault(r[0], r[1])
     data = {"default": {"age": dage, "conf": dconf}, "snap": meta["snapshot"], "venues": venues, "xnames": xnames,
+            "opos": {sid: p for b in brackets for sid, p in b.get("pos", {}).items()},
             "fgroups": [[gr["age"], gr["name"], [[r[0]] + r[2:] for r in gr["rows"]]] for gr in groups],
             "brackets": [{"age": b["age"], "conf": b["conf"], "teams": b["teams"],
                           "raw": ";".join(league.get((b["age"], b["conf"]), [])),
