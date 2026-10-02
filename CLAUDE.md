@@ -15,6 +15,11 @@ data/brackets.json                 [{age, conf, teams: {squad_id: name}}], sorte
 data/meta.json                     snapshot date, synced_at, season key
 index.html                         built output with every bracket embedded (served by GitHub Pages)
 .github/workflows/refresh.yml      weekend auto-refresh
+scripts/history.py                 one-off download of past seasons from Modular11 -> data/history/<season>.csv
+scripts/pastseasons.py             past-season page data, team history, last-season priors (used by refresh.py)
+scripts/ratings.py, priors.py      Python copy of the model; backtests that choose prior / conference settings
+data/history/<season>.csv          past seasons' games (2023-24, 2024-25, 2025-26): league, Flex, others
+season-<season>.html               built pages for finished seasons (same template, DATA.past set)
 manifest.webmanifest, icon.svg     home-screen app name and icons (icon-192/512.png, apple-touch-icon.png,
   *.png                            favicon-32.png); regenerate PNGs from icon.svg with qlmanage + sips
 ```
@@ -57,6 +62,30 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   For the **Academy Division**, open its standings page and read the iframe `data-src`
   to get its season key, then pass `--season <key>`.
 - Next season the key will probably be `mls-next-league-27-28`.
+
+## Past seasons (Modular11)
+- MLS NEXT's results platform before 2026-27. Public endpoint used by modular11.com/schedule:
+  `https://www.modular11.com/public_schedule/league/get_matches?tournament=12&age=<id>&status=all&match_type=2&open_page=<n>&start_date=...&end_date=...`
+  (HTML rows, 25 per page, "page out of N"). Age ids: U13=21, U14=22, U15=33, U16=14, U17=15, U19=26 (from
+  `get-filter-options`). Each row has match id, date/time, venue, age, bracket (League, League (Pro Player Pathway),
+  MLS NEXT Flex (Regular Season), Flex League, Others), division, teams, club ids (logo URL `/academy/<id>/`), score.
+- `python3 scripts/history.py [--season 2025-26] [--force]`: rate-limited (1 req/s), ~20 min per season. Past seasons
+  don't change, so this is not part of the weekly refresh. refresh.py rebuilds the season pages from the CSVs.
+- Team matching across seasons is by normalised name (`ratings.norm`, with `ALIASES` for renamed clubs). Players move up
+  an age group each year: this season's U14 = last season's U13 (`PREV_AGE`). U13 teams have no earlier history.
+- In 2025-26 several MLS academies played only Flex ("MLS Academy" group), so they have no league table that season.
+- Cross-conference games exist only for U16/U17/U19 (Flex + Pro Player Pathway, ~800 in 2025-26). Test
+  (`priors.py --evaluate-conf`: 2024-25 conference effects from `ratings.fit_conf` predicting 2025-26 cross-conference
+  games): U16 log-loss 0.87 -> 0.93 at w=0.5 (worse), U19 0.95 -> 0.88 (better), U17 untestable. Not used.
+
+## Last-season priors
+- `refresh.PRIOR_WEIGHT, PRIOR_MODE = 0.75, "avg"`: each squad's att/def prior mean = 0.75 × the average of its
+  cohort rating (same club, one age group younger, last season) and its same-age rating last season (whichever exist),
+  from `priors.season_ratings` (league + Flex, per conference). Embedded per bracket as `prior: {squad: [att, def]}`;
+  the page centres them and passes them to `fit()` (ridge prior N(prior, SIG²) instead of N(0, SIG²)).
+- Chosen by `python3 scripts/priors.py --evaluate` (replays all of 2025-26 week by week with 2024-25 priors):
+  log-loss 0.8025 (none) -> 0.7855 (avg ×0.75); first 6 weeks 0.8929 -> 0.8245; picks 64.1% -> 65.5%.
+  On 2026-27's first 869 games: log-loss 0.935 -> 0.861, picks 54.5% -> 60.2%. Past-season pages use the season before.
 
 ## Model (in template JS, search for "fit penalised Poisson model")
 - Goals follow a Poisson distribution: `log λ_home = μ + home + att[home] − def[away]`, `log λ_away = μ + att[away] − def[home]`.

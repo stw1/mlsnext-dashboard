@@ -21,7 +21,9 @@ header h1{margin:0;font-size:28px;line-height:1.2;letter-spacing:-.01em}
 .meta{display:flex;flex-wrap:wrap;gap:6px 20px;align-items:center;font-size:13px;color:#cbd5e1}
 .prog{display:inline-flex;align-items:center;gap:8px}.prog i{display:block;width:110px;height:6px;border-radius:3px;background:rgba(255,255,255,.2);overflow:hidden}.prog b{display:block;height:100%;background:var(--teal)}
 .follow{display:flex;align-items:center;gap:8px;font-size:13px;color:#e2e8f0;font-weight:500}
-.follow select{border-color:rgba(255,255,255,.3);min-width:200px}
+.follow select{border-color:rgba(255,255,255,.3);min-width:200px}#seasonSel{min-width:0}
+/* finished seasons: nothing to project */
+.past .st .pj,.past #s-upcoming,.past #h2hMode,.past .nxcol,.past #s-cnext,.past .my .out{display:none}
 .share{border:1px solid rgba(255,255,255,.4);background:transparent;color:#fff;border-radius:7px;padding:6px 12px;font:inherit;font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap}.share:hover{background:rgba(255,255,255,.12)}
 .ctl{justify-content:flex-start;margin-bottom:12px}
 .ppp{font-size:11.5px;font-weight:600;background:#fef3c7;color:#78350f;border-radius:6px;padding:2px 8px;display:none}
@@ -67,6 +69,8 @@ table tbody tr.me td,table tbody tr.me:hover td{background:#fef9c3}table tbody t
 .my .out div{display:flex;justify-content:space-between;align-items:center;font-size:13px;padding:3px 0}
 .my-b{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.my-b .btn{margin:0}
 .my .newl{margin-top:10px;font-size:12.5px;color:var(--ink2)}
+.my .hist{margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}.my .hist div:not(.lab){display:flex;flex-wrap:wrap;gap:2px 12px;font-size:13px;padding:3px 0}.my .hist span{color:var(--mut)}
+.past .lscol{display:none}
 .ven{display:block;font-size:12px;color:var(--mut);margin-top:2px;white-space:normal}.ven a,.my a{color:#0369a1;text-decoration:none;font-weight:500}.ven a:hover,.my a:hover{text-decoration:underline}
 .new{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;background:#dbeafe;color:#1d4ed8;border-radius:4px;padding:1px 5px;margin-left:6px;vertical-align:1px}
 .chip.nw{box-shadow:0 0 0 2px #3b82f6}
@@ -158,8 +162,8 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 @media(max-width:700px){
  header{padding:20px 14px 18px}header h1{font-size:22px}main{padding:14px 12px 2px}nav .wrap{padding:6px 8px}footer{padding:4px 14px 24px}
  .card{padding:14px 14px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.kpi{padding:12px}.kpi .v{font-size:17px}
- .ctl{display:grid;grid-template-columns:1fr 1fr auto;grid-template-areas:"c t t" "f f s";gap:8px}.ctl .lt{display:none}
- .ctl.nat{grid-template-areas:"c c c" "f f s"}.ctl.club{grid-template-areas:"f f s"}.c-conf{grid-area:c}.c-team{grid-area:t}.c-find{grid-area:f}.c-share{grid-area:s}
+ .ctl{display:grid;grid-template-columns:96px 1fr auto;grid-template-areas:"y c c" "t t s" "f f f";gap:8px}.ctl.noseason{grid-template-areas:"c c c" "t t s" "f f f"}.ctl .lt{display:none}
+ .ctl.nat{grid-template-areas:"y c c" "f f s"}.ctl.club{grid-template-areas:"y f s"}.ctl.nat.noseason{grid-template-areas:"c c c" "f f s"}.ctl.club.noseason{grid-template-areas:"f f s"}.c-season{grid-area:y}.c-conf{grid-area:c}.c-team{grid-area:t}.c-find{grid-area:f}.c-share{grid-area:s}
  .follow{width:100%;min-width:0}.follow select{flex:1;min-width:0;width:100%;padding:8px}.find{width:100%}.find input{width:100%;padding:8px 10px}.find-r{width:100%}
  .eyebrow{font-size:10.5px;letter-spacing:.05em}.titlerow{margin:4px 0 10px}.meta{font-size:12px;gap:2px 14px}
  .ages{display:flex;width:100%}.ages a{flex:1;text-align:center;padding:8px 0}
@@ -199,7 +203,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <header><div class="wrap">
 <div class="eyebrow">MLS NEXT · Homegrown Division · __SEASON__</div>
 <div class="titlerow"><h1 id="bracket"></h1><span class="ppp" id="ppp">Pro Player Pathway</span><div class="ages" id="ages" aria-label="Age group"></div></div>
-<div class="hrow ctl"><label class="follow c-conf"><span class="lt">Conference</span> <select id="confSel" aria-label="Conference"></select></label>
+<div class="hrow ctl"><label class="follow c-season" id="seasonWrap"><span class="lt">Season</span> <select id="seasonSel" aria-label="Season"></select></label><label class="follow c-conf"><span class="lt">Conference</span> <select id="confSel" aria-label="Conference"></select></label>
 <div class="find c-find"><input id="findQ" type="search" placeholder="Find any team" autocomplete="off" aria-label="Find any team"><div class="find-r" id="findR" role="listbox"></div></div>
 <label class="follow c-team"><span class="lt">Follow a team</span> <select id="myTeam" aria-label="Follow a team"><option value="">Choose a team</option></select></label>
 <button class="share c-share" id="share" type="button" title="Share a link to this page, with the team you follow highlighted">Share link</button></div>
@@ -236,11 +240,11 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="note" id="predNote"></div>
 <div id="preds"></div></div>
 <div class="card" id="s-acc"><h2>How accurate are the predictions?</h2>
-<div class="sub">Each weekend is re-predicted using only the games played before it, then compared with what actually happened, so the model never gets to peek at the result. "Too close to call" counts as a draw pick. With only a few weekends played, these numbers will be rough.</div>
+<div class="sub">Each weekend is re-predicted using only the games played before it (plus last season's ratings), then compared with what actually happened, so the model never gets to peek at the result. "Too close to call" counts as a draw pick. With only a few weekends played, these numbers will be rough.</div>
 <div id="acc"></div><button class="btn" id="accMore"></button></div>
 <div class="card" id="s-nat" style="display:none"><h2 id="natTitle"></h2>
 <div class="sub">Every team in this age group, ranked by the model's rating: the goal margin per game it would expect against an average team <b>in its own conference</b>, adjusted for the opponents each team has actually played<span id="natFlex"></span>. Ratings are pulled toward average when a team has played only a few games, so a hot start counts for less than a long run.</div>
-<div class="note" style="display:block;margin:0 0 14px"><b>Read this as "how dominant is each team in its own conference".</b> Conferences never play each other in the league or in Flex, so no result tells us whether one conference is stronger than another. This list treats every conference as equally strong. <span id="natPpp"></span></div>
+<div class="note" style="display:block;margin:0 0 14px"><b>Read this as "how dominant is each team in its own conference".</b> This season's league and Flex games never cross conferences, so no result tells us whether one conference is stronger than another. This list treats every conference as equally strong. (We tested using last season's cross-conference Flex games, which exist for U16–U19, to rate conferences; it helped U19 predictions but made U16 worse, so it isn't used.) <span id="natPpp"></span></div>
 <div class="pctl"><label>Conference <select id="natConf"></select></label><span class="mut" id="natCount" style="font-size:12.5px"></span></div>
 <div class="scroll"><table class="st nat" id="natTable"></table></div>
 <div id="natPppWrap"></div>
@@ -254,7 +258,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 </div>
 <div class="card about" id="s-about"><h2>How the predictions work</h2>
 <div class="cols">
-<div><h3>Team ratings</h3><p>Each team gets an <b>attack</b> and a <b>defense</b> rating, fit to every completed game with a Poisson goals model, the standard approach for predicting soccer scores. Expected goals for the home side = league average × home edge × home attack × away defense weakness, and likewise for the away side. Home teams currently get <span id="hadv"></span> more goals in the model. Ratings are deliberately pulled toward average because each team has played only a few games.</p></div>
+<div><h3>Team ratings</h3><p>Each team gets an <b>attack</b> and a <b>defense</b> rating, fit to every completed game with a Poisson goals model, the standard approach for predicting soccer scores. Expected goals for the home side = league average × home edge × home attack × away defense weakness, and likewise for the away side. Home teams currently get <span id="hadv"></span> more goals in the model. Each team starts the season from last season's rating (the average of the same players a year younger and the club's same age group, at three-quarters strength), and its games this season gradually take over. In a backtest over all of 2025–26 this made early-season predictions noticeably better.</p></div>
 <div><h3>From ratings to odds</h3><p>From the two expected-goal numbers the model works out the chance of every scoreline (0–0, 1–0, 2–1, …), which gives the win, draw and loss chances and the most likely score. A small Dixon-Coles adjustment makes 0–0 and 1–1 a bit more likely (and 1–0 and 0–1 a bit less), because plain Poisson models under-predict draws; its strength is estimated from the results so far (currently <span id="rho"></span>). The pick is the more likely winner, or "too close to call" when the two are within 5 points; the margin is the expected goal difference, rounded. The projected finish plays out every remaining game 10,000 times using those chances.</p></div>
 <div><h3>What it leaves out</h3><p>For U15–U19 the ratings also use MLS NEXT Flex games (the same teams, extra games inside the conference); they never count in the standings. Not included: roster changes, injuries, travel, weather, out-of-conference events, and the fact that youth results are noisy. Treat these numbers as a guide, not a guarantee.</p></div>
 </div></div>
@@ -263,6 +267,8 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <script>
 // every bracket (age group + conference); the page shows one: ?age=&conf=, else the last one viewed, else the default
 const DATA=/*__DATA__*/{};
+// a finished season's page (season-YYYY-YY.html) has DATA.past = "2025–26"
+const PAST=DATA.past||"";if(PAST)document.documentElement.classList.add("past");
 const qs=new URLSearchParams(location.search),slugC=c=>(c||"").toLowerCase().replace(/[()]/g,"").trim().replace(/\s+/g,"-");
 const findB=(a,c)=>a&&c?DATA.brackets.find(b=>b.age===a&&slugC(b.conf)===slugC(c)):undefined;
 const baseConf=c=>c.replace(/ \(Pro Player Pathway\)$/,"");
@@ -282,11 +288,12 @@ const slugT=n=>n.toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").
 // accepts the squad id, the full name or the short name: team=ballistic-united, team=lafc, team=sj-quakes
 const teamBySlug=(b,s)=>{if(!s)return;const k=slugT(s),ids=Object.keys(b.teams);return ids.find(id=>id===s||slugT(b.teams[id])===k)||ids.find(id=>slugT(shortName(b.teams[id]))===k)};
 const pageUrl=(b,team)=>bracketUrl(b,team?`&team=${slugT(b.teams[team])}`:"");
-document.title=CLUBQ?`MLS NEXT Homegrown Division · ${CLUBQ} · all teams`:NATIONAL?`MLS NEXT Homegrown Division · ${B.age} National rankings`:`MLS NEXT Homegrown Division · ${B.age} ${B.conf} Conference`;
+const TPRE=`MLS NEXT Homegrown Division · ${PAST?PAST+" · ":""}`;
+document.title=CLUBQ?`${TPRE}${CLUBQ} · all teams`:NATIONAL?`${TPRE}${B.age} National rankings`:`${TPRE}${B.age} ${B.conf} Conference`;
 const RAW=B.raw,TEAMS=B.teams,SNAP=DATA.snap,VEN=DATA.venues||[];
 // kickoff times arrive in UTC ("2026-10-03T16:00Z"); show them in the viewer's time zone. Date-only = time not set.
 const p2=n=>String(n).padStart(2,"0");
-const localDt=s=>{if(s.length===10)return s;const d=new Date(s);return`${d.getFullYear()}-${p2(d.getMonth()+1)}-${p2(d.getDate())} ${p2(d.getHours())}:${p2(d.getMinutes())}`};
+const localDt=s=>{if(s.length===10||s[10]===" ")return s;const d=new Date(s);return`${d.getFullYear()}-${p2(d.getMonth()+1)}-${p2(d.getDate())} ${p2(d.getHours())}:${p2(d.getMinutes())}`};
 const codes=Object.keys(TEAMS),N=codes.length,ix=Object.fromEntries(codes.map((c,i)=>[c,i]));
 const parseGames=b=>b.raw?b.raw.split(";").map(s=>{const[id,dt,h,a,hs,as,v]=s.split(",");return{id,utc:dt,dt:localDt(dt),h,a,hs:hs===""?null:+hs,as:as===""?null:+as,venue:v?VEN[+v]:""}}).sort((x,y)=>x.dt<y.dt?-1:1):[];
 // MLS NEXT Flex (U15-U19): the same teams play extra games inside their conference. They count toward the
@@ -328,7 +335,11 @@ function fit(list,IX=ix,NN=N,prior=null){let mu=Math.log(1.5),hadv=0.1;
    ll+=Math.log(Math.max(1e-9,tau(g.hs,g.as,Math.exp(mu+hadv+att[i]-def[j]),Math.exp(mu+att[j]-def[i]),r)))}
   if(ll>best){best=ll;rho=r}}
  return{mu,hadv,att,def,rho,IX}}
-const M=fit(played.concat(flexPlayed)),{mu,hadv,att,def,rho}=M;
+// starting ratings from the season before (same players), if the build added them; centred within the bracket
+const priorArr=(b,ids)=>{if(!b.prior||!Object.keys(b.prior).length)return null;const at=ids.map(c=>(b.prior[c]||[0,0])[0]),de=ids.map(c=>(b.prior[c]||[0,0])[1]);
+ const ma=at.reduce((x,y)=>x+y,0)/ids.length,md=de.reduce((x,y)=>x+y,0)/ids.length;return{att:at.map(x=>x-ma),def:de.map(x=>x-md)}};
+const PRIOR=priorArr(B,codes);
+const M=fit(played.concat(flexPlayed),ix,N,PRIOR),{mu,hadv,att,def,rho}=M;
 const lamM=(m,h,a)=>{const I=m.IX||ix;return[Math.exp(m.mu+m.hadv+m.att[I[h]]-m.def[I[a]]),Math.exp(m.mu+m.att[I[a]]-m.def[I[h]])]};
 const lam=(h,a)=>lamM(M,h,a);
 function predict(h,a,m=M){const[lh,la]=lamM(m,h,a),r=m.rho;let pH=0,pD=0,pA=0,best=[0,0,0];
@@ -362,7 +373,7 @@ const tbl=table(played);
 // "Quality of Play rankings"). U15-U19: the Cup grows to 48 teams, but the split isn't announced, so no line.
 const CUP_EST={U13:{Florida:[4,4],Frontier:[3,2],"Mid-America":[4,4],"Mid-Atlantic":[4,4],Northeast:[5,5],Northwest:[4,4],Southeast:[3,4],Southwest:[5,5]},
  U14:{Florida:[3,4],Frontier:[4,2],"Mid-America":[4,4],"Mid-Atlantic":[4,4],Northeast:[5,5],Northwest:[4,4],Southeast:[3,4],Southwest:[5,5]}};
-const CUT=(CUP_EST[B.age]||{})[B.conf]||null,CH=CUT?CUT[0]:4,CUP=CUT?CUT[0]+CUT[1]:4;
+const CUT=PAST?null:(CUP_EST[B.age]||{})[B.conf]||null,CH=CUT?CUT[0]:4,CUP=CUT?CUT[0]+CUT[1]:4;
 
 // ---- simulation ----
 let seed=12345;const rnd=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296};
@@ -412,12 +423,17 @@ syncUrl();
 // previous visit get a "New" mark for the whole of this one
 const SEENKEY="seen:"+document.title;let seen=null;try{seen=JSON.parse(localStorage.getItem(SEENKEY)||"null")}catch(e){}
 const nowMs=Date.now(),newVisit=!seen||nowMs-seen.cur.at>6*3600e3,baseSeen=seen?(newVisit?seen.cur:seen.base):null;
-const newIds=new Set(baseSeen?played.map(g=>g.id).filter(id=>!baseSeen.ids.includes(id)):[]);
+const newIds=new Set(baseSeen&&!PAST?played.map(g=>g.id).filter(id=>!baseSeen.ids.includes(id)):[]);
 try{localStorage.setItem(SEENKEY,JSON.stringify({base:baseSeen,cur:{ids:played.map(g=>g.id),at:nowMs}}))}catch(e){}
 const newPill=g=>newIds.has(g.id)?'<span class="new" title="New since your last visit">New</span>':"";
 const showNote=(id,on)=>{const el=$(id);el.style.display=on?"block":"none";if(on)el.innerHTML=`Showing <b>${nm(myTeam)}</b> games only. Change this with “Follow a team” at the top.`};
 
 // Header
+// season picker: same age group, conference / national / club view and team on the other season's page
+const SEASONS=DATA.seasons||[];
+if(SEASONS.length>1){$("seasonSel").innerHTML=SEASONS.map(x=>`<option value="${x.file}"${(PAST?x.key===PAST:x.file==="index.html")?" selected":""}>${x.key}</option>`).join("");
+ $("seasonSel").onchange=e=>{const q=CLUBQ?`?club=${CLUBQ}`:NATIONAL?`?age=${B.age}&conf=national`:`?age=${B.age}&conf=${slugC(B.conf)}${myTeam?`&team=${slugT(nm(myTeam))}`:""}`;location.href=e.target.value+q}}
+else{$("seasonWrap").style.display="none";document.querySelector(".ctl").classList.add("noseason")}
 $("bracket").textContent=NATIONAL?`${B.age} National rankings`:`${B.age} ${baseConf(B.conf)} Conference`;
 if(B.conf!==baseConf(B.conf)&&!NATIONAL)$("ppp").style.display="inline-block";
 // age tabs keep the conference when that age has it (else its regular version for Pro Player Pathway, else the default)
@@ -442,6 +458,7 @@ document.addEventListener("click",e=>{if(!e.target.closest(".find"))$("findR").s
 const nextG=future[0];
 if(NATIONAL){const ab=DATA.brackets.filter(b=>b.age===B.age),all=ab.flatMap(parseGames),pl=all.filter(g=>g.hs!==null).length,nx=all.filter(g=>g.hs===null).sort((x,y)=>x.dt<y.dt?-1:1)[0];
  $("meta").innerHTML=`<span>Updated ${fmtDay(SNAP)}</span><span class="prog"><i><b style="width:${pl/(all.length||1)*100}%"></b></i>${pl} of ${all.length} league games played in ${ab.length} conferences</span>`+(nx?`<span>Next games ${fmtDay(nx.dt)}</span>`:"")}
+else if(PAST)$("meta").innerHTML=`<span>Final results · ${played.length} league games</span><span>Results from Modular11, MLS NEXT's results platform before 2026–27</span>`;
 else $("meta").innerHTML=`<span>Updated ${fmtDay(SNAP)}</span><span class="prog"><i><b style="width:${played.length/(games.length||1)*100}%"></b></i>${played.length} of ${games.length} games played</span>`+(nextG?`<span>Next games ${fmtDay(nextG.dt)}</span>`:"")+(newIds.size&&!NATIONAL?`<span><span class="new" style="margin:0 4px 0 0">${newIds.size} new</span>result${newIds.size>1?"s":""} since your last visit (${fmtDay(localDt(new Date(baseSeen.at).toISOString()))})</span>`:"");
 $("rho").textContent=`ρ = ${rho.toFixed(2)}`;$("hadv").textContent=`about ${((Math.exp(hadv)-1)*100).toFixed(0)}%`;
 $("foot").innerHTML=`Unofficial fan dashboard, not affiliated with MLS NEXT. Built from the public standings and schedule data behind mlssoccer.com/mlsnext. Data as of ${fmtDate(SNAP).split(" · ")[0]}.`;
@@ -457,6 +474,7 @@ if(played.length){const has=tbl.filter(t=>t.mp),ldr=tbl[0],bestA=has.slice().sor
   ["Best attack",short(bestA.c),`${(bestA.gf/bestA.mp).toFixed(2)} goals scored per game`,nm(bestA.c)],
   ["Best defense",short(bestD.c),`${(bestD.ga/bestD.mp).toFixed(2)} goals conceded per game`,nm(bestD.c)],
   ["Biggest win",`${Math.max(big.hs,big.as)}–${Math.min(big.hs,big.as)}`,`${short(bw?big.h:big.a)} over ${short(bw?big.a:big.h)} · ${fmtDay(big.dt)}`,""]);}
+if(PAST)for(let i=kp.length-1;i>=0;i--)if(kp[i][0]==="Title favourite")kp.splice(i,1);
 if(future.length){const wk=byWeek(future)[0];kp.push(["Next matchday",weekLabel(wk),`${wk.length} conference game${wk.length>1?"s":""}`,""])}
 $("kpis").innerHTML=kp.map(([l,v,s,t])=>`<div class="kpi"><div class="l">${l}</div><div class="v"${t?` title="${t}"`:""}>${v}</div><div class="s">${s}</div></div>`).join("");
 
@@ -556,7 +574,7 @@ $("nF").onchange=drawPreds;
 // Prediction accuracy: refit on games before each weekend, predict it, compare with the result
 const outcome=(x,y)=>x>y?"H":x<y?"A":"D";
 const bt=[];{let prior=[];for(const gs of byWeek(played)){const flexBefore=flexPlayed.filter(f=>f.dt.slice(0,10)<gs[0].dt.slice(0,10));
- if(prior.length){const m=fit(prior.concat(flexBefore));
+ if(prior.length||PRIOR){const m=fit(prior.concat(flexBefore),ix,N,PRIOR);
  for(const g of gs){const p=predict(g.h,g.a,m),res=outcome(g.hs,g.as),pk=p.pick==="Draw"?"D":p.pick===g.h?"H":"A";
   bt.push({g,p,res,hit:pk===res,pAct:{H:p.pH,D:p.pD,A:p.pA}[res],exact:p.sc[0]===g.hs&&p.sc[1]===g.as,mErr:Math.abs(p.lh-p.la-(g.hs-g.as))})}}
  prior=prior.concat(gs)}}
@@ -588,11 +606,15 @@ function downloadIcs(c){const tx=t=>String(t).replace(/[\\,;]/g,m=>"\\"+m),stamp
  const ics=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//mlsnext-dashboard//EN","CALSCALE:GREGORIAN",`X-WR-CALNAME:${tx(`${short(c)} ${B.age}`)}`,...ev,"END:VCALENDAR"].join("\r\n")+"\r\n";
  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([ics],{type:"text/calendar"}));a.download=`${slugT(nm(c))}-${B.age.toLowerCase()}.ics`;
  document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000)}
+// the same players' finishes in earlier seasons (this season's U14 = last season's U13), linked to those pages
+function histLines(c){const H=(DATA.hist||{})[c]||[];if(!H.length)return"";
+ return`<div class="hist"><div class="lab">Same players, earlier seasons</div>`+H.map(([se,a,cf,rk,n,w,d,l,gf,ga])=>
+  `<div><a href="season-${se}.html?age=${a}&conf=${slugC(cf)}&team=${slugT(nm(c))}">${se.replace("-","–")} · ${a}</a><span>${ordn(rk)} of ${n} in ${esc(baseConf(cf))} · ${w}-${d}-${l} · goals ${gf}–${ga}</span></div>`).join("")+"</div>"}
 // "My team" summary card for the followed team
 function drawMy(){const el=$("myCard");if(!myTeam){el.style.display="none";el.innerHTML="";return}
  const c=myTeam,t=srows.find(r=>r.c===c),nx=future.find(g=>involves(g,c)),left=future.filter(g=>involves(g,c)).length,pr=power.findIndex(p=>p.c===c)+1;
  const fresh=played.filter(g=>involves(g,c)&&newIds.has(g.id)).map(g=>{const v=fromRow(g,c);return`${{w:"Won",d:"Drew",l:"Lost"}[v.res]} ${v.f}–${v.a} ${v.home?"vs":"at"} ${short(v.home?g.a:g.h)}`});
- let next='<div class="mut">No games left this season.</div>';
+ let next=`<div class="mut">${PAST?"Season finished.":"No games left this season."}</div>`;
  if(nx){const p=predict(nx.h,nx.a),home=nx.h===c,w=home?p.pH:p.pA,l=home?p.pA:p.pH,seg=(cls,x)=>`<div class="${cls}" style="width:${x*100}%">${x>=.15?pct(x):""}</div>`;
   next=`<div class="nx"><b>${home?"vs":"at"} ${nm(home?nx.a:nx.h)}</b><small>${fmtDate(nx.dt)}</small>${venueLine(nx.venue)}</div>`+
    `<div class="pb">${seg("pa",w)}${seg("pd",p.pD)}${seg("ph",l)}</div><div class="pbl"><span>Win ${pct(w)}</span><span>Draw ${pct(p.pD)}</span><span>Loss ${pct(l)}</span></div>`}
@@ -602,16 +624,16 @@ function drawMy(){const el=$("myCard");if(!myTeam){el.style.display="none";el.in
   (fresh.length?`<div class="newl"><span class="new" style="margin:0 6px 0 0">New</span>${fresh.join(" · ")}</div>`:"")+`</div>`+
   `<div><div class="lab">Next game</div>${next}</div>`+
   `<div class="out"><div class="lab">Outlook</div><div><span>Projected points</span><b>${t.proj.toFixed(0)}</b></div>${CUT?`<div><span title="Estimate based on last season">MLS NEXT Cup (est.)</span>${pbar(t.pc)}</div><div><span title="Estimate based on last season">Championship (est.)</span>${pbar(t.p4)}</div>`:`<div><span title="Not an official playoff line">Top 4</span>${pbar(t.p4)}</div>`}<div><span>Finish 1st</span>${pbar(t.p1)}</div><div><span>Power ranking</span><b>${ordn(pr)} of ${N}</b></div></div></div>`+
-  `<div class="my-b">${left?`<button class="btn" id="myCal" type="button">Add ${left} game${left>1?"s":""} to calendar</button>`:""}<button class="btn" id="myShare" type="button">Share link</button><a class="btn" href="?club=${slugT(nm(c))}" style="text-decoration:none">All ${esc(short(c))} teams →</a></div>`;
+  histLines(c)+`<div class="my-b">${left?`<button class="btn" id="myCal" type="button">Add ${left} game${left>1?"s":""} to calendar</button>`:""}<button class="btn" id="myShare" type="button">Share link</button><a class="btn" href="?club=${slugT(nm(c))}" style="text-decoration:none">All ${esc(short(c))} teams →</a></div>`;
  if(left)$("myCal").onclick=()=>downloadIcs(c);$("myShare").onclick=()=>$("share").click();}
 // Model and table for any bracket, computed once and reused (national and club views)
 const BM=new Map();
 function bracketInfo(b){if(BM.has(b))return BM.get(b);
  const ids=Object.keys(b.teams),IX=Object.fromEntries(ids.map((c,i)=>[c,i])),gs=parseGames(b),pl=gs.filter(g=>g.hs!==null),fu=gs.filter(g=>g.hs===null),fx=parseFlex(b);
- const o={b,ids,IX,gs,pl,fu,fx,m:fit(pl.concat(fx),IX,ids.length),tb:table(pl,ids)};BM.set(b,o);return o}
+ const o={b,ids,IX,gs,pl,fu,fx,m:fit(pl.concat(fx),IX,ids.length,priorArr(b,ids)),tb:table(pl,ids)};BM.set(b,o);return o}
 const netOf=(o,c)=>{const i=o.IX[c];return Math.exp(o.m.mu+o.m.att[i])-Math.exp(o.m.mu-o.m.def[i])};
 // quick season simulation for one bracket (same rules as the main one, fewer runs)
-function simulate(o,S=2000){const{ids,fu,m,tb,b}=o,cut=(CUP_EST[b.age]||{})[b.conf]||null,ch=cut?cut[0]:4,cup=cut?cut[0]+cut[1]:4;
+function simulate(o,S=2000){const{ids,fu,m,tb,b}=o,cut=PAST?null:(CUP_EST[b.age]||{})[b.conf]||null,ch=cut?cut[0]:4,cup=cut?cut[0]+cut[1]:4;
  const base=Object.fromEntries(tb.map(t=>[t.c,t])),fin=Object.fromEntries(ids.map(c=>[c,o.gs.filter(g=>g.h===c||g.a===c).length||1]));
  const fl=fu.map(g=>{const[lh,la]=lamM(m,g.h,g.a),cum=new Float64Array(121);let t=0;for(let k=0;k<121;k++){t+=pxy(k/11|0,k%11,lh,la,m.rho);cum[k]=t}return[g.h,g.a,cum]});
  const res=Object.fromEntries(ids.map(c=>[c,{p1:0,pch:0,pcup:0,pts:0}]));let sd=777;const rn=()=>{sd=(sd*1664525+1013904223)>>>0;return sd/4294967296};
@@ -624,11 +646,11 @@ function simulate(o,S=2000){const{ids,fu,m,tb,b}=o,cut=(CUP_EST[b.age]||{})[b.co
 
 // Club view: every team of one club, across age groups
 function drawClub(){const teams=DATA.brackets.flatMap(b=>Object.entries(b.teams).filter(([id,n])=>slugT(n)===CLUBQ||slugT(shortName(n))===CLUBQ).map(([id,n])=>({id,n,b})));
- if(!teams.length){$("bracket").textContent="Club not found";$("clubKpis").innerHTML=`<div class="kpi" style="grid-column:1/-1"><div class="v">No club matches “${esc(CLUBQ)}”</div><div class="s">Use “Find any team” above to search for it.</div></div>`;["s-cteams","s-cnext","s-cres"].forEach(id=>$(id).style.display="none");return}
+ if(!teams.length){$("bracket").textContent="Club not found";$("clubKpis").innerHTML=`<div class="kpi" style="grid-column:1/-1"><div class="v">${PAST?`No ${PAST} league teams for “${esc(CLUBQ)}”`:`No club matches “${esc(CLUBQ)}”`}</div><div class="s">${PAST?"Some clubs (several MLS academies in 2025–26) played only Flex games that season, or joined later. Try another season with the picker above.":"Use “Find any team” above to search for it."}</div></div>`;["s-cteams","s-cnext","s-cres"].forEach(id=>$(id).style.display="none");return}
  const club=teams[0].n,ageN=a=>parseInt(a.slice(1));teams.sort((x,y)=>ageN(x.b.age)-ageN(y.b.age)||x.b.conf.localeCompare(y.b.conf));
- document.title=`MLS NEXT Homegrown Division · ${club} · all teams`;$("bracket").textContent=club;
+ document.title=`${TPRE}${club} · all teams`;$("bracket").textContent=club;
  const natCache={},natRank=(age,ppp)=>{const k=age+ppp;if(!natCache[k]){const rows=natRows(age).filter(r=>(r.b.conf!==baseConf(r.b.conf))===ppp&&r.rated).sort((p,q)=>q.net-p.net);natCache[k]={map:new Map(rows.map((r,i)=>[r.c,i+1])),n:rows.length}}return natCache[k]};
- const followed=new Set(DATA.brackets.map(b=>{try{return localStorage.getItem(`myteam:MLS NEXT Homegrown Division · ${b.age} ${b.conf} Conference`)}catch(e){return null}}).filter(Boolean));
+ const followed=new Set(DATA.brackets.map(b=>{try{return localStorage.getItem(`myteam:${TPRE}${b.age} ${b.conf} Conference`)}catch(e){return null}}).filter(Boolean));
  const rows=teams.map(t=>{const o=bracketInfo(t.b),tb=o.tb.find(x=>x.c===t.id),sim=simulate(o),ppp=t.b.conf!==baseConf(t.b.conf),nr=natRank(t.b.age,ppp),pr=o.ids.slice().sort((p,q)=>netOf(o,q)-netOf(o,p)).indexOf(t.id)+1;
   const nx=o.fu.find(g=>g.h===t.id||g.a===t.id),form=o.pl.filter(g=>g.h===t.id||g.a===t.id).slice(-5).map(g=>{const home=g.h===t.id,f=home?g.hs:g.as,a=home?g.as:g.hs,R=f>a?"W":f<a?"L":"D";return`<span class="${R}" title="${f}–${a} ${home?"vs":"at"} ${esc(t.b.teams[home?g.a:g.h])} · ${fmtDay(g.dt)}">${R}</span>`}).join("");
   return{...t,o,tb,sim,ppp,nat:nr.map.get(t.id),natN:nr.n,pr,nx,form,crk:o.tb.indexOf(tb)+1,cn:o.ids.length}});
@@ -641,12 +663,12 @@ function drawClub(){const teams=DATA.brackets.flatMap(b=>Object.entries(b.teams)
   k("In a top spot",`${inSpot} of ${rows.length}`,"teams currently inside their conference's top line")+(allNext?k("Next game",fmtDay(allNext.g.dt),`${allNext.r.b.age} ${allNext.g.h===allNext.r.id?"vs":"at"} ${esc(shortName(allNext.r.b.teams[allNext.g.h===allNext.r.id?allNext.g.a:allNext.g.h]))}`):"");
  // teams table
  const anyCut=rows.some(r=>r.sim.cut);
- $("clubTable").innerHTML=`<thead><tr><th class="t team">Team</th><th class="t xs-hide">Conference</th><th>MP</th><th class="xs-hide">W-D-L</th><th>Pts/G</th><th class="xs-hide">GD</th><th class="xs-hide">Last 5</th><th title="National rank by rating (Pro Player Pathway ranked separately)">National</th><th title="Model rating rank inside the conference">Power</th><th class="pj div" title="Chance of finishing inside the conference's top line (Top 4, or the estimated Championship cut for U13/U14)">Top line</th><th class="pj">1st</th><th class="t">Next game</th></tr></thead><tbody>`+
+ $("clubTable").innerHTML=`<thead><tr><th class="t team">Team</th><th class="t xs-hide">Conference</th><th>MP</th><th class="xs-hide">W-D-L</th><th>Pts/G</th><th class="xs-hide">GD</th><th class="xs-hide">Last 5</th><th title="National rank by rating (Pro Player Pathway ranked separately)">National</th><th title="Model rating rank inside the conference">Power</th><th class="lscol" title="Where the same players finished last season (one age group younger)">Last season</th><th class="pj div" title="Chance of finishing inside the conference's top line (Top 4, or the estimated Championship cut for U13/U14)">Top line</th><th class="pj">1st</th><th class="t nxcol">Next game</th></tr></thead><tbody>`+
   rows.map(r=>`<tr${followed.has(r.id)?' class="me"':""}><td class="t team"><a href="${pageUrl(r.b,r.id)}"><span class="agetag">${r.b.age}</span>${esc(shortName(r.n))}</a><small class="xs-only">${esc(baseConf(r.b.conf))} · ${ordn(r.crk)} of ${r.cn}</small></td>`+
    `<td class="t cf xs-hide">${esc(r.b.conf.replace(" (Pro Player Pathway)"," (PPP)"))} <span class="mut">· ${ordn(r.crk)} of ${r.cn}</span></td><td>${r.tb.mp}</td><td class="xs-hide">${r.tb.w}-${r.tb.d}-${r.tb.l}</td><td>${r.tb.mp?r.tb.ppm.toFixed(2):"–"}</td>`+
    `<td class="xs-hide ${r.tb.gd>0?"pos":r.tb.gd<0?"neg":""}">${r.tb.gd>0?"+":""}${r.tb.gd}</td><td class="form xs-hide">${r.form||'<span class="mut" style="background:none;color:var(--mut);width:auto">–</span>'}</td>`+
-   `<td>${r.nat?`${ordn(r.nat)}<span class="mut"> /${r.natN}</span>`:"–"}</td><td>${ordn(r.pr)}</td><td class="pj div">${pbar(r.sim.cut?r.sim.res[r.id].pch:r.sim.res[r.id].pch)}</td><td class="pj">${pbar(r.sim.res[r.id].p1)}</td>`+
-   `<td class="t nx">${r.nx?`${fmtDay(r.nx.dt)} · ${r.nx.h===r.id?"vs":"at"} ${esc(shortName(r.b.teams[r.nx.h===r.id?r.nx.a:r.nx.h]))}`:'<span class="mut">Season over</span>'}</td></tr>`).join("")+"</tbody>";
+   `<td>${r.nat?`${ordn(r.nat)}<span class="mut"> /${r.natN}</span>`:"–"}</td><td>${ordn(r.pr)}</td><td class="lscol">${(h=>h?`${ordn(h[3])}<span class="mut">/${h[4]} ${h[1]}</span>`:'<span class="mut">–</span>')(((DATA.hist||{})[r.id]||[])[0])}</td><td class="pj div">${pbar(r.sim.cut?r.sim.res[r.id].pch:r.sim.res[r.id].pch)}</td><td class="pj">${pbar(r.sim.res[r.id].p1)}</td>`+
+   `<td class="t nx nxcol">${r.nx?`${fmtDay(r.nx.dt)} · ${r.nx.h===r.id?"vs":"at"} ${esc(shortName(r.b.teams[r.nx.h===r.id?r.nx.a:r.nx.h]))}`:'<span class="mut">Season over</span>'}</td></tr>`).join("")+"</tbody>";
  $("clubKey").innerHTML=`<span><b>Top line</b> ${anyCut?"U13/U14: estimated Championship-bracket cut from last season; U15–U19: top 4 (not an official playoff line)":"top 4 in the conference (not an official playoff line)"}</span><span><b>Power</b> model rating rank inside the conference</span>`;
  // upcoming: next two weekends across all teams
  const fut=rows.flatMap(r=>r.o.fu.filter(g=>g.h===r.id||g.a===r.id).map(g=>({r,g}))).sort((x,y)=>x.g.dt<y.g.dt?-1:1),wk=byWeek(fut.map(x=>x.g)).slice(0,2),inWk=new Set(wk.flat());
@@ -668,7 +690,7 @@ function natRows(age){return DATA.brackets.filter(b=>b.age===age).flatMap(b=>{co
   return{c,b,n:b.teams[c],mp:t.mp,w:t.w,d:t.d,l:t.l,gf:t.gf,ga:t.ga,pts:t.pts,ppm:t.ppm,gdpg:t.mp?t.gd/t.mp:0,net:netOf(o,c),nf,rated:t.mp+nf>0,crk:o.tb.indexOf(t)+1,cn:o.ids.length}})})}
 let natK="net",natDir=-1;
 function drawNational(){const age=B.age,rows=natRows(age),reg=rows.filter(r=>r.b.conf===baseConf(r.b.conf)),ppp=rows.filter(r=>r.b.conf!==baseConf(r.b.conf));
- const followed=new Set(DATA.brackets.filter(b=>b.age===age).map(b=>{try{return localStorage.getItem(`myteam:MLS NEXT Homegrown Division · ${age} ${b.conf} Conference`)}catch(e){return null}}).filter(Boolean));
+ const followed=new Set(DATA.brackets.filter(b=>b.age===age).map(b=>{try{return localStorage.getItem(`myteam:${TPRE}${age} ${b.conf} Conference`)}catch(e){return null}}).filter(Boolean));
  const rankOf=list=>{const r=new Map();list.filter(x=>x.rated).sort((p,q)=>q.net-p.net).forEach((x,i)=>r.set(x.c,i+1));return r};
  const cols=[["","Team","t team"],["conf","Conference","t xs-hide"],["mp","MP","","League games played (plus Flex games used in the rating)"],["","W-D-L","xs-hide"],["ppm","Pts/G","","Points per league game"],["gdpg","GD/G","xs-hide","Goal difference per league game"],["net","Rating","t","Expected goal margin per game vs an average team in its own conference"]];
  const tableHtml=(list,rk)=>{const mx=Math.max(...list.map(x=>Math.abs(x.net)),.01);
@@ -691,6 +713,10 @@ $("myTeam").onchange=e=>{myTeam=e.target.value;pin=null;try{localStorage.setItem
 $("share").onclick=async()=>{const url=location.href,btn=$("share"),title=myTeam?`${nm(myTeam)} · ${B.age} ${B.conf}`:`${B.age} ${B.conf} Conference`;
  if(navigator.share&&matchMedia("(pointer:coarse)").matches){try{await navigator.share({title,url});return}catch(err){if(err.name==="AbortError")return}}
  try{await navigator.clipboard.writeText(url);btn.textContent="Link copied ✓";setTimeout(()=>btn.textContent="Share link",2000)}catch(err){prompt("Copy this link:",url)}};
+if(PAST){const up=document.querySelector('nav a[href="#s-upcoming"]');if(up)up.remove();
+ document.querySelector("#s-table h2").textContent="Final standings";document.querySelector("#s-table .sub").textContent="The final league table for this season, ranked by points per game like MLS NEXT does.";
+ document.querySelector("#s-acc .sub").textContent="The model replayed over this whole season: each weekend predicted using only the games played before it, then checked against what happened.";
+ $("foot").innerHTML=`Unofficial fan dashboard, not affiliated with MLS NEXT. ${PAST} results from Modular11, MLS NEXT's results platform before 2026–27.`}
 if(CLUBQ){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s-upcoming","s-acc"])$(id).style.display="none";
  $("s-club").style.display="";document.querySelector("nav .wrap").innerHTML='<a href="#s-cteams">Teams</a><a href="#s-cnext">Upcoming</a><a href="#s-cres">Results</a><a href="#s-about">How it works</a>';
  for(const el of[$("ages"),$("confSel").closest(".follow"),$("myTeam").closest(".follow"),$("ppp")])el.style.display="none";document.querySelector(".ctl").classList.add("nat","club");

@@ -9,13 +9,17 @@ conference; the page shows one bracket at a time, picked with ?age=U15&conf=sout
 
 Python 3.9+ standard library only (no pip installs).
 """
-import argparse, csv, json, os, re, urllib.request
+import argparse, csv, json, os, re, sys, urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pastseasons
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://mls-assist.theintelligenceplatform.com/data"
 UA = {"User-Agent": "Mozilla/5.0 (personal dashboard refresh)"}
+# Starting ratings from the season before (scripts/priors.py --evaluate chose these). None = start everyone at average.
+PRIOR_WEIGHT, PRIOR_MODE = 0.75, "avg"
 FIELDS = ["age", "conference", "comp", "match_id", "start", "home_id", "away_id", "home_team", "away_team",
           "home_score", "away_score", "venue"]
 
@@ -114,11 +118,29 @@ def build(brackets, games, meta, default):
                           "raw": ";".join(league.get((b["age"], b["conf"]), [])),
                           "flex": ";".join(flex.get((b["age"], b["conf"]), []))} for b in brackets]}
     m = re.search(r"(\d\d)-(\d\d)$", meta.get("season_key", ""))
-    season = f"20{m[1]}–{m[2]} season" if m else ""
-    html = (tpl.replace("/*__DATA__*/{}", json.dumps(data, ensure_ascii=False, separators=(",", ":")))
-               .replace("__TITLE__", "MLS NEXT Homegrown Division dashboard")
-               .replace("__SEASON__", season))
+    current = f"20{m[1]}–{m[2]}" if m else "This season"
+    # past seasons (scripts/history.py) get their own pages; the season picker links them all
+    past = pastseasons.seasons()
+    data["seasons"] = [{"key": current, "file": "index.html"}] + [{"key": pastseasons.label(s), "file": f"season-{s}.html"} for s in past]
+    data["hist"] = pastseasons.team_history(brackets) if past else {}
+    if past and PRIOR_WEIGHT:
+        pri = pastseasons.priors(brackets, past[0], PRIOR_WEIGHT, PRIOR_MODE)
+        for b in data["brackets"]:
+            b["prior"] = {k: pri[k] for k in b["teams"] if k in pri}
+    def page(d, season_text):
+        return (tpl.replace("/*__DATA__*/{}", json.dumps(d, ensure_ascii=False, separators=(",", ":")))
+                   .replace("__TITLE__", "MLS NEXT Homegrown Division dashboard").replace("__SEASON__", season_text))
+    html = page(data, f"{current} season")
     open(f"{ROOT}/index.html", "w").write(html)
+    for s in past:
+        d = pastseasons.past_data(s, default); d["seasons"] = data["seasons"]
+        before = [x for x in past if x < s]
+        if before and PRIOR_WEIGHT:  # the replayed accuracy of a past season also starts from the season before it
+            pri = pastseasons.priors(d["brackets"], before[0], PRIOR_WEIGHT, PRIOR_MODE)
+            for b in d["brackets"]:
+                b["prior"] = {k: pri[k] for k in b["teams"] if k in pri}
+        open(f"{ROOT}/season-{s}.html", "w").write(page(d, f"{pastseasons.label(s)} season · final"))
+        print(f"Built season-{s}.html ({len(d['brackets'])} brackets)")
     played = sum(1 for g in games if str(g["home_score"]) != "" and g.get("comp", "league") == "league")
     fplayed = sum(1 for g in games if str(g["home_score"]) != "" and g.get("comp") == "flex")
     print(f"Built index.html  ({len(html)//1024} KB): {len(brackets)} brackets, "
