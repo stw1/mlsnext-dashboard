@@ -77,14 +77,15 @@ table tbody tr.me td,table tbody tr.me:hover td{background:#fef9c3}table tbody t
 /* team page */
 .tl{color:inherit;text-decoration:none}.tl:hover{text-decoration:underline}
 .tbtns{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}.tbtns .btn{margin:0;text-decoration:none;display:inline-flex;align-items:center}.tbtns .btn.on{background:#fef9c3;border-color:#eab308;color:#713f12}
-.form span.fx{box-shadow:inset 0 0 0 2px #7c3aed}
+.form span.fx,.chip.fx{box-shadow:inset 0 0 0 2px #7c3aed}
 .tstats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 18px}.tstats div{font-size:12px;color:var(--mut)}.tstats b{display:block;font-size:16px;color:var(--ink);font-weight:700}
 #tSched td,#tOpp td{padding:9px 6px;white-space:normal;text-align:left;vertical-align:top}#tSched .dt{white-space:nowrap;color:var(--mut);font-size:12.5px;width:96px}
 #tSched .rs{text-align:right;white-space:nowrap}#tSched .odds{font-size:12px;color:var(--mut)}#tSched tr.next td{background:#f0f9ff}
 #tOpp td.res{text-align:left}#tOpp .chip{margin-right:4px}
 #tSched .odds span+span{margin-left:8px}
 .tother a{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);color:inherit;text-decoration:none;font-size:13.5px}.tother a span{color:var(--mut)}.tother a:hover b{text-decoration:underline}
-@media(max-width:700px){.tstats{grid-template-columns:repeat(2,minmax(0,1fr))}#tSched .dt{width:68px}#tSched .rs{white-space:normal;width:58px}#tSched .odds span{display:block;margin:0!important;line-height:1.4}#tSched td{padding:9px 4px}}
+@media(max-width:700px){.tstats{grid-template-columns:repeat(2,minmax(0,1fr))}#tSched .dt{width:68px}#tSched .rs{white-space:normal;width:58px}#tSched .odds span{display:block;margin:0!important;line-height:1.4}#tSched td{padding:9px 4px}
+ #tSched a.tl,#tOpp a.tl{display:inline-block;padding:10px 0;margin:-10px 0}.tother a{padding:12px 0}}
 @media(prefers-color-scheme:dark){.tbtns .btn.on{background:#3a3210;border-color:#5c4a12;color:#fde68a}#tSched tr.next td{background:#0f2236}}
 .ftag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:#ede9fe;color:#5b21b6;border-radius:4px;padding:1px 5px;margin-left:6px;vertical-align:1px}
 .nopred{font-size:12px;color:var(--mut);text-align:center;white-space:normal}.my .flexl{margin-top:8px;font-size:12.5px;color:var(--ink2)}
@@ -733,8 +734,8 @@ function drawTeam(c){const b=B,t=srows.find(r=>r.c===c),pr=power.findIndex(p=>p.
   `</tbody></table></div>${all.length?"":'<div class="empty">No games yet.</div>'}</div>`;
  // results against each conference opponent
  const opps=srows.filter(r=>r.c!==c).map(r=>{const gs=all.filter(g=>side(g).opp===r.c);return{r,gs}});
- const oppT=`<div class="card" id="s-topp"><h2>Against each opponent</h2><div class="sub">League and Flex meetings with every team in the conference, in table order. Upcoming meetings show the date.</div><div class="scroll"><table id="tOpp"><tbody>`+
-  opps.map(({r,gs})=>`<tr><td style="width:46%"><span class="rk" style="display:inline-block;width:22px;color:var(--mut)">${r.rk}</span>${tlink(r.c,esc(short(r.c)))}</td><td class="res">${gs.map(g=>{const x=side(g);return g.hs!==null?`<span class="chip ${x.res}" title="${x.home?"Home":"Away"}${g.flex?" · Flex":""} · ${fmtDay(g.dt)}">${x.f}–${x.a}</span>`:`<span class="mut" style="font-size:12px;margin-right:8px">${fmtDay(g.dt).replace(/^\w+, /,"")}${g.flex?" (Flex)":""}</span>`}).join("")||'<span class="mut">–</span>'}</td></tr>`).join("")+`</tbody></table></div></div>`;
+ const oppT=`<div class="card" id="s-topp"><h2>Against each opponent</h2><div class="sub">League and Flex meetings with every team in the conference, in table order. Upcoming meetings show the date; Flex results have a purple outline.</div><div class="scroll"><table id="tOpp"><tbody>`+
+  opps.map(({r,gs})=>`<tr><td style="width:46%"><span class="rk" style="display:inline-block;width:22px;color:var(--mut)">${r.rk}</span>${tlink(r.c,esc(short(r.c)))}</td><td class="res">${gs.map(g=>{const x=side(g);return g.hs!==null?`<span class="chip ${x.res}${g.flex?" fx":""}" title="${x.home?"Home":"Away"}${g.flex?" · Flex":""} · ${fmtDay(g.dt)}">${x.f}–${x.a}</span>`:`<span class="mut" style="font-size:12px;margin-right:8px">${fmtDay(g.dt).replace(/^\w+, /,"")}${g.flex?" (Flex)":""}</span>`}).join("")||'<span class="mut">–</span>'}</td></tr>`).join("")+`</tbody></table></div></div>`;
  // history and the club's other teams
  const others=DATA.brackets.flatMap(x=>Object.entries(x.teams).filter(([id,n])=>slugT(n)===slugT(nm(c))&&id!==c).map(([id])=>({b:x,id}))).sort((p,q)=>parseInt(p.b.age.slice(1))-parseInt(q.b.age.slice(1)));
  const otherHtml=others.length?`<div class="tother"><div class="lab" style="font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);font-weight:600;margin:6px 0 4px">${esc(short(c))} in other age groups</div>`+
