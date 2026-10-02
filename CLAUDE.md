@@ -143,6 +143,11 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - National view: `?age=U13&conf=national` (first option in the conference picker). Fits each conference of the
   age group separately and lists all teams by rating (expected goal margin vs an average team in its own conference).
   The page says plainly that this treats conferences as equally strong. Pro Player Pathway gets its own table.
+- Team page: `?age=&conf=&show=<team slug>` (`drawTeam`): overview KPIs (position, league, Flex, power, national,
+  projection), Follow / calendar / share buttons, form (last 10, Flex outlined) and stats, full league + Flex schedule
+  with results or odds (next game highlighted), results vs each conference opponent, same-players history and the
+  club's other age groups. Every team name (standings, power, results, upcoming, national, club, My team card) links
+  here via `tlink()`/`showUrl()`; `show=` never changes the followed team (`team=` still does).
 - Club view: `?club=<slug>` (full or short name slug, e.g. `ballistic-united`, `lafc`). Lists the club's team in every
   age group with conference position, record, national rank, power rank, simulated top-line / 1st chances (2,000 runs per
   bracket), next game; plus club-wide upcoming games and recent results. Reached from "Find any team" (club rows first)
