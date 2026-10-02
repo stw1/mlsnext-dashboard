@@ -78,7 +78,7 @@ table tbody tr.me td,table tbody tr.me:hover td{background:#fef9c3}table tbody t
 /* team page */
 .tl{color:inherit;text-decoration:none}.tl:hover{text-decoration:underline}
 .tbtns{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
-.ichips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.ichips a{padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:inherit;text-decoration:none;font-size:13px}.ichips a.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.ichips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}h2.isec{font-size:19px;margin:22px 0 10px}h2.isec:first-of-type{margin-top:6px}.ichips.wk a{padding:5px 10px;font-size:12.5px}.st tr.me td{background:#fef9c3}@media(prefers-color-scheme:dark){.st tr.me td{background:#3a3210}}.ichips a{padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:inherit;text-decoration:none;font-size:13px}.ichips a.on{background:var(--acc);border-color:var(--acc);color:#fff}
 .igrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}.igrid .card{margin:0}@media(max-width:900px){.igrid{grid-template-columns:minmax(0,1fr)}}
 .irow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;padding:9px 0;border-top:1px solid var(--line)}.irow:first-of-type{border-top:0}.irow.me{background:#fef9c3;margin:0 -8px;padding:9px 8px;border-radius:8px}
 .irow .it{font-weight:600;min-width:0}.irow .it a{color:inherit;text-decoration:none}.irow .it a:hover{text-decoration:underline}.irow .ia{color:var(--mut);font-weight:400;font-size:12px;white-space:nowrap}
@@ -345,7 +345,7 @@ const NATIONAL=slugC(qs.get("conf"))==="national";
 // ?club=<slug> lists every team of one club across age groups
 const CLUBQ=(qs.get("club")||"").toLowerCase();
 // ?view=insights (optionally &age=U15): risers and drops since last season, upsets, streaks and other observations
-const INSIGHTS=!CLUBQ&&!PAST&&qs.get("view")==="insights",IAGE=INSIGHTS?(qs.get("age")||""):"";
+const INSIGHTS=!CLUBQ&&!PAST&&qs.get("view")==="insights",IAGE=INSIGHTS?(qs.get("age")||""):"",WKQ=INSIGHTS?(qs.get("wk")||""):"";
 // ?show=<team slug> opens one team's page inside its bracket (does not change the followed team)
 const SHOWQ=NATIONAL||CLUBQ||INSIGHTS?"":(qs.get("show")||"").toLowerCase();
 try{if(!NATIONAL&&!INSIGHTS)localStorage.setItem("bracket",JSON.stringify({age:B.age,conf:B.conf}))}catch(e){}
@@ -853,6 +853,74 @@ function drawInsights(){const MIN=3,ages=[...new Set(DATA.brackets.map(b=>b.age)
  const row=(x,val,det)=>`<div class="irow${followed.has(x.c)?" me":""}"><div class="it">${tlink(x.c,teamName(x.c))} ${tag(x)}</div><div class="iv">${val}</div><div class="id">${det}</div></div>`;
  const cardI=(id,title,sub,rows,empty)=>`<div class="card ins" id="${id}"><h2>${title}</h2><div class="sub">${sub}</div>${rows.length?rows.join(""):`<p class="mut" style="margin:6px 0">${empty||"Nothing yet: check back after more games."}</p>`}</div>`;
  const enough=T.filter(x=>x.t.mp>=MIN);
+
+ // ---- one weekend at a time (?wk=<Monday of that week>, default the latest): what changed from the weekend before ----
+ const wkOf=d=>{const D=day(d);D.setDate(D.getDate()-(D.getDay()+6)%7);return`${D.getFullYear()}-${p2(D.getMonth()+1)}-${p2(D.getDate())}`};
+ const O=bs.map(b=>bracketInfo(b)),weeks=[...new Set(O.flatMap(o=>o.pl.map(g=>wkOf(g.dt))))].sort(),W=weeks.includes(WKQ)?WKQ:weeks[weeks.length-1];
+ const qa=IAGE?`&age=${IAGE}`:"";let weekHtml="";
+ if(W){const latest=W===weeks[weeks.length-1],inW=g=>wkOf(g.dt)===W;
+  const wkGames=O.flatMap(o=>o.pl.filter(g=>inW(g)&&inB(g,o.b.teams)).map(g=>({g,o,b:o.b})));
+  // each bracket's table just before and just after the weekend (same rules as the real table)
+  const per=O.map(o=>{const bef=table(o.pl.filter(g=>wkOf(g.dt)<W),o.ids),aft=table(o.pl.filter(g=>wkOf(g.dt)<=W),o.ids);
+   return{o,bef,aft,B:new Map(bef.map((t,i)=>[t.c,{t,r:i+1}])),A:new Map(aft.map((t,i)=>[t.c,{t,r:i+1}])),pl:[...new Set(o.pl.filter(inW).flatMap(g=>[g.h,g.a]))].filter(c=>c in o.b.teams)}});
+  const res=(o,c)=>o.pl.filter(g=>inW(g)&&(g.h===c||g.a===c)).map(g=>{const v=fromRow(g,c),op=v.home?g.a:g.h;return`${v.res.toUpperCase()} ${v.f}–${v.a} ${v.home?"vs":"at"} ${esc(short(op))}`}).join(", ");
+  const X=(P,c)=>({c,b:P.o.b,o:P.o,n:P.o.ids.length,tb:P.B.get(c),ta:P.A.get(c)});
+  const played=per.flatMap(P=>P.pl.map(c=>X(P,c)));
+  // table movers (teams that had already played before this weekend)
+  const mv=played.filter(x=>x.tb.t.mp>0&&x.ta.r!==x.tb.r);
+  const mUp=mv.filter(x=>x.ta.r<x.tb.r).sort((p,q)=>(q.tb.r-q.ta.r)-(p.tb.r-p.ta.r)||p.ta.r-q.ta.r).slice(0,8),mDn=mv.filter(x=>x.ta.r>x.tb.r).sort((p,q)=>(q.ta.r-q.tb.r)-(p.ta.r-p.tb.r)).slice(0,8);
+  const mRow=x=>row(x,`${ordn(x.tb.r)} → ${ordn(x.ta.r)}`,`${res(x.o,x.c)} · now ${ordn(x.ta.r)} of ${x.n}, ${x.ta.t.pts} pts from ${x.ta.t.mp} games`);
+  // new leaders
+  const lead=per.filter(P=>P.aft[0]&&P.aft[0].mp>=2&&P.bef[0]&&P.bef[0].mp>0&&P.bef[0].c!==P.aft[0].c).map(P=>({...X(P,P.aft[0].c),prev:P.bef[0].c}));
+  // unbeaten records: still perfect, first defeats
+  const perfect=played.filter(x=>x.ta.t.mp>=3&&x.ta.t.w===x.ta.t.mp).sort((p,q)=>q.ta.t.mp-p.ta.t.mp||(q.ta.t.gf-q.ta.t.ga)-(p.ta.t.gf-p.ta.t.ga)).slice(0,8);
+  const fell=played.filter(x=>x.tb.t.mp>=2&&!x.tb.t.l&&x.ta.t.l).sort((p,q)=>q.tb.t.mp-p.tb.t.mp||q.tb.t.ppm-p.tb.t.ppm).slice(0,8);
+  // winning streaks: reached 3+ this weekend, or ended
+  const stk=t=>{let k=0;for(let i=t.form.length-1;i>=0&&t.form[i]==="W";i--)k++;return k};
+  const stW=played.map(x=>({...x,k:stk(x.ta.t),kb:stk(x.tb.t)})),hotW=stW.filter(x=>x.k>=3&&x.k>x.kb).sort((p,q)=>q.k-p.k).slice(0,8),snap=stW.filter(x=>x.kb>=3&&!x.k).sort((p,q)=>q.kb-p.kb).slice(0,6);
+  // ratings before and after the weekend: who did much better or worse than the model expected
+  const FT=new Map(),fitTo=(o,incl)=>{const k=o.b.age+"|"+o.b.conf+"|"+incl;if(FT.has(k))return FT.get(k);const ok=d=>incl?wkOf(d)<=W:wkOf(d)<W;
+   const m=fit(o.pl.filter(g=>inB(g,o.b.teams)&&ok(g.dt)).concat(o.fx.filter(f=>ok(f.dt))),o.IX,o.ids.length,priorArr(o.b,o.ids));FT.set(k,m);return m};
+  const netM=(m,o,c)=>{const i=o.IX[c];return Math.exp(m.mu+m.att[i])-Math.exp(m.mu-m.def[i])};
+  const rat=per.flatMap(P=>{const mB=fitTo(P.o,false),mA=fitTo(P.o,true);return P.pl.map(c=>({...X(P,c),d:netM(mA,P.o,c)-netM(mB,P.o,c),na:netM(mA,P.o,c)}))});
+  const rUp=rat.filter(x=>x.d>0.05).sort((p,q)=>q.d-p.d).slice(0,8),rDn=rat.filter(x=>x.d<-0.05).sort((p,q)=>p.d-q.d).slice(0,8);
+  const rRow=x=>row(x,`${x.d>0?"+":""}${x.d.toFixed(2)}`,`${res(x.o,x.c)} · rating now ${x.na>0?"+":""}${x.na.toFixed(2)} goals a game vs an average ${esc(baseConf(x.b.conf))} team`);
+  // upsets and the model's scorecard for the weekend
+  const hit=x=>{const p=x.p,pk=p.pick==="Draw"?"D":p.pick===x.g.h?"H":"A";return pk===outcome(x.g.hs,x.g.as)};
+  const BTa=O.flatMap(o=>btFor(o).map(x=>({...x,o,b:o.b}))),BTw=BTa.filter(x=>inW(x.g));
+  const upsW=BTw.filter(x=>x.g.hs!==x.g.as).map(x=>{const hw=x.g.hs>x.g.as;return{...x,pw:hw?x.p.pH:x.p.pA,w:hw?x.g.h:x.g.a,l:hw?x.g.a:x.g.h}}).filter(x=>x.pw<0.35).sort((p,q)=>p.pw-q.pw).slice(0,8);
+  const uRow=x=>row({c:x.w,b:x.b},pct(x.pw),`beat ${tlink(x.l,teamName(x.l))} ${Math.max(x.g.hs,x.g.as)}–${Math.min(x.g.hs,x.g.as)} on ${fmtDay(x.g.dt)} · the model gave them only ${pct(x.pw)} to win`);
+  // week by week: the whole season so far, one row per weekend
+  const wkStats=weeks.map(w=>{const gs=O.flatMap(o=>o.pl.filter(g=>wkOf(g.dt)===w&&inB(g,o.b.teams))),bt=BTa.filter(x=>wkOf(x.g.dt)===w),n=gs.length||1;
+   return{w,n:gs.length,gpg:gs.reduce((a,g)=>a+g.hs+g.as,0)/n,hw:gs.filter(g=>g.hs>g.as).length/n,dr:gs.filter(g=>g.hs===g.as).length/n,acc:bt.length?bt.filter(hit).length/bt.length:null,ups:bt.filter(x=>x.g.hs!==x.g.as&&(x.g.hs>x.g.as?x.p.pH:x.p.pA)<0.25).length,label:weekLabel(gs.length?gs:[{dt:w}]),d0:(D=>(D.setDate(D.getDate()+5),`${D.getFullYear()}-${p2(D.getMonth()+1)}-${p2(D.getDate())}`))(day(w))}});  // that week's Saturday
+  const cur=wkStats.find(x=>x.w===W),prevS=wkStats[weeks.indexOf(W)-1];
+  const vs=(a,b,f)=>b===undefined||b===null||f(Math.abs(a-b)).match(/^0(\.0)?( |$)/)?"":` <span class="mut">(${a>=b?"+":"−"}${f(Math.abs(a-b))} vs the weekend before)</span>`;
+  // coming up: the next weekend's biggest games (latest weekend only)
+  let next=[];if(latest){const fu=O.flatMap(o=>o.fu.filter(g=>inB(g,o.b.teams)).map(g=>({g,o,b:o.b}))),nw=fu.map(x=>wkOf(x.g.dt)).sort()[0];
+   const rk=new Map(per.flatMap(P=>P.aft.map((t,i)=>[t.c,{r:i+1,mp:t.mp}])));
+   next=fu.filter(x=>wkOf(x.g.dt)===nw&&rk.get(x.g.h).mp&&rk.get(x.g.a).mp&&rk.get(x.g.h).r<=4&&rk.get(x.g.a).r<=4).map(x=>({...x,s:rk.get(x.g.h).r+rk.get(x.g.a).r,rh:rk.get(x.g.h).r,ra:rk.get(x.g.a).r,p:predict(x.g.h,x.g.a,x.o.m)})).sort((p,q)=>p.s-q.s||Math.abs(p.p.pH-p.p.pA)-Math.abs(q.p.pH-q.p.pA)).slice(0,10)}
+  const nRow=x=>`<div class="irow"><div class="it">${tlink(x.g.h,teamName(x.g.h))} <span class="mut" style="font-weight:400">vs</span> ${tlink(x.g.a,teamName(x.g.a))} ${tag(x)}</div><div class="iv">${fmtDay(x.g.dt).replace(/,.*$/,"")}</div><div class="id">${ordn(x.rh)} vs ${ordn(x.ra)} · model: ${esc(short(x.g.h))} ${pct(x.p.pH)}, draw ${pct(x.p.pD)}, ${esc(short(x.g.a))} ${pct(x.p.pA)} · ${fmtDay(x.g.dt)}</div></div>`;
+  const big=wkGames.slice().sort((p,q)=>Math.abs(q.g.hs-q.g.as)-Math.abs(p.g.hs-p.g.as))[0];
+  const kp=[["Games",cur.n,`${(cur.gpg).toFixed(1)} goals a game${vs(cur.gpg,prevS&&prevS.gpg,x=>x.toFixed(1))}`],["Home wins",pct(cur.hw),`draws ${pct(cur.dr)}`],
+   ["Predictions right",cur.acc===null?"–":pct(cur.acc),`picks made before kickoff${cur.acc!==null&&prevS&&prevS.acc!==null?vs(cur.acc,prevS.acc,x=>Math.round(x*100)+" points"):""}`],["Big upsets",cur.ups,"winners given under 25%"],
+   ["Biggest win",big?`${Math.max(big.g.hs,big.g.as)}–${Math.min(big.g.hs,big.g.as)}`:"–",big?`${esc(short(big.g.hs>=big.g.as?big.g.h:big.g.a))} · ${big.b.age} ${esc(baseConf(big.b.conf))}`:""],["New leaders",lead.length,"conferences with a new team in 1st"]];
+  const wchips=`<div class="ichips wk"><span class="mut" style="align-self:center;font-size:12.5px">Weekend:</span>`+wkStats.map(x=>`<a href="?view=insights${qa}&wk=${x.w}"${x.w===W?' class="on"':""}>${fmtDay(x.d0).replace(/^\w+, /,"")}</a>`).join("")+`</div>`;
+  weekHtml=`<h2 class="isec" id="i-week">${latest?"This weekend":"Weekend"} · ${esc(cur.label)}</h2>${wchips}`+
+   `<div class="kpis">${kp.map(([l,v,t])=>`<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${t}</div></div>`).join("")}</div><div class="igrid">`+
+   cardI("i-wup","Climbed the table","Biggest moves up their conference table this weekend.",mUp.map(mRow),"No big moves.")+
+   cardI("i-wdn","Slipped down the table","Biggest moves down this weekend.",mDn.map(mRow),"No big moves.")+
+   cardI("i-wlead","New conference leaders","Conferences with a different team in 1st after this weekend.",lead.map(x=>row(x,"1st",`took over from ${tlink(x.prev,teamName(x.prev))} · ${res(x.o,x.c)||"didn't play"}; ${esc(short(x.prev))}: ${res(x.o,x.prev)||"didn't play"} · ${x.ta.t.pts} pts from ${x.ta.t.mp} games`)),"Every leader held on.")+
+   cardI("i-wups","Upsets this weekend","Results the model gave the winner the least chance of before kickoff.",upsW.map(uRow),"No big upsets: the favourites mostly won.")+
+   cardI("i-wrec","Perfect records and first defeats","",[`<h3 class="ph">Still perfect (3+ games)</h3>`,...(perfect.length?perfect.map(x=>row(x,`${x.ta.t.w}-0-0`,`${res(x.o,x.c)} · goals ${x.ta.t.gf}–${x.ta.t.ga}`)):[`<p class="mut">None left.</p>`]),
+    `<h3 class="ph">First defeat this weekend</h3>`,...(fell.length?fell.map(x=>row(x,`${x.tb.t.w}-${x.tb.t.d}-0 before`,`${res(x.o,x.c)}`)):[`<p class="mut">No unbeaten team lost.</p>`])])+
+   cardI("i-wstk","Winning streaks","",[`<h3 class="ph">Reached 3+ wins in a row</h3>`,...(hotW.length?hotW.map(x=>row(x,`${x.k} straight`,res(x.o,x.c))):[`<p class="mut">None this weekend.</p>`]),
+    ...(snap.length?[`<h3 class="ph">Streaks that ended</h3>`,...snap.map(x=>row(x,`${x.kb} ended`,res(x.o,x.c)))]:[])])+
+   cardI("i-wrup","Beat expectations","The biggest rises in the model's rating after this weekend: results much better than it expected, often against strong opponents.",rUp.map(rRow))+
+   cardI("i-wrdn","Below expectations","The biggest drops in rating after this weekend.",rDn.map(rRow))+
+   (latest?cardI("i-next","Games to watch next weekend","Top-four teams meeting each other, by table position.",next.map(nRow),"No top-four meetings next weekend."):"")+
+   cardI("i-wtrend","Week by week","How each weekend of the season compares.",[`<div class="scroll"><table class="st"><thead><tr><th class="t">Weekend</th><th>Games</th><th title="Goals per game">Goals/G</th><th class="xs-hide">Home wins</th><th class="xs-hide">Draws</th><th title="Predictions right">Picks right</th><th title="Winners given under 25%">Upsets</th></tr></thead><tbody>`+
+    wkStats.map(x=>`<tr${x.w===W?' class="me"':""}><td class="t"><a href="?view=insights${qa}&wk=${x.w}">${esc(x.label)}</a></td><td>${x.n}</td><td>${x.gpg.toFixed(1)}</td><td class="xs-hide">${pct(x.hw)}</td><td class="xs-hide">${pct(x.dr)}</td><td>${x.acc===null?"–":pct(x.acc)}</td><td>${x.ups}</td></tr>`).join("")+`</tbody></table></div>`])+
+   `</div><h2 class="isec" id="i-season">Season so far</h2>`}
  // 1-2: compared with last season (the same players)
  const cmpL=enough.map(x=>{const H=(DATA.hist||{})[x.c];const L=H&&H[0]&&H[0][0]===LASTS?H[0]:null;if(!L)return null;
   const lp=(3*L[5]+L[6])/Math.max(1,L[5]+L[6]+L[7]);return{...x,L,lp,d:pctl(x.r,x.n)-pctl(L[3],L[4])}}).filter(Boolean);
@@ -879,8 +947,8 @@ function drawInsights(){const MIN=3,ages=[...new Set(DATA.brackets.map(b=>b.age)
  // 11: clubs strongest across age groups (all ages only)
  let clubs=[];if(!IAGE){const byC=new Map;for(const x of T.filter(x=>x.t.mp>=2))(byC.get(slugT(x.b.teams[x.c]))||byC.set(slugT(x.b.teams[x.c]),[]).get(slugT(x.b.teams[x.c]))).push(x);
   clubs=[...byC].filter(([,xs])=>xs.length>=4).map(([k,xs])=>({k,xs,name:xs[0].b.teams[xs[0].c],avg:xs.reduce((a,x)=>a+pctl(x.r,x.n),0)/xs.length,top:xs.filter(x=>x.r<=3).length})).sort((p,q)=>q.avg-p.avg).slice(0,8)}
- const chips=`<div class="ichips">`+[["","All ages"],...ages.map(a=>[a,a])].map(([a,l])=>`<a href="?view=insights${a?"&age="+a:""}"${a===IAGE?' class="on"':""}>${l}</a>`).join("")+`</div>`;
- $("s-ins").innerHTML=chips+`<p class="note" style="display:block;margin:0 0 14px">Early in the season a few results can move a team a long way, so the lists use teams with at least ${MIN} league games. "Last season" means the same players a year younger (${LASTS.replace("-","–")}), and positions are compared as a share of the table because conferences differ in size. Updated after each weekend's games.</p><div class="igrid">`+
+ const chips=`<div class="ichips">`+[["","All ages"],...ages.map(a=>[a,a])].map(([a,l])=>`<a href="?view=insights${a?"&age="+a:""}${WKQ?"&wk="+WKQ:""}"${a===IAGE?' class="on"':""}>${l}</a>`).join("")+`</div>`;
+ $("s-ins").innerHTML=chips+weekHtml+`<p class="note" style="display:block;margin:0 0 14px">Early in the season a few results can move a team a long way, so the lists use teams with at least ${MIN} league games. "Last season" means the same players a year younger (${LASTS.replace("-","–")}), and positions are compared as a share of the table because conferences differ in size. Updated after each weekend's games.</p><div class="igrid">`+
   cardI("i-up","Biggest climbers since last season","Teams sitting much higher in their table than the same players finished last season.",up.map(mv),"No big climbers yet.")+
   cardI("i-down","Biggest drops since last season","Teams sitting much lower than the same players finished last season.",down.map(mv),"No big drops yet.")+
   cardI("i-ups","Biggest upsets","Wins the model thought least likely before kickoff (each weekend predicted from the games before it).",ups.map(upRow))+
@@ -992,7 +1060,7 @@ else if(CLUBQ){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s-up
  for(const el of[$("ages"),$("confSel").closest(".follow"),$("myTeam").closest(".follow"),$("ppp")])el.style.display="none";document.querySelector(".ctl").classList.add("nat","club");
  drawClub()}
 else if(INSIGHTS){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s-upcoming","s-acc"])$(id).style.display="none";
- $("s-ins").style.display="";document.querySelector("nav .wrap").innerHTML=[["i-up","Climbers"],["i-down","Drops"],["i-ups","Upsets"],["i-unb","Unbeaten"],["i-hot","Streaks"],["i-rise","Rising"],["i-att","Goals"],["i-big","Big wins"],...(IAGE?[]:[["i-clubs","Clubs"]]),["s-about","How it works"]].map(([h,l])=>`<a href="#${h}">${l}</a>`).join("");
+ $("s-ins").style.display="";document.querySelector("nav .wrap").innerHTML=[["i-week","This weekend"],["i-next","Next weekend"],["i-wtrend","Week by week"],["i-season","Season"],["i-up","Climbers"],["i-down","Drops"],["i-ups","Upsets"],["i-unb","Unbeaten"],["i-hot","Streaks"],["i-rise","Rising"],["i-att","Goals"],["i-big","Big wins"],...(IAGE?[]:[["i-clubs","Clubs"]]),["s-about","How it works"]].map(([h,l])=>`<a href="#${h}">${l}</a>`).join("");
  for(const el of[$("ages"),$("confSel").closest(".follow"),$("myTeam").closest(".follow"),$("ppp")])el.style.display="none";document.querySelector(".ctl").classList.add("nat","club");
  drawInsights()}
 else if(NATIONAL){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s-upcoming","s-acc"])$(id).style.display="none";

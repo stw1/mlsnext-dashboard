@@ -178,6 +178,11 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   league games), biggest upsets (walk-forward predictions per bracket, `btFor`), perfect/unbeaten starts, winning
   streaks, rising three seasons running, goals for/against per game, biggest wins, highest-scoring games, strongest
   clubs across age groups (all ages only). Renders all 60 brackets in ~0.2 s.
+  Top section is one weekend at a time (`&wk=<Monday>`, default the latest; weekend chips): KPIs (games, goals/game vs
+  the weekend before, home wins, draws, predictions right, upsets, biggest win, new leaders), table movers (each
+  bracket's `table()` just before vs just after the weekend), new conference leaders, still-perfect / first defeats,
+  streaks reached / ended, rating risers and fallers (fit before vs after the weekend, same prior), the weekend's upsets
+  (`btFor`), next weekend's top-four meetings with odds (latest only), and a week-by-week trend table.
 - Team page "Previous seasons" card (`pastCard`): this season vs last season headline, the same players' past
   seasons (`DATA.hist`) and the club's same-age team in past seasons (`DATA.hsame`), rows [season, age, conf, rank, of,
   w, d, l, gf, ga, name then ("" = same), flex w, d, l], each linking to that season's team page.
