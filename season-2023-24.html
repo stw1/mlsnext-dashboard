@@ -85,9 +85,12 @@ table tbody tr.me td,table tbody tr.me:hover td{background:#fef9c3}table tbody t
 #tSched .odds span+span{margin-left:8px}
 .tother a{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);color:inherit;text-decoration:none;font-size:13.5px}.tother a span{color:var(--mut)}.tother a:hover b{text-decoration:underline}
 @media(max-width:700px){.tstats{grid-template-columns:repeat(2,minmax(0,1fr))}#tSched .dt{width:68px}#tSched .rs{white-space:normal;width:58px}#tSched .odds span{display:block;margin:0!important;line-height:1.4}#tSched td{padding:9px 4px}
- #tSched a.tl,#tOpp a.tl{display:inline-block;padding:10px 0;margin:-10px 0}.tother a{padding:12px 0}}
+ #tSched a.tl,#tOpp a.tl{display:inline-block;padding:10px 0;margin:-10px 0}
+ #results td:nth-child(2){white-space:normal}#results .pens,#results .ftag,#results .new{display:block;width:max-content;margin:3px auto 0}.tother a{padding:12px 0}}
 @media(prefers-color-scheme:dark){.tbtns .btn.on{background:#3a3210;border-color:#5c4a12;color:#fde68a}#tSched tr.next td{background:#0f2236}}
 .ftag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:#ede9fe;color:#5b21b6;border-radius:4px;padding:1px 5px;margin-left:6px;vertical-align:1px}
+.pens{font-size:11px;color:var(--mut);font-weight:500;margin-left:4px;white-space:nowrap}
+.fgt{margin-bottom:18px}.fgt h3{margin:4px 0 6px;font-size:14.5px}.fgt td.t a{color:inherit;text-decoration:none}.fgt td.t a:hover{text-decoration:underline}.fgt .oc{font-size:11px;color:var(--mut);margin-left:6px}
 .nopred{font-size:12px;color:var(--mut);text-align:center;white-space:normal}.my .flexl{margin-top:8px;font-size:12.5px;color:var(--ink2)}
 @media(prefers-color-scheme:dark){.ftag{background:#3b0764;color:#ddd6fe}}
 /* who beat who */
@@ -250,7 +253,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="card" id="s-table"><h2>Standings &amp; projected finish</h2>
 <div class="sub">The league table from games played so far, plus where the model expects each team to finish after simulating the rest of the season 10,000 times. Click a column heading to sort.</div>
 <div class="scroll"><table class="st" id="standings"></table></div>
-<div class="key"><span><b>MP</b> matches played</span><span><b>Goals</b> scored–conceded</span><span><b>GD</b> goal difference</span><span><b>Pts/G</b> points per game: the table is ranked by this, as MLS NEXT does, because teams play different numbers of games</span><span><b>Last 5</b> oldest → newest; hover for the score</span><span><b>League games only</b>, like MLS NEXT's official table; MLS NEXT Flex games are listed under Results and Upcoming games</span><span><b>Proj. pts</b> expected points at season end</span><span id="cutKey"></span></div></div>
+<div class="key"><span><b>MP</b> matches played</span><span><b>Goals</b> scored–conceded</span><span><b>GD</b> goal difference</span><span><b>Pts/G</b> points per game: the table is ranked by this, as MLS NEXT does, because teams play different numbers of games</span><span><b>Last 5</b> oldest → newest; hover for the score</span><span><b>League games only</b>, like MLS NEXT's official table; MLS NEXT Flex games are listed under Results and Upcoming games (<a href="#s-flexhelp">what's Flex?</a>)</span><span><b>Proj. pts</b> expected points at season end</span><span id="cutKey"></span></div></div>
 <div class="card" id="s-h2h"><h2>Who beat who</h2>
 <div class="sub">Find a team on the left and read across. Each box is one game against the team at the top of the column, with the left-hand team's score first. <span id="h2hMeet"></span></div>
 <div class="h2h-top"><div class="legend" id="h2hLegend"></div>
@@ -263,7 +266,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="sub">How strong each team looks to the model: goals it would expect to score and concede per game against an average team in this conference, on a neutral field. With only a few games played, these will move a lot.</div>
 <div class="scroll"><table id="power"></table></div></div>
 <div class="card" id="s-results"><h2>Results</h2>
-<div class="sub">Completed league and MLS NEXT Flex games, newest first. Winners in bold. Flex games are marked; they don't count in the league table.</div>
+<div class="sub">Completed league and MLS NEXT Flex games, newest first. Winners in bold. Flex games are marked; they don't count in the league table (<a href="#s-flexhelp">what's Flex?</a>).</div>
 <div class="note" id="resNote"></div>
 <table id="results"></table><button class="btn" id="resMore"></button></div>
 </div>
@@ -291,6 +294,15 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="card" id="s-cres"><h2>Recent results</h2><div class="sub">The last two weekends, all age groups, league and Flex.</div><table id="clubRes"></table></div></div>
 </div>
 <div id="s-team" style="display:none"></div>
+<div class="card" id="s-flexg" style="display:none"><h2>MLS NEXT Flex groups</h2>
+<div class="sub">The official Flex tables for the groups this conference's teams play in. Flex is a separate competition from the league (<a href="#s-flexhelp">what's Flex?</a>): a win is 3 points, a penalty-shootout win 2, a shootout loss 1, and teams are ranked by points per game. Some groups include pro academies from the Pro Player Pathway.</div>
+<div id="flexGroups"></div></div>
+<div class="card" id="s-flexhelp"><h2>League games vs MLS NEXT Flex games</h2>
+<div class="about"><div class="cols">
+<div><h3>League</h3><p>The regular season inside each conference, for every age group (U13–U19). Only league games count in the standings, which MLS NEXT ranks by points per game (3 for a win, 1 for a draw).</p></div>
+<div><h3>MLS NEXT Flex</h3><p>A second competition for U15–U19; U13 and U14 don't play Flex this season. Teams play in Flex groups, mostly against clubs from their own conference, and pro academies from the Pro Player Pathway join those groups too. Drawn Flex games go to a penalty shootout. Flex has its own group tables and doesn't count in the league standings. Last season the winner of each Flex group earned an MLS NEXT Cup place; the 2026–27 format hasn't been announced yet.</p></div>
+<div><h3>On this site</h3><p>League tables are League-only, like MLS NEXT's. Flex games appear everywhere games are listed, with a purple <span class="ftag" style="margin:0">Flex</span> tag, and Flex group tables are on conference and team pages. The model's ratings use both kinds of game, because both show how strong a team is; a Flex game decided on penalties counts as a draw for the ratings.</p></div>
+</div></div></div>
 <div class="card about" id="s-about"><h2>How the predictions work</h2>
 <div class="cols">
 <div><h3>Team ratings</h3><p>Each team gets an <b>attack</b> and a <b>defense</b> rating, fit to every completed game with a Poisson goals model, the standard approach for predicting soccer scores. Expected goals for the home side = league average × home edge × home attack × away defense weakness, and likewise for the away side. Home teams currently get <span id="hadv"></span> more goals in the model. Each team starts the season from last season's rating (the average of the same players a year younger and the club's same age group, at three-quarters strength), and its games this season gradually take over. In a backtest over all of 2025–26 this made early-season predictions noticeably better.</p></div>
@@ -337,7 +349,7 @@ const parseGames=b=>b.raw?b.raw.split(";").map(s=>{const[id,dt,h,a,hs,as,v]=s.sp
 // ratings (more evidence per team) but never toward the league standings.
 const USE_FLEX=true;
 // every Flex game of the bracket's teams (some opponents are in other brackets, or in none), played and upcoming
-const parseFlex=b=>b.flex?b.flex.split(";").map(s=>{const[id,dt,h,a,hs,as,v]=s.split(",");return{id,utc:dt,dt:localDt(dt),h,a,hs:hs===""?null:+hs,as:as===""?null:+as,venue:v?VEN[+v]:"",flex:true}}).sort((x,y)=>x.dt<y.dt?-1:1):[];
+const parseFlex=b=>b.flex?b.flex.split(";").map(s=>{const[id,dt,h,a,hs,as,v,ps]=s.split(",");return{id,utc:dt,dt:localDt(dt),h,a,hs:hs===""?null:+hs,as:as===""?null:+as,venue:v?VEN[+v]:"",flex:true,pens:ps||""}}).sort((x,y)=>x.dt<y.dt?-1:1):[];
 // only played Flex games between two teams of the bracket can feed its ratings
 const ratable=(list,teams)=>USE_FLEX?list.filter(g=>g.hs!==null&&g.h in teams&&g.a in teams):[];
 const games=parseGames(B),flexAll=parseFlex(B),flexPlayed=ratable(flexAll,TEAMS);
@@ -596,11 +608,13 @@ function drawPower(){
 
 // Results
 let allRes=false;
+// "(4–2 pens)" after a drawn Flex score; from team c's side when c is given
+const pensTxt=(g,c)=>{if(!g.pens)return"";const[x,y]=g.pens.split("-");return`<span class="pens" title="Decided by a penalty shootout">(${c&&g.a===c?`${y}–${x}`:`${x}–${y}`} pens)</span>`};
 const flexTag=g=>g.flex?'<span class="ftag" title="MLS NEXT Flex game: not part of the league table">Flex</span>':"";
 function drawResults(){const list=played.concat(flexAll.filter(g=>g.hs!==null)).sort((x,y)=>x.dt<y.dt?-1:1).filter(g=>!myTeam||involves(g,myTeam)),wks=byWeek(list).reverse(),shown=myTeam||allRes?wks:wks.slice(0,3);
  showNote("resNote",!!myTeam);
  $("results").innerHTML=shown.map(gs=>`<tr class="day"><td colspan="3">${weekLabel(gs)}</td></tr>`+gs.map(g=>{const hw=g.hs>g.as,aw=g.as>g.hs;
-  return`<tr title="${fmtDate(g.dt)}${g.venue?" · "+esc(g.venue):""}"><td class="hm${hw?" win":aw?" lose":""}">${tlink(g.h,teamName(g.h))}</td><td><span class="score">${g.hs}–${g.as}</span>${flexTag(g)}${newPill(g)}</td><td class="aw${aw?" win":hw?" lose":""}">${tlink(g.a,teamName(g.a))}</td></tr>`}).join("")).join("")||`<tr><td class="empty">No results yet.</td></tr>`;
+  return`<tr title="${fmtDate(g.dt)}${g.venue?" · "+esc(g.venue):""}"><td class="hm${hw?" win":aw?" lose":""}">${tlink(g.h,teamName(g.h))}</td><td><span class="score">${g.hs}–${g.as}</span>${pensTxt(g)}${flexTag(g)}${newPill(g)}</td><td class="aw${aw?" win":hw?" lose":""}">${tlink(g.a,teamName(g.a))}</td></tr>`}).join("")).join("")||`<tr><td class="empty">No results yet.</td></tr>`;
  const more=$("resMore");more.style.display=!myTeam&&wks.length>3?"":"none";more.textContent=allRes?"Show fewer":`Show all ${list.length} results`;}
 $("resMore").onclick=()=>{allRes=!allRes;drawResults()};
 
@@ -694,6 +708,17 @@ function simulate(o,S=2000){const{ids,fu,m,tb,b}=o,cut=PAST?null:(CUP_EST[b.age]
   for(const c of ids)res[c].pts+=P[c]}
  for(const c of ids){const r=res[c];r.p1/=S;r.pch/=S;r.pcup/=S;r.proj=r.pts/S}return{res,cut,ch,cup}}
 
+// MLS NEXT Flex groups (official tables from the feed): [{age, name, rows:[{id,pos,mp,w,t,l,pts,ppm,gd}]}]
+const FG=(DATA.fgroups||[]).map(([age,name,rows])=>({age,name,rows:rows.map(([id,pos,mp,w,t,l,pts,ppm,gd])=>({id,pos,mp,w,t,l,pts,ppm,gd}))}));
+const groupOf=(age,id)=>FG.find(g=>g.age===age&&g.rows.some(r=>r.id===id));
+function flexTable(g,hl){const followed=new Set(DATA.brackets.filter(b=>b.age===g.age).map(b=>{try{return localStorage.getItem(`myteam:${TPRE}${b.age} ${b.conf} Conference`)}catch(e){return null}}).filter(Boolean));
+ return`<div class="fgt"><h3>${esc(g.name)} <span class="mut" style="font-weight:400;font-size:12.5px">· ${g.age} · ${g.rows.length} teams</span></h3><div class="scroll"><table class="st"><thead><tr><th class="t team">Team</th><th title="Flex games played">MP</th><th class="xs-hide" title="Wins">W</th><th title="Games decided by a penalty shootout">SO</th><th class="xs-hide" title="Losses">L</th><th class="pts" title="Flex points: 3 win, 2 shootout win, 1 shootout loss">Pts</th><th title="Points per game: the Flex ranking">Pts/G</th><th class="xs-hide" title="Goal difference per game">GD/G</th></tr></thead><tbody>`+
+  g.rows.map(r=>{const bb=BOF[r.id],oc=bb&&bb.conf!==g.name&&baseConf(bb.conf)!==g.name.replace(/ \(.*\)$/,"")?bb.conf.replace(" (Pro Player Pathway)"," PPP"):"";
+   return`<tr${r.id===hl||followed.has(r.id)?' class="me"':""}><td class="t team"><span class="rk">${r.pos}</span>${tlink(r.id,teamName(r.id))}${oc?`<span class="oc">${esc(oc)}</span>`:""}</td><td>${r.mp}</td><td class="xs-hide">${r.w}</td><td>${r.t}</td><td class="xs-hide">${r.l}</td><td class="pts">${r.pts}</td><td class="mut">${r.mp?r.ppm.toFixed(2):"–"}</td><td class="xs-hide ${r.gd>0?"pos":r.gd<0?"neg":""}">${r.mp?(r.gd>0?"+":"")+r.gd.toFixed(1):"–"}</td></tr>`}).join("")+`</tbody></table></div></div>`}
+function drawFlexGroups(){const gs=FG.filter(g=>g.age===B.age&&g.rows.some(r=>r.id in TEAMS));if(!gs.length)return;
+ $("s-flexg").style.display="";$("flexGroups").innerHTML=gs.map(g=>flexTable(g,myTeam)).join("");
+ const nav=document.querySelector('nav a[href="#s-acc"]');if(nav&&!document.querySelector('nav a[href="#s-flexg"]'))nav.insertAdjacentHTML("beforebegin",'<a href="#s-flexg">Flex groups</a>')}
+
 // Team page (?show=): one team in its bracket - summary, form, stats, full schedule, opponents, history
 function drawTeam(c){const b=B,t=srows.find(r=>r.c===c),pr=power.findIndex(p=>p.c===c)+1,pw=power.find(p=>p.c===c),inv=g=>involves(g,c);
  document.title=`${TPRE}${nm(c)} · ${b.age} ${b.conf}`;$("bracket").textContent=nm(c);
@@ -707,7 +732,7 @@ function drawTeam(c){const b=B,t=srows.find(r=>r.c===c),pr=power.findIndex(p=>p.
  const oppName=g=>{const o=side(g).opp;return tlink(o,esc(nm(o)))},gline=g=>{const x=side(g);return`${x.f}–${x.a} ${x.home?"vs":"at"} ${esc(short(x.opp)||nm(x.opp))}`};
  const kp=k("Position",t?`${ordn(t.rk)} of ${N}`:"–",`${b.age} ${esc(b.conf)}`)+
   k("League",t?`${t.pts} pts`:"–",t?`${wdl(L)} · ${t.ppm.toFixed(2)} per game · GD ${t.gd>0?"+":""}${t.gd}`:"")+
-  (F.n?k("MLS NEXT Flex",wdl(F),`${F.n} game${F.n>1?"s":""} · goals ${F.gf}–${F.ga} (not in the table)`):"")+
+  (F.n?k("MLS NEXT Flex",wdl(F),(g=>{const r=g&&g.rows.find(x=>x.id===c);return r&&r.mp?`${ordn(r.pos)} of ${g.rows.length} in the ${esc(g.name)} group · ${r.pts} pts`:`${F.n} game${F.n>1?"s":""} · not in the league table`})(groupOf(b.age,c))):"")+
   k("Power ranking",`${ordn(pr)} of ${N}`,`model: scores ${pw.gf.toFixed(1)}, concedes ${pw.ga.toFixed(1)} per game`)+
   (nat?k("National",`${ordn(nat)} of ${natList.length}`,ppp?"among Pro Player Pathway teams":"within-conference rating, all conferences"):"")+
   (PAST||!t?"":k("Projected finish",`${t.proj.toFixed(0)} pts`,CUT?`Cup (est.) ${pct(t.pc)} · 1st ${pct(t.p1)}`:`Top 4 ${pct(t.p4)} · 1st ${pct(t.p1)}`));
@@ -725,9 +750,9 @@ function drawTeam(c){const b=B,t=srows.find(r=>r.c===c),pr=power.findIndex(p=>p.
   `${st("biggest win",bw?esc(gline(bw)):"–")}${st("heaviest loss",bl?esc(gline(bl)):"–")}${st("draws",A.d)}</div></div>`;
  // full schedule
  const nextId=fu[0]&&fu[0].id;
- const sched=`<div class="card" id="s-tsched"><h2>Schedule and results</h2><div class="sub">Every league and MLS NEXT Flex game in date order. Times are in your time zone; tap an opponent for their page.</div><div class="scroll"><table id="tSched"><tbody>`+
+ const sched=`<div class="card" id="s-tsched"><h2>Schedule and results</h2><div class="sub">Every league and MLS NEXT Flex game in date order (<a href="#s-flexhelp">what's Flex?</a>). Times are in your time zone; tap an opponent for their page.</div><div class="scroll"><table id="tSched"><tbody>`+
   all.map(g=>{const x=side(g);let right;
-   if(g.hs!==null)right=`<span class="chip ${x.res}">${x.f}–${x.a}</span>${newPill(g)}`;
+   if(g.hs!==null)right=`<span class="chip ${x.res}">${x.f}–${x.a}</span>${pensTxt(g,c)}${newPill(g)}`;
    else if(g.h in TEAMS&&g.a in TEAMS){const p=predict(g.h,g.a),w=x.home?p.pH:p.pA,l=x.home?p.pA:p.pH;right=`<span class="odds" title="Model's chances: win, draw, loss"><span>W ${pct(w)}</span><span>D ${pct(p.pD)}</span><span>L ${pct(l)}</span></span>`}
    else right='<span class="odds">no prediction</span>';
    return`<tr${g.id===nextId?' class="next"':""}><td class="dt">${fmtDay(g.dt)}<br>${fmtTime(g.dt)}</td><td>${x.home?"vs":"at"} <b>${oppName(g)}</b>${flexTag(g)}${venueLine(g.venue)}</td><td class="rs">${right}</td></tr>`}).join("")+
@@ -742,7 +767,9 @@ function drawTeam(c){const b=B,t=srows.find(r=>r.c===c),pr=power.findIndex(p=>p.
   others.map(o=>{const bi=bracketInfo(o.b),tr=bi.tb.find(x=>x.c===o.id);return`<a href="${showUrl(o.b,o.id)}"><b>${o.b.age} · ${esc(baseConf(o.b.conf))}</b><span>${ordn(bi.tb.indexOf(tr)+1)} of ${bi.ids.length} · ${tr.w}-${tr.d}-${tr.l}</span></a>`}).join("")+"</div>":"";
  const hist=histLines(c);
  const histCard=hist||otherHtml?`<div class="card my" id="s-thist" style="background:var(--card)">${hist?hist.replace('class="hist"','class="hist" style="margin:0;padding:0;border:0"'):""}${otherHtml}</div>`:"";
- $("s-team").innerHTML=`<div class="kpis">${kp}</div>${btns}<div class="grid2"><div>${stats}${histCard}</div>${sched}</div>${oppT}`;
+ const fgr=groupOf(b.age,c),fRow=fgr&&fgr.rows.find(r=>r.id===c);
+ const fgCard=fgr?`<div class="card" id="s-tflex"><h2>Flex group</h2><div class="sub">${esc(nm(c))} is ${fRow&&fRow.mp?`${ordn(fRow.pos)} of ${fgr.rows.length} in`:"in"} the official ${esc(fgr.name)} MLS NEXT Flex group table (<a href="#s-flexhelp">what's Flex?</a>).</div>${flexTable(fgr,c)}</div>`:"";
+ $("s-team").innerHTML=`<div class="kpis">${kp}</div>${btns}<div class="grid2"><div>${stats}${fgCard}${histCard}</div>${sched}</div>${oppT}`;
  $("tFollow").onclick=()=>{myTeam=myTeam===c?"":c;try{localStorage.setItem(MYKEY,myTeam)}catch(e){}drawTeam(c)};
  if(fu.length)$("tCal").onclick=()=>downloadIcs(c);$("tShare").onclick=()=>$("share").click();
  $("meta").innerHTML=`<span>${PAST?"Final results":`Updated ${fmtDay(SNAP)}`}</span><span>${esc(b.age)} ${esc(b.conf)} Conference</span>${fu[0]?`<span>Next game ${fmtDay(fu[0].dt)}</span>`:""}`}
@@ -782,7 +809,7 @@ function drawClub(){const teams=DATA.brackets.flatMap(b=>Object.entries(b.teams)
    `<div class="cs">${st("league W-D-L",`${r.tb.w}-${r.tb.d}-${r.tb.l}`)}${st("points / game",r.tb.mp?r.tb.ppm.toFixed(2):"–")}${st("goal diff.",(r.tb.gd>0?"+":"")+r.tb.gd)}`+
    `${st("national",r.nat?`${ordn(r.nat)}<span class="mut" style="font-size:12px;font-weight:400">/${r.natN}</span>`:"–")}${st("power in conf.",ordn(r.pr))}${PAST?"":st("last season",h?`${ordn(h[3])}<span class="mut" style="font-size:12px;font-weight:400">/${h[4]}</span>`:"–")}</div>`+
    `<div class="cf2"><span class="form">${r.form||'<span class="mut" style="background:none;color:var(--mut);width:auto">No games yet</span>'}</span><span class="pj">Top line ${pbar(r.sim.res[r.id].pch)}</span></div>`+
-   (r.flex.n?`<div class="cn"><span class="ftag" style="margin:0 6px 0 0">Flex</span>${fx3(r.flex)} W-D-L in ${r.flex.n} MLS NEXT Flex game${r.flex.n>1?"s":""}</div>`:"")+
+   (r.flex.n?`<div class="cn"><span class="ftag" style="margin:0 6px 0 0">Flex</span>${fx3(r.flex)} W-D-L${(g=>{const x=g&&g.rows.find(y=>y.id===r.id);return x&&x.mp?` · ${ordn(x.pos)} of ${g.rows.length} in the ${esc(g.name)} group`:""})(groupOf(r.b.age,r.id))}</div>`:"")+
    `<div class="cn nxcol">${r.nx?`Next: <b>${fmtDay(r.nx.dt)}</b> · ${r.nx.h===r.id?"vs":"at"} ${opp(r,r.nx)}${flexTag(r.nx)}`:'<span class="mut">Season over</span>'}</div></a>`}).join("");
  $("clubKey").innerHTML=`<span><b>Top line</b> ${anyCut?"U13/U14: estimated Championship-bracket cut from last season; U15–U19: top 4 (not an official playoff line)":"top 4 in the conference (not an official playoff line)"}</span><span><b>Power</b> model rating rank inside the conference</span>`;
  // upcoming: next two weekends across all teams
@@ -795,7 +822,7 @@ function drawClub(){const teams=DATA.brackets.flatMap(b=>Object.entries(b.teams)
  // recent results: last two weekends
  const past=rows.flatMap(r=>r.o.pl.filter(g=>g.h===r.id||g.a===r.id).concat(r.fxT.filter(g=>g.hs!==null)).map(g=>({r,g}))).sort((x,y)=>x.g.dt<y.g.dt?-1:1),pw=byWeek(past.map(x=>x.g)).slice(-2).reverse();
  $("clubRes").innerHTML=pw.map(gs=>`<tr class="day"><td colspan="3">${weekLabel(gs)}</td></tr>`+past.filter(x=>gs.includes(x.g)).map(({r,g})=>{const home=g.h===r.id,f=home?g.hs:g.as,a=home?g.as:g.hs,res=f>a?"w":f<a?"l":"d";
-  return`<tr title="${fmtDate(g.dt)}${g.venue?" · "+esc(g.venue):""}"><td style="width:46px"><span class="agetag">${r.b.age}</span></td><td><span class="chip ${res}">${f}–${a}</span>${newPill(g)}</td><td class="opp">${home?"vs":"at"} ${esc(ALLN[home?g.a:g.h]||"?")}${flexTag(g)}</td></tr>`}).join("")).join("")||'<tr><td class="empty">No results yet.</td></tr>';
+  return`<tr title="${fmtDate(g.dt)}${g.venue?" · "+esc(g.venue):""}"><td style="width:46px"><span class="agetag">${r.b.age}</span></td><td><span class="chip ${res}">${f}–${a}</span>${pensTxt(g,r.id)}${newPill(g)}</td><td class="opp">${home?"vs":"at"} ${esc(ALLN[home?g.a:g.h]||"?")}${flexTag(g)}</td></tr>`}).join("")).join("")||'<tr><td class="empty">No results yet.</td></tr>';
  const n=rows.length,confs=new Set(rows.map(r=>baseConf(r.b.conf)));
  $("meta").innerHTML=`<span>Updated ${fmtDay(SNAP)}</span><span>${n} team${n>1?"s":""} in ${confs.size} conference${confs.size>1?"s":""}</span>`}
 
@@ -823,7 +850,7 @@ function drawNational(){const age=B.age,rows=natRows(age),reg=rows.filter(r=>r.b
  $("natPpp").textContent=ppp.length?"Pro Player Pathway conferences are a separate pool of pro academies, so they're ranked in their own table below.":"";
  $("natPppWrap").innerHTML=ppp.length?`<h3>Pro Player Pathway</h3><p>Ranked among themselves; ratings aren't comparable with the main list.</p><div class="scroll"><table class="st nat" id="natPpp2">${tableHtml(ppp,rankOf(ppp))}</table></div>`:"";
  document.querySelectorAll(".nat th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(natK===k)natDir*=-1;else{natK=k;natDir=k==="conf"?1:-1}drawNational()});}
-function drawAll(){drawMy();drawStand();drawH2H();drawPower();drawResults();drawPreds();drawAcc()}
+function drawAll(){drawMy();drawStand();drawH2H();drawPower();drawResults();drawPreds();drawAcc();drawFlexGroups()}
 $("myTeam").onchange=e=>{myTeam=e.target.value;pin=null;try{localStorage.setItem(MYKEY,myTeam)}catch(err){}syncUrl();drawAll();drawTabs()};
 // share this exact view: the phone share sheet where there is one, else copy the link
 $("share").onclick=async()=>{const url=location.href,btn=$("share"),title=myTeam?`${nm(myTeam)} · ${B.age} ${B.conf}`:`${B.age} ${B.conf} Conference`;

@@ -60,6 +60,12 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   Shown with a "Flex" tag in Results, Upcoming, the My team card (separate Flex W-D-L), the club page and the calendar.
   Standings, Who beat who, the season sim and the accuracy check stay League-only (like MLS NEXT's table). Only played
   same-bracket Flex games feed the ratings (`ratable`); Flex games vs another bracket get no prediction.
+- Flex group tables: `standings/mls-next-flex-26-27.json` (52 groups, U15-U19; groups mix regular clubs with Pro Player
+  Pathway academies). refresh.py stores MLS's own values in `data/flex_groups.json` (position, MP, W, shootouts, L,
+  points, points/match, GD/match) and the page shows them as-is (`DATA.fgroups`): conference page "Flex groups" card,
+  team page "Flex group" card, club cards. Drawn Flex games go to penalty shootouts (`pens` column, "4-2"), shown as
+  "(4–2 pens)"; the official Flex table gives 3 win / 2 shootout win / 1 shootout loss (fits 177 of 190 teams with shootouts).
+- "League games vs MLS NEXT Flex games" explainer card (`#s-flexhelp`) on every page, linked as "what's Flex?".
 - MLS NEXT Flex: `schedule/mls-next-flex-26-27.json`. U15–U19 only, the **same squad ids** as the league, in Flex groups
   that are mostly subdivisions of a league conference; ~800 games pit Pro Player Pathway academies against regular-conference clubs.
 - No earlier seasons exist on this host (25-26 and other keys return a 631-byte HTML page), so there is no

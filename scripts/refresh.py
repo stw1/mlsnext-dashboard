@@ -21,7 +21,7 @@ UA = {"User-Agent": "Mozilla/5.0 (personal dashboard refresh)"}
 # Starting ratings from the season before (scripts/priors.py --evaluate chose these). None = start everyone at average.
 PRIOR_WEIGHT, PRIOR_MODE = 0.75, "avg"
 FIELDS = ["age", "conference", "comp", "match_id", "start", "home_id", "away_id", "home_team", "away_team",
-          "home_score", "away_score", "venue"]
+          "home_score", "away_score", "venue", "pens"]
 
 def get_json(url):
     req = urllib.request.Request(url, headers=UA)
@@ -56,11 +56,28 @@ def fetch(season, ages, confs):
         for sid in teams:
             team_bracket[sid] = (age, conf)
     sch = get_json(f"{BASE}/schedule/{season}.json")
+    fkey = season.replace('-league-', '-flex-')
     try:
-        flex = get_json(f"{BASE}/schedule/{season.replace('-league-', '-flex-')}.json")["events"]
+        flex = get_json(f"{BASE}/schedule/{fkey}.json")["events"]
     except Exception as err:  # Flex is a bonus; never block the league refresh on it
         print(f"warning: no Flex data ({err})")
         flex = []
+    # official Flex group tables (MLS's own points: 3 win, 2 shootout win, 1 shootout loss; ranked by points per game)
+    groups = []
+    try:
+        for b in get_json(f"{BASE}/standings/{fkey}.json")["competition_season"]["competition_brackets"]:
+            if not wanted(b["age_group"]["name"], ages):
+                continue
+            rows = []
+            for st_ in b["standings"]:
+                tv = {k: v["value"] for k, v in (st_.get("tiebreaker_values") or {}).items()}
+                rows.append([str(st_["team"]["squad_id"]), st_["team"]["name"], st_["position"], int(tv.get("matches_played", 0)),
+                             int(tv.get("won_penalty_shootout", 0)), int(tv.get("tie_penalty_shootout", 0)), int(tv.get("loss_penalty_shootout", 0)),
+                             int(tv.get("points_penalty_shootout", 0)), float(tv.get("points_per_match_penalty_shootout", 0)),
+                             float(tv.get("goal_differential_per_match", 0))])
+            groups.append({"age": b["age_group"]["name"], "name": b["name"], "rows": sorted(rows, key=lambda r: r[2])})
+    except Exception as err:
+        print(f"warning: no Flex standings ({err})")
     games = []
     names = {sid: n for b in brackets for sid, n in b["teams"].items()}
     for comp, e in [("league", e) for e in sch["events"]] + [("flex", e) for e in flex]:
@@ -77,16 +94,18 @@ def fetch(season, ages, confs):
         else:
             venue, start = loc, t.strftime("%Y-%m-%dT%H:%MZ")
         done = e.get("completed")
+        hp, ap = e.get("home_penalty_shootout_score"), e.get("away_penalty_shootout_score")
+        pens = f"{hp}-{ap}" if done and comp == "flex" and e.get("home_score") == e.get("away_score") and (hp or ap) else ""
         org = lambda side: ((e.get(f"{side}_organisation") or {}).get("name") or e.get(f"{side}_squad_name") or "?").strip()
         games.append({"age": br[0], "conference": br[1], "comp": comp, "match_id": e["game_key"], "start": start,
                       "home_id": h, "away_id": a, "home_team": names.get(h) or org("home"), "away_team": names.get(a) or org("away"),
                       "home_score": e["home_score"] if done else "", "away_score": e["away_score"] if done else "",
-                      "venue": venue})
+                      "venue": venue, "pens": pens})
     brackets.sort(key=bracket_order)
     games.sort(key=lambda g: (age_num(g["age"]), g["conference"], g["comp"] != "league", g["start"], str(g["match_id"])))
-    return brackets, games, sch.get("synced_at", "")
+    return brackets, games, sch.get("synced_at", ""), groups
 
-def save(brackets, games, meta):
+def save(brackets, games, meta, groups=None):
     os.makedirs(f"{ROOT}/data", exist_ok=True)
     with open(f"{ROOT}/data/games.csv", "w", newline="") as f:
         w = csv.DictWriter(f, FIELDS)
@@ -94,15 +113,19 @@ def save(brackets, games, meta):
         w.writerows(games)
     json.dump(brackets, open(f"{ROOT}/data/brackets.json", "w"), indent=1, ensure_ascii=False)
     json.dump(meta, open(f"{ROOT}/data/meta.json", "w"), indent=1)
+    if groups is not None:
+        json.dump(groups, open(f"{ROOT}/data/flex_groups.json", "w"), ensure_ascii=False)
 
 def load():
     brackets = json.load(open(f"{ROOT}/data/brackets.json"))
     meta = json.load(open(f"{ROOT}/data/meta.json"))
     with open(f"{ROOT}/data/games.csv") as f:
         games = list(csv.DictReader(f))
-    return brackets, games, meta
+    gpath = f"{ROOT}/data/flex_groups.json"
+    groups = json.load(open(gpath)) if os.path.exists(gpath) else []
+    return brackets, games, meta, groups
 
-def build(brackets, games, meta, default):
+def build(brackets, games, meta, default, groups=()):
     tpl = open(f"{ROOT}/template/dashboard_template.html").read()
     # league and Flex games: id,start,home,away,hs,as,venue# . A Flex game is listed in the bracket of each of our teams
     # in it; opponents outside the bracket are named via DATA.xnames (teams of other brackets come from DATA itself).
@@ -114,7 +137,8 @@ def build(brackets, games, meta, default):
         v = g.get("venue") or ""
         if v and v not in vix:
             vix[v] = len(venues); venues.append(v)
-        row = ",".join([str(g["match_id"]), g["start"], g["home_id"], g["away_id"], str(g["home_score"]), str(g["away_score"]), str(vix[v]) if v else ""])
+        row = ",".join([str(g["match_id"]), g["start"], g["home_id"], g["away_id"], str(g["home_score"]), str(g["away_score"]), str(vix[v]) if v else ""]
+                       + ([g["pens"]] if g.get("pens") else []))
         if g.get("comp", "league") != "flex":
             league.setdefault((g["age"], g["conference"]), []).append(row)
             continue
@@ -124,7 +148,13 @@ def build(brackets, games, meta, default):
             if g[f"{side}_id"] not in known:
                 xnames[g[f"{side}_id"]] = g[f"{side}_team"]
     dage, dconf = default.split(":", 1)
+    # Flex groups: [age, name, [[squad, pos, mp, w, sho, l, pts, ppm, gdpm], ...]]; outsiders' names go to xnames
+    for gr in groups:
+        for r in gr["rows"]:
+            if r[0] not in known:
+                xnames.setdefault(r[0], r[1])
     data = {"default": {"age": dage, "conf": dconf}, "snap": meta["snapshot"], "venues": venues, "xnames": xnames,
+            "fgroups": [[gr["age"], gr["name"], [[r[0]] + r[2:] for r in gr["rows"]]] for gr in groups],
             "brackets": [{"age": b["age"], "conf": b["conf"], "teams": b["teams"],
                           "raw": ";".join(league.get((b["age"], b["conf"]), [])),
                           "flex": ";".join(flex.get((b["age"], b["conf"]), []))} for b in brackets]}
@@ -167,11 +197,11 @@ if __name__ == "__main__":
     ap.add_argument("--offline", action="store_true", help="skip download, rebuild from data/")
     a = ap.parse_args()
     if a.offline:
-        brackets, games, meta = load()
+        brackets, games, meta, groups = load()
     else:
-        brackets, games, synced = fetch(a.season, a.age, a.conference)
+        brackets, games, synced, groups = fetch(a.season, a.age, a.conference)
         if not brackets:
             raise SystemExit(f"No brackets match --age {a.age} --conference {a.conference}")
         meta = {"snapshot": datetime.now(ZoneInfo(a.tz)).date().isoformat(), "synced_at": synced, "season_key": a.season}
-        save(brackets, games, meta)
-    build(brackets, games, meta, a.default)
+        save(brackets, games, meta, groups)
+    build(brackets, games, meta, a.default, groups)
