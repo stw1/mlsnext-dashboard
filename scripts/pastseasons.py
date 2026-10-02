@@ -27,13 +27,38 @@ def conference(r):
     d = r["division"] or r["group_home"]
     return d if r["bracket"] != "League (Pro Player Pathway)" or "Pro Player" in d else f"{d} (Pro Player Pathway)"
 
-def brackets_of(rs):
-    """{(age, conf): {team key: display name}} from league games."""
-    out = collections.defaultdict(dict)
+def main_conf(rs):
+    """{(age, team key): conference}: where each team played most of its league games. A few seasons label some of
+    a conference's games with a sub-division (2024-25 U16 "Mid-America (East)"), which would otherwise split a team
+    across two tables."""
+    n = collections.Counter()
     for r in rs:
         if r["bracket"] in LEAGUE:
             for side in ("home", "away"):
-                out[(r["age"], conference(r))].setdefault(norm(r[side]), r[side])
+                n[(r["age"], norm(r[side]), conference(r))] += 1
+    ranked_ = sorted(n.items(), key=lambda x: (-x[1], x[0][2]))
+    best = {}
+    for (age, k, conf), c in ranked_:
+        best.setdefault((age, k), conf)
+    # a "conference" that would hold a single team is a labelling leftover: use that team's next most common one
+    size = collections.Counter((a, c) for (a, _), c in best.items())
+    for (age, k), conf in list(best.items()):
+        if size[(age, conf)] == 1:
+            alt = next((c2 for (a2, k2, c2), _ in ranked_ if (a2, k2) == (age, k) and c2 != conf), None)
+            base = conf.split(" (")[0]  # "Mid-America (East)" -> "Mid-America"
+            alt = alt or (base if base != conf and size[(age, base)] else None)
+            if alt:
+                best[(age, k)] = alt
+    return best
+
+def brackets_of(rs):
+    """{(age, conf): {team key: display name}} from league games, each team in its main conference."""
+    main, out = main_conf(rs), collections.defaultdict(dict)
+    for r in rs:
+        if r["bracket"] in LEAGUE:
+            for side in ("home", "away"):
+                k = norm(r[side])
+                out[(r["age"], main[(r["age"], k)])].setdefault(k, r[side])
     return out
 
 def ranked(games, teams):
@@ -66,10 +91,10 @@ def ranked(games, teams):
 
 def final_tables(season):
     rs = [r for r in rows(season) if r["home_score"] != ""]
-    out = {}
+    main, out = main_conf(rs), {}
     for (age, conf), teams in brackets_of(rs).items():
         gs = [(norm(r["home"]), norm(r["away"]), int(r["home_score"]), int(r["away_score"])) for r in rs
-              if r["bracket"] in LEAGUE and r["age"] == age and conference(r) == conf]
+              if r["bracket"] in LEAGUE and r["age"] == age and main[(age, norm(r["home"]))] == conf == main[(age, norm(r["away"]))]]
         out[(age, conf)] = ranked(gs, list(teams))
     return out
 
@@ -107,27 +132,50 @@ def past_data(season, default):
                           "raw": ";".join(league[(age, conf)]), "flex": ";".join(extra[(age, conf)])}
                          for age, conf in sorted(br, key=order)]}
 
-def team_history(brackets):
-    """{squad_id: [[season, age, conf, rank, of, w, d, l, gf, ga], ...]} following the same players back
-    (this season's U14 -> last season's U13 -> the season before's U12 is not in MLS NEXT, so it stops)."""
-    tables = {s: final_tables(s) for s in seasons()}
-    where = {s: {(age, k): (conf, i + 1, len(tb), st) for (age, conf), tb in t.items() for i, (k, st) in enumerate(tb)}
-             for s, t in tables.items()}
+def season_index(season):
+    """{(age, team key): (conf, rank, of, stats, display name, [flex w, d, l])} for one finished season."""
+    rs = [r for r in rows(season) if r["home_score"] != ""]
+    names = brackets_of(rs)
+    flex = collections.defaultdict(lambda: [0, 0, 0])
+    for r in rs:
+        if "Flex" not in r["bracket"]:
+            continue
+        x, y = int(r["home_score"]), int(r["away_score"])
+        for side, f, a in (("home", x, y), ("away", y, x)):
+            flex[(r["age"], norm(r[side]))][0 if f > a else 1 if f == a else 2] += 1
     out = {}
+    for (age, conf), tb in final_tables(season).items():
+        for i, (k, st) in enumerate(tb):
+            out[(age, k)] = (conf, i + 1, len(tb), st, names[(age, conf)].get(k, k), flex.get((age, k), [0, 0, 0]))
+    return out
+
+def team_history(brackets):
+    """Two views of each squad's past, newest season first, rows [season, age, conf, rank, of, w, d, l, gf, ga,
+    name that season ("" if unchanged), flex w, flex d, flex l]:
+      hist  the same players (this season's U15 = last season's U14 = the season before's U13)
+      same  the club's team in this age group in earlier seasons (different players each year)"""
+    idx = {s: season_index(s) for s in seasons()}
+    # the name that season is only stored when it differs from this season's ("" = same name)
+    row = lambda s, age, hit, now: [s, age, hit[0], hit[1], hit[2], hit[3]["w"], hit[3]["d"], hit[3]["l"], hit[3]["gf"], hit[3]["ga"],
+                                    "" if hit[4] == now else hit[4], *hit[5]]
+    hist, same = {}, {}
     for b in brackets:
         for sid, name in b["teams"].items():
-            k, age, hist = norm(name), b["age"], []
+            k, age, h, sm = norm(name), b["age"], [], []
             for s in seasons():  # newest first
                 age = PREV_AGE.get(age)
                 if not age:
                     break
-                hit = where[s].get((age, k))
-                if hit:
-                    conf, rank, n, st = hit
-                    hist.append([s, age, conf, rank, n, st["w"], st["d"], st["l"], st["gf"], st["ga"]])
-            if hist:
-                out[sid] = hist
-    return out
+                if (age, k) in idx[s]:
+                    h.append(row(s, age, idx[s][(age, k)], name))
+            for s in seasons():
+                if (b["age"], k) in idx[s]:
+                    sm.append(row(s, b["age"], idx[s][(b["age"], k)], name))
+            if h:
+                hist[sid] = h
+            if sm:
+                same[sid] = sm
+    return hist, same
 
 def priors(brackets, prev_season, weight, mode="cohort"):
     """Starting ratings for each team from the season before: {squad_id: [att, def]} (weight already applied).

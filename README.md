@@ -7,7 +7,9 @@ An unofficial fan dashboard for the MLS NEXT Allstate Homegrown Division. It's n
 - Standings for every age group (U13–U19) and conference, ordered by the official rules, plus national rankings
 - Who beat who, power rankings, results and predicted scores for every remaining game
 - League and MLS NEXT Flex games, including the official Flex group tables
-- Team pages, club pages (every age group of one club) and past seasons back to 2023–24
+- Team pages (with how the same players and the club's team did in earlier seasons), club pages and past seasons
+  back to 2023–24
+- An Insights page: biggest climbers and drops since last season, upsets, unbeaten starts, streaks and more
 - Calendars you can subscribe to for any team; they update by themselves when kickoff times change
 
 ## How it works

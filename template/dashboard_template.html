@@ -78,6 +78,16 @@ table tbody tr.me td,table tbody tr.me:hover td{background:#fef9c3}table tbody t
 /* team page */
 .tl{color:inherit;text-decoration:none}.tl:hover{text-decoration:underline}
 .tbtns{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.ichips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.ichips a{padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:inherit;text-decoration:none;font-size:13px}.ichips a.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.igrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}.igrid .card{margin:0}@media(max-width:900px){.igrid{grid-template-columns:minmax(0,1fr)}}
+.irow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;padding:9px 0;border-top:1px solid var(--line)}.irow:first-of-type{border-top:0}.irow.me{background:#fef9c3;margin:0 -8px;padding:9px 8px;border-radius:8px}
+.irow .it{font-weight:600;min-width:0}.irow .it a{color:inherit;text-decoration:none}.irow .it a:hover{text-decoration:underline}.irow .ia{color:var(--mut);font-weight:400;font-size:12px;white-space:nowrap}
+.irow .iv{font-weight:700;white-space:nowrap;text-align:right}.irow .id{grid-column:1/-1;color:var(--mut);font-size:12.5px}.irow .id a{color:inherit}
+.pcmp{border-radius:10px;padding:10px 12px;margin:4px 0 12px;background:rgba(100,116,139,.1);font-size:13px}.pcmp b{display:block;font-size:14px;margin-bottom:2px}.pcmp.up{background:rgba(22,163,74,.1)}.pcmp.up b{color:var(--w)}.pcmp.down{background:rgba(220,38,38,.08)}.pcmp.down b{color:var(--l)}
+h3.ph{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:14px 0 4px}.pst td,.pst th{text-align:left}.pst td:not(.t){white-space:nowrap}
+.pf{display:inline-block;width:34px;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--teal) var(--p),var(--line) var(--p));margin-right:6px;vertical-align:1px}
+@media(prefers-color-scheme:dark){.irow.me{background:#3a3210}}
+
 .calbox{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:-8px 0 18px;background:var(--card)}.my .calbox{margin:10px 0 0}.calbox .cb-h{font-weight:600;font-size:14px}.calbox .cb-s{color:var(--mut);font-size:12.5px;margin:3px 0 0}.calbox .cb-b{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}.calbox .btn{margin:0;text-decoration:none;display:inline-flex;align-items:center}.calbox[hidden]{display:none}.tbtns .btn{margin:0;text-decoration:none;display:inline-flex;align-items:center}.tbtns .btn.on{background:#fef9c3;border-color:#eab308;color:#713f12}
 .form span.fx,.chip.fx{box-shadow:inset 0 0 0 2px #7c3aed}
 .tstats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 18px}.tstats div{font-size:12px;color:var(--mut)}.tstats b{display:block;font-size:16px;color:var(--ink);font-weight:700}
@@ -290,6 +300,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 <div class="scroll"><table class="st nat" id="natTable"></table></div>
 <div id="natPppWrap"></div>
 <div class="hint">Tap a team to open its team page. Teams you follow are highlighted in yellow.</div></div>
+<div id="s-ins" style="display:none"></div>
 <div id="s-club" style="display:none">
 <div class="kpis" id="clubKpis"></div>
 <div class="card" id="s-cteams"><h2>Teams</h2><div class="sub">Every age group this club has in the Homegrown Division. National rank compares teams within their own conference strength (see the national page for what that means). Tap a team to open its team page.</div>
@@ -333,9 +344,11 @@ const B=pickBracket();
 const NATIONAL=slugC(qs.get("conf"))==="national";
 // ?club=<slug> lists every team of one club across age groups
 const CLUBQ=(qs.get("club")||"").toLowerCase();
+// ?view=insights (optionally &age=U15): risers and drops since last season, upsets, streaks and other observations
+const INSIGHTS=!CLUBQ&&!PAST&&qs.get("view")==="insights",IAGE=INSIGHTS?(qs.get("age")||""):"";
 // ?show=<team slug> opens one team's page inside its bracket (does not change the followed team)
-const SHOWQ=NATIONAL||CLUBQ?"":(qs.get("show")||"").toLowerCase();
-try{if(!NATIONAL)localStorage.setItem("bracket",JSON.stringify({age:B.age,conf:B.conf}))}catch(e){}
+const SHOWQ=NATIONAL||CLUBQ||INSIGHTS?"":(qs.get("show")||"").toLowerCase();
+try{if(!NATIONAL&&!INSIGHTS)localStorage.setItem("bracket",JSON.stringify({age:B.age,conf:B.conf}))}catch(e){}
 const bracketUrl=(b,extra="")=>`?age=${b.age}&conf=${slugC(b.conf)}${extra}`;
 // teams in links use a readable slug (&team=ballistic-united); the older &follow=<squad id> still works
 const slugT=n=>n.toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
@@ -343,7 +356,7 @@ const slugT=n=>n.toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").
 const teamBySlug=(b,s)=>{if(!s)return;const k=slugT(s),ids=Object.keys(b.teams);return ids.find(id=>id===s||slugT(b.teams[id])===k)||ids.find(id=>slugT(shortName(b.teams[id]))===k)};
 const pageUrl=(b,team)=>bracketUrl(b,team?`&team=${slugT(b.teams[team])}`:"");
 const TPRE=`MLS NEXT Homegrown Division · ${PAST?PAST+" · ":""}`;
-document.title=CLUBQ?`${TPRE}${CLUBQ} · all teams`:NATIONAL?`${TPRE}${B.age} National rankings`:`${TPRE}${B.age} ${B.conf} Conference`;
+document.title=CLUBQ?`${TPRE}${CLUBQ} · all teams`:INSIGHTS?`${TPRE}Insights${IAGE?" · "+IAGE:""}`:NATIONAL?`${TPRE}${B.age} National rankings`:`${TPRE}${B.age} ${B.conf} Conference`;
 const RAW=B.raw,TEAMS=B.teams,SNAP=DATA.snap,VEN=DATA.venues||[];
 // kickoff times arrive in UTC ("2026-10-03T16:00Z"); show them in the viewer's time zone. Date-only = time not set.
 const p2=n=>String(n).padStart(2,"0");
@@ -456,7 +469,7 @@ for(let s=0;s<SIMS;s++){const S=Object.fromEntries(codes.map(c=>[c,{...base[c]}]
 // ---- render helpers ----
 const $=id=>document.getElementById(id);const pct=x=>(x*100).toFixed(0)+"%";const ALLN=Object.assign({},DATA.xnames||{},...DATA.brackets.map(b=>b.teams)),nm=c=>TEAMS[c]||(ALLN[c]?ALLN[c]+xAge(c):"?");
 // an opponent from another age group (cross-age league games) is shown with its age, e.g. "LA Galaxy U17"
-const xAge=c=>{const b=!CLUBQ&&!NATIONAL&&DATA.brackets.find(x=>c in x.teams);return b&&b.age!==B.age?" "+b.age:""};
+const xAge=c=>{const b=!CLUBQ&&!NATIONAL&&!INSIGHTS&&DATA.brackets.find(x=>c in x.teams);return b&&b.age!==B.age?" "+b.age:""};
 const fmtDate=d=>{const[dd,tt]=d.split(" ");const D=new Date(dd+"T12:00:00");return D.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"})+(tt?" · "+(+tt.slice(0,2)%12||12)+":"+tt.slice(3)+(+tt.slice(0,2)>=12?" PM":" AM"):" · time TBD")};
 const day=d=>new Date(d.slice(0,10)+"T12:00:00");
 const fmtDay=d=>day(d).toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"});
@@ -489,7 +502,7 @@ const linked=teamBySlug(B,qs.get("team")||qs.get("follow"));if(linked){myTeam=li
 if(!TEAMS[myTeam]||NATIONAL||CLUBQ)myTeam="";
 const SHOW=SHOWQ?teamBySlug(B,SHOWQ):undefined;
 // keep the address bar in step with the bracket and followed team, so copying it shares exactly this view
-const syncUrl=()=>{if(CLUBQ)return;try{history.replaceState(null,"",(SHOW?bracketUrl(B,`&show=${slugT(nm(SHOW))}`):NATIONAL?`?age=${B.age}&conf=national`:pageUrl(B,myTeam))+location.hash)}catch(e){}};
+const syncUrl=()=>{if(CLUBQ||INSIGHTS)return;try{history.replaceState(null,"",(SHOW?bracketUrl(B,`&show=${slugT(nm(SHOW))}`):NATIONAL?`?age=${B.age}&conf=national`:pageUrl(B,myTeam))+location.hash)}catch(e){}};
 syncUrl();
 // "new since your last visit": a visit ends after 6 quiet hours; results that weren't there at the end of the
 // previous visit get a "New" mark for the whole of this one
@@ -512,8 +525,8 @@ if(B.conf!==baseConf(B.conf)&&!NATIONAL)$("ppp").style.display="inline-block";
 // age tabs keep the conference when that age has it (else its regular version for Pro Player Pathway, else the default)
 const ages=[...new Set(DATA.brackets.map(b=>b.age))];
 const drawTabs=()=>{$("ages").innerHTML=ages.map(a=>{const b=findB(a,B.conf)||findB(a,baseConf(B.conf))||findB(a,DATA.default.conf)||DATA.brackets.find(x=>x.age===a);const st=SHOW&&teamBySlug(b,nm(SHOW));return`<a href="${NATIONAL?`?age=${a}&conf=national`:st?showUrl(b,st):SHOW?bracketUrl(b):pageUrl(b,myTeam&&teamBySlug(b,nm(myTeam)))}"${a===B.age?' class="on" aria-current="page"':""}>${a}</a>`}).join("")};drawTabs();
-$("confSel").innerHTML=`<option value="national"${NATIONAL?" selected":""}>National (all conferences)</option>`+DATA.brackets.filter(b=>b.age===B.age).map(b=>`<option value="${slugC(b.conf)}"${b===B&&!NATIONAL?" selected":""}>${b.conf}</option>`).join("");
-$("confSel").onchange=e=>{location.search=`?age=${B.age}&conf=${e.target.value}`};
+$("confSel").innerHTML=`<option value="national"${NATIONAL?" selected":""}>National (all conferences)</option>`+(PAST?"":`<option value="insights">Insights: risers, upsets, streaks</option>`)+DATA.brackets.filter(b=>b.age===B.age).map(b=>`<option value="${slugC(b.conf)}"${b===B&&!NATIONAL?" selected":""}>${b.conf}</option>`).join("");
+$("confSel").onchange=e=>{location.search=e.target.value==="insights"?`?view=insights&age=${B.age}`:`?age=${B.age}&conf=${e.target.value}`};
 // find any team across every bracket; picking one opens its bracket and follows it
 const ALLT=DATA.brackets.flatMap(b=>Object.entries(b.teams).map(([id,n])=>({id,n,l:n.toLowerCase(),b})));
 let findSel=0;
@@ -795,13 +808,92 @@ function drawTeam(c){const b=B,t=srows.find(r=>r.c===c),pr=power.findIndex(p=>p.
  const otherHtml=others.length?`<div class="tother"><div class="lab" style="font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);font-weight:600;margin:6px 0 4px">${esc(short(c))} in other age groups</div>`+
   others.map(o=>{const bi=bracketInfo(o.b),tr=bi.tb.find(x=>x.c===o.id);return`<a href="${showUrl(o.b,o.id)}"><b>${o.b.age} · ${esc(baseConf(o.b.conf))}</b><span>${ordn(bi.tb.indexOf(tr)+1)} of ${bi.ids.length} · ${tr.w}-${tr.d}-${tr.l}</span></a>`}).join("")+"</div>":"";
  const hist=histLines(c);
- const histCard=hist||otherHtml?`<div class="card my" id="s-thist" style="background:var(--card)">${hist?hist.replace('class="hist"','class="hist" style="margin:0;padding:0;border:0"'):""}${otherHtml}</div>`:"";
+ const pastH=PAST?"":pastCard(c),histCard=pastH+(otherHtml?`<div class="card my" id="s-tother" style="background:var(--card)">${otherHtml}</div>`:"");
  const fgr=groupOf(b.age,c),fRow=fgr&&fgr.rows.find(r=>r.id===c);
  const fgCard=fgr?`<div class="card" id="s-tflex"><h2>Flex group</h2><div class="sub">${esc(nm(c))} is ${fRow&&fRow.mp?`${ordn(fRow.pos)} of ${fgr.rows.length} in`:"in"} the official ${esc(fgr.name)} MLS NEXT Flex group table (<a href="#s-flexhelp">what's Flex?</a>).</div>${flexTable(fgr,c)}</div>`:"";
  $("s-team").innerHTML=`<div class="kpis">${kp}</div>${btns}<div class="grid2"><div>${stats}${fgCard}${histCard}</div>${sched}</div>${oppT}`;
  $("tFollow").onclick=()=>{myTeam=myTeam===c?"":c;try{localStorage.setItem(MYKEY,myTeam)}catch(e){}drawTeam(c)};
  if(!PAST||fu.length)wireCal("tCal",c,fu.length);$("tShare").onclick=()=>$("share").click();
  $("meta").innerHTML=`<span>${PAST?"Final results":`Updated ${fmtDay(SNAP)}`}</span><span>${esc(b.age)} ${esc(b.conf)} Conference</span>${fu[0]?`<span>Next game ${fmtDay(fu[0].dt)}</span>`:""}`}
+
+
+// ---- past seasons on a team page, and the Insights page ----
+// DATA.hist[c]: the same players in earlier seasons; DATA.hsame[c]: the club's team in this age group in earlier seasons.
+// Rows: [season, age, conf, rank, of, w, d, l, gf, ga, name that season ("" = same), flex w, d, l]
+const pctl=(r,n)=>n>1?(n-r)/(n-1):1;
+const LASTS=Object.values(DATA.hist||{}).reduce((m,h)=>h[0]&&h[0][0]>m?h[0][0]:m,"");
+const nowRow=c=>{const b=BOF[c];if(!b)return null;const o=bracketInfo(b),t=o.tb.find(x=>x.c===c);return t?{t,r:o.tb.indexOf(t)+1,n:o.ids.length,b}:null};
+function pastRows(c,rows,cohort){return rows.map(([se,a,cf,rk,n,w,d,l,gf,ga,pn,fw,fd,fl])=>{const mp=w+d+l,ppg=mp?(3*w+d)/mp:0;
+ const href=`season-${se}.html?age=${a}&conf=${slugC(cf)}&show=${slugT(pn||nm(c))}`;
+ return`<tr><td class="t"><a href="${href}"><b>${se.replace("-","–")}</b></a><div class="mut" style="font-size:12px">${a} ${esc(baseConf(cf))}${cf!==baseConf(cf)?" PPP":""}${pn?` · as ${esc(pn)}`:""}</div></td>
+  <td><span class="pf" style="--p:${pctl(rk,n)*100}%"></span><b>${ordn(rk)}</b> <span class="mut">of ${n}</span></td><td class="xs-hide">${w}-${d}-${l}</td><td>${ppg.toFixed(2)}</td><td class="xs-hide">${gf}–${ga}</td>
+  <td class="xs-hide mut">${fw+fd+fl?`${fw}-${fd}-${fl}`:"–"}</td></tr>`}).join("")}
+function pastCard(c){const H=(DATA.hist||{})[c]||[],S=((DATA.hsame||{})[c]||[]);if(!H.length&&!S.length)return"";
+ const now=nowRow(c),head=`<thead><tr><th class="t">Season</th><th>Finish</th><th class="xs-hide">W-D-L</th><th title="Points per league game">Pts/G</th><th class="xs-hide">Goals</th><th class="xs-hide" title="MLS NEXT Flex W-D-L">Flex</th></tr></thead>`;
+ let cmp="";const L=H[0];
+ if(now&&L&&now.t.mp){const d=pctl(now.r,now.n)-pctl(L[3],L[4]),lp=(3*L[5]+L[6])/Math.max(1,L[5]+L[6]+L[7]);
+  const word=now.t.mp<3?"Early days":Math.abs(d)<0.12?"About where they were":d>0?"Higher than last season":"Lower than last season";
+  cmp=`<div class="pcmp ${now.t.mp<3?"":d>=0.12?"up":d<=-0.12?"down":""}"><b>${word}</b> ${ordn(now.r)} of ${now.n} now (${now.t.ppm.toFixed(2)} pts/game, ${now.t.mp} game${now.t.mp>1?"s":""}) · ${ordn(L[3])} of ${L[4]} in ${L[0].replace("-","–")} as ${L[1]} (${lp.toFixed(2)} pts/game)</div>`}
+ return`<div class="card" id="s-tpast"><h2>Previous seasons</h2>${cmp}`+
+  (H.length?`<h3 class="ph">Same players, a year younger each season</h3><div class="scroll"><table class="st pst">${head}<tbody>${pastRows(c,H,1)}</tbody></table></div>`:"")+
+  (S.length?`<h3 class="ph">${esc(short(c))}'s ${BOF[c]?BOF[c].age:""} team in earlier seasons <span class="mut" style="font-weight:400">(different players)</span></h3><div class="scroll"><table class="st pst">${head}<tbody>${pastRows(c,S,0)}</tbody></table></div>`:"")+
+  `<div class="hint">League finish and record from MLS NEXT's results (Modular11). Tap a season to open that team page.</div></div>`}
+
+const BT=new Map();
+// walk-forward predictions for one bracket (each weekend predicted from the games before it), as in the accuracy check
+function btFor(o){if(BT.has(o))return BT.get(o);const pri=priorArr(o.b,o.ids),pl=o.pl.filter(g=>inB(g,o.b.teams)),out=[];
+ for(const gs of byWeek(pl)){const d0=gs[0].dt.slice(0,10),before=pl.filter(g=>g.dt.slice(0,10)<d0).concat(o.fx.filter(f=>f.dt.slice(0,10)<d0));
+  if(!before.length&&!pri)continue;const m=fit(before,o.IX,o.ids.length,pri);for(const g of gs)out.push({g,p:predict(g.h,g.a,m)})}
+ BT.set(o,out);return out}
+function drawInsights(){const MIN=3,ages=[...new Set(DATA.brackets.map(b=>b.age))],bs=DATA.brackets.filter(b=>!IAGE||b.age===IAGE);
+ $("bracket").textContent=`Insights${IAGE?" · "+IAGE:""}`;
+ const followed=new Set(DATA.brackets.map(b=>{try{return localStorage.getItem(`myteam:${TPRE}${b.age} ${b.conf} Conference`)}catch(e){return null}}).filter(Boolean));
+ const T=[];for(const b of bs){const o=bracketInfo(b);o.tb.forEach((t,i)=>T.push({c:t.c,b,o,t,r:i+1,n:o.ids.length}))}
+ const tag=x=>`<span class="ia">${x.b.age} · ${esc(baseConf(x.b.conf))}${x.b.conf!==baseConf(x.b.conf)?" PPP":""}</span>`;
+ const row=(x,val,det)=>`<div class="irow${followed.has(x.c)?" me":""}"><div class="it">${tlink(x.c,teamName(x.c))} ${tag(x)}</div><div class="iv">${val}</div><div class="id">${det}</div></div>`;
+ const cardI=(id,title,sub,rows,empty)=>`<div class="card ins" id="${id}"><h2>${title}</h2><div class="sub">${sub}</div>${rows.length?rows.join(""):`<p class="mut" style="margin:6px 0">${empty||"Nothing yet: check back after more games."}</p>`}</div>`;
+ const enough=T.filter(x=>x.t.mp>=MIN);
+ // 1-2: compared with last season (the same players)
+ const cmpL=enough.map(x=>{const H=(DATA.hist||{})[x.c];const L=H&&H[0]&&H[0][0]===LASTS?H[0]:null;if(!L)return null;
+  const lp=(3*L[5]+L[6])/Math.max(1,L[5]+L[6]+L[7]);return{...x,L,lp,d:pctl(x.r,x.n)-pctl(L[3],L[4])}}).filter(Boolean);
+ const mv=x=>row(x,`${ordn(x.L[3])} → ${ordn(x.r)}`,`${ordn(x.L[3])} of ${x.L[4]} last season (${x.L[1]} ${esc(baseConf(x.L[2]))}) · ${ordn(x.r)} of ${x.n} now · ${x.lp.toFixed(2)} → ${x.t.ppm.toFixed(2)} pts/game in ${x.t.mp} games`);
+ const up=cmpL.filter(x=>x.d>=0.25).sort((p,q)=>q.d-p.d||q.t.ppm-p.t.ppm).slice(0,10),down=cmpL.filter(x=>x.d<=-0.25).sort((p,q)=>p.d-q.d||p.t.ppm-q.t.ppm).slice(0,10);
+ // 3: upsets
+ const ups=bs.flatMap(b=>{const o=bracketInfo(b);return btFor(o).filter(({g})=>g.hs!==g.as).map(({g,p})=>{const hw=g.hs>g.as;return{g,b,o,pw:hw?p.pH:p.pA,w:hw?g.h:g.a,l:hw?g.a:g.h}})})
+  .filter(x=>x.pw<0.3).sort((p,q)=>p.pw-q.pw).slice(0,10);
+ const upRow=x=>{const y={c:x.w,b:x.b};return row(y,`${pct(x.pw)}`,`beat ${tlink(x.l,teamName(x.l))} ${Math.max(x.g.hs,x.g.as)}–${Math.min(x.g.hs,x.g.as)} on ${fmtDay(x.g.dt)} · before kickoff the model gave them only ${pct(x.pw)} to win`)};
+ // 4: perfect and unbeaten starts; 5: winning streaks
+ const unbeaten=enough.filter(x=>!x.t.l).sort((p,q)=>(q.t.d===0)-(p.t.d===0)||q.t.mp-p.t.mp||q.t.ppm-p.t.ppm||(q.t.gf-q.t.ga)-(p.t.gf-p.t.ga)).slice(0,12);
+ const streak=x=>{let k=0;for(let i=x.t.form.length-1;i>=0&&x.t.form[i]==="W";i--)k++;return k};
+ const hot=T.map(x=>({...x,k:streak(x)})).filter(x=>x.k>=3).sort((p,q)=>q.k-p.k||q.t.ppm-p.t.ppm).slice(0,10);
+ // 6-7: attack and defence
+ const gpg=x=>x.t.gf/x.t.mp,apg=x=>x.t.ga/x.t.mp;
+ const att=enough.slice().sort((p,q)=>gpg(q)-gpg(p)).slice(0,8),dfn=enough.slice().sort((p,q)=>apg(p)-apg(q)||q.t.mp-p.t.mp).slice(0,8);
+ // 8-9: games
+ const G=bs.flatMap(b=>bracketInfo(b).pl.filter(g=>inB(g,b.teams)).map(g=>({g,b})));
+ const gRow=(x,val)=>{const hw=x.g.hs>=x.g.as,w=hw?x.g.h:x.g.a,l=hw?x.g.a:x.g.h;return`<div class="irow"><div class="it">${tlink(w,teamName(w))} ${x.g.hs===x.g.as?"drew with":"beat"} ${tlink(l,teamName(l))} ${tag({b:x.b})}</div><div class="iv">${Math.max(x.g.hs,x.g.as)}–${Math.min(x.g.hs,x.g.as)}</div><div class="id">${val} · ${fmtDay(x.g.dt)}</div></div>`};
+ const big=G.slice().sort((p,q)=>Math.abs(q.g.hs-q.g.as)-Math.abs(p.g.hs-p.g.as)||(q.g.hs+q.g.as)-(p.g.hs+p.g.as)).slice(0,8),goals=G.slice().sort((p,q)=>(q.g.hs+q.g.as)-(p.g.hs+p.g.as)).slice(0,8);
+ // 10: climbing three seasons running (two seasons ago -> last season -> now)
+ const rise=T.filter(x=>x.t.mp>=2).map(x=>{const H=(DATA.hist||{})[x.c]||[];if(H.length<2||H[0][0]!==LASTS)return null;const a=pctl(H[1][3],H[1][4]),b2=pctl(H[0][3],H[0][4]),c2=pctl(x.r,x.n);
+  return a<b2&&b2<c2&&c2-a>=0.3?{...x,H,gain:c2-a}:null}).filter(Boolean).sort((p,q)=>q.gain-p.gain).slice(0,8);
+ // 11: clubs strongest across age groups (all ages only)
+ let clubs=[];if(!IAGE){const byC=new Map;for(const x of T.filter(x=>x.t.mp>=2))(byC.get(slugT(x.b.teams[x.c]))||byC.set(slugT(x.b.teams[x.c]),[]).get(slugT(x.b.teams[x.c]))).push(x);
+  clubs=[...byC].filter(([,xs])=>xs.length>=4).map(([k,xs])=>({k,xs,name:xs[0].b.teams[xs[0].c],avg:xs.reduce((a,x)=>a+pctl(x.r,x.n),0)/xs.length,top:xs.filter(x=>x.r<=3).length})).sort((p,q)=>q.avg-p.avg).slice(0,8)}
+ const chips=`<div class="ichips">`+[["","All ages"],...ages.map(a=>[a,a])].map(([a,l])=>`<a href="?view=insights${a?"&age="+a:""}"${a===IAGE?' class="on"':""}>${l}</a>`).join("")+`</div>`;
+ $("s-ins").innerHTML=chips+`<p class="note" style="display:block;margin:0 0 14px">Early in the season a few results can move a team a long way, so the lists use teams with at least ${MIN} league games. "Last season" means the same players a year younger (${LASTS.replace("-","–")}), and positions are compared as a share of the table because conferences differ in size. Updated after each weekend's games.</p><div class="igrid">`+
+  cardI("i-up","Biggest climbers since last season","Teams sitting much higher in their table than the same players finished last season.",up.map(mv),"No big climbers yet.")+
+  cardI("i-down","Biggest drops since last season","Teams sitting much lower than the same players finished last season.",down.map(mv),"No big drops yet.")+
+  cardI("i-ups","Biggest upsets","Wins the model thought least likely before kickoff (each weekend predicted from the games before it).",ups.map(upRow))+
+  cardI("i-unb","Perfect and unbeaten starts",`No league losses yet (${MIN}+ games). Perfect records first.`,unbeaten.map(x=>row(x,`${x.t.w}-${x.t.d}-${x.t.l}`,`${x.t.d?"unbeaten":"won every game"} · goals ${x.t.gf}–${x.t.ga} · ${ordn(x.r)} of ${x.n}`)))+
+  cardI("i-hot","Winning streaks","Current runs of league wins (3 or more).",hot.map(x=>row(x,`${x.k} straight`,`${x.t.w}-${x.t.d}-${x.t.l} this season · ${ordn(x.r)} of ${x.n}`)))+
+  cardI("i-rise","Rising three seasons running","The same players have climbed their table two seasons in a row and are higher again now.",rise.map(x=>row(x,`${ordn(x.H[1][3])} → ${ordn(x.H[0][3])} → ${ordn(x.r)}`,`${x.H[1][0].replace("-","–")}: ${ordn(x.H[1][3])} of ${x.H[1][4]} · ${x.H[0][0].replace("-","–")}: ${ordn(x.H[0][3])} of ${x.H[0][4]} · now ${ordn(x.r)} of ${x.n}`)),"No three-season climbers yet.")+
+  cardI("i-att","Goal machines","Most league goals per game.",att.map(x=>row(x,gpg(x).toFixed(1),`${x.t.gf} goals in ${x.t.mp} games`)))+
+  cardI("i-def","Brick walls","Fewest league goals conceded per game.",dfn.map(x=>row(x,apg(x).toFixed(1),`${x.t.ga} conceded in ${x.t.mp} games`)))+
+  cardI("i-big","Biggest wins","Largest winning margins this season.",big.map(x=>gRow(x,`won by ${Math.abs(x.g.hs-x.g.as)}`)))+
+  cardI("i-goals","Most goals in a game","Highest-scoring league games.",goals.map(x=>gRow(x,`${x.g.hs+x.g.as} goals`)))+
+  (IAGE?"":cardI("i-clubs","Strongest clubs across age groups","Clubs with 4+ teams playing, by their teams' average place in their tables.",clubs.map(x=>`<div class="irow"><div class="it"><a class="tl" href="?club=${x.k}">${esc(x.name)}</a> <span class="ia">${x.xs.length} teams</span></div><div class="iv">${Math.round(x.avg*100)}%</div><div class="id">${x.xs.map(y=>`${y.b.age} ${ordn(y.r)}`).join(" · ")} · ${x.top} in a top-3 spot</div></div>`)))+
+  `</div>`;
+ $("meta").innerHTML=`<span>Updated ${fmtDay(SNAP)}</span><span>${IAGE||"All age groups"} · ${bs.length} conferences</span>`}
 
 // Club view: every team of one club, across age groups
 function drawClub(){const teams=DATA.brackets.flatMap(b=>Object.entries(b.teams).filter(([id,n])=>slugT(n)===CLUBQ||slugT(shortName(n))===CLUBQ).map(([id,n])=>({id,n,b})));
@@ -899,21 +991,25 @@ else if(CLUBQ){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s-up
  $("s-club").style.display="";document.querySelector("nav .wrap").innerHTML='<a href="#s-cteams">Teams</a><a href="#s-cnext">Upcoming</a><a href="#s-cres">Results</a><a href="#s-about">How it works</a>';
  for(const el of[$("ages"),$("confSel").closest(".follow"),$("myTeam").closest(".follow"),$("ppp")])el.style.display="none";document.querySelector(".ctl").classList.add("nat","club");
  drawClub()}
+else if(INSIGHTS){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s-upcoming","s-acc"])$(id).style.display="none";
+ $("s-ins").style.display="";document.querySelector("nav .wrap").innerHTML=[["i-up","Climbers"],["i-down","Drops"],["i-ups","Upsets"],["i-unb","Unbeaten"],["i-hot","Streaks"],["i-rise","Rising"],["i-att","Goals"],["i-big","Big wins"],...(IAGE?[]:[["i-clubs","Clubs"]]),["s-about","How it works"]].map(([h,l])=>`<a href="#${h}">${l}</a>`).join("");
+ for(const el of[$("ages"),$("confSel").closest(".follow"),$("myTeam").closest(".follow"),$("ppp")])el.style.display="none";document.querySelector(".ctl").classList.add("nat","club");
+ drawInsights()}
 else if(NATIONAL){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s-upcoming","s-acc"])$(id).style.display="none";
  $("s-nat").style.display="";document.querySelector("nav .wrap").innerHTML='<a href="#s-nat">National rankings</a><a href="#s-about">How it works</a>';
  $("myTeam").closest(".follow").style.display="none";document.querySelector(".ctl").classList.add("nat");
  $("natConf").innerHTML='<option value="">All conferences</option>'+DATA.brackets.filter(b=>b.age===B.age&&b.conf===baseConf(b.conf)).map(b=>`<option value="${slugC(b.conf)}">${b.conf}</option>`).join("");
  $("natConf").onchange=drawNational;drawNational()}
-else drawAll();
+else{drawAll();if(!PAST)document.querySelector("nav .wrap").insertAdjacentHTML("beforeend",`<a href="?view=insights&age=${B.age}">Insights →</a>`)}
 // say so when usage stats are on, with an opt-out that keeps the current view
 if(window.fa&&fa.enabled){const q=new URLSearchParams(location.search);q.set("fa","off");
  $("foot").insertAdjacentHTML("beforeend",` · Anonymous usage stats, no cookies (<a href="?${esc(String(q))}" data-notrack>opt out</a>)`)}
 // analytics (analytics/fa.js, inlined by refresh.py; a no-op until a Firebase project is configured): one view per page
 // with what it shows, so the report can tell bracket / national / club / team pages and teams apart
 try{const pre=PAST?PAST+" · ":"",fol=!SHOW&&!CLUBQ&&!NATIONAL&&myTeam?nm(myTeam):"";
- window.fa&&fa.view({view:SHOW?"team":CLUBQ?"club":NATIONAL?"national":"bracket",season:PAST||"current",age:CLUBQ?"":B.age,conf:CLUBQ||NATIONAL?"":B.conf,
-  team:SHOW?nm(SHOW):"",club:CLUBQ?$("bracket").textContent:"",following:fol,
-  page:pre+(SHOW?`Team · ${nm(SHOW)} ${B.age}`:CLUBQ?`Club · ${$("bracket").textContent}`:NATIONAL?`${B.age} National`:`${B.age} ${B.conf}`)})}catch(e){}
+ window.fa&&fa.view({view:SHOW?"team":CLUBQ?"club":INSIGHTS?"insights":NATIONAL?"national":"bracket",season:PAST||"current",conf:CLUBQ||NATIONAL?"":B.conf,
+  team:SHOW?nm(SHOW):"",age:INSIGHTS?IAGE||"all":CLUBQ?"":B.age,club:CLUBQ?$("bracket").textContent:"",following:fol,
+  page:pre+(SHOW?`Team · ${nm(SHOW)} ${B.age}`:CLUBQ?`Club · ${$("bracket").textContent}`:INSIGHTS?`Insights${IAGE?" · "+IAGE:""}`:NATIONAL?`${B.age} National`:`${B.age} ${B.conf}`)})}catch(e){}
 window.__debug={predict,fit,future,SIMS,mu,hadv,att,def,rho,power,tbl,first,simPts,bt};
 // "Report a problem" link in the footer: DATA.feedback is a form URL or an email address (FEEDBACK in refresh.py)
 if(DATA.feedback){const f=DATA.feedback,href=/^https?:/.test(f)?f:`mailto:${f}?subject=${encodeURIComponent("MLS NEXT dashboard")}&body=${encodeURIComponent("Page: "+location.href+"\n\n")}`;

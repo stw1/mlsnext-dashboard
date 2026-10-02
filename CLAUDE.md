@@ -173,6 +173,17 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   with results or odds (next game highlighted), results vs each conference opponent, same-players history and the
   club's other age groups. Every team name (standings, power, results, upcoming, national, club, My team card) links
   here via `tlink()`/`showUrl()`; `show=` never changes the followed team (`team=` still does).
+- Insights: `?view=insights[&age=U15]` (`drawInsights`; conference picker option, "Insights →" in conference-page menus):
+  biggest climbers / drops vs the same players last season (table position as a share of the table, teams with 3+
+  league games), biggest upsets (walk-forward predictions per bracket, `btFor`), perfect/unbeaten starts, winning
+  streaks, rising three seasons running, goals for/against per game, biggest wins, highest-scoring games, strongest
+  clubs across age groups (all ages only). Renders all 60 brackets in ~0.2 s.
+- Team page "Previous seasons" card (`pastCard`): this season vs last season headline, the same players' past
+  seasons (`DATA.hist`) and the club's same-age team in past seasons (`DATA.hsame`), rows [season, age, conf, rank, of,
+  w, d, l, gf, ga, name then ("" = same), flex w, d, l], each linking to that season's team page.
+- Past seasons: `pastseasons.main_conf` puts each team in the conference where it played most league games (some
+  seasons label part of a conference's games with a sub-division, e.g. 2024-25 U16 "Mid-America (East)"); a one-team
+  leftover falls back to the base name. 2024-25 now has 54 tables.
 - Club view: `?club=<slug>` (full or short name slug, e.g. `ballistic-united`, `lafc`). Lists the club's team in every
   age group with conference position, record, national rank, power rank, simulated top-line / 1st chances (2,000 runs per
   bracket), next game; plus club-wide upcoming games and recent results. Reached from "Find any team" (club rows first)

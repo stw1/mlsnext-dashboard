@@ -276,7 +276,7 @@ def build(brackets, games, meta, default, groups=()):
     # past seasons (scripts/history.py) get their own pages; the season picker links them all
     past = pastseasons.seasons()
     data["seasons"] = [{"key": current, "file": "index.html"}] + [{"key": pastseasons.label(s), "file": f"season-{s}.html"} for s in past]
-    data["hist"] = pastseasons.team_history(brackets) if past else {}
+    data["hist"], data["hsame"] = pastseasons.team_history(brackets) if past else ({}, {})
     if past and PRIOR_WEIGHT:
         pri = pastseasons.priors(brackets, past[0], PRIOR_WEIGHT, PRIOR_MODE)
         for b in data["brackets"]:
