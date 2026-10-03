@@ -194,6 +194,11 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
 - Past seasons: `pastseasons.main_conf` puts each team in the conference where it played most league games (some
   seasons label part of a conference's games with a sub-division, e.g. 2024-25 U16 "Mid-America (East)"); a one-team
   leftover falls back to the base name. 2024-25 now has 54 tables.
+- Ranking movement (`movesOf`, `moveOf`, `mvTag`, `natBefore`): ▲/▼ places moved since the weekend before, measured
+  against each table just before the latest weekend with league results site-wide (`lastWeek()`); shown in standings,
+  team page Position KPI, club table/cards and the national ranking (ratings refit on the games before that weekend).
+  `drawNotif()` puts a banner at the top of every current-season page for the teams this browser follows (all brackets):
+  "Your teams after the weekend of …" with each team's move; ✕ hides it until the next weekend (`notif:off` = week key).
 - Club view: `?club=<slug>` (full or short name slug, e.g. `ballistic-united`, `lafc`). Lists the club's team in every
   age group with conference position, record, national rank, power rank, simulated top-line / 1st chances (2,000 runs per
   bracket), next game; plus club-wide upcoming games and recent results. Reached from "Find any team" (club rows first)

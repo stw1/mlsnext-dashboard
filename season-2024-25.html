@@ -78,6 +78,12 @@ table tbody tr.me td,table tbody tr.me:hover td{background:#fef9c3}table tbody t
 /* team page */
 .tl{color:inherit;text-decoration:none}.tl:hover{text-decoration:underline}
 .tbtns{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.mv{display:inline-block;font-size:10.5px;font-weight:700;margin-left:5px;padding:0 4px;border-radius:4px;line-height:15px;vertical-align:1px;white-space:nowrap}.mv.up{color:#15803d;background:rgba(22,163,74,.12)}.mv.dn{color:#b91c1c;background:rgba(220,38,38,.1)}.mv.eq{color:var(--mut);background:rgba(100,116,139,.12)}
+.notif{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:12px;padding:10px 12px;margin:0 0 14px}
+.notif .nt{flex:1;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;font-size:13.5px}.notif .nt>b{width:100%;font-size:13px}.notif .nt a{color:inherit;text-decoration:none;padding:4px 0}.notif .nt a:hover .ntn{text-decoration:underline}.notif .ntn{font-weight:600}
+.notif .ntx{border:0;background:none;color:var(--mut);font-size:16px;cursor:pointer;padding:4px 8px;margin:-4px -6px 0 0}
+@media(prefers-color-scheme:dark){.mv.up{color:#4ade80}.mv.dn{color:#f87171}}
+
 .ichips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}h2.isec{font-size:19px;margin:22px 0 10px}h2.isec:first-of-type{margin-top:6px}.ichips.wk a{padding:5px 10px;font-size:12.5px}.st tr.sel td{background:rgba(37,99,235,.1);font-weight:600}.ifol{margin:-4px 0 12px;font-size:12.5px;color:var(--mut)}.ifol b{background:#fef9c3;color:#713f12;padding:1px 6px;border-radius:5px;font-weight:600}@media(prefers-color-scheme:dark){.ifol b{background:#3a3210;color:#fde68a}}.ichips a{padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:inherit;text-decoration:none;font-size:13px}.ichips a.on{background:var(--acc);border-color:var(--acc);color:#fff}
 .igrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}.igrid .card{margin:0}@media(max-width:900px){.igrid{grid-template-columns:minmax(0,1fr)}}
 .irow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;padding:9px 0;border-top:1px solid var(--line)}.irow:first-of-type{border-top:0}.irow.me{background:#fef9c3;margin:0 -8px;padding:9px 8px;border-radius:8px}
@@ -429,6 +435,7 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
 </div></header>
 <nav><div class="wrap"><a href="#s-table">Standings</a><a href="#s-h2h">Who beat who</a><a href="#s-power">Power rankings</a><a href="#s-results">Results</a><a href="#s-upcoming">Upcoming games</a><a href="#s-acc">Accuracy</a><a href="#s-about">How it works</a></div></nav>
 <main class="wrap">
+<div class="notif" id="notif" style="display:none" role="status"></div>
 <div class="card my" id="myCard" style="display:none"></div>
 <div class="kpis" id="kpis"></div>
 <div class="card" id="s-table"><h2>Standings &amp; projected finish</h2>
@@ -749,7 +756,7 @@ let sortK="rk",sortDir=1;
 function drawStand(){const r=srows.slice().sort((a,b)=>(a[sortK]-b[sortK])*sortDir||a.rk-b.rk);
  $("standings").innerHTML=`<thead><tr class="grp"><th class="team"></th><th colspan="9">Table so far</th><th colspan="${CUT?4:3}" class="pj div">Projected finish</th></tr><tr>`+
   cols.map(([k,l,c,tip])=>`<th class="${c}${k===sortK?" sorted":""}"${k?` data-k="${k}" role="button"`:""}${tip?` title="${tip}"`:""}>${l}${k===sortK?(sortDir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr></thead><tbody>"+
-  r.map(t=>`<tr class="${t.c===myTeam?"me":""}${sortK==="rk"&&sortDir>0&&CUT?(t.rk===CH?" cut1":t.rk===CUP?" cut2":""):""}"><td class="t team"><span class="rk">${t.rk}</span>${tlink(t.c,teamName(t.c))}</td><td>${t.mp}</td><td class="xs-hide">${t.w}</td><td class="xs-hide">${t.d}</td><td class="xs-hide">${t.l}</td><td class="mut xs-hide">${t.gf}–${t.ga}</td><td class="${t.gd>0?"pos":t.gd<0?"neg":""}">${t.gd>0?"+":""}${t.gd}</td><td class="pts">${t.pts}</td><td class="mut">${t.ppm.toFixed(2)}</td><td class="form">${last5(t.c)}</td><td class="pj div">${t.proj.toFixed(0)}</td>${CUT?`<td class="pj">${pbar(t.pc)}</td>`:""}<td class="pj">${pbar(t.p4)}</td><td class="pj">${pbar(t.p1)}</td></tr>`).join("")+"</tbody>";
+  r.map(t=>`<tr class="${t.c===myTeam?"me":""}${sortK==="rk"&&sortDir>0&&CUT?(t.rk===CH?" cut1":t.rk===CUP?" cut2":""):""}"><td class="t team"><span class="rk">${t.rk}</span>${tlink(t.c,teamName(t.c))}${mvTag(moveOf(bracketInfo(B),t.c,t.rk))}</td><td>${t.mp}</td><td class="xs-hide">${t.w}</td><td class="xs-hide">${t.d}</td><td class="xs-hide">${t.l}</td><td class="mut xs-hide">${t.gf}–${t.ga}</td><td class="${t.gd>0?"pos":t.gd<0?"neg":""}">${t.gd>0?"+":""}${t.gd}</td><td class="pts">${t.pts}</td><td class="mut">${t.ppm.toFixed(2)}</td><td class="form">${last5(t.c)}</td><td class="pj div">${t.proj.toFixed(0)}</td>${CUT?`<td class="pj">${pbar(t.pc)}</td>`:""}<td class="pj">${pbar(t.p4)}</td><td class="pj">${pbar(t.p1)}</td></tr>`).join("")+"</tbody>";
  $("cutKey").innerHTML=CUT?`<span><b>Lines</b> solid = estimated Championship-bracket cut (top ${CH}), dashed = estimated MLS NEXT Cup cut (top ${CUP}), based on last season. MLS NEXT hasn't published 2026-27 spots.</span><span><b>U13/U14</b> MLS NEXT only publishes official standings for U15–U19, so this table is worked out from the results using the same rules.</span>`:`<span><b>Top 4</b> isn't an official playoff line: MLS NEXT hasn't announced how 2026-27 Cup spots are split.</span>`;
  document.querySelectorAll("#standings th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(sortK===k)sortDir*=-1;else{sortK=k;sortDir=["rk","l"].includes(k)?1:-1}drawStand()});}
 
@@ -901,6 +908,38 @@ function drawMy(){const el=$("myCard");if(!myTeam){el.style.display="none";el.in
   `<div class="out"><div class="lab">Outlook</div><div><span>Projected points</span><b>${t.proj.toFixed(0)}</b></div>${CUT?`<div><span title="Estimate based on last season">MLS NEXT Cup (est.)</span>${pbar(t.pc)}</div><div><span title="Estimate based on last season">Championship (est.)</span>${pbar(t.p4)}</div>`:`<div><span title="Not an official playoff line">Top 4</span>${pbar(t.p4)}</div>`}<div><span>Finish 1st</span>${pbar(t.p1)}</div><div><span>Power ranking</span><b>${ordn(pr)} of ${N}</b></div></div></div>`+
   histLines(c)+`<div class="my-b">${!PAST||left?`<button class="btn" id="myCal" type="button" aria-expanded="false">Add to calendar</button>`:""}<a class="btn" href="${showUrl(B,c)}" style="text-decoration:none">Team details →</a><button class="btn" id="myShare" type="button">Share link</button><a class="btn" href="?club=${slugT(nm(c))}" style="text-decoration:none">All ${esc(short(c))} teams →</a></div>`;
  if(!PAST||left)wireCal("myCal",c,left);$("myShare").onclick=()=>$("share").click();}
+
+// ---- movement since the weekend before: each table just before the latest weekend with results (site-wide) ----
+const weekOf=d=>{const D=day(d);D.setDate(D.getDate()-(D.getDay()+6)%7);return`${D.getFullYear()}-${p2(D.getMonth()+1)}-${p2(D.getDate())}`};
+let LASTW;const lastWeek=()=>{if(LASTW!==undefined)return LASTW;let m="";
+ if(!PAST)for(const b of DATA.brackets)for(const r of(b.raw?b.raw.split(";"):[])){const f=r.split(",");if(f[4]!==""&&f[1]>m)m=f[1]}
+ return LASTW=m?weekOf(localDt(m)):""};
+const MV=new Map();
+// {team: position just before the latest weekend} for teams that had already played; empty if the bracket didn't play then
+function movesOf(o){if(MV.has(o.b))return MV.get(o.b);const W=lastWeek(),m=new Map();
+ if(W&&o.pl.some(g=>weekOf(g.dt)===W))table(o.pl.filter(g=>weekOf(g.dt)<W),o.ids).forEach((t,i)=>{if(t.mp)m.set(t.c,i+1)});
+ MV.set(o.b,m);return m}
+const moveOf=(o,c,now)=>{const was=movesOf(o).get(c);return was&&now?{d:was-now,was,now}:null};
+const mvTxt=mv=>mv.d>0?`up ${mv.d} place${mv.d>1?"s":""}`:mv.d<0?`down ${-mv.d} place${mv.d<-1?"s":""}`:"no change";
+const mvTag=(mv,what="since the weekend before")=>mv&&mv.d?`<span class="mv ${mv.d>0?"up":"dn"}" title="${mv.d>0?"Up":"Down"} ${Math.abs(mv.d)} place${Math.abs(mv.d)>1?"s":""} ${what} (was ${ordn(mv.was)})">${mv.d>0?"▲":"▼"}${Math.abs(mv.d)}</span>`:"";
+const wkWords=()=>{const W=lastWeek();if(!W)return"";const D=day(W);D.setDate(D.getDate()+5);return`the weekend of ${D.toLocaleDateString("en-US",{month:"short",day:"numeric"})}`};
+// national: ratings just before the latest weekend (same fit, earlier games only)
+const NB=new Map();
+function natBefore(o){if(NB.has(o.b))return NB.get(o.b);const W=lastWeek(),r=new Map();
+ if(W&&o.pl.some(g=>weekOf(g.dt)===W)){const ok=g=>weekOf(g.dt)<W,m=fit(o.pl.filter(g=>ok(g)&&inB(g,o.b.teams)).concat(o.fx.filter(ok)),o.IX,o.ids.length,priorArr(o.b,o.ids));
+  const had=new Set(o.pl.concat(o.fx).filter(ok).flatMap(g=>[g.h,g.a]));for(const c of o.ids)if(had.has(c)){const i=o.IX[c];r.set(c,Math.exp(m.mu+m.att[i])-Math.exp(m.mu-m.def[i]))}}
+ NB.set(o.b,r);return r}
+// the notification: how the teams this browser follows moved on the latest weekend (dismissible, per weekend)
+function drawNotif(){const el=$("notif");if(!el||PAST)return;const W=lastWeek();let off=null;try{off=localStorage.getItem("notif:off")}catch(e){}
+ if(!W||off===W){el.style.display="none";return}
+ const fol=[...new Set(DATA.brackets.map(b=>{try{return localStorage.getItem(`myteam:${TPRE}${b.age} ${b.conf} Conference`)}catch(e){return null}}).filter(c=>c&&BOF[c]))];
+ const items=fol.map(c=>{const o=bracketInfo(BOF[c]),now=o.tb.findIndex(t=>t.c===c)+1,mv=moveOf(o,c,now);return mv?{c,o,mv}:null}).filter(Boolean)
+  .sort((p,q)=>parseInt(p.o.b.age.slice(1))-parseInt(q.o.b.age.slice(1)));
+ if(!items.length||!items.some(x=>x.mv.d)){el.style.display="none";return}
+ el.innerHTML=`<div class="nt"><b>Your teams after ${wkWords()}</b>`+items.map(x=>`<a href="${showUrl(x.o.b,x.c)}"><span class="ntn">${esc(shortName(x.o.b.teams[x.c]))} ${x.o.b.age}</span> ${x.mv.d?mvTag(x.mv):'<span class="mv eq">=</span>'} <span class="mut">${ordn(x.mv.now)} of ${x.o.ids.length}${x.mv.d?` (was ${ordn(x.mv.was)})`:""}</span></a>`).join("")+
+  `</div><button type="button" class="ntx" aria-label="Dismiss until next weekend" title="Dismiss until next weekend">✕</button>`;
+ el.style.display="";el.querySelector(".ntx").onclick=()=>{try{localStorage.setItem("notif:off",W)}catch(e){}el.style.display="none"}}
+
 // Model and table for any bracket, computed once and reused (national and club views)
 const BM=new Map();
 function bracketInfo(b){if(BM.has(b))return BM.get(b);
@@ -941,7 +980,7 @@ function drawTeam(c){const b=B,t=srows.find(r=>r.c===c),pr=power.findIndex(p=>p.
  const ppp=b.conf!==baseConf(b.conf),natList=natRows(b.age).filter(r=>(r.b.conf!==baseConf(r.b.conf))===ppp&&r.rated).sort((p,q)=>q.net-p.net),nat=natList.findIndex(r=>r.c===c)+1;
  const k=(l,v,s2)=>`<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${s2}</div></div>`;
  const oppName=g=>{const o=side(g).opp;return tlink(o,esc(nm(o)))},gline=g=>{const x=side(g);return`${x.f}–${x.a} ${x.home?"vs":"at"} ${esc(short(x.opp)||nm(x.opp))}`};
- const kp=k("Position",t?`${ordn(t.rk)} of ${N}`:"–",`${b.age} ${esc(b.conf)}`)+
+ const kp=k("Position",t?`${ordn(t.rk)} of ${N} ${mvTag(moveOf(bracketInfo(b),c,t.rk))}`:"–",(mv=>mv&&!PAST?`${mvTxt(mv)} after ${wkWords()} · ${b.age} ${esc(baseConf(b.conf))}`:`${b.age} ${esc(b.conf)}`)(t&&moveOf(bracketInfo(b),c,t.rk)))+
   k("League",t?`${t.pts} pts`:"–",t?`${wdl(L)} · ${t.ppm.toFixed(2)} per game · GD ${t.gd>0?"+":""}${t.gd}`:"")+
   (F.n?k("MLS NEXT Flex",wdl(F),(g=>{const r=g&&g.rows.find(x=>x.id===c);return r&&r.mp?`${ordn(r.pos)} of ${g.rows.length} in the ${esc(g.name)} group · ${r.pts} pts`:`${F.n} game${F.n>1?"s":""} · not in the league table`})(groupOf(b.age,c))):"")+
   k("Power ranking",`${ordn(pr)} of ${N}`,`model: scores ${pw.gf.toFixed(1)}, concedes ${pw.ga.toFixed(1)} per game`)+
@@ -1158,14 +1197,14 @@ function drawClub(){const teams=DATA.brackets.flatMap(b=>Object.entries(b.teams)
  // teams table
  const anyCut=rows.some(r=>r.sim.cut);
  $("clubTable").innerHTML=`<thead><tr><th class="t team">Team</th><th class="t xs-hide">Conference</th><th title="League games played (+ MLS NEXT Flex games)">MP</th><th class="xs-hide" title="League record">W-D-L</th><th>Pts/G</th><th class="xs-hide">GD</th><th class="xs-hide">Last 5</th><th title="National rank by rating (Pro Player Pathway ranked separately)">National</th><th title="Model rating rank inside the conference">Power</th><th class="lscol" title="Where the same players finished last season (one age group younger)">Last season</th><th class="pj div" title="Chance of finishing inside the conference's top line (Top 4, or the estimated Championship cut for U13/U14)">Top line</th><th class="pj">1st</th><th class="t nxcol">Next game</th></tr></thead><tbody>`+
-  rows.map(r=>`<tr${followed.has(r.id)?' class="me"':""}><td class="t team"><a href="${showUrl(r.b,r.id)}"><span class="agetag">${r.b.age}</span>${esc(shortName(r.n))}</a><small class="xs-only">${esc(baseConf(r.b.conf))} · ${ordn(r.crk)} of ${r.cn}</small></td>`+
-   `<td class="t cf xs-hide">${esc(r.b.conf.replace(" (Pro Player Pathway)"," (PPP)"))} <span class="mut">· ${ordn(r.crk)} of ${r.cn}</span></td><td>${r.tb.mp}${r.flex.n?` <span class="mut" title="plus ${r.flex.n} MLS NEXT Flex games (${fx3(r.flex)})">+${r.flex.n}</span>`:""}</td><td class="xs-hide">${r.tb.w}-${r.tb.d}-${r.tb.l}</td><td>${r.tb.mp?r.tb.ppm.toFixed(2):"–"}</td>`+
+  rows.map(r=>`<tr${followed.has(r.id)?' class="me"':""}><td class="t team"><a href="${showUrl(r.b,r.id)}"><span class="agetag">${r.b.age}</span>${esc(shortName(r.n))}</a><small class="xs-only">${esc(baseConf(r.b.conf))} · ${ordn(r.crk)} of ${r.cn}${mvTag(moveOf(r.o,r.id,r.crk))}</small></td>`+
+   `<td class="t cf xs-hide">${esc(r.b.conf.replace(" (Pro Player Pathway)"," (PPP)"))} <span class="mut">· ${ordn(r.crk)} of ${r.cn}</span>${mvTag(moveOf(r.o,r.id,r.crk))}</td><td>${r.tb.mp}${r.flex.n?` <span class="mut" title="plus ${r.flex.n} MLS NEXT Flex games (${fx3(r.flex)})">+${r.flex.n}</span>`:""}</td><td class="xs-hide">${r.tb.w}-${r.tb.d}-${r.tb.l}</td><td>${r.tb.mp?r.tb.ppm.toFixed(2):"–"}</td>`+
    `<td class="xs-hide ${r.tb.gd>0?"pos":r.tb.gd<0?"neg":""}">${r.tb.gd>0?"+":""}${r.tb.gd}</td><td class="form xs-hide">${r.form||'<span class="mut" style="background:none;color:var(--mut);width:auto">–</span>'}</td>`+
    `<td>${r.nat?`${ordn(r.nat)}<span class="mut"> /${r.natN}</span>`:"–"}</td><td>${ordn(r.pr)}</td><td class="lscol">${(h=>h?`${ordn(h[3])}<span class="mut">/${h[4]} ${h[1]}</span>`:'<span class="mut">–</span>')(((DATA.hist||{})[r.id]||[])[0])}</td><td class="pj div">${pbar(r.sim.cut?r.sim.res[r.id].pch:r.sim.res[r.id].pch)}</td><td class="pj">${pbar(r.sim.res[r.id].p1)}</td>`+
    `<td class="t nx nxcol">${r.nx?`${fmtDay(r.nx.dt)} · ${r.nx.h===r.id?"vs":"at"} ${opp(r,r.nx)}${flexTag(r.nx)}`:'<span class="mut">Season over</span>'}</td></tr>`).join("")+"</tbody>";
  // phones: one tappable card per team instead of the wide table
  $("clubCards").innerHTML=rows.map(r=>{const h=((DATA.hist||{})[r.id]||[])[0],st=(l,v)=>`<div><b>${v}</b>${l}</div>`;
-  return`<a class="ccard${followed.has(r.id)?" me":""}" href="${showUrl(r.b,r.id)}"><div class="ch"><span class="agetag">${r.b.age}</span><b>${esc(shortName(r.n))}</b><span>${esc(baseConf(r.b.conf))} · ${ordn(r.crk)} of ${r.cn}</span></div>`+
+  return`<a class="ccard${followed.has(r.id)?" me":""}" href="${showUrl(r.b,r.id)}"><div class="ch"><span class="agetag">${r.b.age}</span><b>${esc(shortName(r.n))}</b><span>${esc(baseConf(r.b.conf))} · ${ordn(r.crk)} of ${r.cn}${mvTag(moveOf(r.o,r.id,r.crk))}</span></div>`+
    `<div class="cs">${st("league W-D-L",`${r.tb.w}-${r.tb.d}-${r.tb.l}`)}${st("points / game",r.tb.mp?r.tb.ppm.toFixed(2):"–")}${st("goal diff.",(r.tb.gd>0?"+":"")+r.tb.gd)}`+
    `${st("national",r.nat?`${ordn(r.nat)}<span class="mut" style="font-size:12px;font-weight:400">/${r.natN}</span>`:"–")}${st("power in conf.",ordn(r.pr))}${PAST?"":st("last season",h?`${ordn(h[3])}<span class="mut" style="font-size:12px;font-weight:400">/${h[4]}</span>`:"–")}</div>`+
    `<div class="cf2"><span class="form">${r.form||'<span class="mut" style="background:none;color:var(--mut);width:auto">No games yet</span>'}</span><span class="pj">Top line ${pbar(r.sim.res[r.id].pch)}</span></div>`+
@@ -1195,11 +1234,13 @@ let natK="net",natDir=-1;
 function drawNational(){const age=B.age,rows=natRows(age),reg=rows.filter(r=>r.b.conf===baseConf(r.b.conf)),ppp=rows.filter(r=>r.b.conf!==baseConf(r.b.conf));
  const followed=new Set(DATA.brackets.filter(b=>b.age===age).map(b=>{try{return localStorage.getItem(`myteam:${TPRE}${age} ${b.conf} Conference`)}catch(e){return null}}).filter(Boolean));
  const rankOf=list=>{const r=new Map();list.filter(x=>x.rated).sort((p,q)=>q.net-p.net).forEach((x,i)=>r.set(x.c,i+1));return r};
+ // national rank just before the latest weekend (ratings from the games before it), for the movement arrows
+ const rankBefore=list=>{const r=new Map(),nb=list.map(x=>({c:x.c,v:natBefore(bracketInfo(x.b)).get(x.c)})).filter(x=>x.v!==undefined);nb.sort((p,q)=>q.v-p.v).forEach((x,i)=>r.set(x.c,i+1));return r};
  const cols=[["","Team","t team"],["conf","Conference","t xs-hide"],["mp","MP","","League games played (plus Flex games used in the rating)"],["","W-D-L","xs-hide"],["ppm","Pts/G","xxs-hide","Points per league game"],["gdpg","GD/G","xs-hide","Goal difference per league game"],["net","Rating","t","Expected goal margin per game vs an average team in its own conference"]];
- const tableHtml=(list,rk)=>{const mx=Math.max(...list.map(x=>Math.abs(x.net)),.01);
+ const tableHtml=(list,rk)=>{const mx=Math.max(...list.map(x=>Math.abs(x.net)),.01),rb=rankBefore(list),nmv=x=>{const w=rb.get(x.c),n=rk.get(x.c);return w&&n?{d:w-n,was:w}:null};
   const sorted=list.slice().sort((p,q)=>(q.rated-p.rated)||(natK==="conf"?p.b.conf.localeCompare(q.b.conf)||p.crk-q.crk:(q[natK]-p[natK])*-natDir));
   return`<thead><tr>${cols.map(([k,l,c,tip])=>`<th class="${c}${k&&k===natK?" sorted":""}"${k?` data-k="${k}" role="button"`:""}${tip?` title="${tip}"`:""}>${l}${k&&k===natK?(natDir<0?" ▼":" ▲"):""}</th>`).join("")}</tr></thead><tbody>`+
-  sorted.map(x=>{const w=Math.abs(x.net)/mx*100;return`<tr${followed.has(x.c)?' class="me"':""}><td class="t team"><span class="rk">${x.rated?rk.get(x.c):"–"}</span><a href="${showUrl(x.b,x.c)}"><span class="full">${esc(x.n)}</span><span class="short">${esc(shortName(x.n))}</span></a><small class="xs-only">${esc(baseConf(x.b.conf))} · ${ordn(x.crk)} of ${x.cn}</small></td>`+
+  sorted.map(x=>{const w=Math.abs(x.net)/mx*100;return`<tr${followed.has(x.c)?' class="me"':""}><td class="t team"><span class="rk">${x.rated?rk.get(x.c):"–"}</span><a href="${showUrl(x.b,x.c)}"><span class="full">${esc(x.n)}</span><span class="short">${esc(shortName(x.n))}</span></a>${x.rated?mvTag(nmv(x),"in the national ranking since the weekend before"):""}<small class="xs-only">${esc(baseConf(x.b.conf))} · ${ordn(x.crk)} of ${x.cn}</small></td>`+
    `<td class="t cf xs-hide">${esc(baseConf(x.b.conf))} <span>· ${ordn(x.crk)} of ${x.cn}</span></td><td>${x.mp}${x.nf?` <span class="mut" title="plus ${x.nf} Flex games">+${x.nf}</span>`:""}</td><td class="xs-hide">${x.w}-${x.d}-${x.l}</td><td class="xxs-hide">${x.mp?x.ppm.toFixed(2):"–"}</td><td class="xs-hide ${x.gdpg>0?"pos":x.gdpg<0?"neg":""}">${x.mp?(x.gdpg>0?"+":"")+x.gdpg.toFixed(1):"–"}</td>`+
    `<td class="t">${x.rated?`<span class="dv"><i class="n"><b style="width:${x.net<0?w:0}%"></b></i><i class="p"><b style="width:${x.net>0?w:0}%"></b></i></span><span class="net ${x.net>=0?"pos":"neg"}">${x.net>0?"+":""}${x.net.toFixed(2)}</span>`:'<span class="mut">No games yet</span>'}</td></tr>`}).join("")+"</tbody>"};
  const fc=$("natConf").value,shown=fc?reg.filter(x=>slugC(x.b.conf)===fc):reg;
@@ -1240,6 +1281,7 @@ else if(NATIONAL){for(const id of["myCard","kpis","s-table","s-h2h","s-grid2","s
  $("natConf").innerHTML='<option value="">All conferences</option>'+DATA.brackets.filter(b=>b.age===B.age&&b.conf===baseConf(b.conf)).map(b=>`<option value="${slugC(b.conf)}">${b.conf}</option>`).join("");
  $("natConf").onchange=drawNational;drawNational()}
 else{drawAll();if(!PAST)document.querySelector("nav .wrap").insertAdjacentHTML("beforeend",`<a href="?view=insights&age=${B.age}">Insights →</a>`)}
+try{drawNotif()}catch(e){}
 // say so when usage stats are on, with an opt-out that keeps the current view
 if(window.fa&&fa.enabled){const q=new URLSearchParams(location.search);q.set("fa","off");
  $("foot").insertAdjacentHTML("beforeend",` · Anonymous usage stats, no cookies (<a href="?${esc(String(q))}" data-notrack>opt out</a>)`)}
