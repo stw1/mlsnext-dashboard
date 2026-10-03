@@ -48,9 +48,16 @@ async function firebase(){if(fb)return fb;
  fb={A,F,auth,db};if(EMU)window.__fb=fb;return fb}
 async function load(site,days){
  if(DEMO)return demo(site,days);
- const{F,db}=await firebase(),start=new Date(Date.now()-days*864e5);
- const snap=await F.getDocs(F.query(F.collection(db,"sites",site,"events"),F.where("ts",">=",F.Timestamp.fromDate(start)),F.orderBy("ts"),F.limit(50000)));
- return snap.docs.map(d=>{const x=d.data();return{...x,ts:x.ts.toDate(),props:x.props||{}}})}
+ const{F,db}=await firebase(),start=new Date(Date.now()-days*864e5),out=[];
+ // Firestore returns at most 10,000 documents per query, so read in pages (up to 200,000 events)
+ let last=null;for(let page=0;page<20;page++){
+  const parts=[F.collection(db,"sites",site,"events"),F.where("ts",">=",F.Timestamp.fromDate(start)),F.orderBy("ts")];
+  if(last)parts.push(F.startAfter(last));parts.push(F.limit(10000));
+  const snap=await F.getDocs(F.query(...parts));
+  for(const d of snap.docs){const x=d.data();out.push({...x,ts:x.ts.toDate(),props:x.props||{}})}
+  if(snap.docs.length<10000)break;last=snap.docs[snap.docs.length-1];
+  $("status").textContent=`Loading… ${out.length} events so far`}
+ return out}
 
 // ---------- aggregation helpers ----------
 const count=(arr,key)=>{const m=new Map;for(const x of arr){const k=key(x);if(k===undefined||k===null||k==="")continue;m.set(k,(m.get(k)||0)+1)}return[...m].sort((a,b)=>b[1]-a[1])};
