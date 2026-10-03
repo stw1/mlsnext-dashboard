@@ -10,7 +10,8 @@ Checks for every team that MLS lists with values: games played, wins, draws, los
 for every conference: the order of the table. Teams level on every tiebreaker the site can compute may be in any
 order (MLS then uses disciplinary points and a coin toss; the page copies MLS's position for those).
 MLS's standings can lag the scores (match reports within 24 h, 48 h to verify), so a team whose official record
-equals ours without its games of the last 48 hours counts as "not updated yet", not as a difference.
+equals ours without its games of the last 48 hours counts as "not updated yet", not as a difference; so does a team
+whose official record is ahead of ours only by games that kicked off in the last 48 hours (no score in our copy yet).
 Exit code 0 = all match, 1 = differences (listed), 2 = could not fetch the official standings.
 """
 import collections, functools, os, sys
@@ -80,6 +81,13 @@ def main():
     mine = tables(brackets, games)
     recent = (datetime.now(timezone.utc) - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M")
     older = tables(brackets, games, before=recent)  # the same, leaving out games of the last 48 hours
+    # the other way round: games that kicked off in the last 48 hours but have no score in our copy yet (MLS's table
+    # can be a few minutes ahead of the schedule we downloaded)
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
+    pending = collections.Counter()
+    for g in games:
+        if g.get("comp", "league") == "league" and str(g["home_score"]) == "" and recent <= g["start"][:16] <= now:
+            pending[g["home_id"]] += 1; pending[g["away_id"]] += 1
     problems, lagging, teams, confs = [], [], 0, 0
     for b in st["competition_season"]["competition_brackets"]:
         key = (b["age_group"]["name"], b["name"])
@@ -104,6 +112,8 @@ def main():
             got = stat(T.get(sid))
             if got != want and stat(older[key][0].get(sid)) == want:
                 lagging.append(f"{key[0]} {key[1]} · {name}"); lag_here = True
+            elif got and got != want and 0 < want[0] - got[0] <= pending[sid]:
+                lagging.append(f"{key[0]} {key[1]} · {name} (MLS already has {want[0] - got[0]} newer result{'s' if want[0] - got[0] > 1 else ''})"); lag_here = True
             elif got != want:
                 problems.append(f"{key[0]} {key[1]} · {name}: MLS has MP {want[0]}, W-D-L {want[1]}-{want[2]}-{want[3]}, "
                                 f"goals {want[4]}-{want[5]}; dashboard has " + (
@@ -120,7 +130,7 @@ def main():
                 break
     print(f"Checked {teams} teams in {confs} conferences against MLS's official standings.")
     if lagging:
-        print(f"{len(lagging)} team(s) where MLS's table doesn't include the last 48 hours of games yet (not an error):")
+        print(f"{len(lagging)} team(s) where MLS's table and ours differ only by games of the last 48 hours (not an error):")
         for t in lagging:
             print("  - " + t)
     if problems:

@@ -38,7 +38,8 @@ manifest.webmanifest, icon.svg     home-screen app name and icons (icon-192/512.
 - **Check against MLS:** `python3 scripts/check_official.py` compares every U15–U19 team's MP, W-D-L and goals, and every
   conference's order, with MLS's official standings (U13/U14 have no official values). Teams level on every computable
   tiebreaker may swap. A team whose official record equals ours minus its games of the last 48 hours is reported as
-  "not updated yet" (MLS allows 24 h for match reports + 48 h to verify), not as an error. Run it after any table change.
+  "not updated yet" (MLS allows 24 h for match reports + 48 h to verify), not as an error; likewise when MLS is ahead of us
+  only by games that kicked off in the last 48 hours (results posted after our download). Run it after any table change.
 - **Auto-refresh:** `.github/workflows/refresh.yml` runs `refresh.py` on GitHub Actions Sat & Sun (~1, 5, 9 pm
   Pacific) and Mon & Tue (~9 am), and commits + pushes only when `data/games.csv` changed (calendar files change only
   when games do, so they ride along). Before publishing it runs `sanity_check.py`: if the new data looks broken
