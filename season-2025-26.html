@@ -366,7 +366,9 @@ footer{padding:4px 24px 30px;color:var(--mut);font-size:12px}
   document.addEventListener("click", function (ev) {
     var el = ev.target && ev.target.closest && ev.target.closest("a,button,summary,[role=button],[data-track]");
     if (!el || el.closest("[data-notrack]")) return;
-    var label = el.getAttribute("data-track") || el.getAttribute("aria-label") || (el.textContent || "").replace(/[▲▼↑↓↕›‹→←✓]/g, "").trim() || el.id || el.tagName;
+    // the visible text only (innerText skips hidden copies such as a long and a short team name), first line
+    var text = ((el.innerText || el.textContent || "").replace(/[▲▼↑↓↕›‹→←✓]/g, "").trim().split("\n")[0] || "").trim().slice(0, 60);
+    var label = el.getAttribute("data-track") || el.getAttribute("aria-label") || text || el.id || el.tagName;
     var pr = { label: label, id: el.id || "" }, href = el.getAttribute("href") || "";
     if (href) pr.to = /^mailto:/.test(href) ? "mailto" : /^webcal:/.test(href) ? "webcal" : href[0] === "#" ? "#" + href.slice(1, 40)
       : (function () { try { var u = new URL(href, location.href); return u.host === location.host ? "internal" : u.host; } catch (e) { return ""; } })();
