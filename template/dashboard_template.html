@@ -523,9 +523,10 @@ if(SEASONS.length>1){$("seasonSel").innerHTML=SEASONS.map(x=>`<option value="${x
 else{$("seasonWrap").style.display="none";document.querySelector(".ctl").classList.add("noseason")}
 $("bracket").textContent=NATIONAL?`${B.age} National rankings`:`${B.age} ${baseConf(B.conf)} Conference`;
 if(B.conf!==baseConf(B.conf)&&!NATIONAL)$("ppp").style.display="inline-block";
-// age tabs keep the conference when that age has it (else its regular version for Pro Player Pathway, else the default)
+// age tabs keep the conference when that age has it (else its regular version for Pro Player Pathway, else the default).
+// They never carry the followed team: following a team in one age group doesn't follow the club in the others.
 const ages=[...new Set(DATA.brackets.map(b=>b.age))];
-const drawTabs=()=>{$("ages").innerHTML=ages.map(a=>{const b=findB(a,B.conf)||findB(a,baseConf(B.conf))||findB(a,DATA.default.conf)||DATA.brackets.find(x=>x.age===a);const st=SHOW&&teamBySlug(b,nm(SHOW));return`<a href="${NATIONAL?`?age=${a}&conf=national`:st?showUrl(b,st):SHOW?bracketUrl(b):pageUrl(b,myTeam&&teamBySlug(b,nm(myTeam)))}"${a===B.age?' class="on" aria-current="page"':""}>${a}</a>`}).join("")};drawTabs();
+const drawTabs=()=>{$("ages").innerHTML=ages.map(a=>{const b=findB(a,B.conf)||findB(a,baseConf(B.conf))||findB(a,DATA.default.conf)||DATA.brackets.find(x=>x.age===a);const st=SHOW&&teamBySlug(b,nm(SHOW));return`<a href="${NATIONAL?`?age=${a}&conf=national`:st?showUrl(b,st):bracketUrl(b)}"${a===B.age?' class="on" aria-current="page"':""}>${a}</a>`}).join("")};drawTabs();
 $("confSel").innerHTML=`<option value="national"${NATIONAL?" selected":""}>National (all conferences)</option>`+(PAST?"":`<option value="insights">Insights: risers, upsets, streaks</option>`)+DATA.brackets.filter(b=>b.age===B.age).map(b=>`<option value="${slugC(b.conf)}"${b===B&&!NATIONAL?" selected":""}>${b.conf}</option>`).join("");
 $("confSel").onchange=e=>{location.search=e.target.value==="insights"?`?view=insights&age=${B.age}`:`?age=${B.age}&conf=${e.target.value}`};
 // find any team across every bracket; picking one opens its bracket and follows it

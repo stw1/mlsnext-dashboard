@@ -166,7 +166,7 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   `lafc` or a squad id also works,
   as does the older `&follow=<squad_id>`). A linked team becomes that browser's followed team for the bracket.
   `syncUrl()` keeps the address bar equal to bracket + followed team, so copying it (or "Share link", which uses
-  the phone share sheet or the clipboard) shares exactly that view. Age tabs carry the same club to other ages.
+  the phone share sheet or the clipboard) shares exactly that view. Age tabs never carry the followed team (each age group is followed separately; on a team page they open the club's team page in that age).
 - Team short names (used on phones and in column headers) come from the `SHORT` map in the template (~95 clubs,
   covering every name the regex fallback made too long or too terse). New clubs fall back to the regex.
 - "Follow a team" is saved in the browser's localStorage, keyed by page title, so each bracket remembers its own team.
