@@ -31,18 +31,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=c
  hula-vista-fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-28136-5667@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261004T180000Z
-DURATION:PT2H
-SUMMARY:U13 Chula Vista FC vs Strikers FC
-LOCATION:O'Farrell Charter School - Stadium
-DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U13&conf=southwest&show=chula-vista-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=c
- hula-vista-fc
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-27462-5667@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261011T160000Z
@@ -367,6 +355,18 @@ SUMMARY:U13 Chula Vista FC at City SC - San Diego
 DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=ch
  ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28136-5667@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U13 Chula Vista FC vs Strikers FC
+LOCATION:O'Farrell Charter School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=chula-vista-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=c
  hula-vista-fc
 END:VEVENT

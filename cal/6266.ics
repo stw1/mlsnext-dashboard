@@ -55,30 +55,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
  os-angeles-football-club
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-29150-6266@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T180000Z
-DURATION:PT2H
-SUMMARY:U14 Los Angeles Football Club vs Ventura County Fusion
-LOCATION:Jesse Owens Stadium - Stadium
-DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U14&conf=southwest&show=los-angeles-football-club
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
- os-angeles-football-club
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-28149-6266@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261004T180000Z
-DURATION:PT2H
-SUMMARY:U14 Los Angeles Football Club vs Los Angeles Bulls Soccer Club
-LOCATION:Jesse Owens Stadium - Stadium
-DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U14&conf=southwest&show=los-angeles-football-club
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
- os-angeles-football-club
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28209-6266@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261010T200000Z
@@ -414,6 +390,30 @@ SUMMARY:U14 Los Angeles Football Club at Los Angeles Bulls Soccer Club
 DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=lo
  s-angeles-football-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ os-angeles-football-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28149-6266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U14 Los Angeles Football Club vs Los Angeles Bulls Soccer Club
+LOCATION:Jesse Owens Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=los-angeles-football-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ os-angeles-football-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-29150-6266@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U14 Los Angeles Football Club vs Ventura County Fusion
+LOCATION:Jesse Owens Stadium - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=los-angeles-football-club
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
  os-angeles-football-club
 END:VEVENT

@@ -46,9 +46,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsnext-27937-flex-6006@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20261003T200000Z
+DTSTART:20261003T160000Z
 DURATION:PT2H
-SUMMARY:U19 RSL Arizona at City SC Southwest (Flex)
+SUMMARY:U19 RSL Arizona at City SC Southwest (Flex) (W 4–3)
 LOCATION:Silverlakes Sports Park -  Field 17
 DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
  dashboard/?age=U19&conf=southwest&show=rsl-arizona
@@ -58,10 +58,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsnext-28147-6006@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20261004T160000Z
+DTSTART:20261004T150000Z
 DURATION:PT2H
 SUMMARY:U19 RSL Arizona at City SC - San Diego
-LOCATION:Sage Creek High School
+LOCATION:Pine Community Park - Pine Community Park
 DESCRIPTION:MLS NEXT Homegrown · U19 Southwest\nhttps://stw1.github.io/mls
  next-dashboard/?age=U19&conf=southwest&show=rsl-arizona
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=r

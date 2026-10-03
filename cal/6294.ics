@@ -67,18 +67,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
  anta-barbara-soccer-club
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-28134-6294@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T200000Z
-DURATION:PT2H
-SUMMARY:U13 Santa Barbara Soccer Club at Albion SC Los Angeles
-LOCATION:Long Beach City College - FIELD 2
-DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U13&conf=southwest&show=santa-barbara-soccer-club
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
- anta-barbara-soccer-club
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28460-6294@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T180000Z
@@ -380,6 +368,18 @@ SUMMARY:U13 Santa Barbara Soccer Club at SoCal Reds FC
 DESCRIPTION:MLS NEXT Homegrown · U13 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=sa
  nta-barbara-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
+ anta-barbara-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28134-6294@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T200000Z
+DURATION:PT2H
+SUMMARY:U13 Santa Barbara Soccer Club at Albion SC Los Angeles
+LOCATION:Long Beach City College - FIELD 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southwest&show=santa-barbara-soccer-club
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=s
  anta-barbara-soccer-club
 END:VEVENT

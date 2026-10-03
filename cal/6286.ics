@@ -56,18 +56,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=a
  lbion-sc-san-diego
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27911-6286@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T180000Z
-DURATION:PT2H
-SUMMARY:U17 ALBION SC San Diego vs Strikers FC
-LOCATION:Mission Bay High School
-DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U17&conf=southwest&show=albion-sc-san-diego
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=a
- lbion-sc-san-diego
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28693-6286@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261018T180000Z
@@ -336,6 +324,18 @@ SUMMARY:U17 ALBION SC San Diego vs City SC Southwest
 DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=al
  bion-sc-san-diego
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=a
+ lbion-sc-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27911-6286@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U17 ALBION SC San Diego vs Strikers FC
+LOCATION:Mission Bay High School
+DESCRIPTION:MLS NEXT Homegrown · U17 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=southwest&show=albion-sc-san-diego
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=a
  lbion-sc-san-diego
 END:VEVENT

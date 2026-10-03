@@ -69,10 +69,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsnext-27914-5853@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20261003T200000Z
+DTSTART:20261003T160000Z
 DURATION:PT2H
-SUMMARY:U14 City SC Southwest vs RSL Arizona
-LOCATION:Silverlakes Sports Park - Field 18
+SUMMARY:U14 City SC Southwest vs RSL Arizona (D 2–2)
+LOCATION:Silverlakes Sports Complex - Field 22
 DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
  next-dashboard/?age=U14&conf=southwest&show=city-sc-southwest
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=c

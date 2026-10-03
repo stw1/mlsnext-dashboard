@@ -57,10 +57,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsnext-27913-6011@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20261003T160000Z
+DTSTART:20261003T180000Z
 DURATION:PT2H
-SUMMARY:U13 RSL Arizona at City SC Southwest
-LOCATION:Silverlakes Sports Park -  Field 17
+SUMMARY:U13 RSL Arizona at City SC Southwest (W 7–0)
+LOCATION:Silverlakes Sports Complex - Field 22
 DESCRIPTION:MLS NEXT Homegrown · U13 Southwest\nhttps://stw1.github.io/mls
  next-dashboard/?age=U13&conf=southwest&show=rsl-arizona
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southwest&show=r
@@ -69,7 +69,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsnext-28142-6011@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20261004T160000Z
+DTSTART:20261004T164500Z
 DURATION:PT2H
 SUMMARY:U13 RSL Arizona at City SC - San Diego
 LOCATION:Aviara Community Park - Aviara Community Park

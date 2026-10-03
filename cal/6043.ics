@@ -31,18 +31,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=a
  lbion-sc-los-angeles
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-28157-flex-6043@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T160000Z
-DURATION:PT2H
-SUMMARY:U19 Albion SC Los Angeles vs Santa Barbara Soccer Club (Flex)
-LOCATION:Long Beach City College - FIELD 1
-DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
- dashboard/?age=U19&conf=southwest&show=albion-sc-los-angeles
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=a
- lbion-sc-los-angeles
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-26192-flex-6043@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261010T160000Z
@@ -332,6 +320,18 @@ SUMMARY:U19 Albion SC Los Angeles vs FC Golden State Force
 DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=al
  bion-sc-los-angeles
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=a
+ lbion-sc-los-angeles
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28157-flex-6043@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U19 Albion SC Los Angeles vs Santa Barbara Soccer Club (Flex)
+LOCATION:Long Beach City College - FIELD 1
+DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southwest&show=albion-sc-los-angeles
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=a
  lbion-sc-los-angeles
 END:VEVENT

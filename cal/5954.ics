@@ -67,18 +67,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
  a-surf-soccer-club
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27924-5954@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T180000Z
-DURATION:PT2H
-SUMMARY:U14 LA Surf Soccer Club at Total Futbol Academy
-LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 2
-DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U14&conf=southwest&show=la-surf-soccer-club
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
- a-surf-soccer-club
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-26186-5954@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261010T234500Z
@@ -382,6 +370,18 @@ SUMMARY:U14 LA Surf Soccer Club vs Total Futbol Academy
 DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=la
  -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27924-5954@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U14 LA Surf Soccer Club at Total Futbol Academy
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=la-surf-soccer-club
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=l
  a-surf-soccer-club
 END:VEVENT

@@ -55,18 +55,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=l
  a-surf-soccer-club
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27932-flex-5957@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T180000Z
-DURATION:PT2H
-SUMMARY:U17 LA Surf Soccer Club at Total Futbol Academy (Flex)
-LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 1
-DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
- dashboard/?age=U17&conf=southwest&show=la-surf-soccer-club
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=l
- a-surf-soccer-club
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-26191-flex-5957@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261010T180000Z
@@ -336,6 +324,18 @@ SUMMARY:U17 LA Surf Soccer Club vs Total Futbol Academy
 DESCRIPTION:MLS NEXT Homegrown · U17 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=la
  -surf-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=l
+ a-surf-soccer-club
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27932-flex-5957@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U17 LA Surf Soccer Club at Total Futbol Academy (Flex)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southwest&show=la-surf-soccer-club
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southwest&show=l
  a-surf-soccer-club
 END:VEVENT

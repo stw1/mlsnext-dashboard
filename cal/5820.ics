@@ -55,18 +55,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=t
  otal-futbol-academy
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27933-flex-5820@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T160000Z
-DURATION:PT2H
-SUMMARY:U19 Total Futbol Academy vs LA Surf Soccer Club (Flex)
-LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 1
-DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
- dashboard/?age=U19&conf=southwest&show=total-futbol-academy
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=t
- otal-futbol-academy
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28477-5820@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T160000Z
@@ -335,6 +323,18 @@ SUMMARY:U19 Total Futbol Academy at LA Surf Soccer Club
 DESCRIPTION:MLS NEXT Homegrown · U19 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=to
  tal-futbol-academy
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=t
+ otal-futbol-academy
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27933-flex-5820@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U19 Total Futbol Academy vs LA Surf Soccer Club (Flex)
+LOCATION:Silverlakes Field in Norco - Silverlakes Sports Complex Field 1
+DESCRIPTION:MLS NEXT Flex · U19 Southwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U19&conf=southwest&show=total-futbol-academy
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U19&conf=southwest&show=t
  otal-futbol-academy
 END:VEVENT

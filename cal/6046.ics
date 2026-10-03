@@ -55,30 +55,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
  trikers-fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27908-6046@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T160000Z
-DURATION:PT2H
-SUMMARY:U14 Strikers FC at ALBION SC San Diego
-LOCATION:Muir Language Academy
-DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U14&conf=southwest&show=strikers-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
- trikers-fc
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-28137-6046@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261004T180000Z
-DURATION:PT2H
-SUMMARY:U14 Strikers FC at Chula Vista FC
-LOCATION:Hoover High School - Stadium
-DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U14&conf=southwest&show=strikers-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
- trikers-fc
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28467-6046@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T180000Z
@@ -379,6 +355,30 @@ SUMMARY:U14 Strikers FC vs San Diego FC
 DESCRIPTION:MLS NEXT Homegrown · U14 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=st
  rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27908-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC at ALBION SC San Diego
+LOCATION:Muir Language Academy
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28137-6046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U14 Strikers FC at Chula Vista FC
+LOCATION:Hoover High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U14 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southwest&show=strikers-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southwest&show=s
  trikers-fc
 END:VEVENT

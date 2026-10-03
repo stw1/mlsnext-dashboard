@@ -43,30 +43,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=s
  trikers-fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27909-6047@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T160000Z
-DURATION:PT2H
-SUMMARY:U15 Strikers FC at ALBION SC San Diego
-LOCATION:Mission Bay High School
-DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U15&conf=southwest&show=strikers-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=s
- trikers-fc
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-28138-6047@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261004T160000Z
-DURATION:PT2H
-SUMMARY:U15 Strikers FC at Chula Vista FC
-LOCATION:Hoover High School - Stadium
-DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U15&conf=southwest&show=strikers-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=s
- trikers-fc
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28210-flex-6047@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261010T160000Z
@@ -357,6 +333,30 @@ SUMMARY:U15 Strikers FC vs Ventura County Fusion
 DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=st
  rikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27909-6047@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U15 Strikers FC at ALBION SC San Diego
+LOCATION:Mission Bay High School
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=strikers-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=s
+ trikers-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28138-6047@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U15 Strikers FC at Chula Vista FC
+LOCATION:Hoover High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=strikers-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=s
  trikers-fc
 END:VEVENT

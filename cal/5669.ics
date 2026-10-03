@@ -31,18 +31,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=c
  hula-vista-fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-28138-5669@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261004T160000Z
-DURATION:PT2H
-SUMMARY:U15 Chula Vista FC vs Strikers FC
-LOCATION:Hoover High School - Stadium
-DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U15&conf=southwest&show=chula-vista-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=c
- hula-vista-fc
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-27464-5669@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261011T220000Z
@@ -334,6 +322,18 @@ SUMMARY:U15 Chula Vista FC at City SC - San Diego
 DESCRIPTION:MLS NEXT Homegrown · U15 Southwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=ch
  ula-vista-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=c
+ hula-vista-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28138-5669@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U15 Chula Vista FC vs Strikers FC
+LOCATION:Hoover High School - Stadium
+DESCRIPTION:MLS NEXT Homegrown · U15 Southwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U15&conf=southwest&show=chula-vista-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southwest&show=c
  hula-vista-fc
 END:VEVENT
