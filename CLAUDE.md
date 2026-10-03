@@ -199,6 +199,9 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   team page Position KPI, club table/cards and the national ranking (ratings refit on the games before that weekend).
   `drawNotif()` puts a banner at the top of every current-season page for the teams this browser follows (all brackets):
   "Your teams after the weekend of …" with each team's move; ✕ hides it until the next weekend (`notif:off` = week key).
+  One club followed → "Your Ballistic teams …" with just the age groups. Phones (≤700px): banner in two columns, "(was …)"
+  hidden; standings show a small ▲/▼ inside the rank (`.rkmv`, no number) instead of the tag after the name, and the
+  team cell uses a hanging indent (rank slot 24px) so wrapped names line up and never start under the rank number.
 - Club view: `?club=<slug>` (full or short name slug, e.g. `ballistic-united`, `lafc`). Lists the club's team in every
   age group with conference position, record, national rank, power rank, simulated top-line / 1st chances (2,000 runs per
   bracket), next game; plus club-wide upcoming games and recent results. Reached from "Find any team" (club rows first)
@@ -232,7 +235,7 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   secret-scanning alerts closed as revoked). Firebase CLI and gcloud on this Mac are signed in.
 - "New since your last visit": localStorage `seen:<title>` keeps the played-game ids at the end of the previous
   visit (a visit ends after 6 quiet hours). New results get a "New" pill (results, tooltips, card) and a ring in Who beat who.
-- Phones (≤700px): the header packs pickers into a grid; `.xs-hide` columns drop out (W/D/L/Goals in standings,
+- Phones (≤700px): standings scroll sideways by design (projected-finish columns) with the team column fixed; the header packs pickers into a grid; `.xs-hide` columns drop out (W/D/L/Goals in standings,
   Scores/Concedes in power, Conference/W-D-L/GD in national) so the ranking numbers fit without scrolling.
 - Dark mode follows the device (`prefers-color-scheme`), one override block at the end of the CSS.
 - `window.__debug` in the page exposes the model internals for testing in node or the browser console.
