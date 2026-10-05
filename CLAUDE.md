@@ -203,6 +203,14 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   One club followed → "Your Ballistic teams …" with just the age groups. Phones (≤700px): banner in two columns, "(was …)"
   hidden; standings show a small ▲/▼ inside the rank (`.rkmv`, no number) instead of the tag after the name, and the
   team cell uses a hanging indent (rank slot 24px) so wrapped names line up and never start under the rank number.
+- Playoff-tier tags (`todayOf(o)` → Map squad → "champ" | "premier" | "cup"; `tierChip`, `tierLegend`): the MLS NEXT
+  Cup place each team would get if the season ended today. U13/U14 with a `CUP_EST` line: top CUT[0] "Champ.", next CUT[1]
+  "Premier" (2025-26 spots); U15-U19: top 4 "Cup" (2026-27 split of the 48 places unpublished). Teams with no games and
+  past-season pages get none. Shown after the name in standings, club table/cards and national table, and on the team
+  page Position KPI; on phones standings/national hide the chip and show a coloured left edge (`zt-*`) instead. Legends in
+  the standings key, club key and national hint. `todayOf` is a global on purpose: the Through Ball app (another session,
+  shows this page in its MLS NEXT tab) reads it; keep it and the other globals it calls (bracketInfo, simulate, predict,
+  CUP_EST, natRows, shortName, showUrl) stable.
 - Club view: `?club=<slug>` (full or short name slug, e.g. `ballistic-united`, `lafc`). Lists the club's team in every
   age group with conference position, record, national rank, power rank, simulated top-line / 1st chances (2,000 runs per
   bracket), next game; plus club-wide upcoming games and recent results. Reached from "Find any team" (club rows first)
