@@ -33,19 +33,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
  pathway&show=san-jose-earthquakes
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27939-6017@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T183000Z
-DURATION:PT2H
-SUMMARY:U17 San Jose Earthquakes at LA Galaxy (W 2–1)
-LOCATION:Dignity Health Sports Park - Field 4
-DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway)\nhttps://st
- w1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=
- san-jose-earthquakes
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
- pathway&show=san-jose-earthquakes
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28484-6017@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T183000Z
@@ -289,6 +276,19 @@ SUMMARY:U17 San Jose Earthquakes vs LA Galaxy
 DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway) · kickoff 
  time not set yet\nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=w
  est-pro-player-pathway&show=san-jose-earthquakes
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
+ pathway&show=san-jose-earthquakes
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27939-6017@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T183000Z
+DURATION:PT2H
+SUMMARY:U17 San Jose Earthquakes at LA Galaxy
+LOCATION:Dignity Health Sports Park - Field 4
+DESCRIPTION:MLS NEXT Homegrown · U17 West (Pro Player Pathway)\nhttps://st
+ w1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-pathway&show=
+ san-jose-earthquakes
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=west-pro-player-
  pathway&show=san-jose-earthquakes
 END:VEVENT

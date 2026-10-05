@@ -33,19 +33,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
  mi-futbol-academy-rush
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27714-flex-5970@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T200000Z
-DURATION:PT2H
-SUMMARY:U15 Miami Futbol Academy Rush at Orlando City Soccer School South (
- Flex)
-LOCATION:Northeast Regional Park - Field 3
-DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
- shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
- mi-futbol-academy-rush
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28249-5970@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T163000Z
@@ -303,6 +290,19 @@ DTSTART:20270608T170000Z
 DURATION:PT2H
 SUMMARY:U15 Miami Futbol Academy Rush at Tampa Bay United (Flex)
 LOCATION:Ed Radice Sports Complex - Field 4
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27714-flex-5970@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T200000Z
+DURATION:PT2H
+SUMMARY:U15 Miami Futbol Academy Rush at Orlando City Soccer School South (
+ Flex)
+LOCATION:Northeast Regional Park - Field 3
 DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
  shboard/?age=U15&conf=florida&show=miami-futbol-academy-rush
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=mia

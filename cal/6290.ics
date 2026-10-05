@@ -48,7 +48,7 @@ DTSTAMP:20260801T000000Z
 DTSTART:20261003T214500Z
 DURATION:PT2H
 SUMMARY:U14 FA Euro New York at Intercontinental Football Academy of New En
- gland
+ gland (L 1–5)
 LOCATION:Union Point Sports Complex - Field 2
 DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U14&conf=northeast&show=fa-euro-new-york
@@ -60,7 +60,7 @@ UID:mlsnext-28071-6290@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261004T190000Z
 DURATION:PT2H
-SUMMARY:U14 FA Euro New York at New England Revolution
+SUMMARY:U14 FA Euro New York at New England Revolution (L 1–5)
 LOCATION:Revolution Training Center - Field 4
 DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U14&conf=northeast&show=fa-euro-new-york

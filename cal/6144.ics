@@ -32,18 +32,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=l
  anier-soccer-association
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-28111-6144@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261004T180000Z
-DURATION:PT2H
-SUMMARY:U14 Lanier Soccer Association at Chattanooga FC
-LOCATION:UTC Sports Complex - Lower Field
-DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
- next-dashboard/?age=U14&conf=southeast&show=lanier-soccer-association
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=l
- anier-soccer-association
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28651-6144@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261018T180000Z
@@ -322,6 +310,18 @@ DTSTART:20270516T130000Z
 DURATION:PT2H
 SUMMARY:U14 Lanier Soccer Association vs Chattanooga FC
 LOCATION:Allen Creek Soccer Complex  - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=lanier-soccer-association
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=l
+ anier-soccer-association
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28111-6144@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T180000Z
+DURATION:PT2H
+SUMMARY:U14 Lanier Soccer Association at Chattanooga FC
+LOCATION:UTC Sports Complex - Lower Field
 DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U14&conf=southeast&show=lanier-soccer-association
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=l

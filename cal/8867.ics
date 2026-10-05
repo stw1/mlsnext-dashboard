@@ -80,18 +80,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
  hattanooga-fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-28124-flex-8867@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261004T160000Z
-DURATION:PT2H
-SUMMARY:U15 Chattanooga FC vs Lanier Soccer Association (Flex)
-LOCATION:UTC Sports Complex - Lower Field
-DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
- dashboard/?age=U15&conf=southeast&show=chattanooga-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
- hattanooga-fc
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-30807-8867@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261010T150000Z
@@ -341,6 +329,18 @@ SUMMARY:U15 Chattanooga FC at Lanier Soccer Association
 LOCATION:ALLEN CREEK SOCCER COMPLEX - FIELD 1
 DESCRIPTION:MLS NEXT Homegrown · U15 Southeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U15&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28124-flex-8867@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U15 Chattanooga FC vs Lanier Soccer Association (Flex)
+LOCATION:UTC Sports Complex - Lower Field
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=chattanooga-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=c
  hattanooga-fc
 END:VEVENT

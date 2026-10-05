@@ -44,19 +44,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=mia
  mi-futbol-academy-rush
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27712-5972@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T200000Z
-DURATION:PT2H
-SUMMARY:U13 Miami Futbol Academy Rush at Orlando City Soccer School South (
- D 1–1)
-LOCATION:NorthEast Regional Park - Turf Field 2
-DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
- xt-dashboard/?age=U13&conf=florida&show=miami-futbol-academy-rush
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=mia
- mi-futbol-academy-rush
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28247-5972@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T203000Z
@@ -324,6 +311,18 @@ DTSTART:20270608T170000Z
 DURATION:PT2H
 SUMMARY:U13 Miami Futbol Academy Rush at Tampa Bay United
 LOCATION:Ed Radice Sports Complex - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=miami-futbol-academy-rush
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=mia
+ mi-futbol-academy-rush
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27712-5972@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T200000Z
+DURATION:PT2H
+SUMMARY:U13 Miami Futbol Academy Rush at Orlando City Soccer School South
+LOCATION:NorthEast Regional Park - Turf Field 2
 DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
  xt-dashboard/?age=U13&conf=florida&show=miami-futbol-academy-rush
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=mia

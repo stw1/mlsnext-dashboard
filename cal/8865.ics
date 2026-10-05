@@ -67,18 +67,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=c
  hattanooga-fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-28098-8865@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261004T160000Z
-DURATION:PT2H
-SUMMARY:U13 Chattanooga FC vs Lanier Soccer Association
-LOCATION:UTC Sports Complex - Upper Field
-DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
- next-dashboard/?age=U13&conf=southeast&show=chattanooga-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=c
- hattanooga-fc
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28546-8865@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T160000Z
@@ -325,6 +313,18 @@ DTSTART:20270516T150000Z
 DURATION:PT2H
 SUMMARY:U13 Chattanooga FC at Lanier Soccer Association
 LOCATION:Allen Creek Soccer Complex  - Field 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=chattanooga-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=c
+ hattanooga-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-28098-8865@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T160000Z
+DURATION:PT2H
+SUMMARY:U13 Chattanooga FC vs Lanier Soccer Association
+LOCATION:UTC Sports Complex - Upper Field
 DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U13&conf=southeast&show=chattanooga-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=c

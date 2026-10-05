@@ -58,19 +58,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=orl
  ando-city-soccer-school-south
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27714-flex-7199@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T200000Z
-DURATION:PT2H
-SUMMARY:U15 Orlando City Soccer School South vs Miami Futbol Academy Rush (
- Flex)
-LOCATION:Northeast Regional Park - Field 3
-DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
- shboard/?age=U15&conf=florida&show=orlando-city-soccer-school-south
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=orl
- ando-city-soccer-school-south
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28257-flex-7199@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T140000Z
@@ -315,6 +302,19 @@ SUMMARY:U15 Orlando City Soccer School South vs Sol SC Florida
 LOCATION:Northeast Regional Park - Field 3
 DESCRIPTION:MLS NEXT Homegrown · U15 Florida\nhttps://stw1.github.io/mlsne
  xt-dashboard/?age=U15&conf=florida&show=orlando-city-soccer-school-south
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=orl
+ ando-city-soccer-school-south
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27714-flex-7199@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T200000Z
+DURATION:PT2H
+SUMMARY:U15 Orlando City Soccer School South vs Miami Futbol Academy Rush (
+ Flex)
+LOCATION:Northeast Regional Park - Field 3
+DESCRIPTION:MLS NEXT Flex · U15 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U15&conf=florida&show=orlando-city-soccer-school-south
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=florida&show=orl
  ando-city-soccer-school-south
 END:VEVENT

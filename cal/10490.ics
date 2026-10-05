@@ -31,18 +31,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
  -fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27705-flex-10490@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T220000Z
-DURATION:PT2H
-SUMMARY:U16 One FC vs IMG (Flex)
-LOCATION:STU Soccer Field - Field 1
-DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
- shboard/?age=U16&conf=florida&show=one-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
- -fc
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-34228-flex-10490@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261010T210000Z
@@ -297,6 +285,18 @@ DTSTART;VALUE=DATE:20270515
 SUMMARY:U16 One FC vs West Florida Flames
 DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
  https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
+ -fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27705-flex-10490@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T220000Z
+DURATION:PT2H
+SUMMARY:U16 One FC vs IMG (Flex)
+LOCATION:STU Soccer Field - Field 1
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=one-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=one
  -fc
 END:VEVENT

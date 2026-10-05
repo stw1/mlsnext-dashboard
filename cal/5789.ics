@@ -40,17 +40,6 @@ DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27706-flex-5789@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T200000Z
-DURATION:PT2H
-SUMMARY:U17 IMG at One FC (Flex)
-LOCATION:STU Soccer Field - Field 1
-DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
- shboard/?age=U17&conf=florida&show=img
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28245-flex-5789@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T200000Z
@@ -274,6 +263,17 @@ DTSTART;VALUE=DATE:20270515
 SUMMARY:U17 IMG at IdeaSport SA
 DESCRIPTION:MLS NEXT Homegrown · U17 Florida · kickoff time not set yet\n
  https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27706-flex-5789@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T200000Z
+DURATION:PT2H
+SUMMARY:U17 IMG at One FC (Flex)
+LOCATION:STU Soccer Field - Field 1
+DESCRIPTION:MLS NEXT Flex · U17 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U17&conf=florida&show=img
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=florida&show=img
 END:VEVENT
 END:VCALENDAR
