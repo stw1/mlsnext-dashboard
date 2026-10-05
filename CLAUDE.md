@@ -227,6 +227,9 @@ The page at mlssoccer.com/mlsnext/standings/homegrown_division/ embeds an iframe
   `ANALYTICS_SITE = "mlsnext"`; the page calls `fa.view({view, season, age, conf, team, club, following, page})` after
   drawing. Clicks, select changes, errors, active time, scroll and sections seen (`.card[id^="s-"]`) are automatic.
   Footer shows "Anonymous usage stats, no cookies (opt out)" when on. Tested with the Firestore + Auth emulators.
+  fa.js skips automated/embedded visits (webdriver/headless/crawlers, about:srcdoc copies, framed by another site,
+  referrer localhost/capacitor:/file:); report.html `realOnly()` hides older such visitors. Added 2026-10-04 after an
+  automated tester (localhost referrers, srcdoc copies, Cairo/São Paulo time zones) inflated Oct 3–4 to ~200 "visitors".
   Live project: Firebase `spaikz-dashboards` (owned by Stephen's spaikz.com Google account; Firestore nam5; web app
   "Dashboards"). Rules deploy with `analytics/deploy_rules.sh <owner email>` so the email isn't committed. Report:
   https://spaikz-dashboards.web.app (`analytics/deploy_report.sh`; the GitHub Pages copy just links there). **No API

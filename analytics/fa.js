@@ -13,7 +13,9 @@
  * API: fa.view(props) once per page with what the page shows (e.g. {view:"team", age:"U15"}); fa.track(name, props)
  * for anything else. Clicks on links/buttons, select changes, JavaScript errors, active time, scroll depth and
  * sections seen are recorded automatically. Visitors can opt out with ?fa=off (remembered; ?fa=on undoes it);
- * Do Not Track / Global Privacy Control are respected.
+ * Do Not Track / Global Privacy Control are respected. Automated and embedded visits are never counted: test tools
+ * (navigator.webdriver, headless browsers), copies inside other pages (srcdoc), pages framed by other sites, and visits
+ * arriving from localhost or app wrappers.
  */
 (function () {
   "use strict";
@@ -30,9 +32,22 @@
   var q = new URLSearchParams(location.search);
   if (q.get("fa") === "off") ls("fa:off", "1");
   if (q.get("fa") === "on") ls("fa:off", null);
-  var local = /^(localhost|127\.|\[::1\]|0\.0\.0\.0)/.test(location.hostname) || location.protocol === "file:";
+  var LOCALHOST = /^(localhost|127\.|\[::1\]|0\.0\.0\.0)|\.localhost$/;
+  var local = LOCALHOST.test(location.hostname) || location.protocol === "file:";
+  // Not a real visitor: a browser driven by a test tool (navigator.webdriver, headless browsers), a copy of the page
+  // inside another page (about:srcdoc), the page framed by another site, or a visit coming from a local dev server or
+  // an app wrapper (referrer localhost / capacitor: / file:). Set FA_CONFIG.allowEmbedded to count framed pages.
+  var automated = navigator.webdriver === true || /Headless|PhantomJS|Playwright|Puppeteer|Lighthouse|Googlebot|bingbot|YandexBot|Baiduspider|AhrefsBot|SemrushBot/i.test(navigator.userAgent || "");
+  var framed = false;
+  try { framed = window.top !== window.self && window.top.location.host !== location.host; } catch (e) { framed = true; }
+  var refLocal = false;
+  try { var rf = document.referrer && new URL(document.referrer); refLocal = !!rf && (LOCALHOST.test(rf.hostname) || /^(capacitor|file|ionic|app):$/.test(rf.protocol)); } catch (e) {}
+  var notReal = automated || location.protocol === "about:" || (framed && !C.allowEmbedded) || (refLocal && !C.debug);
   if (!C.site || !C.projectId || !/^[a-z0-9-]{1,30}$/.test(C.site) || ls("fa:off") === "1" ||
-      navigator.doNotTrack === "1" || navigator.globalPrivacyControl === true || (local && !C.debug)) return;
+      navigator.doNotTrack === "1" || navigator.globalPrivacyControl === true || (local && !C.debug) || notReal) {
+    if (C.debug && notReal) console.log("fa: not counting this visit", { automated: automated, srcdoc: location.protocol === "about:", framed: framed, fromLocalhost: refLocal });
+    return;
+  }
 
   var MAX = 80, sent = 0, queue = [], timer = null, viewed = false, errors = 0;
   var rid = function (n) { var a = new Uint8Array(n), s = "", c = "abcdefghijklmnopqrstuvwxyz0123456789"; crypto.getRandomValues(a); for (var i = 0; i < n; i++) s += c[a[i] % 36]; return s; };

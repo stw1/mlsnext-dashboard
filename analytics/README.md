@@ -34,7 +34,11 @@ width), `app` (opened from the home screen), `lang`, `tz`, `ts` (server time), a
 | anything | `fa.track("name", {...})` from the site | your own |
 
 Not recorded: IP addresses (Firestore doesn't keep them), names, emails, cookies, or anything typed into a box.
-Do Not Track and Global Privacy Control are respected. Anyone can opt out on a device by opening the site once with
+Do Not Track and Global Privacy Control are respected. **Automated and embedded visits are never counted:** browsers
+driven by test tools (`navigator.webdriver`, headless browsers, known crawlers), copies of the page inside another page
+(`about:srcdoc`), the page framed by another site (set `allowEmbedded: true` to count those), and visits arriving from a
+local dev server or an app wrapper (referrer `localhost`, `capacitor:`, `file:`). The report also hides visitors recorded
+before this filter existed whose views came from localhost or ran as srcdoc copies (it says how many). Anyone can opt out on a device by opening the site once with
 `?fa=off` (`?fa=on` undoes it). **Do that on your own devices** so your visits don't count.
 
 ## One-time Firebase setup (about 10 minutes)

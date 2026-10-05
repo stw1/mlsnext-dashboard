@@ -126,9 +126,13 @@ function render(ev,site,days){
  $("out1").innerHTML=h;
  $("status").textContent=`${site} · ${ev.length} events in the last ${days} day${days>1?"s":""}${DEMO?" · DEMO DATA (made up)":""}. To leave your own visits out, open the site once with ?fa=off on each of your devices.`}
 
+// visits recorded before fa.js skipped test traffic: drop visitors whose page views came from localhost / an app
+// wrapper, or ran as a copy inside another page (srcdoc)
+function realOnly(ev){const bad=new Set();for(const e of ev){const r=(e.props&&e.props.ref)||"";if(e.p==="srcdoc"||(e.n==="view"&&/^(localhost|127\.|\[::1\])/.test(r)))bad.add(e.v)}
+ const out=ev.filter(e=>!bad.has(e.v));out.hidden=bad.size;return out}
 async function run(){const site=$("site").value,days=+$("days").value;$("status").textContent="Loading…";
  history.replaceState(null,"",`?${new URLSearchParams({...Object.fromEntries(qs),site,days})}`);
- try{render(await load(site,days),site,days)}catch(e){$("status").innerHTML=`<span class="err">${e.code==="permission-denied"?`This Google account (${esc(fb&&fb.auth.currentUser?fb.auth.currentUser.email:"")}) isn't allowed to read the analytics. Add it to isOwner() in firestore.rules and deploy the rules.`:`Couldn't load: ${esc(e.message)}`}</span>`}}
+ try{const ev=realOnly(await load(site,days));render(ev,site,days);if(ev.hidden)$("status").insertAdjacentHTML("beforeend",` ${ev.hidden} test or embedded visitor${ev.hidden>1?"s":""} hidden.`)}catch(e){$("status").innerHTML=`<span class="err">${e.code==="permission-denied"?`This Google account (${esc(fb&&fb.auth.currentUser?fb.auth.currentUser.email:"")}) isn't allowed to read the analytics. Add it to isOwner() in firestore.rules and deploy the rules.`:`Couldn't load: ${esc(e.message)}`}</span>`}}
 $("site").onchange=$("days").onchange=$("reload").onclick=run;
 
 if(DEMO){$("who").textContent="Demo mode";run()}
