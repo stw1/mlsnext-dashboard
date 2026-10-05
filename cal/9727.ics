@@ -31,18 +31,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
  asport-sa
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27689-flex-9727@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T200000Z
-DURATION:PT2H
-SUMMARY:U16 IdeaSport SA at Sol SC Florida (Flex) (L 0–1)
-LOCATION:The National Training Center - NTC 2
-DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
- shboard/?age=U16&conf=florida&show=ideasport-sa
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
- asport-sa
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28270-9727@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T170000Z
@@ -301,6 +289,18 @@ SUMMARY:U16 IdeaSport SA vs IMG
 DESCRIPTION:MLS NEXT Homegrown · U16 Florida · kickoff time not set yet\n
  https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ideasp
  ort-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27689-flex-9727@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T200000Z
+DURATION:PT2H
+SUMMARY:U16 IdeaSport SA at Sol SC Florida (Flex)
+LOCATION:The National Training Center - NTC 2
+DESCRIPTION:MLS NEXT Flex · U16 Florida\nhttps://stw1.github.io/mlsnext-da
+ shboard/?age=U16&conf=florida&show=ideasport-sa
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U16&conf=florida&show=ide
  asport-sa
 END:VEVENT

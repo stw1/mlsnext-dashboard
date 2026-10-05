@@ -55,18 +55,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
  -sc-florida
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27686-5733@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T220000Z
-DURATION:PT2H
-SUMMARY:U13 Sol SC Florida vs IdeaSport SA (D 0–0)
-LOCATION:The National Training Center - NTC 2
-DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
- xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
- -sc-florida
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-29583-5733@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261011T200000Z
@@ -327,6 +315,18 @@ DTSTART:20270515T160000Z
 DURATION:PT2H
 SUMMARY:U13 Sol SC Florida vs Weston FC
 LOCATION:The National Training Center - NTC 1
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol
+ -sc-florida
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27686-5733@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T220000Z
+DURATION:PT2H
+SUMMARY:U13 Sol SC Florida vs IdeaSport SA
+LOCATION:The National Training Center - NTC 2
 DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
  xt-dashboard/?age=U13&conf=florida&show=sol-sc-florida
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=sol

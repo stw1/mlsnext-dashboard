@@ -44,18 +44,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northwest&show=s
  acramento-republic-fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-26137-flex-5920@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261010T220000Z
-DURATION:PT2H
-SUMMARY:U15 Sacramento Republic FC vs Atletico Santa Rosa (Flex)
-LOCATION:Cosumnes River College Stadium - Stadium Field
-DESCRIPTION:MLS NEXT Flex · U15 Northwest\nhttps://stw1.github.io/mlsnext-
- dashboard/?age=U15&conf=northwest&show=sacramento-republic-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northwest&show=s
- acramento-republic-fc
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28400-flex-5920@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T220000Z
@@ -229,13 +217,14 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northwest&show=s
  acramento-republic-fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-33909-5920@stw1.github.io
+UID:mlsnext-26137-flex-5920@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART;VALUE=DATE:20270320
-SUMMARY:U15 Sacramento Republic FC at Atletico Santa Rosa
-DESCRIPTION:MLS NEXT Homegrown · U15 Northwest · kickoff time not set yet
- \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northwest&show=sa
- cramento-republic-fc
+DTSTART:20270320T220000Z
+DURATION:PT2H
+SUMMARY:U15 Sacramento Republic FC vs Atletico Santa Rosa (Flex)
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Flex · U15 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=northwest&show=sacramento-republic-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northwest&show=s
  acramento-republic-fc
 END:VEVENT
@@ -299,6 +288,17 @@ UID:mlsnext-36487-5920@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART;VALUE=DATE:20270508
 SUMMARY:U15 Sacramento Republic FC vs San Francisco Glens SC
+DESCRIPTION:MLS NEXT Homegrown · U15 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northwest&show=sa
+ cramento-republic-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northwest&show=s
+ acramento-republic-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33909-5920@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U15 Sacramento Republic FC at Atletico Santa Rosa
 DESCRIPTION:MLS NEXT Homegrown · U15 Northwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=northwest&show=sa
  cramento-republic-fc

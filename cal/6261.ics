@@ -151,6 +151,18 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast&show=w
  ake-fc
 END:VEVENT
 BEGIN:VEVENT
+UID:mlsnext-28324-flex-6261@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T140000Z
+DURATION:PT2H
+SUMMARY:U17 Wake FC at Inter Atlanta FC (Flex)
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Flex · U17 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
 UID:mlsnext-32037-6261@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20270213T180000Z
@@ -308,18 +320,6 @@ SUMMARY:U17 Wake FC vs Hoover-Vestavia Soccer
 LOCATION:Ting Park - Ting Park 2
 DESCRIPTION:MLS NEXT Homegrown · U17 Southeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U17&conf=southeast&show=wake-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast&show=w
- ake-fc
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-28324-flex-6261@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20270608T130000Z
-DURATION:PT2H
-SUMMARY:U17 Wake FC at Inter Atlanta FC (Flex)
-LOCATION:Arizona Avenue Soccer Fields AZ 2
-DESCRIPTION:MLS NEXT Flex · U17 Southeast\nhttps://stw1.github.io/mlsnext-
- dashboard/?age=U17&conf=southeast&show=wake-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=southeast&show=w
  ake-fc
 END:VEVENT

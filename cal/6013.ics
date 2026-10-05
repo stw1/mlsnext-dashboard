@@ -164,12 +164,12 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=i
  nter-atlanta-fc
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-32002-6013@stw1.github.io
+UID:mlsnext-28113-6013@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20270213T220000Z
+DTSTART:20270130T180000Z
 DURATION:PT2H
-SUMMARY:U14 Inter Atlanta FC at Wake FC
-LOCATION:Ting Park - Ting Park 2
+SUMMARY:U14 Inter Atlanta FC vs Wake FC
+LOCATION:Arizona Avenue Soccer Fields - AZ 1
 DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U14&conf=southeast&show=inter-atlanta-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=i
@@ -178,11 +178,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsnext-32361-6013@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART;VALUE=DATE:20270220
+DTSTART;VALUE=DATE:20270131
 SUMMARY:U14 Inter Atlanta FC vs Huntsville City FC
 DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=in
  ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32002-6013@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270213T220000Z
+DURATION:PT2H
+SUMMARY:U14 Inter Atlanta FC at Wake FC
+LOCATION:Ting Park - Ting Park 2
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=southeast&show=inter-atlanta-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=i
  nter-atlanta-fc
 END:VEVENT
@@ -321,18 +333,6 @@ SUMMARY:U14 Inter Atlanta FC vs Chattanooga FC
 DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=in
  ter-atlanta-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=i
- nter-atlanta-fc
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-28113-6013@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20270608T170000Z
-DURATION:PT2H
-SUMMARY:U14 Inter Atlanta FC vs Wake FC
-LOCATION:Arizona Avenue Soccer Fields - AZ 1
-DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
- next-dashboard/?age=U14&conf=southeast&show=inter-atlanta-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=i
  nter-atlanta-fc
 END:VEVENT

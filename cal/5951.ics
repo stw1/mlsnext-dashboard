@@ -19,18 +19,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=ide
  asport-sa
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-27686-5951@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261003T220000Z
-DURATION:PT2H
-SUMMARY:U13 IdeaSport SA at Sol SC Florida (D 0–0)
-LOCATION:The National Training Center - NTC 2
-DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
- xt-dashboard/?age=U13&conf=florida&show=ideasport-sa
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=ide
- asport-sa
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28267-5951@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T190000Z
@@ -321,6 +309,18 @@ DTSTART:20270608T200000Z
 DURATION:PT2H
 SUMMARY:U13 IdeaSport SA at Orlando City SC
 LOCATION:Osceola Heritage Park - Field 3
+DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
+ xt-dashboard/?age=U13&conf=florida&show=ideasport-sa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=ide
+ asport-sa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-27686-5951@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270608T220000Z
+DURATION:PT2H
+SUMMARY:U13 IdeaSport SA at Sol SC Florida
+LOCATION:The National Training Center - NTC 2
 DESCRIPTION:MLS NEXT Homegrown · U13 Florida\nhttps://stw1.github.io/mlsne
  xt-dashboard/?age=U13&conf=florida&show=ideasport-sa
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=florida&show=ide

@@ -55,18 +55,6 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=a
  tletico-santa-rosa
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-26139-flex-7046@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20261010T180000Z
-DURATION:PT2H
-SUMMARY:U17 Atletico Santa Rosa at Sacramento Republic FC (Flex)
-LOCATION:Cosumnes River College Stadium - Stadium Field
-DESCRIPTION:MLS NEXT Flex · U17 Northwest\nhttps://stw1.github.io/mlsnext-
- dashboard/?age=U17&conf=northwest&show=atletico-santa-rosa
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=a
- tletico-santa-rosa
-END:VEVENT
-BEGIN:VEVENT
 UID:mlsnext-28411-flex-7046@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261017T180000Z
@@ -227,13 +215,14 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=a
  tletico-santa-rosa
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-33911-7046@stw1.github.io
+UID:mlsnext-26139-flex-7046@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART;VALUE=DATE:20270320
-SUMMARY:U17 Atletico Santa Rosa vs Sacramento Republic FC
-DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
- \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=at
- letico-santa-rosa
+DTSTART:20270320T180000Z
+DURATION:PT2H
+SUMMARY:U17 Atletico Santa Rosa at Sacramento Republic FC (Flex)
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Flex · U17 Northwest\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U17&conf=northwest&show=atletico-santa-rosa
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=a
  tletico-santa-rosa
 END:VEVENT
@@ -297,6 +286,17 @@ UID:mlsnext-36469-7046@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART;VALUE=DATE:20270508
 SUMMARY:U17 Atletico Santa Rosa at ALBION SC Merced
+DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=at
+ letico-santa-rosa
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=a
+ tletico-santa-rosa
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-33911-7046@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U17 Atletico Santa Rosa vs Sacramento Republic FC
 DESCRIPTION:MLS NEXT Homegrown · U17 Northwest · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northwest&show=at
  letico-santa-rosa

@@ -152,6 +152,18 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=d
  owntown-united-soccer-club
 END:VEVENT
 BEGIN:VEVENT
+UID:mlsnext-27363-7161@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261219T143000Z
+DURATION:PT2H
+SUMMARY:U14 Downtown United Soccer Club vs Connecticut United FC
+LOCATION:Pier 40 CourtYard - West Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northeast&show=downtown-united-soccer-club
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=d
+ owntown-united-soccer-club
+END:VEVENT
+BEGIN:VEVENT
 UID:mlsnext-32167-7161@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART;VALUE=DATE:20270220
@@ -293,18 +305,6 @@ SUMMARY:U14 Downtown United Soccer Club vs New York SC
 DESCRIPTION:MLS NEXT Homegrown · U14 Northeast · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=do
  wntown-united-soccer-club
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=d
- owntown-united-soccer-club
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-27363-7161@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20270608T140000Z
-DURATION:PT2H
-SUMMARY:U14 Downtown United Soccer Club vs Connecticut United FC
-LOCATION:Pier 40 CourtYard - East Field
-DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
- next-dashboard/?age=U14&conf=northeast&show=downtown-united-soccer-club
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=d
  owntown-united-soccer-club
 END:VEVENT

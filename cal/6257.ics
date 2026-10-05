@@ -163,6 +163,18 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=w
  ake-fc
 END:VEVENT
 BEGIN:VEVENT
+UID:mlsnext-28100-6257@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T180000Z
+DURATION:PT2H
+SUMMARY:U13 Wake FC at Inter Atlanta FC
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U13&conf=southeast&show=wake-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=w
+ ake-fc
+END:VEVENT
+BEGIN:VEVENT
 UID:mlsnext-31914-6257@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20270213T220000Z
@@ -320,18 +332,6 @@ DTSTART:20270515T210000Z
 DURATION:PT2H
 SUMMARY:U13 Wake FC vs Hoover-Vestavia Soccer
 LOCATION:Ting Park - Ting Park 1
-DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
- next-dashboard/?age=U13&conf=southeast&show=wake-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=w
- ake-fc
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-28100-6257@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20270608T170000Z
-DURATION:PT2H
-SUMMARY:U13 Wake FC at Inter Atlanta FC
-LOCATION:Arizona Avenue Soccer Fields AZ 2
 DESCRIPTION:MLS NEXT Homegrown · U13 Southeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U13&conf=southeast&show=wake-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=w

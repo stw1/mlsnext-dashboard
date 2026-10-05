@@ -165,6 +165,29 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
  nter-atlanta-fc
 END:VEVENT
 BEGIN:VEVENT
+UID:mlsnext-28126-flex-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20270130T160000Z
+DURATION:PT2H
+SUMMARY:U15 Inter Atlanta FC vs Wake FC (Flex)
+LOCATION:Arizona Avenue Soccer Fields AZ 2
+DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
+ dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsnext-32367-7269@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U15 Inter Atlanta FC vs Huntsville City FC
+DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=in
+ ter-atlanta-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
+ nter-atlanta-fc
+END:VEVENT
+BEGIN:VEVENT
 UID:mlsnext-32016-7269@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20270213T200000Z
@@ -184,17 +207,6 @@ SUMMARY:U15 Inter Atlanta FC at Charlotte FC (Flex)
 DESCRIPTION:MLS NEXT Flex · U15 Southeast · kickoff time not set yet\nhtt
  ps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=inter-a
  tlanta-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
- nter-atlanta-fc
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-32367-7269@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART;VALUE=DATE:20270220
-SUMMARY:U15 Inter Atlanta FC vs Huntsville City FC
-DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
- \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=in
- ter-atlanta-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
  nter-atlanta-fc
 END:VEVENT
@@ -334,18 +346,6 @@ SUMMARY:U15 Inter Atlanta FC vs Chattanooga FC
 DESCRIPTION:MLS NEXT Homegrown · U15 Southeast · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=in
  ter-atlanta-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
- nter-atlanta-fc
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-28126-flex-7269@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20270608T150000Z
-DURATION:PT2H
-SUMMARY:U15 Inter Atlanta FC vs Wake FC (Flex)
-LOCATION:Arizona Avenue Soccer Fields AZ 2
-DESCRIPTION:MLS NEXT Flex · U15 Southeast\nhttps://stw1.github.io/mlsnext-
- dashboard/?age=U15&conf=southeast&show=inter-atlanta-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U15&conf=southeast&show=i
  nter-atlanta-fc
 END:VEVENT

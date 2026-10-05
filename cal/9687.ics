@@ -139,6 +139,17 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=h
  untsville-city-fc
 END:VEVENT
 BEGIN:VEVENT
+UID:mlsnext-32361-9687@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:U14 Huntsville City FC at Inter Atlanta FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=hu
+ ntsville-city-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=h
+ untsville-city-fc
+END:VEVENT
+BEGIN:VEVENT
 UID:mlsnext-34433-9687@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20270218T003000Z
@@ -147,17 +158,6 @@ SUMMARY:U14 Huntsville City FC at Hoover-Vestavia Soccer
 LOCATION:Hoover East Sports Complex - Field 1
 DESCRIPTION:MLS NEXT Homegrown · U14 Southeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U14&conf=southeast&show=huntsville-city-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=h
- untsville-city-fc
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-32361-9687@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART;VALUE=DATE:20270220
-SUMMARY:U14 Huntsville City FC at Inter Atlanta FC
-DESCRIPTION:MLS NEXT Homegrown · U14 Southeast · kickoff time not set yet
- \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=hu
- ntsville-city-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=southeast&show=h
  untsville-city-fc
 END:VEVENT

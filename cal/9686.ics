@@ -141,7 +141,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsnext-32279-9686@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART;VALUE=DATE:20270220
+DTSTART;VALUE=DATE:20270131
 SUMMARY:U13 Huntsville City FC at Inter Atlanta FC
 DESCRIPTION:MLS NEXT Homegrown · U13 Southeast · kickoff time not set yet
  \nhttps://stw1.github.io/mlsnext-dashboard/?age=U13&conf=southeast&show=hu

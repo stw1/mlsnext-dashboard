@@ -128,6 +128,18 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
  onnecticut-united-fc
 END:VEVENT
 BEGIN:VEVENT
+UID:mlsnext-27366-10509@stw1.github.io
+DTSTAMP:20260801T000000Z
+DTSTART:20261219T173000Z
+DURATION:PT2H
+SUMMARY:U17 Connecticut United FC at Downtown United Soccer Club
+LOCATION:Pier 40 CourtYard - East Field
+DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U17&conf=northeast&show=connecticut-united-fc
+URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
+ onnecticut-united-fc
+END:VEVENT
+BEGIN:VEVENT
 UID:mlsnext-32205-10509@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART;VALUE=DATE:20270220
@@ -289,18 +301,6 @@ SUMMARY:U17 Connecticut United FC at CF Montreal (Flex)
 DESCRIPTION:MLS NEXT Flex · U17 Northeast · kickoff time not set yet\nhtt
  ps://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=connect
  icut-united-fc
-URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
- onnecticut-united-fc
-END:VEVENT
-BEGIN:VEVENT
-UID:mlsnext-27366-10509@stw1.github.io
-DTSTAMP:20260801T000000Z
-DTSTART:20270608T150000Z
-DURATION:PT2H
-SUMMARY:U17 Connecticut United FC at Downtown United Soccer Club
-LOCATION:Pier 40 CourtYard - West Field
-DESCRIPTION:MLS NEXT Homegrown · U17 Northeast\nhttps://stw1.github.io/mls
- next-dashboard/?age=U17&conf=northeast&show=connecticut-united-fc
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U17&conf=northeast&show=c
  onnecticut-united-fc
 END:VEVENT

@@ -214,13 +214,14 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northwest&show=a
  tletico-santa-rosa
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-33908-5904@stw1.github.io
+UID:mlsnext-26136-5904@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART;VALUE=DATE:20270320
-SUMMARY:U14 Atletico Santa Rosa vs Sacramento Republic FC
-DESCRIPTION:MLS NEXT Homegrown · U14 Northwest · kickoff time not set yet
- \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northwest&show=at
- letico-santa-rosa
+DTSTART:20270320T160000Z
+DURATION:PT2H
+SUMMARY:U14 Atletico Santa Rosa at Sacramento Republic FC
+LOCATION:Cosumnes River College Stadium - Stadium Field
+DESCRIPTION:MLS NEXT Homegrown · U14 Northwest\nhttps://stw1.github.io/mls
+ next-dashboard/?age=U14&conf=northwest&show=atletico-santa-rosa
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northwest&show=a
  tletico-santa-rosa
 END:VEVENT
@@ -291,14 +292,13 @@ URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northwest&show=a
  tletico-santa-rosa
 END:VEVENT
 BEGIN:VEVENT
-UID:mlsnext-26136-5904@stw1.github.io
+UID:mlsnext-33908-5904@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20270515T160000Z
-DURATION:PT2H
-SUMMARY:U14 Atletico Santa Rosa at Sacramento Republic FC
-LOCATION:Cosumnes River College Stadium - Stadium Field
-DESCRIPTION:MLS NEXT Homegrown · U14 Northwest\nhttps://stw1.github.io/mls
- next-dashboard/?age=U14&conf=northwest&show=atletico-santa-rosa
+DTSTART;VALUE=DATE:20270515
+SUMMARY:U14 Atletico Santa Rosa vs Sacramento Republic FC
+DESCRIPTION:MLS NEXT Homegrown · U14 Northwest · kickoff time not set yet
+ \nhttps://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northwest&show=at
+ letico-santa-rosa
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northwest&show=a
  tletico-santa-rosa
 END:VEVENT
