@@ -24,7 +24,7 @@ UID:mlsnext-27330-5990@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20260926T180000Z
 DURATION:PT2H
-SUMMARY:U15 St. Louis Scott Gallagher vs Vardar Soccer Club (D 2–2)
+SUMMARY:U15 St. Louis Scott Gallagher vs Vardar Soccer Club (W 3–2)
 LOCATION:World Wide Technology Soccer Park - Field 5
 DESCRIPTION:MLS NEXT Homegrown · U15 Mid-America\nhttps://stw1.github.io/m
  lsnext-dashboard/?age=U15&conf=mid-america&show=st-louis-scott-gallagher
@@ -71,7 +71,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlsnext-30560-flex-5990@stw1.github.io
 DTSTAMP:20260801T000000Z
-DTSTART:20261101T210000Z
+DTSTART:20261101T200000Z
 DURATION:PT2H
 SUMMARY:U15 St. Louis Scott Gallagher at Minnesota United FC (Flex)
 LOCATION:National Sports Center - NSC Dome

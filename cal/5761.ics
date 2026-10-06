@@ -35,7 +35,7 @@ UID:mlsnext-28069-5761@stw1.github.io
 DTSTAMP:20260801T000000Z
 DTSTART:20261004T150000Z
 DURATION:PT2H
-SUMMARY:U14 FC Greater Boston Bolts at NEFC
+SUMMARY:U14 FC Greater Boston Bolts at NEFC (L 0–4)
 LOCATION:NEFC Park - Field 2
 DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U14&conf=northeast&show=fc-greater-boston-bolts
@@ -60,7 +60,7 @@ DTSTAMP:20260801T000000Z
 DTSTART:20261018T144500Z
 DURATION:PT2H
 SUMMARY:U14 FC Greater Boston Bolts vs Downtown United Soccer Club
-LOCATION:Minuteman High School - Baseball Field
+LOCATION:UMass Mount Ida - Stadium
 DESCRIPTION:MLS NEXT Homegrown · U14 Northeast\nhttps://stw1.github.io/mls
  next-dashboard/?age=U14&conf=northeast&show=fc-greater-boston-bolts
 URL:https://stw1.github.io/mlsnext-dashboard/?age=U14&conf=northeast&show=f
