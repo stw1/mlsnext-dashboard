@@ -1,5 +1,12 @@
 # MLS NEXT Standings & Prediction Dashboard
 
+**RETIRED 2026-10-07.** Stephen moved MLS NEXT into Through Ball (stw1/ThroughBall, `dashboards/mlsnext`, served at
+https://throughball.spaikz.com/mlsnext/ and refreshed by that repo's `dashboards.yml`). Here: `index.html`,
+`season-*.html` and `404.html` are plain redirects to https://throughball.spaikz.com/ (homepage, Stephen's choice);
+the "Refresh scores" workflow is disabled and `refresh.yml` deleted; icons/manifest removed; `cal/*.ics` kept as a
+frozen final snapshot for existing calendar subscribers. Don't run `scripts/refresh.py` here (it would rebuild the old
+pages over the redirects). Everything below describes the dashboard as it was.
+
 Personal project (Stephen). Builds a self-contained HTML dashboard for the MLS NEXT
 **Homegrown Division**: every age group (U13–U19) and conference in one page, showing one bracket at a time. It shows standings, a head-to-head
 ("who beat who") grid, power ratings, results, and predicted scores for every remaining

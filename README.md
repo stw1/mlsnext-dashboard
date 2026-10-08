@@ -1,8 +1,12 @@
 # MLS NEXT Homegrown Division dashboard
 
-An unofficial fan dashboard for the MLS NEXT Allstate Homegrown Division. It's not affiliated with MLS NEXT.
+> **Retired (Oct 7, 2026).** This dashboard now lives in [Through Ball](https://throughball.spaikz.com/) (the
+> MLS NEXT page is at https://throughball.spaikz.com/mlsnext/, built and refreshed from the `stw1/ThroughBall` repo).
+> Every page here redirects to https://throughball.spaikz.com/, the weekly refresh workflow is removed, and the team
+> calendars in `cal/` are a final snapshot that no longer updates (subscribe again from Through Ball).
+> The source below is kept for reference.
 
-**https://stw1.github.io/mlsnext-dashboard/**
+An unofficial fan dashboard for the MLS NEXT Allstate Homegrown Division. It's not affiliated with MLS NEXT.
 
 - Standings for every age group (U13–U19) and conference, ordered by the official rules, plus national rankings
 - Who beat who, power rankings, results and predicted scores for every remaining game
